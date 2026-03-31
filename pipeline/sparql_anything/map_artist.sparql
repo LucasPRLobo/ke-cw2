@@ -1,0 +1,80 @@
+# SPARQL Anything CONSTRUCT query: Map MusicBrainz cached JSON to RDF
+# Course technique from Week 8 — SPARQL CONSTRUCT over non-RDF sources
+#
+# Input: MusicBrainz artist JSON file (cached from API)
+# Output: RDF triples for artist basic info, genres, and albums
+#
+# Usage: java -jar sparql-anything.jar -q map_artist.sparql -v filePath=data/structured/musicbrainz_David_Bowie.json -f TTL
+
+PREFIX fx:     <http://sparql.xyz/facade-x/ns/>
+PREFIX xyz:    <http://sparql.xyz/facade-x/data/>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
+PREFIX mo:     <http://purl.org/ontology/mo/>
+PREFIX mh:     <http://example.org/music-history/>
+PREFIX mb:     <http://musicbrainz.org/artist/>
+PREFIX schema: <https://schema.org/>
+PREFIX dc:     <http://purl.org/dc/elements/1.1/>
+
+CONSTRUCT {
+    # Artist basic info
+    ?artistURI a ?artistType ;
+        foaf:name ?name ;
+        rdfs:label ?name ;
+        mh:countryOfOrigin ?countryURI ;
+        schema:birthDate ?birthDate ;
+        schema:deathDate ?deathDate ;
+        schema:gender ?gender ;
+        mh:birthPlace ?birthPlace .
+
+    # Country
+    ?countryURI a mh:Country ;
+        rdfs:label ?country .
+
+    # Albums
+    ?albumURI a mo:Release ;
+        rdfs:label ?albumTitle ;
+        dc:title ?albumTitle ;
+        mh:releaseDate ?albumDate .
+    ?artistURI mh:released ?albumURI .
+}
+WHERE {
+    SERVICE <x-sparql-anything:location=PLACEHOLDER_FILE_PATH,media-type=application/json> {
+
+        # Basic artist fields
+        ?root xyz:mbid ?mbid ;
+              xyz:name ?name ;
+              xyz:type ?typeStr .
+
+        # Optional fields
+        OPTIONAL { ?root xyz:country ?country }
+        OPTIONAL { ?root xyz:gender ?gender }
+        OPTIONAL { ?root xyz:begin_area ?birthPlace }
+
+        # Life span
+        OPTIONAL {
+            ?root xyz:life_span ?lifeSpan .
+            OPTIONAL { ?lifeSpan xyz:begin ?birthDate }
+            OPTIONAL { ?lifeSpan xyz:end ?deathDate }
+        }
+
+        # Release groups (albums)
+        OPTIONAL {
+            ?root xyz:release_groups ?rgArray .
+            ?rgArray ?rgIndex ?rg .
+            ?rg xyz:id ?rgId ;
+                xyz:title ?albumTitle .
+            OPTIONAL { ?rg xyz:first_release_date ?albumDate }
+            FILTER(STRSTARTS(STR(?rgIndex), STR(rdf:_)))
+        }
+    }
+
+    # Build URIs
+    BIND(IRI(CONCAT("http://musicbrainz.org/artist/", ?mbid)) AS ?artistURI)
+    BIND(IF(?typeStr = "Person", mo:SoloMusicArtist,
+         IF(?typeStr = "Group", mo:MusicGroup, mo:MusicArtist)) AS ?artistType)
+    BIND(IRI(CONCAT("http://example.org/music-history/country/", LCASE(?country))) AS ?countryURI)
+    BIND(IRI(CONCAT("http://example.org/music-history/album/", ?rgId)) AS ?albumURI)
+}
