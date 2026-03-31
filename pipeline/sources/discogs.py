@@ -49,13 +49,21 @@ def fetch_artist(discogs_id, artist_name):
         print(f"  [DC] {artist_name}: loaded from cache")                                                                                                                                                
         return cached
                                                                                                                                                                                                         
-    # Fetch artist profile                                
+    # Fetch artist profile
     time.sleep(DISCOGS_RATE_LIMIT)
-    artist = _discogs_get(f"/artists/{discogs_id}")
-                                        
-    # Fetch releases for genre/style data   
-    time.sleep(DISCOGS_RATE_LIMIT)                                                                                                                                                                       
-    releases = _discogs_get(f"/artists/{discogs_id}/releases", params={"per_page": 10})
+    try:
+        artist = _discogs_get(f"/artists/{discogs_id}")
+    except Exception as e:
+        print(f"  [DC] {artist_name}: failed to fetch artist ({e})")
+        return None
+
+    # Fetch releases for genre/style data
+    time.sleep(DISCOGS_RATE_LIMIT)
+    try:
+        releases = _discogs_get(f"/artists/{discogs_id}/releases", params={"per_page": 10})
+    except Exception as e:
+        print(f"  [DC] {artist_name}: failed to fetch releases ({e})")
+        releases = {"releases": []}
                                                                                                                                                                                                         
     # Collect genres and styles from releases             
     all_genres = set()                                                                                                                                                                                   

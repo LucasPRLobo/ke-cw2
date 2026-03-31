@@ -15,6 +15,28 @@ def normalise_genre(name):
     return name.strip().lower().replace(" ", "_").replace("/", "_")
 
 
+# Instrument normalisation — merges redundant entries
+# Based on RAG evaluation finding P20 (voice/lead vocals, keyboard/piano)
+INSTRUMENT_ALIASES = {
+    "lead vocals": "vocals",
+    "voice": "vocals",
+    "backing vocals": "vocals",
+    "keyboard instrument": "keyboard",
+    "musical keyboard": "keyboard",
+    "eponymous": None,  # Remove — not an instrument
+}
+
+
+def normalise_instrument(name):
+    """Normalise instrument name, merging redundant entries.
+    Returns None if the instrument should be excluded.
+    """
+    lower = name.strip().lower()
+    if lower in INSTRUMENT_ALIASES:
+        return INSTRUMENT_ALIASES[lower]
+    return lower
+
+
 def safe_uri(text):
     """Convert any string to a valid URI component."""
     return re.sub(r'[^a-zA-Z0-9_-]', '_', text.strip().replace(" ", "_"))

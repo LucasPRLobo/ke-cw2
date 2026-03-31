@@ -109,12 +109,26 @@ CACHE_DIR_STRUCTURED = "data/structured"
 CACHE_DIR_TEXT = "data/text"                                                                                                                                                                             
                                                                                                                                                                                                         
 # --- Genre Filtering ---                                                                                                                                                                                
-GENRE_BLACKLIST = {                                       
+# Genre blacklist — expanded based on RAG evaluation findings (P19-P23)
+# Categories: nationality tags, role tags, decade tags, non-genre content types,
+#             production modes, song formats, radio formats
+GENRE_BLACKLIST = {
+    # Nationality tags
     "british", "uk", "american", "english", "german", "french",
-    "nigerian", "brazilian", "jamaican", "african",                                                                                                                                                      
+    "nigerian", "brazilian", "jamaican", "african",
+    # Role/occupation tags (not genres)
     "actors", "arrangers", "composers", "singer-songwriters",
-    "male vocalists", "female vocalists",                                                                                                                                                                
-    "80s", "70s", "60s", "90s", "00s",                                                                                                                                                                   
+    "male vocalists", "female vocalists",
+    # Decade tags
+    "80s", "70s", "60s", "90s", "00s",
+    # Non-genre content types (RAG finding P21: data artifacts)
+    "interview", "spoken word", "audiobook", "field recording",
+    # Production modes, not genres (RAG finding P21)
+    "acoustic", "a]cappella", "lo-fi",
+    # Song formats, not genres (RAG finding P21)
+    "ballad", "compilation", "remix",
+    # Radio formats, not musical genres (RAG finding P21, P22)
+    "classic rock",
 }                                           
                                                                                                                                                                                                         
 # Minimum tag count to include a MusicBrainz tag as a genre

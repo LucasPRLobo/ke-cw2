@@ -118,6 +118,12 @@ def add_ontology_header(g):
         g.add((prop, RDF.type, OWL.DatatypeProperty))
         g.add((prop, RDFS.comment, Literal(f"[Schema.org] {comment}")))
 
+    # --- Dublin Core and FOAF stubs (used in instance data) ---
+    g.add((DC.title, RDF.type, OWL.DatatypeProperty))
+    g.add((DC.title, RDFS.comment, Literal("[Dublin Core] Title of a resource.")))
+    g.add((FOAF.name, RDF.type, OWL.DatatypeProperty))
+    g.add((FOAF.name, RDFS.comment, Literal("[FOAF] Name of a person or agent.")))
+
     # ============================================================
     # 2. EXTENSIONS OF MUSIC ONTOLOGY (2 subclasses + 2 subproperties)
     # ============================================================

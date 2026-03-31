@@ -555,10 +555,9 @@ mb:022589ac-7177-460d-a178-9976cf70e29f a mo:SoloMusicArtist ;
         <http://example.org/music-history/artist/Lata_Mangeshkar> ;
     mh:playsInstrument <http://example.org/music-history/instrument/guitar>,
         <http://example.org/music-history/instrument/hammond_organ>,
-        <http://example.org/music-history/instrument/keyboard_instrument>,
-        <http://example.org/music-history/instrument/lead_vocals>,
+        <http://example.org/music-history/instrument/keyboard>,
         <http://example.org/music-history/instrument/piano>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Farrokh Bulsara (Gujarati: ફરોખ બલ્સારા‌ = Pharōkh Balsārā‌)" ;
     mh:released <http://example.org/music-history/album/0c6da806-bdfe-3e64-88ed-74e778b6bfac>,
         <http://example.org/music-history/album/374dc3eb-0f97-3657-8fb2-b99489deb01d>,
@@ -659,9 +658,8 @@ mb:05517043-ff78-4988-9c22-88c68588ebb9 a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/You_Can_Call_Me_Al> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mh:playsInstrument <http://example.org/music-history/instrument/bass_guitar>,
-        <http://example.org/music-history/instrument/eponymous>,
         <http://example.org/music-history/instrument/guitar>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Paul Frederic Simon" ;
     mh:released <http://example.org/music-history/album/0711bad0-cf95-31a4-a3dd-ee854443a92b>,
         <http://example.org/music-history/album/0f5b014a-606d-3d29-9538-97fa01a82d76>,
@@ -1057,7 +1055,7 @@ mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 a mo:SoloMusicArtist ;
     mh:playsInstrument <http://example.org/music-history/instrument/autoharp>,
         <http://example.org/music-history/instrument/banjo>,
         <http://example.org/music-history/instrument/guitar>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Dolly Rebecca Parton" ;
     mh:released <http://example.org/music-history/album/014176b5-9503-3b9c-b1cc-a89dc4f4ca0e>,
         <http://example.org/music-history/album/2c98f21a-e2af-3412-a253-de9a1e06d7f7>,
@@ -1219,8 +1217,7 @@ mb:26fa8b67-6c7f-406c-ad64-a1d070092df2 a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/Live_and_Let_Die>,
         <http://example.org/music-history/composition/Pulp> ;
     mh:countryOfOrigin <http://example.org/music-history/country/gb> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/eponymous>,
-        <http://example.org/music-history/instrument/oboe>,
+    mh:playsInstrument <http://example.org/music-history/instrument/oboe>,
         <http://example.org/music-history/instrument/piano> ;
     mh:realName "George Henry Martin" ;
     mh:released <http://example.org/music-history/album/56f876c8-536c-4c1c-a2f7-432d1eb69c6b>,
@@ -1363,7 +1360,7 @@ mb:2f2608ed-ff2b-400e-b614-8c648bfaae7b a mo:MusicArtist ;
 mb:2f3f8fb1-e5dc-4548-9601-fada0485e561 a mo:SoloMusicArtist ;
     rdfs:label "Joey Ramone" ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/lead_vocals> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/vocals> ;
     mo:member_of mb:d6ed7887-a401-47a8-893c-34b967444d26 .
 
 mb:2f877714-727d-490b-94fb-a8d32ee4cea5 a mo:MusicArtist ;
@@ -1389,7 +1386,7 @@ mb:2f9ecbed-27be-40e6-abca-6de49d50299e a mo:SoloMusicArtist ;
         <http://example.org/music-history/artist/Wynona_Carr>,
         mb:2944824d-4c26-476f-a981-be849081942f ;
     mh:playsInstrument <http://example.org/music-history/instrument/piano>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Aretha Louise Franklin" ;
     mh:released <http://example.org/music-history/album/05571372-5b11-39b7-89c5-1c02589a27c8>,
         <http://example.org/music-history/album/0fde93a4-1120-4d33-9c0c-65dccb5cdf94>,
@@ -1509,8 +1506,8 @@ mb:34bfcd5d-a76d-4b31-8022-b5ac04d5801b a mo:SoloMusicArtist ;
     rdfs:label "Karl Bartos" ;
     mh:countryOfOrigin <http://example.org/music-history/country/de> ;
     mh:playsInstrument <http://example.org/music-history/instrument/keyboard>,
-        <http://example.org/music-history/instrument/lead_vocals>,
-        <http://example.org/music-history/instrument/vibraphone> ;
+        <http://example.org/music-history/instrument/vibraphone>,
+        <http://example.org/music-history/instrument/vocals> ;
     mo:member_of mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 .
 
 mb:34f33402-603e-4433-bdbc-2900c9ce4077 a mo:MusicArtist ;
@@ -1544,7 +1541,7 @@ mb:381086ea-f511-4aba-bdf9-71c753dc5077 a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/The_Recipe>,
         <http://example.org/music-history/composition/i> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/voice> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Kendrick Lamar Duckworth" ;
     mh:released <http://example.org/music-history/album/002d02aa-f4ac-4559-805a-fea0c83efc5d>,
         <http://example.org/music-history/album/116048e0-0dee-4299-badd-0fcb9928aa31>,
@@ -1664,7 +1661,7 @@ mb:3be4099e-f180-4038-af84-ae18a09eab02 a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/Pobre_diablo> ;
     mh:countryOfOrigin <http://example.org/music-history/country/es> ;
     mh:playsInstrument <http://example.org/music-history/instrument/guitar>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Julio José Iglesias de la Cueva" ;
     mh:released <http://example.org/music-history/album/0ca50da8-44e4-4b07-ad48-3ec8c4871842>,
         <http://example.org/music-history/album/0f67cdb1-fc4d-3701-a652-ee84d66c031c>,
@@ -1729,7 +1726,7 @@ mb:3c9b356d-d1db-4f4e-a7a3-2d00c1d70255 a mo:SoloMusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mh:playsInstrument <http://example.org/music-history/instrument/background_vocals>,
         <http://example.org/music-history/instrument/guitar>,
-        <http://example.org/music-history/instrument/lead_vocals> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mo:member_of mb:5b11f4ce-a62d-471e-81fc-a69a8278c7da .
 
 mb:3d45df45-d73b-4366-a47d-b4ffb81cef3d a mo:MusicArtist ;
@@ -2011,8 +2008,7 @@ mb:561d854a-6a28-4aa7-8c99-323e6ce46c2a a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/Symbiopsychotaxiplasm>,
         <http://example.org/music-history/composition/Tune_Up> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/eponymous>,
-        <http://example.org/music-history/instrument/flugelhorn>,
+    mh:playsInstrument <http://example.org/music-history/instrument/flugelhorn>,
         <http://example.org/music-history/instrument/organ>,
         <http://example.org/music-history/instrument/synthesizer>,
         <http://example.org/music-history/instrument/trumpet> ;
@@ -2102,8 +2098,7 @@ mb:5803c81e-739a-4057-9a5c-cf84e55db630 a mo:SoloMusicArtist ;
         <http://example.org/music-history/genre/score> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mh:influencedBy mb:3af06bc4-68ad-4cae-bb7a-7eeeb45e411f ;
-    mh:playsInstrument <http://example.org/music-history/instrument/eponymous>,
-        <http://example.org/music-history/instrument/trumpet> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/trumpet> ;
     mh:produced <http://example.org/music-history/work/It_s_My_Party_-_Lesley_Gore>,
         mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e,
         mb_recording:d352b76a-99a6-4810-a2b9-e1646701e64d ;
@@ -2334,12 +2329,11 @@ mb:6514cffa-fbe0-4965-ad88-e998ead8a82a a mo:SoloMusicArtist ;
         <http://example.org/music-history/artist/Sandra_Izsadore> ;
     mh:playsInstrument <http://example.org/music-history/instrument/drum_kit>,
         <http://example.org/music-history/instrument/electric_guitar>,
-        <http://example.org/music-history/instrument/eponymous>,
         <http://example.org/music-history/instrument/guitar>,
-        <http://example.org/music-history/instrument/keyboard_instrument>,
+        <http://example.org/music-history/instrument/keyboard>,
         <http://example.org/music-history/instrument/saxophone>,
         <http://example.org/music-history/instrument/trumpet>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Olufela Olusegun Oludotun Ransome-Kuti" ;
     mh:released <http://example.org/music-history/album/0770f39d-6a9e-3d93-b9c9-f410d9c62e3e>,
         <http://example.org/music-history/album/1a10f958-0f93-40bb-b180-da4adbd8f0a6>,
@@ -2585,7 +2579,7 @@ mb:7b8e1188-9ca4-4aa5-8393-172de6fa04de a mo:SoloMusicArtist ;
     rdfs:label "Celia Cruz" ;
     mh:birthPlace "La Habana" ;
     mh:countryOfOrigin <http://example.org/music-history/country/cu> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/voice> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Celia de la Caridad Cruz Alfonso " ;
     mh:released <http://example.org/music-history/album/0158fbf0-eeab-478d-8a5c-3749214a016b>,
         <http://example.org/music-history/album/08dbeca0-204d-42ea-9268-2b50d9546809>,
@@ -2651,7 +2645,6 @@ mb:7bc8dd01-35ea-4b18-a64d-3a364dc76a52 a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/The_Hit> ;
     mh:countryOfOrigin <http://example.org/music-history/country/es> ;
     mh:playsInstrument <http://example.org/music-history/instrument/additional>,
-        <http://example.org/music-history/instrument/eponymous>,
         <http://example.org/music-history/instrument/guitar> ;
     mh:realName "Francisco Gustavo Sánchez Gómez" ;
     mh:released <http://example.org/music-history/album/0886315e-60b3-3439-9d9d-b4441722cb4a>,
@@ -3029,10 +3022,9 @@ mb:8e66ea2b-b57b-47d9-8df0-df4630aeb8e5 a mo:SoloMusicArtist ;
     mh:influencedBy <http://example.org/music-history/artist/Alejandro_Jodorowsky> ;
     mh:playsInstrument <http://example.org/music-history/instrument/drums_(drum_set)>,
         <http://example.org/music-history/instrument/flute>,
-        <http://example.org/music-history/instrument/lead_vocals>,
         <http://example.org/music-history/instrument/oboe>,
         <http://example.org/music-history/instrument/percussion>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Peter Brian Gabriel" ;
     mh:released <http://example.org/music-history/album/2c014cc2-7eb6-3df0-ab17-9a1f57711d5b>,
         <http://example.org/music-history/album/359451df-3a5c-4c74-ac64-2e2bf1bcfeba>,
@@ -3214,7 +3206,7 @@ mb:98b5a1d4-3f58-412f-950c-ee9d82743705 a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/Tupac__Resurrection>,
         <http://example.org/music-history/composition/_03_Bonnie___Clyde> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/voice> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Tupac Amaru Shakur née Lesane Parish Crooks" ;
     mh:released <http://example.org/music-history/album/c107f6cf-70a9-4a38-9254-e842c640529f>,
         <http://example.org/music-history/album/c154cfb6-7107-35e0-86c7-8d7cd7a19382> ;
@@ -3588,8 +3580,7 @@ mb:af081ea2-7a2c-4fbd-8200-92d62056b5f5 a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/Retour___Gor_e>,
         <http://example.org/music-history/composition/Shakin__the_Tree> ;
     mh:countryOfOrigin <http://example.org/music-history/country/sn> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/lead_vocals>,
-        <http://example.org/music-history/instrument/voice> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Youssou Madjiguène Ndour" ;
     mh:released <http://example.org/music-history/album/07928183-6757-4c51-88dd-5981aabd8773>,
         <http://example.org/music-history/album/1ceb827c-549e-3d11-a3a6-4f2890b314b1>,
@@ -3645,9 +3636,8 @@ mb:b0b33754-a664-43b7-ba00-be0dc4ec2396 a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/We_re_All_Water> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mh:influencedBy <http://example.org/music-history/artist/Allan_Kaprow> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/eponymous>,
-        <http://example.org/music-history/instrument/piano>,
-        <http://example.org/music-history/instrument/voice> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/piano>,
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "小野 洋子 / Ono Yōko" ;
     mh:released <http://example.org/music-history/album/2c498918-13b5-3730-942c-42e3ce36f5e1>,
         <http://example.org/music-history/album/3908a924-3e5f-4f47-8f81-3093895c4311>,
@@ -3779,7 +3769,6 @@ mb:b625448e-bf4a-41c3-a421-72ad46cdb831 a mo:SoloMusicArtist ;
     mh:playsInstrument <http://example.org/music-history/instrument/alto_saxophone>,
         <http://example.org/music-history/instrument/baritone_saxophone>,
         <http://example.org/music-history/instrument/clarinet>,
-        <http://example.org/music-history/instrument/eponymous>,
         <http://example.org/music-history/instrument/saxophone>,
         <http://example.org/music-history/instrument/soprano_saxophone>,
         <http://example.org/music-history/instrument/tenor_saxophone> ;
@@ -3904,7 +3893,7 @@ mb:bc5c2918-4aba-4ef6-a245-100563a4487f a mo:SoloMusicArtist ;
     mh:composed <http://example.org/music-history/composition/Amok>,
         <http://example.org/music-history/composition/Pata_Pata> ;
     mh:countryOfOrigin <http://example.org/music-history/country/za> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/voice> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Miriam Zenzi Makeba" ;
     mh:released <http://example.org/music-history/album/1169b089-013a-3ac2-aed3-20ec8cdd1cc7>,
         <http://example.org/music-history/album/124b709c-8cff-4040-a5bc-a24c6d6db5fa>,
@@ -3972,7 +3961,7 @@ mb:bd2c0e4a-8f21-44c5-ab05-a7b1cc3ac32d a mo:MusicArtist ;
 mb:bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc a mo:SoloMusicArtist ;
     rdfs:label "Robert Plant" ;
     mh:countryOfOrigin <http://example.org/music-history/country/gb> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/lead_vocals> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/vocals> ;
     mo:member_of mb:678d88b2-87b0-403b-b63d-5da7465aecc3 .
 
 mb:bdf35945-8d1a-4122-9e11-57a20b53f292 a mo:MusicArtist ;
@@ -4069,13 +4058,12 @@ mb:c7a4c4a0-9544-44e3-87f2-5779d18b753f a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/O_Predileto>,
         <http://example.org/music-history/composition/O_farol_que_nos_guia> ;
     mh:countryOfOrigin <http://example.org/music-history/country/br> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/eponymous>,
-        <http://example.org/music-history/instrument/flute>,
-        <http://example.org/music-history/instrument/musical_keyboard>,
+    mh:playsInstrument <http://example.org/music-history/instrument/flute>,
+        <http://example.org/music-history/instrument/keyboard>,
         <http://example.org/music-history/instrument/piano>,
         <http://example.org/music-history/instrument/saxophone>,
         <http://example.org/music-history/instrument/transverse_flute>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Hermeto Pascoal" ;
     mh:released <http://example.org/music-history/album/05e6f8a6-5c2f-3fa4-96de-22818b9f05a7>,
         <http://example.org/music-history/album/08cb4295-861c-31f6-a17e-325f604dcc0c>,
@@ -4174,7 +4162,7 @@ mb:ceafdf2f-bc18-4b99-8c71-d1834b0065c3 a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/Tchindas>,
         <http://example.org/music-history/composition/Tender_is_the_wolf> ;
     mh:countryOfOrigin <http://example.org/music-history/country/cv> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/voice> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Cesária Évora" ;
     mh:released <http://example.org/music-history/album/02d12ef6-c54d-4fba-a297-864828dba5e5>,
         <http://example.org/music-history/album/11831ac6-3f7a-3647-ac32-aff4935ed9cd>,
@@ -4304,8 +4292,7 @@ mb:d43d12a1-2dc9-4257-a2fd-0a3bb1081b86 a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/You_re_the_Nearest_Thing_to_Heaven> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mh:playsInstrument <http://example.org/music-history/instrument/guitar>,
-        <http://example.org/music-history/instrument/lead_vocals>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "John R. Cash" ;
     mh:released <http://example.org/music-history/album/00da4796-a49b-370f-8ac9-88cd90a4a5ac>,
         <http://example.org/music-history/album/1e2773f6-5e57-31dc-acda-3819a5774ff6>,
@@ -4398,7 +4385,7 @@ mb:d5956a2f-bab9-4aa3-a9be-ad393518e5b0 a mo:SoloMusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/br> ;
     mh:influencedBy mb:712fcc0f-25f5-45bf-bbb8-2601872d08e1 ;
     mh:playsInstrument <http://example.org/music-history/instrument/accordion>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "José Domingos de Morais" ;
     mh:released <http://example.org/music-history/album/0e2663b5-9320-4ebb-aeab-543a0528cb18>,
         <http://example.org/music-history/album/0e763d59-52d1-4238-88be-e06b28649cf3>,
@@ -4479,9 +4466,9 @@ mb:da3f4766-628e-4da3-a871-014728993157 a mo:SoloMusicArtist ;
         <http://example.org/music-history/instrument/drums_(drum_set)>,
         <http://example.org/music-history/instrument/guitar>,
         <http://example.org/music-history/instrument/keyboard>,
-        <http://example.org/music-history/instrument/lead_vocals>,
         <http://example.org/music-history/instrument/organ>,
         <http://example.org/music-history/instrument/synthesizer>,
+        <http://example.org/music-history/instrument/vocals>,
         <http://example.org/music-history/instrument/vocoder> ;
     mo:member_of mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 .
 
@@ -4658,10 +4645,8 @@ mb:ed2ac1e9-d51d-4eff-a2c2-85e81abd6360 a mo:SoloMusicArtist ;
         <http://example.org/music-history/artist/The_Isley_Brothers>,
         <http://example.org/music-history/artist/The_Paragons>,
         <http://example.org/music-history/artist/The_Skatalites> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/eponymous>,
-        <http://example.org/music-history/instrument/guitar>,
-        <http://example.org/music-history/instrument/lead_vocals>,
-        <http://example.org/music-history/instrument/voice> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/guitar>,
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Robert Nesta Marley" ;
     mh:released <http://example.org/music-history/album/0269baa0-7793-3738-a433-b9f306b531d3>,
         <http://example.org/music-history/album/0b469b63-95c0-48b5-9d6c-d037deb64cd5>,
@@ -4799,7 +4784,7 @@ mb:f23feff0-ed20-4e9c-ae45-4ff68a83be70 a mo:SoloMusicArtist ;
     rdfs:label "Dee Dee Ramone" ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mh:playsInstrument <http://example.org/music-history/instrument/bass_guitar>,
-        <http://example.org/music-history/instrument/lead_vocals> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mo:member_of mb:d6ed7887-a401-47a8-893c-34b967444d26 .
 
 mb:f25e4299-ff7a-4cff-9947-4c9c11f76994 a mo:MusicArtist ;
@@ -4873,7 +4858,7 @@ mb:f86f1f07-d182-45ce-ae93-ef610880ca72 a mo:SoloMusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mh:playsInstrument <http://example.org/music-history/instrument/guitar>,
         <http://example.org/music-history/instrument/harmonica>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:released <http://example.org/music-history/album/04c3dc6e-0f57-4139-956e-6d58aef11cab>,
         <http://example.org/music-history/album/090d6fe1-8a36-3107-be4c-dd776c0653a2>,
         <http://example.org/music-history/album/10b45add-7b9e-37ee-8dc3-11839f329e46>,
@@ -4970,6 +4955,9 @@ mb:fd4e7bd5-7f82-43a4-8dbd-197f448cb630 a mo:MusicArtist ;
 mb:fe4c984d-cd29-4d71-82b7-a05c30afe897 a mo:MusicArtist ;
     rdfs:label "Pauline de Noailles" .
 
+dc:title a owl:DatatypeProperty ;
+    rdfs:comment "[Dublin Core] Title of a resource." .
+
 mo:Performance a owl:Class ;
     rdfs:comment "[Music Ontology] A live performance event." .
 
@@ -5002,6 +4990,9 @@ mo:release_date a owl:DatatypeProperty ;
 
 mo:track a owl:ObjectProperty ;
     rdfs:comment "[Music Ontology] Links a record to its tracks." .
+
+foaf:name a owl:DatatypeProperty ;
+    rdfs:comment "[FOAF] Name of a person or agent." .
 
 schema:MusicAlbum a owl:Class ;
     rdfs:comment "[Schema.org] A music album." .
@@ -8175,6 +8166,11 @@ mh:Persona a owl:Class ;
     rdfs:label "Inédito" ;
     mh:releaseDate "1987" ;
     dc:title "Inédito" .
+
+<http://example.org/music-history/album/5c80e093-b77a-4579-8ce1-abfd5eb4beea> a mo:Release ;
+    rdfs:label "KEEP SWIMMING" ;
+    mh:releaseDate "2026-03-30" ;
+    dc:title "KEEP SWIMMING" .
 
 <http://example.org/music-history/album/5cc09285-b53a-3ed5-8d6b-71690c5d2b55> a mo:Release ;
     rdfs:label "Frank Sinatra Conducts Tone Poems of Color" ;
@@ -17508,7 +17504,7 @@ mh:collaboratedWith a owl:ObjectProperty ;
     rdfs:label "alto saxophone" .
 
 <http://example.org/music-history/instrument/arp_2500> a mo:Instrument ;
-    rdfs:label "ARP 2500" .
+    rdfs:label "arp 2500" .
 
 <http://example.org/music-history/instrument/autoharp> a mo:Instrument ;
     rdfs:label "autoharp" .
@@ -17538,10 +17534,10 @@ mh:collaboratedWith a owl:ObjectProperty ;
     rdfs:label "electronic keyboard" .
 
 <http://example.org/music-history/instrument/fender_stratocaster> a mo:Instrument ;
-    rdfs:label "Fender Stratocaster" .
+    rdfs:label "fender stratocaster" .
 
 <http://example.org/music-history/instrument/fender_telecaster> a mo:Instrument ;
-    rdfs:label "Fender Telecaster" .
+    rdfs:label "fender telecaster" .
 
 <http://example.org/music-history/instrument/flugelhorn> a mo:Instrument ;
     rdfs:label "flugelhorn" .
@@ -17553,10 +17549,10 @@ mh:collaboratedWith a owl:ObjectProperty ;
     rdfs:label "friction drum" .
 
 <http://example.org/music-history/instrument/gibson_es-335> a mo:Instrument ;
-    rdfs:label "Gibson ES-335" .
+    rdfs:label "gibson es-335" .
 
 <http://example.org/music-history/instrument/hammond_organ> a mo:Instrument ;
-    rdfs:label "Hammond organ" .
+    rdfs:label "hammond organ" .
 
 <http://example.org/music-history/instrument/laser_harp> a mo:Instrument ;
     rdfs:label "laser harp" .
@@ -17574,7 +17570,7 @@ mh:collaboratedWith a owl:ObjectProperty ;
     rdfs:label "piano accordion" .
 
 <http://example.org/music-history/instrument/richter-tuned_harmonica> a mo:Instrument ;
-    rdfs:label "Richter-tuned harmonica" .
+    rdfs:label "richter-tuned harmonica" .
 
 <http://example.org/music-history/instrument/sitar> a mo:Instrument ;
     rdfs:label "sitar" .
@@ -17921,7 +17917,7 @@ mb:01809552-4f87-45b0-afff-2c6f0730a3be a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/Singer_Presents___Elvis> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mh:playsInstrument <http://example.org/music-history/instrument/electric_guitar>,
-        <http://example.org/music-history/instrument/lead_vocals> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Elvis Aaron Presley" ;
     mh:released <http://example.org/music-history/album/01e9f928-9fe4-3153-9404-e6b2b1e95f34>,
         <http://example.org/music-history/album/07af1498-2709-30f5-80b8-232ce07f605c>,
@@ -18010,7 +18006,6 @@ mb:197450cd-0124-4164-b723-3c22dd16494d a mo:SoloMusicArtist ;
     mh:influencedBy <http://example.org/music-history/artist/Billie_Holiday>,
         <http://example.org/music-history/artist/Bing_Crosby> ;
     mh:playsInstrument <http://example.org/music-history/instrument/castanets>,
-        <http://example.org/music-history/instrument/eponymous>,
         <http://example.org/music-history/instrument/friction_drum>,
         <http://example.org/music-history/instrument/triangle>,
         <http://example.org/music-history/instrument/ukulele> ;
@@ -18124,7 +18119,7 @@ mb:2944824d-4c26-476f-a981-be849081942f a mo:SoloMusicArtist ;
         <http://example.org/music-history/composition/Rwanda_pour_m_moire> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mh:playsInstrument <http://example.org/music-history/instrument/piano>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Eunice Kathleen Waymon" ;
     mh:released <http://example.org/music-history/album/15445b78-ec7e-3d22-b8fc-cfc92590d8f0>,
         <http://example.org/music-history/album/19ca48c1-af98-3000-bc9a-97ef5fa3e3be>,
@@ -18208,8 +18203,7 @@ mb:3af06bc4-68ad-4cae-bb7a-7eeeb45e411f a mo:SoloMusicArtist ;
     mh:composed <http://example.org/music-history/composition/Anatomy_of_a_Murder>,
         <http://example.org/music-history/composition/Azure> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/eponymous>,
-        <http://example.org/music-history/instrument/piano> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/piano> ;
     mh:realName "Edward Kennedy Ellington" ;
     mh:released <http://example.org/music-history/album/03510992-9fd7-30e3-9a17-cf8b20bed0b3>,
         <http://example.org/music-history/album/0bbc462f-554b-3cc3-b4c5-a78c6a313d5a>,
@@ -18338,10 +18332,9 @@ mb:4d5447d7-c61c-4120-ba1b-d7f471d385b9 a mo:SoloMusicArtist ;
     mh:playsInstrument <http://example.org/music-history/instrument/bass_guitar>,
         <http://example.org/music-history/instrument/guitar>,
         <http://example.org/music-history/instrument/harmonica>,
-        <http://example.org/music-history/instrument/keyboard_instrument>,
-        <http://example.org/music-history/instrument/lead_vocals>,
+        <http://example.org/music-history/instrument/keyboard>,
         <http://example.org/music-history/instrument/piano>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:released <http://example.org/music-history/album/05432930-1c7d-365b-98cf-7cb49dbf3d13>,
         <http://example.org/music-history/album/098a7113-0282-36a3-b67e-5754db92c91c>,
         <http://example.org/music-history/album/232a8e93-7529-4eeb-8cbd-20f03387de4c>,
@@ -18450,12 +18443,10 @@ mb:5441c29d-3602-4898-b1a1-b77fa23b8e50 a mo:SoloMusicArtist ;
         <http://example.org/music-history/instrument/drum_kit>,
         <http://example.org/music-history/instrument/electric_guitar>,
         <http://example.org/music-history/instrument/guitar>,
-        <http://example.org/music-history/instrument/keyboard_instrument>,
-        <http://example.org/music-history/instrument/lead_vocals>,
-        <http://example.org/music-history/instrument/musical_keyboard>,
+        <http://example.org/music-history/instrument/keyboard>,
         <http://example.org/music-history/instrument/piano>,
         <http://example.org/music-history/instrument/saxophone>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "David Robert Jones" ;
     mh:released <http://example.org/music-history/album/002ea22f-70c6-3bba-830e-4e0af067993c>,
         <http://example.org/music-history/album/0dc4835d-b21a-3612-bac6-ab1e782a1396>,
@@ -18522,7 +18513,6 @@ mb:5441c29d-3602-4898-b1a1-b77fa23b8e50 a mo:SoloMusicArtist ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/avant-garde_jazz>,
         <http://example.org/music-history/genre/blue-eyed_soul>,
-        <http://example.org/music-history/genre/classic_rock>,
         <http://example.org/music-history/genre/electronic_music>,
         <http://example.org/music-history/genre/experimental_rock>,
         <http://example.org/music-history/genre/glam_rock>,
@@ -18699,7 +18689,7 @@ mb:712fcc0f-25f5-45bf-bbb8-2601872d08e1 a mo:SoloMusicArtist ;
     mh:composed <http://example.org/music-history/composition/No_Way__Spider> ;
     mh:countryOfOrigin <http://example.org/music-history/country/br> ;
     mh:playsInstrument <http://example.org/music-history/instrument/accordion>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Luiz Gonzaga Do Nascimento" ;
     mh:released <http://example.org/music-history/album/04c99dfa-76b4-332c-bc24-ab4122a0d64d>,
         <http://example.org/music-history/album/07502488-c2e4-4914-9a83-6c0d0f814cb8>,
@@ -18767,7 +18757,7 @@ mb:7a8dbe84-f4c0-4457-bfa3-edced1f8cde0 a mo:SoloMusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/br> ;
     mh:playsInstrument <http://example.org/music-history/instrument/guitar>,
         <http://example.org/music-history/instrument/piano>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Antônio Carlos Brasileiro de Almeida Jobim" ;
     mh:released <http://example.org/music-history/album/03f9d867-f737-447e-a3ee-1732e6159c95>,
         <http://example.org/music-history/album/13f2d5d8-0870-4449-8e97-de0942893922>,
@@ -19685,7 +19675,7 @@ mb_recording:0ea9a794-87f6-4a48-a45c-052dde1f3a58 a mo:Track ;
 
 mb_recording:0eb9cab9-0e38-43d3-aeb6-68384e209a0c a mo:Track ;
     rdfs:label "Sherane a.k.a Master Splinter’s Daughter" ;
-    mh:duration 273640 ;
+    mh:duration 273606 ;
     dc:title "Sherane a.k.a Master Splinter’s Daughter" .
 
 mb_recording:0ee22b63-2dcb-464a-b3b8-c92ffd949f00 a mo:Track ;
@@ -20199,7 +20189,7 @@ mb_recording:1b397d62-9c09-40ab-be9b-505b461b5bbc a mo:Track ;
 
 mb_recording:1b687aec-3659-4960-976f-93ff4e7ac4a9 a mo:Track ;
     rdfs:label "Liar" ;
-    mh:duration 385573 ;
+    mh:duration 385293 ;
     dc:title "Liar" .
 
 mb_recording:1b6988f2-3d89-4f07-abd4-2d5f8a2b48b1 a mo:Track ;
@@ -21159,7 +21149,7 @@ mb_recording:367587f3-e989-4462-9812-e13e5cd205f0 a mo:Track ;
 
 mb_recording:36787a07-7b38-4656-b0c0-d01ecdf1ce10 a mo:Track ;
     rdfs:label "Great King Rat" ;
-    mh:duration 343013 ;
+    mh:duration 343000 ;
     dc:title "Great King Rat" .
 
 mb_recording:3686388b-06ae-4e28-978b-215c0f5bfecc a mo:Track ;
@@ -21306,7 +21296,7 @@ mb_recording:39d64979-4205-4e54-8ed0-52ff905ef3f4 a mo:Track ;
 
 mb_recording:39e93102-11bd-42e6-a128-58c293f0a768 a mo:Track ;
     rdfs:label "White Queen (As It Began)" ;
-    mh:duration 275400 ;
+    mh:duration 275333 ;
     dc:title "White Queen (As It Began)" .
 
 mb_recording:3a4fdaa3-2d4a-4af1-b50c-3c7f2da9efe6 a mo:Track ;
@@ -21622,7 +21612,7 @@ mb_recording:4486c741-8b37-4a28-8fcf-f5238c73eac1 a mo:Track ;
 
 mb_recording:44901061-7a57-4b3f-9c22-b17da050b604 a mo:Track ;
     rdfs:label "Now I’m Here" ;
-    mh:duration 254933 ;
+    mh:duration 254920 ;
     dc:title "Now I’m Here" .
 
 mb_recording:4495f539-6671-45bf-b03f-4f3d2d7876ca a mo:Track ;
@@ -21815,7 +21805,7 @@ mb_recording:49cd4134-08f5-4890-b5f0-842f5ff42268 a mo:Track ;
 
 mb_recording:4a04000c-3a40-419e-a737-ba262bf8b554 a mo:Track ;
     rdfs:label "Some Day One Day" ;
-    mh:duration 262333 ;
+    mh:duration 262280 ;
     dc:title "Some Day One Day" .
 
 mb_recording:4a1a5655-49f8-49d8-b05c-6332d9d439ff a mo:Track ;
@@ -22944,7 +22934,7 @@ mb_recording:6a7c4b4f-89c1-4bae-ae5e-30883c6d24e5 a mo:Track ;
 
 mb_recording:6a86247f-890c-46d5-9c24-dbf87038c18c a mo:Track ;
     rdfs:label "In the Lap of the Gods… Revisited" ;
-    mh:duration 225706 ;
+    mh:duration 226000 ;
     dc:title "In the Lap of the Gods… Revisited" .
 
 mb_recording:6ad8831f-77db-47dc-828b-bd62482e1047 a mo:Track ;
@@ -23386,7 +23376,7 @@ mb_recording:7539bb4a-e1af-4a71-bada-c70d1990596e a mo:Track ;
 
 mb_recording:756cd51a-0c2e-478d-a0db-91e24e9f928d a mo:Track ;
     rdfs:label "Misfire" ;
-    mh:duration 110013 ;
+    mh:duration 110000 ;
     dc:title "Misfire" .
 
 mb_recording:759770e1-7c55-4691-9f29-efc939fb4127 a mo:Track ;
@@ -25946,7 +25936,7 @@ mb_recording:c257e6be-a585-4618-bd68-068a8381c16e a mo:Track ;
 
 mb_recording:c294757b-0430-4eb4-ae7a-6abcffb87405 a mo:Track ;
     rdfs:label "Money Trees" ;
-    mh:duration 386638 ;
+    mh:duration 386905 ;
     dc:title "Money Trees" .
 
 mb_recording:c2e919f7-ecb9-4fdf-9162-3c26d0127fa0 a mo:Track ;
@@ -27165,7 +27155,7 @@ mb_recording:e620d166-0401-4f2d-bac0-7cdcde8e2899 a mo:Track ;
 
 mb_recording:e628f7fc-4b8a-43d8-9c35-350246593ec4 a mo:Track ;
     rdfs:label "Lily of the Valley" ;
-    mh:duration 105040 ;
+    mh:duration 105026 ;
     dc:title "Lily of the Valley" .
 
 mb_recording:e6969bb9-d64e-4d9e-a206-95181794d984 a mo:Track ;
@@ -28680,9 +28670,6 @@ mh:MusicAward a owl:Class ;
 <http://example.org/music-history/instrument/electronic_instruments> a mo:Instrument ;
     rdfs:label "electronic instruments" .
 
-<http://example.org/music-history/instrument/musical_keyboard> a mo:Instrument ;
-    rdfs:label "musical keyboard" .
-
 <http://example.org/music-history/instrument/oboe> a mo:Instrument ;
     rdfs:label "oboe" .
 
@@ -28888,7 +28875,7 @@ mb:42a8f507-8412-4611-854f-926571049fa0 a mo:SoloMusicArtist ;
     rdfs:label "George Harrison" ;
     mh:countryOfOrigin <http://example.org/music-history/country/gb> ;
     mh:playsInstrument <http://example.org/music-history/instrument/guitar>,
-        <http://example.org/music-history/instrument/lead_vocals> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mo:member_of mb:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d .
 
 mb:592a3b6d-c42b-4567-99c9-ecf63bd66499 a mo:SoloMusicArtist ;
@@ -28915,7 +28902,7 @@ mb:592a3b6d-c42b-4567-99c9-ecf63bd66499 a mo:SoloMusicArtist ;
         <http://example.org/music-history/instrument/fender_telecaster>,
         <http://example.org/music-history/instrument/gibson_es-335>,
         <http://example.org/music-history/instrument/guitar>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Charles Edward Anderson Berry" ;
     mh:released <http://example.org/music-history/album/12fe4954-04d0-3b95-b961-b0dbd3518ac6>,
         <http://example.org/music-history/album/15a8abc8-5b8d-3152-83b0-f5d791fbfd79>,
@@ -28998,7 +28985,7 @@ mb:72c536dc-7137-4477-a521-567eeb840fa8 a mo:SoloMusicArtist ;
         <http://example.org/music-history/instrument/nyckelharpa>,
         <http://example.org/music-history/instrument/piano>,
         <http://example.org/music-history/instrument/richter-tuned_harmonica>,
-        <http://example.org/music-history/instrument/voice> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mh:realName "Robert Dylan (born Robert Allen Zimmerman)" ;
     mh:released <http://example.org/music-history/album/169b62aa-c3a5-3ed9-bed1-cc47c4bc51ad>,
         <http://example.org/music-history/album/2ca28746-8987-3015-b54c-75b3aa8ca1a1>,
@@ -29155,7 +29142,7 @@ mb:ba550d0e-adac-4864-b88b-407cab5e76af a mo:SoloMusicArtist ;
     rdfs:label "Paul McCartney" ;
     mh:countryOfOrigin <http://example.org/music-history/country/gb> ;
     mh:playsInstrument <http://example.org/music-history/instrument/bass_guitar>,
-        <http://example.org/music-history/instrument/lead_vocals> ;
+        <http://example.org/music-history/instrument/vocals> ;
     mo:member_of mb:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d .
 
 mb:ddd6a971-a41f-47ef-9c41-b9213f7cd095 a mo:MusicArtist ;
@@ -29497,6 +29484,13 @@ mh:Era a owl:Class ;
 <http://example.org/music-history/genre/blue-eyed_soul> a mo:Genre ;
     rdfs:label "blue-eyed soul" .
 
+<http://example.org/music-history/genre/classic_rock> a mo:Genre ;
+    rdfs:label "classic rock" ;
+    mh:subgenreOf <http://example.org/music-history/genre/funk___soul>,
+        <http://example.org/music-history/genre/non-music>,
+        <http://example.org/music-history/genre/pop>,
+        <http://example.org/music-history/genre/rock> .
+
 <http://example.org/music-history/genre/coming-of-age_film> a mo:Genre ;
     rdfs:label "coming-of-age film" .
 
@@ -29728,9 +29722,6 @@ schema:Country a owl:Class ;
 <http://example.org/music-history/genre/west_coast_hip-hop> a mo:Genre ;
     rdfs:label "west coast hip-hop" .
 
-<http://example.org/music-history/instrument/keyboard_instrument> a mo:Instrument ;
-    rdfs:label "keyboard instrument" .
-
 <http://example.org/music-history/label/Epic_Records> a mh:RecordLabel ;
     rdfs:label "Epic Records" .
 
@@ -29836,13 +29827,6 @@ mb:24f1766e-9635-4d58-a4d4-9413f9f98a4c a mo:SoloMusicArtist ;
 <http://example.org/music-history/genre/art_pop> a mo:Genre ;
     rdfs:label "art pop" .
 
-<http://example.org/music-history/genre/classic_rock> a mo:Genre ;
-    rdfs:label "classic rock" ;
-    mh:subgenreOf <http://example.org/music-history/genre/funk___soul>,
-        <http://example.org/music-history/genre/non-music>,
-        <http://example.org/music-history/genre/pop>,
-        <http://example.org/music-history/genre/rock> .
-
 <http://example.org/music-history/genre/concert_film> a mo:Genre ;
     rdfs:label "concert film" ;
     mh:subgenreOf <http://example.org/music-history/genre/pop>,
@@ -29870,9 +29854,6 @@ mb:24f1766e-9635-4d58-a4d4-9413f9f98a4c a mo:SoloMusicArtist ;
 
 <http://example.org/music-history/genre/romance_film> a mo:Genre ;
     rdfs:label "romance film" .
-
-<http://example.org/music-history/instrument/keyboard> a mo:Instrument ;
-    rdfs:label "keyboard" .
 
 <http://example.org/music-history/instrument/organ> a mo:Instrument ;
     rdfs:label "organ" .
@@ -30028,6 +30009,7 @@ mb:0d79fe8e-ba27-4859-bb8c-2f255f346853 a mo:MusicGroup ;
         <http://example.org/music-history/album/205347cd-aae4-4121-b6ba-b57474b3c580>,
         <http://example.org/music-history/album/21159e3f-172e-43f6-aa7d-8e06a81fea49>,
         <http://example.org/music-history/album/3a91498a-4e50-4a77-93e2-a7b599b9739e>,
+        <http://example.org/music-history/album/5c80e093-b77a-4579-8ce1-abfd5eb4beea>,
         <http://example.org/music-history/album/728f288b-eb1c-4ce1-98a1-d4124c897aaf>,
         <http://example.org/music-history/album/75ec671d-bd15-4bfa-baeb-f6054d2202db>,
         <http://example.org/music-history/album/7917fe48-906d-464f-9909-0e4d18d59192>,
@@ -30167,7 +30149,6 @@ mb:0383dadf-2a4e-4d10-a46a-e9e041da8eb3 a mo:MusicGroup,
         <http://example.org/music-history/award/star_on_Hollywood_Walk_of_Fame> ;
     mo:genre <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/beholder>,
-        <http://example.org/music-history/genre/classic_rock>,
         <http://example.org/music-history/genre/glam_rock>,
         <http://example.org/music-history/genre/glorious>,
         <http://example.org/music-history/genre/hard_rock>,
@@ -30335,8 +30316,8 @@ mb:5b11f4ce-a62d-471e-81fc-a69a8278c7da a mo:MusicGroup ;
 <http://example.org/music-history/instrument/additional> a mo:Instrument ;
     rdfs:label "additional" .
 
-<http://example.org/music-history/instrument/eponymous> a mo:Instrument ;
-    rdfs:label "eponymous" .
+<http://example.org/music-history/instrument/keyboard> a mo:Instrument ;
+    rdfs:label "keyboard" .
 
 <http://example.org/music-history/country/cu> a mh:Country ;
     rdfs:label "CU" .
@@ -30483,9 +30464,6 @@ mb:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d a mo:MusicGroup ;
 <http://example.org/music-history/award/star_on_Hollywood_Walk_of_Fame> a mh:Award ;
     rdfs:label "star on Hollywood Walk of Fame" .
 
-<http://example.org/music-history/instrument/lead_vocals> a mo:Instrument ;
-    rdfs:label "lead vocals" .
-
 <http://example.org/music-history/genre/hard_rock> a mo:Genre ;
     rdfs:label "hard rock" ;
     mh:subgenreOf <http://example.org/music-history/genre/non-music>,
@@ -30610,9 +30588,6 @@ mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 a mo:MusicGroup ;
 <http://example.org/music-history/genre/popular_music> a mo:Genre ;
     rdfs:label "popular music" .
 
-<http://example.org/music-history/instrument/voice> a mo:Instrument ;
-    rdfs:label "voice" .
-
 <http://example.org/music-history/genre/folk,_world,_&_country> a mo:Genre ;
     rdfs:label "folk, world, & country" .
 
@@ -30631,6 +30606,9 @@ mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 a mo:MusicGroup ;
 
 <http://example.org/music-history/genre/rock_music> a mo:Genre ;
     rdfs:label "rock music" .
+
+<http://example.org/music-history/instrument/vocals> a mo:Instrument ;
+    rdfs:label "vocals" .
 
 <http://example.org/music-history/genre/drama_film> a mo:Genre ;
     rdfs:label "drama film" .

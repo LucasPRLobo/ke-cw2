@@ -334,4 +334,120 @@ Return as JSON: [{"album": "...", "producer": "...", "year": "..."}]
 
 ---
 
+## P19 — KG vs Plain LLM: David Bowie Awards (CQ8)
+
+- **Task**: Evaluation — KG answer quality vs plain LLM
+- **Date**: 2026-03-31
+- **Author**: Lucas Perez Reis Lobo
+- **LLM/Tool**: Claude
+- **Prompting technique**: Paired comparison (plain vs RAG)
+- **KG answer**: 13 awards from SPARQL query
+- **Plain LLM answer**: "73 awards from 188 nominations" — detailed breakdown of Grammys (6), BRITs (4), MTV VMAs (4), plus Rock and Roll Hall of Fame and Hollywood Walk of Fame
+- **RAG answer**: Critically evaluated the KG's 13 results and found:
+  1. **Factual error**: CBE listed as award won, but Bowie declined it — should be "honour declined"
+  2. **Redundancy**: Commandeur des Arts et des Lettres and Ordre des Arts et des Lettres are the same distinction (grade within order)
+  3. **Category confusion**: Rolling Stone's list and Great Britons are editorial rankings, not formal awards
+  4. **Gaps**: Missing BRIT Awards, Ivor Novello Awards, competitive Grammys, posthumous awards
+  5. **Recommendation**: Separate award types into `award won`, `award declined`, `honorary recognition`, `editorial ranking`
+- **Comparison**:
+  - Plain LLM: gives a confident number (73) with highlights — useful but ungrounded
+  - RAG: identifies errors, redundancies, and category confusion in KG data — actionable for quality improvement
+  - **Winner: RAG** — found a factual error (declined CBE), a redundancy, and a modelling issue (mixed award types)
+- **Used in**: Evaluation section (KG vs plain LLM comparison)
+
+---
+
+## P20 — KG vs Plain LLM: John Lennon Instruments (CQ7)
+
+- **Task**: Evaluation — KG answer quality vs plain LLM
+- **Date**: 2026-03-31
+- **Author**: Lucas Perez Reis Lobo
+- **LLM/Tool**: Claude
+- **KG answer**: 7 instruments (bass guitar, guitar, harmonica, keyboard instrument, lead vocals, piano, voice)
+- **Plain LLM answer**: Guitar (primary), harmonica, piano/keyboards, bass guitar (occasionally), banjo (childhood), percussion (informal). Notes he wasn't a virtuoso.
+- **RAG answer**: Critically evaluated the KG's 7 results and found:
+  1. **Accuracy concern**: bass guitar is questionable — McCartney was the bassist, Lennon rarely played it. May be a band→individual attribute conflation.
+  2. **Redundancies**: "lead vocals"/"voice" are the same thing; "keyboard instrument"/"piano" overlap hierarchically
+  3. **Gaps**: Missing rhythm guitar distinction, acoustic guitar, organ, mellotron, banjo, 12-string guitar
+  4. **Recommendation**: remove bass guitar, collapse redundant pairs, add instrument specificity (rhythm vs lead guitar)
+- **Comparison**:
+  - Plain LLM: provides nuanced answer with context (banjo as first instrument, not virtuosic)
+  - RAG: finds accuracy issue (bass guitar), redundancies, and suggests instrument granularity improvements
+  - **Winner: RAG** — identifies a likely data error (bass guitar attribution) and modelling issues (redundant entries, insufficient specificity)
+- **Key insight**: RAG reveals that the pipeline's instrument data from MusicBrainz conflates band-level and individual-level attributes, and that the ontology lacks granularity for instrument roles (rhythm vs lead guitar)
+- **Used in**: Evaluation section (KG vs plain LLM comparison)
+
+---
+
+## P21 — KG vs Plain LLM: Rock Subgenres (CQ9)
+
+- **Task**: Evaluation — KG answer quality vs plain LLM
+- **Date**: 2026-03-31
+- **Author**: Lucas Perez Reis Lobo
+- **LLM/Tool**: Claude
+- **KG answer**: 40 subgenres (truncated display at 20)
+- **Plain LLM answer**: ~30 subgenres organised by decade (1950s-2000s), with note about fluid boundaries
+- **RAG answer**: Critically evaluated the KG's results and found:
+  1. **Non-subgenre entries**: "acoustic" (production mode), "ballad" (song format), "interview" (data artifact), "country" (parent genre, not subgenre)
+  2. **Category confusion**: "classic rock" is a radio format, not a subgenre; "experimental"/"avantgarde" are aesthetic modifiers, not genres
+  3. **Data artifact**: "interview" leaked from content-type tags into genre taxonomy
+  4. **Query truncation**: results stopped alphabetically at "krautrock" — suggests result limit was hit, missing punk, metal, progressive rock
+  5. **Gaps**: punk rock, heavy metal, progressive rock, psychedelic rock, post-punk, new wave, shoegaze, britpop — all fundamental rock subgenres missing
+  6. **Recommendation**: remove non-genre entries, reclassify borderline entries, fix query pagination
+- **Comparison**:
+  - Plain LLM: comprehensive, well-organised by decade, but generic (not grounded in our data)
+  - RAG: found data artifacts ("interview"), category errors ("acoustic", "ballad"), truncation issue, and structural recommendations
+  - **Winner: RAG** — identifies a data pipeline issue (content-type tags leaking into genre taxonomy), a query issue (truncation), and multiple modelling improvements
+- **Key insight**: RAG reveals that the Discogs genre/style mapping introduced non-genre tags into the subgenre hierarchy, and that the SPARQL query's result display was truncated (the underlying data likely has more subgenres)
+- **Used in**: Evaluation section (KG vs plain LLM comparison)
+
+---
+
+## P22 — KG vs Plain LLM: Bowie Influences + Shared Genres (CQ12)
+
+- **Task**: Evaluation — KG answer quality vs plain LLM
+- **Date**: 2026-03-31
+- **Author**: Lucas Perez Reis Lobo
+- **LLM/Tool**: Claude
+- **KG answer**: 13 results — Bob Dylan (3 genre matches) + The Beatles (10 genre matches)
+- **Plain LLM answer**: ~15 influences organised by category (rock, soul, electronic, cabaret) with genre overlap analysis. Notes Bowie's chameleon nature.
+- **RAG answer**: Critically evaluated and found:
+  1. **Query design issue**: returns artist × genre cartesian product (Bob Dylan 3×, Beatles 10×) instead of distinct artists — query should GROUP BY artist
+  2. **Content truncation**: only 2 artists returned, likely alphabetical cutoff — missing 10+ documented influences (Iggy Pop, Lou Reed, Marc Bolan, Little Richard, Kraftwerk, Brian Eno)
+  3. **Genre taxonomy**: "classic rock" is a radio format, not a musical subgenre — inflates false matches
+  4. **Accuracy**: Bob Dylan and The Beatles as influences are correct; genre overlaps are genuine
+  5. **Recommendation**: restructure query to return distinct artists, raise result cap, remove format-classification terms from genre matching
+- **Comparison**:
+  - Plain LLM: rich, contextual, covers ~15 influences with genre analysis and cultural context
+  - RAG: identifies query architecture problem (cartesian product), truncation, and taxonomy issues — actionable for both query and ontology improvement
+  - **Winner: RAG for diagnostics, Plain LLM for answer quality** — RAG excels at finding structural issues in the KG/query layer; plain LLM provides better factual coverage
+- **Key insight**: RAG reveals that the SPARQL query design (not just the data) needs improvement — the cartesian product between artists and genres obscures the real answer. This is a modelling insight that only emerges when the LLM can see the actual query results.
+- **Used in**: Evaluation section (KG vs plain LLM comparison), query improvement recommendations
+
+---
+
+## P23 — KG vs Plain LLM: Jazz Countries in 1960s (CQ20)
+
+- **Task**: Evaluation — KG answer quality vs plain LLM
+- **Date**: 2026-03-31
+- **Author**: Lucas Perez Reis Lobo
+- **LLM/Tool**: Claude
+- **KG answer**: 5 countries (US, NG, ES, ZA, BR) as ISO codes
+- **Plain LLM answer**: ~15 countries with detailed per-country analysis (US, UK, France, Germany, Scandinavia, Brazil, Japan, South Africa, Nigeria, Cuba, Canada, Argentina, Soviet Union/Eastern Europe)
+- **RAG answer**: Critically evaluated and found:
+  1. **Presentation issue**: ISO country codes without labels (NG, ZA, ES, BR) — opaque to non-specialists
+  2. **Accuracy check**: US, BR, ZA, NG are defensible; ES (Spain) is the most questionable — may reflect a specific artist rather than broad jazz presence
+  3. **Severe truncation**: only 5 of ~15 significant jazz countries — missing UK, France, Germany, Japan, Sweden, Denmark, Cuba, Canada, Argentina
+  4. **Structural concern**: 5 countries for a global genre across a decade signals either query truncation, overly narrow "jazz" tagging, or sparse data coverage outside the US
+  5. **Modelling issue**: graph may be conflating artist nationality with album release country — these are meaningfully different
+  6. **Recommendation**: add country name labels, raise result limit, audit jazz genre tagging criteria, distinguish nationality from release country
+- **Comparison**:
+  - Plain LLM: comprehensive, ~15 countries with cultural context, decade-spanning analysis
+  - RAG: identifies presentation problems (ISO codes), data sparsity, possible genre tagging issue, and nationality/release conflation
+  - **Winner: Plain LLM for factual completeness, RAG for KG diagnostics** — the KG has only 58 artists so it cannot match the LLM's breadth, but RAG explains *why* the gap exists
+- **Key insight**: RAG reveals that our KG's 58-artist sample creates an inherent coverage limitation for geographic queries — we can only return countries where our specific artists are from, not where jazz was historically active. This is a fundamental population completeness (CM3) issue.
+- **Used in**: Evaluation section (KG vs plain LLM comparison), completion analysis
+
+---
+
 <!-- Add new entries below -->

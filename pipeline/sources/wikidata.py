@@ -41,18 +41,55 @@ def fetch_artist(wikidata_id, artist_name):
         print(f"  [WD] {artist_name}: loaded from cache")                                                                                                                                                
         return cached
                                                                                                                                                                                                         
-    # Query each property type separately to avoid cartesian products
-    def _get_values(prop_id):
-        q = f"""
-        SELECT ?valueLabel WHERE {{
-          wd:{wikidata_id} wdt:{prop_id} ?value .
-          SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
-        }}
-        """
-        results = _query(q)
-        return [r["valueLabel"]["value"] for r in results["results"]["bindings"]
-                if not r["valueLabel"]["value"].startswith("Q")]
+    # Batch query: fetch all properties in a single SPARQL query
+    # Uses UNION to avoid cartesian products between multi-valued properties
+    batch_query = f"""
+    SELECT ?prop ?valueLabel WHERE {{
+      VALUES ?prop {{
+        wdt:P136 wdt:P1303 wdt:P166 wdt:P264
+        wdt:P737 wdt:P106 wdt:P27 wdt:P19
+      }}
+      wd:{wikidata_id} ?prop ?value .
+      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+    }}
+    """
 
+    # Property ID to name mapping
+    prop_map = {
+        "http://www.wikidata.org/prop/direct/P136": "genres",
+        "http://www.wikidata.org/prop/direct/P1303": "instruments",
+        "http://www.wikidata.org/prop/direct/P166": "awards",
+        "http://www.wikidata.org/prop/direct/P264": "labels",
+        "http://www.wikidata.org/prop/direct/P737": "influences",
+        "http://www.wikidata.org/prop/direct/P106": "occupations",
+        "http://www.wikidata.org/prop/direct/P27": "country",
+        "http://www.wikidata.org/prop/direct/P19": "birth_place",
+    }
+
+    from collections import defaultdict
+    prop_values = defaultdict(list)
+
+    try:
+        batch_results = _query(batch_query)
+        for r in batch_results["results"]["bindings"]:
+            prop_uri = r["prop"]["value"]
+            value = r["valueLabel"]["value"]
+            if not value.startswith("Q"):
+                prop_name = prop_map.get(prop_uri, prop_uri)
+                prop_values[prop_name].append(value)
+    except Exception:
+        pass
+
+    genres = prop_values.get("genres", [])
+    instruments = prop_values.get("instruments", [])
+    awards = prop_values.get("awards", [])
+    labels = prop_values.get("labels", [])
+    influences = prop_values.get("influences", [])
+    occupations = prop_values.get("occupations", [])
+    country = prop_values.get("country", [])
+    birth_place = prop_values.get("birth_place", [])
+
+    # Dates need separate query (literals, not entities)
     def _get_literal(prop_id):
         q = f"""
         SELECT ?value WHERE {{
@@ -60,20 +97,15 @@ def fetch_artist(wikidata_id, artist_name):
         }}
         LIMIT 1
         """
-        results = _query(q)
-        bindings = results["results"]["bindings"]
-        if bindings:
-            return bindings[0]["value"]["value"]
+        try:
+            results = _query(q)
+            bindings = results["results"]["bindings"]
+            if bindings:
+                return bindings[0]["value"]["value"]
+        except Exception:
+            pass
         return None
 
-    genres = _get_values("P136")
-    instruments = _get_values("P1303")
-    awards = _get_values("P166")
-    labels = _get_values("P264")
-    influences = _get_values("P737")
-    occupations = _get_values("P106")
-    country = _get_values("P27")
-    birth_place = _get_values("P19")
     birth_date = _get_literal("P569")
     death_date = _get_literal("P570")
 

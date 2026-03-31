@@ -4,7 +4,7 @@ import sys
 import os
                                                                                                                                                                                                         
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config import USER_AGENT, MB_RATE_LIMIT                                                                                                                                                             
+from config import USER_AGENT, MB_RATE_LIMIT, ARTIST_MBID_OVERRIDES                                                                                                                                                             
 from utils import cache_load, cache_save                  
                                                                                                                                                                                                         
 musicbrainzngs.set_useragent(*USER_AGENT.split("/", 1)[0:1], "0.1", "test@example.com")
@@ -25,14 +25,34 @@ def fetch_artist(artist_name):
         print(f"  [MB] {artist_name}: loaded from cache") 
         return cached                                                                                                                                                                                    
                                                         
-    # Search for artist                                                                                                                                                                                  
-    time.sleep(MB_RATE_LIMIT)                                                                                                                                                                            
-    search = musicbrainzngs.search_artists(artist=artist_name, limit=1)
-    if not search["artist-list"]:                                                                                                                                                                        
-        print(f"  [MB] {artist_name}: NOT FOUND")         
-        return None                                                                                                                                                                                      
-                                            
-    mbid = search["artist-list"][0]["id"]                                                                                                                                                                
+    # Check for MBID override (for artists where search returns wrong result)
+    if artist_name in ARTIST_MBID_OVERRIDES:
+        mbid = ARTIST_MBID_OVERRIDES[artist_name]
+        print(f"  [MB] Using override MBID for '{artist_name}'")
+    else:
+        # Search for artist — check multiple results for best name match
+        time.sleep(MB_RATE_LIMIT)
+        search = musicbrainzngs.search_artists(artist=artist_name, limit=5)
+        if not search["artist-list"]:
+            print(f"  [MB] {artist_name}: NOT FOUND")
+            return None
+
+        # Find best match by comparing names (case-insensitive)
+        query_lower = artist_name.lower()
+        best = None
+        for candidate in search["artist-list"]:
+            cand_name = candidate["name"].lower()
+            if cand_name == query_lower:
+                best = candidate
+                break
+            if query_lower in cand_name or cand_name in query_lower:
+                best = candidate
+                break
+        if best is None:
+            best = search["artist-list"][0]
+            print(f"  [MB] WARNING: no exact match for '{artist_name}', using '{best['name']}'")
+
+        mbid = best["id"]                                                                                                                                                                
                                                         
     # Fetch full detail                                                                                                                                                                                  
     time.sleep(MB_RATE_LIMIT)                             
@@ -91,6 +111,35 @@ def fetch_artist(artist_name):
             for rg in rg_result.get("release-group-list", [])
         ],
     }                                                                                                                                                                                                    
+
+    # Fetch tracks for the first 3 release groups
+    result["tracks"] = {}
+    for rg in result["release_groups"][:3]:
+        rg_id = rg["id"]
+        try:
+            time.sleep(MB_RATE_LIMIT)
+            rg_releases = musicbrainzngs.browse_releases(
+                release_group=rg_id, limit=1
+            )
+            if rg_releases["release-list"]:
+                rel_id = rg_releases["release-list"][0]["id"]
+                time.sleep(MB_RATE_LIMIT)
+                rel_detail = musicbrainzngs.get_release_by_id(
+                    rel_id, includes=["recordings"]
+                )["release"]
+                tracks = []
+                for medium in rel_detail.get("medium-list", []):
+                    for track in medium.get("track-list", []):
+                        rec = track.get("recording", {})
+                        tracks.append({
+                            "id": rec.get("id"),
+                            "title": rec.get("title"),
+                            "position": track.get("position"),
+                            "length": rec.get("length"),
+                        })
+                result["tracks"][rg_id] = tracks
+        except Exception:
+            pass
 
     # Extract cross-reference IDs for other sources                                                                                                                                                      
     for url_rel in result["url_rels"]:                    

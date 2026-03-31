@@ -12,7 +12,7 @@ from config import (
     MUSICBRAINZ_RELEASE_URI, MUSICBRAINZ_RECORDING_URI,
     MUSIC_ONTOLOGY_URI, SCHEMA_URI,
 )
-from utils import normalise_genre, safe_uri, is_valid_genre
+from utils import normalise_genre, normalise_instrument, safe_uri, is_valid_genre
 
 # Namespaces
 MO = Namespace(MUSIC_ONTOLOGY_URI)
@@ -154,12 +154,15 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
                 g.add((target_uri, MO.member_of, artist_uri))
                 g.add((target_uri, RDF.type, MO.SoloMusicArtist))
 
-            # Instruments from attributes
+            # Instruments from attributes (normalised per RAG finding P20)
             for attr in rel.get("attributes", []):
                 if attr not in ("original", "minor"):
-                    inst_uri = MH[f"instrument/{normalise_genre(attr)}"]
+                    normalised = normalise_instrument(attr)
+                    if normalised is None:
+                        continue  # Skip non-instruments (e.g., "eponymous")
+                    inst_uri = MH[f"instrument/{normalise_genre(normalised)}"]
                     g.add((inst_uri, RDF.type, MO.Instrument))
-                    g.add((inst_uri, RDFS.label, Literal(attr)))
+                    g.add((inst_uri, RDFS.label, Literal(normalised)))
                     member = artist_uri if direction == "forward" else target_uri
                     g.add((member, MH.playsInstrument, inst_uri))
 
@@ -180,12 +183,15 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
                 g.add((target_uri, MH.producedBy, artist_uri))
                 g.add((artist_uri, MH.produced, target_uri))
 
-    # --- Instruments from Wikidata ---
+    # --- Instruments from Wikidata (normalised per RAG finding P20) ---
     if wd_data:
         for inst_name in wd_data.get("instruments", []):
-            inst_uri = MH[f"instrument/{normalise_genre(inst_name)}"]
+            normalised = normalise_instrument(inst_name)
+            if normalised is None:
+                continue
+            inst_uri = MH[f"instrument/{normalise_genre(normalised)}"]
             g.add((inst_uri, RDF.type, MO.Instrument))
-            g.add((inst_uri, RDFS.label, Literal(inst_name)))
+            g.add((inst_uri, RDFS.label, Literal(normalised)))
             g.add((artist_uri, MH.playsInstrument, inst_uri))
 
     # --- Awards from Wikidata ---
