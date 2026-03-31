@@ -1,0 +1,207 @@
+                                                                                                                                                                                                           
+# R2RML Mapping Document: MusicBrainz JSON to Music History KG                                                                                                                                           
+#                                                                                                                                                                                                        
+# Course technique from Week 8: Declarative R2RML mapping
+# This document formally specifies the mapping rules used by our pipeline                                                                                                                                
+# to transform MusicBrainz API responses (JSON) into RDF triples.                                                                                                                                        
+#                                                                                                                                                                                                        
+# Note: Our pipeline uses rdflib (Python) for the actual mapping,                                                                                                                                        
+# but this R2RML document formalises the same rules declaratively.                                                                                                                                       
+                                                                                                                                                                                                        
+@prefix rr:     <http://www.w3.org/ns/r2rml#> .                                                                                                                                                          
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .                                                                                                                                          
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .                                                                                                                                                
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .                                                                                                                                                           
+@prefix mo:     <http://purl.org/ontology/mo/> .          
+@prefix mh:     <http://example.org/music-history/> .                                                                                                                                                    
+@prefix schema: <https://schema.org/> .                                                                                                                                                                  
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+                                                                                                                                                                                                        
+                                                        
+# ============================================================                                                                                                                                           
+# Mapping 1: MusicBrainz Artist → mo:SoloMusicArtist / mo:MusicGroup
+# ============================================================                                                                                                                                           
+# Source: MusicBrainz API /ws/2/artist/{mbid}?fmt=json
+# JSON fields: mbid, name, type, country, gender, life-span.begin,                                                                                                                                       
+#              life-span.end, begin-area.name                                                                                                                                                            
+                                                                                                                                                                                                        
+<#ArtistMapping> a rr:TriplesMap ;                                                                                                                                                                       
+    rr:logicalTable [                                                                                                                                                                                    
+        rr:tableName "musicbrainz_artists"                                                                                                                                                               
+    ] ;                                                   
+    rr:subjectMap [
+        rr:template "http://musicbrainz.org/artist/{mbid}" ;                                                                                                                                             
+        rr:class mo:MusicArtist
+    ] ;                                                                                                                                                                                                  
+    rr:predicateObjectMap [                               
+        rr:predicate foaf:name ;                                                                                                                                                                         
+        rr:objectMap [ rr:column "name" ]                 
+    ] ;                                                                                                                                                                                                  
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;                                                                                                                                                                        
+        rr:objectMap [ rr:column "name" ]                 
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate mh:countryOfOrigin ;
+        rr:objectMap [                                                                                                                                                                                   
+            rr:template "http://example.org/music-history/country/{country}" ;
+        ]                                                                                                                                                                                                
+    ] ;                                                   
+    rr:predicateObjectMap [                                                                                                                                                                              
+        rr:predicate schema:birthDate ;                   
+        rr:objectMap [
+            rr:column "life_span_begin" ;                                                                                                                                                                
+            rr:datatype xsd:date
+        ]                                                                                                                                                                                                
+    ] ;                                                   
+    rr:predicateObjectMap [
+        rr:predicate schema:deathDate ;                                                                                                                                                                  
+        rr:objectMap [
+            rr:column "life_span_end" ;                                                                                                                                                                  
+            rr:datatype xsd:date                          
+        ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate schema:gender ;                                                                                                                                                                     
+        rr:objectMap [ rr:column "gender" ]
+    ] ;                                                                                                                                                                                                  
+    rr:predicateObjectMap [                               
+        rr:predicate mh:birthPlace ;
+        rr:objectMap [ rr:column "begin_area" ]                                                                                                                                                          
+    ] .
+                                                                                                                                                                                                        
+                                                        
+# ============================================================
+# Mapping 2: MusicBrainz Release Group → mo:Release (Album)
+# ============================================================                                                                                                                                           
+# Source: MusicBrainz API /ws/2/release-group?artist={mbid}&type=album
+# JSON fields: id, title, first-release-date                                                                                                                                                             
+                                                        
+<#ReleaseGroupMapping> a rr:TriplesMap ;                                                                                                                                                                 
+    rr:logicalTable [                                     
+        rr:tableName "musicbrainz_release_groups"                                                                                                                                                        
+    ] ;                                                   
+    rr:subjectMap [
+        rr:template "http://example.org/music-history/album/{id}" ;
+        rr:class mo:Release                                                                                                                                                                              
+    ] ;
+    rr:predicateObjectMap [                                                                                                                                                                              
+        rr:predicate dc:title ;                           
+        rr:objectMap [ rr:column "title" ]
+    ] ;                                                                                                                                                                                                  
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;                                                                                                                                                                        
+        rr:objectMap [ rr:column "title" ]                
+    ] ;
+    rr:predicateObjectMap [                                                                                                                                                                              
+        rr:predicate mh:releaseDate ;
+        rr:objectMap [ rr:column "first_release_date" ]                                                                                                                                                  
+    ] .                                                   
+                                                                                                                                                                                                        
+# Artist → Album link
+<#ArtistReleaseMapping> a rr:TriplesMap ;                                                                                                                                                                
+    rr:logicalTable [                                                                                                                                                                                    
+        rr:tableName "musicbrainz_release_groups"
+    ] ;                                                                                                                                                                                                  
+    rr:subjectMap [                                       
+        rr:template "http://musicbrainz.org/artist/{artist_mbid}"
+    ] ;                                                                                                                                                                                                  
+    rr:predicateObjectMap [
+        rr:predicate mh:released ;                                                                                                                                                                       
+        rr:objectMap [                                                                                                                                                                                   
+            rr:parentTriplesMap <#ReleaseGroupMapping> ;
+            rr:joinCondition [                                                                                                                                                                           
+                rr:child "id" ;                                                                                                                                                                          
+                rr:parent "id"
+            ]                                                                                                                                                                                            
+        ]                                                 
+    ] .
+
+
+# ============================================================
+# Mapping 3: MusicBrainz Tags → mo:Genre
+# ============================================================                                                                                                                                           
+# Source: MusicBrainz API artist includes=tags
+# JSON fields: tag-list[].name, tag-list[].count                                                                                                                                                         
+                                                                                                                                                                                                        
+<#GenreMapping> a rr:TriplesMap ;                                                                                                                                                                        
+    rr:logicalTable [                                                                                                                                                                                    
+        rr:sqlQuery """                                   
+            SELECT LOWER(name) AS genre_name,
+                    REPLACE(REPLACE(LOWER(name), ' ', '_'), '/', '_') AS genre_id                                                                                                                         
+            FROM musicbrainz_tags                                                                                                                                                                        
+            WHERE count >= 3                                                                                                                                                                             
+            AND LOWER(name) NOT IN ('british', 'uk', 'american', 'actors')                                                                                                                             
+        """                                                                                                                                                                                              
+    ] ;                                                                                                                                                                                                  
+    rr:subjectMap [                                                                                                                                                                                      
+        rr:template "http://example.org/music-history/genre/{genre_id}" ;
+        rr:class mo:Genre
+    ] ;                                                                                                                                                                                                  
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;                                                                                                                                                                        
+        rr:objectMap [ rr:column "genre_name" ]           
+    ] .
+                                                                                                                                                                                                        
+
+# ============================================================                                                                                                                                           
+# Mapping 4: MusicBrainz Artist Relationships → Ontology Properties
+# ============================================================
+# Source: MusicBrainz API artist includes=artist-rels
+# JSON fields: artist-relation-list[].type, .direction, .artist.id, .artist.name                                                                                                                         
+                                                                                                                                                                                                        
+<#MemberOfMapping> a rr:TriplesMap ;                                                                                                                                                                     
+    rr:logicalTable [                                                                                                                                                                                    
+        rr:sqlQuery """                                                                                                                                                                                  
+            SELECT source_mbid, target_mbid, target_name  
+            FROM musicbrainz_artist_rels
+            WHERE type = 'member of band' AND direction = 'forward'                                                                                                                                      
+        """
+    ] ;                                                                                                                                                                                                  
+    rr:subjectMap [                                       
+        rr:template "http://musicbrainz.org/artist/{source_mbid}"
+    ] ;                                                                                                                                                                                                  
+    rr:predicateObjectMap [
+        rr:predicate mo:member_of ;                                                                                                                                                                      
+        rr:objectMap [                                                                                                                                                                                   
+            rr:template "http://musicbrainz.org/artist/{target_mbid}"
+        ]                                                                                                                                                                                                
+    ] .                                                   
+
+<#CollaborationMapping> a rr:TriplesMap ;                                                                                                                                                                
+    rr:logicalTable [
+        rr:sqlQuery """                                                                                                                                                                                  
+            SELECT source_mbid, target_mbid               
+            FROM musicbrainz_artist_rels
+            WHERE type = 'collaboration'
+        """
+    ] ;                                                                                                                                                                                                  
+    rr:subjectMap [
+        rr:template "http://musicbrainz.org/artist/{source_mbid}"                                                                                                                                        
+    ] ;                                                   
+    rr:predicateObjectMap [
+        rr:predicate mh:collaboratedWith ;
+        rr:objectMap [                                                                                                                                                                                   
+            rr:template "http://musicbrainz.org/artist/{target_mbid}"
+        ]                                                                                                                                                                                                
+    ] .                                                   
+
+<#InfluenceMapping> a rr:TriplesMap ;                                                                                                                                                                    
+    rr:logicalTable [
+        rr:sqlQuery """                                                                                                                                                                                  
+            SELECT source_mbid, target_mbid               
+            FROM musicbrainz_artist_rels
+            WHERE type = 'influenced by' AND direction = 'forward'
+        """                                                                                                                                                                                              
+    ] ;
+    rr:subjectMap [                                                                                                                                                                                      
+        rr:template "http://musicbrainz.org/artist/{source_mbid}"
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate mh:influencedBy ;
+        rr:objectMap [                                                                                                                                                                                   
+            rr:template "http://musicbrainz.org/artist/{target_mbid}"
+        ]                                                                                                                                                                                                
+    ] .                                                   
+                

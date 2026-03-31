@@ -1,0 +1,45 @@
+# SPARQL Anything CONSTRUCT query: Map Discogs cached JSON to genre/style RDF
+# Course technique from Week 8 — SPARQL CONSTRUCT over non-RDF sources
+#
+# Input: Discogs artist JSON file (cached from API)
+# Output: RDF triples for genre → style (subgenreOf) hierarchy
+#
+# Usage: java -jar sparql-anything.jar -q map_discogs_genres.sparql -v filePath=data/structured/discogs_David_Bowie.json -f TTL
+
+PREFIX fx:     <http://sparql.xyz/facade-x/ns/>
+PREFIX xyz:    <http://sparql.xyz/facade-x/data/>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mo:     <http://purl.org/ontology/mo/>
+PREFIX mh:     <http://example.org/music-history/>
+
+CONSTRUCT {
+    # Genre entities
+    ?genreURI a mo:Genre ;
+        rdfs:label ?genreLabel .
+
+    # Style (sub-genre) entities with subgenreOf relationship
+    ?styleURI a mo:Genre ;
+        rdfs:label ?styleLabel ;
+        mh:subgenreOf ?genreURI .
+}
+WHERE {
+    SERVICE <x-sparql-anything:location=PLACEHOLDER_FILE_PATH,media-type=application/json> {
+
+        # Navigate to genre_style_pairs array
+        ?root xyz:genre_style_pairs ?pairsArray .
+        ?pairsArray ?pairIndex ?pair .
+        ?pair xyz:genre ?genreName ;
+              xyz:style ?styleName .
+
+        FILTER(STRSTARTS(STR(?pairIndex), STR(rdf:_)))
+    }
+
+    # Normalise names for URIs (lowercase, replace spaces)
+    BIND(LCASE(?genreName) AS ?genreLabel)
+    BIND(LCASE(?styleName) AS ?styleLabel)
+    BIND(IRI(CONCAT("http://example.org/music-history/genre/",
+         ENCODE_FOR_URI(LCASE(REPLACE(REPLACE(?genreName, " ", "_"), "/", "_"))))) AS ?genreURI)
+    BIND(IRI(CONCAT("http://example.org/music-history/genre/",
+         ENCODE_FOR_URI(LCASE(REPLACE(REPLACE(?styleName, " ", "_"), "/", "_"))))) AS ?styleURI)
+}

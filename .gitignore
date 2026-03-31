@@ -1,0 +1,10 @@
+__pycache__/                                                                                                                                                                                             
+*.pyc                                                                                                                                                                                                    
+.vscode/                                                                                                                                                                                                 
+pipeline/data/                                                                                                                                                                                           
+data/                                                     
+class_content/                                                                                                                                                                                           
+*.pdf                                                     
+venv/                                                                                                                                                                                                    
+*.egg-info/                                               
+.env 

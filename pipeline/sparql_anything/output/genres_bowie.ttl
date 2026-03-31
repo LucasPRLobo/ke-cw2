@@ -1,0 +1,43 @@
+PREFIX fx:   <http://sparql.xyz/facade-x/ns/>
+PREFIX mh:   <http://example.org/music-history/>
+PREFIX mo:   <http://purl.org/ontology/mo/>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xyz:  <http://sparql.xyz/facade-x/data/>
+
+<http://example.org/music-history/genre/funk___soul>
+        rdf:type    mo:Genre;
+        rdfs:label  "funk / soul" .
+
+<http://example.org/music-history/genre/soul>
+        rdf:type       mo:Genre;
+        rdfs:label     "soul";
+        mh:subgenreOf  <http://example.org/music-history/genre/pop> , <http://example.org/music-history/genre/funk___soul> , <http://example.org/music-history/genre/rock> .
+
+<http://example.org/music-history/genre/acoustic>
+        rdf:type       mo:Genre;
+        rdfs:label     "acoustic";
+        mh:subgenreOf  <http://example.org/music-history/genre/pop> , <http://example.org/music-history/genre/rock> .
+
+<http://example.org/music-history/genre/vocal>
+        rdf:type       mo:Genre;
+        rdfs:label     "vocal";
+        mh:subgenreOf  <http://example.org/music-history/genre/pop> , <http://example.org/music-history/genre/rock> .
+
+<http://example.org/music-history/genre/pop>
+        rdf:type    mo:Genre;
+        rdfs:label  "pop" .
+
+<http://example.org/music-history/genre/mod>
+        rdf:type       mo:Genre;
+        rdfs:label     "mod";
+        mh:subgenreOf  <http://example.org/music-history/genre/funk___soul> , <http://example.org/music-history/genre/pop> , <http://example.org/music-history/genre/rock> .
+
+<http://example.org/music-history/genre/pop_rock>
+        rdf:type       mo:Genre;
+        rdfs:label     "pop rock";
+        mh:subgenreOf  <http://example.org/music-history/genre/pop> , <http://example.org/music-history/genre/rock> .
+
+<http://example.org/music-history/genre/rock>
+        rdf:type    mo:Genre;
+        rdfs:label  "rock" .

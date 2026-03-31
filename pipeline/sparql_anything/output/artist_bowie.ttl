@@ -1,0 +1,176 @@
+PREFIX dc:     <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
+PREFIX fx:     <http://sparql.xyz/facade-x/ns/>
+PREFIX mb:     <http://musicbrainz.org/artist/>
+PREFIX mh:     <http://example.org/music-history/>
+PREFIX mo:     <http://purl.org/ontology/mo/>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+PREFIX xyz:    <http://sparql.xyz/facade-x/data/>
+
+<http://example.org/music-history/album/8b7bd1c2-be07-3083-989a-714f219f1ff8>
+        rdf:type        mo:Release;
+        rdfs:label      "Pin Ups";
+        mh:releaseDate  "1973-10-19";
+        dc:title        "Pin Ups" .
+
+<http://example.org/music-history/album/50f8710f-3ae6-319b-85a7-afe783f13449>
+        rdf:type        mo:Release;
+        rdfs:label      "Aladdin Sane";
+        mh:releaseDate  "1973-04-19";
+        dc:title        "Aladdin Sane" .
+
+<http://example.org/music-history/album/6c9ae3dd-32ad-472c-96be-69d0a3536261>
+        rdf:type        mo:Release;
+        rdfs:label      "The Rise and Fall of Ziggy Stardust and the Spiders From Mars";
+        mh:releaseDate  "1972-06-06";
+        dc:title        "The Rise and Fall of Ziggy Stardust and the Spiders From Mars" .
+
+<http://example.org/music-history/album/743b0b2e-a23a-3182-950e-232f8cb0dfb7>
+        rdf:type        mo:Release;
+        rdfs:label      "Hunky Dory";
+        mh:releaseDate  "1971-12-17";
+        dc:title        "Hunky Dory" .
+
+<http://example.org/music-history/album/2536a41d-fde9-35d5-a6c6-cd4d94ffd916>
+        rdf:type        mo:Release;
+        rdfs:label      "The Man Who Sold the World";
+        mh:releaseDate  "1970-11-04";
+        dc:title        "The Man Who Sold the World" .
+
+<http://example.org/music-history/album/2e12918c-4973-3537-b9ab-e4723ae1ae1d>
+        rdf:type        mo:Release;
+        rdfs:label      "David Bowie";
+        mh:releaseDate  "1969-11-04";
+        dc:title        "David Bowie" .
+
+<http://example.org/music-history/album/5db40351-97ed-36a8-88e2-a21a2603cae1>
+        rdf:type        mo:Release;
+        rdfs:label      "David Bowie";
+        mh:releaseDate  "1967-06";
+        dc:title        "David Bowie" .
+
+<http://example.org/music-history/album/2d0af79a-cb12-32e3-9cae-21696b910d53>
+        rdf:type        mo:Release;
+        rdfs:label      "Tonight";
+        mh:releaseDate  "1984-09-01";
+        dc:title        "Tonight" .
+
+<http://example.org/music-history/album/28f8a0f8-0eb9-35a2-b6cd-d5be21e4428c>
+        rdf:type        mo:Release;
+        rdfs:label      "Never Let Me Down";
+        mh:releaseDate  "1987-04-18";
+        dc:title        "Never Let Me Down" .
+
+<http://example.org/music-history/album/f5cc15ea-67a8-3c6b-9887-d45ae13a3156>
+        rdf:type        mo:Release;
+        rdfs:label      "Black Tie White Noise";
+        mh:releaseDate  "1993-04-05";
+        dc:title        "Black Tie White Noise" .
+
+<http://example.org/music-history/album/f05647bf-86a7-3e6e-872a-20eb465be0a5>
+        rdf:type        mo:Release;
+        rdfs:label      "1.Outside: The Nathan Adler Diaries: A Hyper Cycle";
+        mh:releaseDate  "1995-09-23";
+        dc:title        "1.Outside: The Nathan Adler Diaries: A Hyper Cycle" .
+
+<http://example.org/music-history/album/9a723e6e-2ede-371b-88bf-396cc362d77b>
+        rdf:type        mo:Release;
+        rdfs:label      "Earthling";
+        mh:releaseDate  "1997-02-01";
+        dc:title        "Earthling" .
+
+<http://example.org/music-history/album/e8a94ea7-8466-389e-830a-d356801ca68c>
+        rdf:type        mo:Release;
+        rdfs:label      "‘hours…’";
+        mh:releaseDate  "1999-10-05";
+        dc:title        "‘hours…’" .
+
+<http://example.org/music-history/album/fed49206-4869-307d-9bfa-08109424cb73>
+        rdf:type        mo:Release;
+        rdfs:label      "Heathen";
+        mh:releaseDate  "2002-06-05";
+        dc:title        "Heathen" .
+
+<http://example.org/music-history/album/0f9d1be4-e975-39e9-a5ee-867c87824f42>
+        rdf:type        mo:Release;
+        rdfs:label      "Reality";
+        mh:releaseDate  "2003-09-15";
+        dc:title        "Reality" .
+
+<http://example.org/music-history/album/84cf1d46-2e8c-430e-8361-f04ebf87f20d>
+        rdf:type        mo:Release;
+        rdfs:label      "Toy";
+        mh:releaseDate  "2011-03-20";
+        dc:title        "Toy" .
+
+<http://example.org/music-history/album/0dc4835d-b21a-3612-bac6-ab1e782a1396>
+        rdf:type        mo:Release;
+        rdfs:label      "Diamond Dogs";
+        mh:releaseDate  "1974-05-24";
+        dc:title        "Diamond Dogs" .
+
+<http://example.org/music-history/album/8c2a0eae-1359-3577-9127-e3d862acc2a2>
+        rdf:type        mo:Release;
+        rdfs:label      "Young Americans";
+        mh:releaseDate  "1975-03-07";
+        dc:title        "Young Americans" .
+
+<http://example.org/music-history/album/686cdbd1-b400-32d8-8cb8-9317a2e41a58>
+        rdf:type        mo:Release;
+        rdfs:label      "Station to Station";
+        mh:releaseDate  "1976-01-23";
+        dc:title        "Station to Station" .
+
+<http://example.org/music-history/album/f6a51281-56c4-3538-b915-65a9d4eb29b5>
+        rdf:type        mo:Release;
+        rdfs:label      "Low";
+        mh:releaseDate  "1977-01-14";
+        dc:title        "Low" .
+
+<http://example.org/music-history/album/1f5ef8d3-10ca-30eb-b41e-85b16987d412>
+        rdf:type        mo:Release;
+        rdfs:label      "“Heroes”";
+        mh:releaseDate  "1977-10-14";
+        dc:title        "“Heroes”" .
+
+<http://example.org/music-history/album/002ea22f-70c6-3bba-830e-4e0af067993c>
+        rdf:type        mo:Release;
+        rdfs:label      "David Bowie Narrates Prokofiev’s Peter and the Wolf";
+        mh:releaseDate  "1978";
+        dc:title        "David Bowie Narrates Prokofiev’s Peter and the Wolf" .
+
+<http://example.org/music-history/album/d6dd84a2-1a62-378c-b6c9-86a8b2211634>
+        rdf:type        mo:Release;
+        rdfs:label      "Lodger";
+        mh:releaseDate  "1979-05-18";
+        dc:title        "Lodger" .
+
+<http://example.org/music-history/album/bb13cb45-254c-3a61-89a5-15d22a97e6d6>
+        rdf:type        mo:Release;
+        rdfs:label      "Scary Monsters… and Super Creeps";
+        mh:releaseDate  "1980-09-12";
+        dc:title        "Scary Monsters… and Super Creeps" .
+
+<http://example.org/music-history/album/75c2bddf-1799-3eda-b6b3-a0cf5189d8ed>
+        rdf:type        mo:Release;
+        rdfs:label      "Let’s Dance";
+        mh:releaseDate  "1983-03";
+        dc:title        "Let’s Dance" .
+
+<http://example.org/music-history/country/gb>
+        rdf:type    mh:Country;
+        rdfs:label  "GB" .
+
+mb:5441c29d-3602-4898-b1a1-b77fa23b8e50
+        rdf:type            mo:SoloMusicArtist;
+        rdfs:label          "David Bowie";
+        mh:birthPlace       "Brixton";
+        mh:countryOfOrigin  <http://example.org/music-history/country/gb>;
+        mh:released         <http://example.org/music-history/album/8b7bd1c2-be07-3083-989a-714f219f1ff8> , <http://example.org/music-history/album/50f8710f-3ae6-319b-85a7-afe783f13449> , <http://example.org/music-history/album/6c9ae3dd-32ad-472c-96be-69d0a3536261> , <http://example.org/music-history/album/743b0b2e-a23a-3182-950e-232f8cb0dfb7> , <http://example.org/music-history/album/2536a41d-fde9-35d5-a6c6-cd4d94ffd916> , <http://example.org/music-history/album/2e12918c-4973-3537-b9ab-e4723ae1ae1d> , <http://example.org/music-history/album/5db40351-97ed-36a8-88e2-a21a2603cae1> , <http://example.org/music-history/album/2d0af79a-cb12-32e3-9cae-21696b910d53> , <http://example.org/music-history/album/28f8a0f8-0eb9-35a2-b6cd-d5be21e4428c> , <http://example.org/music-history/album/f5cc15ea-67a8-3c6b-9887-d45ae13a3156> , <http://example.org/music-history/album/f05647bf-86a7-3e6e-872a-20eb465be0a5> , <http://example.org/music-history/album/9a723e6e-2ede-371b-88bf-396cc362d77b> , <http://example.org/music-history/album/e8a94ea7-8466-389e-830a-d356801ca68c> , <http://example.org/music-history/album/fed49206-4869-307d-9bfa-08109424cb73> , <http://example.org/music-history/album/0f9d1be4-e975-39e9-a5ee-867c87824f42> , <http://example.org/music-history/album/84cf1d46-2e8c-430e-8361-f04ebf87f20d> , <http://example.org/music-history/album/0dc4835d-b21a-3612-bac6-ab1e782a1396> , <http://example.org/music-history/album/75c2bddf-1799-3eda-b6b3-a0cf5189d8ed> , <http://example.org/music-history/album/bb13cb45-254c-3a61-89a5-15d22a97e6d6> , <http://example.org/music-history/album/d6dd84a2-1a62-378c-b6c9-86a8b2211634> , <http://example.org/music-history/album/002ea22f-70c6-3bba-830e-4e0af067993c> , <http://example.org/music-history/album/1f5ef8d3-10ca-30eb-b41e-85b16987d412> , <http://example.org/music-history/album/f6a51281-56c4-3538-b915-65a9d4eb29b5> , <http://example.org/music-history/album/686cdbd1-b400-32d8-8cb8-9317a2e41a58> , <http://example.org/music-history/album/8c2a0eae-1359-3577-9127-e3d862acc2a2>;
+        foaf:name           "David Bowie";
+        schema:birthDate    "1947-01-08";
+        schema:deathDate    "2016-01-10";
+        schema:gender       "Male" .
