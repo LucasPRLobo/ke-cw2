@@ -28,7 +28,7 @@ comparisons = [
             PREFIX mh: <http://example.org/music-history/>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             SELECT ?awardName WHERE {
-                ?artist rdfs:label "David Bowie" .
+                ?artist rdfs:label "David Bowie"@en .
                 ?artist mh:wonAward ?award .
                 ?award rdfs:label ?awardName .
             }
@@ -42,7 +42,7 @@ comparisons = [
             PREFIX mh: <http://example.org/music-history/>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             SELECT DISTINCT ?instrumentName WHERE {
-                ?artist rdfs:label "John Lennon" .
+                ?artist rdfs:label "John Lennon"@en .
                 ?artist mh:playsInstrument ?inst .
                 ?inst rdfs:label ?instrumentName .
             }
@@ -57,7 +57,7 @@ comparisons = [
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             SELECT ?subgenre WHERE {
                 ?sub mh:subgenreOf ?parent .
-                ?parent rdfs:label "rock" .
+                ?parent rdfs:label "rock"@en .
                 ?sub rdfs:label ?subgenre .
             }
             ORDER BY ?subgenre
@@ -71,7 +71,7 @@ comparisons = [
             PREFIX mo: <http://purl.org/ontology/mo/>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             SELECT ?influencerName ?sharedGenre WHERE {
-                ?artist rdfs:label "David Bowie" .
+                ?artist rdfs:label "David Bowie"@en .
                 ?artist mh:influencedBy ?influencer .
                 ?artist mo:genre ?genre .
                 ?influencer mo:genre ?genre .
@@ -90,12 +90,12 @@ comparisons = [
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             SELECT DISTINCT ?countryName WHERE {
                 ?artist mo:genre ?genre .
-                ?genre rdfs:label "jazz" .
+                ?genre rdfs:label "jazz"@en .
                 ?artist mh:countryOfOrigin ?country .
                 ?country rdfs:label ?countryName .
                 ?artist mh:released ?album .
                 ?album mh:releaseDate ?date .
-                FILTER(STRSTARTS(?date, "196"))
+                FILTER(STRSTARTS(STR(?date), "196"))
             }
         """,
     },

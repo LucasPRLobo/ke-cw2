@@ -132,7 +132,7 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
             genre_name = normalise_genre(tag["name"])
             genre_uri = MH[f"genre/{genre_name}"]
             g.add((genre_uri, RDF.type, MO.Genre))
-            g.add((genre_uri, RDFS.label, Literal(tag["name"].lower())))
+            g.add((genre_uri, RDFS.label, Literal(tag["name"].lower(), lang="en")))
             g.add((artist_uri, MO.genre, genre_uri))
             artist_genre_uris.add(genre_uri)
 
@@ -145,7 +145,7 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
             genre_norm = normalise_genre(genre_name)
             genre_uri = MH[f"genre/{genre_norm}"]
             g.add((genre_uri, RDF.type, MO.Genre))
-            g.add((genre_uri, RDFS.label, Literal(genre_name.lower())))
+            g.add((genre_uri, RDFS.label, Literal(genre_name.lower(), lang="en")))
             g.add((artist_uri, MO.genre, genre_uri))
             artist_genre_uris.add(genre_uri)
 
@@ -171,9 +171,9 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
             genre_uri = MH[f"genre/{genre_norm}"]
             style_uri = MH[f"genre/{style_norm}"]
             g.add((genre_uri, RDF.type, MO.Genre))
-            g.add((genre_uri, RDFS.label, Literal(genre_name)))
+            g.add((genre_uri, RDFS.label, Literal(genre_name, lang="en")))
             g.add((style_uri, RDF.type, MO.Genre))
-            g.add((style_uri, RDFS.label, Literal(style_name)))
+            g.add((style_uri, RDFS.label, Literal(style_name, lang="en")))
             g.add((style_uri, MH.subgenreOf, genre_uri))
 
     # --- Artist relationships from MusicBrainz ---
@@ -227,7 +227,7 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
                         continue  # Skip non-instruments (e.g., "eponymous")
                     inst_uri = MH[f"instrument/{normalise_genre(normalised)}"]
                     g.add((inst_uri, RDF.type, MO.Instrument))
-                    g.add((inst_uri, RDFS.label, Literal(normalised)))
+                    g.add((inst_uri, RDFS.label, Literal(normalised, lang="en")))
                     member = artist_uri if direction == "forward" else target_uri
                     g.add((member, MH.playsInstrument, inst_uri))
 
@@ -259,7 +259,7 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
                 continue
             inst_uri = MH[f"instrument/{normalise_genre(normalised)}"]
             g.add((inst_uri, RDF.type, MO.Instrument))
-            g.add((inst_uri, RDFS.label, Literal(normalised)))
+            g.add((inst_uri, RDFS.label, Literal(normalised, lang="en")))
             g.add((artist_uri, MH.playsInstrument, inst_uri))
 
     # --- Awards from Wikidata ---
@@ -267,7 +267,7 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
         for award_name in wd_data.get("awards", []):
             award_uri = MH[f"award/{safe_uri(award_name)}"]
             g.add((award_uri, RDF.type, MH.Award))
-            g.add((award_uri, RDFS.label, Literal(award_name)))
+            g.add((award_uri, RDFS.label, Literal(award_name, lang="en")))
             g.add((artist_uri, MH.wonAward, award_uri))
 
     # --- Record labels from Wikidata ---
@@ -275,7 +275,7 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
         for label_name in wd_data.get("labels", []):
             label_uri = MH[f"label/{safe_uri(label_name)}"]
             g.add((label_uri, RDF.type, MH.RecordLabel))
-            g.add((label_uri, RDFS.label, Literal(label_name)))
+            g.add((label_uri, RDFS.label, Literal(label_name, lang="en")))
             g.add((artist_uri, MH.signedTo, label_uri))
 
     # --- Influences from Wikidata ---
@@ -333,7 +333,7 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
                 if comp["genre"].lower() not in GENRE_BLACKLIST:
                     genre_uri = MH[f"genre/{normalise_genre(comp['genre'])}"]
                     g.add((genre_uri, RDF.type, MO.Genre))
-                    g.add((genre_uri, RDFS.label, Literal(comp["genre"].lower())))
+                    g.add((genre_uri, RDFS.label, Literal(comp["genre"].lower(), lang="en")))
                     g.add((comp_uri, MO.genre, genre_uri))
 
     return artist_uri
@@ -488,7 +488,7 @@ def detect_cover_recordings(g):
             work_uri = MH[f"work/{safe_uri(work_data['title'])}"]
 
             g.add((work_uri, RDF.type, MH.MusicalWork))
-            g.add((work_uri, RDFS.label, Literal(work_data["title"])))
+            g.add((work_uri, RDFS.label, Literal(work_data["title"], lang="en")))
 
             for composer in composers:
                 if composer.get("mbid"):
