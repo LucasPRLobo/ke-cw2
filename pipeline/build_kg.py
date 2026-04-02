@@ -10,7 +10,7 @@ from sources.musicbrainz import fetch_artist as mb_fetch
 from sources.discogs import fetch_artist as dc_fetch
 from sources.wikidata import fetch_artist as wd_fetch
 from sources.wikipedia import fetch_artist as wp_fetch
-from mapping.structured import create_graph, map_artist, enrich_related_artists, consolidate_uris, assign_types_to_orphans
+from mapping.structured import create_graph, map_artist, enrich_related_artists, consolidate_uris, assign_types_to_orphans, detect_cover_recordings, classify_multinational_bands, validate_and_clean, assert_defined_class_instances
 from mapping.text import map_text_triples
 from ontology_header import add_ontology_header
 
@@ -97,6 +97,41 @@ def build_knowledge_graph(artist_list, output_path="../ontology/music_history_kg
     print(f"{'='*60}")
     assign_types_to_orphans(g)
     print(f"Graph after type assignment: {len(g)} triples")
+
+    # Step 10: Detect cover recordings
+    print(f"\n{'='*60}")
+    print("COVER DETECTION — matching tracks against compositions")
+    print(f"{'='*60}")
+    detect_cover_recordings(g)
+    print(f"Graph after cover detection: {len(g)} triples")
+
+    # Step 11: Classify multinational bands
+    print(f"\n{'='*60}")
+    print("BAND CLASSIFICATION — identifying multinational bands")
+    print(f"{'='*60}")
+    classify_multinational_bands(g)
+    print(f"Graph after classification: {len(g)} triples")
+
+    # Step 12: Second type assignment pass (catches composers from cover detection)
+    print(f"\n{'='*60}")
+    print("TYPE ASSIGNMENT (pass 2) — typing entities from cover detection")
+    print(f"{'='*60}")
+    assign_types_to_orphans(g)
+    print(f"Graph after second type pass: {len(g)} triples")
+
+    # Step 13: Validate and clean data quality issues
+    print(f"\n{'='*60}")
+    print("VALIDATION — checking for data quality issues")
+    print(f"{'='*60}")
+    validate_and_clean(g)
+    print(f"Graph after validation: {len(g)} triples")
+
+    # Step 14: Assert defined class instances
+    print(f"\n{'='*60}")
+    print("DEFINED CLASSES — asserting instances from data")
+    print(f"{'='*60}")
+    assert_defined_class_instances(g)
+    print(f"Graph after defined class assertion: {len(g)} triples")
 
     # Save
     g.serialize(destination=output_path, format="turtle")

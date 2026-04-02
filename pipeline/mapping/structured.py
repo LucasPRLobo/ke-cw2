@@ -38,6 +38,32 @@ def create_graph():
     return g
 
 
+ISO_COUNTRY_NAMES = {
+    "us": "United States", "gb": "United Kingdom", "de": "Germany",
+    "fr": "France", "br": "Brazil", "jm": "Jamaica", "ng": "Nigeria",
+    "za": "South Africa", "sn": "Senegal", "cu": "Cuba", "es": "Spain",
+    "jp": "Japan", "kr": "South Korea", "in": "India", "at": "Austria",
+    "pl": "Poland", "it": "Italy", "ru": "Russia", "cv": "Cape Verde",
+    "ie": "Ireland", "au": "Australia", "ca": "Canada", "se": "Sweden",
+    "nl": "Netherlands", "be": "Belgium", "ar": "Argentina", "mx": "Mexico",
+    "eg": "Egypt", "il": "Israel", "pt": "Portugal",
+}
+
+
+def _typed_date_literal(date_str):
+    """Return a Literal with the correct XSD datatype based on date precision."""
+    if not date_str:
+        return Literal(date_str)
+    if len(date_str) == 10:     # YYYY-MM-DD
+        return Literal(date_str, datatype=XSD.date)
+    elif len(date_str) == 7:    # YYYY-MM
+        return Literal(date_str, datatype=XSD.gYearMonth)
+    elif len(date_str) == 4:    # YYYY
+        return Literal(date_str, datatype=XSD.gYear)
+    else:
+        return Literal(date_str)
+
+
 def map_artist(g, mb_data, dc_data=None, wd_data=None):
     """Map a single artist's data from all structured sources to RDF triples.
 
@@ -63,36 +89,31 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
         g.add((artist_uri, RDF.type, MO.MusicArtist))
 
     # --- Name ---
-    g.add((artist_uri, FOAF.name, Literal(mb_data["name"])))
-    g.add((artist_uri, RDFS.label, Literal(mb_data["name"])))
+    g.add((artist_uri, FOAF.name, Literal(mb_data["name"], lang="en")))
+    g.add((artist_uri, RDFS.label, Literal(mb_data["name"], lang="en")))
 
     # --- Real name (from Discogs) ---
     if dc_data and dc_data.get("realname"):
-        g.add((artist_uri, MH.realName, Literal(dc_data["realname"])))
+        g.add((artist_uri, MH.realName, Literal(dc_data["realname"], lang="en")))
 
     # --- Country ---
     if mb_data.get("country"):
-        country_uri = MH[f"country/{mb_data['country'].lower()}"]
+        country_code = mb_data["country"].lower()
+        country_uri = MH[f"country/{country_code}"]
         g.add((country_uri, RDF.type, MH.Country))
-        g.add((country_uri, RDFS.label, Literal(mb_data["country"])))
+        g.add((country_uri, RDFS.label, Literal(mb_data["country"], lang="en")))
+        full_name = ISO_COUNTRY_NAMES.get(country_code)
+        if full_name:
+            g.add((country_uri, RDFS.label, Literal(full_name, lang="en")))
         g.add((artist_uri, MH.countryOfOrigin, country_uri))
 
     # --- Birth/death dates ---
-    # MusicBrainz dates can be partial (e.g., "1960" or "1960-01")
-    # Only use xsd:date for full YYYY-MM-DD, otherwise store as string
+    # Uses _typed_date_literal for correct XSD types: xsd:date, xsd:gYearMonth, xsd:gYear
     life_span = mb_data.get("life_span", {})
     if life_span.get("begin"):
-        date_val = life_span["begin"]
-        if len(date_val) == 10:  # YYYY-MM-DD
-            g.add((artist_uri, SCHEMA.birthDate, Literal(date_val, datatype=XSD.date)))
-        else:
-            g.add((artist_uri, SCHEMA.birthDate, Literal(date_val)))
+        g.add((artist_uri, SCHEMA.birthDate, _typed_date_literal(life_span["begin"])))
     if life_span.get("end"):
-        date_val = life_span["end"]
-        if len(date_val) == 10:  # YYYY-MM-DD
-            g.add((artist_uri, SCHEMA.deathDate, Literal(date_val, datatype=XSD.date)))
-        else:
-            g.add((artist_uri, SCHEMA.deathDate, Literal(date_val)))
+        g.add((artist_uri, SCHEMA.deathDate, _typed_date_literal(life_span["end"])))
 
     # --- Gender ---
     if mb_data.get("gender"):
@@ -103,6 +124,9 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
         g.add((artist_uri, MH.birthPlace, Literal(mb_data["begin_area"])))
 
     # --- Genres from MusicBrainz tags (filtered) ---
+    # Collect genre URIs for later propagation to albums (David's feedback Point 2)
+    artist_genre_uris = set()
+
     for tag in mb_data.get("tags", []):
         if is_valid_genre(tag["name"], tag.get("count", 0)):
             genre_name = normalise_genre(tag["name"])
@@ -110,27 +134,46 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
             g.add((genre_uri, RDF.type, MO.Genre))
             g.add((genre_uri, RDFS.label, Literal(tag["name"].lower())))
             g.add((artist_uri, MO.genre, genre_uri))
+            artist_genre_uris.add(genre_uri)
 
     # --- Genres from Wikidata ---
     if wd_data:
+        from config import GENRE_BLACKLIST
         for genre_name in wd_data.get("genres", []):
+            if genre_name.lower() in GENRE_BLACKLIST:
+                continue
             genre_norm = normalise_genre(genre_name)
             genre_uri = MH[f"genre/{genre_norm}"]
             g.add((genre_uri, RDF.type, MO.Genre))
             g.add((genre_uri, RDFS.label, Literal(genre_name.lower())))
             g.add((artist_uri, MO.genre, genre_uri))
+            artist_genre_uris.add(genre_uri)
 
     # --- Genre/Style hierarchy from Discogs ---
+    # Use an allowlist of valid Discogs music genres (not "Non-Music", "Stage & Screen" etc.)
+    VALID_DISCOGS_GENRES = {
+        "blues", "brass & military", "classical", "country", "electronic",
+        "folk, world, & country", "funk / soul", "hip hop", "jazz", "latin",
+        "pop", "reggae", "rock",
+    }
     if dc_data:
+        from config import GENRE_BLACKLIST
         for pair in dc_data.get("genre_style_pairs", []):
+            genre_name = pair["genre"].lower()
+            style_name = pair["style"].lower()
+            # Only include pairs where the parent genre is a known music genre
+            if genre_name not in VALID_DISCOGS_GENRES:
+                continue
+            if style_name in GENRE_BLACKLIST:
+                continue
             genre_norm = normalise_genre(pair["genre"])
             style_norm = normalise_genre(pair["style"])
             genre_uri = MH[f"genre/{genre_norm}"]
             style_uri = MH[f"genre/{style_norm}"]
             g.add((genre_uri, RDF.type, MO.Genre))
-            g.add((genre_uri, RDFS.label, Literal(pair["genre"].lower())))
+            g.add((genre_uri, RDFS.label, Literal(genre_name)))
             g.add((style_uri, RDF.type, MO.Genre))
-            g.add((style_uri, RDFS.label, Literal(pair["style"].lower())))
+            g.add((style_uri, RDFS.label, Literal(style_name)))
             g.add((style_uri, MH.subgenreOf, genre_uri))
 
     # --- Artist relationships from MusicBrainz ---
@@ -141,18 +184,40 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
 
         target_uri = MB[target_mbid]
         target_name = rel.get("target_name", "Unknown")
-        g.add((target_uri, RDFS.label, Literal(target_name)))
+        g.add((target_uri, RDFS.label, Literal(target_name, lang="en")))
 
         rel_type = rel.get("type", "")
         direction = rel.get("direction", "")
 
         if rel_type == "member of band":
+            # Skip eponymous groups (artist name == group name) to avoid
+            # self-referencing member_of triples (e.g., "Bob Marley" member_of "Bob Marley")
+            artist_name_lower = mb_data.get("name", "").lower().strip()
+            target_name_lower = target_name.lower().strip()
+            if artist_name_lower == target_name_lower:
+                continue
+
+            # Only type as MusicGroup if MB reports the target as type "Group"
+            # and disambiguation doesn't indicate a label, project, or collective
+            target_type = rel.get("target_type", "")
+            target_disambig = rel.get("target_disambiguation", "").lower()
+            NON_BAND_INDICATORS = {"label", "record label", "recording project",
+                                   "side project", "collective", "production"}
+            is_non_band = any(ind in target_disambig for ind in NON_BAND_INDICATORS)
+
             if direction == "forward":
+                if is_non_band:
+                    continue  # Skip — not a real performing band
                 g.add((artist_uri, MO.member_of, target_uri))
-                g.add((target_uri, RDF.type, MO.MusicGroup))
+                # Only type as MusicGroup if not already typed as SoloMusicArtist
+                # (avoids disjointness violation: SoloMusicArtist ⊥ MusicGroup)
+                if (target_type == "Group" or not target_type) and \
+                   not any(g.triples((target_uri, RDF.type, MO.SoloMusicArtist))):
+                    g.add((target_uri, RDF.type, MO.MusicGroup))
             else:
                 g.add((target_uri, MO.member_of, artist_uri))
-                g.add((target_uri, RDF.type, MO.SoloMusicArtist))
+                if not any(g.triples((target_uri, RDF.type, MO.MusicGroup))):
+                    g.add((target_uri, RDF.type, MO.SoloMusicArtist))
 
             # Instruments from attributes (normalised per RAG finding P20)
             for attr in rel.get("attributes", []):
@@ -168,12 +233,15 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
 
         elif rel_type == "collaboration":
             g.add((artist_uri, MH.collaboratedWith, target_uri))
+            g.add((target_uri, MH.collaboratedWith, artist_uri))  # symmetric
 
         elif rel_type == "influenced by":
             if direction == "forward":
                 g.add((artist_uri, MH.influencedBy, target_uri))
+                g.add((target_uri, MH.influenced, artist_uri))    # inverse
             else:
                 g.add((target_uri, MH.influencedBy, artist_uri))
+                g.add((artist_uri, MH.influenced, target_uri))    # inverse
 
         elif rel_type == "producer":
             if direction == "backward":
@@ -214,19 +282,27 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
     if wd_data:
         for inf_name in wd_data.get("influences", []):
             inf_uri = MH[f"artist/{safe_uri(inf_name)}"]
-            g.add((inf_uri, RDFS.label, Literal(inf_name)))
+            g.add((inf_uri, RDFS.label, Literal(inf_name, lang="en")))
             g.add((artist_uri, MH.influencedBy, inf_uri))
+            g.add((inf_uri, MH.influenced, artist_uri))  # inverse
 
     # --- Release groups (albums) from MusicBrainz ---
     for rg in mb_data.get("release_groups", []):
         album_uri = MH[f"album/{rg['id']}"]
         g.add((album_uri, RDF.type, MO.Release))
-        g.add((album_uri, RDFS.label, Literal(rg["title"])))
-        g.add((album_uri, DC.title, Literal(rg["title"])))
+        g.add((album_uri, RDFS.label, Literal(rg["title"], lang="en")))
+        g.add((album_uri, DC.title, Literal(rg["title"], lang="en")))
         g.add((artist_uri, MH.released, album_uri))
+        g.add((album_uri, MH.releasedBy, artist_uri))  # inverse
 
         if rg.get("first_release_date"):
-            g.add((album_uri, MH.releaseDate, Literal(rg["first_release_date"])))
+            g.add((album_uri, MH.releaseDate, _typed_date_literal(rg["first_release_date"])))
+
+        # Propagate artist genres to album (David's feedback Point 2)
+        # Note: this is approximate — an artist's overall genres may not match
+        # every album. Documented as a known limitation in the report.
+        for genre_uri in artist_genre_uris:
+            g.add((album_uri, MO.genre, genre_uri))
 
     # --- Tracks from MusicBrainz recordings ---
     for rg_id, tracks in mb_data.get("tracks", {}).items():
@@ -235,9 +311,10 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
             if track.get("id"):
                 track_uri = MB_RECORDING[track["id"]]
                 g.add((track_uri, RDF.type, MO.Track))
-                g.add((track_uri, RDFS.label, Literal(track.get("title", "Unknown"))))
-                g.add((track_uri, DC.title, Literal(track.get("title", "Unknown"))))
+                g.add((track_uri, RDFS.label, Literal(track.get("title", "Unknown"), lang="en")))
+                g.add((track_uri, DC.title, Literal(track.get("title", "Unknown"), lang="en")))
                 g.add((album_uri, MH.hasTrack, track_uri))
+                g.add((track_uri, MH.trackOn, album_uri))  # inverse
                 if track.get("length"):
                     g.add((track_uri, MH.duration, Literal(int(track["length"]), datatype=XSD.integer)))
 
@@ -246,17 +323,187 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
         for comp in wd_data.get("compositions", []):
             comp_uri = MH[f"composition/{safe_uri(comp['title'])}"]
             g.add((comp_uri, RDF.type, MH.MusicalWork))
-            g.add((comp_uri, RDFS.label, Literal(comp["title"])))
+            g.add((comp_uri, RDFS.label, Literal(comp["title"], lang="en")))
             g.add((artist_uri, MH.composed, comp_uri))
+            g.add((comp_uri, MH.composedBy, artist_uri))  # inverse
             if comp.get("date"):
-                g.add((comp_uri, MH.compositionDate, Literal(comp["date"])))
+                g.add((comp_uri, MH.compositionDate, _typed_date_literal(comp["date"])))
             if comp.get("genre"):
-                genre_uri = MH[f"genre/{normalise_genre(comp['genre'])}"]
-                g.add((genre_uri, RDF.type, MO.Genre))
-                g.add((genre_uri, RDFS.label, Literal(comp["genre"].lower())))
-                g.add((comp_uri, MO.genre, genre_uri))
+                from config import GENRE_BLACKLIST
+                if comp["genre"].lower() not in GENRE_BLACKLIST:
+                    genre_uri = MH[f"genre/{normalise_genre(comp['genre'])}"]
+                    g.add((genre_uri, RDF.type, MO.Genre))
+                    g.add((genre_uri, RDFS.label, Literal(comp["genre"].lower())))
+                    g.add((comp_uri, MO.genre, genre_uri))
 
     return artist_uri
+
+
+def detect_cover_recordings(g):
+    """Detect cover recordings using Wikidata + MusicBrainz work relationships.
+
+    Strategy (David's feedback Point 3):
+    1. Collect all MB work IDs from cached track data
+    2. Batch query Wikidata for composers of those works (P435 → P86)
+    3. Compare Wikidata composer against the performing artist
+    4. If performer ≠ original composer AND composer is not a band member → cover
+    5. Fallback: use MB work-rels composer data
+
+    Uses Wikidata as authoritative source for composer attribution.
+    """
+    import json
+    import os
+    from SPARQLWrapper import SPARQLWrapper, JSON as SPJSON
+
+    covers_found = 0
+
+    # Step 1: Collect all work IDs and their track/artist info from cached MB data
+    work_tracks = {}  # work_id → list of {track_id, track_title, artist_mbid, artist_name}
+    artist_members = {}  # artist_mbid → set of member MBIDs
+
+    cache_dir = "data/structured"
+    if not os.path.exists(cache_dir):
+        print("  [COVERS] No cached data — skipping")
+        return 0
+
+    for filename in os.listdir(cache_dir):
+        if not filename.startswith("musicbrainz_"):
+            continue
+        with open(os.path.join(cache_dir, filename)) as f:
+            mb_data = json.load(f)
+
+        artist_mbid = mb_data.get("mbid")
+        if not artist_mbid:
+            continue
+
+        # Build member set for this artist
+        members = {artist_mbid}
+        for rel in mb_data.get("artist_rels", []):
+            if rel.get("type") == "member of band" and rel.get("target_mbid"):
+                members.add(rel["target_mbid"])
+        artist_members[artist_mbid] = members
+
+        for rg_id, tracks in mb_data.get("tracks", {}).items():
+            for track in tracks:
+                work = track.get("work")
+                if not work or not work.get("id"):
+                    continue
+                work_id = work["id"]
+                if work_id not in work_tracks:
+                    work_tracks[work_id] = {"title": work["title"], "tracks": [], "mb_composers": work.get("composers", [])}
+                work_tracks[work_id]["tracks"].append({
+                    "track_id": track["id"],
+                    "artist_mbid": artist_mbid,
+                })
+
+    if not work_tracks:
+        print("  [COVERS] No works found in track data — skipping")
+        return 0
+
+    print(f"  [COVERS] Found {len(work_tracks)} unique works across tracks")
+
+    # Step 2: Batch query Wikidata for composers using MB work IDs
+    COVER_CACHE_PATH = "data/structured/wikidata_work_composers.json"
+    wd_composers = {}
+    if os.path.exists(COVER_CACHE_PATH):
+        with open(COVER_CACHE_PATH) as f:
+            wd_composers = json.load(f)
+
+    # Find works not yet in cache
+    uncached_work_ids = [wid for wid in work_tracks if wid not in wd_composers]
+
+    if uncached_work_ids:
+        print(f"  [COVERS] Querying Wikidata for {len(uncached_work_ids)} work composers...")
+        sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+        sparql.addCustomHttpHeader("User-Agent", "KE-CW2-MusicHistory/0.1")
+
+        # Batch in groups of 50
+        import time
+        for i in range(0, len(uncached_work_ids), 50):
+            batch = uncached_work_ids[i:i+50]
+            values = " ".join(f'"{wid}"' for wid in batch)
+            query = f"""
+            SELECT ?mbWorkId ?composerLabel ?composerMbId WHERE {{
+              VALUES ?mbWorkId {{ {values} }}
+              ?work wdt:P435 ?mbWorkId .
+              ?work wdt:P86 ?composer .
+              OPTIONAL {{ ?composer wdt:P434 ?composerMbId . }}
+              SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+            }}
+            """
+            try:
+                sparql.setQuery(query)
+                sparql.setReturnFormat(SPJSON)
+                results = sparql.query().convert()
+                for r in results["results"]["bindings"]:
+                    wid = r["mbWorkId"]["value"]
+                    composer_name = r["composerLabel"]["value"]
+                    composer_mb = r.get("composerMbId", {}).get("value")
+                    if wid not in wd_composers:
+                        wd_composers[wid] = []
+                    wd_composers[wid].append({
+                        "name": composer_name,
+                        "mbid": composer_mb,
+                    })
+                time.sleep(2)  # Respect Wikidata rate limits
+            except Exception as e:
+                print(f"  [COVERS] Wikidata query error: {e}")
+
+            # Mark works with no results so we don't re-query
+            for wid in batch:
+                if wid not in wd_composers:
+                    wd_composers[wid] = []
+
+        # Save cache
+        with open(COVER_CACHE_PATH, "w") as f:
+            json.dump(wd_composers, f, indent=2)
+        print(f"  [COVERS] Cached {len(wd_composers)} work composer lookups")
+
+    # Step 3: Detect covers
+    for work_id, work_data in work_tracks.items():
+        # Get composers — prefer Wikidata, fallback to MB
+        composers = wd_composers.get(work_id, [])
+        if not composers:
+            composers = work_data.get("mb_composers", [])
+        if not composers:
+            continue
+
+        composer_mbids = {c.get("mbid") for c in composers if c.get("mbid")}
+
+        for track_info in work_data["tracks"]:
+            performer_mbid = track_info["artist_mbid"]
+            performer_members = artist_members.get(performer_mbid, {performer_mbid})
+
+            # Check if any composer is the performer or a band member
+            if composer_mbids & performer_members:
+                continue  # Composer is the performer or a band member — not a cover
+
+            if not composer_mbids:
+                # No MB IDs for composers — can't reliably compare
+                continue
+
+            # This is a cover
+            track_uri = URIRef(f"http://musicbrainz.org/recording/{track_info['track_id']}")
+            artist_uri = URIRef(f"http://musicbrainz.org/artist/{performer_mbid}")
+            work_uri = MH[f"work/{safe_uri(work_data['title'])}"]
+
+            g.add((work_uri, RDF.type, MH.MusicalWork))
+            g.add((work_uri, RDFS.label, Literal(work_data["title"])))
+
+            for composer in composers:
+                if composer.get("mbid"):
+                    composer_uri = URIRef(f"http://musicbrainz.org/artist/{composer['mbid']}")
+                    g.add((composer_uri, RDFS.label, Literal(composer["name"], lang="en")))
+                    g.add((composer_uri, MH.composed, work_uri))
+                    g.add((work_uri, MH.composedBy, composer_uri))  # inverse
+
+            g.add((track_uri, RDF.type, MH.CoverRecording))
+            g.add((track_uri, MH.covers, work_uri))
+            g.add((track_uri, MO.performer, artist_uri))
+            covers_found += 1
+
+    print(f"  [COVERS] Found {covers_found} cover recordings")
+    return covers_found
 
 
 def enrich_related_artists(g, mb_rate_limit=1.1):
@@ -333,17 +580,21 @@ def enrich_related_artists(g, mb_rate_limit=1.1):
 
         country = detail.get("country")
         if country:
-            country_uri = MH[f"country/{country.lower()}"]
+            country_code = country.lower()
+            country_uri = MH[f"country/{country_code}"]
             g.add((country_uri, RDF.type, MH.Country))
-            g.add((country_uri, RDFS.label, Literal(country)))
+            g.add((country_uri, RDFS.label, Literal(country, lang="en")))
+            full_name = ISO_COUNTRY_NAMES.get(country_code)
+            if full_name:
+                g.add((country_uri, RDFS.label, Literal(full_name, lang="en")))
             g.add((artist_uri, MH.countryOfOrigin, country_uri))
             enriched += 1
 
-        # Also add type if missing
+        # Also add type if missing (respecting disjointness)
         artist_type = detail.get("type", "")
-        if artist_type == "Person":
+        if artist_type == "Person" and not any(g.triples((artist_uri, RDF.type, MO.MusicGroup))):
             g.add((artist_uri, RDF.type, MO.SoloMusicArtist))
-        elif artist_type == "Group":
+        elif artist_type == "Group" and not any(g.triples((artist_uri, RDF.type, MO.SoloMusicArtist))):
             g.add((artist_uri, RDF.type, MO.MusicGroup))
 
     # Save enrichment cache
@@ -420,8 +671,44 @@ def consolidate_uris(g):
 
         consolidated += 1
 
-    print(f"  [CONSOLIDATE] Merged {consolidated} duplicate URIs (mh:artist/ → mb:)")
-    return consolidated
+    # Second pass: merge duplicate mb: URIs (same label, different MBIDs)
+    # MusicBrainz can have multiple entries for the same real-world artist
+    mb_label_groups = {}
+    for s, p, o in g.triples((None, RDFS.label, None)):
+        uri_str = str(s)
+        if uri_str.startswith("http://musicbrainz.org/artist/"):
+            label_key = str(o).lower().strip()
+            mb_label_groups.setdefault(label_key, set()).add(s)
+
+    mb_merged = 0
+    for label, uris in mb_label_groups.items():
+        if len(uris) <= 1:
+            continue
+
+        uris_list = list(uris)
+        # Pick canonical: prefer the one with rdf:type assigned
+        canonical = None
+        for u in uris_list:
+            if any(g.triples((u, RDF.type, None))):
+                canonical = u
+                break
+        if canonical is None:
+            canonical = uris_list[0]
+
+        for u in uris_list:
+            if u == canonical:
+                continue
+            for s, p, o in list(g.triples((u, None, None))):
+                g.remove((s, p, o))
+                if p != RDFS.label or not any(g.triples((canonical, RDFS.label, o))):
+                    g.add((canonical, p, o))
+            for s, p, o in list(g.triples((None, None, u))):
+                g.remove((s, p, o))
+                g.add((s, p, canonical))
+            mb_merged += 1
+
+    print(f"  [CONSOLIDATE] Merged {consolidated} mh:→mb: + {mb_merged} mb:→mb: duplicates")
+    return consolidated + mb_merged
 
 
 def assign_types_to_orphans(g):
@@ -448,11 +735,19 @@ def assign_types_to_orphans(g):
         uri_str = str(entity)
 
         # Infer type from predicates
-        if any(g.triples((None, MH.influencedBy, entity))) or \
-           any(g.triples((None, MH.collaboratedWith, entity))) or \
-           any(g.triples((entity, MH.influencedBy, None))) or \
-           any(g.triples((entity, MH.collaboratedWith, None))):
+        # Note: influencedBy is excluded because artists can be influenced by
+        # non-musicians (e.g., Andy Warhol, Charlie Chaplin, Timothy Leary)
+        if any(g.triples((None, MH.collaboratedWith, entity))) or \
+           any(g.triples((entity, MH.collaboratedWith, None))) or \
+           any(g.triples((entity, MH.composed, None))) or \
+           any(g.triples((entity, MO.performer, None))):
             g.add((entity, RDF.type, MO.MusicArtist))
+            assigned += 1
+        elif any(g.triples((None, MH.influencedBy, entity))) or \
+             any(g.triples((entity, MH.influencedBy, None))):
+            # Influence targets may not be musicians — use broader Person type
+            from rdflib.namespace import FOAF
+            g.add((entity, RDF.type, FOAF.Person))
             assigned += 1
         elif any(g.triples((None, MO.member_of, entity))):
             g.add((entity, RDF.type, MO.MusicGroup))
@@ -463,3 +758,271 @@ def assign_types_to_orphans(g):
 
     print(f"  [TYPES] Assigned rdf:type to {assigned} orphan entities")
     return assigned
+
+
+def classify_multinational_bands(g):
+    """Auto-classify bands with members from >1 country as MultinationalBand.
+
+    Populates William's mh:MultinationalBand class from instance data.
+    A band is multinational if its members have different countryOfOrigin values.
+    """
+    query = """
+    PREFIX mo: <http://purl.org/ontology/mo/>
+    PREFIX mh: <http://example.org/music-history/>
+
+    SELECT ?band (COUNT(DISTINCT ?country) AS ?countryCount) WHERE {
+        ?member mo:member_of ?band .
+        ?band a mo:MusicGroup .
+        ?member mh:countryOfOrigin ?country .
+    }
+    GROUP BY ?band
+    HAVING (COUNT(DISTINCT ?country) > 1)
+    """
+    results = list(g.query(query))
+    classified = 0
+    for row in results:
+        g.add((row.band, RDF.type, MH.MultinationalBand))
+        classified += 1
+
+    print(f"  [CLASSIFY] {classified} bands classified as MultinationalBand")
+    return classified
+
+
+def validate_and_clean(g):
+    """Post-processing validation to catch and fix common data quality issues.
+
+    Detects and removes:
+    1. Self-referencing triples (A → property → A)
+    2. Type mismatches (genre as alterEgo, artist as performedAt venue)
+    3. Inverted producedBy triples (artist producedBy work instead of work producedBy artist)
+    4. Incorrect entity linking results
+
+    This step demonstrates that automated KG construction requires
+    validation — LLMs are fast but introduce noise that must be caught.
+    """
+    removed = 0
+    fixed = 0
+
+    # 1. Remove self-referencing triples
+    self_ref_props = [
+        MH.alterEgo, MH.influencedBy, MH.collaboratedWith,
+        MH.subgenreOf, MH.founded, MH.covers,
+    ]
+    for prop in self_ref_props:
+        for s, p, o in list(g.triples((None, prop, None))):
+            if s == o:
+                g.remove((s, p, o))
+                removed += 1
+
+    # 2. Remove alterEgo where object is a Genre (entity linking error)
+    for s, p, o in list(g.triples((None, MH.alterEgo, None))):
+        if any(g.triples((o, RDF.type, MO.Genre))):
+            g.remove((s, p, o))
+            removed += 1
+
+    # 3. Remove performedAt where object is a Genre (entity linking error)
+    for s, p, o in list(g.triples((None, MH.performedAt, None))):
+        if any(g.triples((o, RDF.type, MO.Genre))):
+            g.remove((s, p, o))
+            removed += 1
+
+    # 4. Fix inverted producedBy — if subject is an Artist and object is a Work,
+    #    the triple is inverted (should be Work producedBy Artist)
+    for s, p, o in list(g.triples((None, MH.producedBy, None))):
+        s_is_artist = any(g.triples((s, RDF.type, MO.MusicArtist))) or \
+                      any(g.triples((s, RDF.type, MO.SoloMusicArtist))) or \
+                      any(g.triples((s, RDF.type, MO.MusicGroup)))
+        o_is_artist = any(g.triples((o, RDF.type, MO.MusicArtist))) or \
+                      any(g.triples((o, RDF.type, MO.SoloMusicArtist))) or \
+                      any(g.triples((o, RDF.type, MO.MusicGroup)))
+        if s_is_artist and not o_is_artist:
+            # Inverted — subject is artist, object should be the producer
+            # Actually the whole triple is backwards: should be (work, producedBy, artist)
+            # Remove the bad triple
+            g.remove((s, p, o))
+            removed += 1
+
+    # 5. Fix inverted produced — same check
+    for s, p, o in list(g.triples((None, MH.produced, None))):
+        s_is_work = any(g.triples((s, RDF.type, MO.Release))) or \
+                    any(g.triples((s, RDF.type, MO.Track))) or \
+                    any(g.triples((s, RDF.type, MH.MusicalWork)))
+        if s_is_work:
+            # Work produced Artist — inverted
+            g.remove((s, p, o))
+            removed += 1
+
+    # 6. Remove founded where object matches the subject's own label
+    for s, p, o in list(g.triples((None, MH.founded, None))):
+        s_labels = {str(l).lower() for _, _, l in g.triples((s, RDFS.label, None))}
+        o_labels = {str(l).lower() for _, _, l in g.triples((o, RDFS.label, None))}
+        if s_labels & o_labels:
+            g.remove((s, p, o))
+            removed += 1
+
+    # 7. Remove subgenreOf self-loops (genre subgenreOf itself)
+    for s, p, o in list(g.triples((None, MH.subgenreOf, None))):
+        s_labels = {str(l).lower() for _, _, l in g.triples((s, RDFS.label, None))}
+        o_labels = {str(l).lower() for _, _, l in g.triples((o, RDFS.label, None))}
+        if s_labels & o_labels:
+            g.remove((s, p, o))
+            removed += 1
+
+    # 8. Remove self-referencing member_of (A member_of A)
+    for s, p, o in list(g.triples((None, MO.member_of, None))):
+        s_labels = {str(l).lower() for _, _, l in g.triples((s, RDFS.label, None))}
+        o_labels = {str(l).lower() for _, _, l in g.triples((o, RDFS.label, None))}
+        if s == o or (s_labels & o_labels):
+            g.remove((s, p, o))
+            removed += 1
+
+    # 9. Remove subgenreOf where parent is "non-music" (Discogs artifact)
+    for s, p, o in list(g.triples((None, MH.subgenreOf, None))):
+        o_labels = {str(l).lower() for _, _, l in g.triples((o, RDFS.label, None))}
+        if 'non-music' in o_labels:
+            g.remove((s, p, o))
+            removed += 1
+
+    # 10. Remove alterEgo where object is typed as Artist/MusicGroup (entity linking error)
+    #    alterEgo should link to a Persona (stage name), not another artist entity
+    for s, p, o in list(g.triples((None, MH.alterEgo, None))):
+        o_is_artist = any(g.triples((o, RDF.type, MO.MusicArtist))) or \
+                      any(g.triples((o, RDF.type, MO.SoloMusicArtist))) or \
+                      any(g.triples((o, RDF.type, MO.MusicGroup)))
+        if o_is_artist:
+            g.remove((s, p, o))
+            removed += 1
+
+    # 9. Remove alterEgo where object is a Release/Track/MusicalWork (entity linking error)
+    for s, p, o in list(g.triples((None, MH.alterEgo, None))):
+        o_is_work = any(g.triples((o, RDF.type, MO.Release))) or \
+                    any(g.triples((o, RDF.type, MO.Track))) or \
+                    any(g.triples((o, RDF.type, MH.MusicalWork)))
+        if o_is_work:
+            g.remove((s, p, o))
+            removed += 1
+
+    # 12. Remove performedAt where object is typed as Release/Track (venue linking error)
+    for s, p, o in list(g.triples((None, MH.performedAt, None))):
+        o_is_work = any(g.triples((o, RDF.type, MO.Release))) or \
+                    any(g.triples((o, RDF.type, MO.Track))) or \
+                    any(g.triples((o, RDF.type, MH.MusicalWork)))
+        if o_is_work:
+            g.remove((s, p, o))
+            removed += 1
+
+    # 13. Remove collaboratedWith where object is a Track (entity linking error)
+    #     e.g., "Montserrat Caballé" fuzzy-matched to a track title
+    for s, p, o in list(g.triples((None, MH.collaboratedWith, None))):
+        o_is_track = any(g.triples((o, RDF.type, MO.Track))) or \
+                     any(g.triples((o, RDF.type, MH.CoverRecording)))
+        if o_is_track:
+            g.remove((s, p, o))
+            removed += 1
+
+    # 14. Remove produced where object is not a work (entity linking error)
+    #     e.g., "Off the Wall - Michael Jackson" fuzzy-matched to "Michael Jackson"
+    WORK_TYPES = {MO.Release, MO.Track, MH.MusicalWork}
+    for s, p, o in list(g.triples((None, MH.produced, None))):
+        o_types = {t for _, _, t in g.triples((o, RDF.type, None))}
+        if o_types and not (o_types & WORK_TYPES):
+            g.remove((s, p, o))
+            removed += 1
+
+    # 15. Remove collaboratedWith where object is a Release (entity linking error)
+    #     e.g., "Stan Getz" fuzzy-matched to album "Getz / Gilberto"
+    for s, p, o in list(g.triples((None, MH.collaboratedWith, None))):
+        o_is_release = any(g.triples((o, RDF.type, MO.Release)))
+        if o_is_release:
+            g.remove((s, p, o))
+            removed += 1
+
+    # 16. Remove albumGrouping self-references (album grouped under itself)
+    for s, p, o in list(g.triples((None, MH.albumGrouping, None))):
+        s_labels = {str(l).lower() for _, _, l in g.triples((s, RDFS.label, None))}
+        o_labels = {str(l).lower() for _, _, l in g.triples((o, RDFS.label, None))}
+        if s_labels & o_labels:
+            g.remove((s, p, o))
+            removed += 1
+
+    # 17. Resolve disjointness violations (SoloMusicArtist ⊥ MusicGroup)
+    #     If an entity has both types, keep the one from its primary MB data:
+    #     - If it has member_of triples (it IS a member) → keep SoloMusicArtist
+    #     - If it has members (others are member_of it) → keep MusicGroup
+    for s in list(set(s for s, _, _ in g.triples((None, RDF.type, MO.SoloMusicArtist)))):
+        if any(g.triples((s, RDF.type, MO.MusicGroup))):
+            # Has both types — resolve
+            is_member = any(g.triples((s, MO.member_of, None)))
+            has_members = any(g.triples((None, MO.member_of, s)))
+            if has_members and not is_member:
+                g.remove((s, RDF.type, MO.SoloMusicArtist))
+            else:
+                g.remove((s, RDF.type, MO.MusicGroup))
+            removed += 1
+
+    print(f"  [VALIDATE] Removed {removed} invalid triples, fixed {fixed}")
+    return removed
+
+
+def assert_defined_class_instances(g):
+    """Explicitly assert instances of defined classes based on their conditions.
+
+    While a reasoner would infer these from owl:equivalentClass restrictions,
+    we also assert them explicitly to ensure SPARQL queries can find them
+    without requiring reasoning. (CW1 feedback: 'no instance inferred')
+
+    Defined classes:
+    - AwardWinningArtist: MusicArtist AND wonAward some MusicAward
+    - InternationalCollaborator: MusicArtist AND collaboratedWith some MusicArtist
+    - ProducerArtist: MusicArtist AND produced some work
+    """
+    asserted = 0
+
+    # AwardWinningArtist
+    query_award = """
+    PREFIX mo: <http://purl.org/ontology/mo/>
+    PREFIX mh: <http://example.org/music-history/>
+    SELECT DISTINCT ?artist WHERE {
+        ?artist mh:wonAward ?award .
+        { ?artist a mo:MusicArtist } UNION
+        { ?artist a mo:SoloMusicArtist } UNION
+        { ?artist a mo:MusicGroup }
+    }
+    """
+    for row in g.query(query_award):
+        g.add((row.artist, RDF.type, MH.AwardWinningArtist))
+        asserted += 1
+
+    # InternationalCollaborator
+    query_collab = """
+    PREFIX mo: <http://purl.org/ontology/mo/>
+    PREFIX mh: <http://example.org/music-history/>
+    SELECT DISTINCT ?artist WHERE {
+        ?artist mh:collaboratedWith ?other .
+        { ?artist a mo:MusicArtist } UNION
+        { ?artist a mo:SoloMusicArtist } UNION
+        { ?artist a mo:MusicGroup }
+    }
+    """
+    for row in g.query(query_collab):
+        g.add((row.artist, RDF.type, MH.InternationalCollaborator))
+        asserted += 1
+
+    # ProducerArtist — check produced OR producedBy (inverse)
+    query_producer = """
+    PREFIX mo: <http://purl.org/ontology/mo/>
+    PREFIX mh: <http://example.org/music-history/>
+    SELECT DISTINCT ?artist WHERE {
+        { ?artist mh:produced ?work } UNION
+        { ?work mh:producedBy ?artist }
+        { ?artist a mo:MusicArtist } UNION
+        { ?artist a mo:SoloMusicArtist } UNION
+        { ?artist a mo:MusicGroup }
+    }
+    """
+    for row in g.query(query_producer):
+        g.add((row.artist, RDF.type, MH.ProducerArtist))
+        asserted += 1
+
+    print(f"  [DEFINED] Asserted {asserted} defined class instances")
+    return asserted

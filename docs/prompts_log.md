@@ -450,4 +450,54 @@ Return as JSON: [{"album": "...", "producer": "...", "year": "..."}]
 
 ---
 
+## P24–P28 — LLM Text Extraction: Batch 2 (5 artists)
+
+- **Task**: Triple extraction from Wikipedia text — expanding coverage for sparse properties
+- **Date**: 2026-04-02
+- **Author**: Lucas Perez Reis Lobo
+- **LLM/Tool**: Claude
+- **Prompting technique**: Role-based + Constrained output (same template as P8, with expanded predicate list)
+- **Text source**: Wikipedia MediaWiki API intro text, cached by the pipeline in `pipeline/data/text/wikipedia_*.json`. Each text was fetched via `sources/wikipedia.py` using the cross-reference chain: MusicBrainz → Wikidata ID → Wikipedia sitelinks → Wikipedia article title → MediaWiki API `action=query&prop=extracts&explaintext=True&exintro=True`.
+- **Artists processed**: Miles Davis (P24), Elvis Presley (P25), Bob Marley (P26), Freddie Mercury (P27), Nina Simone (P28)
+- **Prompt design justification**: These 5 artists were selected to populate sparse properties identified in the KG audit: `producedBy` (1 triple), `alterEgo` (1), `pioneerOf` (1), `founded` (1), `hasMusicalPeriod` (2), `albumGrouping` (3). The prompt was expanded from P8 to include `pioneerOf`, `hasMusicalPeriod`, `founded`, and `performedAt` predicates specifically to target these gaps. The "Do NOT extract" list prevents duplication with Wikidata structured data (awards, instruments, labels, country).
+- **Results**:
+  - **Miles Davis** (P24): 29 triples — 7 genres (jazz, bebop, cool jazz, hard bop, modal jazz, post-bop, jazz fusion), 6 pioneerOf, 2 collaborations (Charlie Parker, Dizzy Gillespie), 5 albums, 2 quintet memberships, 1 musicalPeriod (bebop movement)
+  - **Elvis Presley** (P25): 13 triples — 1 alterEgo (King of Rock and Roll), 1 pioneerOf (rockabilly), 4 genres, 4 releases, 3 performedAt (comeback special, Las Vegas, Aloha from Hawaii)
+  - **Bob Marley** (P26): 17 triples — 1 pioneerOf (reggae), 3 genres (reggae, ska, rocksteady), 1 founded (Bob Marley and the Wailers), 2 memberOf, 7 releases, 1 performedAt (One Love Peace Concert)
+  - **Freddie Mercury** (P27): 17 triples — 1 alterEgo (Farrokh Bulsara), 1 memberOf (Queen), 2 genres, 5 Queen releases, 4 collaborations (Montserrat Caballé, Brian May, Roger Taylor, John Deacon), 3 Queen member assertions
+  - **Nina Simone** (P28): 17 triples — 2 alterEgo (Eunice Kathleen Waymon, High Priestess of Soul), 7 genres, 1 hasMusicalPeriod (civil rights movement), 7 releases
+- **Total new triples**: 93 across 5 artists
+- **Sparse properties populated**: pioneerOf (8 new), alterEgo (4 new), hasMusicalPeriod (2 new), performedAt (4 new), founded (1 new)
+- **Used in**: Text mapping pipeline, populating sparse properties for CW1 counter-example requirement
+
+---
+
+## P29–P33 — LLM Text Extraction: Batch 3 (targeted sparse property population)
+
+- **Task**: Triple extraction targeting `producedBy`, `albumGrouping`, `founded`, `alterEgo`
+- **Date**: 2026-04-02
+- **Author**: Lucas Perez Reis Lobo
+- **LLM/Tool**: Claude
+- **Prompting technique**: Role-based + Constrained output with targeted emphasis ("Focus ESPECIALLY on: producedBy, albumGrouping...")
+- **Text source**: Wikipedia MediaWiki API intro text, cached by the pipeline in `pipeline/data/text/wikipedia_*.json`. Cross-reference chain: MusicBrainz → Wikidata ID → Wikipedia sitelinks → MediaWiki API.
+- **Artists processed**: Johnny Cash (P29), Led Zeppelin (P30), Nirvana (P31), Bob Dylan (P32), John Lennon (P33)
+- **Prompt design justification**: These 5 artists were specifically selected because their Wikipedia texts mention: (1) famous producers (Rick Rubin→Cash, Jimmy Page→Led Zep, Butch Vig/Steve Albini→Nirvana), (2) named album groupings (American Recordings series), (3) founding of bands/organisations (Beatles, Plastic Ono Band). The prompts used "Focus ESPECIALLY on" directive to prioritise these sparse predicates over generic genre/release data.
+- **Results**:
+  - **Johnny Cash** (P29): 27 triples — 1 alterEgo (The Man in Black), 6 genres, 6 releases, 6 producedBy (all Rick Rubin), 6 albumGrouping (American Recordings series), 2 collaborations
+  - **Led Zeppelin** (P30): 27 triples — 4 hasMember + 4 memberOf, 7 genres, 6 releases, 6 producedBy (all Jimmy Page)
+  - **Nirvana** (P31): 19 triples — 4 hasMember + 4 memberOf, 3 genres, 1 pioneerOf (alternative rock), 4 releases, 3 producedBy (Jack Endino, Butch Vig, Steve Albini)
+  - **Bob Dylan** (P32): 15 triples — 2 alterEgo (Robert Allen Zimmerman, Robert Dylan), 1 hasMusicalPeriod (1960s), 3 genres, 7 releases, 1 collaboratedWith (The Band), 1 performedAt (1965 Newport Folk Festival)
+  - **John Lennon** (P33): 14 triples — 2 alterEgo (birth names), 2 founded (Beatles, Plastic Ono Band), 2 memberOf, 5 releases, 2 collaboratedWith (McCartney, Yoko Ono)
+- **Total new triples**: 102 across 5 artists
+- **Impact on sparse properties**:
+  - `producedBy`: 1 → **15** (+14)
+  - `albumGrouping`: 3 → **9** (+6)
+  - `alterEgo`: 5 → **9** (+4)
+  - `hasMember`: 5 → **13** (+8)
+  - `founded`: 2 → **5** (+3)
+  - `ProducerArtist` defined class: 2 → **7** instances
+- **Used in**: Text mapping pipeline, addressing CW1 counter-example feedback
+
+---
+
 <!-- Add new entries below -->

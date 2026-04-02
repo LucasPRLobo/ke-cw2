@@ -66,46 +66,90 @@ TYPE_MAP = {
 
 # Fuzzy match thresholds
 EXACT_THRESHOLD = 100
-CONFIDENT_THRESHOLD = 85
-PROVISIONAL_THRESHOLD = 70
+CONFIDENT_THRESHOLD = 90
+PROVISIONAL_THRESHOLD = 80
+
+# Stopwords to strip before fuzzy matching (reduces false matches on common words)
+STOPWORDS = {"the", "a", "an", "of", "in", "on", "at", "to", "for", "and", "or", "is", "by"}
 
 
 def _build_label_index(g):
-    """Build a label → URI index from the existing graph.
+    """Build a typed label → URI index from the existing graph.
 
     Includes rdfs:label and foaf:name for all entities.
-    Returns dict: {lowercase_label: URI}
+    Returns dict: {lowercase_label: [(URI, set_of_rdf_types), ...]}
     """
     from rdflib.namespace import FOAF
     index = {}
     for s, p, o in g.triples((None, RDFS.label, None)):
         label = str(o).lower().strip()
         if label and not label.startswith("http"):
-            index[label] = s
+            types = frozenset(t for _, _, t in g.triples((s, RDF.type, None)))
+            index.setdefault(label, []).append((s, types))
     for s, p, o in g.triples((None, FOAF.name, None)):
         label = str(o).lower().strip()
         if label and not label.startswith("http"):
-            index[label] = s
+            types = frozenset(t for _, _, t in g.triples((s, RDF.type, None)))
+            index.setdefault(label, []).append((s, types))
     return index
 
 
-def _tier1_exact_match(mention, label_index):
-    """Tier 1: Exact string match against label index."""
+def _strip_stopwords(text):
+    """Remove common stopwords from a text string for improved matching."""
+    tokens = text.lower().split()
+    filtered = [t for t in tokens if t not in STOPWORDS]
+    return " ".join(filtered) if filtered else text.lower()
+
+
+def _pick_typed_entry(entries, expected_types):
+    """Pick the best entry from a label index list, preferring type-compatible ones.
+
+    Args:
+        entries: list of (URI, frozenset_of_types) from label index
+        expected_types: list of RDF types to prefer, or None
+
+    Returns:
+        (URI, is_type_match) tuple
+    """
+    if not entries:
+        return None, False
+    if not expected_types:
+        return entries[0][0], False
+
+    expected_set = set(expected_types)
+    for uri, types in entries:
+        if types & expected_set:
+            return uri, True
+    # No type match — return first entry
+    return entries[0][0], False
+
+
+def _tier1_exact_match(mention, label_index, expected_types=None):
+    """Tier 1: Exact string match against label index, preferring type-compatible."""
     key = mention.lower().strip()
     if key in label_index:
-        return label_index[key], "exact"
+        uri, type_match = _pick_typed_entry(label_index[key], expected_types)
+        if uri:
+            return uri, "exact"
     return None, None
 
 
-def _tier2_fuzzy_match(mention, label_index):
-    """Tier 2: Fuzzy match using rapidfuzz token_set_ratio."""
+def _tier2_fuzzy_match(mention, label_index, expected_types=None):
+    """Tier 2: Fuzzy match with type filtering and stopword removal.
+
+    Uses dual-scorer gate: both token_set_ratio AND token_sort_ratio
+    must pass thresholds to prevent partial-token false matches.
+    """
     if not label_index:
         return None, None
 
+    mention_clean = _strip_stopwords(mention)
     keys = list(label_index.keys())
+    keys_clean = [_strip_stopwords(k) for k in keys]
+
     result = process.extractOne(
-        mention.lower(),
-        keys,
+        mention_clean,
+        keys_clean,
         scorer=fuzz.token_set_ratio,
         score_cutoff=PROVISIONAL_THRESHOLD
     )
@@ -113,21 +157,48 @@ def _tier2_fuzzy_match(mention, label_index):
     if result is None:
         return None, None
 
-    matched_label, score, _ = result
-    if score >= CONFIDENT_THRESHOLD:
-        return label_index[matched_label], f"fuzzy({score})"
+    _, set_score, idx = result
+    matched_label = keys[idx]
+
+    # Dual-scorer gate: verify with token_sort_ratio to catch
+    # cases where only a subset of tokens match
+    sort_score = fuzz.token_sort_ratio(mention_clean, keys_clean[idx])
+    if sort_score < PROVISIONAL_THRESHOLD - 15:
+        return None, None
+
+    # Type-filtered: prefer type-compatible match
+    entries = label_index[matched_label]
+    if expected_types:
+        uri, type_match = _pick_typed_entry(entries, expected_types)
+        if not type_match:
+            # Fuzzy matched but wrong type — demote to provisional
+            if set_score >= CONFIDENT_THRESHOLD:
+                return uri, f"provisional({set_score})"
+            return uri, f"provisional({set_score})"
     else:
-        return label_index[matched_label], f"provisional({score})"
+        uri = entries[0][0]
+
+    if set_score >= CONFIDENT_THRESHOLD:
+        return uri, f"fuzzy({set_score})"
+    else:
+        return uri, f"provisional({set_score})"
 
 
 def _tier3_type_constrained(mention, g, expected_types):
-    """Tier 3: SPARQL query filtered by expected RDF type."""
+    """Tier 3: Type-constrained search — only matches entities of expected type."""
+    mention_clean = _strip_stopwords(mention)
+    best_score = 0
+    best_uri = None
     for rdf_type in expected_types:
         for s, p, o in g.triples((None, RDF.type, rdf_type)):
             for s2, p2, label in g.triples((s, RDFS.label, None)):
-                score = fuzz.token_set_ratio(mention.lower(), str(label).lower())
-                if score >= PROVISIONAL_THRESHOLD:
-                    return s, f"type_constrained({score})"
+                label_clean = _strip_stopwords(str(label))
+                score = fuzz.token_set_ratio(mention_clean, label_clean)
+                if score >= PROVISIONAL_THRESHOLD and score > best_score:
+                    best_score = score
+                    best_uri = s
+    if best_uri:
+        return best_uri, f"type_constrained({best_score})"
     return None, None
 
 
@@ -158,37 +229,42 @@ def _tier5_create_provisional(mention, expected_type):
 def resolve_entity(mention, g, label_index, expected_type=None):
     """Resolve a text mention to a URI using the 5-tier strategy.
 
+    Priority order: exact match → type-constrained → fuzzy match → provisional.
+    Type-constrained (Tier 3) runs before fuzzy (Tier 2) when expected_type is
+    available, because type filtering is strictly more precise than untyped fuzzy.
+
     Args:
         mention: string from LLM extraction
         g: the existing RDF graph
-        label_index: dict from _build_label_index
+        label_index: dict from _build_label_index (typed)
         expected_type: string key into TYPE_MAP (e.g., "Artist", "Genre")
 
     Returns:
         (URI, resolution_method) tuple
     """
-    # Tier 1: Exact match
-    uri, method = _tier1_exact_match(mention, label_index)
+    expected_types = TYPE_MAP.get(expected_type) if expected_type else None
+
+    # Tier 1: Exact match (type-aware)
+    uri, method = _tier1_exact_match(mention, label_index, expected_types)
     if uri:
         return uri, method
 
-    # Tier 2: Fuzzy match
-    uri, method = _tier2_fuzzy_match(mention, label_index)
-    if uri and method and not method.startswith("provisional"):
-        return uri, method
-
-    # Tier 3: Type-constrained search
-    if expected_type and expected_type in TYPE_MAP:
-        uri3, method3 = _tier3_type_constrained(mention, g, TYPE_MAP[expected_type])
+    # Tier 3: Type-constrained search (run BEFORE fuzzy to prevent cross-type errors)
+    if expected_types:
+        uri3, method3 = _tier3_type_constrained(mention, g, expected_types)
         if uri3:
             return uri3, method3
+
+    # Tier 2: Fuzzy match (type-aware, with dual-scorer gate)
+    uri, method = _tier2_fuzzy_match(mention, label_index, expected_types)
+    if uri and method and not method.startswith("provisional"):
+        return uri, method
 
     # If fuzzy found a provisional match, use it
     if uri and method:
         return uri, method
 
-    # Tier 4: Wikidata lookup (skip for now — expensive API call per entity)
-    # Could be added later for production pipeline
+    # Tier 4: Wikidata lookup (skip — expensive API call per entity)
 
     # Tier 5: Create provisional URI
     uri, method = _tier5_create_provisional(mention, expected_type or "entity")
@@ -236,9 +312,18 @@ def map_text_triples(g, artist_name, extraction_file=None):
 
         rdf_predicate, expected_obj_type = PREDICATE_MAP[predicate_str]
 
+        # Determine expected subject type from the predicate
+        # Most predicates have an Artist subject, but producedBy and albumGrouping
+        # have a MusicalWork subject
+        SUBJECT_TYPE_MAP = {
+            "producedBy": "MusicalWork",
+            "albumGrouping": "MusicalWork",
+        }
+        expected_sub_type = SUBJECT_TYPE_MAP.get(predicate_str, "Artist")
+
         # Resolve subject
         subject_uri, sub_method = resolve_entity(
-            subject_str, g, label_index, expected_type="Artist"
+            subject_str, g, label_index, expected_type=expected_sub_type
         )
 
         # Resolve object
@@ -249,11 +334,25 @@ def map_text_triples(g, artist_name, extraction_file=None):
         # Add the triple
         g.add((subject_uri, rdf_predicate, object_uri))
 
+        # Add inverse/symmetric triples for key properties
+        if predicate_str == "producedBy":
+            g.add((object_uri, MH.produced, subject_uri))
+        elif predicate_str == "produced":
+            g.add((subject_uri, MH.producedBy, object_uri))
+        elif predicate_str == "collaboratedWith":
+            g.add((object_uri, rdf_predicate, subject_uri))  # symmetric
+        elif predicate_str == "released":
+            g.add((object_uri, MH.releasedBy, subject_uri))  # inverse
+        elif predicate_str == "composed":
+            g.add((object_uri, MH.composedBy, subject_uri))  # inverse
+        elif predicate_str == "influencedBy":
+            g.add((object_uri, MH.influenced, subject_uri))  # inverse
+
         # Ensure both have labels
         if not any(g.triples((subject_uri, RDFS.label, None))):
-            g.add((subject_uri, RDFS.label, Literal(subject_str)))
+            g.add((subject_uri, RDFS.label, Literal(subject_str, lang="en")))
         if not any(g.triples((object_uri, RDFS.label, None))):
-            g.add((object_uri, RDFS.label, Literal(object_str)))
+            g.add((object_uri, RDFS.label, Literal(object_str, lang="en")))
 
         # Add type for new entities
         if obj_method and obj_method.startswith("new_"):

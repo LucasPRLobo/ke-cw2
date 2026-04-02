@@ -129,6 +129,10 @@ GENRE_BLACKLIST = {
     "ballad", "compilation", "remix",
     # Radio formats, not musical genres (RAG finding P21, P22)
     "classic rock",
+    # Discogs non-music / media categories (not genres)
+    "soundtrack", "score", "promotional", "theme", "music video",
+    "non-music", "dialogue", "comedy", "health-fitness",
+    "public broadcast", "public service announcement", "radioplay", "therapy",
 }                                           
                                                                                                                                                                                                         
 # Minimum tag count to include a MusicBrainz tag as a genre
