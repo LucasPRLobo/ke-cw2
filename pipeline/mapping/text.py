@@ -207,9 +207,12 @@ def _tier5_create_provisional(mention, expected_type):
     safe = safe_uri(mention)
 
     if expected_type == "Genre":
+        from config import GENRE_BLACKLIST
+        if mention.lower().strip() in GENRE_BLACKLIST:
+            return None, "blacklisted_genre"
         return MH[f"genre/{normalise_genre(mention)}"], "new_genre"
     elif expected_type == "MusicalWork":
-        return MH[f"work/{safe}"], "new_work"
+        return MH[f"composition/{safe}"], "new_work"
     elif expected_type == "Artist":
         return MH[f"artist/{safe}"], "new_artist"
     elif expected_type == "MusicGroup":
@@ -331,6 +334,33 @@ def map_text_triples(g, artist_name, extraction_file=None):
             object_str, g, label_index, expected_type=expected_obj_type
         )
 
+        # Skip if resolution returned None (e.g. blacklisted genre)
+        if subject_uri is None or object_uri is None:
+            stats["skipped"] += 1
+            continue
+
+        # Validate "producedBy" domain: subject must be a Release.
+        # LLM sometimes confuses labels/groups with albums.
+        if predicate_str == "producedBy":
+            sub_types = set(g.objects(subject_uri, RDF.type))
+            if MO.Release not in sub_types:
+                stats["skipped"] += 1
+                continue
+
+        # Validate "released" range: object must be a Release, not a
+        # Track, MusicalWork, or RecordLabel.  If the LLM linked to a
+        # MusicalWork, silently convert to composed/composedBy instead.
+        if predicate_str == "released":
+            obj_types = set(g.objects(object_uri, RDF.type))
+            is_work = MH.MusicalWork in obj_types or MO.MusicalWork in obj_types
+            is_release = MO.Release in obj_types
+            if not is_release:
+                if is_work and (subject_uri, MH.composed, object_uri) not in g:
+                    g.add((subject_uri, MH.composed, object_uri))
+                    g.add((object_uri, MH.composedBy, subject_uri))
+                stats["skipped"] += 1
+                continue
+
         # Add the triple
         g.add((subject_uri, rdf_predicate, object_uri))
 
@@ -341,6 +371,10 @@ def map_text_triples(g, artist_name, extraction_file=None):
             g.add((subject_uri, MH.producedBy, object_uri))
         elif predicate_str == "collaboratedWith":
             g.add((object_uri, rdf_predicate, subject_uri))  # symmetric
+            # Ensure both endpoints are typed as MusicArtist
+            for endpoint in (subject_uri, object_uri):
+                if not any(g.triples((endpoint, RDF.type, MO.MusicArtist))):
+                    g.add((endpoint, RDF.type, MO.MusicArtist))
         elif predicate_str == "released":
             g.add((object_uri, MH.releasedBy, subject_uri))  # inverse
         elif predicate_str == "composed":

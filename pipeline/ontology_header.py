@@ -33,7 +33,7 @@ def add_ontology_header(g):
     # ============================================================
     ontology_uri = URIRef(NAMESPACE_URI)
     g.add((ontology_uri, RDF.type, OWL.Ontology))
-    g.add((ontology_uri, RDFS.label, Literal("Music History & Heritage Knowledge Graph")))
+    g.add((ontology_uri, RDFS.label, Literal("Music History & Heritage Knowledge Graph", lang="en")))
     g.add((ontology_uri, RDFS.comment, Literal(
         "An ontology for representing music history, extending the Music Ontology "
         "and Schema.org. Covers artists, compositions, albums, genres, instruments, "
@@ -61,7 +61,7 @@ def add_ontology_header(g):
     }
     for cls, comment in mo_classes.items():
         g.add((cls, RDF.type, OWL.Class))
-        g.add((cls, RDFS.label, Literal(str(cls).split("/")[-1])))
+        g.add((cls, RDFS.label, Literal(str(cls).split("/")[-1], lang="en")))
         g.add((cls, RDFS.comment, Literal(f"[Music Ontology] {comment}")))
 
     mo_obj_props = {
@@ -78,11 +78,11 @@ def add_ontology_header(g):
     }
     for prop, comment in mo_obj_props.items():
         g.add((prop, RDF.type, OWL.ObjectProperty))
-        g.add((prop, RDFS.label, Literal(str(prop).split("/")[-1])))
+        g.add((prop, RDFS.label, Literal(str(prop).split("/")[-1], lang="en")))
         g.add((prop, RDFS.comment, Literal(f"[Music Ontology] {comment}")))
 
     g.add((MO.release_date, RDF.type, OWL.DatatypeProperty))
-    g.add((MO.release_date, RDFS.label, Literal("release_date")))
+    g.add((MO.release_date, RDFS.label, Literal("release_date", lang="en")))
     g.add((MO.release_date, RDFS.comment, Literal("[Music Ontology] Release date of a record.")))
 
     # --- Schema.org stubs ---
@@ -93,7 +93,7 @@ def add_ontology_header(g):
     }
     for cls, comment in schema_classes.items():
         g.add((cls, RDF.type, OWL.Class))
-        g.add((cls, RDFS.label, Literal(str(cls).split("/")[-1])))
+        g.add((cls, RDFS.label, Literal(str(cls).split("/")[-1], lang="en")))
         g.add((cls, RDFS.comment, Literal(f"[Schema.org] {comment}")))
 
     schema_obj_props = {
@@ -105,7 +105,7 @@ def add_ontology_header(g):
     }
     for prop, comment in schema_obj_props.items():
         g.add((prop, RDF.type, OWL.ObjectProperty))
-        g.add((prop, RDFS.label, Literal(str(prop).split("/")[-1])))
+        g.add((prop, RDFS.label, Literal(str(prop).split("/")[-1], lang="en")))
         g.add((prop, RDFS.comment, Literal(f"[Schema.org] {comment}")))
 
     schema_dt_props = {
@@ -116,15 +116,15 @@ def add_ontology_header(g):
     }
     for prop, comment in schema_dt_props.items():
         g.add((prop, RDF.type, OWL.DatatypeProperty))
-        g.add((prop, RDFS.label, Literal(str(prop).split("/")[-1])))
+        g.add((prop, RDFS.label, Literal(str(prop).split("/")[-1], lang="en")))
         g.add((prop, RDFS.comment, Literal(f"[Schema.org] {comment}")))
 
     # --- Dublin Core and FOAF stubs (used in instance data) ---
     g.add((DC.title, RDF.type, OWL.DatatypeProperty))
-    g.add((DC.title, RDFS.label, Literal("title")))
+    g.add((DC.title, RDFS.label, Literal("title", lang="en")))
     g.add((DC.title, RDFS.comment, Literal("[Dublin Core] Title of a resource.")))
     g.add((FOAF.name, RDF.type, OWL.DatatypeProperty))
-    g.add((FOAF.name, RDFS.label, Literal("name")))
+    g.add((FOAF.name, RDFS.label, Literal("name", lang="en")))
     g.add((FOAF.name, RDFS.comment, Literal("[FOAF] Name of a person or agent.")))
 
     # ============================================================
@@ -134,7 +134,7 @@ def add_ontology_header(g):
     # Subclass: CoverRecording — a recording by someone other than the original composer
     g.add((MH.CoverRecording, RDF.type, OWL.Class))
     g.add((MH.CoverRecording, RDFS.subClassOf, MO.Signal))
-    g.add((MH.CoverRecording, RDFS.label, Literal("Cover Recording")))
+    g.add((MH.CoverRecording, RDFS.label, Literal("Cover Recording", lang="en")))
     g.add((MH.CoverRecording, RDFS.comment, Literal(
         "An audio recording of a composition made by an artist who is not the original composer."
     )))
@@ -146,7 +146,7 @@ def add_ontology_header(g):
     # Subclass 1: MultinationalBand — members from multiple countries
     g.add((MH.MultinationalBand, RDF.type, OWL.Class))
     g.add((MH.MultinationalBand, RDFS.subClassOf, SCHEMA.MusicGroup))
-    g.add((MH.MultinationalBand, RDFS.label, Literal("Multinational Band")))
+    g.add((MH.MultinationalBand, RDFS.label, Literal("Multinational Band", lang="en")))
     g.add((MH.MultinationalBand, RDFS.comment, Literal(
         "A music group whose members originate from more than one distinct country."
     )))
@@ -154,7 +154,7 @@ def add_ontology_header(g):
     # Subclass 2: MusicAward — award specific to music industry
     g.add((MH.MusicAward, RDF.type, OWL.Class))
     g.add((MH.MusicAward, RDFS.subClassOf, SCHEMA.Award))
-    g.add((MH.MusicAward, RDFS.label, Literal("Music Award")))
+    g.add((MH.MusicAward, RDFS.label, Literal("Music Award", lang="en")))
     g.add((MH.MusicAward, RDFS.comment, Literal(
         "An award given specifically for achievements in the music industry "
         "(e.g., Grammy, Brit Award, Rock and Roll Hall of Fame)."
@@ -163,7 +163,7 @@ def add_ontology_header(g):
     # Subproperty 1: signedTo — specialises schema:affiliation for artist-label relationship
     g.add((MH.signedTo, RDF.type, OWL.ObjectProperty))
     g.add((MH.signedTo, RDFS.subPropertyOf, SCHEMA.affiliation))
-    g.add((MH.signedTo, RDFS.label, Literal("signed to")))
+    g.add((MH.signedTo, RDFS.label, Literal("signed to", lang="en")))
     g.add((MH.signedTo, RDFS.comment, Literal(
         "Links an artist or band to the record label they are contracted with."
     )))
@@ -173,7 +173,7 @@ def add_ontology_header(g):
     # Subproperty 2: countryOfOrigin — specialises schema:nationality
     g.add((MH.countryOfOrigin, RDF.type, OWL.ObjectProperty))
     g.add((MH.countryOfOrigin, RDFS.subPropertyOf, SCHEMA.nationality))
-    g.add((MH.countryOfOrigin, RDFS.label, Literal("country of origin")))
+    g.add((MH.countryOfOrigin, RDFS.label, Literal("country of origin", lang="en")))
     g.add((MH.countryOfOrigin, RDFS.comment, Literal(
         "Links an artist, member, or band to their country of origin or formation."
     )))
@@ -186,20 +186,20 @@ def add_ontology_header(g):
 
     # Era / MusicalPeriod — for decade/period-based queries
     g.add((MH.Era, RDF.type, OWL.Class))
-    g.add((MH.Era, RDFS.label, Literal("Era")))
+    g.add((MH.Era, RDFS.label, Literal("Era", lang="en")))
     g.add((MH.Era, RDFS.comment, Literal(
         "A named historical period in music history (e.g., Baroque, Classical, Jazz Age, Rock Era)."
     )))
     g.add((MH.MusicalPeriod, RDF.type, OWL.Class))
     g.add((MH.MusicalPeriod, OWL.equivalentClass, MH.Era))
-    g.add((MH.MusicalPeriod, RDFS.label, Literal("Musical Period")))
+    g.add((MH.MusicalPeriod, RDFS.label, Literal("Musical Period", lang="en")))
     g.add((MH.MusicalPeriod, RDFS.comment, Literal(
         "Equivalent to Era — a named historical period or movement in music history."
     )))
 
     # Venue — a performance location
     g.add((MH.Venue, RDF.type, OWL.Class))
-    g.add((MH.Venue, RDFS.label, Literal("Venue")))
+    g.add((MH.Venue, RDFS.label, Literal("Venue", lang="en")))
     g.add((MH.Venue, RDFS.comment, Literal(
         "A concert venue, festival site, or performance location."
     )))
@@ -207,12 +207,12 @@ def add_ontology_header(g):
     # Other custom classes
     g.add((MH.Country, RDF.type, OWL.Class))
     g.add((MH.Country, RDFS.subClassOf, SCHEMA.Country))
-    g.add((MH.Country, RDFS.label, Literal("Country")))
+    g.add((MH.Country, RDFS.label, Literal("Country", lang="en")))
     g.add((MH.Country, RDFS.comment, Literal("A country or nation, used for artist origin and geographic analysis.")))
 
     g.add((MH.Award, RDF.type, OWL.Class))
     g.add((MH.Award, RDFS.subClassOf, MH.MusicAward))
-    g.add((MH.Award, RDFS.label, Literal("Award")))
+    g.add((MH.Award, RDFS.label, Literal("Award", lang="en")))
     g.add((MH.Award, RDFS.comment, Literal(
         "A music award or recognition instance. Subclass of MusicAward "
         "to ensure type consistency with the wonAward property range."
@@ -220,27 +220,27 @@ def add_ontology_header(g):
 
     g.add((MH.RecordLabel, RDF.type, OWL.Class))
     g.add((MH.RecordLabel, RDFS.subClassOf, MO.Label))
-    g.add((MH.RecordLabel, RDFS.label, Literal("Record Label")))
+    g.add((MH.RecordLabel, RDFS.label, Literal("Record Label", lang="en")))
     g.add((MH.RecordLabel, RDFS.comment, Literal("A record label or music publishing company.")))
 
     g.add((MH.MusicalWork, RDF.type, OWL.Class))
     g.add((MH.MusicalWork, RDFS.subClassOf, MO.MusicalWork))
-    g.add((MH.MusicalWork, RDFS.label, Literal("Musical Work")))
+    g.add((MH.MusicalWork, RDFS.label, Literal("Musical Work", lang="en")))
     g.add((MH.MusicalWork, RDFS.comment, Literal(
         "A musical composition, independent of any recording. "
         "Covers classical compositions that predate recordings."
     )))
 
     g.add((MH.Persona, RDF.type, OWL.Class))
-    g.add((MH.Persona, RDFS.label, Literal("Persona")))
+    g.add((MH.Persona, RDFS.label, Literal("Persona", lang="en")))
     g.add((MH.Persona, RDFS.comment, Literal("A stage persona or alter ego adopted by an artist (e.g., Ziggy Stardust).")))
 
     g.add((MH.AlbumGroup, RDF.type, OWL.Class))
-    g.add((MH.AlbumGroup, RDFS.label, Literal("Album Group")))
+    g.add((MH.AlbumGroup, RDFS.label, Literal("Album Group", lang="en")))
     g.add((MH.AlbumGroup, RDFS.comment, Literal("A named grouping of albums (e.g., Berlin Trilogy).")))
 
     g.add((MH.Organisation, RDF.type, OWL.Class))
-    g.add((MH.Organisation, RDFS.label, Literal("Organisation")))
+    g.add((MH.Organisation, RDFS.label, Literal("Organisation", lang="en")))
     g.add((MH.Organisation, RDFS.comment, Literal("An organisation founded by or associated with an artist.")))
 
     # ============================================================
@@ -269,7 +269,7 @@ def add_ontology_header(g):
 
     g.add((MH.AwardWinningArtist, RDF.type, OWL.Class))
     g.add((MH.AwardWinningArtist, OWL.equivalentClass, award_winning_intersection))
-    g.add((MH.AwardWinningArtist, RDFS.label, Literal("Award-Winning Artist")))
+    g.add((MH.AwardWinningArtist, RDFS.label, Literal("Award-Winning Artist", lang="en")))
     g.add((MH.AwardWinningArtist, RDFS.comment, Literal(
         "Defined class: a MusicArtist who has won at least one MusicAward. "
         "Inferred by a reasoner from wonAward triples."
@@ -295,7 +295,7 @@ def add_ontology_header(g):
 
     g.add((MH.InternationalCollaborator, RDF.type, OWL.Class))
     g.add((MH.InternationalCollaborator, OWL.equivalentClass, collab_intersection))
-    g.add((MH.InternationalCollaborator, RDFS.label, Literal("International Collaborator")))
+    g.add((MH.InternationalCollaborator, RDFS.label, Literal("International Collaborator", lang="en")))
     g.add((MH.InternationalCollaborator, RDFS.comment, Literal(
         "Defined class: a MusicArtist who has collaborated with at least one other MusicArtist. "
         "Inferred by a reasoner from collaboratedWith triples."
@@ -321,7 +321,7 @@ def add_ontology_header(g):
 
     g.add((MH.ProducerArtist, RDF.type, OWL.Class))
     g.add((MH.ProducerArtist, OWL.equivalentClass, prod_intersection))
-    g.add((MH.ProducerArtist, RDFS.label, Literal("Producer Artist")))
+    g.add((MH.ProducerArtist, RDFS.label, Literal("Producer Artist", lang="en")))
     g.add((MH.ProducerArtist, RDFS.comment, Literal(
         "Defined class: a MusicArtist who has produced at least one Release. "
         "Inferred by a reasoner from produced triples. "
@@ -374,7 +374,7 @@ def add_ontology_header(g):
 
     for prop_uri, label, comment, domain, range_cls in properties:
         g.add((prop_uri, RDF.type, OWL.ObjectProperty))
-        g.add((prop_uri, RDFS.label, Literal(label)))
+        g.add((prop_uri, RDFS.label, Literal(label, lang="en")))
         g.add((prop_uri, RDFS.comment, Literal(comment)))
         g.add((prop_uri, RDFS.domain, domain))
         g.add((prop_uri, RDFS.range, range_cls))
@@ -399,7 +399,7 @@ def add_ontology_header(g):
 
     for prop_uri, label, comment, domain, range_dt in dt_properties:
         g.add((prop_uri, RDF.type, OWL.DatatypeProperty))
-        g.add((prop_uri, RDFS.label, Literal(label)))
+        g.add((prop_uri, RDFS.label, Literal(label, lang="en")))
         g.add((prop_uri, RDFS.comment, Literal(comment)))
         g.add((prop_uri, RDFS.domain, domain))
         g.add((prop_uri, RDFS.range, range_dt))
@@ -418,28 +418,28 @@ def add_ontology_header(g):
 
     # Inverse properties (with domain/range)
     g.add((MH.influenced, RDF.type, OWL.ObjectProperty))
-    g.add((MH.influenced, RDFS.label, Literal("influenced")))
+    g.add((MH.influenced, RDFS.label, Literal("influenced", lang="en")))
     g.add((MH.influenced, RDFS.comment, Literal("Inverse of influencedBy — links an artist to artists they influenced.")))
     g.add((MH.influenced, RDFS.domain, MO.MusicArtist))
     g.add((MH.influenced, RDFS.range, MO.MusicArtist))
     g.add((MH.influenced, OWL.inverseOf, MH.influencedBy))
 
     g.add((MH.releasedBy, RDF.type, OWL.ObjectProperty))
-    g.add((MH.releasedBy, RDFS.label, Literal("released by")))
+    g.add((MH.releasedBy, RDFS.label, Literal("released by", lang="en")))
     g.add((MH.releasedBy, RDFS.comment, Literal("Inverse of released — links an album to the artist who released it.")))
     g.add((MH.releasedBy, RDFS.domain, MO.Release))
     g.add((MH.releasedBy, RDFS.range, MO.MusicArtist))
     g.add((MH.releasedBy, OWL.inverseOf, MH.released))
 
     g.add((MH.trackOn, RDF.type, OWL.ObjectProperty))
-    g.add((MH.trackOn, RDFS.label, Literal("track on")))
+    g.add((MH.trackOn, RDFS.label, Literal("track on", lang="en")))
     g.add((MH.trackOn, RDFS.comment, Literal("Inverse of hasTrack — links a track to the album it appears on.")))
     g.add((MH.trackOn, RDFS.domain, MO.Track))
     g.add((MH.trackOn, RDFS.range, MO.Release))
     g.add((MH.trackOn, OWL.inverseOf, MH.hasTrack))
 
     g.add((MH.composedBy, RDF.type, OWL.ObjectProperty))
-    g.add((MH.composedBy, RDFS.label, Literal("composed by")))
+    g.add((MH.composedBy, RDFS.label, Literal("composed by", lang="en")))
     g.add((MH.composedBy, RDFS.comment, Literal("Inverse of composed — links a work to its composer.")))
     g.add((MH.composedBy, RDFS.domain, MH.MusicalWork))
     g.add((MH.composedBy, RDFS.range, MO.MusicArtist))

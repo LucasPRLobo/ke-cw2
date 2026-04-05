@@ -13,6 +13,7 @@ from sources.wikipedia import fetch_artist as wp_fetch
 from mapping.structured import create_graph, map_artist, enrich_related_artists, consolidate_uris, assign_types_to_orphans, detect_cover_recordings, classify_multinational_bands, validate_and_clean, assert_defined_class_instances
 from mapping.text import map_text_triples
 from ontology_header import add_ontology_header
+from ingest_rag_results import ingest_all as ingest_rag
 
 
 def build_knowledge_graph(artist_list, output_path="../ontology/music_history_kg.ttl"):
@@ -126,7 +127,14 @@ def build_knowledge_graph(artist_list, output_path="../ontology/music_history_kg
     validate_and_clean(g)
     print(f"Graph after validation: {len(g)} triples")
 
-    # Step 14: Assert defined class instances
+    # Step 14: Ingest RAG completion results (if available)
+    print(f"\n{'='*60}")
+    print("RAG INGESTION — adding triples from completion analysis")
+    print(f"{'='*60}")
+    ingest_rag(g)
+    print(f"Graph after RAG ingestion: {len(g)} triples")
+
+    # Step 15: Assert defined class instances (re-run after RAG ingestion)
     print(f"\n{'='*60}")
     print("DEFINED CLASSES — asserting instances from data")
     print(f"{'='*60}")

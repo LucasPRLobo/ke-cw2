@@ -1,0 +1,111 @@
+[
+  {"artist1": "Aretha Franklin", "artist2": "George Michael", "project_or_work": "I Knew You Were Waiting (For Me) duet single", "year": 1987},
+  {"artist1": "Aretha Franklin", "artist2": "Annie Lennox", "project_or_work": "Sisters Are Doin' It for Themselves duet", "year": 1985},
+
+  {"artist1": "Bob Dylan", "artist2": "Johnny Cash", "project_or_work": "Nashville Skyline sessions and Girl from the North Country duet", "year": 1969},
+  {"artist1": "Bob Dylan", "artist2": "George Harrison", "project_or_work": "Traveling Wilburys supergroup", "year": 1988},
+  {"artist1": "Bob Dylan", "artist2": "Tom Petty", "project_or_work": "Traveling Wilburys supergroup", "year": 1988},
+
+  {"artist1": "Bob Marley", "artist2": "Lee Scratch Perry", "project_or_work": "Soul Rebels and Soul Revolution album productions", "year": 1970},
+
+  {"artist1": "Brian Eno", "artist2": "Robert Fripp", "project_or_work": "No Pussyfooting and Evening Star albums", "year": 1973},
+  {"artist1": "Brian Eno", "artist2": "John Cale", "project_or_work": "Wrong Way Up album", "year": 1990},
+  {"artist1": "Brian Eno", "artist2": "Karl Hyde", "project_or_work": "Someday World and High Life albums", "year": 2014},
+
+  {"artist1": "Celia Cruz", "artist2": "Johnny Pacheco", "project_or_work": "Celia & Johnny album and Fania All-Stars collaboration", "year": 1974},
+  {"artist1": "Celia Cruz", "artist2": "Willie Colón", "project_or_work": "Only They Could Have Made This Album", "year": 1977},
+
+  {"artist1": "Chuck Berry", "artist2": "Bo Diddley", "project_or_work": "Two Great Guitars joint album", "year": 1964},
+
+  {"artist1": "David Bowie", "artist2": "Mick Jagger", "project_or_work": "Dancing in the Street single", "year": 1985},
+  {"artist1": "David Bowie", "artist2": "John Lennon", "project_or_work": "Fame single co-write and recording", "year": 1975},
+  {"artist1": "David Bowie", "artist2": "Iggy Pop", "project_or_work": "The Idiot and Lust for Life album productions", "year": 1977},
+  {"artist1": "David Bowie", "artist2": "Freddie Mercury", "project_or_work": "Under Pressure single (Queen & David Bowie)", "year": 1981},
+
+  {"artist1": "Dolly Parton", "artist2": "Kenny Rogers", "project_or_work": "Islands in the Stream duet", "year": 1983},
+  {"artist1": "Dolly Parton", "artist2": "Linda Ronstadt", "project_or_work": "Trio album (with Emmylou Harris)", "year": 1987},
+  {"artist1": "Dolly Parton", "artist2": "Emmylou Harris", "project_or_work": "Trio album (with Linda Ronstadt)", "year": 1987},
+
+  {"artist1": "Duke Ellington", "artist2": "John Coltrane", "project_or_work": "Duke Ellington & John Coltrane joint album", "year": 1963},
+  {"artist1": "Duke Ellington", "artist2": "Louis Armstrong", "project_or_work": "The Great Summit / Together for the First Time album", "year": 1961},
+  {"artist1": "Duke Ellington", "artist2": "Count Basie", "project_or_work": "First Time! The Count Meets the Duke joint album", "year": 1961},
+
+  {"artist1": "Elvis Presley", "artist2": "Jerry Lee Lewis", "project_or_work": "Million Dollar Quartet impromptu session at Sun Studio", "year": 1956},
+  {"artist1": "Elvis Presley", "artist2": "Johnny Cash", "project_or_work": "Million Dollar Quartet impromptu session at Sun Studio", "year": 1956},
+
+  {"artist1": "Fela Kuti", "artist2": "Ginger Baker", "project_or_work": "Live! with Ginger Baker album", "year": 1971},
+  {"artist1": "Fela Kuti", "artist2": "Roy Ayers", "project_or_work": "Music of Many Colours album sessions", "year": 1980},
+
+  {"artist1": "Frank Sinatra", "artist2": "Antônio Carlos Jobim", "project_or_work": "Francis Albert Sinatra & Antonio Carlos Jobim album", "year": 1967},
+  {"artist1": "Frank Sinatra", "artist2": "Count Basie", "project_or_work": "Sinatra-Basie: An Historic Musical First album", "year": 1962},
+  {"artist1": "Frank Sinatra", "artist2": "Duke Ellington", "project_or_work": "Francis A. & Edward K. album", "year": 1968},
+
+  {"artist1": "Hermeto Pascoal", "artist2": "Miles Davis", "project_or_work": "Live-Evil album session contributions", "year": 1971},
+
+  {"artist1": "Jean-Michel Jarre", "artist2": "Laurie Anderson", "project_or_work": "Diva collaboration on Rendez-Vous album", "year": 1986},
+
+  {"artist1": "John Coltrane", "artist2": "Thelonious Monk", "project_or_work": "Thelonious Monk with John Coltrane album and Five Spot residency", "year": 1957},
+  {"artist1": "John Coltrane", "artist2": "Miles Davis", "project_or_work": "Kind of Blue sessions (first great quintet)", "year": 1959},
+
+  {"artist1": "John Lennon", "artist2": "David Bowie", "project_or_work": "Fame single co-write and recording", "year": 1975},
+  {"artist1": "John Lennon", "artist2": "Elton John", "project_or_work": "Whatever Gets You Thru the Night and Madison Square Garden live appearance", "year": 1974},
+  {"artist1": "John Lennon", "artist2": "Chuck Berry", "project_or_work": "Mike Douglas Show performance together", "year": 1972},
+
+  {"artist1": "Johnny Cash", "artist2": "Bob Dylan", "project_or_work": "Nashville Skyline sessions and Girl from the North Country duet", "year": 1969},
+  {"artist1": "Johnny Cash", "artist2": "June Carter Cash", "project_or_work": "Jackson duet and decades of joint recordings", "year": 1967},
+  {"artist1": "Johnny Cash", "artist2": "Willie Nelson", "project_or_work": "Highwaymen supergroup", "year": 1985},
+
+  {"artist1": "Julio Iglesias", "artist2": "Willie Nelson", "project_or_work": "To All the Girls I've Loved Before duet", "year": 1984},
+  {"artist1": "Julio Iglesias", "artist2": "Diana Ross", "project_or_work": "All of You duet single", "year": 1984},
+
+  {"artist1": "Kendrick Lamar", "artist2": "Dr. Dre", "project_or_work": "good kid, m.A.A.d city executive production and Compton album collaboration", "year": 2012},
+  {"artist1": "Kendrick Lamar", "artist2": "SZA", "project_or_work": "All the Stars single (Black Panther soundtrack)", "year": 2018},
+  {"artist1": "Kendrick Lamar", "artist2": "Baby Keem", "project_or_work": "family ties and multiple joint tracks", "year": 2021},
+
+  {"artist1": "Led Zeppelin", "artist2": "Roy Harper", "project_or_work": "Hats Off to (Roy) Harper tribute and festival collaborations", "year": 1970},
+
+  {"artist1": "Michael Jackson", "artist2": "Paul McCartney", "project_or_work": "The Girl Is Mine and Say Say Say duets", "year": 1982},
+  {"artist1": "Michael Jackson", "artist2": "Eddie Van Halen", "project_or_work": "Beat It guitar solo", "year": 1982},
+  {"artist1": "Michael Jackson", "artist2": "Stevie Wonder", "project_or_work": "Just Good Friends duet on Bad album", "year": 1987},
+
+  {"artist1": "Miles Davis", "artist2": "Gil Evans", "project_or_work": "Miles Ahead, Porgy and Bess, Sketches of Spain orchestral albums", "year": 1957},
+  {"artist1": "Miles Davis", "artist2": "John Coltrane", "project_or_work": "Kind of Blue sessions and first great quintet", "year": 1959},
+  {"artist1": "Miles Davis", "artist2": "Herbie Hancock", "project_or_work": "Second great quintet albums (E.S.P., Miles Smiles, etc.)", "year": 1965},
+
+  {"artist1": "Miriam Makeba", "artist2": "Harry Belafonte", "project_or_work": "An Evening with Belafonte/Makeba joint album (Grammy winner)", "year": 1965},
+  {"artist1": "Miriam Makeba", "artist2": "Paul Simon", "project_or_work": "Graceland tour and album contributions", "year": 1987},
+
+  {"artist1": "Muddy Waters", "artist2": "Howlin' Wolf", "project_or_work": "Super Blues joint album (with Bo Diddley)", "year": 1967},
+  {"artist1": "Muddy Waters", "artist2": "Johnny Winter", "project_or_work": "Hard Again, I'm Ready, and Muddy Mississippi Waters Live albums (Winter as producer/guitarist)", "year": 1977},
+
+  {"artist1": "Nina Simone", "artist2": "Langston Hughes", "project_or_work": "Backlash Blues single (Hughes wrote lyrics)", "year": 1967},
+
+  {"artist1": "Nirvana", "artist2": "William S. Burroughs", "project_or_work": "The 'Priest' They Called Him spoken word/guitar collaboration", "year": 1993},
+
+  {"artist1": "Paco de Lucía", "artist2": "John McLaughlin", "project_or_work": "Guitar Trio with Al Di Meola — Friday Night in San Francisco", "year": 1981},
+  {"artist1": "Paco de Lucía", "artist2": "Al Di Meola", "project_or_work": "Guitar Trio with John McLaughlin — Friday Night in San Francisco", "year": 1981},
+
+  {"artist1": "Paul Simon", "artist2": "Art Garfunkel", "project_or_work": "Simon & Garfunkel duo and Concert in Central Park reunion", "year": 1981},
+  {"artist1": "Paul Simon", "artist2": "Ladysmith Black Mambazo", "project_or_work": "Graceland album collaboration", "year": 1986},
+  {"artist1": "Paul Simon", "artist2": "Miriam Makeba", "project_or_work": "Graceland tour", "year": 1987},
+
+  {"artist1": "Peter Gabriel", "artist2": "Kate Bush", "project_or_work": "Don't Give Up duet", "year": 1986},
+  {"artist1": "Peter Gabriel", "artist2": "Youssou N'Dour", "project_or_work": "In Your Eyes vocal feature and Amnesty tour collaboration", "year": 1986},
+
+  {"artist1": "Quincy Jones", "artist2": "Ray Charles", "project_or_work": "Multiple arrangements and recordings from early career", "year": 1961},
+
+  {"artist1": "Ravi Shankar", "artist2": "George Harrison", "project_or_work": "Concert for Bangladesh and sitar mentorship", "year": 1971},
+  {"artist1": "Ravi Shankar", "artist2": "Yehudi Menuhin", "project_or_work": "West Meets East joint albums (Grammy-winning)", "year": 1967},
+  {"artist1": "Ravi Shankar", "artist2": "Philip Glass", "project_or_work": "Passages joint album", "year": 1990},
+
+  {"artist1": "The Beatles", "artist2": "Billy Preston", "project_or_work": "Get Back sessions and Let It Be album (keyboard)", "year": 1969},
+  {"artist1": "The Beatles", "artist2": "Eric Clapton", "project_or_work": "While My Guitar Gently Weeps solo recording", "year": 1968},
+
+  {"artist1": "Tupac Shakur", "artist2": "Dr. Dre", "project_or_work": "California Love single", "year": 1996},
+  {"artist1": "Tupac Shakur", "artist2": "Snoop Dogg", "project_or_work": "2 of Amerikaz Most Wanted single", "year": 1996},
+
+  {"artist1": "Yoko Ono", "artist2": "John Lennon", "project_or_work": "Double Fantasy album and decades of artistic partnership", "year": 1980},
+
+  {"artist1": "Youssou N'Dour", "artist2": "Peter Gabriel", "project_or_work": "In Your Eyes vocal feature and joint touring", "year": 1986},
+  {"artist1": "Youssou N'Dour", "artist2": "Neneh Cherry", "project_or_work": "7 Seconds duet single", "year": 1994}
+]

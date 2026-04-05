@@ -56,8 +56,8 @@ def _typed_date_literal(date_str):
         return Literal(date_str)
     if len(date_str) == 10:     # YYYY-MM-DD
         return Literal(date_str, datatype=XSD.date)
-    elif len(date_str) == 7:    # YYYY-MM
-        return Literal(date_str, datatype=XSD.gYearMonth)
+    elif len(date_str) == 7:    # YYYY-MM → normalise to YYYY-MM-01
+        return Literal(date_str + "-01", datatype=XSD.date)
     elif len(date_str) == 4:    # YYYY
         return Literal(date_str, datatype=XSD.gYear)
     else:
@@ -129,10 +129,12 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
 
     for tag in mb_data.get("tags", []):
         if is_valid_genre(tag["name"], tag.get("count", 0)):
-            genre_name = normalise_genre(tag["name"])
-            genre_uri = MH[f"genre/{genre_name}"]
-            g.add((genre_uri, RDF.type, MO.Genre))
-            g.add((genre_uri, RDFS.label, Literal(tag["name"].lower(), lang="en")))
+            genre_norm = normalise_genre(tag["name"])
+            genre_uri = MH[f"genre/{genre_norm}"]
+            if not any(g.triples((genre_uri, RDF.type, None))):
+                g.add((genre_uri, RDF.type, MO.Genre))
+                genre_label = genre_norm.replace("_", " ")
+                g.add((genre_uri, RDFS.label, Literal(genre_label, lang="en")))
             g.add((artist_uri, MO.genre, genre_uri))
             artist_genre_uris.add(genre_uri)
 
@@ -140,12 +142,19 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
     if wd_data:
         from config import GENRE_BLACKLIST
         for genre_name in wd_data.get("genres", []):
-            if genre_name.lower() in GENRE_BLACKLIST:
+            genre_lower = genre_name.lower()
+            if genre_lower in GENRE_BLACKLIST:
                 continue
             genre_norm = normalise_genre(genre_name)
+            # Also check the normalised name against the blacklist
+            # (catches "film soundtrack" → "film_soundtrack" etc.)
+            if genre_norm.replace("_", " ") in GENRE_BLACKLIST:
+                continue
             genre_uri = MH[f"genre/{genre_norm}"]
-            g.add((genre_uri, RDF.type, MO.Genre))
-            g.add((genre_uri, RDFS.label, Literal(genre_name.lower(), lang="en")))
+            if not any(g.triples((genre_uri, RDF.type, None))):
+                g.add((genre_uri, RDF.type, MO.Genre))
+                genre_label = genre_norm.replace("_", " ")
+                g.add((genre_uri, RDFS.label, Literal(genre_label, lang="en")))
             g.add((artist_uri, MO.genre, genre_uri))
             artist_genre_uris.add(genre_uri)
 
@@ -262,9 +271,15 @@ def map_artist(g, mb_data, dc_data=None, wd_data=None):
             g.add((inst_uri, RDFS.label, Literal(normalised, lang="en")))
             g.add((artist_uri, MH.playsInstrument, inst_uri))
 
-    # --- Awards from Wikidata ---
+    # --- Awards from Wikidata (filtered) ---
     if wd_data:
+        from config import AWARD_BLACKLIST_KEYWORDS, AWARD_BLACKLIST_EXACT
         for award_name in wd_data.get("awards", []):
+            award_lower = award_name.lower()
+            if award_lower in AWARD_BLACKLIST_EXACT:
+                continue
+            if any(kw in award_lower for kw in AWARD_BLACKLIST_KEYWORDS):
+                continue
             award_uri = MH[f"award/{safe_uri(award_name)}"]
             g.add((award_uri, RDF.type, MH.Award))
             g.add((award_uri, RDFS.label, Literal(award_name, lang="en")))
@@ -485,7 +500,7 @@ def detect_cover_recordings(g):
             # This is a cover
             track_uri = URIRef(f"http://musicbrainz.org/recording/{track_info['track_id']}")
             artist_uri = URIRef(f"http://musicbrainz.org/artist/{performer_mbid}")
-            work_uri = MH[f"work/{safe_uri(work_data['title'])}"]
+            work_uri = MH[f"composition/{safe_uri(work_data['title'])}"]
 
             g.add((work_uri, RDF.type, MH.MusicalWork))
             g.add((work_uri, RDFS.label, Literal(work_data["title"], lang="en")))
@@ -493,6 +508,15 @@ def detect_cover_recordings(g):
             for composer in composers:
                 if composer.get("mbid"):
                     composer_uri = URIRef(f"http://musicbrainz.org/artist/{composer['mbid']}")
+                    # Deduplicate: if an artist with the same name already
+                    # exists under a different MB URI, reuse that URI to
+                    # avoid creating duplicate entities for the same person.
+                    comp_name = composer["name"].strip().lower()
+                    for existing_s in g.subjects(RDFS.label, Literal(composer["name"], lang="en")):
+                        if existing_s != composer_uri and (existing_s, RDF.type, MO.MusicArtist) in g:
+                            composer_uri = existing_s
+                            break
+                    g.add((composer_uri, RDF.type, MO.MusicArtist))
                     g.add((composer_uri, RDFS.label, Literal(composer["name"], lang="en")))
                     g.add((composer_uri, MH.composed, work_uri))
                     g.add((work_uri, MH.composedBy, composer_uri))  # inverse
@@ -959,6 +983,50 @@ def validate_and_clean(g):
             else:
                 g.remove((s, RDF.type, MO.MusicGroup))
             removed += 1
+
+    # 18. Deduplicate compositionDate — keep only the earliest date per work
+    for s in set(s for s, _, _ in g.triples((None, MH.compositionDate, None))):
+        dates = list(g.triples((s, MH.compositionDate, None)))
+        if len(dates) > 1:
+            # Keep the earliest date
+            dates_sorted = sorted(dates, key=lambda x: str(x[2]))
+            for _, dp, do in dates_sorted[1:]:
+                g.remove((s, dp, do))
+                removed += 1
+
+    # 19. Remove orphan genres (Genre entities with no references)
+    for s, _, _ in list(g.triples((None, RDF.type, MO.Genre))):
+        if not any(g.triples((None, MO.genre, s))) and not any(g.triples((s, MH.subgenreOf, None))):
+            # Remove all triples for this orphan genre
+            for triple in list(g.triples((s, None, None))):
+                g.remove(triple)
+                removed += 1
+            for triple in list(g.triples((None, None, s))):
+                g.remove(triple)
+                removed += 1
+
+    # 20. Deduplicate genre labels — keep only the normalised label per genre entity
+    for s, p, o in g.triples((None, RDF.type, MO.Genre)):
+        labels = list(g.triples((s, RDFS.label, None)))
+        if len(labels) > 1:
+            # Derive the canonical label from the URI
+            uri_suffix = str(s).split("/genre/")[-1] if "/genre/" in str(s) else None
+            canonical = uri_suffix.replace("_", " ") if uri_suffix else None
+            # Remove all labels except the canonical one
+            for _, lp, lo in labels:
+                if canonical and str(lo) != canonical:
+                    g.remove((s, lp, lo))
+                    removed += 1
+            # Ensure canonical label exists
+            if canonical and not any(g.triples((s, RDFS.label, None))):
+                g.add((s, RDFS.label, Literal(canonical, lang="en")))
+        elif len(labels) == 1:
+            # Single label — check it matches the normalised form
+            uri_suffix = str(s).split("/genre/")[-1] if "/genre/" in str(s) else None
+            canonical = uri_suffix.replace("_", " ") if uri_suffix else None
+            if canonical and str(labels[0][2]) != canonical:
+                g.remove(labels[0])
+                g.add((s, RDFS.label, Literal(canonical, lang="en")))
 
     print(f"  [VALIDATE] Removed {removed} invalid triples, fixed {fixed}")
     return removed

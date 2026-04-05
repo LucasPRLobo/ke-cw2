@@ -1,0 +1,77 @@
+[
+  {"artist": "Bob Marley", "organisation": "Tuff Gong", "type": "label", "year_founded": 1970},
+  {"artist": "Bob Marley", "organisation": "Bob Marley and the Wailers", "type": "band", "year_founded": 1963},
+
+  {"artist": "Brian Eno", "organisation": "Obscure Records", "type": "label", "year_founded": 1975},
+  {"artist": "Brian Eno", "organisation": "EG Records", "type": "label", "year_founded": 1969},
+
+  {"artist": "Chuck Berry", "organisation": "Berry Park", "type": "company", "year_founded": 1957},
+
+  {"artist": "Daft Punk", "organisation": "Daft Life Ltd.", "type": "company", "year_founded": 1997},
+
+  {"artist": "David Bowie", "organisation": "Iso Records", "type": "label", "year_founded": 1999},
+  {"artist": "David Bowie", "organisation": "MainMan", "type": "company", "year_founded": 1972},
+
+  {"artist": "Dolly Parton", "organisation": "Dollywood Foundation", "type": "foundation", "year_founded": 1988},
+  {"artist": "Dolly Parton", "organisation": "Imagination Library", "type": "foundation", "year_founded": 1995},
+  {"artist": "Dolly Parton", "organisation": "Dolly Records", "type": "label", "year_founded": 2007},
+
+  {"artist": "Elvis Presley", "organisation": "Graceland", "type": "cultural_org", "year_founded": 1957},
+
+  {"artist": "Fela Kuti", "organisation": "Afrika 70", "type": "band", "year_founded": 1970},
+  {"artist": "Fela Kuti", "organisation": "Egypt 80", "type": "band", "year_founded": 1979},
+  {"artist": "Fela Kuti", "organisation": "Movement of the People", "type": "cultural_org", "year_founded": 1979},
+
+  {"artist": "Frank Sinatra", "organisation": "Reprise Records", "type": "label", "year_founded": 1960},
+
+  {"artist": "Freddie Mercury", "organisation": "Queen", "type": "band", "year_founded": 1970},
+  {"artist": "Freddie Mercury", "organisation": "Mercury Phoenix Trust", "type": "foundation", "year_founded": 1992},
+
+  {"artist": "George Martin", "organisation": "AIR Studios", "type": "company", "year_founded": 1965},
+  {"artist": "George Martin", "organisation": "Associated Independent Recording (AIR)", "type": "company", "year_founded": 1965},
+
+  {"artist": "Hermeto Pascoal", "organisation": "Grupo de Hermeto Pascoal", "type": "band", "year_founded": 1981},
+
+  {"artist": "Jean-Michel Jarre", "organisation": "Disques Dreyfus", "type": "label", "year_founded": 1967},
+
+  {"artist": "Johnny Cash", "organisation": "House of Cash", "type": "label", "year_founded": 1969},
+
+  {"artist": "Kendrick Lamar", "organisation": "PGLang", "type": "company", "year_founded": 2020},
+
+  {"artist": "Kraftwerk", "organisation": "Kling Klang Studio", "type": "company", "year_founded": 1970},
+
+  {"artist": "Led Zeppelin", "organisation": "Swan Song Records", "type": "label", "year_founded": 1974},
+
+  {"artist": "Michael Jackson", "organisation": "MJJ Productions", "type": "company", "year_founded": 1991},
+  {"artist": "Michael Jackson", "organisation": "Heal the World Foundation", "type": "foundation", "year_founded": 1992},
+
+  {"artist": "Nirvana", "organisation": "Nirvana", "type": "band", "year_founded": 1987},
+
+  {"artist": "Paul Simon", "organisation": "Simon & Garfunkel", "type": "band", "year_founded": 1963},
+
+  {"artist": "Peter Gabriel", "organisation": "Real World Records", "type": "label", "year_founded": 1989},
+  {"artist": "Peter Gabriel", "organisation": "Real World Studios", "type": "company", "year_founded": 1987},
+  {"artist": "Peter Gabriel", "organisation": "WOMAD (World of Music, Arts and Dance)", "type": "cultural_org", "year_founded": 1980},
+  {"artist": "Peter Gabriel", "organisation": "Witness (human rights org)", "type": "foundation", "year_founded": 1992},
+
+  {"artist": "Quincy Jones", "organisation": "Qwest Records", "type": "label", "year_founded": 1980},
+  {"artist": "Quincy Jones", "organisation": "Quincy Jones Productions", "type": "company", "year_founded": 1975},
+  {"artist": "Quincy Jones", "organisation": "Quincy Jones Foundation", "type": "foundation", "year_founded": 2008},
+
+  {"artist": "Ramones", "organisation": "Ramones", "type": "band", "year_founded": 1974},
+
+  {"artist": "Ravi Shankar", "organisation": "Ravi Shankar Foundation", "type": "foundation", "year_founded": 2000},
+
+  {"artist": "Rick Rubin", "organisation": "Def Jam Recordings", "type": "label", "year_founded": 1984},
+  {"artist": "Rick Rubin", "organisation": "American Recordings", "type": "label", "year_founded": 1988},
+
+  {"artist": "The Beatles", "organisation": "Apple Corps", "type": "company", "year_founded": 1968},
+  {"artist": "The Beatles", "organisation": "Apple Records", "type": "label", "year_founded": 1968},
+
+  {"artist": "Tupac Shakur", "organisation": "Amaru Entertainment", "type": "company", "year_founded": 1996},
+
+  {"artist": "Yoko Ono", "organisation": "Fluxus (participant/co-organiser)", "type": "cultural_org", "year_founded": 1961},
+
+  {"artist": "Youssou N'Dour", "organisation": "Jololi", "type": "label", "year_founded": 2005},
+  {"artist": "Youssou N'Dour", "organisation": "Super Étoile de Dakar", "type": "band", "year_founded": 1979}
+]

@@ -1,0 +1,157 @@
+[
+  {"artist": "Alejandro Sanz", "venue_or_event": "Latin Grammy Awards (first performer)", "year": 2000},
+  {"artist": "Alejandro Sanz", "venue_or_event": "MTV Unplugged (Miami)", "year": 2001},
+
+  {"artist": "Antônio Carlos Jobim", "venue_or_event": "Carnegie Hall concert with Stan Getz", "year": 1962},
+  {"artist": "Antônio Carlos Jobim", "venue_or_event": "Frank Sinatra TV special duet performance", "year": 1967},
+
+  {"artist": "Aretha Franklin", "venue_or_event": "Martin Luther King Jr. funeral performance", "year": 1968},
+  {"artist": "Aretha Franklin", "venue_or_event": "Barack Obama presidential inauguration", "year": 2009},
+  {"artist": "Aretha Franklin", "venue_or_event": "Kennedy Center Honors tribute performance", "year": 2015},
+
+  {"artist": "BTS", "venue_or_event": "Wembley Stadium (Love Yourself: Speak Yourself tour)", "year": 2019},
+  {"artist": "BTS", "venue_or_event": "United Nations General Assembly speech and performance", "year": 2018},
+  {"artist": "BTS", "venue_or_event": "SoFi Stadium (Permission to Dance on Stage)", "year": 2021},
+
+  {"artist": "Bob Dylan", "venue_or_event": "1965 Newport Folk Festival (electric set)", "year": 1965},
+  {"artist": "Bob Dylan", "venue_or_event": "The Concert for Bangladesh (Madison Square Garden)", "year": 1971},
+  {"artist": "Bob Dylan", "venue_or_event": "The 30th Anniversary Concert Celebration (Madison Square Garden)", "year": 1992},
+
+  {"artist": "Bob Marley", "venue_or_event": "One Love Peace Concert (Kingston, Jamaica)", "year": 1978},
+  {"artist": "Bob Marley", "venue_or_event": "Zimbabwe Independence Concert (Rufaro Stadium)", "year": 1980},
+  {"artist": "Bob Marley", "venue_or_event": "Smile Jamaica Concert (Kingston)", "year": 1976},
+
+  {"artist": "Buena Vista Social Club", "venue_or_event": "Carnegie Hall concert", "year": 1998},
+  {"artist": "Buena Vista Social Club", "venue_or_event": "Amsterdam concert (Wim Wenders documentary)", "year": 1998},
+
+  {"artist": "Celia Cruz", "venue_or_event": "Madison Square Garden Fania All-Stars concert", "year": 1973},
+  {"artist": "Celia Cruz", "venue_or_event": "Zaire 74 music festival (Kinshasa)", "year": 1974},
+
+  {"artist": "Chuck Berry", "venue_or_event": "Hail! Hail! Rock 'n' Roll concert film (Fox Theatre, St. Louis)", "year": 1986},
+  {"artist": "Chuck Berry", "venue_or_event": "Rock and Roll Revival Concert (Toronto)", "year": 1969},
+  {"artist": "Chuck Berry", "venue_or_event": "American Bandstand debut", "year": 1957},
+
+  {"artist": "Daft Punk", "venue_or_event": "Coachella Festival (pyramid stage)", "year": 2006},
+  {"artist": "Daft Punk", "venue_or_event": "Alive 2007 world tour (Bercy, Paris)", "year": 2007},
+  {"artist": "Daft Punk", "venue_or_event": "Grammy Awards performance with Stevie Wonder", "year": 2014},
+
+  {"artist": "David Bowie", "venue_or_event": "Ziggy Stardust farewell concert (Hammersmith Odeon)", "year": 1973},
+  {"artist": "David Bowie", "venue_or_event": "Live Aid (Wembley Stadium)", "year": 1985},
+  {"artist": "David Bowie", "venue_or_event": "Glastonbury Festival headline set", "year": 2000},
+
+  {"artist": "Dolly Parton", "venue_or_event": "Grand Ole Opry debut", "year": 1959},
+  {"artist": "Dolly Parton", "venue_or_event": "Glastonbury Festival headline set (Pyramid Stage)", "year": 2014},
+
+  {"artist": "Duke Ellington", "venue_or_event": "Newport Jazz Festival comeback performance", "year": 1956},
+  {"artist": "Duke Ellington", "venue_or_event": "Cotton Club residency (Harlem)", "year": 1927},
+  {"artist": "Duke Ellington", "venue_or_event": "Carnegie Hall debut concert", "year": 1943},
+
+  {"artist": "Elvis Presley", "venue_or_event": "Elvis (television comeback special, NBC)", "year": 1968},
+  {"artist": "Elvis Presley", "venue_or_event": "Aloha from Hawaii (satellite concert)", "year": 1973},
+  {"artist": "Elvis Presley", "venue_or_event": "Las Vegas International Hotel residency", "year": 1969},
+
+  {"artist": "Fela Kuti", "venue_or_event": "Berlin Jazz Festival", "year": 1978},
+  {"artist": "Fela Kuti", "venue_or_event": "The Shrine nightclub (Lagos, regular performances)", "year": 1970},
+
+  {"artist": "Frank Sinatra", "venue_or_event": "Paramount Theatre performances (Sinatramania)", "year": 1942},
+  {"artist": "Frank Sinatra", "venue_or_event": "The Main Event concert (Madison Square Garden, TV broadcast)", "year": 1974},
+  {"artist": "Frank Sinatra", "venue_or_event": "Rat Pack performances (Sands Hotel, Las Vegas)", "year": 1960},
+
+  {"artist": "Freddie Mercury", "venue_or_event": "Live Aid (Wembley Stadium, with Queen)", "year": 1985},
+  {"artist": "Freddie Mercury", "venue_or_event": "Queen at Wembley Stadium (Magic Tour)", "year": 1986},
+  {"artist": "Freddie Mercury", "venue_or_event": "La Nit festival (Barcelona, with Montserrat Caballé)", "year": 1988},
+
+  {"artist": "Hermeto Pascoal", "venue_or_event": "Montreux Jazz Festival", "year": 1979},
+  {"artist": "Hermeto Pascoal", "venue_or_event": "Jabour residence open concerts (Rio de Janeiro)", "year": 1981},
+
+  {"artist": "Jean-Michel Jarre", "venue_or_event": "Concert at Place de la Concorde (Paris, 1M+ audience)", "year": 1979},
+  {"artist": "Jean-Michel Jarre", "venue_or_event": "Destination Docklands (London)", "year": 1988},
+  {"artist": "Jean-Michel Jarre", "venue_or_event": "Moscow 850th anniversary concert (3.5M audience)", "year": 1997},
+
+  {"artist": "John Coltrane", "venue_or_event": "Village Vanguard residency (live album recordings)", "year": 1961},
+  {"artist": "John Coltrane", "venue_or_event": "Newport Jazz Festival", "year": 1963},
+  {"artist": "John Coltrane", "venue_or_event": "Birdland jazz club performances (New York)", "year": 1963},
+
+  {"artist": "John Lennon", "venue_or_event": "One to One benefit concert (Madison Square Garden)", "year": 1972},
+  {"artist": "John Lennon", "venue_or_event": "Toronto Rock and Roll Revival (with Plastic Ono Band)", "year": 1969},
+
+  {"artist": "Johnny Cash", "venue_or_event": "Folsom State Prison concert", "year": 1968},
+  {"artist": "Johnny Cash", "venue_or_event": "San Quentin State Prison concert", "year": 1969},
+  {"artist": "Johnny Cash", "venue_or_event": "Glastonbury Festival headline set", "year": 1994},
+
+  {"artist": "Julio Iglesias", "venue_or_event": "Eurovision Song Contest (Madrid)", "year": 1970},
+  {"artist": "Julio Iglesias", "venue_or_event": "Festival de Benidorm", "year": 1968},
+
+  {"artist": "Kendrick Lamar", "venue_or_event": "Grammy Awards performance of 'Alright' (chained)", "year": 2016},
+  {"artist": "Kendrick Lamar", "venue_or_event": "Super Bowl LVI halftime show (with Dre, Snoop, etc.)", "year": 2022},
+  {"artist": "Kendrick Lamar", "venue_or_event": "Glastonbury Festival headline set", "year": 2022},
+
+  {"artist": "Kraftwerk", "venue_or_event": "MoMA retrospective (8 nights)", "year": 2012},
+  {"artist": "Kraftwerk", "venue_or_event": "Tribal Gathering Festival (UK)", "year": 1997},
+
+  {"artist": "Led Zeppelin", "venue_or_event": "Royal Albert Hall concert", "year": 1970},
+  {"artist": "Led Zeppelin", "venue_or_event": "Madison Square Garden (The Song Remains the Same film)", "year": 1973},
+  {"artist": "Led Zeppelin", "venue_or_event": "Ahmet Ertegun Tribute Concert (O2 Arena reunion)", "year": 2007},
+
+  {"artist": "Michael Jackson", "venue_or_event": "Motown 25: Yesterday, Today, Forever (moonwalk debut)", "year": 1983},
+  {"artist": "Michael Jackson", "venue_or_event": "Super Bowl XXVII halftime show", "year": 1993},
+  {"artist": "Michael Jackson", "venue_or_event": "Dangerous World Tour (Bucharest concert, HBO)", "year": 1992},
+
+  {"artist": "Miles Davis", "venue_or_event": "Newport Jazz Festival (Kind of Blue quintet)", "year": 1958},
+  {"artist": "Miles Davis", "venue_or_event": "Isle of Wight Festival", "year": 1970},
+  {"artist": "Miles Davis", "venue_or_event": "Montreux Jazz Festival (Gil Evans collaboration)", "year": 1991},
+
+  {"artist": "Miriam Makeba", "venue_or_event": "Nelson Mandela 70th Birthday Tribute Concert (Wembley)", "year": 1988},
+  {"artist": "Miriam Makeba", "venue_or_event": "Kennedy White House state dinner performance", "year": 1962},
+  {"artist": "Miriam Makeba", "venue_or_event": "Zaire 74 music festival (Kinshasa)", "year": 1974},
+
+  {"artist": "Muddy Waters", "venue_or_event": "Newport Folk Festival (electric performance)", "year": 1960},
+  {"artist": "Muddy Waters", "venue_or_event": "The Last Waltz farewell concert (with The Band)", "year": 1976},
+
+  {"artist": "Nina Simone", "venue_or_event": "Carnegie Hall debut concert", "year": 1963},
+  {"artist": "Nina Simone", "venue_or_event": "Montreux Jazz Festival", "year": 1976},
+  {"artist": "Nina Simone", "venue_or_event": "Selma to Montgomery civil rights rally performance", "year": 1965},
+
+  {"artist": "Nirvana", "venue_or_event": "MTV Unplugged in New York", "year": 1993},
+  {"artist": "Nirvana", "venue_or_event": "Reading Festival headline set", "year": 1992},
+  {"artist": "Nirvana", "venue_or_event": "Saturday Night Live debut performance", "year": 1992},
+
+  {"artist": "Paco de Lucía", "venue_or_event": "Royal Albert Hall concert (with John McLaughlin and Al Di Meola)", "year": 1980},
+  {"artist": "Paco de Lucía", "venue_or_event": "Montreux Jazz Festival", "year": 2012},
+
+  {"artist": "Paul Simon", "venue_or_event": "The Concert in Central Park (with Art Garfunkel)", "year": 1981},
+  {"artist": "Paul Simon", "venue_or_event": "Graceland tour (Zimbabwe, debut of Graceland live)", "year": 1987},
+  {"artist": "Paul Simon", "venue_or_event": "Glastonbury Festival headline set", "year": 2011},
+
+  {"artist": "Peter Gabriel", "venue_or_event": "WOMAD Festival (founding and first edition)", "year": 1982},
+  {"artist": "Peter Gabriel", "venue_or_event": "Amnesty International Human Rights Now! tour", "year": 1988},
+  {"artist": "Peter Gabriel", "venue_or_event": "Nelson Mandela 70th Birthday Tribute Concert (Wembley)", "year": 1988},
+
+  {"artist": "Queen", "venue_or_event": "Live Aid (Wembley Stadium)", "year": 1985},
+  {"artist": "Queen", "venue_or_event": "Wembley Stadium (Magic Tour, two nights)", "year": 1986},
+  {"artist": "Queen", "venue_or_event": "Rock in Rio (first edition, 250,000 audience)", "year": 1985},
+
+  {"artist": "Ramones", "venue_or_event": "CBGB debut (New York)", "year": 1974},
+  {"artist": "Ramones", "venue_or_event": "Roundhouse concert (London, UK debut)", "year": 1976},
+  {"artist": "Ramones", "venue_or_event": "Lollapalooza farewell performance", "year": 1996},
+
+  {"artist": "Ravi Shankar", "venue_or_event": "Monterey Pop Festival", "year": 1967},
+  {"artist": "Ravi Shankar", "venue_or_event": "Woodstock Festival", "year": 1969},
+  {"artist": "Ravi Shankar", "venue_or_event": "The Concert for Bangladesh (Madison Square Garden)", "year": 1971},
+
+  {"artist": "The Beatles", "venue_or_event": "Shea Stadium concert (first stadium rock concert)", "year": 1965},
+  {"artist": "The Beatles", "venue_or_event": "The Ed Sullivan Show debut (US TV)", "year": 1964},
+  {"artist": "The Beatles", "venue_or_event": "Rooftop concert (Apple Corps, final live performance)", "year": 1969},
+
+  {"artist": "Tupac Shakur", "venue_or_event": "House of Blues (last live performance)", "year": 1996},
+  {"artist": "Tupac Shakur", "venue_or_event": "Source Awards performance", "year": 1995},
+
+  {"artist": "Umm Kulthum", "venue_or_event": "Olympia Theatre concert (Paris)", "year": 1967},
+  {"artist": "Umm Kulthum", "venue_or_event": "Thursday night radio concerts (Cairo, decades-long series)", "year": 1934},
+
+  {"artist": "Yoko Ono", "venue_or_event": "One to One benefit concert (Madison Square Garden, with John Lennon)", "year": 1972},
+  {"artist": "Yoko Ono", "venue_or_event": "Carnegie Hall performance", "year": 1961},
+
+  {"artist": "Youssou N'Dour", "venue_or_event": "Nelson Mandela 70th Birthday Tribute Concert (Wembley)", "year": 1988},
+  {"artist": "Youssou N'Dour", "venue_or_event": "Live 8 concert (London)", "year": 2005}
+]

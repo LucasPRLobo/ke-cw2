@@ -1,0 +1,51 @@
+{
+  "genres": [
+    "medieval music",
+    "sacred music",
+    "plainchant",
+    "monophonic music",
+    "liturgical music"
+  ],
+  "musical_periods": [
+    {"period": "Medieval", "period_type": "stylistic"},
+    {"period": "Romanesque", "period_type": "cultural"},
+    {"period": "12th-century Renaissance", "period_type": "temporal"}
+  ],
+  "instruments": [
+    "voice (soprano/mezzo-soprano range)",
+    "organ (accompaniment in some modern performances, not original)",
+    "symphonia (hurdy-gurdy, referenced in her writings)"
+  ],
+  "influences": {
+    "influenced_by": [
+      "Gregorian chant tradition",
+      "Rule of Saint Benedict (monastic musical practice)",
+      "Notker Balbulus (sequence form)"
+    ],
+    "influenced": [
+      "Gothic polyphonic composers (Pérotin, Léonin — Notre-Dame school)",
+      "20th-century early music revival movement",
+      "Arvo Pärt (modern sacred minimalism)",
+      "Sofia Gubaidulina (mystical composition)",
+      "Contemporary new age and world music artists (indirect)"
+    ]
+  },
+  "compositions": [
+    {"title": "Ordo Virtutum", "type": "morality_play", "approximate_date": "1151"},
+    {"title": "Symphonia armonie celestium revelationum", "type": "other", "approximate_date": "1150–1160"},
+    {"title": "O virga ac diadema", "type": "sequence", "approximate_date": "1150s"},
+    {"title": "O viridissima virga", "type": "hymn", "approximate_date": "1150s"},
+    {"title": "Columba aspexit", "type": "sequence", "approximate_date": "1150s"},
+    {"title": "O Jerusalem", "type": "sequence", "approximate_date": "1150s"},
+    {"title": "Ave generosa", "type": "hymn", "approximate_date": "1150s"},
+    {"title": "O ignis spiritus", "type": "sequence", "approximate_date": "1150s"},
+    {"title": "O Euchari", "type": "sequence", "approximate_date": "1150s"},
+    {"title": "Kyrie eleison", "type": "antiphon", "approximate_date": "1150s"}
+  ],
+  "notes": {
+    "genre_justification": "Hildegard's music predates modern genre classification. 'Medieval music' is the broadest accurate term. 'Sacred music' and 'liturgical music' describe its function. 'Plainchant' describes the monophonic vocal form. 'Monophonic music' is a technical descriptor — her compositions are single-line melodies without harmony, though notably more florid and wider-ranging than standard Gregorian chant.",
+    "uniqueness": "Her compositions are distinctive within the medieval corpus for their unusually wide vocal range (often spanning two octaves), soaring melismatic passages, and mystical/visionary texts she wrote herself. She composed 77 liturgical songs — more than any other medieval figure whose work survives attributed.",
+    "why_musicbrainz_missed": "MusicBrainz tags are community-contributed and heavily biased toward popular music. Medieval sacred music has no tagging community on the platform. The 25 releases in the KG are modern recordings of her works by ensembles like Sequentia, Gothic Voices, and Anonymous 4 — these albums sometimes carry tags like 'classical' but those tags attach to the release, not to Hildegard as artist.",
+    "confidence": "High for genres, periods, and compositions. Medium for influences — the 'influenced_by' entries are traditions rather than individuals (little is known about her specific musical training). The 'influenced' entries are indirect/stylistic rather than documented direct influence."
+  }
+}

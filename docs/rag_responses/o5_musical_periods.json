@@ -1,0 +1,171 @@
+[
+  {"artist": "Alejandro Sanz", "period": "Latin Pop Boom", "period_type": "cultural"},
+  {"artist": "Alejandro Sanz", "period": "Digital Age", "period_type": "temporal"},
+
+  {"artist": "Antonio Vivaldi", "period": "Baroque", "period_type": "stylistic"},
+
+  {"artist": "Antônio Carlos Jobim", "period": "Bossa Nova movement", "period_type": "stylistic"},
+  {"artist": "Antônio Carlos Jobim", "period": "Post-war modernism", "period_type": "cultural"},
+
+  {"artist": "Aretha Franklin", "period": "Soul era", "period_type": "stylistic"},
+  {"artist": "Aretha Franklin", "period": "Civil Rights era", "period_type": "cultural"},
+
+  {"artist": "BTS", "period": "K-pop global wave", "period_type": "cultural"},
+  {"artist": "BTS", "period": "Digital Age", "period_type": "temporal"},
+
+  {"artist": "Bob Dylan", "period": "1960s folk revival", "period_type": "cultural"},
+  {"artist": "Bob Dylan", "period": "Civil Rights era", "period_type": "cultural"},
+  {"artist": "Bob Dylan", "period": "Singer-songwriter era", "period_type": "stylistic"},
+
+  {"artist": "Bob Marley", "period": "Reggae era", "period_type": "stylistic"},
+  {"artist": "Bob Marley", "period": "Post-colonial Caribbean", "period_type": "cultural"},
+
+  {"artist": "Brian Eno", "period": "Art rock era", "period_type": "stylistic"},
+  {"artist": "Brian Eno", "period": "Ambient music origins", "period_type": "stylistic"},
+
+  {"artist": "Buena Vista Social Club", "period": "World music revival", "period_type": "cultural"},
+  {"artist": "Buena Vista Social Club", "period": "Son cubano golden age", "period_type": "stylistic"},
+
+  {"artist": "Celia Cruz", "period": "Salsa era", "period_type": "stylistic"},
+  {"artist": "Celia Cruz", "period": "Cuban diaspora", "period_type": "cultural"},
+
+  {"artist": "Cesária Évora", "period": "World music revival", "period_type": "cultural"},
+
+  {"artist": "Chuck Berry", "period": "Rock and roll origins", "period_type": "stylistic"},
+  {"artist": "Chuck Berry", "period": "1950s", "period_type": "temporal"},
+
+  {"artist": "Daft Punk", "period": "Electronic dance music era", "period_type": "stylistic"},
+  {"artist": "Daft Punk", "period": "French Touch", "period_type": "cultural"},
+
+  {"artist": "David Bowie", "period": "Glam rock era", "period_type": "stylistic"},
+  {"artist": "David Bowie", "period": "New wave era", "period_type": "stylistic"},
+  {"artist": "David Bowie", "period": "British Invasion (second wave)", "period_type": "cultural"},
+
+  {"artist": "Dolly Parton", "period": "Nashville Sound era", "period_type": "stylistic"},
+  {"artist": "Dolly Parton", "period": "Outlaw country era", "period_type": "stylistic"},
+
+  {"artist": "Dominguinhos", "period": "Baião movement", "period_type": "stylistic"},
+  {"artist": "Dominguinhos", "period": "Música Popular Brasileira", "period_type": "cultural"},
+
+  {"artist": "Duke Ellington", "period": "Harlem Renaissance", "period_type": "cultural"},
+  {"artist": "Duke Ellington", "period": "Swing era", "period_type": "stylistic"},
+  {"artist": "Duke Ellington", "period": "Big band era", "period_type": "stylistic"},
+
+  {"artist": "Elvis Presley", "period": "Rock and roll origins", "period_type": "stylistic"},
+  {"artist": "Elvis Presley", "period": "1950s", "period_type": "temporal"},
+
+  {"artist": "Fela Kuti", "period": "Afrobeat movement", "period_type": "stylistic"},
+  {"artist": "Fela Kuti", "period": "Pan-African movement", "period_type": "cultural"},
+
+  {"artist": "Frank Sinatra", "period": "Big band era", "period_type": "stylistic"},
+  {"artist": "Frank Sinatra", "period": "Great American Songbook era", "period_type": "stylistic"},
+
+  {"artist": "Freddie Mercury", "period": "Glam rock era", "period_type": "stylistic"},
+  {"artist": "Freddie Mercury", "period": "Arena rock era", "period_type": "stylistic"},
+
+  {"artist": "Frédéric Chopin", "period": "Romantic", "period_type": "stylistic"},
+
+  {"artist": "George Martin", "period": "British Invasion", "period_type": "cultural"},
+
+  {"artist": "Giuseppe Verdi", "period": "Romantic", "period_type": "stylistic"},
+  {"artist": "Giuseppe Verdi", "period": "Italian Risorgimento", "period_type": "cultural"},
+
+  {"artist": "Hermeto Pascoal", "period": "Música Popular Brasileira", "period_type": "cultural"},
+
+  {"artist": "Hildegard von Bingen", "period": "Medieval", "period_type": "stylistic"},
+
+  {"artist": "Jean-Michel Jarre", "period": "Electronic music pioneers", "period_type": "stylistic"},
+  {"artist": "Jean-Michel Jarre", "period": "Synth era", "period_type": "stylistic"},
+
+  {"artist": "Johann Sebastian Bach", "period": "Baroque", "period_type": "stylistic"},
+
+  {"artist": "John Coltrane", "period": "Hard bop era", "period_type": "stylistic"},
+  {"artist": "John Coltrane", "period": "Free jazz movement", "period_type": "stylistic"},
+
+  {"artist": "John Lennon", "period": "British Invasion", "period_type": "cultural"},
+  {"artist": "John Lennon", "period": "Counterculture era", "period_type": "cultural"},
+
+  {"artist": "Johnny Cash", "period": "Nashville Sound era", "period_type": "stylistic"},
+  {"artist": "Johnny Cash", "period": "Rock and roll origins", "period_type": "stylistic"},
+  {"artist": "Johnny Cash", "period": "Outlaw country era", "period_type": "stylistic"},
+
+  {"artist": "Julio Iglesias", "period": "Latin Pop Boom", "period_type": "cultural"},
+
+  {"artist": "Kendrick Lamar", "period": "Conscious hip-hop era", "period_type": "stylistic"},
+  {"artist": "Kendrick Lamar", "period": "Streaming era", "period_type": "temporal"},
+
+  {"artist": "Kraftwerk", "period": "Krautrock movement", "period_type": "stylistic"},
+  {"artist": "Kraftwerk", "period": "Electronic music pioneers", "period_type": "stylistic"},
+
+  {"artist": "Led Zeppelin", "period": "Hard rock era", "period_type": "stylistic"},
+  {"artist": "Led Zeppelin", "period": "Album rock era", "period_type": "stylistic"},
+
+  {"artist": "Ludwig van Beethoven", "period": "Classical", "period_type": "stylistic"},
+  {"artist": "Ludwig van Beethoven", "period": "Romantic", "period_type": "stylistic"},
+
+  {"artist": "Luiz Gonzaga", "period": "Baião movement", "period_type": "stylistic"},
+  {"artist": "Luiz Gonzaga", "period": "Música Popular Brasileira", "period_type": "cultural"},
+
+  {"artist": "Michael Jackson", "period": "MTV era", "period_type": "cultural"},
+  {"artist": "Michael Jackson", "period": "Disco era", "period_type": "stylistic"},
+  {"artist": "Michael Jackson", "period": "Pop era (1980s)", "period_type": "temporal"},
+
+  {"artist": "Miles Davis", "period": "Bebop era", "period_type": "stylistic"},
+  {"artist": "Miles Davis", "period": "Cool jazz era", "period_type": "stylistic"},
+  {"artist": "Miles Davis", "period": "Jazz fusion era", "period_type": "stylistic"},
+
+  {"artist": "Miriam Makeba", "period": "Anti-apartheid movement", "period_type": "cultural"},
+  {"artist": "Miriam Makeba", "period": "World music revival", "period_type": "cultural"},
+
+  {"artist": "Muddy Waters", "period": "Chicago blues era", "period_type": "stylistic"},
+  {"artist": "Muddy Waters", "period": "Post-war blues", "period_type": "stylistic"},
+
+  {"artist": "Nina Simone", "period": "Civil Rights era", "period_type": "cultural"},
+  {"artist": "Nina Simone", "period": "Soul era", "period_type": "stylistic"},
+
+  {"artist": "Nirvana", "period": "Grunge era", "period_type": "stylistic"},
+  {"artist": "Nirvana", "period": "Alternative rock era", "period_type": "stylistic"},
+
+  {"artist": "Paco de Lucía", "period": "New flamenco", "period_type": "stylistic"},
+
+  {"artist": "Paul Simon", "period": "1960s folk revival", "period_type": "cultural"},
+  {"artist": "Paul Simon", "period": "World music revival", "period_type": "cultural"},
+  {"artist": "Paul Simon", "period": "Singer-songwriter era", "period_type": "stylistic"},
+
+  {"artist": "Peter Gabriel", "period": "Progressive rock era", "period_type": "stylistic"},
+  {"artist": "Peter Gabriel", "period": "World music revival", "period_type": "cultural"},
+
+  {"artist": "Pyotr Ilyich Tchaikovsky", "period": "Romantic", "period_type": "stylistic"},
+
+  {"artist": "Queen", "period": "Glam rock era", "period_type": "stylistic"},
+  {"artist": "Queen", "period": "Arena rock era", "period_type": "stylistic"},
+
+  {"artist": "Quincy Jones", "period": "Big band era", "period_type": "stylistic"},
+  {"artist": "Quincy Jones", "period": "MTV era", "period_type": "cultural"},
+
+  {"artist": "Ramones", "period": "Punk rock era", "period_type": "stylistic"},
+  {"artist": "Ramones", "period": "CBGB scene", "period_type": "cultural"},
+
+  {"artist": "Ravi Shankar", "period": "Indian classical tradition", "period_type": "stylistic"},
+  {"artist": "Ravi Shankar", "period": "Counterculture era", "period_type": "cultural"},
+
+  {"artist": "Rick Rubin", "period": "Golden age hip-hop", "period_type": "stylistic"},
+
+  {"artist": "The Beatles", "period": "British Invasion", "period_type": "cultural"},
+  {"artist": "The Beatles", "period": "Psychedelic era", "period_type": "stylistic"},
+  {"artist": "The Beatles", "period": "Counterculture era", "period_type": "cultural"},
+
+  {"artist": "Tupac Shakur", "period": "Golden age hip-hop", "period_type": "stylistic"},
+  {"artist": "Tupac Shakur", "period": "West Coast hip-hop era", "period_type": "stylistic"},
+
+  {"artist": "Umm Kulthum", "period": "Golden Age of Arabic music", "period_type": "cultural"},
+  {"artist": "Umm Kulthum", "period": "Egyptian nationalist movement", "period_type": "cultural"},
+
+  {"artist": "Wolfgang Amadeus Mozart", "period": "Classical", "period_type": "stylistic"},
+
+  {"artist": "Yoko Ono", "period": "Fluxus movement", "period_type": "cultural"},
+  {"artist": "Yoko Ono", "period": "Counterculture era", "period_type": "cultural"},
+
+  {"artist": "Youssou N'Dour", "period": "World music revival", "period_type": "cultural"},
+  {"artist": "Youssou N'Dour", "period": "Post-colonial African music", "period_type": "cultural"}
+]

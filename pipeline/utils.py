@@ -11,8 +11,21 @@ from config import (
 def normalise_genre(name):
     """Normalise a genre/style name for URI creation.
     Lowercases, strips whitespace, replaces spaces and slashes with underscores.
+    Also merges common duplicate patterns.
     """
-    return name.strip().lower().replace(" ", "_").replace("/", "_")
+    n = name.strip().lower()
+    # Merge "X music" with "X" (e.g., "rock music" → "rock", "ambient music" → "ambient")
+    if n.endswith(" music") and n != "music":
+        n = n[:-6]
+    # Normalise punctuation variants
+    n = n.replace(" & ", " and ").replace("&", " and ")
+    # Normalise "avantgarde" → "avant-garde"
+    if n == "avantgarde":
+        n = "avant-garde"
+    # Normalise "synth-pop" → "synthpop" for consistency
+    if n == "synth-pop":
+        n = "synthpop"
+    return n.replace(" ", "_").replace("/", "_")
 
 
 # Instrument normalisation — merges redundant entries

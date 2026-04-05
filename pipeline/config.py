@@ -133,10 +133,72 @@ GENRE_BLACKLIST = {
     "soundtrack", "score", "promotional", "theme", "music video",
     "non-music", "dialogue", "comedy", "health-fitness",
     "public broadcast", "public service announcement", "radioplay", "therapy",
+    # Nationality/geography tags (not genres) — from Wikidata P136
+    "austrian", "polish", "italian", "european", "indian", "russian",
+    # Occupations/descriptors/instruments (not genres)
+    "composer", "beholder", "glorious", "pianist", "flute", "sitar",
+    # Animation/TV (Wikidata P136 artefacts)
+    "clay animation", "puppetoon animation", "telenovela",
+    # Video game / film / TV categories (Wikidata P136 doesn't distinguish media types)
+    "4x", "arcade", "fighting game", "role-playing video game",
+    "action-adventure game", "adventure video game", "god game",
+    "life simulation game", "real-time strategy", "biological simulation video game",
+    "cyberpunk video game", "space trading and combat game",
+    "action film", "adventure film", "comedy film", "crime film",
+    "documentary film", "drama film", "fantasy film", "horror film",
+    "romance film", "science fiction film", "thriller film", "western film",
+    "biographical film", "musical film", "concert film", "film soundtrack",
+    "film score", "film noir", "art film", "blaxploitation film",
+    "children's film", "christmas film", "coming-of-age film",
+    "crime thriller film", "crime drama film", "disaster film",
+    "dystopian film", "ghost film", "heist film", "historical film",
+    "historical drama", "independent film", "lgbtq-related film",
+    "live-action/animated film", "music documentary film", "opera film",
+    "parody film", "period drama film", "post-apocalyptic film",
+    "prison film", "road movie", "romantic comedy", "romantic comedy film",
+    "science fiction comedy", "spy film", "superhero film",
+    "supernatural film", "supernatural horror film", "suspense film",
+    "teen film", "trial film", "boxing film", "flashback film",
+    "film based on a novel", "film based on literature", "comedy drama",
+    "adventure science fiction", "adventure anime and manga",
+    "comedy television program", "comedy television series",
+    "lgbt-related television series",
+    # Non-music categories that slipped through Wikidata P136 / NER
+    "first-person shooter", "political magazine show", "neo-noir",
+    "conceptual art", "cyberpunk", "rockumentary", "musical comedy",
+    # Vague/non-genre tags
+    "popular", "seattle", "vanguard", "fluxus", "western", "boy group",
+    "light", "conscious", "gangsta", "orchestra",
 }                                           
                                                                                                                                                                                                         
 # Minimum tag count to include a MusicBrainz tag as a genre
-MIN_TAG_COUNT = 3        
+MIN_TAG_COUNT = 3
+
+# --- Award Blacklist ---
+# Wikidata P166 returns ALL awards; filter out non-music awards.
+# Pattern-based: any award whose lowercased name contains a keyword is excluded.
+AWARD_BLACKLIST_KEYWORDS = [
+    # Military
+    "campaign medal", "victory medal", "military",
+    # Honorary degrees
+    "honorary doctor", "honorary degree", "honorary doctorate",
+    # Humanitarian
+    "humanitarian award",
+    # Film/TV acting (not music)
+    "best supporting actor", "best actor", "best actress",
+    "screen actors guild", "cecil b. demille",
+    # Science / non-arts
+    "science fiction and fantasy hall of fame",
+    "stephen hawking medal", "hawking medal",
+    # Citizenship
+    "honorary citizen",
+    # Specific non-music awards
+    "tony award", "saturn award",
+]
+# Exact-match blacklist for awards that can't be caught by keywords
+AWARD_BLACKLIST_EXACT = {
+    "emmy award", "primetime emmy award", "golden globe awards",
+}
 
 # --- Artist Search Overrides ---
 # For artists where MusicBrainz search returns the wrong result,

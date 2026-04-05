@@ -1,0 +1,76 @@
+{
+  "correct_mbid": "0c326960-bc95-41b0-b202-52a1e40b705e",
+  "wikidata_qid": "Q190573",
+  "discogs_id": "365498",
+  "birth_date": "1898-12-31",
+  "death_date": "1975-02-03",
+  "birth_place": "Tamay-ez-Zahayra, Dakahlia Governorate, Egypt",
+  "country": "EG",
+  "gender": "female",
+  "real_name": "Fatima Ibrahim el-Beltagi",
+  "genres": [
+    "Arabic classical music",
+    "Tarab",
+    "Egyptian popular music"
+  ],
+  "instruments": [
+    "vocals"
+  ],
+  "musical_periods": [
+    "Golden Age of Arabic music",
+    "Egyptian nationalist movement"
+  ],
+  "albums": [
+    {"title": "Alf Leila Wa Leila", "year": 1969},
+    {"title": "Enta Omri", "year": 1964},
+    {"title": "Al-Atlal", "year": 1966},
+    {"title": "Fakkarouni", "year": 1957},
+    {"title": "Amal Hayati", "year": 1965}
+  ],
+  "awards": [
+    "Nishan el-Kamal (Order of Perfection) — Egypt's highest state honour",
+    "Order of the Republic (Egypt, first class)",
+    "Lebanese Order of Merit (Gold)",
+    "Tunisian Order of the Republic",
+    "Named 'Star of the East' (Kawkab al-Sharq) — honorific title",
+    "UNESCO recognition for cultural heritage"
+  ],
+  "influences": {
+    "influenced_by": [
+      "Sheikh Abu al-Ila Mohamed",
+      "Zakariyya Ahmad",
+      "Mohamed el-Qasabgi",
+      "Abdo el-Hamouli"
+    ],
+    "influenced": [
+      "Fairuz",
+      "Abdel Halim Hafez",
+      "Warda Al-Jazairia",
+      "Amr Diab",
+      "Latifa",
+      "Majida El Roumi",
+      "Assala Nasri"
+    ]
+  },
+  "labels": [
+    "Sono Cairo",
+    "Cairophon",
+    "EMI Arabia"
+  ],
+  "performances": [
+    {"event": "Thursday night radio concerts (Cairo, decades-long national institution)", "year": 1934},
+    {"event": "Olympia Theatre concert (Paris)", "year": 1967},
+    {"event": "Carnegie Hall concert (New York)", "year": 1967},
+    {"event": "Concert for the Egyptian war effort (post-1967 fundraising tour)", "year": 1968}
+  ],
+  "notes": {
+    "current_kg_issue": "The KG currently contains MBID 6fbe9563-4c92-41dc-bdbc-63480427a58e which belongs to 'UMM', an electronic music project — completely wrong artist. All triples under this URI (type, label, 1 release) belong to the wrong entity and should be replaced.",
+    "transliteration_variants": ["Umm Kulthum", "Oum Kalthoum", "Umm Kalthoum", "Om Kalsoum", "أم كلثوم"],
+    "cultural_significance": "Known as 'Star of the East' and 'Planet of the East'. Her funeral in 1975 drew an estimated 4 million mourners — one of the largest funerals in history. She remains the best-selling Middle Eastern singer of all time. Her Thursday evening radio concerts were a national institution for over 30 years, stopping traffic across the Arab world.",
+    "confidence_notes": {
+      "high": "Wikidata QID Q190573, Discogs ID 365498, country EG, genres, instruments, major albums (Alf Leila Wa Leila, Enta Omri, Al-Atlal), Olympia concert 1967, awards",
+      "medium": "MusicBrainz MBID 0c326960-bc95-41b0-b202-52a1e40b705e (needs verification — multiple Umm Kulthum entries exist in MB), exact birth date (some sources say 1898, others ~1904), influence lists",
+      "low": "Carnegie Hall 1967 (may have been a different US venue), exact Cairophon/EMI Arabia label names"
+    }
+  }
+}
