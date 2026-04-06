@@ -1,0 +1,150 @@
+{
+  "mbid": "07aebfa0-55d6-47e0-a284-12330e3eae0d",
+  "name": "Rick Rubin",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1963-03-10",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "Malibu",
+  "begin_area": "Lido Beach",
+  "tags": [
+    {
+      "name": "alliteration",
+      "count": "1"
+    },
+    {
+      "name": "country",
+      "count": "2"
+    },
+    {
+      "name": "hard rock",
+      "count": "2"
+    },
+    {
+      "name": "hip hop",
+      "count": "1"
+    },
+    {
+      "name": "metal",
+      "count": "2"
+    },
+    {
+      "name": "rapcore",
+      "count": "2"
+    },
+    {
+      "name": "rock",
+      "count": "3"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Hose",
+      "target_mbid": "de48d0cb-250d-4117-9c03-3b9364d3b75b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Pricks",
+      "target_mbid": "a083073d-f563-4496-a966-7b73807bc1de",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000356250"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/68211"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://brucebase.wikidot.com/relation:rick-rubin"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:RickRubinSept09.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0005391/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Rick+Rubin"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Rick-rubin"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/rickrubinfanclub"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n93075739"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb18125203n"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/134503562"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1453814"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/authors/OL8082183A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/rick_rubin"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n93075739"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/3422"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/rickrubin"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/rickrubin/"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/100245607"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q587361"
+    }
+  ],
+  "release_groups": [],
+  "tracks": {},
+  "discogs_id": 68211,
+  "wikidata_id": "Q587361"
+}

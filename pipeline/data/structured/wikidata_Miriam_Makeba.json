@@ -1,0 +1,74 @@
+{
+  "wikidata_id": "Q146256",
+  "genres": [
+    "jazz",
+    "rock music",
+    "world music",
+    "African popular music",
+    "marabi",
+    "township music"
+  ],
+  "instruments": [
+    "voice"
+  ],
+  "awards": [
+    "Otto Hahn Peace Medal",
+    "Polar Music Prize",
+    "South African Music Awards",
+    "Order for Meritorious Service",
+    "Order of Ikhamanga",
+    "Commander of the Legion of Honour",
+    "Commandeur des Arts et des Lettres",
+    "honorary degree from Spelman College"
+  ],
+  "labels": [
+    "Mercury Records",
+    "Reprise Records",
+    "Warner Bros. Records",
+    "Philips Records",
+    "Kapp Records",
+    "Collectables Records",
+    "RCA Victor",
+    "Sonodisc",
+    "Strut Records"
+  ],
+  "influences": [],
+  "occupations": [
+    "actor",
+    "composer",
+    "singer",
+    "recording artist"
+  ],
+  "country": "South Africa",
+  "birth_place": "Johannesburg",
+  "birth_date": "1932-03-04",
+  "death_date": "2008-11-09",
+  "wikipedia_title": "Miriam Makeba",
+  "compositions": [
+    {
+      "title": "Pata Pata",
+      "genre": null,
+      "date": "1967-01-01"
+    },
+    {
+      "title": "Amok",
+      "genre": "drama film",
+      "date": "1983-07-13"
+    },
+    {
+      "title": "Amok",
+      "genre": "drama film",
+      "date": "1984-04-05"
+    },
+    {
+      "title": "Amok",
+      "genre": "drama film",
+      "date": "1984-05-09"
+    },
+    {
+      "title": "Amok",
+      "genre": "drama film",
+      "date": "1989-05-25"
+    }
+  ]
+}

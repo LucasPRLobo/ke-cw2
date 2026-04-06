@@ -1,0 +1,117 @@
+[
+  {
+    "subject": "BTS",
+    "predicate": "memberOf",
+    "object": "Jin"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "memberOf",
+    "object": "Suga"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "memberOf",
+    "object": "J-Hope"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "memberOf",
+    "object": "RM"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "memberOf",
+    "object": "Jimin"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "memberOf",
+    "object": "V"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "memberOf",
+    "object": "Jung Kook"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "hasGenre",
+    "object": "hip hop"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "founded",
+    "object": "Big Hit Entertainment"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "2 Cool 4 Skool"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Dark & Wild"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Wake Up"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Wings"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Love Yourself: Tear"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Love Yourself: Answer"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Dynamite"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Savage Love"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Life Goes On"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Butter"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Permission to Dance"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "My Universe"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Map of the Soul: 7"
+  },
+  {
+    "subject": "BTS",
+    "predicate": "released",
+    "object": "Arirang"
+  }
+]

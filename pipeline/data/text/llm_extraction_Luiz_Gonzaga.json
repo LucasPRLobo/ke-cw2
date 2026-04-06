@@ -1,0 +1,22 @@
+[
+  {
+    "subject": "Luiz Gonzaga",
+    "predicate": "hasGenre",
+    "object": "Brazilian popular music"
+  },
+  {
+    "subject": "Luiz Gonzaga",
+    "predicate": "pioneerOf",
+    "object": "bai\u00e3o"
+  },
+  {
+    "subject": "Ant\u00f4nio Carlos Jobim",
+    "predicate": "influencedBy",
+    "object": "Luiz Gonzaga"
+  },
+  {
+    "subject": "Luiz Gonzaga do Nascimento Jr",
+    "predicate": "composed",
+    "object": "work"
+  }
+]

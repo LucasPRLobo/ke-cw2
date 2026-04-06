@@ -1,0 +1,45 @@
+{
+  "id": 5327,
+  "name": "Cesaria Evora",
+  "realname": "Cesária Évora",
+  "profile": "Cesária Évora was an internationally known Cape Verdean singer who combined styles including uptempo Coladeira and its lower-tempo derivative Morna (songs of sadness; both from Cape Verde). Known as \"barefoot diva\" for performing without shoes, she was the best-known performer of Morna. She was mostly singing in Cape Verdean Creole, sometimes in Portuguese. She moved to Portugal when her recording career took off in the 1980s. In later years, she moved toward more Cuban rhythms.\r\n\r\nBorn August 27, 1941 in Mindelo, São Vicente, Cape Verde.\r\nDied December 17, 2011 in Mindelo, São Vicente, Cape Verde.\r\n",
+  "members": [],
+  "groups": [],
+  "genres": [
+    "Folk, World, & Country"
+  ],
+  "styles": [
+    "African",
+    "Morna"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Folk, World, & Country",
+      "style": "African"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Morna"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Morna"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "African"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Morna"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "African"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Morna"
+    }
+  ]
+}

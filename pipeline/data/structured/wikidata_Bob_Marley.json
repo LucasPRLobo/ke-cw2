@@ -1,0 +1,127 @@
+{
+  "wikidata_id": "Q409",
+  "genres": [
+    "reggae",
+    "ska",
+    "rocksteady"
+  ],
+  "instruments": [
+    "guitar",
+    "voice"
+  ],
+  "awards": [
+    "Rock and Roll Hall of Fame",
+    "Grammy Lifetime Achievement Award",
+    "Order of Merit",
+    "star on Hollywood Walk of Fame"
+  ],
+  "labels": [
+    "Trojan Records",
+    "Island Records",
+    "Studio One",
+    "Tuff Gong",
+    "Upsetter Records",
+    "Beverley's Records",
+    "Wail N Soul M"
+  ],
+  "influences": [
+    "James Brown",
+    "The Isley Brothers",
+    "Jackie Wilson",
+    "Fats Domino",
+    "Marcus Garvey",
+    "Curtis Mayfield",
+    "Smokey Robinson",
+    "Prince Buster",
+    "Laurel Aitken",
+    "Coxsone Dodd",
+    "The Skatalites",
+    "The Paragons",
+    "John Holt",
+    "The Flamingos",
+    "Joe Higgs"
+  ],
+  "occupations": [
+    "composer",
+    "singer",
+    "singer-songwriter",
+    "guitarist"
+  ],
+  "country": "Jamaica",
+  "birth_place": "Nine Mile",
+  "birth_date": "1945-02-06",
+  "death_date": "1981-05-11",
+  "wikipedia_title": "Bob Marley",
+  "compositions": [
+    {
+      "title": "Buffalo Soldier",
+      "genre": "reggae",
+      "date": "1983-01-01"
+    },
+    {
+      "title": "Judge Not",
+      "genre": "ska",
+      "date": "1962-01-01"
+    },
+    {
+      "title": "Redemption Song",
+      "genre": "reggae",
+      "date": "1980-10-01"
+    },
+    {
+      "title": "Could You Be Loved",
+      "genre": "reggae",
+      "date": "1980-01-01"
+    },
+    {
+      "title": "Get Up, Stand Up",
+      "genre": "reggae",
+      "date": "1973-01-01"
+    },
+    {
+      "title": "Waiting in Vain",
+      "genre": "reggae",
+      "date": "1977-01-01"
+    },
+    {
+      "title": "Waiting in Vain",
+      "genre": "pop music",
+      "date": "1977-01-01"
+    },
+    {
+      "title": "One Love",
+      "genre": "roots reggae",
+      "date": "1965-01-01"
+    },
+    {
+      "title": "One Love",
+      "genre": "roots reggae",
+      "date": "1977-01-01"
+    },
+    {
+      "title": "Small Axe",
+      "genre": "popular music",
+      "date": "1970-01-01"
+    },
+    {
+      "title": "Order My Steps",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "Evidence, a Dance Company",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "Shark Tale",
+      "genre": "film score",
+      "date": "2004-01-01"
+    },
+    {
+      "title": "Shark Tale",
+      "genre": "soundtrack",
+      "date": "2004-01-01"
+    }
+  ]
+}

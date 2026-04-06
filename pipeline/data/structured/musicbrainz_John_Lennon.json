@@ -1,0 +1,843 @@
+{
+  "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+  "name": "John Lennon",
+  "type": "Person",
+  "country": "GB",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1940-10-09",
+    "end": "1980-12-08",
+    "ended": "true"
+  },
+  "area": "United Kingdom",
+  "begin_area": "Liverpool",
+  "tags": [
+    {
+      "name": "british",
+      "count": "4"
+    },
+    {
+      "name": "classic rock",
+      "count": "2"
+    },
+    {
+      "name": "death by murder",
+      "count": "1"
+    },
+    {
+      "name": "english",
+      "count": "1"
+    },
+    {
+      "name": "experimental",
+      "count": "6"
+    },
+    {
+      "name": "peace",
+      "count": "2"
+    },
+    {
+      "name": "pop",
+      "count": "7"
+    },
+    {
+      "name": "pop rock",
+      "count": "2"
+    },
+    {
+      "name": "rock",
+      "count": "10"
+    },
+    {
+      "name": "rock & roll",
+      "count": "1"
+    },
+    {
+      "name": "rock and roll",
+      "count": "1"
+    },
+    {
+      "name": "singer-songwriter",
+      "count": "4"
+    },
+    {
+      "name": "uk",
+      "count": "2"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "The Dirty Mac",
+      "target_mbid": "d1d5e62f-2159-4556-811d-8949cc7247c6",
+      "target_type": "Group",
+      "target_disambiguation": "",
+      "attributes": [],
+      "begin": "1968-12-11",
+      "end": "1968-12-11"
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Yoko Ono",
+      "target_mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396",
+      "target_type": "Person",
+      "target_disambiguation": "Japanese‐American musician and artist",
+      "attributes": [],
+      "begin": "1969-03-20",
+      "end": "1980-12-08"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Quarrymen",
+      "target_mbid": "9fcc463b-7cfc-4ea4-a65e-bab77fc78e9a",
+      "target_type": "Group",
+      "target_disambiguation": "British group that evolved into The Beatles",
+      "attributes": [
+        "guitar",
+        "original"
+      ],
+      "begin": "1956",
+      "end": "1960"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Silver Beatles",
+      "target_mbid": "b06f5860-ce8f-4d8f-92ee-6c6f165ef8ef",
+      "target_type": "Group",
+      "target_disambiguation": "precursor to The Beatles",
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": "1960-01",
+      "end": "1960-08"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Silver Beatles",
+      "target_mbid": "b06f5860-ce8f-4d8f-92ee-6c6f165ef8ef",
+      "target_type": "Group",
+      "target_disambiguation": "precursor to The Beatles",
+      "attributes": [
+        "guitar"
+      ],
+      "begin": "1960-01",
+      "end": "1960-08"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Beatles",
+      "target_mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "target_type": "Group",
+      "target_disambiguation": "UK rock band, “The Fab Four”",
+      "attributes": [
+        "guitar",
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1960",
+      "end": "1969-09"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Beat Brothers",
+      "target_mbid": "bb85b2d0-7c62-4389-8564-5eeadacd09bb",
+      "target_type": "Group",
+      "target_disambiguation": "",
+      "attributes": [],
+      "begin": "1961",
+      "end": "1962"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Plastic Ono Band",
+      "target_mbid": "84f81b32-8b3a-4914-9cff-017a52f9d16b",
+      "target_type": "Group",
+      "target_disambiguation": "",
+      "attributes": [
+        "original"
+      ],
+      "begin": "1969-06",
+      "end": "1974"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Apple",
+      "target_mbid": "3dba35e6-28f4-4926-aae3-ff82ad934aa8",
+      "target_type": "Group",
+      "target_disambiguation": "John Lennon and Yoko Ono side project",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Beat Brothers",
+      "target_mbid": "cfced5be-f60b-4bc9-9e86-7853c5e0dfdb",
+      "target_type": "Group",
+      "target_disambiguation": "guitar band formed in Liverpool, UK",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "John Lennon McCullagh",
+      "target_mbid": "e6bc5981-b065-4898-a8a8-d0def5821de1",
+      "target_type": "Person",
+      "target_disambiguation": "UK singer-songwriter",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Freddie Lennon",
+      "target_mbid": "2b3fbe10-7cf3-4f32-88d1-fbe54dec4649",
+      "target_type": "Person",
+      "target_disambiguation": "",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Sean Ono Lennon",
+      "target_mbid": "722c6718-0c61-4db2-a8bc-993a8c5d2baf",
+      "target_type": "Person",
+      "target_disambiguation": "",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Julian Lennon",
+      "target_mbid": "fbe1a6d6-12c9-459e-bf73-fdcc76b14b7e",
+      "target_type": "Person",
+      "target_disambiguation": "",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Estefy Lennon Band",
+      "target_mbid": "bec11f22-f76f-46c1-a270-66a3035e0525",
+      "target_type": "Group",
+      "target_disambiguation": "John Lennon tribute band from Argentina",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Jay Goeppner",
+      "target_mbid": "665a88c1-5688-4ff6-8218-495c5ca73c72",
+      "target_type": "Person",
+      "target_disambiguation": "",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Adam Hastings",
+      "target_mbid": "af1ef271-0090-47c0-9408-cad6ce9a950f",
+      "target_type": "Person",
+      "target_disambiguation": "John Lennon impersonator",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Imagine No Lennon",
+      "target_mbid": "51339aeb-ce5a-4cd3-8b7b-85d7c24cf0fb",
+      "target_type": "Group",
+      "target_disambiguation": "Belgian John Lennon tribute project",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Lennon Live",
+      "target_mbid": "34f33402-603e-4433-bdbc-2900c9ce4077",
+      "target_type": "Group",
+      "target_disambiguation": "John Lennon tribute fronted by Adam Hastings",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Nube 9",
+      "target_mbid": "494a9a5c-f582-4225-a39d-5827f0236959",
+      "target_type": "Group",
+      "target_disambiguation": "Argentine rock & roll orchestra",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000232564"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.rockabilly.nl/references/messages/john_lennon.htm"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.rockhall.com/inductees/john-lennon/"
+    },
+    {
+      "type": "discography page",
+      "target": "https://web.archive.org/web/19981205111705/http://www.discographynet.com/lennon/lennon.html"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.jpgr.co.uk/i_bootleg_tracks_john.html"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/2053803"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/46481"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/779927"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://web.archive.org/web/19970408071646/http://www.bagism.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://web.archive.org/web/19981203113344/http://www.merseyworld.com/imagine/"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://web.archive.org/web/19981203152318/http://www.casagrande.com/~bilig/lennon.html"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/4x1nvY2FN8jxqAFA0DA02H"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/7wcH6naXfssACcXRregV1H"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/226"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/83460222"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Lie_In_15_--_John_rehearses_Give_Peace_A_Chance.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0006168/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/John+Lennon"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-5260/john-lennon/lyrics.html"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.johnlennon.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n80017868"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13896546z"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118571575"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=6852"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/john-lennon"
+    },
+    {
+      "type": "other databases",
+      "target": "https://musicmoz.org/Bands_and_Artists/L/Lennon,_John/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6kp872t"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1012313"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL240631A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/john-lennon"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/john-lennon/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n80017868"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id4416594"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/gb/artist/4416594"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/143"
+    },
+    {
+      "type": "social network",
+      "target": "https://plus.google.com/+JohnLennonOfficial"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/johnlennon"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/johnlennon"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/johnlennon/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/johnlennonofficial/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.tiktok.com/@johnlennon"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/131344"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/4416594"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/8803"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/8174"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/196844"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q1203"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCYU4eunPInnHTNWfGvOgkbg"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "b7cb0753-b05f-35c7-bcc2-85e1c783bd0f",
+      "title": "Unfinished Music No. 1: Two Virgins",
+      "type": "Album",
+      "first_release_date": "1968-11-11"
+    },
+    {
+      "id": "ae59682d-3dfe-3a0c-b9e5-87623bd0ae6f",
+      "title": "Unfinished Music No. 2: Life With the Lions",
+      "type": "Album",
+      "first_release_date": "1969-05-26"
+    },
+    {
+      "id": "9ea6179c-075e-3784-b0e0-62813bd94723",
+      "title": "Wedding Album",
+      "type": "Album",
+      "first_release_date": "1969-10-20"
+    },
+    {
+      "id": "8be83468-4917-390d-82b6-d890f058cd22",
+      "title": "John Lennon/Plastic Ono Band",
+      "type": "Album",
+      "first_release_date": "1970-12-11"
+    },
+    {
+      "id": "f242f304-0f1f-33a5-81a2-7a965b30e3b5",
+      "title": "Imagine",
+      "type": "Album",
+      "first_release_date": "1971-09-09"
+    },
+    {
+      "id": "e5153705-e798-343c-aeaf-1777db763dd6",
+      "title": "Some Time in New York City",
+      "type": "Album",
+      "first_release_date": "1972-09-15"
+    },
+    {
+      "id": "611a001d-dae3-390c-babf-bba33ee4ba31",
+      "title": "Mind Games",
+      "type": "Album",
+      "first_release_date": "1973-10-29"
+    },
+    {
+      "id": "cf90044e-b161-3cda-99c7-2390802023b9",
+      "title": "Walls and Bridges",
+      "type": "Album",
+      "first_release_date": "1974-10-04"
+    },
+    {
+      "id": "316bd588-952e-34b0-aeff-b8fd43ef9cf8",
+      "title": "Rock ’n’ Roll",
+      "type": "Album",
+      "first_release_date": "1975-02-17"
+    },
+    {
+      "id": "790ec782-7344-366c-af67-4a427bcaf991",
+      "title": "Double Fantasy",
+      "type": "Album",
+      "first_release_date": "1980-11-17"
+    },
+    {
+      "id": "9e51160b-c309-334a-84f9-80feb0112a8f",
+      "title": "Milk and Honey",
+      "type": "Album",
+      "first_release_date": "1984-01-19"
+    },
+    {
+      "id": "e5006a47-bd00-374a-a5f6-30b09cb1a6fc",
+      "title": "Shaved Fish",
+      "type": "Compilation",
+      "first_release_date": "1975-10-24"
+    },
+    {
+      "id": "4f29fc90-197f-3eb3-bfe0-321dad3bb342",
+      "title": "Menlove Ave.",
+      "type": "Compilation",
+      "first_release_date": "1986-10-27"
+    },
+    {
+      "id": "f733db12-dec2-38ff-8236-7163c815750e",
+      "title": "The John Lennon Collection",
+      "type": "Compilation",
+      "first_release_date": "1989-10-26"
+    },
+    {
+      "id": "05432930-1c7d-365b-98cf-7cb49dbf3d13",
+      "title": "Lennon",
+      "type": "Compilation",
+      "first_release_date": "1990-09-27"
+    },
+    {
+      "id": "f12b1165-231a-49f4-95a1-4e10622c03f4",
+      "title": "Karaoke Lennon & McCartney",
+      "type": "Compilation",
+      "first_release_date": "1993"
+    },
+    {
+      "id": "f71ef9c1-47e0-312b-b874-14f16e5990c3",
+      "title": "Beatles Classic Hits",
+      "type": "Compilation",
+      "first_release_date": "1994"
+    },
+    {
+      "id": "eaf5b144-63f1-4bd6-be95-eb5cefb06e24",
+      "title": "Litolff: Scherzo / Tchaikovsky: Marche Slave / Offenbach: Dances from \"Gaite Parisienne\" / Lennon-McCartney: Yesterday",
+      "type": "Compilation",
+      "first_release_date": "1996"
+    },
+    {
+      "id": "fb276ff7-0a07-3629-a46e-3c88f294e5a7",
+      "title": "Lennon Legend: The Very Best of John Lennon",
+      "type": "Compilation",
+      "first_release_date": "1997-10-27"
+    },
+    {
+      "id": "efbe36c5-a6cb-4c04-81f9-cd2dfc712041",
+      "title": "A Spaniard in the Works",
+      "type": "Compilation",
+      "first_release_date": "1997"
+    },
+    {
+      "id": "efd8fb3d-423c-4b0a-8a9e-46caca4ba404",
+      "title": "The Complete Lost Lennon Tapes - Volume 7 & 8",
+      "type": "Compilation",
+      "first_release_date": "1997"
+    },
+    {
+      "id": "782251f4-2a29-39c1-bcac-157cd6972d90",
+      "title": "Anthology",
+      "type": "Compilation",
+      "first_release_date": "1998-11-02"
+    },
+    {
+      "id": "098a7113-0282-36a3-b67e-5754db92c91c",
+      "title": "Wonsaponatime",
+      "type": "Compilation",
+      "first_release_date": "1998-11-02"
+    },
+    {
+      "id": "232a8e93-7529-4eeb-8cbd-20f03387de4c",
+      "title": "The Complete Lost Lennon Tapes - Volume 19 & 20",
+      "type": "Compilation",
+      "first_release_date": "1998"
+    },
+    {
+      "id": "f24bec12-5f1c-3b47-822b-1dbdbd0ebc8a",
+      "title": "Instant Karma: All‐Time Greatest Hits",
+      "type": "Compilation",
+      "first_release_date": "2001"
+    }
+  ],
+  "tracks": {
+    "b7cb0753-b05f-35c7-bcc2-85e1c783bd0f": [
+      {
+        "id": "b04b6f14-3164-4f2e-a3c6-bccf8c85246d",
+        "title": "Two Virgins, Side One",
+        "position": "1",
+        "length": "857000",
+        "work": {
+          "id": "7ededd22-2d41-4873-aac8-73015c915c80",
+          "title": "Two Virgins",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "03750b69-da3b-4cc1-9431-24407550b000",
+        "title": "Two Virgins, Side Two",
+        "position": "2",
+        "length": "884000",
+        "work": {
+          "id": "7ededd22-2d41-4873-aac8-73015c915c80",
+          "title": "Two Virgins",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      }
+    ],
+    "ae59682d-3dfe-3a0c-b9e5-87623bd0ae6f": [
+      {
+        "id": "3878ce45-de65-4984-88a5-ec7b5b8b5c61",
+        "title": "Cambridge 1969",
+        "position": "1",
+        "length": "1591066",
+        "work": {
+          "id": "66a63581-c457-4a75-a7fc-4b1dac3e2909",
+          "title": "Cambridge 1969",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8d8e0617-f34a-48b4-8b6f-bb96d7dad15b",
+        "title": "No Bed for Beatle John",
+        "position": "2",
+        "length": "280933",
+        "work": {
+          "id": "e62273f9-f06a-4f1d-a139-4a72e35078c6",
+          "title": "No Bed for Beatle John",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4dc1e7ac-0cc3-4358-9c79-d017fc51988c",
+        "title": "Baby’s Heartbeat",
+        "position": "3",
+        "length": "309760",
+        "work": {
+          "id": "7d16d16a-0d0d-4388-b38b-2f3363345402",
+          "title": "Baby’s Heartbeat",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "60668439-d600-4f6a-a890-374cefe48dd0",
+        "title": "Two Minutes Silence",
+        "position": "4",
+        "length": "120040",
+        "work": {
+          "id": "94b79c8b-2186-4d80-8364-3d88fa535a76",
+          "title": "Two Minutes Silence",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e55daa51-8b0d-4b5e-844b-acd5494b26d2",
+        "title": "Radio Play",
+        "position": "5",
+        "length": "759893",
+        "work": {
+          "id": "65f7c57c-c18c-47e4-9927-46957d2c7f02",
+          "title": "Radio Play",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      }
+    ],
+    "9ea6179c-075e-3784-b0e0-62813bd94723": [
+      {
+        "id": "740ab5d0-be5e-4629-aa9e-4b07465c7ff8",
+        "title": "John & Yoko",
+        "position": "1",
+        "length": "1363293",
+        "work": {
+          "id": "c9de9271-9eaa-467f-9180-51142a3c2b61",
+          "title": "John & Yoko",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1284b50b-4275-4a00-9eab-9cd0816d4519",
+        "title": "Amsterdam",
+        "position": "2",
+        "length": "1499400",
+        "work": {
+          "id": "1d2780af-48b2-40fc-84b6-6969d3e6fb5d",
+          "title": "Amsterdam",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 779927,
+  "wikidata_id": "Q1203"
+}

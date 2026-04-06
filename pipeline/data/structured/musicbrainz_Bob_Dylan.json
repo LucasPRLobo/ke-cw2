@@ -1,0 +1,1269 @@
+{
+  "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+  "name": "Bob Dylan",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1941-05-24",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "United States",
+  "begin_area": "Duluth",
+  "tags": [
+    {
+      "name": "blues",
+      "count": "3"
+    },
+    {
+      "name": "blues rock",
+      "count": "6"
+    },
+    {
+      "name": "bob dylan - where are you now my blue eyed son",
+      "count": "1"
+    },
+    {
+      "name": "classic rock",
+      "count": "1"
+    },
+    {
+      "name": "contemporary folk",
+      "count": "4"
+    },
+    {
+      "name": "country",
+      "count": "2"
+    },
+    {
+      "name": "country rock",
+      "count": "4"
+    },
+    {
+      "name": "folk",
+      "count": "8"
+    },
+    {
+      "name": "folk rock",
+      "count": "13"
+    },
+    {
+      "name": "gospel",
+      "count": "1"
+    },
+    {
+      "name": "greenwich village scene",
+      "count": "1"
+    },
+    {
+      "name": "jazz",
+      "count": "1"
+    },
+    {
+      "name": "pop rock",
+      "count": "3"
+    },
+    {
+      "name": "rock",
+      "count": "8"
+    },
+    {
+      "name": "roots rock",
+      "count": "1"
+    },
+    {
+      "name": "singer-songwriter",
+      "count": "4"
+    },
+    {
+      "name": "singer/songwriter",
+      "count": "1"
+    },
+    {
+      "name": "traditional pop",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "USA for Africa",
+      "target_mbid": "45e3c90f-2de6-4452-99b3-8dbf7a3cf6df",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "Artists United Against Apartheid",
+      "target_mbid": "298fb0c1-5a1f-43c1-854d-663762caad6e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Mickey Jones",
+      "target_mbid": "a4033244-3785-412a-8e8a-809f0faa02a2",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1966",
+      "end": "1966"
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Susan Rotolo",
+      "target_mbid": "96ddf1b6-2544-4ee9-b7d2-31677bf017e4",
+      "attributes": [],
+      "begin": "1961",
+      "end": "1964"
+    },
+    {
+      "type": "involved with",
+      "direction": "forward",
+      "target_name": "Joan Baez",
+      "target_mbid": "92d37892-6186-4459-9cc1-f0dde57652d0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "is person",
+      "direction": "forward",
+      "target_name": "Tedham Porterhouse",
+      "target_mbid": "5bf151d7-0b3b-48cb-b6e7-a30004da1680",
+      "attributes": [],
+      "begin": "1964",
+      "end": "1964"
+    },
+    {
+      "type": "is person",
+      "direction": "forward",
+      "target_name": "Robert Milkwood Thomas",
+      "target_mbid": "78e2ef88-6898-4fb2-9666-306546904cf8",
+      "attributes": [],
+      "begin": "1972-09",
+      "end": "1972-09"
+    },
+    {
+      "type": "is person",
+      "direction": "forward",
+      "target_name": "Jack Frost",
+      "target_mbid": "7017b003-a397-4015-8b13-76c858cef56e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Sara Dylan",
+      "target_mbid": "633c9606-4197-4bab-9886-ac413bf3c063",
+      "attributes": [],
+      "begin": "1965-11-22",
+      "end": "1977-06-29"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Sara Dylan",
+      "target_mbid": "633c9606-4197-4bab-9886-ac413bf3c063",
+      "attributes": [],
+      "begin": "1965",
+      "end": "1977"
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Carolyn Dennis",
+      "target_mbid": "08981ccf-371b-4441-be4c-6b5196cee37d",
+      "attributes": [],
+      "begin": "1986-06-04",
+      "end": "1990-08-07"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Traveling Wilburys",
+      "target_mbid": "4387b544-e4d0-4f18-b74e-d4a5ba1582ab",
+      "attributes": [],
+      "begin": "1988",
+      "end": "1990"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Golden Chords",
+      "target_mbid": "48fb4dcb-bd67-4a9d-8afa-1fa173522f7a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Jakob Dylan",
+      "target_mbid": "2f877714-727d-490b-94fb-a8d32ee4cea5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Desiree Gabrielle Dennis‐Dylan",
+      "target_mbid": "e30d73e6-38d5-4981-a0b5-f1066af82268",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Jesse Dylan",
+      "target_mbid": "c9f3a74c-f84f-4aa3-abbf-f9070ba69e9d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "Neverending Tour Band",
+      "target_mbid": "3ee792fd-eebf-40c6-9f4a-1ba8ecc7b11c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Dylan 80",
+      "target_mbid": "211edb9a-1ecf-4b31-9281-27f58e616148",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Traveling Wilburys Revue",
+      "target_mbid": "f56a9b9d-2e26-45f1-ad0b-75af46c2d991",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Under the Dylan Sky",
+      "target_mbid": "9f5bddb8-2906-48a5-9bae-0295141d941e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Zimmermans",
+      "target_mbid": "51eeff51-3705-4fc0-8d06-a4723f89e30c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Zimmermen",
+      "target_mbid": "40a771c2-58f5-4630-8aed-c1cc750daece",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000066915"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/487"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/72c536dc-7137-4477-a521-567eeb840fa8"
+    },
+    {
+      "type": "biography",
+      "target": "https://www.wolfgangs.com/bob-dylan/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://cds.jrd.org.uk/list/titles.bob.shtml"
+    },
+    {
+      "type": "discography page",
+      "target": "http://jokerman.org.uk/lb/LosslessBob.html"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.boblinks.com/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.bobsboots.com/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.searchingforagem.com/"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/444635"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/59792"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/834818"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/74ASZWbe4lXaubB36ztrGX"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/808"
+    },
+    {
+      "type": "free streaming",
+      "target": "http://www.pandora.com/bob-dylan"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Bob_Dylan_-_Azkena_Rock_Festival_2010_1.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0001168/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Bob+Dylan"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-3919/bob-dylan/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Bob-dylan"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/bobdylan"
+    },
+    {
+      "type": "official homepage",
+      "target": "https://bobdylan.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://jaxsta.com/profile/be618fdb-c6ad-4f66-907d-4ed0a92c6012"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n50030190"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/D/Dylan,_Bob/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://artists.spotify.com/songwriter/1d77BnaN7rMcHBcqA6YSR3"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13893566v"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118528408"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=84040"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/bob-dylan"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-812744"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL26505A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/bob-dylan"
+    },
+    {
+      "type": "other databases",
+      "target": "https://snaccooperative.org/ark:/99166/w6wd4h4j"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/bob-dylan"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/bob-dylan/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n50030190"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/36748/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/462006"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://ototoy.jp/_/default/a/912"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id462006"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/158"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/bob-dylan-1bd6adb8.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/bobdylan"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/bobdylan"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/bobdylan/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/408511"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/bobdylan"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/462006"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/80"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/111894442"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q392"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCnRI0ay61tY-fKYzzB3fCnw"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "6ac612a5-e815-3fed-b341-8b3faa351df4",
+      "title": "Bob Dylan",
+      "type": "Album",
+      "first_release_date": "1962-03-19"
+    },
+    {
+      "id": "169b62aa-c3a5-3ed9-bed1-cc47c4bc51ad",
+      "title": "The Freewheelin’ Bob Dylan",
+      "type": "Album",
+      "first_release_date": "1963-05-27"
+    },
+    {
+      "id": "846f8032-9a85-3f4f-b7f5-28c86573d044",
+      "title": "The Times They Are A‐Changin’",
+      "type": "Album",
+      "first_release_date": "1964-02-10"
+    },
+    {
+      "id": "b18ef710-0e47-3c10-ab0b-6631533549ee",
+      "title": "Another Side of Bob Dylan",
+      "type": "Album",
+      "first_release_date": "1964-08-08"
+    },
+    {
+      "id": "6cadda7c-fbd0-3b19-9546-56915e3305d8",
+      "title": "Bringing It All Back Home",
+      "type": "Album",
+      "first_release_date": "1965-03-22"
+    },
+    {
+      "id": "fb48b1dc-412f-36aa-8820-1023c08c46c6",
+      "title": "Highway 61 Revisited",
+      "type": "Album",
+      "first_release_date": "1965-08-30"
+    },
+    {
+      "id": "329fb554-2a81-3d8a-8e22-ec2c66810019",
+      "title": "Blonde on Blonde",
+      "type": "Album",
+      "first_release_date": "1966-05-16"
+    },
+    {
+      "id": "32981714-597a-32dd-9f29-b2f7566fed89",
+      "title": "John Wesley Harding",
+      "type": "Album",
+      "first_release_date": "1967-12-27"
+    },
+    {
+      "id": "2ca28746-8987-3015-b54c-75b3aa8ca1a1",
+      "title": "Nashville Skyline",
+      "type": "Album",
+      "first_release_date": "1969-04-09"
+    },
+    {
+      "id": "6163aa70-d97f-34e5-a5bf-54b7d85a7ea0",
+      "title": "Self Portrait",
+      "type": "Album",
+      "first_release_date": "1970-06-08"
+    },
+    {
+      "id": "4f2b915f-cc82-3c18-ac9b-05f3d4df622d",
+      "title": "New Morning",
+      "type": "Album",
+      "first_release_date": "1970-10-21"
+    },
+    {
+      "id": "a876f1e5-9a1a-32ef-a7f2-8971511bd19f",
+      "title": "Dylan",
+      "type": "Album",
+      "first_release_date": "1973-11-16"
+    },
+    {
+      "id": "aedd518d-d7e0-3595-80c7-54d2aad292f8",
+      "title": "Planet Waves",
+      "type": "Album",
+      "first_release_date": "1974-01-17"
+    },
+    {
+      "id": "9c1b8072-eb1d-33d2-af8c-984d46e40902",
+      "title": "Blood on the Tracks",
+      "type": "Album",
+      "first_release_date": "1975-01-20"
+    },
+    {
+      "id": "47873729-6db0-3431-99e7-0292e939dadf",
+      "title": "The Basement Tapes",
+      "type": "Album",
+      "first_release_date": "1975-06-26"
+    },
+    {
+      "id": "fc325dd3-73ed-36aa-9c77-6b65a958e3cf",
+      "title": "Desire",
+      "type": "Album",
+      "first_release_date": "1976-01-05"
+    },
+    {
+      "id": "5883c91a-43ea-34e6-922d-1dc12fd48467",
+      "title": "Street‐Legal",
+      "type": "Album",
+      "first_release_date": "1978-06-15"
+    },
+    {
+      "id": "84b2989d-4364-3882-9570-30d4a048c487",
+      "title": "Slow Train Coming",
+      "type": "Album",
+      "first_release_date": "1979-08-20"
+    },
+    {
+      "id": "a11f33bf-1573-3b99-bcc6-d0c6e6592bcd",
+      "title": "Saved",
+      "type": "Album",
+      "first_release_date": "1980-06-19"
+    },
+    {
+      "id": "4491344e-1ffd-339d-a2c5-e6a369b4708e",
+      "title": "Shot of Love",
+      "type": "Album",
+      "first_release_date": "1981-08-10"
+    },
+    {
+      "id": "60f27712-263a-348c-8eda-b5315a67e8c2",
+      "title": "Infidels",
+      "type": "Album",
+      "first_release_date": "1983-10-27"
+    },
+    {
+      "id": "a90b32b2-c84d-35ad-bab3-07e6799cde5b",
+      "title": "Empire Burlesque",
+      "type": "Album",
+      "first_release_date": "1985-05-30"
+    },
+    {
+      "id": "423bf65a-6e28-3a14-8ea7-08912eb15e29",
+      "title": "Knocked Out Loaded",
+      "type": "Album",
+      "first_release_date": "1986-07-14"
+    },
+    {
+      "id": "ce8a72cf-10c7-3dea-b9e7-3dd260a9ed5c",
+      "title": "Down in the Groove",
+      "type": "Album",
+      "first_release_date": "1988-05-19"
+    },
+    {
+      "id": "36675813-6c3c-33fa-8eaf-b1cd66d4f006",
+      "title": "Oh Mercy",
+      "type": "Album",
+      "first_release_date": "1989-09-12"
+    }
+  ],
+  "tracks": {
+    "6ac612a5-e815-3fed-b341-8b3faa351df4": [
+      {
+        "id": "ac781013-b606-4a6e-89bb-6db725c4ccc9",
+        "title": "You’re No Good",
+        "position": "1",
+        "length": "100000",
+        "work": {
+          "id": "50214f6e-87fd-4067-9a5f-b3e8e1b748c5",
+          "title": "You’re No Good",
+          "composers": [
+            {
+              "name": "Jesse Fuller",
+              "mbid": "e148154d-e1fb-4da4-8db2-d54bf9a894b8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0d0020a4-0892-45d1-ae4a-979a51f3f54d",
+        "title": "Talkin’ New York",
+        "position": "2",
+        "length": "199000",
+        "work": {
+          "id": "b391eba1-24bc-3d4b-9510-e36f4ad0e4f5",
+          "title": "Talkin' New York",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "750b475a-59f7-4a5b-bc62-f46d4e948670",
+        "title": "In My Time of Dyin’",
+        "position": "3",
+        "length": "159000",
+        "work": {
+          "id": "0845e3dc-783d-40e8-a8ae-ba0289b98694",
+          "title": "In My Time of Dyin'",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a4d9c3ad-dc0d-4a3c-b0dd-5819cbf3c412",
+        "title": "Man of Constant Sorrow",
+        "position": "4",
+        "length": "188000",
+        "work": {
+          "id": "b0b1fbb1-7fa6-3de8-a33f-c8b62fec94e3",
+          "title": "Man of Constant Sorrow",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d1cd3bc8-ab20-49ca-9333-6ac4cb315026",
+        "title": "Fixin’ to Die",
+        "position": "5",
+        "length": "141000",
+        "work": {
+          "id": "402405c8-acbd-3de4-9f8d-2bbaa595826e",
+          "title": "Fixin’ to Die Blues",
+          "composers": [
+            {
+              "name": "Bukka White",
+              "mbid": "882af819-887e-4691-a4af-b14613058942"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fe2c63d2-1ac0-44e4-8a7b-b5c4be58f80d",
+        "title": "Pretty Peggy‐O",
+        "position": "6",
+        "length": "203000",
+        "work": {
+          "id": "52089277-3826-33bc-9bd5-606365451cf9",
+          "title": "Pretty Peggy-O",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "00a07585-14a0-4aae-b209-454c5bf02ae8",
+        "title": "Highway 51",
+        "position": "7",
+        "length": "173000",
+        "work": {
+          "id": "773e1fea-7af8-3d05-bcf3-276b387f4c4d",
+          "title": "Highway 51",
+          "composers": [
+            {
+              "name": "Tommy McClennan",
+              "mbid": "a171ead8-b70c-4284-9445-5e46cf8f233b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ecceda4c-56a7-490b-b8e6-f3b0d4ef6964",
+        "title": "Gospel Plow",
+        "position": "8",
+        "length": "106000",
+        "work": {
+          "id": "0ee749bc-fa4b-3e68-af25-686a5aab69e5",
+          "title": "Gospel Plow (Hold on)",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2f10e157-d46a-4e74-a8d0-8f8a2243d2f8",
+        "title": "Baby, Let Me Follow You Down",
+        "position": "9",
+        "length": "155000",
+        "work": {
+          "id": "5cee6e58-87c3-4183-b7b0-e2fa908e9240",
+          "title": "Baby, Let Me Follow You Down",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            },
+            {
+              "name": "Reverend Gary Davis",
+              "mbid": "f66eefea-ff87-46b5-947d-b595a4bac5c9"
+            },
+            {
+              "name": "Eric Von Schmidt",
+              "mbid": "f6639920-db09-4e37-a6d9-f036a37e095c"
+            },
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b31f12e9-2b2d-4ac5-b1fd-fdb0b97d168c",
+        "title": "House of the Risin’ Sun",
+        "position": "10",
+        "length": "318000",
+        "work": {
+          "id": "11e9382d-334c-498c-85cc-8029c1e03c57",
+          "title": "House of the Risin’ Sun",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "85057ddb-649d-462e-ac17-66d7c9963bb1",
+        "title": "Freight Train Blues",
+        "position": "11",
+        "length": "139000",
+        "work": {
+          "id": "2f3b19e4-14a3-3756-bad2-0f000c920a25",
+          "title": "Freight Train Blues",
+          "composers": []
+        }
+      },
+      {
+        "id": "97c5ff2b-bb61-4d4d-80ec-95b754bb76ed",
+        "title": "Song to Woody",
+        "position": "12",
+        "length": "162000",
+        "work": {
+          "id": "c35e6be5-57c8-3467-a779-64aef4d6c415",
+          "title": "Song to Woody",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0128d3d7-03e7-4f12-8c72-7ec3791a72cb",
+        "title": "See That My Grave Is Kept Clean",
+        "position": "13",
+        "length": "163333",
+        "work": {
+          "id": "88bc04a1-7f5f-3607-8855-56cfa1cfe6dc",
+          "title": "See That My Grave Is Kept Clean",
+          "composers": [
+            {
+              "name": "Blind Lemon Jefferson",
+              "mbid": "9481010a-db23-469d-87df-b04118850efb"
+            },
+            {
+              "name": "Steve Wynn",
+              "mbid": "5eb64fa9-5231-4a9b-8742-e72c2d185519"
+            }
+          ]
+        }
+      }
+    ],
+    "169b62aa-c3a5-3ed9-bed1-cc47c4bc51ad": [
+      {
+        "id": "00e37446-2e4c-409a-a8a1-ed94f1b01a57",
+        "title": "Blowin’ in the Wind",
+        "position": "1",
+        "length": "168400",
+        "work": {
+          "id": "f5a12d42-00a1-3bc2-8ed1-df2506ea3db2",
+          "title": "Blowin’ in the Wind",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5857b092-93ae-434d-b3f1-3f959396732b",
+        "title": "Girl From the North Country",
+        "position": "2",
+        "length": "202573",
+        "work": {
+          "id": "570edb47-3490-337a-9eb5-19542bcbf4a8",
+          "title": "Girl From the North Country",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "88621637-8f03-427e-855f-4f52f712e80e",
+        "title": "Masters of War",
+        "position": "3",
+        "length": "273960",
+        "work": {
+          "id": "131c38ec-9606-3faf-b889-ee7238572c75",
+          "title": "Masters of War",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9b08a5da-da77-4df8-b3ad-dcb481959013",
+        "title": "Down the Highway",
+        "position": "4",
+        "length": "207306",
+        "work": {
+          "id": "d5c204a5-18e6-3c3a-adb8-875a616dd214",
+          "title": "Down the Highway",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b654f8ad-071a-41c1-a1f7-1134de178ee8",
+        "title": "Bob Dylan’s Blues",
+        "position": "5",
+        "length": "143266",
+        "work": {
+          "id": "b1c1f7f9-a870-3f5f-b5f5-854b8ae5eda3",
+          "title": "Bob Dylan’s Blues",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "536247b1-a87a-40c7-93e8-dd02fe3f3d54",
+        "title": "A Hard Rain’s A‐Gonna Fall",
+        "position": "6",
+        "length": "412000",
+        "work": {
+          "id": "b57912dc-7ca1-3805-8af2-8eca5d3e7496",
+          "title": "Hard Rain’s A‐Gonna Fall",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "19f571b4-b396-4113-9858-ab032074a3c7",
+        "title": "Don’t Think Twice, It’s All Right",
+        "position": "7",
+        "length": "219842",
+        "work": {
+          "id": "04920e7f-790a-302c-873c-1efc11d20b4d",
+          "title": "Don’t Think Twice, It’s All Right",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            },
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "98846b10-8951-43bc-ab24-c960e330cec8",
+        "title": "Bob Dylan’s Dream",
+        "position": "8",
+        "length": "303000",
+        "work": {
+          "id": "bd938649-94eb-3dd7-9239-43b739283469",
+          "title": "Bob Dylan’s Dream",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2160818f-ce54-4502-a480-535389abef61",
+        "title": "Oxford Town",
+        "position": "9",
+        "length": "110066",
+        "work": {
+          "id": "04920e7f-790a-302c-873c-1efc11d20b4d",
+          "title": "Don’t Think Twice, It’s All Right",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            },
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "67a68273-fa05-4ecf-aa85-648868a91b01",
+        "title": "Talkin’ World War III Blues",
+        "position": "10",
+        "length": "388000",
+        "work": {
+          "id": "b2f9b96d-89a1-4499-9606-26e60860309d",
+          "title": "Talkin’ World War III Blues",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2f528602-ea36-480a-b1df-f7a5af36598e",
+        "title": "Corrina, Corrina",
+        "position": "11",
+        "length": "164066",
+        "work": {
+          "id": "8fbc762e-d02a-3212-a1a0-b76e34fb9f93",
+          "title": "Corrina, Corrina",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6d2b3714-478f-4fb1-9dfb-4a70c266453e",
+        "title": "Honey, Just Allow Me One More Chance",
+        "position": "12",
+        "length": "121160",
+        "work": {
+          "id": "c899f86f-c9a1-49f8-aca3-5b04568dbb94",
+          "title": "Honey, Just Allow Me One More Chance",
+          "composers": [
+            {
+              "name": "Henry Thomas",
+              "mbid": "46b6c6e1-81ca-4fa8-b264-8f0fe49dff1a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f96f9b50-959d-4ef0-adc0-2995d179e6c8",
+        "title": "I Shall Be Free",
+        "position": "13",
+        "length": "289000",
+        "work": {
+          "id": "a2331550-4792-3b4b-91ad-995ee329448f",
+          "title": "I Shall Be Free",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      }
+    ],
+    "846f8032-9a85-3f4f-b7f5-28c86573d044": [
+      {
+        "id": "9b6c2e25-73d4-4357-9c4a-e62a44be0e62",
+        "title": "The Times They Are A‐Changin’",
+        "position": "1",
+        "length": "198933",
+        "work": {
+          "id": "59f4520e-95e1-3f77-ab62-ff9f21285bec",
+          "title": "The Times They Are A‐Changin’",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5a5e964b-df12-4b6a-97bf-67c6bf50587c",
+        "title": "Ballad of Hollis Brown",
+        "position": "2",
+        "length": "308826",
+        "work": {
+          "id": "5ed18d5c-9848-393a-a919-1cc02ef4bfe8",
+          "title": "Ballad of Hollis Brown",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5a69badb-3ad3-4c6e-b283-dabeb1e892d5",
+        "title": "With God on Our Side",
+        "position": "3",
+        "length": "433986",
+        "work": {
+          "id": "32623697-38ad-3cb0-b45a-da158426a1d7",
+          "title": "With God on Our Side",
+          "composers": [
+            {
+              "name": "Dominic Behan",
+              "mbid": "83323d76-1d43-4150-8c01-31e7e9d2db17"
+            },
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            },
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5b94a305-f6e2-47b3-80db-578cc32257a1",
+        "title": "One Too Many Mornings",
+        "position": "4",
+        "length": "164266",
+        "work": {
+          "id": "76a0fd00-0006-49c7-bd60-92e72490d3e8",
+          "title": "One Too Many Mornings",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3cda897c-fb9e-458d-ad10-34bc1732f939",
+        "title": "North Country Blues",
+        "position": "5",
+        "length": "278840",
+        "work": {
+          "id": "675f22a0-5ea3-4939-860e-1f30ba629deb",
+          "title": "North Country Blues",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "90a1170e-f768-41e1-bfe8-df1340d50da7",
+        "title": "Only a Pawn in Their Game",
+        "position": "6",
+        "length": "214746",
+        "work": {
+          "id": "9725de39-be25-40de-a739-0ea170bbc0de",
+          "title": "Only a Pawn in Their Game",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fd25920f-e4ae-42c3-960a-d152bcc3fbb1",
+        "title": "Boots of Spanish Leather",
+        "position": "7",
+        "length": "283746",
+        "work": {
+          "id": "428eadb3-4fae-397f-b28b-d87c13519116",
+          "title": "Boots of Spanish Leather",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1badcb36-4125-4458-b51f-3d86a1b4c73d",
+        "title": "When the Ship Comes In",
+        "position": "8",
+        "length": "200253",
+        "work": {
+          "id": "e393936f-b863-466a-9c84-50a51d995268",
+          "title": "When the Ship Comes In",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e7d3c329-551a-4dee-a28d-fb192b1d3a2b",
+        "title": "The Lonesome Death of Hattie Carroll",
+        "position": "9",
+        "length": "351666",
+        "work": {
+          "id": "c05e06fd-89d8-36d8-8aab-9804b8dd5d89",
+          "title": "The Lonesome Death of Hattie Carroll",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7532d9cf-f329-4673-af3e-3ce6351d08bc",
+        "title": "Restless Farewell",
+        "position": "10",
+        "length": "338680",
+        "work": {
+          "id": "c1620cb6-4a71-4a90-909c-6b2c2b9e0c63",
+          "title": "Restless Farewell",
+          "composers": [
+            {
+              "name": "Bob Dylan",
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 834818,
+  "wikidata_id": "Q392"
+}

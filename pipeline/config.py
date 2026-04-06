@@ -209,6 +209,7 @@ ARTIST_MBID_OVERRIDES = {
     "Quincy Jones": "5803c81e-739a-4057-9a5c-cf84e55db630",              # Quincy Jones (Person)
     "Rick Rubin": "07aebfa0-55d6-47e0-a284-12330e3eae0d",                # Rick Rubin (producer)
     "George Martin": "26fa8b67-6c7f-406c-ad64-a1d070092df2",             # George Martin (Beatles producer)
+    "Umm Kulthum": "0a354a70-b879-4697-ad9b-60bfe2bd1d63",               # أم كلثوم (Egyptian singer), not "UMM" (electronic project)
 }
 
 # --- Tools ---

@@ -1,0 +1,1826 @@
+{
+  "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+  "name": "Kendrick Lamar",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1987-06-17",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "United States",
+  "begin_area": "Compton",
+  "tags": [
+    {
+      "name": "2010s",
+      "count": "2"
+    },
+    {
+      "name": "2020s",
+      "count": "2"
+    },
+    {
+      "name": "alternative hip hop",
+      "count": "2"
+    },
+    {
+      "name": "conscious hip hop",
+      "count": "10"
+    },
+    {
+      "name": "conscious rapper",
+      "count": "1"
+    },
+    {
+      "name": "contemporary rap",
+      "count": "1"
+    },
+    {
+      "name": "dance",
+      "count": "1"
+    },
+    {
+      "name": "disco",
+      "count": "1"
+    },
+    {
+      "name": "future bass",
+      "count": "1"
+    },
+    {
+      "name": "gangsta rap",
+      "count": "1"
+    },
+    {
+      "name": "hardcore hip hop",
+      "count": "6"
+    },
+    {
+      "name": "hip hop",
+      "count": "15"
+    },
+    {
+      "name": "house",
+      "count": "1"
+    },
+    {
+      "name": "jazz",
+      "count": "1"
+    },
+    {
+      "name": "jazz rap",
+      "count": "9"
+    },
+    {
+      "name": "pop",
+      "count": "4"
+    },
+    {
+      "name": "pop rap",
+      "count": "2"
+    },
+    {
+      "name": "progressive rap",
+      "count": "1"
+    },
+    {
+      "name": "r&b",
+      "count": "1"
+    },
+    {
+      "name": "rap",
+      "count": "5"
+    },
+    {
+      "name": "trap",
+      "count": "2"
+    },
+    {
+      "name": "west coast hip hop",
+      "count": "8"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "DJ Dahi",
+      "target_mbid": "4e5017d4-874d-48ee-84f0-d535d17a010f",
+      "attributes": [
+        "turntable"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Rob Gueringer",
+      "target_mbid": "a228bc1a-8bdf-4a1d-ad91-292b5712e7eb",
+      "attributes": [
+        "guitar"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Stanton Lewis",
+      "target_mbid": "960a2a96-ef31-44ed-8443-d03bb9ef8d6d",
+      "attributes": [
+        "keyboard"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Rico Nichols",
+      "target_mbid": "0f7b7e4e-9bd3-490e-bb9d-a45467f379ea",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Tony Russell",
+      "target_mbid": "6df88b67-6a89-4d87-a7ae-146c6bbee9aa",
+      "attributes": [
+        "bass"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "WaunReallyHim",
+      "target_mbid": "8d630e71-8df4-4fe8-a8aa-3697a079e387",
+      "attributes": [
+        "guitar"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Black Hippy",
+      "target_mbid": "6fc5c0c6-bf05-4b29-bda0-5fa6cc863785",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Little Homies",
+      "target_mbid": "5f8a6804-b183-472f-a34b-0011dd16ee9a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0002709646"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/538746"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/381086ea-f511-4aba-bdf9-71c753dc5077"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/1539549"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/1778977"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/3062364"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/525046"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm5302509/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Kendrick+Lamar"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-12300/kendrick-lamar/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Kendrick-lamar"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/Kendrick-Lamar"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/kdottde"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.kendricklamar.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/no2012001286"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb16666005f"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/1038428041"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/kendrick-lamar"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/kendrick_lamar"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.livefans.jp/artists/25790"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/kendrick-lamar/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000377820/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.themoviedb.org/person/1008292"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Kendrick-Lamar/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/containsVIAFID/228084643"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=Ag6icjgrnuaumrdrubtg5nr2xki"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/artist/id368183298"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/174666/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.bugs.co.kr/artist/80105349"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.beatport.com/artist/kendrick-lamar/295822"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.junodownload.com/artists/Kendrick+Lamar/releases/"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.cdjapan.co.jp/person/700562633"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/91656"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/kendrick-lamar-bd2f5d6.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://plus.google.com/+KendrickLamar"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/kendricklamar"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/kendricklamar"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/jojoruski/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/kendricklamar/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/3277856"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/kendrick-lamar-music"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B0042PSYRU"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/368183298"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.bugs.co.kr/artist/80105349"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/3816041"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.qobuz.com/gb-en/interpreter/kendrick-lamar/download-streaming-albums"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/228084643"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q130798"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UC3lBXcrKFnFAFkfVk5WuKcQ"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCoYfzC2zMlc9M-Odgaf6OSg"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCprAFmT0C6O4X0ToEXpeFTQ"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "ceccd668-a928-4041-a3c3-99a5ce880de9",
+      "title": "Section.80",
+      "type": "Album",
+      "first_release_date": "2011-07-02"
+    },
+    {
+      "id": "499c19c8-0dab-4824-884b-6191d145e95b",
+      "title": "good kid, m.A.A.d city",
+      "type": "Album",
+      "first_release_date": "2012-10-21"
+    },
+    {
+      "id": "d9103c72-3807-4378-9ce7-b6f3e8fdd547",
+      "title": "To Pimp a Butterfly",
+      "type": "Album",
+      "first_release_date": "2015-03-15"
+    },
+    {
+      "id": "b88655ba-7469-48b8-a296-b9011ab73ef3",
+      "title": "DAMN.",
+      "type": "Album",
+      "first_release_date": "2017-04-14"
+    },
+    {
+      "id": "6bd70eee-bd46-4738-851a-f50c19d8d6db",
+      "title": "Mr. Morale & the Big Steppers",
+      "type": "Album",
+      "first_release_date": "2022-05-13"
+    },
+    {
+      "id": "32cb822c-a14e-49ce-a169-f209c5f31e0f",
+      "title": "GNX",
+      "type": "Album",
+      "first_release_date": "2024-11-22"
+    },
+    {
+      "id": "4e44335c-3f2b-4874-a6c3-71b5e65f75d5",
+      "title": "untitled unmastered.",
+      "type": "Compilation",
+      "first_release_date": "2016-03-04"
+    },
+    {
+      "id": "4e317e28-e6b2-46d7-81f7-306e349b3dd4",
+      "title": "Black Panther: The Album (Music From and Inspired By)",
+      "type": "Soundtrack",
+      "first_release_date": "2018-02-09"
+    },
+    {
+      "id": "cec2a006-95c1-4d76-bd0e-31fa002163a3",
+      "title": "Training Day",
+      "type": "Album",
+      "first_release_date": "2005"
+    },
+    {
+      "id": "76987bdb-989b-4f6a-a47e-ef300f7a28d3",
+      "title": "No Sleep Til NYC",
+      "type": "Album",
+      "first_release_date": "2007-12-15"
+    },
+    {
+      "id": "116048e0-0dee-4299-badd-0fcb9928aa31",
+      "title": "C4",
+      "type": "Album",
+      "first_release_date": "2009-01-30"
+    },
+    {
+      "id": "b972d088-9ef2-4386-991f-baad5a873837",
+      "title": "Overly Dedicated",
+      "type": "Album",
+      "first_release_date": "2010-09-14"
+    },
+    {
+      "id": "c5941657-7767-423f-98b3-483ec16f0667",
+      "title": "THE OVERGROUND HELL ROAD",
+      "type": "Album",
+      "first_release_date": "2016-03-16"
+    },
+    {
+      "id": "c08b45f4-2f10-435c-92fc-2af71b3837be",
+      "title": "Compton Cowboys",
+      "type": "Album",
+      "first_release_date": "2023"
+    },
+    {
+      "id": "dc55ace2-9e2e-49b6-9b4f-a6580290c258",
+      "title": "KL7",
+      "type": "Album",
+      "first_release_date": "2026"
+    },
+    {
+      "id": "bec925b8-8871-43b8-98ee-7b39f10617c9",
+      "title": "Welcome to Compton",
+      "type": "Compilation",
+      "first_release_date": "2014-01-22"
+    },
+    {
+      "id": "117ddedc-41fd-4d75-8af7-f069744b3cb3",
+      "title": "Revolution Music",
+      "type": "Compilation",
+      "first_release_date": "2017"
+    },
+    {
+      "id": "1f300dfd-fc5a-469e-b39c-76a9bf27805c",
+      "title": "Riding for compton",
+      "type": "Compilation",
+      "first_release_date": "2018-11-29"
+    },
+    {
+      "id": "b8218587-b7eb-4514-84f2-e48ce710a0f3",
+      "title": "unfinished unreleased",
+      "type": "Compilation",
+      "first_release_date": "2025-01-20"
+    },
+    {
+      "id": "c5a70e32-1161-4473-9094-238397f5b0c3",
+      "title": "Everybody Sensitive",
+      "type": "Compilation",
+      "first_release_date": "2026-05-03"
+    },
+    {
+      "id": "76dedfd7-c18d-4647-89f3-391ea37865a9",
+      "title": "NATION.",
+      "type": "Compilation",
+      "first_release_date": null
+    },
+    {
+      "id": "9b75f177-1f26-4496-8294-7e6c63b9c06f",
+      "title": "Live at Melkweg, Amsterdam",
+      "type": "Live",
+      "first_release_date": "2013-06-14"
+    },
+    {
+      "id": "c64f0342-f5f4-43d1-90ac-ce226fba4230",
+      "title": "The Big Steppers Tour: Live From Paris",
+      "type": "Live",
+      "first_release_date": "2022-10-22"
+    },
+    {
+      "id": "ae919489-dc7f-46f7-a520-279357230b09",
+      "title": "The Pop Out: Ken & Friends",
+      "type": "Live",
+      "first_release_date": "2024-06-19"
+    },
+    {
+      "id": "002d02aa-f4ac-4559-805a-fea0c83efc5d",
+      "title": "Overly Dedicated to Screw (Chopped Not Slopped by DJ Candlestick)",
+      "type": "Remix",
+      "first_release_date": "2011"
+    }
+  ],
+  "tracks": {
+    "ceccd668-a928-4041-a3c3-99a5ce880de9": [
+      {
+        "id": "cdffc58c-5b84-4d70-bf52-5179919d55b1",
+        "title": "Fuck Your Ethnicity",
+        "position": "1",
+        "length": "224000",
+        "work": {
+          "id": "49380a48-8e57-4ea1-87c8-6530f70553a9",
+          "title": "Fuck Your Ethnicity",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Axel Morgan",
+              "mbid": "5f40727a-f1fc-42f7-bc96-bf1414c779ad"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e93ffc87-5306-4975-8d7a-298914cb96b9",
+        "title": "Hol’ Up",
+        "position": "2",
+        "length": "173000",
+        "work": {
+          "id": "30829a64-22ce-427c-975c-d33d6678e7d6",
+          "title": "Hol’ Up",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5fb18e9d-fb24-4d96-8410-032d3fc89568",
+        "title": "A.D.H.D",
+        "position": "3",
+        "length": "215000",
+        "work": {
+          "id": "be7d7829-11e3-4eb2-9f29-5ecb337aaee2",
+          "title": "A.D.H.D",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Matt Martians",
+              "mbid": "1018344f-abc8-4c62-b4fd-37a30fd2dc6f"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b22a6497-79a6-4a3a-81ba-e3b84f989501",
+        "title": "No Makeup (Her Vice)",
+        "position": "4",
+        "length": "235000",
+        "work": {
+          "id": "9bf129d1-cf03-435f-aee9-45118b9cca3e",
+          "title": "No Makeup (Her Vice)",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Colin Munroe",
+              "mbid": "ac190bb8-60cd-4b71-96af-0314391acc36"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3e574af4-2c79-4346-a39d-1ef21041238e",
+        "title": "Tammy’s Song (Her Evils)",
+        "position": "5",
+        "length": "161000",
+        "work": {
+          "id": "d2b5a78a-88a3-4c00-809e-f4b12c74d1a6",
+          "title": "Tammy’s Song (Her Evils)",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Axel Morgan",
+              "mbid": "5f40727a-f1fc-42f7-bc96-bf1414c779ad"
+            },
+            {
+              "name": "Ricci Riera",
+              "mbid": "c7823c0a-406c-4657-a2fb-fbd8c731b7cf"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f9cacc1a-f4a1-4c6d-aa3f-25d543648e8f",
+        "title": "Chapter Six",
+        "position": "6",
+        "length": "161000",
+        "work": {
+          "id": "5df4efe4-712b-46f0-a0d7-6ea5b656cb6a",
+          "title": "Chapter Six",
+          "composers": [
+            {
+              "name": "Tommy Black",
+              "mbid": "8043a1a8-478c-4b5a-ac1d-1cb4078b6f1c"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6150f46b-0d50-4944-af2a-5a8707778a07",
+        "title": "Ronald Reagan Era (His Evils)",
+        "position": "7",
+        "length": "216973",
+        "work": {
+          "id": "cead06c4-6072-47c9-85a0-4305755cdf7a",
+          "title": "Ronald Reagan Era (His Evils)",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Tae Beast",
+              "mbid": "b67fd63f-627f-4097-af0d-7df7ca2bd39f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e12ea507-6da8-4c37-90cb-f3af5bb2e469",
+        "title": "Poe Mans Dream (His Vice)",
+        "position": "8",
+        "length": "261000",
+        "work": {
+          "id": "c83e1588-2cb3-45cf-bd63-c02eccf50a6b",
+          "title": "Poe Mans Dream (His Vice)",
+          "composers": [
+            {
+              "name": "GLC",
+              "mbid": "9bb6be36-0e7b-4d49-9d1e-9ae5cc84210d"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Willie B",
+              "mbid": "29948879-d41a-4b34-ba08-79d20d485f49"
+            }
+          ]
+        }
+      },
+      {
+        "id": "117bdb40-40b9-4f81-a3ee-c70d4586ce44",
+        "title": "The Spiteful Chant",
+        "position": "9",
+        "length": "321000",
+        "work": {
+          "id": "12267352-0c3a-4859-90bf-17a1ed1ed8ad",
+          "title": "The Spiteful Chant",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "ScHoolboy Q",
+              "mbid": "bce6d667-cde8-485e-b078-c0a05adea36d"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            }
+          ]
+        }
+      },
+      {
+        "id": "71e79c40-5cd5-49b3-9879-8326bd7f9879",
+        "title": "Chapter Ten",
+        "position": "10",
+        "length": "75000",
+        "work": {
+          "id": "e10448e6-91c4-4085-adfd-7cb5ec477465",
+          "title": "Chapter Ten",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Axel Morgan",
+              "mbid": "5f40727a-f1fc-42f7-bc96-bf1414c779ad"
+            },
+            {
+              "name": "Ricci Riera",
+              "mbid": "c7823c0a-406c-4657-a2fb-fbd8c731b7cf"
+            }
+          ]
+        }
+      },
+      {
+        "id": "95d28bba-a66d-46dc-89fb-4405ffdbd96f",
+        "title": "Keisha’s Song (Her Pain)",
+        "position": "11",
+        "length": "227000",
+        "work": {
+          "id": "a704b4c7-a097-4817-aa1b-a3cb8ed906ee",
+          "title": "Keisha's Song (Her Pain)",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Tae Beast",
+              "mbid": "b67fd63f-627f-4097-af0d-7df7ca2bd39f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ce98f7f8-b85f-4d6f-b108-505de842e41a",
+        "title": "Rigamortis",
+        "position": "12",
+        "length": "168000",
+        "work": {
+          "id": "ebd3a12d-46e4-47c4-88ae-8755fff3fbf9",
+          "title": "Rigamortis",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Eric Reed",
+              "mbid": "84ce30fa-f773-4b4a-8915-87b096c16791"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3827f444-b31a-432a-9de5-d9922f838354",
+        "title": "Kush & Corinthians (His Pain)",
+        "position": "13",
+        "length": "304000",
+        "work": {
+          "id": "33772e3e-b122-49f4-bf33-14e60ca729cd",
+          "title": "Kush & Corinthians (His Pain)",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Wyatt Coleman",
+              "mbid": "ab368e6f-b1f1-4de5-980b-aaff72cabb4d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "023ea0ea-40c2-4ab1-bf74-c0022e45c0c8",
+        "title": "Blow My High (Members Only)",
+        "position": "14",
+        "length": "215000",
+        "work": {
+          "id": "0423a51a-66c8-4c04-802b-c3e0d2e1a7e9",
+          "title": "Blow My High (Members Only)",
+          "composers": [
+            {
+              "name": "Tommy Black",
+              "mbid": "8043a1a8-478c-4b5a-ac1d-1cb4078b6f1c"
+            },
+            {
+              "name": "Missy Elliott",
+              "mbid": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Timbaland",
+              "mbid": "daa09819-5da5-4c7a-8bef-eb372bb27ff1"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4f589e97-ee02-46cc-a0a2-4ad8714bc610",
+        "title": "Ab‐Soul’s Outro",
+        "position": "15",
+        "length": "350000",
+        "work": {
+          "id": "b4ed7ed9-1528-4d7f-8bff-18beb26175be",
+          "title": "Ab‐Soul’s Outro",
+          "composers": [
+            {
+              "name": "Ab‐Soul",
+              "mbid": "acc12019-10e3-40aa-b4bf-66fbb4a692af"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Terrace Martin",
+              "mbid": "47d06156-05af-420e-8835-be50353a5d52"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5339459c-d3b2-44c8-bf30-11feb9d2db87",
+        "title": "HiiiPoWeR",
+        "position": "16",
+        "length": "279000",
+        "work": {
+          "id": "d25f51ee-44d3-46da-a85b-fd166d574b63",
+          "title": "HiiiPower",
+          "composers": [
+            {
+              "name": "J. Cole",
+              "mbid": "875203e1-8e58-4b86-8dcb-7190faf411c5"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            }
+          ]
+        }
+      }
+    ],
+    "499c19c8-0dab-4824-884b-6191d145e95b": [
+      {
+        "id": "0eb9cab9-0e38-43d3-aeb6-68384e209a0c",
+        "title": "Sherane a.k.a Master Splinter’s Daughter",
+        "position": "1",
+        "length": "273606",
+        "work": {
+          "id": "07958afa-573a-4ed9-a508-15fa6ec6bdf7",
+          "title": "Sherane a.k.a. Master Splinter’s Daughter",
+          "composers": [
+            {
+              "name": "Dow Jones",
+              "mbid": "4c69a8c4-f61e-42bc-a402-5077251cfc25"
+            },
+            {
+              "name": "Henny tha Bizness",
+              "mbid": "2e7f222c-7848-4fbb-abcd-77caaa5b999c"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            }
+          ]
+        }
+      },
+      {
+        "id": "54494123-9670-4b2d-83ad-85c46c8f5200",
+        "title": "Bitch, Don’t Kill My Vibe",
+        "position": "2",
+        "length": "310720",
+        "work": {
+          "id": "45ac3df1-50c7-45ac-a78b-6d22d2c37080",
+          "title": "Bitch, Don’t Kill My Vibe",
+          "composers": [
+            {
+              "name": "Robin Hannibal",
+              "mbid": "745a0ce5-ba0b-4cb0-871e-5fade438f5ea"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Liv Lykke",
+              "mbid": "06fc8a58-57aa-4823-8064-56ec253a2499"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            },
+            {
+              "name": "Ronni Vindahl",
+              "mbid": "677ac969-7ae6-4fcc-abd8-a839ab8e0917"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a3c6af59-af56-4d61-beac-032df8fc4015",
+        "title": "Backseat Freestyle",
+        "position": "3",
+        "length": "212401",
+        "work": {
+          "id": "8b091fb1-bd1b-4253-970a-5b78b6b91370",
+          "title": "Backseat Freestyle",
+          "composers": [
+            {
+              "name": "Hit‐Boy",
+              "mbid": "bf314a8f-5dc6-4dc5-8819-d25b4cc38164"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fd83178d-c064-4689-9c09-bef8f1c4cad9",
+        "title": "The Art of Peer Pressure",
+        "position": "4",
+        "length": "324466",
+        "work": {
+          "id": "f8ee65f8-3af9-497a-931c-197c73faa96c",
+          "title": "The Art of Peer Pressure",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Rune Rask",
+              "mbid": "372c6077-a358-416e-8ded-872040d3b830"
+            },
+            {
+              "name": "Jonas Vestergaard",
+              "mbid": "53977ec7-0951-4a78-9b81-0f1767d82005"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c294757b-0430-4eb4-ae7a-6abcffb87405",
+        "title": "Money Trees",
+        "position": "5",
+        "length": "386905",
+        "work": {
+          "id": "08d392d9-474f-4839-8b49-8e9ea2fa164b",
+          "title": "Money Trees",
+          "composers": [
+            {
+              "name": "DJ Dahi",
+              "mbid": "4e5017d4-874d-48ee-84f0-d535d17a010f"
+            },
+            {
+              "name": "Jay Rock",
+              "mbid": "9880800a-f6f8-4f8f-a00e-b4b664776c0c"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Victoria Legrand",
+              "mbid": "a06e38d2-2510-4729-b731-56e83fb9dfcc"
+            },
+            {
+              "name": "Alex Scally",
+              "mbid": "2bc0d70f-d569-4158-ace7-001566b16d9f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "21842c0b-b4ac-4418-878c-4f377032f0fe",
+        "title": "Poetic Justice",
+        "position": "6",
+        "length": "300042",
+        "work": {
+          "id": "09ff2999-b288-4f23-8d5a-b2013a981844",
+          "title": "Poetic Justice",
+          "composers": [
+            {
+              "name": "Drake",
+              "mbid": "9fff2f8a-21e6-47de-a2b8-7f449929d43f"
+            },
+            {
+              "name": "Janet Jackson",
+              "mbid": "6be2828f-6c0d-4059-99d4-fa18acf1a296"
+            },
+            {
+              "name": "Jimmy Jam",
+              "mbid": "d79976d7-d895-480e-83c2-877f4cdd7073"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Terry Lewis",
+              "mbid": "e458eba7-ccb7-47bb-8057-473330c61040"
+            },
+            {
+              "name": "Scoop DeVille",
+              "mbid": "e5c8b8c2-8b59-46ea-b4b3-625cd2ddbba5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "421d5f93-107c-46b3-953e-cad600e1e25c",
+        "title": "good kid",
+        "position": "7",
+        "length": "214000",
+        "work": {
+          "id": "fd22ace4-1edd-4a55-988f-8beeed187890",
+          "title": "good kid",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Pharrell Williams",
+              "mbid": "149f91ef-1287-46da-9a8e-87fee02f1471"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d142987d-69a5-426c-8d41-20ce2cc1534b",
+        "title": "m.A.A.d city",
+        "position": "8",
+        "length": "350000",
+        "work": {
+          "id": "b2808519-fd68-4d10-bf6c-6845f7fc200b",
+          "title": "m.A.A.d city",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Axel Morgan",
+              "mbid": "5f40727a-f1fc-42f7-bc96-bf1414c779ad"
+            },
+            {
+              "name": "Ricci Riera",
+              "mbid": "c7823c0a-406c-4657-a2fb-fbd8c731b7cf"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            },
+            {
+              "name": "Aaron Tyler",
+              "mbid": "8f193cab-900e-4818-893a-2319ee31ebe7"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7dee4afc-5931-4295-955a-7ae44f403e70",
+        "title": "Swimming Pools (Drank) (extended version)",
+        "position": "9",
+        "length": "313704",
+        "work": {
+          "id": "9db5f356-0dc9-45d4-be6b-d7c3b7cba5d8",
+          "title": "Swimming Pools (Drank)",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Nikhil Seetharam",
+              "mbid": "156fdc33-d51c-4348-b966-cdbce304d2dd"
+            },
+            {
+              "name": "T‐Minus",
+              "mbid": "1d01b5f5-182a-4558-a057-2f3a109cdbcf"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f0fc2708-edfa-431c-80bd-305796cc5a48",
+        "title": "Sing About Me, I’m Dying of Thirst",
+        "position": "10",
+        "length": "723252",
+        "work": {
+          "id": "6e191a31-e650-4235-a4b0-bef7e57bc7cb",
+          "title": "Sing About Me, I’m Dying of Thirst",
+          "composers": [
+            {
+              "name": "Alan Bergman",
+              "mbid": "32434ee8-8f04-4c95-a963-796faa298651"
+            },
+            {
+              "name": "Marilyn Bergman",
+              "mbid": "0a2bd34d-0cf9-4e34-9854-fd8990977d00"
+            },
+            {
+              "name": "Derrick Hutchins Jr.",
+              "mbid": "2be8a2b2-bf08-417d-8acd-48f8dc07375d"
+            },
+            {
+              "name": "Quincy Jones",
+              "mbid": "5803c81e-739a-4057-9a5c-cf84e55db630"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Gabriel Stevenson",
+              "mbid": "111fc454-f987-4839-b809-c52220e2710e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "02fac8cb-82c0-4129-803e-f675e8468a93",
+        "title": "Real",
+        "position": "11",
+        "length": "443413",
+        "work": {
+          "id": "71774d74-54c1-41de-a4b2-65f3662b2051",
+          "title": "Real",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Terrace Martin",
+              "mbid": "47d06156-05af-420e-8835-be50353a5d52"
+            }
+          ]
+        }
+      },
+      {
+        "id": "115be1e6-3937-41ef-96dd-11b768c3a56e",
+        "title": "Compton",
+        "position": "12",
+        "length": "248000",
+        "work": {
+          "id": "605b12b9-ca06-4515-b4e6-eeb4be260a0d",
+          "title": "Compton",
+          "composers": [
+            {
+              "name": "Rich Cason",
+              "mbid": "b9ef8459-0615-49f2-8b79-81cb030c458c"
+            },
+            {
+              "name": "Sly Jordan",
+              "mbid": "9763f183-da67-4760-9c77-4c5fd1503feb"
+            },
+            {
+              "name": "Just Blaze",
+              "mbid": "e527455c-5f72-4208-b892-22f7271a9305"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            }
+          ]
+        }
+      },
+      {
+        "id": "128bd614-963d-4648-9de7-eb2ccdccef43",
+        "title": "Bitch, Don’t Kill My Vibe (remix)",
+        "position": "13",
+        "length": "278520",
+        "work": {
+          "id": "45ac3df1-50c7-45ac-a78b-6d22d2c37080",
+          "title": "Bitch, Don’t Kill My Vibe",
+          "composers": [
+            {
+              "name": "Robin Hannibal",
+              "mbid": "745a0ce5-ba0b-4cb0-871e-5fade438f5ea"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Liv Lykke",
+              "mbid": "06fc8a58-57aa-4823-8064-56ec253a2499"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            },
+            {
+              "name": "Ronni Vindahl",
+              "mbid": "677ac969-7ae6-4fcc-abd8-a839ab8e0917"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8b42f0b5-7594-424b-93eb-0a418232b10f",
+        "title": "Bitch, Don’t Kill My Vibe (International remix)",
+        "position": "14",
+        "length": "306053",
+        "work": {
+          "id": "45ac3df1-50c7-45ac-a78b-6d22d2c37080",
+          "title": "Bitch, Don’t Kill My Vibe",
+          "composers": [
+            {
+              "name": "Robin Hannibal",
+              "mbid": "745a0ce5-ba0b-4cb0-871e-5fade438f5ea"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Liv Lykke",
+              "mbid": "06fc8a58-57aa-4823-8064-56ec253a2499"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            },
+            {
+              "name": "Ronni Vindahl",
+              "mbid": "677ac969-7ae6-4fcc-abd8-a839ab8e0917"
+            }
+          ]
+        }
+      }
+    ],
+    "d9103c72-3807-4378-9ce7-b6f3e8fdd547": [
+      {
+        "id": "c47d12de-2982-4875-8200-ad47b6e3c68d",
+        "title": "Wesley’s Theory",
+        "position": "1",
+        "length": "287345",
+        "work": {
+          "id": "7896f616-8066-4dc8-8137-86b6bd8075ca",
+          "title": "Wesley’s Theory",
+          "composers": [
+            {
+              "name": "George Clinton",
+              "mbid": "84683370-5eae-418b-acd8-883ac028a8a0"
+            },
+            {
+              "name": "Ronald “Flip” Colson",
+              "mbid": "27ad40bb-92c8-48f8-80d1-82f55991a751"
+            },
+            {
+              "name": "Steven Ellison",
+              "mbid": "87b72fc9-3a4d-4e8d-90c0-cdb22dce0266"
+            },
+            {
+              "name": "Boris Gardiner",
+              "mbid": "ae15e0d3-3d92-4fd5-b232-f3c270416c0b"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Thundercat",
+              "mbid": "044fd265-79dd-43eb-afc4-8b20becf7e17"
+            }
+          ]
+        }
+      },
+      {
+        "id": "92ee7ebc-6421-4426-91b4-cbeaab93c5c8",
+        "title": "For Free? (interlude)",
+        "position": "2",
+        "length": "130893",
+        "work": {
+          "id": "db0e0409-ab29-4dca-8530-56fdd0bf65d6",
+          "title": "For Free? (interlude)",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Terrace Martin",
+              "mbid": "47d06156-05af-420e-8835-be50353a5d52"
+            },
+            {
+              "name": "Rose McKinney",
+              "mbid": "8d329be3-4a55-4982-a1f3-132938289d7d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2d584d3c-d6ce-40ec-b23a-7b29c687ac07",
+        "title": "King Kunta",
+        "position": "3",
+        "length": "234693",
+        "work": {
+          "id": "405d2ab5-f4b4-4681-a0a2-e3eca0dab497",
+          "title": "King Kunta",
+          "composers": [
+            {
+              "name": "Ahmad",
+              "mbid": "196a957a-5ce9-462b-a216-97b37021880c"
+            },
+            {
+              "name": "Johnny Burns",
+              "mbid": "03db641f-0028-4c7e-bfb3-2e53523646c3"
+            },
+            {
+              "name": "Michael Jackson",
+              "mbid": "f27ec8db-af05-4f36-916e-3d57f91ecf5e"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Redfoo",
+              "mbid": "92781466-f1a9-4ffc-9143-d65a2c77fd64"
+            },
+            {
+              "name": "Thundercat",
+              "mbid": "044fd265-79dd-43eb-afc4-8b20becf7e17"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f49ad366-23d0-4911-b626-f27a1352a2e2",
+        "title": "Institutionalized",
+        "position": "4",
+        "length": "271773",
+        "work": {
+          "id": "8c67ab97-b9dd-46cf-8b4e-a3a4c3861ff7",
+          "title": "Institutionalized",
+          "composers": [
+            {
+              "name": "Sam Barsh",
+              "mbid": "f2e58754-0ac5-4cfa-91aa-bd66fa027de0"
+            },
+            {
+              "name": "Tommy Black",
+              "mbid": "8043a1a8-478c-4b5a-ac1d-1cb4078b6f1c"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Rahki",
+              "mbid": "0b15bed5-5365-4e7f-ab80-240078b15414"
+            }
+          ]
+        }
+      },
+      {
+        "id": "500212ba-0292-435d-96cc-f6aeb4829a58",
+        "title": "These Walls",
+        "position": "5",
+        "length": "300973",
+        "work": {
+          "id": "6464660a-b85d-476b-9ded-723d8740e9ce",
+          "title": "These Walls",
+          "composers": [
+            {
+              "name": "Larrance Dopson",
+              "mbid": "f3e7fab9-8134-4ea5-9644-654fffb61dd8"
+            },
+            {
+              "name": "James Fauntleroy",
+              "mbid": "4e481ad9-aa5d-4a1a-b2fc-444c0ad48b7e"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Terrace Martin",
+              "mbid": "47d06156-05af-420e-8835-be50353a5d52"
+            },
+            {
+              "name": "Rose McKinney",
+              "mbid": "8d329be3-4a55-4982-a1f3-132938289d7d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b8a8e5e9-7123-4be5-b8bc-1cfd249ad2ea",
+        "title": "u",
+        "position": "6",
+        "length": "268482",
+        "work": {
+          "id": "a46f1fc2-7172-485d-baff-3ad6c3501473",
+          "title": "u",
+          "composers": [
+            {
+              "name": "Taz Arnold",
+              "mbid": "3aaa66d8-2e10-40be-a571-25344dfea646"
+            },
+            {
+              "name": "Michael Brown",
+              "mbid": "ab8374e3-b281-407c-a702-1a4234fa7ff0"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b5e1e12f-8832-4ba4-b772-de15e2db2009",
+        "title": "Alright",
+        "position": "7",
+        "length": "219333",
+        "work": {
+          "id": "6d785fff-076a-434f-b123-0bab8cb89318",
+          "title": "Alright",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Kawan “KP” Prather",
+              "mbid": "80220af9-de83-4494-b23d-b1f8de1293e1"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            },
+            {
+              "name": "Pharrell Williams",
+              "mbid": "149f91ef-1287-46da-9a8e-87fee02f1471"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8b035ce9-f46a-4507-b22d-b1350cd97bfc",
+        "title": "For Sale? (interlude)",
+        "position": "8",
+        "length": "291720",
+        "work": {
+          "id": "39ef364e-3e75-444b-811f-dd1003631d66",
+          "title": "For Sale? (interlude)",
+          "composers": [
+            {
+              "name": "Taz Arnold",
+              "mbid": "3aaa66d8-2e10-40be-a571-25344dfea646"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            }
+          ]
+        }
+      },
+      {
+        "id": "15fa4ab0-774e-4177-991d-16cc30d906af",
+        "title": "Momma",
+        "position": "9",
+        "length": "283117",
+        "work": {
+          "id": "992fe6aa-41ea-4260-9af7-c4c5fe74082a",
+          "title": "Momma",
+          "composers": [
+            {
+              "name": "Taz Arnold",
+              "mbid": "3aaa66d8-2e10-40be-a571-25344dfea646"
+            },
+            {
+              "name": "Lalah Hathaway",
+              "mbid": "3f0f4358-4c48-4bce-be34-acf61d24df0b"
+            },
+            {
+              "name": "Knxwledge",
+              "mbid": "dd884b36-c727-4c74-bb06-ee7827611098"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Rahsaan Patterson",
+              "mbid": "53d71597-8de8-4cdc-bc55-10ac91bac4e3"
+            },
+            {
+              "name": "Rex Rideout",
+              "mbid": "26fb3348-a58b-49a0-81d6-0c69aeb53909"
+            },
+            {
+              "name": "Sylvester Stewart",
+              "mbid": "40a2d063-1b51-4251-90b3-4269d37737d3"
+            }
+          ]
+        }
+      },
+      {
+        "id": "823a733e-d2b7-43a2-9f66-8064a69ad788",
+        "title": "Hood Politics",
+        "position": "10",
+        "length": "292520",
+        "work": {
+          "id": "e3a06dc9-0f4e-40fa-81d8-a8bce18337ae",
+          "title": "Hood Politics",
+          "composers": [
+            {
+              "name": "David Friley",
+              "mbid": "38864b6a-fac7-4348-b849-cb6848b3693e"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            },
+            {
+              "name": "Sufjan Stevens",
+              "mbid": "01d3c51b-9b98-418a-8d8e-37f6fab59d8c"
+            },
+            {
+              "name": "Tae Beast",
+              "mbid": "b67fd63f-627f-4097-af0d-7df7ca2bd39f"
+            },
+            {
+              "name": "Thundercat",
+              "mbid": "044fd265-79dd-43eb-afc4-8b20becf7e17"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f52168e3-359a-455b-914d-f9ccb0b91bb6",
+        "title": "How Much a Dollar Cost",
+        "position": "11",
+        "length": "261746",
+        "work": {
+          "id": "f9f8e269-5ff3-4201-b659-e221505b9b89",
+          "title": "How Much a Dollar Cost",
+          "composers": [
+            {
+              "name": "James Fauntleroy",
+              "mbid": "4e481ad9-aa5d-4a1a-b2fc-444c0ad48b7e"
+            },
+            {
+              "name": "Ronald Isley",
+              "mbid": "ad8585b3-655e-4e6f-82a8-e10f89ec65f3"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Josef Leimberg",
+              "mbid": "46c7a244-206e-4f3f-b536-083d02ecb8da"
+            },
+            {
+              "name": "Terrace Martin",
+              "mbid": "47d06156-05af-420e-8835-be50353a5d52"
+            },
+            {
+              "name": "Rose McKinney",
+              "mbid": "8d329be3-4a55-4982-a1f3-132938289d7d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9d2fb25d-f0bd-4497-a9af-aa3df103ec17",
+        "title": "Complexion (A Zulu Love)",
+        "position": "12",
+        "length": "263353",
+        "work": {
+          "id": "55796a94-c071-4363-849e-140cc627743a",
+          "title": "Complexion (A Zulu Love)",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Rapsody",
+              "mbid": "d6302903-1f62-420a-8d8b-c54941ac754e"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            },
+            {
+              "name": "Thundercat",
+              "mbid": "044fd265-79dd-43eb-afc4-8b20becf7e17"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7428c59d-333a-4cee-86cb-21663b9671f6",
+        "title": "The Blacker the Berry",
+        "position": "13",
+        "length": "328826",
+        "work": {
+          "id": "c70335f2-790c-4e63-83fd-ba08d7aa792b",
+          "title": "The Blacker the Berry",
+          "composers": [
+            {
+              "name": "Assassin",
+              "mbid": "41d8fb26-daaa-45e0-a3db-1f92220349e3"
+            },
+            {
+              "name": "Boi‐1da",
+              "mbid": "99d40e84-b385-4185-a309-7c5d29b9c612"
+            },
+            {
+              "name": "Alexander Izquierdo",
+              "mbid": "f180c503-b635-439b-8497-92b6c6ddeaa4"
+            },
+            {
+              "name": "Brent Kolatalo",
+              "mbid": "a5c6f645-c4db-4cd3-9129-a3ebe9bbabea"
+            },
+            {
+              "name": "Stephen Kozmeniuk",
+              "mbid": "a3a738cb-f018-494a-9853-52208caa5d6e"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Ken Lewis",
+              "mbid": "2bdbad13-143b-4791-99da-7a415b516af9"
+            },
+            {
+              "name": "Zale",
+              "mbid": "8137630e-e191-4fc1-8b83-d41d800310a6"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a50c395d-69a9-43e8-a0ea-0dd5c8bd3de6",
+        "title": "You Ain’t Gotta Lie (Momma Said)",
+        "position": "14",
+        "length": "241680",
+        "work": {
+          "id": "839fb31c-a89c-4e60-ac22-809c29127626",
+          "title": "You Ain’t Gotta Lie (Momma Said)",
+          "composers": [
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Josef Leimberg",
+              "mbid": "46c7a244-206e-4f3f-b536-083d02ecb8da"
+            },
+            {
+              "name": "Terrace Martin",
+              "mbid": "47d06156-05af-420e-8835-be50353a5d52"
+            },
+            {
+              "name": "Rose McKinney",
+              "mbid": "8d329be3-4a55-4982-a1f3-132938289d7d"
+            },
+            {
+              "name": "Sounwave",
+              "mbid": "9032140b-c6ba-448d-8f05-5ac16e3aa165"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ad1eb2af-6332-44ce-9cd9-42a5bda9ea62",
+        "title": "i",
+        "position": "15",
+        "length": "336012",
+        "work": {
+          "id": "b262d829-b8ef-483a-8a16-f2eddd150fae",
+          "title": "i",
+          "composers": [
+            {
+              "name": "Ernie Isley",
+              "mbid": "1dfbd38a-ab4d-4766-b1bf-f66dc728a8a8"
+            },
+            {
+              "name": "Marvin Isley",
+              "mbid": "e036f67c-30f6-4ce3-bc2d-3440cdb611f6"
+            },
+            {
+              "name": "O’Kelly Isley",
+              "mbid": "3b07b441-ee1b-4482-a34a-dd8150f73a0c"
+            },
+            {
+              "name": "Ronald Isley",
+              "mbid": "ad8585b3-655e-4e6f-82a8-e10f89ec65f3"
+            },
+            {
+              "name": "Rudolph Isley",
+              "mbid": "4ea2e016-183d-4225-b5ea-6df98e926f38"
+            },
+            {
+              "name": "Chris Jasper",
+              "mbid": "ef1b6332-ab9c-49ce-b3ed-10aa36c31d2b"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Rahki",
+              "mbid": "0b15bed5-5365-4e7f-ab80-240078b15414"
+            }
+          ]
+        }
+      },
+      {
+        "id": "78f2e3a2-0fc3-45b9-9cc8-dbdc53e7c1c3",
+        "title": "Mortal Man",
+        "position": "16",
+        "length": "727102",
+        "work": {
+          "id": "979c2d5b-ed50-44d6-916f-9c8cd5ff3007",
+          "title": "Mortal Man",
+          "composers": [
+            {
+              "name": "2Pac",
+              "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2"
+            },
+            {
+              "name": "Fela Kuti",
+              "mbid": "6514cffa-fbe0-4965-ad88-e998ead8a82a"
+            },
+            {
+              "name": "Kendrick Lamar",
+              "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            {
+              "name": "Thundercat",
+              "mbid": "044fd265-79dd-43eb-afc4-8b20becf7e17"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 3062364,
+  "wikidata_id": "Q130798"
+}

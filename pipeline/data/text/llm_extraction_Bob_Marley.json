@@ -1,0 +1,19 @@
+[
+  {"subject": "Bob Marley", "predicate": "pioneerOf", "object": "reggae"},
+  {"subject": "Bob Marley", "predicate": "hasGenre", "object": "reggae"},
+  {"subject": "Bob Marley", "predicate": "hasGenre", "object": "ska"},
+  {"subject": "Bob Marley", "predicate": "hasGenre", "object": "rocksteady"},
+  {"subject": "Bob Marley", "predicate": "founded", "object": "Bob Marley and the Wailers"},
+  {"subject": "Bob Marley", "predicate": "memberOf", "object": "Bob Marley and the Wailers"},
+  {"subject": "Bob Marley and the Wailers", "predicate": "released", "object": "The Wailing Wailers"},
+  {"subject": "Bob Marley and the Wailers", "predicate": "released", "object": "Catch a Fire"},
+  {"subject": "Bob Marley and the Wailers", "predicate": "released", "object": "Burnin'"},
+  {"subject": "Bob Marley", "predicate": "memberOf", "object": "the Wailers (revamped)"},
+  {"subject": "Bob Marley", "predicate": "released", "object": "Natty Dread"},
+  {"subject": "Bob Marley", "predicate": "released", "object": "No Woman, No Cry"},
+  {"subject": "Bob Marley", "predicate": "released", "object": "Rastaman Vibration"},
+  {"subject": "Bob Marley", "predicate": "released", "object": "Exodus"},
+  {"subject": "Bob Marley", "predicate": "released", "object": "Kaya"},
+  {"subject": "Bob Marley", "predicate": "released", "object": "Survival"},
+  {"subject": "Bob Marley", "predicate": "performedAt", "object": "One Love Peace Concert"}
+]

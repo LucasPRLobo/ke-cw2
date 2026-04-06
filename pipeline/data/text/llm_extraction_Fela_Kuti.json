@@ -1,0 +1,9 @@
+[
+  {"subject": "Fela Kuti", "predicate": "hasGenre", "object": "Afrobeat"},
+  {"subject": "Fela Kuti", "predicate": "memberOf", "object": "Africa '70"},
+  {"subject": "Africa '70", "predicate": "hasMember", "object": "Tony Allen"},
+  {"subject": "Fela Kuti", "predicate": "founded", "object": "Kalakuta Republic"},
+  {"subject": "Afrobeat", "predicate": "hasGenre", "object": "West African music"},
+  {"subject": "Afrobeat", "predicate": "hasGenre", "object": "funk"},
+  {"subject": "Afrobeat", "predicate": "hasGenre", "object": "jazz"}
+]

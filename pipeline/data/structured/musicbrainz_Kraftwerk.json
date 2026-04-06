@@ -1,0 +1,1222 @@
+{
+  "mbid": "5700dcd4-c139-4f31-aa3e-6382b9af9032",
+  "name": "Kraftwerk",
+  "type": "Group",
+  "country": "DE",
+  "gender": null,
+  "life_span": {
+    "begin": "1970",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "Germany",
+  "begin_area": "Düsseldorf",
+  "tags": [
+    {
+      "name": "electro",
+      "count": "7"
+    },
+    {
+      "name": "electronic",
+      "count": "18"
+    },
+    {
+      "name": "electronic music",
+      "count": "1"
+    },
+    {
+      "name": "german",
+      "count": "8"
+    },
+    {
+      "name": "krautrock",
+      "count": "11"
+    },
+    {
+      "name": "progressive electronic",
+      "count": "3"
+    },
+    {
+      "name": "synth-pop",
+      "count": "11"
+    },
+    {
+      "name": "synthpop",
+      "count": "4"
+    },
+    {
+      "name": "techno",
+      "count": "5"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Andreas Hohmann",
+      "target_mbid": "d17eeb09-9cee-4965-9370-c082b37e780b",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1970",
+      "end": "1970"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Thomas Lohmann",
+      "target_mbid": "52320bb6-2465-4c3c-a7fe-60b093bd55c8",
+      "attributes": [
+        "additional",
+        "drums (drum set)"
+      ],
+      "begin": "1970",
+      "end": "1970"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Klaus Dinger",
+      "target_mbid": "7d13df68-5661-45bd-9aad-75a0d7f88091",
+      "attributes": [
+        "additional",
+        "drums (drum set)"
+      ],
+      "begin": "1970",
+      "end": "1971"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ralf Hütter",
+      "target_mbid": "da3f4766-628e-4da3-a871-014728993157",
+      "attributes": [
+        "keyboard",
+        "original"
+      ],
+      "begin": "1970",
+      "end": "1971"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Eberhard Kranemann",
+      "target_mbid": "b17ed5b1-d965-4b05-ad25-49fd40aa9563",
+      "attributes": [
+        "additional",
+        "bass guitar"
+      ],
+      "begin": "1970",
+      "end": "1971"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Houschäng Nejadépour",
+      "target_mbid": "b35bfd08-f4a1-45d1-9799-a7eec65ff66b",
+      "attributes": [
+        "additional",
+        "electric guitar"
+      ],
+      "begin": "1970",
+      "end": "1971"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Peter Schmidt",
+      "target_mbid": "12bf35df-1765-4ab3-84b1-20459cf84ae9",
+      "attributes": [
+        "additional",
+        "drums (drum set)"
+      ],
+      "begin": "1970",
+      "end": "1971"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ralf Hütter",
+      "target_mbid": "da3f4766-628e-4da3-a871-014728993157",
+      "attributes": [
+        "guitar",
+        "original"
+      ],
+      "begin": "1970",
+      "end": "1974"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Florian Schneider",
+      "target_mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e",
+      "attributes": [
+        "background vocals",
+        "original"
+      ],
+      "begin": "1970",
+      "end": "2008-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Florian Schneider",
+      "target_mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e",
+      "attributes": [
+        "flute",
+        "original"
+      ],
+      "begin": "1970",
+      "end": "2008-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Florian Schneider",
+      "target_mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e",
+      "attributes": [
+        "original",
+        "saxophone"
+      ],
+      "begin": "1970",
+      "end": "2008-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Florian Schneider",
+      "target_mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e",
+      "attributes": [
+        "electric guitar",
+        "original"
+      ],
+      "begin": "1970",
+      "end": "2008-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Florian Schneider",
+      "target_mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e",
+      "attributes": [
+        "original",
+        "violin"
+      ],
+      "begin": "1970",
+      "end": "2008-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Florian Schneider",
+      "target_mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e",
+      "attributes": [
+        "original",
+        "percussion"
+      ],
+      "begin": "1970",
+      "end": "2008-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Florian Schneider",
+      "target_mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e",
+      "attributes": [
+        "original",
+        "synthesizer"
+      ],
+      "begin": "1970",
+      "end": "2008-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Florian Schneider",
+      "target_mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e",
+      "attributes": [
+        "original",
+        "vocoder"
+      ],
+      "begin": "1970",
+      "end": "2008-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ralf Hütter",
+      "target_mbid": "da3f4766-628e-4da3-a871-014728993157",
+      "attributes": [
+        "drums (drum set)",
+        "original"
+      ],
+      "begin": "1970",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ralf Hütter",
+      "target_mbid": "da3f4766-628e-4da3-a871-014728993157",
+      "attributes": [
+        "original",
+        "synthesizer"
+      ],
+      "begin": "1970",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ralf Hütter",
+      "target_mbid": "da3f4766-628e-4da3-a871-014728993157",
+      "attributes": [
+        "organ",
+        "original"
+      ],
+      "begin": "1970",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ralf Hütter",
+      "target_mbid": "da3f4766-628e-4da3-a871-014728993157",
+      "attributes": [
+        "bass guitar",
+        "original"
+      ],
+      "begin": "1970",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ralf Hütter",
+      "target_mbid": "da3f4766-628e-4da3-a871-014728993157",
+      "attributes": [
+        "original",
+        "vocoder"
+      ],
+      "begin": "1970",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Michael Rother",
+      "target_mbid": "3b4db0d5-97a8-4aa8-a375-9b8c78a56932",
+      "attributes": [
+        "electric guitar"
+      ],
+      "begin": "1971",
+      "end": "1971"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ralf Hütter",
+      "target_mbid": "da3f4766-628e-4da3-a871-014728993157",
+      "attributes": [
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1972",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ralf Hütter",
+      "target_mbid": "da3f4766-628e-4da3-a871-014728993157",
+      "attributes": [
+        "keyboard",
+        "original"
+      ],
+      "begin": "1972",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Plato Kostic",
+      "target_mbid": "c960bfef-035f-45ec-961c-289888eda9c4",
+      "attributes": [
+        "additional",
+        "bass guitar"
+      ],
+      "begin": "1973",
+      "end": "1973"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Emil Schult",
+      "target_mbid": "e47b4862-a587-488f-b7a7-bd329726693d",
+      "attributes": [
+        "additional",
+        "electric guitar"
+      ],
+      "begin": "1973",
+      "end": "1973"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Emil Schult",
+      "target_mbid": "e47b4862-a587-488f-b7a7-bd329726693d",
+      "attributes": [
+        "additional",
+        "electric violin"
+      ],
+      "begin": "1973",
+      "end": "1973"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Wolfgang Flür",
+      "target_mbid": "6c29e868-e40a-4ff0-b251-bc383ba88ba4",
+      "attributes": [
+        "electronic drum set"
+      ],
+      "begin": "1973",
+      "end": "1987"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Klaus Röder",
+      "target_mbid": "7bca0cea-265f-41d3-9e04-8a68507b6f25",
+      "attributes": [
+        "electric guitar"
+      ],
+      "begin": "1974",
+      "end": "1974"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Klaus Röder",
+      "target_mbid": "7bca0cea-265f-41d3-9e04-8a68507b6f25",
+      "attributes": [
+        "electric violin"
+      ],
+      "begin": "1974",
+      "end": "1974"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Karl Bartos",
+      "target_mbid": "34bfcd5d-a76d-4b31-8022-b5ac04d5801b",
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": "1975",
+      "end": "1990"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Karl Bartos",
+      "target_mbid": "34bfcd5d-a76d-4b31-8022-b5ac04d5801b",
+      "attributes": [
+        "vibraphone"
+      ],
+      "begin": "1975",
+      "end": "1990"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Karl Bartos",
+      "target_mbid": "34bfcd5d-a76d-4b31-8022-b5ac04d5801b",
+      "attributes": [
+        "keyboard"
+      ],
+      "begin": "1975",
+      "end": "1990"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Fritz Hilpert",
+      "target_mbid": "090d8a25-6271-4e51-b5a5-622cf128c7be",
+      "attributes": [
+        "electronic instruments"
+      ],
+      "begin": "1987",
+      "end": "2022-09-02"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Fernando Abrantes",
+      "target_mbid": "c2d86260-74e5-46a3-bd8b-9ca0a25c8b10",
+      "attributes": [
+        "additional",
+        "synthesizer"
+      ],
+      "begin": "1991",
+      "end": "1991"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Henning Schmitz",
+      "target_mbid": "cde6ac66-ffdf-4f80-8dda-7a40e7b16972",
+      "attributes": [
+        "electronic instruments"
+      ],
+      "begin": "1991",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Henning Schmitz",
+      "target_mbid": "cde6ac66-ffdf-4f80-8dda-7a40e7b16972",
+      "attributes": [
+        "keyboard"
+      ],
+      "begin": "1991",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Stefan Pfaffe",
+      "target_mbid": "12cd8934-c85c-4572-ad7b-7e161e401005",
+      "attributes": [
+        "additional"
+      ],
+      "begin": "2008",
+      "end": "2012"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Falk Grieffenhagen",
+      "target_mbid": "8e1d04bb-2db0-4d95-bdda-1e605a8b8aef",
+      "attributes": [],
+      "begin": "2012",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Georg Bongartz",
+      "target_mbid": "266be859-d91e-4358-89a8-c4c07de8316f",
+      "attributes": [],
+      "begin": "2023-05-18",
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Scatwerk",
+      "target_mbid": "bb34a805-b956-4114-b5a1-280a59612999",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "Barbara Niemöller",
+      "target_mbid": "c47ef06e-34bc-4a15-889f-5e9fdbce21c3",
+      "attributes": [],
+      "begin": "1973",
+      "end": "1974"
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000104714"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/26322"
+    },
+    {
+      "type": "discography page",
+      "target": "http://twingokraftwerk.com/discographymirror/01/kwdiscb.htm"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/4654"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://kraftwerkfaq.hu/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.kraftwerk.ru/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/0dmPX6ovclgOy8WWJaFEUU"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/926"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm1436137/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Kraftwerk"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-5411/kraftwerk/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Kraftwerk"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/kraftwerk"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.kraftwerk.com/"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.kraftwerk.de/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/nr90007336"
+    },
+    {
+      "type": "other databases",
+      "target": "http://mvdbase.com/person.php?&id=A5256"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb139044811"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/2142242-4"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/kraftwerk"
+    },
+    {
+      "type": "other databases",
+      "target": "https://musicmoz.org/Bands_and_Artists/K/Kraftwerk/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ra.co/dj/kraftwerk"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/kraftwerk"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/kraftwerk"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/cdalbum/artist/kraftwerk"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/2259/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.progarchives.com/artist.asp?id=1589"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Kraftwerk/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-nr90007336"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=Afu5jfn7wcv7lbtjejxairswufi"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/de/artist/id553899"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://uk.7digital.com/artist/kraftwerk"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.junodownload.com/artists/Kraftwerk/releases/"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000AQ2MIM"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/482"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/kraftwerk-33d65c49.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/kraftwerk"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/KraftwerkOfficial"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/kraftwerkofficial/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.reverbnation.com/kraftwerk81"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/507825"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/kraftwerkofficial"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.de/artists/B001Q5CK88"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/de/artist/553899"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/553899"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/8903"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/158413648"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q44892"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/kraftwerk"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCkVewSfjK_M059iV88kYgiw"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCNUkEFnPvPsWtzftcd45t1A"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "47e62190-67b6-3d37-951c-43eb14894b3e",
+      "title": "Kraftwerk",
+      "type": "Album",
+      "first_release_date": "1970-07"
+    },
+    {
+      "id": "b44d78cc-41d7-3f84-b397-4b135a3f7d9d",
+      "title": "Kraftwerk 2",
+      "type": "Album",
+      "first_release_date": "1972-01"
+    },
+    {
+      "id": "6d2f3c22-7f2f-3076-9005-96c6540616f7",
+      "title": "Ralf & Florian",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "f73729e8-4501-3088-aa20-44945296036e",
+      "title": "Autobahn",
+      "type": "Album",
+      "first_release_date": "1974-11"
+    },
+    {
+      "id": "104cc34f-b4f9-3fb1-b2a0-fce32b36ec1f",
+      "title": "Radio‐Aktivität",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "33101a28-ae05-3a69-873c-684e336fe2df",
+      "title": "Trans Europa Express",
+      "type": "Album",
+      "first_release_date": "1977"
+    },
+    {
+      "id": "2d420636-2aef-49ec-b21a-7a9bfc2f67cb",
+      "title": "Trans-Europe Express (2009 Remaster)",
+      "type": "Album",
+      "first_release_date": "1977"
+    },
+    {
+      "id": "d147e89b-90ca-35b6-9f7b-3e34b8edf63f",
+      "title": "Die Mensch·Maschine",
+      "type": "Album",
+      "first_release_date": "1978-05"
+    },
+    {
+      "id": "911963d3-026c-4b86-9393-aca767ebd516",
+      "title": "Computer World (2009 Remaster)",
+      "type": "Album",
+      "first_release_date": "1981"
+    },
+    {
+      "id": "2e58b620-cf80-3b07-a5bc-edabd69ba285",
+      "title": "Computerwelt",
+      "type": "Album",
+      "first_release_date": "1981"
+    },
+    {
+      "id": "2b04bde9-1bbc-3f6b-b67d-24ad473d8912",
+      "title": "Electric Cafe",
+      "type": "Album",
+      "first_release_date": "1986-11-03"
+    },
+    {
+      "id": "e963cb1e-ec72-303d-9a3f-9fcb89188436",
+      "title": "Tour de France Soundtracks",
+      "type": "Album",
+      "first_release_date": "2003-08-04"
+    },
+    {
+      "id": "13ec1314-89e1-4f92-b779-674263ccb8d5",
+      "title": "Tour de France (2009 Remaster)",
+      "type": "Album",
+      "first_release_date": "2003"
+    },
+    {
+      "id": "d727d700-f18e-4c5d-8546-02e37029df4b",
+      "title": "Die Broadcast Sammlling",
+      "type": "Album",
+      "first_release_date": "2025"
+    },
+    {
+      "id": "322b2306-21e8-4282-83ae-6c3731fdbf65",
+      "title": "Toyko 1981 / Radio Transmission",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "fa91b28d-d97a-4352-8c02-54a64f5b2e9a",
+      "title": "Kraftwerk 1 / Kraftwerk 2",
+      "type": "Compilation",
+      "first_release_date": "1972"
+    },
+    {
+      "id": "a708f1e8-9b18-4b42-b594-8a7049c6456f",
+      "title": "Doppelalbum",
+      "type": "Compilation",
+      "first_release_date": "1974-01-01"
+    },
+    {
+      "id": "ea13b2c0-0871-329b-b14c-7c628d315df5",
+      "title": "Exceller 8",
+      "type": "Compilation",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "9b4c4871-25ca-4846-978a-01001d8117c4",
+      "title": "Elektro Kinetik",
+      "type": "Compilation",
+      "first_release_date": "1981"
+    },
+    {
+      "id": "4996e068-e950-3678-b59f-264f946ca3f5",
+      "title": "The Model: Retrospective 1975–1978",
+      "type": "Compilation",
+      "first_release_date": "1992"
+    },
+    {
+      "id": "13c32e5d-a088-4c30-a16e-fcafb8df032e",
+      "title": "Three Originals The Capitol Years",
+      "type": "Compilation",
+      "first_release_date": "1994"
+    },
+    {
+      "id": "5d7870eb-dedb-3162-b8d8-7b22d6301ac7",
+      "title": "The Best of Kraftwerk",
+      "type": "Compilation",
+      "first_release_date": "1995"
+    },
+    {
+      "id": "0131b6fb-ed61-4e86-8b66-6a6848964ce8",
+      "title": "Kraftwerk vs. Yello: Electronic Landscapes",
+      "type": "Compilation",
+      "first_release_date": "1999"
+    },
+    {
+      "id": "db2e8aad-f9f0-42fc-86a5-dee0b78cf69c",
+      "title": "The Catalogue",
+      "type": "Compilation",
+      "first_release_date": "2004"
+    },
+    {
+      "id": "9a73bf2d-d83d-4117-b9a0-4175eb32d4d0",
+      "title": "The Best 5.1",
+      "type": "Compilation",
+      "first_release_date": "2008"
+    }
+  ],
+  "tracks": {
+    "47e62190-67b6-3d37-951c-43eb14894b3e": [
+      {
+        "id": "8e88b7ce-07ea-42b5-9c8d-b5054d50f915",
+        "title": "Ruckzuck",
+        "position": "1",
+        "length": "470000",
+        "work": {
+          "id": "3b6b212d-1bf7-3396-99c1-91a218126925",
+          "title": "Ruckzuck",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6a273cee-59c0-462b-9f39-7a904d3607ee",
+        "title": "Stratovarius",
+        "position": "2",
+        "length": "752320",
+        "work": {
+          "id": "5d4ec508-c5a1-3ba8-b6e1-66ef02ce9232",
+          "title": "Stratovarius",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "74d66ef0-6480-42a5-8da7-2693749ae2cc",
+        "title": "Megaherz",
+        "position": "3",
+        "length": "572986",
+        "work": {
+          "id": "64e5e9e2-5cbb-375f-baff-e6a7029be986",
+          "title": "Megaherz",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e062a20d-1c5c-459d-8534-f0f62f7fe8e7",
+        "title": "Vom Himmel hoch",
+        "position": "4",
+        "length": "599614",
+        "work": {
+          "id": "80577b86-df95-38b4-9e61-8bea3149c8e2",
+          "title": "Vom Himmel hoch",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      }
+    ],
+    "b44d78cc-41d7-3f84-b397-4b135a3f7d9d": [
+      {
+        "id": "7a8ab32b-c372-4f84-895a-27f2497dc418",
+        "title": "Klingklang",
+        "position": "1",
+        "length": "1049000",
+        "work": {
+          "id": "3bf08275-669b-3717-b6db-ff925d1650ed",
+          "title": "Klingklang",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "362edf3c-b431-454e-909f-c09a584eb240",
+        "title": "Atem",
+        "position": "2",
+        "length": "173840",
+        "work": {
+          "id": "e014c66f-ea6b-321c-a0ca-0d37054eb278",
+          "title": "Atem",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f30ca240-3eca-46c3-be53-b4ac026b3130",
+        "title": "Strom",
+        "position": "3",
+        "length": "229293",
+        "work": {
+          "id": "685b51b4-2cfc-3def-ac5c-fb7a580dd243",
+          "title": "Strom",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6b7b3d3c-1f40-4750-8e9a-962e2321dd89",
+        "title": "Spule 4",
+        "position": "4",
+        "length": "324573",
+        "work": {
+          "id": "8270166a-6f89-3763-81e5-fc2bbf408cf2",
+          "title": "Spule 4",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0c8bf90d-4448-4c09-ae30-a49ab257201a",
+        "title": "Wellenlänge",
+        "position": "5",
+        "length": "577000",
+        "work": {
+          "id": "f5e8ecf6-bc14-3b85-9074-bac8cae38ec3",
+          "title": "Wellenlänge",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "837cbf3e-a132-4efe-a60a-71ad3e7bad5d",
+        "title": "Harmonika",
+        "position": "6",
+        "length": "198960",
+        "work": {
+          "id": "b9b35072-5dd9-3c0a-8f60-46742be5c2e8",
+          "title": "Harmonika",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      }
+    ],
+    "6d2f3c22-7f2f-3076-9005-96c6540616f7": [
+      {
+        "id": "13be4a84-1f37-4b10-82d2-30175c2904ba",
+        "title": "Elektrisches Roulette",
+        "position": "1",
+        "length": "263893",
+        "work": {
+          "id": "4a592b50-75b6-35ec-8d09-c9b65400fb25",
+          "title": "Elektrisches Roulette",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2e462b9c-d70a-4e86-93fa-3988788882ff",
+        "title": "Tongebirge",
+        "position": "2",
+        "length": "171933",
+        "work": {
+          "id": "f4769af8-e7b4-3339-8a87-1994bac8115c",
+          "title": "Tongebirge",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "870b5187-f199-454d-bfc6-d85a7177e2d8",
+        "title": "Kristallo",
+        "position": "3",
+        "length": "378640",
+        "work": {
+          "id": "be6207c9-f6a8-3dd9-86ab-d02db35b8804",
+          "title": "Kristallo",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1cb9a189-c618-436b-87ec-c9026ee2c306",
+        "title": "Heimatklänge",
+        "position": "4",
+        "length": "223533",
+        "work": {
+          "id": "d8496503-9544-3f9d-9a10-5dac78f0c25c",
+          "title": "Heimatklänge",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "365ae52f-77a6-44cf-999c-72ab017ff107",
+        "title": "Tanzmusik",
+        "position": "5",
+        "length": "397000",
+        "work": {
+          "id": "e0aa8133-f2b1-32f7-880a-037da77acee5",
+          "title": "Tanzmusik",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8be09ca2-fd5f-437e-bc92-03797ce34562",
+        "title": "Ananas Symphonie",
+        "position": "6",
+        "length": "835000",
+        "work": {
+          "id": "1757df78-ed85-3567-bd06-a11f2973c3dc",
+          "title": "Ananas Symphonie",
+          "composers": [
+            {
+              "name": "Ralf Hütter",
+              "mbid": "da3f4766-628e-4da3-a871-014728993157"
+            },
+            {
+              "name": "Florian Schneider",
+              "mbid": "46957dac-b5ff-40a9-a427-ab53bc414f6e"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 4654,
+  "wikidata_id": "Q44892"
+}

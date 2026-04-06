@@ -1,0 +1,470 @@
+{
+  "mbid": "c7a4c4a0-9544-44e3-87f2-5779d18b753f",
+  "name": "Hermeto Pascoal",
+  "type": "Person",
+  "country": "BR",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1936-06-22",
+    "end": "2025-09-13",
+    "ended": "true"
+  },
+  "area": "Brazil",
+  "begin_area": "Arapiraca",
+  "tags": [
+    {
+      "name": "avant-garde jazz",
+      "count": "1"
+    },
+    {
+      "name": "jazz",
+      "count": "2"
+    },
+    {
+      "name": "jazz and blues",
+      "count": "1"
+    },
+    {
+      "name": "jazz fusion",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Quarteto Novo",
+      "target_mbid": "6e4f05d9-a680-4e91-8bcc-492c7b9758e8",
+      "attributes": [
+        "transverse flute"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Hermeto Pascoal & Grupo",
+      "target_mbid": "54c20fe8-4949-430b-9136-e7055b486056",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000572263"
+    },
+    {
+      "type": "bandcamp",
+      "target": "https://hermetopascoal.bandcamp.com/"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/c7a4c4a0-9544-44e3-87f2-5779d18b753f"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/256166"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/5COT5dVPZHSd0ZFyCQCm7s"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Hermeto+Pascoal"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.hermetopascoal.com.br/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n87117616"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb138982756"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/134613562"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n87117616"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/hermeto-pascoal-6bd65e7e.html"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/371737"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/76501110"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q560969"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "c41c6204-504d-472c-a098-54fd21673123",
+      "title": "Roteiro Noturno",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "124936fb-a05f-4432-ab46-21a45960cb89",
+      "title": "Hermeto",
+      "type": "Album",
+      "first_release_date": "1970"
+    },
+    {
+      "id": "5b18feb1-4845-3973-8869-99f92755ff01",
+      "title": "Slaves Mass",
+      "type": "Album",
+      "first_release_date": "1977"
+    },
+    {
+      "id": "4a3cb6a7-3c3c-3a2f-a2eb-2c6b0dce0477",
+      "title": "Zabumbê‐bum‐á",
+      "type": "Album",
+      "first_release_date": "1979"
+    },
+    {
+      "id": "ba5d722f-dc89-3358-b7dd-098f027c07d9",
+      "title": "Cérebro Magnético",
+      "type": "Album",
+      "first_release_date": "1980"
+    },
+    {
+      "id": "e18c7e51-b3a5-32fd-ba45-13538f6920fc",
+      "title": "Lagoa da Canoa, Município de Arapiraca",
+      "type": "Album",
+      "first_release_date": "1984"
+    },
+    {
+      "id": "05e6f8a6-5c2f-3fa4-96de-22818b9f05a7",
+      "title": "A música livre de Hermeto Paschoal",
+      "type": "Album",
+      "first_release_date": "1986"
+    },
+    {
+      "id": "c6088fc8-d473-33ab-9c34-2eee1a185bc3",
+      "title": "Só não toca quem não quer",
+      "type": "Album",
+      "first_release_date": "1987"
+    },
+    {
+      "id": "2efa3f0e-0b6c-48bb-827f-feb28a8292ee",
+      "title": "Por Diferentes Caminhos - Piano Acústico",
+      "type": "Album",
+      "first_release_date": "1989"
+    },
+    {
+      "id": "64fa0ee7-64a7-4d08-95f0-a35b4fb82937",
+      "title": "Renato Borghetti E Hermeto Pascoal",
+      "type": "Album",
+      "first_release_date": "1993"
+    },
+    {
+      "id": "82bdb685-9b84-3f89-8048-ecef69bda27c",
+      "title": "Brasil universo",
+      "type": "Album",
+      "first_release_date": "1998"
+    },
+    {
+      "id": "08cb4295-861c-31f6-a17e-325f604dcc0c",
+      "title": "Eu e Eles",
+      "type": "Album",
+      "first_release_date": "1999"
+    },
+    {
+      "id": "6084b159-8cb5-4c9f-a143-650cf2fbec04",
+      "title": "Solos do Brasil",
+      "type": "Album",
+      "first_release_date": "2000"
+    },
+    {
+      "id": "e5547c22-e4f3-490a-bcb6-994fa32c2f2c",
+      "title": "The Legendary Improviser",
+      "type": "Album",
+      "first_release_date": "2002-01-25"
+    },
+    {
+      "id": "ad019d96-05da-3b1d-8bab-55ea3a7021aa",
+      "title": "Mundo verde esperança",
+      "type": "Album",
+      "first_release_date": "2002-12"
+    },
+    {
+      "id": "30ed9d72-cd3f-345a-8c8f-05291c8985a0",
+      "title": "Chimarrão com rapadura",
+      "type": "Album",
+      "first_release_date": "2006"
+    },
+    {
+      "id": "3a04eead-441d-4812-9951-c9a3f27d4033",
+      "title": "Bodas de latão",
+      "type": "Album",
+      "first_release_date": "2010"
+    },
+    {
+      "id": "32380fbd-210b-4b29-9619-b7f62512245d",
+      "title": "Natureza Universal",
+      "type": "Album",
+      "first_release_date": "2017-10-20"
+    },
+    {
+      "id": "f4bbfd29-834a-4e1b-8de4-d68693ee873f",
+      "title": "Viajando com o som (The Lost ’76 Vice-Versa Studio Session)",
+      "type": "Album",
+      "first_release_date": "2017-11-03"
+    },
+    {
+      "id": "51c4183a-3d0a-4da9-922f-314658b29929",
+      "title": "Palmares Fantasy",
+      "type": "Album",
+      "first_release_date": "2018-05-11"
+    },
+    {
+      "id": "f43e2375-ef70-4bf4-a64a-225c836324da",
+      "title": "Hermeto Pascoal e sua Visão Original do Forró",
+      "type": "Album",
+      "first_release_date": "2018-06-01"
+    },
+    {
+      "id": "2ddfe761-6847-4f90-931f-c9f947fd1f93",
+      "title": "Planetário da Gávea",
+      "type": "Album",
+      "first_release_date": "2022-02-04"
+    },
+    {
+      "id": "7184c8c2-982e-30d2-9391-11d1d5b7a0a0",
+      "title": "Brazilian Adventure",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "66fa3493-f740-4e91-a2d9-8c0d3a1aac80",
+      "title": "O melhor da música de Hermeto Pascoal",
+      "type": "Compilation",
+      "first_release_date": "1998"
+    },
+    {
+      "id": "0ac6a074-0c56-479b-9320-7eaabab6c225",
+      "title": "The Monash Sessions",
+      "type": "Compilation",
+      "first_release_date": "2013"
+    }
+  ],
+  "tracks": {
+    "c41c6204-504d-472c-a098-54fd21673123": [
+      {
+        "id": "00207f56-8241-4171-b9d2-43b6b2bfaf69",
+        "title": "Taberna",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "8204c2e5-4779-4589-b8c7-7110fea69861",
+        "title": "Homenagem",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "7dcc1da2-9ec6-45b2-9320-d44ca6c64ae1",
+        "title": "Nos Braços De Isabel",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "2900f31f-751b-4b9a-b06e-b25e971296c5",
+        "title": "Somos Iguais",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "a3aabdac-0f85-4163-9925-60bf06212ebc",
+        "title": "Castigo",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "1d9ed0b3-5723-475d-bb6e-34ada865e980",
+        "title": "Arranha Céu",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "ac401233-9c37-4a52-9ddd-046b34b58d23",
+        "title": "Nunca",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "b066130f-5c82-4bba-9589-583c703d56ed",
+        "title": "Rugas",
+        "position": "8",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "bbbe518b-0351-4d35-b0d5-ee2464b0f8b9",
+        "title": "Você Voltou",
+        "position": "9",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "86c85006-e55b-451b-89c0-49e1aec4c315",
+        "title": "Mulata",
+        "position": "10",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "e9dd491e-ada3-41b9-a6c8-8cc018bf4300",
+        "title": "Meus Vinte Anos",
+        "position": "11",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "eb75bd5e-5224-4ad1-a08c-6e2734a196f4",
+        "title": "Chão De Estrelas",
+        "position": "12",
+        "length": null,
+        "work": null
+      }
+    ],
+    "124936fb-a05f-4432-ab46-21a45960cb89": [
+      {
+        "id": "354acc9b-c67f-4ec6-a4fd-6a8e6f4321c5",
+        "title": "Coalhada",
+        "position": "1",
+        "length": "178000",
+        "work": null
+      },
+      {
+        "id": "cb45a346-f6f7-41bf-8d37-e9384549cf03",
+        "title": "Hermeto",
+        "position": "2",
+        "length": "316000",
+        "work": null
+      },
+      {
+        "id": "7c9a71f3-090b-4d54-89cd-16169c56165e",
+        "title": "Guizos",
+        "position": "3",
+        "length": "374000",
+        "work": null
+      },
+      {
+        "id": "073f7fec-591c-4ca9-b908-c65735b23387",
+        "title": "Flor do Amor",
+        "position": "4",
+        "length": "350000",
+        "work": null
+      },
+      {
+        "id": "c6fcb0dd-5f02-45ef-bae7-89e1e7692c73",
+        "title": "Alicate",
+        "position": "5",
+        "length": "292000",
+        "work": null
+      },
+      {
+        "id": "d0099ee0-507d-4d7e-bd8a-6c25b1fe3760",
+        "title": "Velório",
+        "position": "6",
+        "length": "615000",
+        "work": null
+      },
+      {
+        "id": "5624d938-a5e5-4a32-8f8b-77a29377d644",
+        "title": "As Marianas",
+        "position": "7",
+        "length": "265000",
+        "work": null
+      },
+      {
+        "id": "5e42e645-a65c-4b53-9928-e4ada5ea7c06",
+        "title": "Fabiola",
+        "position": "8",
+        "length": "221000",
+        "work": null
+      }
+    ],
+    "5b18feb1-4845-3973-8869-99f92755ff01": [
+      {
+        "id": "20e4cf4a-6923-4318-b7a2-02997cd4431f",
+        "title": "Mixing Pot (Tacho)",
+        "position": "1",
+        "length": "558933",
+        "work": null
+      },
+      {
+        "id": "e0e0ae1e-8e8f-4bd1-bbdc-4fe9a8f15e0c",
+        "title": "Slaves Mass (Missa dos escravos)",
+        "position": "2",
+        "length": "259066",
+        "work": null
+      },
+      {
+        "id": "03d37228-ce1e-4e7e-8aed-2f278fa94657",
+        "title": "Little Cry for Him (Chorinho pra ele)",
+        "position": "3",
+        "length": "131360",
+        "work": null
+      },
+      {
+        "id": "75149bf6-eaf3-4b68-bb7c-1e47d6da546b",
+        "title": "Cannon (Dedicated to Cannonbal Adderley)",
+        "position": "4",
+        "length": "320066",
+        "work": null
+      },
+      {
+        "id": "f685d5d8-10c2-4793-8a26-96cb982c62e4",
+        "title": "Just Listen (Escuta meu piano)",
+        "position": "5",
+        "length": "428066",
+        "work": null
+      },
+      {
+        "id": "50ee38f1-bda3-4fab-984d-0a9c9b945655",
+        "title": "That Waltz (Aquela valsa)",
+        "position": "6",
+        "length": "166773",
+        "work": null
+      },
+      {
+        "id": "6a4b5230-8ad5-4adc-ae0f-3a2e3f2d7b7c",
+        "title": "Cherry Jam (Geleia de cereja)",
+        "position": "7",
+        "length": "705693",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 256166,
+  "wikidata_id": "Q560969"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "subject": "Yoko Ono",
+    "predicate": "hasGenre",
+    "object": "performance art"
+  },
+  {
+    "subject": "Yoko Ono",
+    "predicate": "memberOf",
+    "object": "Fluxus group"
+  },
+  {
+    "subject": "Yoko Ono",
+    "predicate": "collaboratedWith",
+    "object": "John Lennon"
+  },
+  {
+    "subject": "Plastic Ono Band",
+    "predicate": "hasMember",
+    "object": "Yoko Ono"
+  },
+  {
+    "subject": "Plastic Ono Band",
+    "predicate": "hasMember",
+    "object": "John Lennon"
+  },
+  {
+    "subject": "Yoko Ono",
+    "predicate": "founded",
+    "object": "Plastic Ono Band"
+  },
+  {
+    "subject": "Double Fantasy",
+    "predicate": "collaboratedWith",
+    "object": "John Lennon"
+  },
+  {
+    "subject": "Yoko Ono",
+    "predicate": "collaboratedWith",
+    "object": "Elvis Costello"
+  },
+  {
+    "subject": "Yoko Ono",
+    "predicate": "collaboratedWith",
+    "object": "The B-52's"
+  },
+  {
+    "subject": "Yoko Ono",
+    "predicate": "collaboratedWith",
+    "object": "Sonic Youth"
+  },
+  {
+    "subject": "Yoko Ono",
+    "predicate": "collaboratedWith",
+    "object": "Meredith Monk"
+  },
+  {
+    "subject": "Yoko Ono",
+    "predicate": "founded",
+    "object": "Artists Against Fracking"
+  }
+]

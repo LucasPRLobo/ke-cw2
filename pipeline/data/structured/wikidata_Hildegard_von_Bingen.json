@@ -1,0 +1,43 @@
+{
+  "wikidata_id": "Q70991",
+  "genres": [],
+  "instruments": [],
+  "awards": [],
+  "labels": [],
+  "influences": [],
+  "occupations": [
+    "naturalist",
+    "writer",
+    "composer",
+    "physician",
+    "poet",
+    "nun",
+    "playwright",
+    "polymath",
+    "artist",
+    "illuminator",
+    "theologian",
+    "abbess",
+    "botanist",
+    "sexologist",
+    "philosopher",
+    "mystic"
+  ],
+  "country": "Holy Roman Empire",
+  "birth_place": "Bermersheim vor der Höhe",
+  "birth_date": "1098-01-01",
+  "death_date": "1179-09-24",
+  "wikipedia_title": "Hildegard of Bingen",
+  "compositions": [
+    {
+      "title": "Ordo Virtutum",
+      "genre": "liturgical drama",
+      "date": "1151-01-01"
+    },
+    {
+      "title": "Dendermonde Codex",
+      "genre": null,
+      "date": ""
+    }
+  ]
+}

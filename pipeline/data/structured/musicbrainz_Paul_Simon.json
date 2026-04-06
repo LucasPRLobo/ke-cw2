@@ -1,0 +1,1052 @@
+{
+  "mbid": "05517043-ff78-4988-9c22-88c68588ebb9",
+  "name": "Paul Simon",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1941-10-13",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "United States",
+  "begin_area": "Newark",
+  "tags": [
+    {
+      "name": "contemporary folk",
+      "count": "1"
+    },
+    {
+      "name": "folk",
+      "count": "6"
+    },
+    {
+      "name": "folk pop",
+      "count": "1"
+    },
+    {
+      "name": "folk rock",
+      "count": "4"
+    },
+    {
+      "name": "pop",
+      "count": "7"
+    },
+    {
+      "name": "pop rock",
+      "count": "1"
+    },
+    {
+      "name": "rock",
+      "count": "1"
+    },
+    {
+      "name": "singer-songwriter",
+      "count": "3"
+    },
+    {
+      "name": "singer/songwriter",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "USA for Africa",
+      "target_mbid": "45e3c90f-2de6-4452-99b3-8dbf7a3cf6df",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Rudi Dobson",
+      "target_mbid": "53e74139-de93-432c-8c11-5c06036e888b",
+      "attributes": [
+        "keyboard"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Victor Montanez",
+      "target_mbid": "a15d53ca-7389-42f4-9e39-f2bb6369ee1d",
+      "attributes": [
+        "congas"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "is person",
+      "direction": "forward",
+      "target_name": "Jerry Landis",
+      "target_mbid": "290ab80e-8be6-4b3d-80ef-7d2ef876735f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Edie Brickell",
+      "target_mbid": "070473e5-b214-4d6f-a7ca-bc7b84c94fca",
+      "attributes": [],
+      "begin": "1992-05-30",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Simon & Garfunkel",
+      "target_mbid": "5d02f264-e225-41ff-83f7-d9b1f0b1874a",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Tico & The Triumphs",
+      "target_mbid": "4b1c53f5-e01d-4a1b-b200-1da0b6bc1ecb",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Cosines",
+      "target_mbid": "565042fc-9012-4d2e-9ef3-ee0a9dcad326",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Tom & Jerry",
+      "target_mbid": "d018cc6c-eeb1-4881-b46f-e3ee6497712f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Adrian Simon",
+      "target_mbid": "92511ec8-80c3-4777-b8a9-6f9cec1b564c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Harper Simon",
+      "target_mbid": "1e4ec3bd-9e57-4742-8022-11b4c9397035",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000031685"
+    },
+    {
+      "type": "bandcamp",
+      "target": "https://paulsimon.bandcamp.com/"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/26657"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/106474"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/2CvCyf1gEVhI0mX6aFXmVI"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/1445"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0800328/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Paul+Simon"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-4805/paul-simon/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Paul-simon"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/Paul-Simon"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/paulsimon"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.paulsimon.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n50023671"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/S/Simon,_Paul/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb138998006"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/119458888"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=8068"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/paul-simon"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-975754"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/paul_simon"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/paul-simon"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.livefans.jp/artists/35460"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/paul-simon/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000275703/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Paul-Simon/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n50023671"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id152016"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/152016"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://us.7digital.com/artist/paul-simon"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.junodownload.com/artists/Paul+Simon/releases/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.qobuz.com/gb-en/interpreter/paul-simon/download-streaming-albums"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.cdjapan.co.jp/person/700309594"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/1235"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/paul-simon-5bd6e3a8.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/paulsimonmusic"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/paulsimon"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/paulsimonofficial/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/213059"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/paulsimon"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B001E30XKY"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/152016"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/6928"
+    },
+    {
+      "type": "streaming",
+      "target": "https://us.napster.com/artist/paul-simon"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.qobuz.com/gb-en/interpreter/paul-simon/download-streaming-albums"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/109704568"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q4028"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/@PaulSimonVEVO"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "d4214355-7f74-3afc-b407-bcfa743ee60b",
+      "title": "The Paul Simon Songbook",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "602d0c54-2901-3469-a683-a5a50f3e5260",
+      "title": "Paul Simon",
+      "type": "Album",
+      "first_release_date": "1972-03"
+    },
+    {
+      "id": "fb1e90a8-4461-382b-9081-183abb3c8997",
+      "title": "There Goes Rhymin’ Simon",
+      "type": "Album",
+      "first_release_date": "1973-05"
+    },
+    {
+      "id": "cd0c17f4-ff8d-3b1d-ac36-397ebbb069e9",
+      "title": "Still Crazy After All These Years",
+      "type": "Album",
+      "first_release_date": "1975-10-25"
+    },
+    {
+      "id": "3fd3b865-5751-3712-a2cd-e7c10cf3bf5a",
+      "title": "One‐Trick Pony",
+      "type": "Album",
+      "first_release_date": "1980-08-12"
+    },
+    {
+      "id": "1f99b3d9-8739-3a62-afa5-2abb8ff11ee0",
+      "title": "Hearts and Bones",
+      "type": "Album",
+      "first_release_date": "1983-11"
+    },
+    {
+      "id": "19847822-1430-3380-9cf1-bc45545b34ac",
+      "title": "Graceland",
+      "type": "Album",
+      "first_release_date": "1986-08-29"
+    },
+    {
+      "id": "9c08260c-d558-391b-ae2b-aba11b9793d8",
+      "title": "The Rhythm of the Saints",
+      "type": "Album",
+      "first_release_date": "1990-10-15"
+    },
+    {
+      "id": "b3d73cb7-594f-3245-ab4c-34d2c447beb6",
+      "title": "Songs From The Capeman",
+      "type": "Album",
+      "first_release_date": "1997-11-18"
+    },
+    {
+      "id": "c02e071e-3dc2-379f-bddd-2ad2d7827220",
+      "title": "You’re the One",
+      "type": "Album",
+      "first_release_date": "2000-10-02"
+    },
+    {
+      "id": "af869d4a-891f-3992-8b4f-0ac44c61e3ba",
+      "title": "Surprise",
+      "type": "Album",
+      "first_release_date": "2006-05-09"
+    },
+    {
+      "id": "61ed2527-520c-45a6-a20b-463dd1f611cf",
+      "title": "So Beautiful or So What",
+      "type": "Album",
+      "first_release_date": "2011-04-08"
+    },
+    {
+      "id": "34e51cf5-cf97-4698-aa34-8b6babd20981",
+      "title": "The Wobble (Paul Simon a.k.a. Jerry Landis)",
+      "type": "Album",
+      "first_release_date": "2012-05-09"
+    },
+    {
+      "id": "985c560e-fac1-4217-91a0-0098806d4f27",
+      "title": "Stranger to Stranger",
+      "type": "Album",
+      "first_release_date": "2016-06-03"
+    },
+    {
+      "id": "bfe06dce-a220-425f-8be5-75652c815e4e",
+      "title": "In the Blue Light",
+      "type": "Album",
+      "first_release_date": "2018-09-07"
+    },
+    {
+      "id": "fed97b51-2553-4573-8a55-8af5ffd7aebc",
+      "title": "Seven Psalms",
+      "type": "Album",
+      "first_release_date": "2023-05-19"
+    },
+    {
+      "id": "3cbe7fa5-4b6b-31a8-b475-1cdfe0938955",
+      "title": "Greatest Hits, Etc.",
+      "type": "Compilation",
+      "first_release_date": "1977-11"
+    },
+    {
+      "id": "3f8492e5-2ede-4012-be2c-439f02289135",
+      "title": "Collected Works",
+      "type": "Compilation",
+      "first_release_date": "1981"
+    },
+    {
+      "id": "3ed2b388-f3b0-3692-944a-f3d792fe5f69",
+      "title": "Negotiations and Love Songs: 1971–1986",
+      "type": "Compilation",
+      "first_release_date": "1988-10-18"
+    },
+    {
+      "id": "0711bad0-cf95-31a4-a3dd-ee854443a92b",
+      "title": "Paul Simon Plus",
+      "type": "Compilation",
+      "first_release_date": "1990"
+    },
+    {
+      "id": "b6fb07de-83f7-3cb5-80d5-215c4c9b0d68",
+      "title": "Born at the Right Time: The Best of Paul Simon",
+      "type": "Compilation",
+      "first_release_date": "1991"
+    },
+    {
+      "id": "a326a5ba-e63d-3e9f-97a3-c3142be6e2ba",
+      "title": "1964–1993",
+      "type": "Compilation",
+      "first_release_date": "1993-09-28"
+    },
+    {
+      "id": "0f5b014a-606d-3d29-9538-97fa01a82d76",
+      "title": "The Paul Simon Anthology",
+      "type": "Compilation",
+      "first_release_date": "1993"
+    },
+    {
+      "id": "171303cf-7d92-4973-ace4-005c6ecbeb65",
+      "title": "Peacelands",
+      "type": "Compilation",
+      "first_release_date": "1994"
+    },
+    {
+      "id": "7e2a4557-c3d2-376e-8a54-269d1ae37809",
+      "title": "Greatest Hits: Shining Like a National Guitar",
+      "type": "Compilation",
+      "first_release_date": "2000-05-01"
+    }
+  ],
+  "tracks": {
+    "d4214355-7f74-3afc-b407-bcfa743ee60b": [
+      {
+        "id": "21d0b681-2651-4de3-8aeb-edfa0aeea3fd",
+        "title": "I Am a Rock",
+        "position": "1",
+        "length": "165866",
+        "work": {
+          "id": "3044cd9b-c195-3a1a-b729-88e676b6eee8",
+          "title": "I Am a Rock",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ebeffcbd-31fd-49a3-a416-e1dd0fb9022b",
+        "title": "Leaves That Are Green",
+        "position": "2",
+        "length": "153866",
+        "work": {
+          "id": "0f771cef-1a0a-3d2d-a092-2145c14521d5",
+          "title": "Leaves That Are Green",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8b3d447c-4ad7-4c51-87ce-e6cae192623b",
+        "title": "A Church Is Burning",
+        "position": "3",
+        "length": "206960",
+        "work": {
+          "id": "d5a2e85e-9c03-4e46-946f-6e288cb2a231",
+          "title": "A Church Is Burning",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "250baefa-c69e-4aa1-9399-0d7c34519981",
+        "title": "April Come She Will",
+        "position": "4",
+        "length": "111000",
+        "work": {
+          "id": "580791b7-0fee-4f2d-9c8b-e93e631cfa86",
+          "title": "April Come She Will",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "75f497df-15a1-44db-9a72-7161fad15adf",
+        "title": "The Sound of Silence",
+        "position": "5",
+        "length": "189000",
+        "work": {
+          "id": "ac967d83-36c2-3bf5-a2a6-562c4b1fdb2e",
+          "title": "The Sound of Silence",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fa0c4194-aa52-4456-b49d-eaad90bdf5fd",
+        "title": "A Most Peculiar Man",
+        "position": "6",
+        "length": "146000",
+        "work": {
+          "id": "88d03b42-f8b7-4203-a77f-290730aa88c6",
+          "title": "A Most Peculiar Man",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "135ef3e5-802d-415a-b2d6-8c4d3d417ab1",
+        "title": "He Was My Brother",
+        "position": "7",
+        "length": "169666",
+        "work": {
+          "id": "d44786f9-f2d0-3cfb-9bd9-9bc84ed430bb",
+          "title": "He Was My Brother",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9c4704d2-396e-4aa3-b1bb-e3c8cb8bf088",
+        "title": "Kathy’s Song",
+        "position": "8",
+        "length": "211000",
+        "work": {
+          "id": "ca64f21d-7cb1-392a-bede-0fadf71138b6",
+          "title": "Kathy’s Song",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "90e030ca-f7b9-4e61-82d1-0343efa87a93",
+        "title": "The Side of a Hill",
+        "position": "9",
+        "length": "140000",
+        "work": {
+          "id": "0d77298c-dab2-4bbd-945d-e34f86ebae3d",
+          "title": "The Side of a Hill",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0e8be5c1-0a74-490f-a898-1a4b732e4644",
+        "title": "A Simple Desultory Philippic (or How I Was Robert McNamara’d Into Submission)",
+        "position": "10",
+        "length": "141000",
+        "work": {
+          "id": "4eefcad2-3147-48b7-8306-a4d8ef8f9e37",
+          "title": "A Simple Desultory Philippic (Or How I Was Robert McNamara’d Into Submission)",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "97d16cf7-b8d8-4ca7-89b5-0f88d8c46948",
+        "title": "Flowers Never Bend With the Rainfall",
+        "position": "11",
+        "length": "140000",
+        "work": {
+          "id": "609529e7-0109-4d14-b9fa-5952946b11a3",
+          "title": "Flowers Never Bend With the Rainfall",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e7a599cf-688d-4ca0-bf1b-d492b3c849e6",
+        "title": "Patterns",
+        "position": "12",
+        "length": "193000",
+        "work": {
+          "id": "c501452d-327c-434a-831d-9cc22c42a795",
+          "title": "Patterns",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      }
+    ],
+    "602d0c54-2901-3469-a683-a5a50f3e5260": [
+      {
+        "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+        "title": "Mother and Child Reunion",
+        "position": "1",
+        "length": "186226",
+        "work": {
+          "id": "4517f338-f9bf-30e4-8118-8b057c0f5895",
+          "title": "Mother and Child Reunion",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8",
+        "title": "Duncan",
+        "position": "2",
+        "length": "283133",
+        "work": {
+          "id": "91c72d7c-b958-430a-98fb-28396978a127",
+          "title": "Duncan",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+        "title": "Everything Put Together Falls Apart",
+        "position": "3",
+        "length": "122000",
+        "work": {
+          "id": "db3df2a9-79bb-48f8-9876-fbbd19de975b",
+          "title": "Everything Put Together Falls Apart",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+        "title": "Run That Body Down",
+        "position": "4",
+        "length": "234600",
+        "work": {
+          "id": "8fcae174-a27e-4011-af87-f60880cefb53",
+          "title": "Run That Body Down",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+        "title": "Armistice Day",
+        "position": "5",
+        "length": "237066",
+        "work": {
+          "id": "54ecd710-2112-42b2-95dd-e083eff259f6",
+          "title": "Armistice Day",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+        "title": "Me and Julio Down by the Schoolyard",
+        "position": "6",
+        "length": "163973",
+        "work": {
+          "id": "eb3afc3d-9101-32ec-bda5-a669216dc96d",
+          "title": "Me and Julio Down by the Schoolyard",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+        "title": "Peace Like a River",
+        "position": "7",
+        "length": "203280",
+        "work": {
+          "id": "7697c7e0-235d-401f-b2de-90510d43cecf",
+          "title": "Peace Like a River",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26",
+        "title": "Papa Hobo",
+        "position": "8",
+        "length": "155933",
+        "work": {
+          "id": "2b665bed-8731-4b7f-a22c-c505d098ef36",
+          "title": "Papa Hobo",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+        "title": "Hobo’s Blues",
+        "position": "9",
+        "length": "80826",
+        "work": {
+          "id": "60fb0012-324a-48f7-8366-eff001b8a050",
+          "title": "Hobo’s Blues",
+          "composers": [
+            {
+              "name": "Stéphane Grappelli",
+              "mbid": "bfc03211-a3a2-4700-8fa3-00968c02c5d0"
+            },
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0a16e140-4767-4da4-87c1-ae32b0321777",
+        "title": "Paranoia Blues",
+        "position": "10",
+        "length": "178146",
+        "work": {
+          "id": "2c718b47-b11b-46c4-ac8a-8fcae2b77495",
+          "title": "Paranoia Blues",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6",
+        "title": "Congratulations",
+        "position": "11",
+        "length": "223040",
+        "work": {
+          "id": "81db98c2-aad1-4e8c-886f-8da794bbf401",
+          "title": "Congratulations",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      }
+    ],
+    "fb1e90a8-4461-382b-9081-183abb3c8997": [
+      {
+        "id": "be391ae8-934e-4821-b33d-e01dfef0ea6b",
+        "title": "Kodachrome",
+        "position": "1",
+        "length": "213466",
+        "work": {
+          "id": "c9ad17e6-440e-40b6-b4f9-58b74b006c20",
+          "title": "Kodachrome",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7f478585-f5fd-483c-9367-539647d43c1b",
+        "title": "Tenderness",
+        "position": "2",
+        "length": "175506",
+        "work": {
+          "id": "2c289883-b40a-4ad8-89da-79d1fdf8b16d",
+          "title": "Tenderness",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "16ce7758-43b3-43f6-bea7-112e1f4566e7",
+        "title": "Take Me to the Mardi Gras",
+        "position": "3",
+        "length": "210840",
+        "work": {
+          "id": "4b5bbaca-abd4-451e-866d-2cc6e1c35f8f",
+          "title": "Take Me to the Mardi Gras",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "36621300-790c-45b9-a932-70eab8bb5dca",
+        "title": "Something So Right",
+        "position": "4",
+        "length": "273720",
+        "work": {
+          "id": "09f0da5b-f428-43cc-aa74-6c5e37b028ee",
+          "title": "Something So Right",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "73cbdfe7-711c-4fdb-9705-7375e3b4f580",
+        "title": "One Man’s Ceiling Is Another Man’s Floor",
+        "position": "5",
+        "length": "228106",
+        "work": {
+          "id": "6f954774-b04d-486e-be35-06eca3d4118d",
+          "title": "One Man’s Ceiling Is Another Man’s Floor",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b67cc42f-d67d-40b7-91fd-59432095cb7f",
+        "title": "American Tune",
+        "position": "6",
+        "length": "227000",
+        "work": {
+          "id": "6ec7e58a-b410-4a83-ab3c-8afe10e4c75a",
+          "title": "American Tune",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5624064e-dae7-4288-820e-a7113eb879e1",
+        "title": "Was a Sunny Day",
+        "position": "7",
+        "length": "224200",
+        "work": {
+          "id": "c7ea2308-270f-494f-a266-9c7a785288c8",
+          "title": "Was a Sunny Day",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "117e7512-5303-46e1-a391-f7e368e8e861",
+        "title": "Learn How to Fall",
+        "position": "8",
+        "length": "167600",
+        "work": {
+          "id": "24728894-5d8c-4a3d-8abf-2fa9e1e45134",
+          "title": "Learn How to Fall",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b64af6c8-a950-43a2-83de-a63dd507f233",
+        "title": "St. Judy’s Comet",
+        "position": "9",
+        "length": "201000",
+        "work": {
+          "id": "5673df4c-301b-4bca-86cd-5dba92226a94",
+          "title": "St. Judy’s Comet",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "086917fa-67ed-4de4-86d7-dd30158c7fab",
+        "title": "Loves Me Like a Rock",
+        "position": "10",
+        "length": "202000",
+        "work": {
+          "id": "bc76594b-b113-4a57-b929-b9911531108e",
+          "title": "Loves Me Like a Rock",
+          "composers": [
+            {
+              "name": "Paul Simon",
+              "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 106474,
+  "wikidata_id": "Q4028"
+}

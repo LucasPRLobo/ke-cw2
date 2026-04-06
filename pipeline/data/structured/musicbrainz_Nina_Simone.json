@@ -1,0 +1,1019 @@
+{
+  "mbid": "2944824d-4c26-476f-a981-be849081942f",
+  "name": "Nina Simone",
+  "type": "Person",
+  "country": "US",
+  "gender": "Female",
+  "life_span": {
+    "begin": "1933-02-21",
+    "end": "2003-04-21",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "Tryon",
+  "tags": [
+    {
+      "name": "african american singers",
+      "count": "1"
+    },
+    {
+      "name": "african american women civil rights workers",
+      "count": "1"
+    },
+    {
+      "name": "blues",
+      "count": "3"
+    },
+    {
+      "name": "civil rights",
+      "count": "1"
+    },
+    {
+      "name": "classical",
+      "count": "1"
+    },
+    {
+      "name": "composers",
+      "count": "1"
+    },
+    {
+      "name": "folk",
+      "count": "1"
+    },
+    {
+      "name": "jazz",
+      "count": "10"
+    },
+    {
+      "name": "pianists",
+      "count": "1"
+    },
+    {
+      "name": "pop soul",
+      "count": "1"
+    },
+    {
+      "name": "popular music",
+      "count": "1"
+    },
+    {
+      "name": "r&b",
+      "count": "3"
+    },
+    {
+      "name": "soul",
+      "count": "9"
+    },
+    {
+      "name": "soul jazz",
+      "count": "2"
+    },
+    {
+      "name": "vocal jazz",
+      "count": "3"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Andy Stroud",
+      "target_mbid": "91bce1dd-a175-4167-b2cf-2270649fb40b",
+      "attributes": [],
+      "begin": "1961",
+      "end": "1971"
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Lisa Simone",
+      "target_mbid": "3b1df0c4-844e-4fdd-9f44-0e7462ae953f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Sam Waymon",
+      "target_mbid": "33f5c79f-90cd-42a5-a278-fa3b7feed1db",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Carl Friedberg",
+      "target_mbid": "24169bae-1150-4e79-ad82-47ce3bb8f6e9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Vladimir Sokoloff",
+      "target_mbid": "8433c672-2735-40ed-bec5-b7c3f06a8278",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000411761"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/1513"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/2944824d-4c26-476f-a981-be849081942f"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/10584"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/744"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Nina_Simone_1965.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0800510/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Nina+Simone"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-4975/nina-simone/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Nina-simone"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/ninasimone"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.ninasimone.com/"
+    },
+    {
+      "type": "online community",
+      "target": "http://high-priestess.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/no91012203"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13899792d"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/119082071"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=112987"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6f19kpm"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1160875"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/nina_simone"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/nina-simone/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-no91012203"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/29"
+    },
+    {
+      "type": "social network",
+      "target": "https://plus.google.com/113386308307853606476"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/NinaSimoneMusic"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/nina.simone"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/ninasimone/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/532964"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/ninasimone"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/79798"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/79798"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/1684"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/44486409"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q174957"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCJ-FRbWianyv9q-Ly9whFQQ"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "19ca48c1-af98-3000-bc9a-97ef5fa3e3be",
+      "title": "Little Girl Blue",
+      "type": "Album",
+      "first_release_date": "1958-06-24"
+    },
+    {
+      "id": "d06e8f13-c57f-3b4a-a417-e28f75cc9440",
+      "title": "The Amazing Nina Simone",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "49d04c21-e3f6-399a-a4df-79a876259e8a",
+      "title": "Forbidden Fruit",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "62bd0a78-fb3c-3043-b44f-fe7f29003cf6",
+      "title": "Nina Simone Sings Ellington",
+      "type": "Album",
+      "first_release_date": "1962"
+    },
+    {
+      "id": "4bdc5ce3-9ae1-36f2-ada0-fde51bcde8c1",
+      "title": "Broadway Blues Ballads",
+      "type": "Album",
+      "first_release_date": "1964-11"
+    },
+    {
+      "id": "5ada2187-a7eb-47bb-b0bb-a7664b5a94e9",
+      "title": "Starring Nina Simone with George Wallington",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "37b80fea-0129-3546-9ffe-00a719ee9e61",
+      "title": "I Put a Spell on You",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "c8fd5044-d9b5-3824-998c-5331e79df99d",
+      "title": "Let It All Out",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "1b3233e2-15ed-344e-bc8e-6630455db87f",
+      "title": "Pastel Blues",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "ff4a12a1-d2db-370e-8b15-ab11789bee8c",
+      "title": "Nina Simone With Strings",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "b4433a3e-d5ad-3d99-965c-96bfb6a0f071",
+      "title": "Wild Is the Wind",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "eb21fe65-ef66-3c10-8f9c-71865771c444",
+      "title": "High Priestess of Soul",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "3e756ef5-ffa4-3d48-83ae-f7f856a2b989",
+      "title": "Nina Simone Sings the Blues",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "84c5ae6a-c2f6-3f69-bc2c-54a7013bfe67",
+      "title": "Silk & Soul",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "abb74c32-c9c3-30e7-bf72-93e1ead55db8",
+      "title": "Nina Simone and Piano!",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "15445b78-ec7e-3d22-b8fc-cfc92590d8f0",
+      "title": "To Love Somebody",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "4073528e-ed80-4355-8b77-f0aca8717fd6",
+      "title": "Gifted & Black",
+      "type": "Album",
+      "first_release_date": "1970"
+    },
+    {
+      "id": "993a71e2-2a0f-34e7-b6f5-9fe819409708",
+      "title": "Here Comes the Sun",
+      "type": "Album",
+      "first_release_date": "1971-09"
+    },
+    {
+      "id": "df8adddb-b622-4eb4-981f-94c1797cb8cd",
+      "title": "Gospel According to Nina Simone",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "4fa78391-c883-3941-8ce3-ba1ffa8e5f12",
+      "title": "Baltimore",
+      "type": "Album",
+      "first_release_date": "1978"
+    },
+    {
+      "id": "faab02bc-9367-35f9-a9d0-d3cb9cad0976",
+      "title": "Fodder on My Wings",
+      "type": "Album",
+      "first_release_date": "1982"
+    },
+    {
+      "id": "aab7bc21-2ab0-359b-bbfd-aa0cbb52fb0d",
+      "title": "Nina’s Back",
+      "type": "Album",
+      "first_release_date": "1985"
+    },
+    {
+      "id": "ca8da20c-1707-352a-8a3b-46e590634ff2",
+      "title": "A Single Woman",
+      "type": "Album",
+      "first_release_date": "1993-08-03"
+    },
+    {
+      "id": "f9db98a1-3758-43f9-98b8-521c7ab1e54e",
+      "title": "Nina Simone and Her Friends: An Intimate Variety of Vocal Charm",
+      "type": "Compilation",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "bebb4e8a-8f6d-30eb-a817-b3df0c642950",
+      "title": "Nina’s Choice",
+      "type": "Compilation",
+      "first_release_date": "1963"
+    }
+  ],
+  "tracks": {
+    "19ca48c1-af98-3000-bc9a-97ef5fa3e3be": [
+      {
+        "id": "27c49e38-69b8-48ae-bf8e-0f6f0afad3d3",
+        "title": "Mood Indigo",
+        "position": "1",
+        "length": "242266",
+        "work": {
+          "id": "4a12b910-3dae-39d0-81f2-784992adb459",
+          "title": "Mood Indigo",
+          "composers": [
+            {
+              "name": "Barney Bigard",
+              "mbid": "eab4d095-80d3-4b20-a16a-4d96d28ff67f"
+            },
+            {
+              "name": "Duke Ellington",
+              "mbid": "3af06bc4-68ad-4cae-bb7a-7eeeb45e411f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "421ee3bc-7da1-4e92-bd24-4a9d77e26300",
+        "title": "Don’t Smoke in Bed",
+        "position": "2",
+        "length": "191946",
+        "work": {
+          "id": "1f566afa-c610-3e45-ba81-cfefc8b26e95",
+          "title": "Don’t Smoke in Bed",
+          "composers": [
+            {
+              "name": "Willard Robison",
+              "mbid": "3c86df3f-6398-46a5-a013-a53ce51ee4ad"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d970015a-3b3f-41bc-8c5c-843969af6e1d",
+        "title": "He Needs Me",
+        "position": "3",
+        "length": "150000",
+        "work": {
+          "id": "8296830c-0d85-46cb-959a-b5b1165be849",
+          "title": "He Needs Me",
+          "composers": [
+            {
+              "name": "Arthur Hamilton",
+              "mbid": "55b83fcc-7f1e-4d2d-a8bf-751152fd9fac"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b9c130ff-9c7f-4ef6-9d44-943f67683004",
+        "title": "Little Girl Blue",
+        "position": "4",
+        "length": "258533",
+        "work": {
+          "id": "f48c99d5-37ed-3b1f-a7a7-ff37ab47eb6d",
+          "title": "Little Girl Blue",
+          "composers": [
+            {
+              "name": "Richard Rodgers",
+              "mbid": "346448f5-25a0-4f78-bbd6-acc0205f7513"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2773d0b5-cb8a-4f48-a0da-4f673cedca13",
+        "title": "Love Me or Leave Me",
+        "position": "5",
+        "length": "202813",
+        "work": {
+          "id": "ec4219ef-463f-381f-b5d1-3cf85dbecdc3",
+          "title": "Love Me or Leave Me",
+          "composers": [
+            {
+              "name": "Walter Donaldson",
+              "mbid": "0a2824a1-660d-42c9-9043-657f182533b3"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a2c3d299-167c-47d4-ae4a-2f8b607645c6",
+        "title": "My Baby Just Cares for Me",
+        "position": "6",
+        "length": "217333",
+        "work": {
+          "id": "07b775ae-be76-3e90-b105-cb94534989b9",
+          "title": "My Baby Just Cares for Me",
+          "composers": [
+            {
+              "name": "Walter Donaldson",
+              "mbid": "0a2824a1-660d-42c9-9043-657f182533b3"
+            },
+            {
+              "name": "Gus Kahn",
+              "mbid": "428c2909-30c8-4c09-b37e-527357827547"
+            }
+          ]
+        }
+      },
+      {
+        "id": "721a4b68-2e91-4780-8e42-6c0fa9315ab7",
+        "title": "Good Bait",
+        "position": "7",
+        "length": "328000",
+        "work": {
+          "id": "85f3c83a-821b-3cb9-a315-23caa68d7d28",
+          "title": "Good Bait",
+          "composers": [
+            {
+              "name": "Count Basie",
+              "mbid": "0dbd6300-efdc-420b-857e-895e18fad317"
+            },
+            {
+              "name": "Tadd Dameron",
+              "mbid": "52763c17-465b-48e9-9e2b-3345ea8ba761"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dd0dae0c-4d13-4302-8dc8-beae52f450db",
+        "title": "Plain Gold Ring",
+        "position": "8",
+        "length": "232440",
+        "work": {
+          "id": "1b7cfa86-37ee-45b9-a092-41ca38aaf26d",
+          "title": "Plain Gold Ring",
+          "composers": [
+            {
+              "name": "Blue Sky Black Death",
+              "mbid": "1b8ed32a-294c-4224-a770-2c20b8a5b0c1"
+            },
+            {
+              "name": "Earl Burroughs",
+              "mbid": "389a79f6-083b-4486-97bd-7ef75ea8e7e8"
+            },
+            {
+              "name": "George Stone",
+              "mbid": "6f19c41a-6d62-4173-9ffc-942fe7c417a6"
+            }
+          ]
+        }
+      },
+      {
+        "id": "10d72b72-3094-422f-b04d-8401f2dbac71",
+        "title": "You’ll Never Walk Alone",
+        "position": "9",
+        "length": "227333",
+        "work": {
+          "id": "8dee3295-fc9e-37a8-bf72-f2e28c690f98",
+          "title": "You’ll Never Walk Alone",
+          "composers": [
+            {
+              "name": "Richard Rodgers",
+              "mbid": "346448f5-25a0-4f78-bbd6-acc0205f7513"
+            }
+          ]
+        }
+      },
+      {
+        "id": "87c06608-a5f9-40b8-84ec-92c2a4b86ebb",
+        "title": "I Loves You Porgy",
+        "position": "10",
+        "length": "250146",
+        "work": {
+          "id": "e91712f5-51ba-31f3-a04c-3749f0f5e454",
+          "title": "I Loves You, Porgy",
+          "composers": [
+            {
+              "name": "George Gershwin",
+              "mbid": "65744963-191a-44ef-a3c7-b693a808a158"
+            }
+          ]
+        }
+      },
+      {
+        "id": "02676543-7534-4ea2-830b-e2cd49deb43d",
+        "title": "Central Park Blues",
+        "position": "11",
+        "length": "186000",
+        "work": {
+          "id": "6703a6bc-53a8-4a80-8a70-b8c5ccc373ab",
+          "title": "Central Park Blues",
+          "composers": [
+            {
+              "name": "Nina Simone",
+              "mbid": "2944824d-4c26-476f-a981-be849081942f"
+            }
+          ]
+        }
+      }
+    ],
+    "d06e8f13-c57f-3b4a-a417-e28f75cc9440": [
+      {
+        "id": "4e4a941c-2ab5-4337-a4c8-cfb3bb4cfbad",
+        "title": "Blue Prelude",
+        "position": "1",
+        "length": "202000",
+        "work": {
+          "id": "ee190161-0772-4a34-9630-504a2a528429",
+          "title": "Blue Prelude",
+          "composers": [
+            {
+              "name": "Joe Bishop",
+              "mbid": "2ed66b49-8a2b-4a18-9feb-e5a7e9a57183"
+            }
+          ]
+        }
+      },
+      {
+        "id": "689c090b-e27d-42c8-a8de-3f6e765384ff",
+        "title": "Children Go Where I Send You",
+        "position": "2",
+        "length": "172573",
+        "work": {
+          "id": "39603b83-9d3b-30df-9334-54c845c61962",
+          "title": "Children Go Where I Send Thee",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e8e92d11-9251-49b8-ae2c-cc39bfd95c1f",
+        "title": "Tomorrow (We Will Meet Once More)",
+        "position": "3",
+        "length": "182533",
+        "work": {
+          "id": "1640af1e-c1a5-427d-9e47-7ddefcf19e11",
+          "title": "Tomorrow (We Will Meet Once More)",
+          "composers": [
+            {
+              "name": "Stephen Gale",
+              "mbid": "07c13392-21c5-472e-84e1-8c195cef0d54"
+            },
+            {
+              "name": "Jerry Silverman",
+              "mbid": "457ea462-8971-4315-9ae1-349f13f8c513"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8c686073-d6ae-44bb-90f5-2bd53889ea39",
+        "title": "Stompin’ at the Savoy",
+        "position": "4",
+        "length": "130000",
+        "work": {
+          "id": "98d6dbeb-8672-39ef-a10f-eae069a2075c",
+          "title": "Stompin’ at the Savoy",
+          "composers": [
+            {
+              "name": "Benny Goodman",
+              "mbid": "b09ae88f-4156-4caa-b129-1cacb5e1632e"
+            },
+            {
+              "name": "Edgar Sampson",
+              "mbid": "79842485-d513-4057-a55f-eb7212752719"
+            },
+            {
+              "name": "Chick Webb",
+              "mbid": "8ecae52e-9c89-4b61-99d8-ac11abc26771"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2719a1bc-73e1-4c37-8556-fee09d9430bc",
+        "title": "It Might as Well Be Spring",
+        "position": "5",
+        "length": "236200",
+        "work": {
+          "id": "3435dd9a-6ee0-31cb-8030-89987ffeb159",
+          "title": "It Might as Well Be Spring",
+          "composers": [
+            {
+              "name": "Richard Rodgers",
+              "mbid": "346448f5-25a0-4f78-bbd6-acc0205f7513"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0ac2421d-a87e-4667-a42b-79baf28a5ff3",
+        "title": "You’ve Been Gone Too Long",
+        "position": "6",
+        "length": "131186",
+        "work": {
+          "id": "6706a2f2-998b-438f-a93c-ac643e62dacc",
+          "title": "You’ve Been Gone Too Long",
+          "composers": [
+            {
+              "name": "Brother John Sellers",
+              "mbid": "6b83b858-e633-4881-8433-89c491ab05f1"
+            }
+          ]
+        }
+      },
+      {
+        "id": "efe7f054-768e-44c7-9750-1b1723f1600a",
+        "title": "That’s Him Over There",
+        "position": "7",
+        "length": "151933",
+        "work": {
+          "id": "d47099fa-5d26-49ff-94af-4adcef78ae8e",
+          "title": "That’s Him Over There",
+          "composers": [
+            {
+              "name": "Lew Spence",
+              "mbid": "59a7303d-2645-462d-a245-d2acda397dc4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "54e0bec3-070e-4e4f-b2f5-46ece34bb88e",
+        "title": "Chilly Winds Don’t Blow",
+        "position": "8",
+        "length": "166000",
+        "work": {
+          "id": "13a5adb3-6c09-45e2-a604-be4e0c324b0f",
+          "title": "Chilly Winds Don’t Blow",
+          "composers": [
+            {
+              "name": "Hecky Krasnow",
+              "mbid": "65c3c962-4ee9-4e2b-84e4-21465bb70e54"
+            },
+            {
+              "name": "Bill Lovelock",
+              "mbid": "66b272f8-acd5-42f2-8ab2-9ab10b1d0050"
+            }
+          ]
+        }
+      },
+      {
+        "id": "57e483e8-d50f-4f34-9bab-c32a7670689f",
+        "title": "Theme From “Middle of the Night”",
+        "position": "9",
+        "length": "150266",
+        "work": {
+          "id": "aaff994e-f21e-400c-9621-43d5bdf1a07a",
+          "title": "Theme from “Middle of the Night”",
+          "composers": [
+            {
+              "name": "George Bassman",
+              "mbid": "69a6332a-ce91-44d3-94ca-6f59d0206e9b"
+            },
+            {
+              "name": "Paddy Chayefsky",
+              "mbid": "fc637124-22f9-484d-aa3b-8f337fac5ffd"
+            }
+          ]
+        }
+      },
+      {
+        "id": "72d35529-34f5-44ff-a21c-2914fd3a5e71",
+        "title": "Can’t Get Out of This Mood",
+        "position": "10",
+        "length": "153933",
+        "work": {
+          "id": "a5cb463b-0183-4441-8838-e60b2ac98a2c",
+          "title": "Can’t Get Out of This Mood",
+          "composers": [
+            {
+              "name": "Jimmy McHugh",
+              "mbid": "c414371b-3377-43b5-9dc2-2a20254ed520"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0d56fdb1-4362-4756-ac8a-f91b0f045f41",
+        "title": "Willow Weep for Me",
+        "position": "11",
+        "length": "194000",
+        "work": {
+          "id": "219d7e1d-64fa-3e0d-bb07-d184b59d742f",
+          "title": "Willow Weep for Me",
+          "composers": [
+            {
+              "name": "Ann Ronell",
+              "mbid": "475e4df5-358a-45b3-89c9-e63d8de33aa2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8e64bc42-cdbf-4ee2-bd0f-5fb9802eb353",
+        "title": "Solitaire",
+        "position": "12",
+        "length": "206000",
+        "work": {
+          "id": "8ca8f1e7-e703-4928-84d8-d44bf3a8267a",
+          "title": "Solitaire",
+          "composers": [
+            {
+              "name": "Reneé Borek",
+              "mbid": "5e95d04a-a9cb-49f6-99f3-931a54846f84"
+            },
+            {
+              "name": "King Guion",
+              "mbid": "4c2b8324-d69f-4464-baf2-0ee1f149d993"
+            },
+            {
+              "name": "Carl Nutter",
+              "mbid": "2ebdd071-96b6-4869-b3bf-b2577f0db548"
+            }
+          ]
+        }
+      }
+    ],
+    "49d04c21-e3f6-399a-a4df-79a876259e8a": [
+      {
+        "id": "5c649b73-20eb-4636-a91d-7ebe0582bb06",
+        "title": "Rags and Old Iron",
+        "position": "1",
+        "length": "249000",
+        "work": {
+          "id": "8ea6faf1-04f7-4a87-8fe0-3fe0c64d1a7a",
+          "title": "Rags and Old Iron",
+          "composers": [
+            {
+              "name": "Oscar Brown Jr.",
+              "mbid": "fad74575-8a16-4c50-99a5-5d20fda0bd46"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c601e532-8987-4cb6-89da-3d1db39e9912",
+        "title": "No Good Man",
+        "position": "2",
+        "length": "219000",
+        "work": {
+          "id": "f7726f1d-b544-4250-9412-99330865253a",
+          "title": "No Good Man",
+          "composers": [
+            {
+              "name": "Dan Fisher",
+              "mbid": "0f4c0355-f42d-453f-b9c7-5c70708ae456"
+            },
+            {
+              "name": "Irene Higginbotham",
+              "mbid": "91f0d70c-143b-47f3-bb81-3159d7ce0282"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bfb52b7d-d4a5-49cc-b0a5-b7a74931902e",
+        "title": "Gin House Blues",
+        "position": "3",
+        "length": "184000",
+        "work": {
+          "id": "f53b6ece-7e02-3cb8-a0b5-d130658d99e1",
+          "title": "Gin House Blues",
+          "composers": [
+            {
+              "name": "Fletcher Henderson",
+              "mbid": "f47d1c94-c3e3-4c84-a42a-6c33e0032839"
+            },
+            {
+              "name": "Henry Troy",
+              "mbid": "eff31287-fb24-4d62-85d2-d02a5298dc1f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e5fcfa8a-5253-4bb0-a59e-c37341cac855",
+        "title": "I’ll Look Around",
+        "position": "4",
+        "length": "305613",
+        "work": {
+          "id": "7ed1306f-df79-34fd-b9b3-a41e28fb9a95",
+          "title": "I’ll Look Around",
+          "composers": [
+            {
+              "name": "George Cory",
+              "mbid": "e858ffad-36c5-4fc0-859a-d41294102260"
+            }
+          ]
+        }
+      },
+      {
+        "id": "323c4166-052b-403f-b97f-398362c7c202",
+        "title": "I Love to Love",
+        "position": "5",
+        "length": "205000",
+        "work": {
+          "id": "2076a08d-d099-4d3f-af66-e929678b25c2",
+          "title": "I Love to Love",
+          "composers": [
+            {
+              "name": "Herbert Baker",
+              "mbid": "0589fc66-a47e-494a-938d-cfa2fff2a92b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "158f3820-85af-48f2-83fd-f881b7fec20a",
+        "title": "Work Song",
+        "position": "6",
+        "length": "156000",
+        "work": {
+          "id": "1f40e982-b949-4e5e-86f6-e603efd8f188",
+          "title": "Work Song",
+          "composers": [
+            {
+              "name": "Nat Adderley",
+              "mbid": "a9e79d89-f90b-4cef-943e-68151336a430"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6f897daa-505c-4965-b9a7-f32d22c187b6",
+        "title": "Where Can I Go Without You",
+        "position": "7",
+        "length": "171666",
+        "work": {
+          "id": "953cda4e-4aeb-45ee-90a3-468d19434e0e",
+          "title": "Where Can I Go Without You?",
+          "composers": [
+            {
+              "name": "Peggy Lee",
+              "mbid": "5a2463af-eef0-4a22-bc8f-5865fbe9c78e"
+            },
+            {
+              "name": "Victor Young",
+              "mbid": "338f9d5d-9327-4f01-bb99-0cdf22c48565"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a22c74c3-f76e-4b09-8b77-603a8a246d54",
+        "title": "Just Say I Love Him",
+        "position": "8",
+        "length": "397000",
+        "work": {
+          "id": "f2628ebf-2e68-45e4-bc41-2a89bcbc08b6",
+          "title": "Just Say I Love Her",
+          "composers": [
+            {
+              "name": "Rodolfo Falvo",
+              "mbid": "0c387664-78d8-4e82-a1ef-a0b391109cf7"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5a54eb28-da49-4abc-89e9-f3a42d17b3f4",
+        "title": "Memphis in June",
+        "position": "9",
+        "length": "159040",
+        "work": {
+          "id": "bc4593e0-de85-49ca-b0a3-5afa90628b45",
+          "title": "Memphis in June",
+          "composers": [
+            {
+              "name": "Hoagy Carmichael",
+              "mbid": "75f6fe4b-8a7a-4f3c-9232-e6a00ac37491"
+            }
+          ]
+        }
+      },
+      {
+        "id": "366c2918-3f8e-4f9c-a895-bc000bf37504",
+        "title": "Forbidden Fruit",
+        "position": "10",
+        "length": "229000",
+        "work": {
+          "id": "24f0675b-d73a-387a-86c5-ad3cae12997c",
+          "title": "Forbidden Fruit",
+          "composers": [
+            {
+              "name": "Oscar Brown Jr.",
+              "mbid": "fad74575-8a16-4c50-99a5-5d20fda0bd46"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 10584,
+  "wikidata_id": "Q174957"
+}

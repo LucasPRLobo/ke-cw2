@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "Johann Sebastian Bach",
+    "predicate": "hasMusicalPeriod",
+    "object": "Baroque"
+  },
+  {
+    "subject": "Brandenburg Concertos",
+    "predicate": "composed",
+    "object": "Johann Sebastian Bach"
+  },
+  {
+    "subject": "Cello Suites",
+    "predicate": "composed",
+    "object": "Johann Sebastian Bach"
+  },
+  {
+    "subject": "Sonatas and Partitas for Solo Violin",
+    "predicate": "composed",
+    "object": "Johann Sebastian Bach"
+  },
+  {
+    "subject": "Goldberg Variations",
+    "predicate": "composed",
+    "object": "Johann Sebastian Bach"
+  },
+  {
+    "subject": "The Well-Tempered Clavier",
+    "predicate": "composed",
+    "object": "Johann Sebastian Bach"
+  },
+  {
+    "subject": "Sch\u00fcbler Chorales",
+    "predicate": "composed",
+    "object": "Johann Sebastian Bach"
+  },
+  {
+    "subject": "Toccata and Fugue in D minor",
+    "predicate": "composed",
+    "object": "Johann Sebastian Bach"
+  },
+  {
+    "subject": "St. Matthew Passion",
+    "predicate": "composed",
+    "object": "Johann Sebastian Bach"
+  },
+  {
+    "subject": "Mass in B minor",
+    "predicate": "composed",
+    "object": "Johann Sebastian Bach"
+  },
+  {
+    "subject": "The Musical Offering",
+    "predicate": "composed",
+    "object": "Johann Sebastian Bach"
+  },
+  {
+    "subject": "The Art of Fugue",
+    "predicate": "composed",
+    "object": "Johann Sebastian Bach"
+  },
+  {
+    "subject": "Johann Sebastian Bach",
+    "predicate": "influencedBy",
+    "object": "Italy"
+  },
+  {
+    "subject": "Johann Sebastian Bach",
+    "predicate": "influencedBy",
+    "object": "France"
+  }
+]

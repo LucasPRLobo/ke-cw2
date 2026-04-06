@@ -1,0 +1,47 @@
+[
+  {
+    "subject": "Fr\u00e9d\u00e9ric Chopin",
+    "predicate": "hasGenre",
+    "object": "Romantic period"
+  },
+  {
+    "subject": "Fr\u00e9d\u00e9ric Chopin",
+    "predicate": "influencedBy",
+    "object": "Wolfgang Amadeus Mozart"
+  },
+  {
+    "subject": "Fr\u00e9d\u00e9ric Chopin",
+    "predicate": "influencedBy",
+    "object": "Franz Schubert"
+  },
+  {
+    "subject": "Fr\u00e9d\u00e9ric Chopin",
+    "predicate": "hasMusicalPeriod",
+    "object": "Romantic period"
+  },
+  {
+    "subject": "Fr\u00e9d\u00e9ric Chopin",
+    "predicate": "founded",
+    "object": "instrumental ballade"
+  },
+  {
+    "subject": "Fr\u00e9d\u00e9ric Chopin",
+    "predicate": "founded",
+    "object": "Fryderyk Chopin Institute"
+  },
+  {
+    "subject": "Fryderyk Chopin Institute",
+    "predicate": "hasMember",
+    "object": "International Chopin Piano Competition"
+  },
+  {
+    "subject": "Fr\u00e9d\u00e9ric Chopin",
+    "predicate": "collaboratedWith",
+    "object": "Franz Liszt"
+  },
+  {
+    "subject": "Fr\u00e9d\u00e9ric Chopin",
+    "predicate": "alterEgo",
+    "object": "George Sand"
+  }
+]

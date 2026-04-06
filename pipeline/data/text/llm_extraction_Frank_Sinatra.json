@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "alterEgo",
+    "object": "Chairman of the Board"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "alterEgo",
+    "object": "Ol' Blue Eyes"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "hasMusicalPeriod",
+    "object": "swing era"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "memberOf",
+    "object": "Harry James band"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "released",
+    "object": "The Voice of Frank Sinatra"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "collaboratedWith",
+    "object": "Count Basie"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "released",
+    "object": "Sinatra-Basie: An Historic Musical First"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "released",
+    "object": "It Might as Well Be Swing"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "collaboratedWith",
+    "object": "Tom Jobim"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "released",
+    "object": "Francis Albert Sinatra & Antonio Carlos Jobim"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "collaboratedWith",
+    "object": "Duke Ellington"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "released",
+    "object": "Francis A. & Edward K."
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "released",
+    "object": "New York, New York"
+  },
+  {
+    "subject": "Frank Sinatra",
+    "predicate": "founded",
+    "object": "Reprise Records"
+  }
+]

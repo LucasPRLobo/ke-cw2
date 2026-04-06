@@ -1,0 +1,363 @@
+{
+  "performance": {
+    "total_time_seconds": 33.91,
+    "peak_memory_mb": 47.63,
+    "current_memory_mb": 45.84,
+    "artist_count": 58,
+    "avg_time_per_artist": 0.089,
+    "stages": {
+      "0_ontology_header": {
+        "time_seconds": 0.026,
+        "triples_added": 364
+      },
+      "1_structured_mapping": {
+        "time_seconds": 5.171,
+        "triples_added": 35409
+      },
+      "2_text_mapping": {
+        "time_seconds": 25.754,
+        "triples_added": 1457
+      },
+      "3_enrichment": {
+        "time_seconds": 1.015,
+        "triples_added": 108
+      },
+      "4_uri_consolidation": {
+        "time_seconds": 0.642,
+        "triples_added": -31
+      },
+      "5_type_assignment": {
+        "time_seconds": 1.298,
+        "triples_added": 759
+      }
+    },
+    "artist_times": [
+      {
+        "artist": "David Bowie",
+        "time_seconds": 0.051
+      },
+      {
+        "artist": "The Beatles",
+        "time_seconds": 0.045
+      },
+      {
+        "artist": "Led Zeppelin",
+        "time_seconds": 0.033
+      },
+      {
+        "artist": "Nirvana",
+        "time_seconds": 0.032
+      },
+      {
+        "artist": "Queen",
+        "time_seconds": 0.036
+      },
+      {
+        "artist": "Miles Davis",
+        "time_seconds": 0.031
+      },
+      {
+        "artist": "John Coltrane",
+        "time_seconds": 0.031
+      },
+      {
+        "artist": "Ludwig van Beethoven",
+        "time_seconds": 0.029
+      },
+      {
+        "artist": "Wolfgang Amadeus Mozart",
+        "time_seconds": 0.035
+      },
+      {
+        "artist": "Johann Sebastian Bach",
+        "time_seconds": 0.045
+      },
+      {
+        "artist": "Pyotr Ilyich Tchaikovsky",
+        "time_seconds": 0.025
+      },
+      {
+        "artist": "Antonio Vivaldi",
+        "time_seconds": 0.024
+      },
+      {
+        "artist": "Fr\u00e9d\u00e9ric Chopin",
+        "time_seconds": 0.027
+      },
+      {
+        "artist": "Michael Jackson",
+        "time_seconds": 0.043
+      },
+      {
+        "artist": "Aretha Franklin",
+        "time_seconds": 0.034
+      },
+      {
+        "artist": "Kraftwerk",
+        "time_seconds": 0.032
+      },
+      {
+        "artist": "Daft Punk",
+        "time_seconds": 0.035
+      },
+      {
+        "artist": "Brian Eno",
+        "time_seconds": 0.036
+      },
+      {
+        "artist": "Bob Dylan",
+        "time_seconds": 0.051
+      },
+      {
+        "artist": "Johnny Cash",
+        "time_seconds": 0.043
+      },
+      {
+        "artist": "Bob Marley",
+        "time_seconds": 0.036
+      },
+      {
+        "artist": "Ant\u00f4nio Carlos Jobim",
+        "time_seconds": 0.027
+      },
+      {
+        "artist": "Luiz Gonzaga",
+        "time_seconds": 0.013
+      },
+      {
+        "artist": "Dominguinhos",
+        "time_seconds": 0.021
+      },
+      {
+        "artist": "Hermeto Pascoal",
+        "time_seconds": 0.024
+      },
+      {
+        "artist": "Fela Kuti",
+        "time_seconds": 0.035
+      },
+      {
+        "artist": "Miriam Makeba",
+        "time_seconds": 0.028
+      },
+      {
+        "artist": "Youssou N'Dour",
+        "time_seconds": 0.023
+      },
+      {
+        "artist": "Buena Vista Social Club",
+        "time_seconds": 0.025
+      },
+      {
+        "artist": "Celia Cruz",
+        "time_seconds": 0.02
+      },
+      {
+        "artist": "Julio Iglesias",
+        "time_seconds": 0.028
+      },
+      {
+        "artist": "Alejandro Sanz",
+        "time_seconds": 0.024
+      },
+      {
+        "artist": "Chuck Berry",
+        "time_seconds": 0.036
+      },
+      {
+        "artist": "Muddy Waters",
+        "time_seconds": 0.022
+      },
+      {
+        "artist": "Elvis Presley",
+        "time_seconds": 0.031
+      },
+      {
+        "artist": "Tupac Shakur",
+        "time_seconds": 0.021
+      },
+      {
+        "artist": "Kendrick Lamar",
+        "time_seconds": 0.037
+      },
+      {
+        "artist": "Freddie Mercury",
+        "time_seconds": 0.071
+      },
+      {
+        "artist": "John Lennon",
+        "time_seconds": 0.034
+      },
+      {
+        "artist": "Ces\u00e1ria \u00c9vora",
+        "time_seconds": 0.02
+      },
+      {
+        "artist": "Ravi Shankar",
+        "time_seconds": 0.026
+      },
+      {
+        "artist": "Hildegard von Bingen",
+        "time_seconds": 0.021
+      },
+      {
+        "artist": "Giuseppe Verdi",
+        "time_seconds": 0.021
+      },
+      {
+        "artist": "Dolly Parton",
+        "time_seconds": 0.05
+      },
+      {
+        "artist": "Jean-Michel Jarre",
+        "time_seconds": 0.033
+      },
+      {
+        "artist": "BTS",
+        "time_seconds": 0.029
+      },
+      {
+        "artist": "Paco de Luc\u00eda",
+        "time_seconds": 0.032
+      },
+      {
+        "artist": "Umm Kulthum",
+        "time_seconds": 0.014
+      },
+      {
+        "artist": "Duke Ellington",
+        "time_seconds": 0.025
+      },
+      {
+        "artist": "Nina Simone",
+        "time_seconds": 0.024
+      },
+      {
+        "artist": "Ramones",
+        "time_seconds": 0.033
+      },
+      {
+        "artist": "Frank Sinatra",
+        "time_seconds": 0.028
+      },
+      {
+        "artist": "Yoko Ono",
+        "time_seconds": 0.022
+      },
+      {
+        "artist": "Peter Gabriel",
+        "time_seconds": 0.038
+      },
+      {
+        "artist": "Paul Simon",
+        "time_seconds": 0.034
+      },
+      {
+        "artist": "Rick Rubin",
+        "time_seconds": 0.004
+      },
+      {
+        "artist": "Quincy Jones",
+        "time_seconds": 3.42
+      },
+      {
+        "artist": "George Martin",
+        "time_seconds": 0.025
+      }
+    ]
+  },
+  "source_contribution": {
+    "musicbrainz_exclusive": 5110,
+    "discogs_exclusive": 243,
+    "wikidata_exclusive": 1762,
+    "schema_org": 147,
+    "text_extraction_exclusive": 117,
+    "shared_across_sources": 10134,
+    "metadata_and_ontology": 15053,
+    "total": 38066
+  },
+  "output_stats": {
+    "total_triples": 38066,
+    "unique_subjects": 5765,
+    "ttl_file_size_kb": 2484.3,
+    "cached_structured_files": 174,
+    "cached_text_files": 118,
+    "triples_per_artist": 656.3,
+    "type_counts": {
+      "Track": 1883,
+      "Release": 1379,
+      "MusicArtist": 741,
+      "MusicalWork": 514,
+      "Genre": 265,
+      "Award": 250,
+      "SoloMusicArtist": 191,
+      "MusicGroup": 156,
+      "RecordLabel": 125,
+      "Person": 118,
+      "Instrument": 59,
+      "Country": 20,
+      "Venue": 20,
+      "Persona": 18,
+      "Organisation": 16,
+      "MusicalPeriod": 9,
+      "IrreflexiveProperty": 7,
+      "AsymmetricProperty": 4,
+      "Restriction": 3,
+      "SymmetricProperty": 1,
+      "TransitiveProperty": 1,
+      "AlbumGroup": 1
+    },
+    "predicate_counts": {
+      "genre": 9237,
+      "type": 5865,
+      "label": 5788,
+      "title": 3192,
+      "hasTrack": 1915,
+      "trackOn": 1915,
+      "duration": 1623,
+      "releasedBy": 1339,
+      "released": 1339,
+      "releaseDate": 1283,
+      "composed": 623,
+      "composedBy": 623,
+      "compositionDate": 494,
+      "wonAward": 419,
+      "playsInstrument": 240,
+      "member_of": 233,
+      "signedTo": 226,
+      "collaboratedWith": 200,
+      "subgenreOf": 196,
+      "influenced": 190,
+      "influencedBy": 190,
+      "countryOfOrigin": 145,
+      "comment": 81,
+      "producedBy": 61,
+      "produced": 61,
+      "name": 58,
+      "birthPlace": 57,
+      "birthDate": 57,
+      "gender": 48,
+      "realName": 47,
+      "deathDate": 42,
+      "hasMember": 34,
+      "founded": 33,
+      "domain": 29,
+      "alterEgo": 29,
+      "range": 29,
+      "pioneerOf": 28,
+      "performedAt": 26,
+      "hasMusicalPeriod": 18,
+      "albumGrouping": 9,
+      "subClassOf": 7,
+      "first": 6,
+      "rest": 6,
+      "inverseOf": 6,
+      "equivalentClass": 4,
+      "subPropertyOf": 4,
+      "intersectionOf": 3,
+      "someValuesFrom": 3,
+      "onProperty": 3,
+      "disjointWith": 2
+    }
+  }
+}

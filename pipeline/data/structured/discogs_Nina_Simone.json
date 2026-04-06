@@ -1,0 +1,61 @@
+{
+  "id": 10584,
+  "name": "Nina Simone",
+  "realname": "Eunice Kathleen Waymon",
+  "profile": "American singer, songwriter, pianist, composer, arranger and civil rights activist, born 21 February 1933 in Tryon, North Carolina, USA, died 21 April 2003 in Carry-le-Rouet, Bouches-du-Rhône, France (aged 70)\r\n\r\nNina was giving piano recitals after playing at her local church at an early age. Her childhood piano lessons were funded by her mother's employer and a local fund set up by her music teacher, so impressed were they by her talent.\r\n\r\nShe moved to Philadelphia aged 17, teaching piano and playing to raise the money for her studies at New York's renowned Juilliard School Of Music. To fund her family she worked in a bar in Atlantic City where she was also required to sing and built up a devoted following.\r\n\r\nShe recorded Gershwin's \"I Loves You Porgy\" which became a US Top 20 hit and transported her to a bigger stage, performing at [l280434] and the [l318621].\r\n\r\nHer repertoire went on to embrace numerous civil rights anthems, a movement for which she was a passionate and prominent supporter. She left the US in the 1970s, moving first to Barbados, and some other places, including Africa and the Netherlands, before eventually settling in France where she died from cancer in 2003.\r\n\r\nShe won a Grammy Lifetime Achievement Award in 2017 and was inducted into the Rock and Roll Hall of Fame in 2018.\r\n\r\nMother of [a1559889].",
+  "members": [],
+  "groups": [],
+  "genres": [
+    "Blues",
+    "Funk / Soul",
+    "Jazz",
+    "Stage & Screen"
+  ],
+  "styles": [
+    "Gospel",
+    "Soul-Jazz",
+    "Theme"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Jazz",
+      "style": "Soul-Jazz"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Gospel"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Soul-Jazz"
+    },
+    {
+      "genre": "Blues",
+      "style": "Gospel"
+    },
+    {
+      "genre": "Blues",
+      "style": "Soul-Jazz"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Soul-Jazz"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Theme"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Theme"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Soul-Jazz"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Soul-Jazz"
+    }
+  ]
+}

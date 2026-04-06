@@ -1,0 +1,53 @@
+{
+  "id": 68211,
+  "name": "Rick Rubin",
+  "realname": "Frederick Jay Rubin",
+  "profile": "Born March 10th 1963 in Long Beach, New York, U.S., Rick Rubin is one of the most renowned producers of modern music, who has also been responsible for the birth of three labels: [l4241] with [a94380] in 1984 and [l19048] in 1988 (later changed to [l2569]). Plus [l32918], a reissues label which Rubin co-founded in 1994 with [a18844]. Rick Rubin has produced some of the \"[i]heaviest[/i]\" tunes, if not sonically ([a18845] / [a28209]) then emotionally ([a135946] / [a96218]). He is also the co-creator and a host of the music related podcast [i]Broken Record[/i], which started in November 2018 with [a2816118], Justin Richmond and Bruce Headlam.",
+  "members": [],
+  "groups": [
+    {
+      "name": "Hose",
+      "id": 197153,
+      "active": true
+    },
+    {
+      "name": "The Pricks (3)",
+      "id": 2225446,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Electronic",
+    "Hip Hop",
+    "Pop",
+    "Rock"
+  ],
+  "styles": [
+    "Alternative Rock",
+    "Glitch",
+    "Indie Rock",
+    "Synth-pop"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Electronic",
+      "style": "Glitch"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Synth-pop"
+    },
+    {
+      "genre": "Rock",
+      "style": "Synth-pop"
+    },
+    {
+      "genre": "Rock",
+      "style": "Alternative Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Indie Rock"
+    }
+  ]
+}

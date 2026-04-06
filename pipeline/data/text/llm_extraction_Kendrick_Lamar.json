@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "Kendrick Lamar",
+    "predicate": "hasGenre",
+    "object": "hip-hop"
+  },
+  {
+    "subject": "Kendrick Lamar",
+    "predicate": "alterEgo",
+    "object": "K.Dot"
+  },
+  {
+    "subject": "Kendrick Lamar",
+    "predicate": "memberOf",
+    "object": "Black Hippy"
+  },
+  {
+    "subject": "Black Hippy",
+    "predicate": "hasMember",
+    "object": "Kendrick Lamar"
+  },
+  {
+    "subject": "Section.80",
+    "predicate": "hasGenre",
+    "object": "alternative rap"
+  },
+  {
+    "subject": "Good Kid, M.A.A.D City",
+    "predicate": "hasGenre",
+    "object": "gangsta rap"
+  },
+  {
+    "subject": "To Pimp a Butterfly",
+    "predicate": "hasGenre",
+    "object": "hip-hop"
+  },
+  {
+    "subject": "To Pimp a Butterfly",
+    "predicate": "hasGenre",
+    "object": "jazz"
+  },
+  {
+    "subject": "To Pimp a Butterfly",
+    "predicate": "hasGenre",
+    "object": "funk"
+  },
+  {
+    "subject": "To Pimp a Butterfly",
+    "predicate": "hasGenre",
+    "object": "soul"
+  },
+  {
+    "subject": "Damn",
+    "predicate": "hasGenre",
+    "object": "R&B"
+  },
+  {
+    "subject": "Damn",
+    "predicate": "hasGenre",
+    "object": "pop"
+  },
+  {
+    "subject": "Kendrick Lamar",
+    "predicate": "founded",
+    "object": "PGLang"
+  },
+  {
+    "subject": "Kendrick Lamar",
+    "predicate": "collaboratedWith",
+    "object": "SZA"
+  }
+]

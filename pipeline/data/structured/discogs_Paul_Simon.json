@@ -1,0 +1,89 @@
+{
+  "id": 106474,
+  "name": "Paul Simon",
+  "realname": "Paul Frederic Simon",
+  "profile": "American singer-songwriter born October 13, 1941, Newark, New Jersey, USA, who rose to fame as one part of [a232157]. After splitting up with [a=Art Garfunkel], he went on to have a successful solo career. Inducted into Rock And Roll Hall of Fame in 2001 (Performer). His first marriage was to [a=Peggy Harper] with whom he had a son [a906246]. He was then briefly married to [a637386] from 1983 until their divorce in 1984. His third wife is folk singer [a408641].",
+  "members": [],
+  "groups": [
+    {
+      "name": "USA For Africa",
+      "id": 151313,
+      "active": true
+    },
+    {
+      "name": "Tom & Jerry",
+      "id": 194564,
+      "active": true
+    },
+    {
+      "name": "Simon & Garfunkel",
+      "id": 232157,
+      "active": true
+    },
+    {
+      "name": "Tico And The Triumphs",
+      "id": 1174803,
+      "active": true
+    },
+    {
+      "name": "The Cosines",
+      "id": 2607137,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Folk, World, & Country",
+    "Jazz",
+    "Pop",
+    "Rock",
+    "Stage & Screen"
+  ],
+  "styles": [
+    "Acoustic",
+    "Folk",
+    "Folk Rock",
+    "Soundtrack"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Folk"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Folk Rock"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Acoustic"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Rock",
+      "style": "Folk Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Acoustic"
+    },
+    {
+      "genre": "Rock",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Folk Rock"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Acoustic"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Soundtrack"
+    }
+  ]
+}

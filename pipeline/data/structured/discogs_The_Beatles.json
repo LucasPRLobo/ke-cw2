@@ -1,0 +1,94 @@
+{
+  "id": 82730,
+  "name": "The Beatles",
+  "realname": "The Beatles",
+  "profile": "Emerging from Liverpool, England in 1960, the Beatles were a seminal British group that evolved from rock/pop origins into pioneers of musical experimentation. The band solidified its iconic lineup in 1962, featuring [a46481] (vocals, rhythm guitar, harmonica, keyboards, percussion), [a35301] (vocals, bass, guitar, keyboards, percussion), [a243955] (lead guitar, vocals, keyboards), and [a259352] (drums, vocals, percussion) after signing a recording contract with EMI. This followed a brief period with Stuart Sutcliffe (bass, 1960-61) and Pete Best (drums, 1960-62).\r\n\r\nInitially recognized for their Merseybeat style, the Beatles soon ventured into uncharted musical territories, exploring psychedelia and pioneering innovative production techniques that incorporated tape loops and other effects. Over their active years, they created a legacy of 12 studio albums.\r\n\r\nTheir profound impact on rock and roll was acknowledged in 1988 when they were inducted into the Rock And Roll Hall of Fame as a group. By 2015, each member had also received individual recognition for their contributions as solo artists within the Hall of Fame.",
+  "members": [
+    {
+      "name": "Paul McCartney",
+      "id": 35301,
+      "active": true
+    },
+    {
+      "name": "John Lennon",
+      "id": 46481,
+      "active": true
+    },
+    {
+      "name": "George Harrison",
+      "id": 243955,
+      "active": true
+    },
+    {
+      "name": "Richard Starkey",
+      "id": 298525,
+      "active": true
+    },
+    {
+      "name": "Pete Best",
+      "id": 337031,
+      "active": false
+    },
+    {
+      "name": "Stuart Sutcliffe",
+      "id": 459513,
+      "active": false
+    }
+  ],
+  "groups": [],
+  "genres": [
+    "Pop",
+    "Rock"
+  ],
+  "styles": [
+    "Ballad",
+    "Beat",
+    "Rock & Roll"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Rock",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Rock",
+      "style": "Beat"
+    },
+    {
+      "genre": "Pop",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Pop",
+      "style": "Beat"
+    },
+    {
+      "genre": "Rock",
+      "style": "Beat"
+    },
+    {
+      "genre": "Pop",
+      "style": "Beat"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Rock",
+      "style": "Beat"
+    },
+    {
+      "genre": "Rock",
+      "style": "Beat"
+    },
+    {
+      "genre": "Pop",
+      "style": "Beat"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rock & Roll"
+    }
+  ]
+}

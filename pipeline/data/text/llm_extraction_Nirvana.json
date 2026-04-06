@@ -1,0 +1,21 @@
+[
+  {"subject": "Nirvana", "predicate": "hasMember", "object": "Kurt Cobain"},
+  {"subject": "Nirvana", "predicate": "hasMember", "object": "Krist Novoselic"},
+  {"subject": "Nirvana", "predicate": "hasMember", "object": "Chad Channing"},
+  {"subject": "Nirvana", "predicate": "hasMember", "object": "Dave Grohl"},
+  {"subject": "Kurt Cobain", "predicate": "memberOf", "object": "Nirvana"},
+  {"subject": "Krist Novoselic", "predicate": "memberOf", "object": "Nirvana"},
+  {"subject": "Chad Channing", "predicate": "memberOf", "object": "Nirvana"},
+  {"subject": "Dave Grohl", "predicate": "memberOf", "object": "Nirvana"},
+  {"subject": "Nirvana", "predicate": "hasGenre", "object": "rock"},
+  {"subject": "Nirvana", "predicate": "hasGenre", "object": "alternative rock"},
+  {"subject": "Nirvana", "predicate": "hasGenre", "object": "grunge"},
+  {"subject": "Nirvana", "predicate": "pioneerOf", "object": "alternative rock"},
+  {"subject": "Nirvana", "predicate": "released", "object": "Bleach"},
+  {"subject": "Nirvana", "predicate": "released", "object": "Nevermind"},
+  {"subject": "Nirvana", "predicate": "released", "object": "Smells Like Teen Spirit"},
+  {"subject": "Nirvana", "predicate": "released", "object": "In Utero"},
+  {"subject": "Bleach", "predicate": "producedBy", "object": "Jack Endino"},
+  {"subject": "Nevermind", "predicate": "producedBy", "object": "Butch Vig"},
+  {"subject": "In Utero", "predicate": "producedBy", "object": "Steve Albini"}
+]

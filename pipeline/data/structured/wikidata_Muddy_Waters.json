@@ -1,0 +1,44 @@
+{
+  "wikidata_id": "Q220707",
+  "genres": [
+    "blues"
+  ],
+  "instruments": [
+    "guitar",
+    "harmonica",
+    "voice"
+  ],
+  "awards": [
+    "Rock and Roll Hall of Fame",
+    "Grammy Lifetime Achievement Award"
+  ],
+  "labels": [
+    "Chess Records",
+    "Aristocrat Records",
+    "Testament Records"
+  ],
+  "influences": [],
+  "occupations": [
+    "singer",
+    "singer-songwriter",
+    "guitarist",
+    "street artist"
+  ],
+  "country": "United States",
+  "birth_place": "Issaquena County",
+  "birth_date": "1913-04-04",
+  "death_date": "1983-04-30",
+  "wikipedia_title": "Muddy Waters",
+  "compositions": [
+    {
+      "title": "Mannish Boy",
+      "genre": "blues",
+      "date": "1955-06-01"
+    },
+    {
+      "title": "I Can't Be Satisfied",
+      "genre": "blues",
+      "date": "1948-01-01"
+    }
+  ]
+}

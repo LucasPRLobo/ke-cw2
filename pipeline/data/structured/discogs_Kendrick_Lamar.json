@@ -1,0 +1,51 @@
+{
+  "id": 3062364,
+  "name": "Kendrick Duckworth",
+  "realname": "Kendrick Lamar Duckworth",
+  "profile": "American rapper and songwriter, born 17 June 1987, best known under the stage name [b]Kendrick Lamar[/b].",
+  "members": [],
+  "groups": [
+    {
+      "name": "Black Hippy",
+      "id": 2878475,
+      "active": false
+    }
+  ],
+  "genres": [
+    "Electronic",
+    "Hip Hop"
+  ],
+  "styles": [
+    "Conscious",
+    "Electro",
+    "Gangsta",
+    "Hardcore Hip-Hop",
+    "Instrumental"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Hip Hop",
+      "style": "Gangsta"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "Hardcore Hip-Hop"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "Instrumental"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "Conscious"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Electro"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "Conscious"
+    }
+  ]
+}

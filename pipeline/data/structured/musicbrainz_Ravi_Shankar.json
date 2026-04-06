@@ -1,0 +1,490 @@
+{
+  "mbid": "697f8b9f-0454-40f2-bba2-58f35668cdbe",
+  "name": "Ravi Shankar",
+  "type": "Person",
+  "country": "IN",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1920-04-07",
+    "end": "2012-12-11",
+    "ended": "true"
+  },
+  "area": "India",
+  "begin_area": "Uttar Pradesh",
+  "tags": [
+    {
+      "name": "composer",
+      "count": "3"
+    },
+    {
+      "name": "concerto",
+      "count": "2"
+    },
+    {
+      "name": "film score",
+      "count": "2"
+    },
+    {
+      "name": "film soundtrack",
+      "count": "1"
+    },
+    {
+      "name": "hindustani classical",
+      "count": "1"
+    },
+    {
+      "name": "indian",
+      "count": "2"
+    },
+    {
+      "name": "indian classical",
+      "count": "5"
+    },
+    {
+      "name": "iswcs pending",
+      "count": "1"
+    },
+    {
+      "name": "post-minimalism",
+      "count": "1"
+    },
+    {
+      "name": "sitar",
+      "count": "5"
+    },
+    {
+      "name": "sitar player",
+      "count": "1"
+    },
+    {
+      "name": "soundtrack",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "अन्नपूर्णा देवी",
+      "target_mbid": "0414ec9e-bc54-4402-9990-8afed2024ec3",
+      "attributes": [],
+      "begin": "1941",
+      "end": "1962"
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Anoushka Shankar",
+      "target_mbid": "40ee8fa3-c6d7-4556-b4e2-9f4114565043",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Norah Jones",
+      "target_mbid": "985c709c-7771-4de3-9024-7bda29ebe3f9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Shubhendra Shankar",
+      "target_mbid": "a88eb132-f6ff-42c4-8102-91ec12691e33",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Uday Shankar",
+      "target_mbid": "29569269-c588-4fa0-b560-fb3559be73a5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Paul Livingstone",
+      "target_mbid": "85414881-325c-4b2e-826b-e24a912d0f1e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Janardan Mitta",
+      "target_mbid": "de33eb9e-68c2-4da9-8e99-225608c2a2df",
+      "attributes": [
+        "sitar"
+      ],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000404463"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/697f8b9f-0454-40f2-bba2-58f35668cdbe"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/299241"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/4uE9TgBW0AaPDHL1qYbtd0"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/2033"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Dia5275_Ravi_Shankar.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0788170/"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.ravishankar.org/"
+    },
+    {
+      "type": "online community",
+      "target": "https://indianclassical.net/a/ravi-shankar"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n50001487"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/S/Shankar,_Ravi/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb138997049"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118764993"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=486218"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6s487p7"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-972681"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL1647773A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/ravi_shankar"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n50001487"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://imusti.com/artists/info/77/Ravi-Shankar"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/103408"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/13219"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/4481"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/84975629"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q103774"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "38d3e3d0-05e0-31aa-b8d1-6b2fdb5cb4b2",
+      "title": "Music of India (Three Classical Ragas)",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "eefc02fd-ac87-3611-b6b3-df838a00f853",
+      "title": "India's Master Musician",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "f1d60bab-675d-35e1-9804-a28b28cc96da",
+      "title": "The Sounds of India",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "79251c10-4616-3708-a002-dace78e28664",
+      "title": "Ragas & Talas",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "48a1a99b-6787-4ab2-86b1-c589b7172549",
+      "title": "In London",
+      "type": "Album",
+      "first_release_date": "1962"
+    },
+    {
+      "id": "ec720864-73e6-3153-9b5c-3a4c3fdcc214",
+      "title": "Ravi Shankar In Concert",
+      "type": "Album",
+      "first_release_date": "1962"
+    },
+    {
+      "id": "46fffb3a-abc5-391c-9082-985ef0a362fd",
+      "title": "The Master Musicians of India",
+      "type": "Album",
+      "first_release_date": "1964-09"
+    },
+    {
+      "id": "9ea63f38-e22a-3c31-8167-f65fd45bf4a7",
+      "title": "Portrait of Genius",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "88b59f46-d10f-4473-afa8-27110b33c92e",
+      "title": "Shree / Sindhu Bhairavi",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "cd051b43-25e0-4241-9774-432bed18190a",
+      "title": "West Meets East",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "7c7f4d3c-c64a-4dd8-b9f8-4d14856aa6cf",
+      "title": "Song of God: Bagavad Gita",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "258a8cd6-7795-4929-8bae-215ab609d319",
+      "title": "Sound of the Sitar",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "9366ea10-c729-48b7-8e12-1574f69abc73",
+      "title": "The Ravi Shankar Collection: In San Francisco",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "4c285d06-f7e7-4c7e-99a7-4fedfc2d5054",
+      "title": "Two Rāga Moods",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "93388f8a-f7e1-3463-8a2f-fc833eb10e71",
+      "title": "A Morning Raga, An Evening Raga",
+      "type": "Album",
+      "first_release_date": "1968"
+    },
+    {
+      "id": "da8fe4a6-e7e4-443d-b5f0-d8fa6f8a45c4",
+      "title": "A Sitar Recital",
+      "type": "Album",
+      "first_release_date": "1968"
+    },
+    {
+      "id": "4b6805a1-9253-4a8e-94f8-86dea04ebf3c",
+      "title": "Ragas Nata Bhairav/Raga Mishra Piloo",
+      "type": "Album",
+      "first_release_date": "1968"
+    },
+    {
+      "id": "e08f6ba5-4ef4-4a79-9c7b-46d43ff5d818",
+      "title": "Four Raga Moods",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "7dbcbb78-9aea-47eb-a207-be1452c209e6",
+      "title": "Ragas Kameshwari, Gangeshwari, Rangeshwari",
+      "type": "Album",
+      "first_release_date": "1972"
+    },
+    {
+      "id": "47327b61-0e9d-3033-908b-5970c9cc242b",
+      "title": "Transmigration Macabre",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "cb49646b-ac74-3d84-9172-9a797bdc5460",
+      "title": "Shankar Family & Friends",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "41317c3e-c279-452d-851a-07b907303dd3",
+      "title": "Shankar Family ૐ Friends",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "e75ab071-9b9f-463f-8e1a-351d706b9991",
+      "title": "Ravi Shankar's Music Festival From India",
+      "type": "Album",
+      "first_release_date": "1976-03-19"
+    },
+    {
+      "id": "788a403d-f154-4f40-9ec5-6db9c8e5af87",
+      "title": "Improvisations",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "4a0a4895-d72d-4f57-857f-8df4508255fe",
+      "title": "East Greets East",
+      "type": "Album",
+      "first_release_date": "1978"
+    }
+  ],
+  "tracks": {
+    "38d3e3d0-05e0-31aa-b8d1-6b2fdb5cb4b2": [
+      {
+        "id": "c83ad9b3-f4b4-418d-8395-dbfef0d0c70b",
+        "title": "Raga Ahir Bhairav",
+        "position": "1",
+        "length": "936533",
+        "work": null
+      },
+      {
+        "id": "10e7ffd2-553a-4c30-a4e4-fbcf39565888",
+        "title": "Raga Simhendra Madhyamam",
+        "position": "2",
+        "length": "657026",
+        "work": null
+      },
+      {
+        "id": "d7a7bfba-daa6-4320-9023-fa96661d79ed",
+        "title": "Raga Jog",
+        "position": "3",
+        "length": "1701466",
+        "work": {
+          "id": "f2a6d172-bc87-48a5-926b-bfe4a4543448",
+          "title": "Jog",
+          "composers": []
+        }
+      }
+    ],
+    "eefc02fd-ac87-3611-b6b3-df838a00f853": [
+      {
+        "id": "0a5836eb-93a4-4aa6-8ed3-d160c2b1af02",
+        "title": "Rāgā Puriyā Dhānashri",
+        "position": "1",
+        "length": "676000",
+        "work": null
+      },
+      {
+        "id": "9cef1ccc-dc8d-4778-ba71-036657ef49cc",
+        "title": "Rāgā Chāru Keshi",
+        "position": "2",
+        "length": "810640",
+        "work": null
+      },
+      {
+        "id": "ca38bbfa-0030-4f03-b43e-dd002487421b",
+        "title": "Kāfi-Holi (Spring Festival of Colors)",
+        "position": "3",
+        "length": "433946",
+        "work": null
+      },
+      {
+        "id": "2154d5be-56b1-411c-9898-69e0fa3103a2",
+        "title": "Dhun (Folk Airs)",
+        "position": "4",
+        "length": "355506",
+        "work": null
+      },
+      {
+        "id": "09d30242-f926-4f82-bc57-3ad267b66892",
+        "title": "Mishra Piloo, in Thumri Style",
+        "position": "5",
+        "length": "645160",
+        "work": null
+      }
+    ],
+    "f1d60bab-675d-35e1-9804-a28b28cc96da": [
+      {
+        "id": "123f82a3-8425-43a5-a367-1e90eaf64ef6",
+        "title": "An Introduction to Indian Music",
+        "position": "1",
+        "length": "253693",
+        "work": null
+      },
+      {
+        "id": "4e675f45-8831-4e16-893e-142ac2041c0c",
+        "title": "Dádrá",
+        "position": "2",
+        "length": "630706",
+        "work": null
+      },
+      {
+        "id": "f8f26b11-2340-496a-b40e-41cab9f2877a",
+        "title": "Máru-bihág",
+        "position": "3",
+        "length": "704893",
+        "work": null
+      },
+      {
+        "id": "5ce50f8c-1854-4d4e-8e10-2e4661f20437",
+        "title": "Bhimpalási",
+        "position": "4",
+        "length": "733706",
+        "work": null
+      },
+      {
+        "id": "4fe78f36-35bf-4913-88d5-f8d5528acb97",
+        "title": "Sindhi-bhairavi",
+        "position": "5",
+        "length": "900000",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 299241,
+  "wikidata_id": "Q103774"
+}

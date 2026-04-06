@@ -1,0 +1,817 @@
+{
+  "mbid": "26fa8b67-6c7f-406c-ad64-a1d070092df2",
+  "name": "George Martin",
+  "type": "Person",
+  "country": "GB",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1926-01-03",
+    "end": "2016-03-08",
+    "ended": "true"
+  },
+  "area": "United Kingdom",
+  "begin_area": "Highbury",
+  "tags": [
+    {
+      "name": "fifth beatle",
+      "count": "1"
+    },
+    {
+      "name": "film score",
+      "count": "1"
+    },
+    {
+      "name": "film soundtrack",
+      "count": "1"
+    },
+    {
+      "name": "pop rock",
+      "count": "1"
+    },
+    {
+      "name": "rock",
+      "count": "1"
+    },
+    {
+      "name": "space age pop",
+      "count": "1"
+    },
+    {
+      "name": "western classical music",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Ray Cathode",
+      "target_mbid": "255c6063-d053-43dc-8969-799c2e925822",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "George Martin Orchestra",
+      "target_mbid": "61c81797-b7d3-4c01-b0d7-6b970dec450c",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Giles Martin",
+      "target_mbid": "e71872c6-d390-4da0-a0da-4726a05c9a85",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000649950"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/259769"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/4Fgf6RvuWpiwDXSE7Vammx"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/1175774"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0552326/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n79115737"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb14012473q"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/129449539"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL460444A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/george_martin"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n79115737"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/George-Martin-29054786886"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/92359"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/63758"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/64203669"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q191819"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "56f876c8-536c-4c1c-a2f7-432d1eb69c6b",
+      "title": "George Martin Instrumentally Salutes The Beatle Girls",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "8dee97c3-7ba4-3c83-b823-1f68337f027f",
+      "title": "Off the Beatle Track",
+      "type": "Compilation",
+      "first_release_date": "1964-07-10"
+    },
+    {
+      "id": "c12c2e2b-f848-3593-bfdc-ac5e5e5128fa",
+      "title": "In My Life",
+      "type": "Compilation",
+      "first_release_date": "1998-03-23"
+    },
+    {
+      "id": "6a329ef0-d2f1-4533-bcc4-ca0538cf984a",
+      "title": "The Film Scores And Original Orchestral Music Of George Martin",
+      "type": "Compilation",
+      "first_release_date": "2017-07-12"
+    },
+    {
+      "id": "6bf242d8-2e36-3c96-9fbc-0198cd3bb7e9",
+      "title": "Live and Let Die: Original Motion Picture Soundtrack",
+      "type": "Soundtrack",
+      "first_release_date": "1973"
+    }
+  ],
+  "tracks": {
+    "56f876c8-536c-4c1c-a2f7-432d1eb69c6b": [
+      {
+        "id": "387ab2b4-4b2f-4553-aff8-00b2354711b7",
+        "title": "Girl",
+        "position": "1",
+        "length": "159000",
+        "work": {
+          "id": "401fcb2c-5fbc-397a-a5c5-6b3a3df3e261",
+          "title": "Girl",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e42197c0-94e5-4b24-b981-cca05f7ed676",
+        "title": "Eleanor Rigby",
+        "position": "2",
+        "length": "134000",
+        "work": {
+          "id": "388613bc-d5f1-366e-896d-e50df985b796",
+          "title": "Eleanor Rigby",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "df991d0b-55ac-4b98-b5f5-01b240f93e4b",
+        "title": "She Said She Said",
+        "position": "3",
+        "length": "169000",
+        "work": {
+          "id": "25e7aa88-98e5-3777-a640-5aae6e791e4f",
+          "title": "She Said She Said",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cc66113a-0465-4e34-b582-8853298f523f",
+        "title": "I'm Only Sleeping",
+        "position": "4",
+        "length": "165000",
+        "work": {
+          "id": "ebac52bd-5131-30b3-ba53-1d3aa12e060b",
+          "title": "I’m Only Sleeping",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c7521919-0ffd-4573-9a84-e1afb7731a47",
+        "title": "Anna",
+        "position": "5",
+        "length": "189000",
+        "work": null
+      },
+      {
+        "id": "949e77e9-4f15-4a53-9761-d624e547279a",
+        "title": "Michelle",
+        "position": "6",
+        "length": "176000",
+        "work": {
+          "id": "0d491b94-18d9-3c5a-9163-b3dfa4483fdb",
+          "title": "Michelle",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1d0a9f34-65d9-4530-a816-60e508ede630",
+        "title": "Got To Get You Into My Life",
+        "position": "7",
+        "length": "130000",
+        "work": {
+          "id": "d476a330-db54-3e23-9282-593fed5e338c",
+          "title": "Got to Get You Into My Life",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "848d893b-7dc6-4cb5-85c3-468cfc6d111c",
+        "title": "Woman",
+        "position": "8",
+        "length": "135000",
+        "work": null
+      },
+      {
+        "id": "d7e4e20c-35f9-48ea-bdd8-de59bace63ce",
+        "title": "Yellow Submarine",
+        "position": "9",
+        "length": "164000",
+        "work": {
+          "id": "b85845e2-38fc-3092-a992-d373e7d517e9",
+          "title": "Yellow Submarine",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a51f4064-89ed-4baf-b64d-c8fb08b499ce",
+        "title": "Here, There And Everywhere",
+        "position": "10",
+        "length": "131000",
+        "work": {
+          "id": "afcc33f4-7877-3096-a025-179a1c3adce8",
+          "title": "Here, There and Everywhere",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ccf386b0-7750-4b72-b989-b8020f6d2608",
+        "title": "And Your Bird Can Sing",
+        "position": "11",
+        "length": "129000",
+        "work": {
+          "id": "3911c0ca-0a63-3154-b5dd-947eddc1e161",
+          "title": "And Your Bird Can Sing",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ae7f8e97-99ea-445f-a765-46f120442ae0",
+        "title": "Good Day Sunshine",
+        "position": "12",
+        "length": "126000",
+        "work": {
+          "id": "09de7db7-b41c-3373-a4aa-e8e4972e6ff0",
+          "title": "Good Day Sunshine",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      }
+    ],
+    "8dee97c3-7ba4-3c83-b823-1f68337f027f": [
+      {
+        "id": "c6b3d109-df26-45a1-a6ca-8047d01167d8",
+        "title": "She Loves You",
+        "position": "1",
+        "length": "136760",
+        "work": {
+          "id": "743a57f0-95ff-3e0d-a46e-4f094362a339",
+          "title": "She Loves You",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2e95079e-6ad6-485c-9ac7-fe0de868b048",
+        "title": "Can't Buy Me Love",
+        "position": "2",
+        "length": "123533",
+        "work": {
+          "id": "62c39e8e-18e2-326b-9a2f-615f8e2b547d",
+          "title": "Can’t Buy Me Love",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5b82f067-cb71-4401-9631-766c4ade7a7e",
+        "title": "Don't Bother Me",
+        "position": "3",
+        "length": "174066",
+        "work": {
+          "id": "c31e5675-8fb4-38fc-a160-7e41638a9ffc",
+          "title": "Don’t Bother Me",
+          "composers": [
+            {
+              "name": "George Harrison",
+              "mbid": "42a8f507-8412-4611-854f-926571049fa0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7930ce60-c70f-45c2-bc1a-bde37a094267",
+        "title": "All I've Got to Do",
+        "position": "4",
+        "length": "134800",
+        "work": {
+          "id": "01f35a80-893c-3d2b-b74d-05a3ec9abc0f",
+          "title": "All I’ve Got to Do",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a6da2dbe-4853-498e-aebf-1d03a4892fcc",
+        "title": "I Saw Her Standing There",
+        "position": "5",
+        "length": "125800",
+        "work": {
+          "id": "a8a158e3-0a0e-37e1-b5b5-9480a02d816e",
+          "title": "I Saw Her Standing There",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "47210fba-c2f9-4453-94fc-63964c5aaf5a",
+        "title": "All My Loving",
+        "position": "6",
+        "length": "168573",
+        "work": {
+          "id": "c65404bd-6bc9-30d3-9813-a960e83d9faf",
+          "title": "All My Loving",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b8473c4a-e6be-4368-ade2-d529d71961e7",
+        "title": "Please Please Me",
+        "position": "7",
+        "length": "110466",
+        "work": {
+          "id": "c4bb79ce-b942-3939-bfb1-9b57cc74ea5b",
+          "title": "Please Please Me",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b979637c-c3ee-4c1c-aa09-3ab8c96ba45a",
+        "title": "I Want to Hold Your Hand",
+        "position": "8",
+        "length": "141360",
+        "work": {
+          "id": "14f552db-5921-3699-a807-a0b944d9f725",
+          "title": "I Want to Hold Your Hand",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d13f21c5-cce9-44ef-adae-9d9f577b37ae",
+        "title": "From Me to You",
+        "position": "9",
+        "length": "111306",
+        "work": {
+          "id": "67ad3571-dc6f-3c67-9d6f-636774b4db74",
+          "title": "From Me to You",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1ad25b6b-022a-4846-b376-2bdb7f084536",
+        "title": "Little Child",
+        "position": "10",
+        "length": "106933",
+        "work": null
+      },
+      {
+        "id": "ee9743ef-ad87-472a-ad56-e7142629df08",
+        "title": "This Boy",
+        "position": "11",
+        "length": "133426",
+        "work": {
+          "id": "b839598d-48bb-3636-9012-b095b0fed1a6",
+          "title": "This Boy",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3335cc18-7843-4208-9916-c192d51a952f",
+        "title": "There's a Place",
+        "position": "12",
+        "length": "109974",
+        "work": null
+      }
+    ],
+    "c12c2e2b-f848-3593-bfdc-ac5e5e5128fa": [
+      {
+        "id": "68f3216c-2dd0-46fd-8e08-e192c5b320a6",
+        "title": "Come Together",
+        "position": "1",
+        "length": "277560",
+        "work": {
+          "id": "bcd490e5-dac7-3b8a-b423-ae17e1209f3d",
+          "title": "Come Together",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5b5d7b6b-1fd8-4691-b951-889647ae4f5b",
+        "title": "A Hard Day’s Night",
+        "position": "2",
+        "length": "204066",
+        "work": {
+          "id": "9a55593e-1419-3aa7-8281-1ffc0bcb0ace",
+          "title": "A Hard Day’s Night",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2b2a2f3e-97af-4f99-9e52-21f419661f09",
+        "title": "A Day in the Life",
+        "position": "3",
+        "length": "284000",
+        "work": {
+          "id": "fd1aa4f2-ba26-3a05-b72d-4392c35a073c",
+          "title": "A Day in the Life",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "aad3ba8e-4da7-49e8-971a-d375c3881fb0",
+        "title": "Here There & Everywhere",
+        "position": "4",
+        "length": "198266",
+        "work": {
+          "id": "afcc33f4-7877-3096-a025-179a1c3adce8",
+          "title": "Here, There and Everywhere",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "26aeb9b6-de58-40ba-8459-5ccc94dc7c5d",
+        "title": "Because",
+        "position": "5",
+        "length": "198440",
+        "work": {
+          "id": "b1002811-37ca-3aed-a3d1-f3e9474c28a7",
+          "title": "Because",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0d224614-a27f-497a-9717-f7dad78d4c75",
+        "title": "I Am the Walrus",
+        "position": "6",
+        "length": "271600",
+        "work": {
+          "id": "ef40e997-8a14-3c84-b371-5afc76e0626b",
+          "title": "I Am the Walrus",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "40a6b108-49b3-485f-aeba-2fb504664070",
+        "title": "Here Comes the Sun",
+        "position": "7",
+        "length": "210960",
+        "work": {
+          "id": "8549de8e-f65b-3e64-b8a2-08c90cc5fdd1",
+          "title": "Here Comes the Sun",
+          "composers": [
+            {
+              "name": "George Harrison",
+              "mbid": "42a8f507-8412-4611-854f-926571049fa0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bd86c5da-af45-4eac-8f67-bea38a70b689",
+        "title": "Being for the Benefit of Mr. Kite",
+        "position": "8",
+        "length": "178840",
+        "work": {
+          "id": "531b2a9e-66b5-34ef-abb8-a499fdf3c308",
+          "title": "Being for the Benefit of Mr. Kite!",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9dba5d66-c17e-42bf-a6ca-145ef09cf145",
+        "title": "The Pepperland Suite",
+        "position": "9",
+        "length": "379000",
+        "work": null
+      },
+      {
+        "id": "24c95a01-becf-452d-b0ac-817366c74aff",
+        "title": "Golden Slumbers / Carry That Weight / The End",
+        "position": "10",
+        "length": "339000",
+        "work": {
+          "id": "b97caa46-b381-36e8-9482-0c9c6d6ea030",
+          "title": "Carry That Weight",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2879ba8d-b16d-43e7-88eb-3198dc33ab41",
+        "title": "Friends and Lovers",
+        "position": "11",
+        "length": "144800",
+        "work": null
+      },
+      {
+        "id": "0cf1efb0-f47a-4b23-8523-e14da56291c6",
+        "title": "In My Life",
+        "position": "12",
+        "length": "149866",
+        "work": {
+          "id": "2fa4fbbf-c49d-30db-afec-5ba2ea3528df",
+          "title": "In My Life",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 259769,
+  "wikidata_id": "Q191819"
+}

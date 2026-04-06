@@ -1,0 +1,52 @@
+[
+  {
+    "subject": "Tupac Shakur",
+    "predicate": "alterEgo",
+    "object": "2Pac"
+  },
+  {
+    "subject": "Tupac Shakur",
+    "predicate": "alterEgo",
+    "object": "Makaveli"
+  },
+  {
+    "subject": "Tupac Shakur",
+    "predicate": "hasGenre",
+    "object": "hip-hop"
+  },
+  {
+    "subject": "Tupac Shakur",
+    "predicate": "hasGenre",
+    "object": "political rap"
+  },
+  {
+    "subject": "Tupac Shakur",
+    "predicate": "hasGenre",
+    "object": "gangsta rap"
+  },
+  {
+    "subject": "Tupac Shakur",
+    "predicate": "memberOf",
+    "object": "Thug Life"
+  },
+  {
+    "subject": "Thug Life",
+    "predicate": "hasMember",
+    "object": "Tupac Shakur"
+  },
+  {
+    "subject": "Tupac Shakur",
+    "predicate": "collaboratedWith",
+    "object": "Snoop Dogg"
+  },
+  {
+    "subject": "Tupac Shakur",
+    "predicate": "collaboratedWith",
+    "object": "Dr. Dre"
+  },
+  {
+    "subject": "Tupac Shakur",
+    "predicate": "collaboratedWith",
+    "object": "Outlawz"
+  }
+]

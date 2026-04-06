@@ -1,0 +1,760 @@
+{
+  "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+  "name": "BTS",
+  "type": "Group",
+  "country": "KR",
+  "gender": null,
+  "life_span": {
+    "begin": "2013-06-13",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "South Korea",
+  "begin_area": "Seoul",
+  "tags": [
+    {
+      "name": "2010s",
+      "count": "1"
+    },
+    {
+      "name": "2020s",
+      "count": "1"
+    },
+    {
+      "name": "boy group",
+      "count": "3"
+    },
+    {
+      "name": "dance",
+      "count": "1"
+    },
+    {
+      "name": "english",
+      "count": "1"
+    },
+    {
+      "name": "k-pop",
+      "count": "6"
+    },
+    {
+      "name": "pop",
+      "count": "2"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "j‐hope",
+      "target_mbid": "b3977da4-f899-4328-921b-ecc599a5618a",
+      "attributes": [
+        "original"
+      ],
+      "begin": "2013-06-13",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Jimin",
+      "target_mbid": "d2582c77-6b0f-4b2f-802f-8f3cad1a5fec",
+      "attributes": [
+        "original"
+      ],
+      "begin": "2013-06-13",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Jin",
+      "target_mbid": "09720eec-3871-49d5-932d-eb7542768cd3",
+      "attributes": [
+        "original"
+      ],
+      "begin": "2013-06-13",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Jung Kook",
+      "target_mbid": "23c8056b-ee13-4cfc-a772-2f5292e35bb5",
+      "attributes": [
+        "original"
+      ],
+      "begin": "2013-06-13",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "RM",
+      "target_mbid": "58f1e354-ecbc-4fd3-aa25-97eb1d9bd8b9",
+      "attributes": [
+        "original"
+      ],
+      "begin": "2013-06-13",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "SUGA",
+      "target_mbid": "b629da42-c668-49d2-be67-498605ee2a13",
+      "attributes": [
+        "original"
+      ],
+      "begin": "2013-06-13",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "V",
+      "target_mbid": "83096042-3785-481e-8843-dee69f1aad12",
+      "attributes": [
+        "original"
+      ],
+      "begin": "2013-06-13",
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0003136056"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/695158"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/5034422"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/6982223"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Bangtan_Boys_in_October_2013.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm7808003/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/BTS"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/api/artists/70113"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Bts"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/BTS"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://bts.ibighit.com/"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://bts-official.jp/"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://cafe.daum.net/BANGTAN"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/no2017138930"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/1174925353"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/bts"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/bts"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.generasia.com/wiki/Bangtan_Boys"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/482328/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-no2017138930"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/kr/artist/id883131348"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/1468413/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.bugs.co.kr/artist/80079394"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.genie.co.kr/detail/artistInfo?xxnm=80221635"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.melon.com/artist/detail.htm?artistId=672375"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/145300"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/bts_bighit"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/BTS_jp_official"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/BTS_twt"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/bangtan.official"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/bts.bighitofficial/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.tiktok.com/@bts_official_bighit"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/8268208"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/bangtan"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/kr/artist/883131348"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.bugs.co.kr/artist/80079394"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/6201832"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.genie.co.kr/detail/artistInfo?xxnm=80221635"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.melon.com/artist/detail.htm?artistId=672375"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/916150943133426760004"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q13580495"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCiPNSjTu0sFVUUFfhPCdEsA"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "ea958ad6-4519-44f8-8c7c-18b3f16218f4",
+      "title": "DARK&WILD",
+      "type": "Album",
+      "first_release_date": "2014-08-20"
+    },
+    {
+      "id": "75ec671d-bd15-4bfa-baeb-f6054d2202db",
+      "title": "WAKE UP",
+      "type": "Album",
+      "first_release_date": "2014-12-24"
+    },
+    {
+      "id": "7b70f452-a540-4fc8-933e-3b1d6800e290",
+      "title": "YOUTH",
+      "type": "Album",
+      "first_release_date": "2016-09-07"
+    },
+    {
+      "id": "ddbf733c-1182-42a2-9bae-059afcbc3b93",
+      "title": "WINGS",
+      "type": "Album",
+      "first_release_date": "2016-10-10"
+    },
+    {
+      "id": "a3ed68fc-eb06-4c18-a61f-beb9f955337e",
+      "title": "FACE YOURSELF",
+      "type": "Album",
+      "first_release_date": "2018-04-04"
+    },
+    {
+      "id": "bdc4aa4d-bfba-4ef1-b3b6-ffc68055877e",
+      "title": "LOVE YOURSELF 轉 ‘Tear’",
+      "type": "Album",
+      "first_release_date": "2018-05-18"
+    },
+    {
+      "id": "728f288b-eb1c-4ce1-98a1-d4124c897aaf",
+      "title": "MAP OF THE SOUL : 7",
+      "type": "Album",
+      "first_release_date": "2020-02-21"
+    },
+    {
+      "id": "3a91498a-4e50-4a77-93e2-a7b599b9739e",
+      "title": "MAP OF THE SOUL : 7 〜 THE JOURNEY 〜",
+      "type": "Album",
+      "first_release_date": "2020-07-14"
+    },
+    {
+      "id": "7917fe48-906d-464f-9909-0e4d18d59192",
+      "title": "BE",
+      "type": "Album",
+      "first_release_date": "2020-11-20"
+    },
+    {
+      "id": "21159e3f-172e-43f6-aa7d-8e06a81fea49",
+      "title": "ARIRANG",
+      "type": "Album",
+      "first_release_date": "2026-03-20"
+    },
+    {
+      "id": "ca01d0c3-440f-4784-85b9-5de9d2e2199b",
+      "title": "2 COOL 4 SKOOL / O!RUL8,2?",
+      "type": "Compilation",
+      "first_release_date": "2014-04-23"
+    },
+    {
+      "id": "8c72972f-e54e-47b0-bcb0-275dbe3ec43a",
+      "title": "화양연화 Young Forever",
+      "type": "Compilation",
+      "first_release_date": "2016-05-02"
+    },
+    {
+      "id": "b5218775-bed4-4675-961b-4fdf54735489",
+      "title": "THE BEST OF 防彈少年團",
+      "type": "Compilation",
+      "first_release_date": "2017-01-06"
+    },
+    {
+      "id": "205347cd-aae4-4121-b6ba-b57474b3c580",
+      "title": "LOVE YOURSELF 結 ‘Answer’",
+      "type": "Compilation",
+      "first_release_date": "2018-08-24"
+    },
+    {
+      "id": "b60d3e59-647c-493f-a4fb-3530cee04a16",
+      "title": "BTS, THE BEST",
+      "type": "Compilation",
+      "first_release_date": "2021-06-16"
+    },
+    {
+      "id": "b07a485f-cde7-4160-8b69-72ff3bf277ce",
+      "title": "Proof",
+      "type": "Compilation",
+      "first_release_date": "2022-06-10"
+    },
+    {
+      "id": "f26a2441-41a4-401f-940b-50de9261f8b3",
+      "title": "BTS WORLD: Original Soundtrack",
+      "type": "Soundtrack",
+      "first_release_date": "2019-06-28"
+    },
+    {
+      "id": "026c4502-ae2b-4bec-9399-5218ec3c6936",
+      "title": "PERMISSION TO DANCE ON STAGE - LIVE",
+      "type": "Live",
+      "first_release_date": "2025-07-18"
+    },
+    {
+      "id": "5c80e093-b77a-4579-8ce1-abfd5eb4beea",
+      "title": "KEEP SWIMMING",
+      "type": "Remix",
+      "first_release_date": "2026-03-27"
+    }
+  ],
+  "tracks": {
+    "ea958ad6-4519-44f8-8c7c-18b3f16218f4": [
+      {
+        "id": "8aa3a40c-9212-4c55-94ee-f4ea1e510d50",
+        "title": "Intro : What am I to you",
+        "position": "1",
+        "length": "165000",
+        "work": null
+      },
+      {
+        "id": "283bbb04-a6f5-42ca-8dd3-3ef7405e73b8",
+        "title": "Danger",
+        "position": "2",
+        "length": "245000",
+        "work": null
+      },
+      {
+        "id": "ebdb7660-acc9-47c5-a452-a08c62648f16",
+        "title": "호르몬 전쟁",
+        "position": "3",
+        "length": "266000",
+        "work": null
+      },
+      {
+        "id": "d92e0b0a-8e70-4090-87f3-b84209a01cb8",
+        "title": "힙합성애자",
+        "position": "4",
+        "length": "257000",
+        "work": null
+      },
+      {
+        "id": "c35739f4-c76c-4422-a79c-4c5ab785e15f",
+        "title": "Let Me Know",
+        "position": "5",
+        "length": "255000",
+        "work": null
+      },
+      {
+        "id": "af7a3687-a3c7-43c2-ad7b-4e600845a785",
+        "title": "Rain",
+        "position": "6",
+        "length": "265000",
+        "work": null
+      },
+      {
+        "id": "2abaf468-4a14-4cd6-8cef-5a6b5fe21c93",
+        "title": "BTS Cypher PT.3 : KILLER",
+        "position": "7",
+        "length": "268000",
+        "work": null
+      },
+      {
+        "id": "47fe75e4-8df9-4703-9d7e-6247f1faf546",
+        "title": "Interlude : 뭐해",
+        "position": "8",
+        "length": "42000",
+        "work": null
+      },
+      {
+        "id": "db60bf6a-832c-49f2-bbb9-aa0a7cbe7e01",
+        "title": "핸드폰 좀 꺼줄래",
+        "position": "9",
+        "length": "234000",
+        "work": null
+      },
+      {
+        "id": "082eadd2-e370-4045-a371-05f26b0c6d62",
+        "title": "이불킥",
+        "position": "10",
+        "length": "242000",
+        "work": null
+      },
+      {
+        "id": "6bfc78d2-8743-47fa-880e-cd7290a24456",
+        "title": "24/7=Heaven",
+        "position": "11",
+        "length": "226000",
+        "work": null
+      },
+      {
+        "id": "8fa9bf88-6c1b-4781-a1d5-9f64b495bd4d",
+        "title": "여기 봐",
+        "position": "12",
+        "length": "219000",
+        "work": null
+      },
+      {
+        "id": "d0d94c69-89b6-44f0-8a85-eb50ad580159",
+        "title": "2학년",
+        "position": "13",
+        "length": "235000",
+        "work": null
+      },
+      {
+        "id": "95149d2f-01f0-4b2a-b982-1b59ec0071af",
+        "title": "Outro : 그게 말이 돼?",
+        "position": "14",
+        "length": "173000",
+        "work": null
+      }
+    ],
+    "75ec671d-bd15-4bfa-baeb-f6054d2202db": [
+      {
+        "id": "ae99d094-d471-4a16-8703-9802efaba49c",
+        "title": "INTRO.",
+        "position": "1",
+        "length": "75000",
+        "work": null
+      },
+      {
+        "id": "869d9d4a-391c-4cec-9ad7-bfa67975ad0a",
+        "title": "THE STARS",
+        "position": "2",
+        "length": "255000",
+        "work": null
+      },
+      {
+        "id": "45c65b7b-2d9d-409d-9433-5d8f618ca4df",
+        "title": "JUMP -Japanese ver.-",
+        "position": "3",
+        "length": "237000",
+        "work": null
+      },
+      {
+        "id": "7a2e4ec4-6bad-44d4-a763-0fac591ff0b8",
+        "title": "Danger -Japanese ver.-",
+        "position": "4",
+        "length": "247000",
+        "work": null
+      },
+      {
+        "id": "d52ab305-d603-41eb-8845-c5df870ccff2",
+        "title": "BOY IN LUV -Japanese ver.-",
+        "position": "5",
+        "length": "232000",
+        "work": null
+      },
+      {
+        "id": "f10ec2e0-a00f-47c9-9bec-f792544ad948",
+        "title": "JUST ONE DAY -Japanese ver. extended-",
+        "position": "6",
+        "length": "333000",
+        "work": null
+      },
+      {
+        "id": "c3c538fb-8e69-48bf-80c6-ef6a5570a57b",
+        "title": "いいね!",
+        "position": "7",
+        "length": "232000",
+        "work": null
+      },
+      {
+        "id": "8cee9011-7363-4249-918f-afe90e213b70",
+        "title": "いいね! Pt.2 ～あの場所で～",
+        "position": "8",
+        "length": "235000",
+        "work": null
+      },
+      {
+        "id": "1fd406de-3ddc-47c5-8ee8-ae5ef822c87c",
+        "title": "NO MORE DREAM -Japanese ver.-",
+        "position": "9",
+        "length": "221000",
+        "work": null
+      },
+      {
+        "id": "d61e15f7-93d3-40ea-b3c5-d806eed9f36f",
+        "title": "進撃の防弾 -Japanese ver.-",
+        "position": "10",
+        "length": "247000",
+        "work": null
+      },
+      {
+        "id": "cb4c812d-135c-433c-8780-5157f57e41fd",
+        "title": "N.O -Japanese ver.-",
+        "position": "11",
+        "length": "211000",
+        "work": null
+      },
+      {
+        "id": "7f801b6c-2de6-4177-b5bc-ebf79014949d",
+        "title": "WAKE UP",
+        "position": "12",
+        "length": "352000",
+        "work": null
+      },
+      {
+        "id": "500157f1-12ac-46d9-8a1d-ee0cb477e16e",
+        "title": "OUTRO.",
+        "position": "13",
+        "length": "96000",
+        "work": null
+      },
+      {
+        "id": "4d82b21e-0b16-4e14-95dc-9164cccae4ea",
+        "title": "防弾少年団 Japan Official Fan Meeting Vol.1 at TOKYO DOME CITY HALL",
+        "position": "1",
+        "length": null,
+        "work": null
+      }
+    ],
+    "7b70f452-a540-4fc8-933e-3b1d6800e290": [
+      {
+        "id": "aafcb45c-4be9-45dd-8203-4d6dc2c207b6",
+        "title": "INTRODUCTION : YOUTH",
+        "position": "1",
+        "length": "138000",
+        "work": null
+      },
+      {
+        "id": "a432c0a5-d363-4b6b-9327-28241764dea0",
+        "title": "RUN -Japanese ver.-",
+        "position": "2",
+        "length": "237000",
+        "work": null
+      },
+      {
+        "id": "3b083a0e-f0c1-4c7d-9bdd-b2e4960b91ea",
+        "title": "FIRE -Japanese ver.-",
+        "position": "3",
+        "length": "205000",
+        "work": null
+      },
+      {
+        "id": "b04ba823-dab5-4963-87b0-1e52133bd272",
+        "title": "DOPE -超ヤベー!- (Japanese ver.)",
+        "position": "4",
+        "length": "241000",
+        "work": null
+      },
+      {
+        "id": "8d6d8f3f-d833-494d-b652-303f03a87325",
+        "title": "Good Day",
+        "position": "5",
+        "length": "267000",
+        "work": null
+      },
+      {
+        "id": "316b4ec3-4f0b-4423-b590-87fa20dc0083",
+        "title": "Save ME -Japanese ver.-",
+        "position": "6",
+        "length": "199000",
+        "work": null
+      },
+      {
+        "id": "37a83968-71fd-48b6-9843-2e2e5c992f9b",
+        "title": "フンタン少年団 (Japanese ver.)",
+        "position": "7",
+        "length": "245000",
+        "work": null
+      },
+      {
+        "id": "956b6d3a-0c26-45e6-bd15-6416ff9a45f3",
+        "title": "ペップセ -Japanese ver.-",
+        "position": "8",
+        "length": "236000",
+        "work": null
+      },
+      {
+        "id": "9de0020f-9879-43f2-b9a0-7eb215be0dfb",
+        "title": "Wishing on a Star",
+        "position": "9",
+        "length": "271000",
+        "work": null
+      },
+      {
+        "id": "acd0916a-dba8-4223-ab36-1eaab1573b42",
+        "title": "Butterfly -Japanese ver.-",
+        "position": "10",
+        "length": "240000",
+        "work": null
+      },
+      {
+        "id": "9eb07aa9-eee8-4dbc-b45d-4379dd0bfaf4",
+        "title": "FOR YOU",
+        "position": "11",
+        "length": "284000",
+        "work": null
+      },
+      {
+        "id": "2e148c75-c91a-4b00-ab92-98549aa941dd",
+        "title": "I NEED U (Japanese ver.)",
+        "position": "12",
+        "length": "212000",
+        "work": null
+      },
+      {
+        "id": "38f09723-dffb-4d27-aa4c-49b2082b6e3c",
+        "title": "EPILOGUE : Young Forever -Japanese ver.-",
+        "position": "13",
+        "length": "173000",
+        "work": null
+      },
+      {
+        "id": "eeac08cb-cbdb-4470-a828-1cbf6bfb1b84",
+        "title": "FOR YOU -Music Video-",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "46d6a862-1a85-47a9-a65b-7a5a8a182f8d",
+        "title": "FOR YOU (Behind the Scene) -Music Video Shooting-",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "f2c6e3a7-3c58-4d2e-b051-a100b5950b63",
+        "title": "I NEED U (Japanese ver.) -Music Video-",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "22d2b690-31e7-4e98-9529-b96a9b7cc370",
+        "title": "I NEED U (Japanese ver.) (Behind the Scene) -Music Video Shooting-",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "fb66d2fd-4b50-462f-b6ca-a59181e8a1a0",
+        "title": "RUN -Japanese ver.- -Music Video-",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "df2bd5d7-bb05-4a77-a9de-b742fe069a2d",
+        "title": "RUN -Japanese ver.- (Behind the Scene) -Music Video Shooting-",
+        "position": "6",
+        "length": null,
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 5034422,
+  "wikidata_id": "Q13580495"
+}

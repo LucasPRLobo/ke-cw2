@@ -1,0 +1,32 @@
+{
+  "id": 999914,
+  "name": "Pyotr Ilyich Tchaikovsky",
+  "realname": "Пётр Ильич Чайковский (Transliterated: Pyotr Ilyich Chaykovsky / Anglicised: Peter Ilyich Tchaikovsky)",
+  "profile": "Russian composer from the Romantic era (born 25. April 1840 in Kamsko-Votkinsk Zavod - died 25. October 1893 in Saint Petersburg).",
+  "members": [],
+  "groups": [],
+  "genres": [
+    "Classical"
+  ],
+  "styles": [
+    "Romantic"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Classical",
+      "style": "Romantic"
+    },
+    {
+      "genre": "Classical",
+      "style": "Romantic"
+    },
+    {
+      "genre": "Classical",
+      "style": "Romantic"
+    },
+    {
+      "genre": "Classical",
+      "style": "Romantic"
+    }
+  ]
+}

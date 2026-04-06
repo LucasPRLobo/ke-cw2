@@ -1,0 +1,1022 @@
+{
+  "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc",
+  "name": "Jean‐Michel Jarre",
+  "type": "Person",
+  "country": "FR",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1948-08-24",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "France",
+  "begin_area": "Lyon",
+  "tags": [
+    {
+      "name": "ambient",
+      "count": "6"
+    },
+    {
+      "name": "classic pop and rock",
+      "count": "1"
+    },
+    {
+      "name": "electronic",
+      "count": "15"
+    },
+    {
+      "name": "electronica",
+      "count": "2"
+    },
+    {
+      "name": "european",
+      "count": "1"
+    },
+    {
+      "name": "france",
+      "count": "1"
+    },
+    {
+      "name": "francophone",
+      "count": "1"
+    },
+    {
+      "name": "français",
+      "count": "1"
+    },
+    {
+      "name": "french",
+      "count": "11"
+    },
+    {
+      "name": "instrumental",
+      "count": "6"
+    },
+    {
+      "name": "lyon",
+      "count": "1"
+    },
+    {
+      "name": "new age",
+      "count": "1"
+    },
+    {
+      "name": "progressive electronic",
+      "count": "3"
+    },
+    {
+      "name": "progressive trance",
+      "count": "1"
+    },
+    {
+      "name": "space music",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "The Vizitors",
+      "target_mbid": "5773aa20-dd5d-4884-830f-7b5592bbbc46",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Francis Rimbert",
+      "target_mbid": "c569b3ce-6f7e-48e5-becc-c4fd2f428851",
+      "attributes": [
+        "keyboard"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Patrick Rondat",
+      "target_mbid": "49e88f01-86d2-4d1f-b78d-4f7273348e5b",
+      "attributes": [
+        "electric guitar"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "involved with",
+      "direction": "forward",
+      "target_name": "Isabelle Adjani",
+      "target_mbid": "b7e9b00d-328e-4be1-b145-5ff372eba522",
+      "attributes": [],
+      "begin": "2002",
+      "end": "2004"
+    },
+    {
+      "type": "is person",
+      "direction": "forward",
+      "target_name": "Pop Corn Orchestra",
+      "target_mbid": "614b0cbf-de02-49ef-a317-57a658bf417e",
+      "attributes": [],
+      "begin": "1972",
+      "end": "1972"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Charlotte Rampling",
+      "target_mbid": "7bcd0bdf-2a43-4d0f-8373-fefc31469e4d",
+      "attributes": [],
+      "begin": "1978-10-07",
+      "end": "1998"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Anne Parillaud",
+      "target_mbid": "2ae05907-f64d-42a9-8f49-5061ad983cb9",
+      "attributes": [],
+      "begin": "2005-05-12",
+      "end": "2010-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Groupe de recherches musicales",
+      "target_mbid": "91c0121b-33a2-470b-b266-d9af82d06968",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Dustbins",
+      "target_mbid": "ee91241b-9379-492c-a2d4-f4a1bb193d8d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Maurice Jarre",
+      "target_mbid": "05d4d95c-8803-450f-80c2-7ea606e6f78b",
+      "attributes": [],
+      "begin": "1948-08-24",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "David Jarre",
+      "target_mbid": "a4a75621-e88a-46c6-a8e6-c62aad0ef5a4",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Jeanine Rueff",
+      "target_mbid": "13e91fb4-5218-4b16-b2d3-530f4b9093e4",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000230593"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+    },
+    {
+      "type": "blog",
+      "target": "http://aerojarre.blogspot.com/"
+    },
+    {
+      "type": "blog",
+      "target": "http://jarreblog.com/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://jarremuseum.online.fr/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.jarre.ch/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.jarre.co.uk/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.jarrography.free.fr/"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/209415"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://jarreuk.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.jarre.no/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.jarre.pl/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/5MhLmv7GgyjbxGqiIGasvT"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/2047"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0418882/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Jean+Michel+Jarre"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Jean-michel-jarre"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/jeanmicheljarre"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://jeanmicheljarre.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n78046126"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/J/Jarre,_Jean_Michel/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13895591j"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118985590"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/jean-michel-jarre"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w65m6fr3"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-612972"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/4658/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/jean_michel_jarre"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/jean-michel-jarre/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000237910/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Jean-Michel-Jarre/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n78046126"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.encyclopedisque.fr/artiste/2361.html"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.maniadb.com/artist/123465"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/ar/artist/id165762951"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.beatport.com/artist/-/350670"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.beatport.com/artist/jean-michel-jarre/350670"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000AP8070"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/2879"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/jmjofficial"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/jeanmicheljarre"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/jeanmicheljarre/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/266428"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/jeanmicheljarre"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/fr/artist/165762951"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/165762951"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/3963778"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/3023"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/64192143"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q104326"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCYF-QxHI0RAuQqNzZpvvPBw"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "b0283865-9e10-35fd-9c3b-e44816a9a0bb",
+      "title": "Deserted Palace",
+      "type": "Album",
+      "first_release_date": "1972"
+    },
+    {
+      "id": "3055cd07-9b9d-34ed-b227-942ba6977174",
+      "title": "Oxygène",
+      "type": "Album",
+      "first_release_date": "1976-12-05"
+    },
+    {
+      "id": "277825f9-e05c-3b57-bc4b-c49755ea5823",
+      "title": "Équinoxe",
+      "type": "Album",
+      "first_release_date": "1978-12"
+    },
+    {
+      "id": "64d6e6dc-6c58-3f91-bca9-aa3e33b9bbc0",
+      "title": "Les Chants magnétiques / Magnetic Fields",
+      "type": "Album",
+      "first_release_date": "1981-05-22"
+    },
+    {
+      "id": "400df5dc-fe8f-3183-9443-1f54e8be7e62",
+      "title": "Musique pour supermarché / Music for Supermarkets",
+      "type": "Album",
+      "first_release_date": "1983-07-06"
+    },
+    {
+      "id": "3e4672ef-b47e-3449-b02c-c25257e28848",
+      "title": "Zoolook",
+      "type": "Album",
+      "first_release_date": "1984"
+    },
+    {
+      "id": "0914d4a3-0b9c-370c-b33e-fb1bd8ccc5ab",
+      "title": "Rendez‐vous",
+      "type": "Album",
+      "first_release_date": "1986-04"
+    },
+    {
+      "id": "2cc8fe44-5a30-39c9-aea1-9a85724c0c9d",
+      "title": "Revolutions",
+      "type": "Album",
+      "first_release_date": "1988-08"
+    },
+    {
+      "id": "361bd924-fe82-3182-844f-e8cf71f45490",
+      "title": "En attendant Cousteau / Waiting for Cousteau",
+      "type": "Album",
+      "first_release_date": "1990-06-11"
+    },
+    {
+      "id": "b3812fae-e1e1-3edb-a21b-e13abccaa5a7",
+      "title": "Chronologie",
+      "type": "Album",
+      "first_release_date": "1993-10-22"
+    },
+    {
+      "id": "6a8aaf11-2bec-34cf-a897-f9b57fa69e7c",
+      "title": "Oxygène 7–13",
+      "type": "Album",
+      "first_release_date": "1997-02-14"
+    },
+    {
+      "id": "8d56f671-6fe5-3609-86ff-2a761bf9ff7f",
+      "title": "Métamorphoses",
+      "type": "Album",
+      "first_release_date": "2000-01-24"
+    },
+    {
+      "id": "925ebe1d-52e5-39f1-aee5-0336be388b4b",
+      "title": "Sessions 2000",
+      "type": "Album",
+      "first_release_date": "2002-10-28"
+    },
+    {
+      "id": "0769b1f7-88ec-3811-97f9-9ce25046007c",
+      "title": "Geometry of Love",
+      "type": "Album",
+      "first_release_date": "2003-09-09"
+    },
+    {
+      "id": "ac59bd2c-9c01-34ee-b7c9-948462995026",
+      "title": "Téo & Téa",
+      "type": "Album",
+      "first_release_date": "2007-03-26"
+    },
+    {
+      "id": "e13c4993-12fd-4b5f-bce9-2efd59f1e426",
+      "title": "Oxygène: New Master Recording",
+      "type": "Album",
+      "first_release_date": "2007-11-23"
+    },
+    {
+      "id": "8de8da72-8a8d-4933-96e9-582b559b40ed",
+      "title": "Electronica 1: The Time Machine",
+      "type": "Album",
+      "first_release_date": "2015-10-16"
+    },
+    {
+      "id": "fdf617f4-3ab9-4e23-95e4-12c05efeed77",
+      "title": "Electronica 2: The Heart of Noise",
+      "type": "Album",
+      "first_release_date": "2016-05-06"
+    },
+    {
+      "id": "0e320917-a3da-4681-b5df-124d33e00109",
+      "title": "Oxygène 3",
+      "type": "Album",
+      "first_release_date": "2016-12-02"
+    },
+    {
+      "id": "af0ed31b-adea-488d-8c71-0b9aa581f1b9",
+      "title": "Equinoxe Infinity",
+      "type": "Album",
+      "first_release_date": "2018-11-16"
+    },
+    {
+      "id": "5ffaa640-d53d-4184-9ddf-ff577c5faf80",
+      "title": "Snapshots From EōN",
+      "type": "Album",
+      "first_release_date": "2019-12-13"
+    },
+    {
+      "id": "b0ec6b6a-fd9c-4ba3-a461-2f9ed4712fa3",
+      "title": "OXYMORE",
+      "type": "Album",
+      "first_release_date": "2022-10-21"
+    },
+    {
+      "id": "6e88b64d-559b-4102-9d1c-f17123f7414e",
+      "title": "OXYMOREWORKS",
+      "type": "Album",
+      "first_release_date": "2023-11-03"
+    },
+    {
+      "id": "427046ce-de70-40bb-a8c5-6914fe0c968f",
+      "title": "Synthesis",
+      "type": "Compilation",
+      "first_release_date": "1982"
+    },
+    {
+      "id": "4e2e88a7-3dfa-3caa-9d9b-ae7a63a048bd",
+      "title": "Musik aus Zeit und Raum",
+      "type": "Compilation",
+      "first_release_date": "1983"
+    }
+  ],
+  "tracks": {
+    "b0283865-9e10-35fd-9c3b-e44816a9a0bb": [
+      {
+        "id": "9e887601-c491-4ad1-bf9d-c63159c7b0ca",
+        "title": "Poltergeist Party",
+        "position": "1",
+        "length": "135000",
+        "work": {
+          "id": "dd87af93-b4b1-4041-94bc-a3d21dadc707",
+          "title": "Poltergeist Party",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "82c54884-eb7a-4905-972e-0223588491b1",
+        "title": "Music Box Concerto",
+        "position": "2",
+        "length": "164864",
+        "work": {
+          "id": "e32aa5d1-6ef4-4a9f-9b32-ff24912120aa",
+          "title": "Music Box Concerto",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1ca128c3-fed6-4761-a0d5-522cfd9e5a9d",
+        "title": "Rain Forest Rap Session",
+        "position": "3",
+        "length": "104826",
+        "work": {
+          "id": "dde2be04-742c-4aee-890b-6226d6d5ca7a",
+          "title": "Rain Forest Rap Session",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "96e59e64-9131-4fef-b7cb-91672005cb56",
+        "title": "A Love Theme for Gargoyles",
+        "position": "4",
+        "length": "74000",
+        "work": {
+          "id": "cf8f49d3-91e7-4cb6-98b1-850a3719f19e",
+          "title": "A Love Theme for Gargoyles",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ddf56ef2-bef8-4721-823b-212cf754975f",
+        "title": "Bridge of Promises",
+        "position": "5",
+        "length": "198485",
+        "work": {
+          "id": "86e1eae6-7159-44e3-9395-f6af5bc6dec4",
+          "title": "Bridge of Promises",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ad2c7442-3a88-4454-809a-9504eba9d79e",
+        "title": "Exasperated Frog",
+        "position": "6",
+        "length": "51000",
+        "work": {
+          "id": "9fa3123a-d610-45d6-a938-7f5fc4c80c1e",
+          "title": "Exasperated Frog",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1b019d8b-3a2a-46f3-9049-9958d0626fd4",
+        "title": "Take Me to Your Leader",
+        "position": "7",
+        "length": "119000",
+        "work": {
+          "id": "6c501efc-fa3b-4ca2-a560-a8d77866337c",
+          "title": "Take Me to Your Leader",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5db97db0-f639-45ff-8613-d21e63b2f323",
+        "title": "Deserted Palace",
+        "position": "8",
+        "length": "146773",
+        "work": {
+          "id": "441ac8e6-5692-4cd5-8187-7e03020d47f5",
+          "title": "Deserted Palace",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a1340a0a-a62b-417e-aa1e-1bbcc68bfe1d",
+        "title": "Pogo Rock",
+        "position": "9",
+        "length": "68826",
+        "work": {
+          "id": "b70e238b-1c1b-4aa8-b3ce-911676895875",
+          "title": "Pogo Rock",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6fe4c42e-91ec-445a-bb3e-b5bd8a89b516",
+        "title": "Windswept Canyon",
+        "position": "10",
+        "length": "462000",
+        "work": {
+          "id": "c7e911aa-e68d-4fc0-93eb-bc9062062120",
+          "title": "Windswept Canyon",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0c43e857-0ef1-45d3-8260-f8f65ac8daa5",
+        "title": "The Abominable Snowman",
+        "position": "11",
+        "length": "56320",
+        "work": {
+          "id": "6100dd0f-fe6f-4dc8-b773-e357cb5b7c12",
+          "title": "The Abominable Snowman",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fe49cc19-dfaa-4db9-9c98-6678432cfe82",
+        "title": "Iraqi Hitch-Hiker",
+        "position": "12",
+        "length": "152235",
+        "work": {
+          "id": "2ae2d382-2d09-4e8b-b8e2-2bd52a959ca7",
+          "title": "Iraqi Hitch-Hiker",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "66f2398e-00b0-40d5-b6e6-ae1e9a6467f6",
+        "title": "Free Floating Anxiety",
+        "position": "13",
+        "length": "139520",
+        "work": {
+          "id": "0e83f0cd-02ae-4259-a495-40db2043930b",
+          "title": "Free Floating Anxiety",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7f3f1d58-53a7-4069-964a-4b3bb8e14c34",
+        "title": "Synthetic Jungle",
+        "position": "14",
+        "length": "103866",
+        "work": {
+          "id": "8333d33f-d5a6-48ae-92d8-0ccddb8a5701",
+          "title": "Synthetic Jungle",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c5301352-3e9d-4033-be59-a764528afab9",
+        "title": "Bee Factory",
+        "position": "15",
+        "length": "60027",
+        "work": {
+          "id": "94796e48-7a73-41b5-9b54-854b62ce1e2f",
+          "title": "Bee Factory",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      }
+    ],
+    "3055cd07-9b9d-34ed-b227-942ba6977174": [
+      {
+        "id": "df97f5b4-1a5f-4bea-aac9-6fd0f8c8892e",
+        "title": "Oxygène, Part I",
+        "position": "1",
+        "length": "460333",
+        "work": {
+          "id": "fd3fd0a8-ca8c-3e3d-a3bd-fdfac446719c",
+          "title": "Oxygène, Part I",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3b54763b-5fc4-4f0d-b277-af7012754e48",
+        "title": "Oxygène, Part II",
+        "position": "2",
+        "length": "500000",
+        "work": {
+          "id": "24b5af9f-504b-3ab7-a585-ddd3489271a6",
+          "title": "Oxygène, Part II",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e252fad7-212d-49fc-8bd6-f5c3290a5017",
+        "title": "Oxygène, Part III",
+        "position": "3",
+        "length": "170000",
+        "work": {
+          "id": "f79d8600-9e61-3230-b61f-550998bd2be2",
+          "title": "Oxygène, Part III",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "72a3aa00-2156-4b2d-9185-caa289dc2154",
+        "title": "Oxygène, Part IV",
+        "position": "4",
+        "length": "230000",
+        "work": {
+          "id": "b6baa2c1-eeb6-3e22-b7d9-fcad11cc8e0b",
+          "title": "Oxygène, Part IV",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cb69d77e-eae7-478d-8a30-63e17aa6ca7b",
+        "title": "Oxygène, Part V",
+        "position": "5",
+        "length": "670000",
+        "work": {
+          "id": "ceef55f3-8e19-38d6-9e1d-a6dd33c7f622",
+          "title": "Oxygène, Part V",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e5df5af1-6208-4198-821b-d28beb017252",
+        "title": "Oxygène, Part VI",
+        "position": "6",
+        "length": "355000",
+        "work": {
+          "id": "7ecbdfce-e75d-3079-8eb7-27c8895c715b",
+          "title": "Oxygène, Part VI",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      }
+    ],
+    "277825f9-e05c-3b57-bc4b-c49755ea5823": [
+      {
+        "id": "ee7ad55e-8200-4411-b72f-1a963b036a2f",
+        "title": "Équinoxe, Part 1",
+        "position": "1",
+        "length": "143573",
+        "work": {
+          "id": "c78f3f9e-499b-391f-b38f-ca1d5e55a223",
+          "title": "Équinoxe, Part 1",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7ad6015b-a479-475a-95b5-917d91aa16fe",
+        "title": "Équinoxe, Part 2",
+        "position": "2",
+        "length": "302760",
+        "work": {
+          "id": "d03bb3e4-c7ca-3d28-8e69-64b41a49a122",
+          "title": "Équinoxe, Part 2",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c6740cce-2578-4479-9213-101fc8780766",
+        "title": "Équinoxe, Part 3",
+        "position": "3",
+        "length": "309333",
+        "work": {
+          "id": "2ffcb83b-2a24-3de5-a3da-b83cc947270d",
+          "title": "Équinoxe, Part 3",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1601d286-4971-40a1-bd6d-8ce130ee7046",
+        "title": "Équinoxe, Part 4",
+        "position": "4",
+        "length": "414040",
+        "work": {
+          "id": "23d3806e-7eb0-36ad-a607-26a631a0571a",
+          "title": "Équinoxe, Part 4",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ab34ba30-01da-407a-b56f-bc920a2d0908",
+        "title": "Équinoxe, Part 5",
+        "position": "5",
+        "length": "232800",
+        "work": {
+          "id": "928bf9f6-9e57-3a5d-8691-b58a8ba59eb5",
+          "title": "Équinoxe, Part 5",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "36025788-7a07-4550-beba-76939c657c8f",
+        "title": "Équinoxe, Part 6",
+        "position": "6",
+        "length": "208933",
+        "work": {
+          "id": "7db03c5c-86c0-315c-b086-1099a76b7daa",
+          "title": "Équinoxe, Part 6",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d0c93385-65ca-41c9-8c88-6b339384ab25",
+        "title": "Équinoxe, Part 7",
+        "position": "7",
+        "length": "425800",
+        "work": {
+          "id": "b1e2e014-79cd-37ea-bf4a-09216053ee1c",
+          "title": "Équinoxe, Part 7",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4ec82c88-1fd2-49b9-85ca-53c3ab05b84e",
+        "title": "Équinoxe, Part 8",
+        "position": "8",
+        "length": "299200",
+        "work": {
+          "id": "8abfcec0-0d26-3032-8eab-3752a2f855a7",
+          "title": "Équinoxe, Part 8",
+          "composers": [
+            {
+              "name": "Jean‐Michel Jarre",
+              "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 209415,
+  "wikidata_id": "Q104326"
+}

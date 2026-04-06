@@ -1,0 +1,198 @@
+{
+  "id": 97545,
+  "name": "John Coltrane",
+  "realname": "John William Coltrane",
+  "profile": "American saxophonist and jazz composer.\r\nBorn September 23, 1926 in Hamlet, North Carolina, USA.\r\nDied July 17, 1967 in Huntington, Long Island, New York, USA (aged 40) from liver cancer.\r\nColtrane's early recordings caught a musician in the confines of bebop and hardbop, but his enduring legacy primarily rests on the modal jazz pioneered by his classic quartet (1961-65) and by free jazz explorations late in his career. Extensively recorded as a leader (mainly for [l26557]), he appeared as a sideman on many albums, performing with other major figures in jazz such as [a23755] and [a145256]. As his life progressed, his music and outlook became increasingly spiritual. Posthumously, he was proclaimed as a saint in 1969 by the African Orthodox Saint John Coltrane Church in San Francisco.\r\n\r\nColtrane's second wife was pianist [a42058]; their son [a316502] (born 1965) is also a saxophonist. Coltrane received a posthumous \"Special Citation\" from the Pulitzer Prize Board in 2007 for his 'masterful improvisation, supreme musicianship and iconic centrality to the history of jazz'.",
+  "members": [],
+  "groups": [
+    {
+      "name": "The John Coltrane Quartet",
+      "id": 255386,
+      "active": true
+    },
+    {
+      "name": "The Miles Davis Sextet",
+      "id": 260757,
+      "active": true
+    },
+    {
+      "name": "The Thelonious Monk Quartet",
+      "id": 261339,
+      "active": false
+    },
+    {
+      "name": "The Miles Davis Quintet",
+      "id": 262152,
+      "active": true
+    },
+    {
+      "name": "Thelonious Monk Septet",
+      "id": 269589,
+      "active": true
+    },
+    {
+      "name": "Dizzy Gillespie And His Orchestra",
+      "id": 284744,
+      "active": true
+    },
+    {
+      "name": "Dizzy Gillespie Sextet",
+      "id": 358566,
+      "active": true
+    },
+    {
+      "name": "The Red Garland Quintet",
+      "id": 380510,
+      "active": false
+    },
+    {
+      "name": "Thelonious Monk Trio",
+      "id": 381505,
+      "active": false
+    },
+    {
+      "name": "Earl Bostic And His Orchestra",
+      "id": 446642,
+      "active": true
+    },
+    {
+      "name": "Art Blakey's Big Band",
+      "id": 543984,
+      "active": true
+    },
+    {
+      "name": "Paul Chambers Sextet",
+      "id": 572067,
+      "active": true
+    },
+    {
+      "name": "The John Coltrane Sextet",
+      "id": 634011,
+      "active": true
+    },
+    {
+      "name": "Johnny Hodges And His Orchestra",
+      "id": 843805,
+      "active": true
+    },
+    {
+      "name": "East Coast All-Stars",
+      "id": 940204,
+      "active": true
+    },
+    {
+      "name": "Eric Dolphy Quintet",
+      "id": 943319,
+      "active": false
+    },
+    {
+      "name": "John Coltrane Quintet",
+      "id": 1120397,
+      "active": true
+    },
+    {
+      "name": "The Prestige All Stars",
+      "id": 1201626,
+      "active": true
+    },
+    {
+      "name": "John Coltrane Trio",
+      "id": 1365167,
+      "active": true
+    },
+    {
+      "name": "Cecil Taylor Quintet",
+      "id": 1583463,
+      "active": false
+    },
+    {
+      "name": "Gay Crosse & His Good Humor Six",
+      "id": 1774831,
+      "active": true
+    },
+    {
+      "name": "George Russell Orchestra",
+      "id": 1868577,
+      "active": false
+    },
+    {
+      "name": "The Ray Draper Quintet",
+      "id": 2053527,
+      "active": true
+    },
+    {
+      "name": "The Mal Waldron Sextet",
+      "id": 2177008,
+      "active": false
+    },
+    {
+      "name": "Elmo Hope Sextet",
+      "id": 2441580,
+      "active": false
+    },
+    {
+      "name": "Oscar Pettiford & His All Stars",
+      "id": 2612438,
+      "active": true
+    },
+    {
+      "name": "Gene Ammons' All Stars",
+      "id": 2703010,
+      "active": true
+    },
+    {
+      "name": "Wilbur Harden-Tommy Flanagan Quintet",
+      "id": 2779859,
+      "active": true
+    },
+    {
+      "name": "Wilbur Harden Sextet",
+      "id": 2779862,
+      "active": true
+    },
+    {
+      "name": "John Coltrane Orchestra",
+      "id": 2803286,
+      "active": true
+    },
+    {
+      "name": "Tenor Conclave",
+      "id": 4037528,
+      "active": true
+    },
+    {
+      "name": "Tadd Dameron Quartet",
+      "id": 5509309,
+      "active": true
+    },
+    {
+      "name": "Paul Quinichette-John Coltrane Quintet",
+      "id": 8002936,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Jazz"
+  ],
+  "styles": [
+    "Hard Bop"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Jazz",
+      "style": "Hard Bop"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Hard Bop"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Hard Bop"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Hard Bop"
+    }
+  ]
+}

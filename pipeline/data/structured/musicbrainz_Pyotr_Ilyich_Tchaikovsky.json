@@ -1,0 +1,649 @@
+{
+  "mbid": "9ddd7abc-9e1b-471d-8031-583bc6bc8be9",
+  "name": "Пётр Ильич Чайковский",
+  "type": "Person",
+  "country": "RU",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1840-05-07",
+    "end": "1893-11-06",
+    "ended": "true"
+  },
+  "area": "Russia",
+  "begin_area": "Votkinsk",
+  "tags": [
+    {
+      "name": "20 48",
+      "count": "1"
+    },
+    {
+      "name": "60",
+      "count": "1"
+    },
+    {
+      "name": "classical",
+      "count": "12"
+    },
+    {
+      "name": "composer",
+      "count": "5"
+    },
+    {
+      "name": "european",
+      "count": "3"
+    },
+    {
+      "name": "opera",
+      "count": "6"
+    },
+    {
+      "name": "romantic",
+      "count": "3"
+    },
+    {
+      "name": "romantic classical",
+      "count": "5"
+    },
+    {
+      "name": "russian",
+      "count": "6"
+    },
+    {
+      "name": "russian composer",
+      "count": "3"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Большой симфонический оркестр имени П. И. Чайковского",
+      "target_mbid": "81b70969-a9c0-4fcf-8461-24cf72901368",
+      "attributes": [],
+      "begin": "1993",
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Анатолий Ильич Чайковский",
+      "target_mbid": "00036598-bac1-4182-8f01-fcda0359b41d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Модест Ильич Чайковский",
+      "target_mbid": "b28b2f3a-c41a-496c-a129-c0b0197204b9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Николай Заремба",
+      "target_mbid": "61154e9d-0384-4818-b61d-3d7e9d302a82",
+      "attributes": [],
+      "begin": "1861",
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Александр Зилоти",
+      "target_mbid": "e8ece613-bcdf-49e5-a610-e1cb5e116769",
+      "attributes": [],
+      "begin": "1875",
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Сергей Танеев",
+      "target_mbid": "e61ad00c-fbe8-4ca1-ac14-2e0872257057",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Антон Григорьевич Рубинштейн",
+      "target_mbid": "0f4d7f2c-69e9-4795-90f8-024b29a67cbe",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Stanisław Barcewicz",
+      "target_mbid": "d00aaae0-57b9-4d96-ba53-7af1b3896646",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000317716"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/9ddd7abc-9e1b-471d-8031-583bc6bc8be9"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.pbs.org/wnet/gperf/education/tchaikovsky.html"
+    },
+    {
+      "type": "discography page",
+      "target": "https://en.tchaikovsky-research.net/pages/Discography"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/999914"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/3MKCzCnpzw3TjUYs2v7vDA"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/309998"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_1906_Evans.PNG"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0006318/"
+    },
+    {
+      "type": "IMSLP",
+      "target": "https://imslp.org/wiki/Category:Tchaikovsky,_Pyotr"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/%D0%9F%D1%91%D1%82%D1%80+%D0%98%D0%BB%D1%8C%D0%B8%D1%87+%D0%A7%D0%B0%D0%B9%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Pyotr+Ilyich+Tchaikovsky"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n79072979"
+    },
+    {
+      "type": "other databases",
+      "target": "https://adp.library.ucsb.edu/names/102415"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13900329p"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118638157"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6s181n8"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1217422"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL260354A"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/1099/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/%D0%BF%D1%91%D1%82%D1%80_%D1%87%D0%B0%D0%B9%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.ibdb.com/person.php?id=12486"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/pjotr-iljitsch-tschaikowski/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000239725/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n79072979"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id262899"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B0017P6WE0"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/4101908"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/1307"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/99258155"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q7315"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "d296cf52-8c5a-45a9-a1e2-8d28390ed523",
+      "title": "Nutcracker Suite",
+      "type": "Album",
+      "first_release_date": "1945"
+    },
+    {
+      "id": "31f076d2-1bf7-42d5-9de4-0744ccb3c793",
+      "title": "Bizet: Carmen Suite / Tchaikovsky: Capriccio italien / Pocchielli: Dance of the Hours",
+      "type": "Album",
+      "first_release_date": "1949"
+    },
+    {
+      "id": "553cd661-c53a-42c5-8970-70f708941bbd",
+      "title": "Symphony no. 6 “Pathétique”",
+      "type": "Album",
+      "first_release_date": "1952-12"
+    },
+    {
+      "id": "0bb734b4-999c-4e0c-8475-8853eafb1f70",
+      "title": "Трио ля минор",
+      "type": "Album",
+      "first_release_date": "1952"
+    },
+    {
+      "id": "b87bd8f5-3783-4bf8-a317-16ba29cb799d",
+      "title": "Water Music / Casse-Noisette Suite",
+      "type": "Album",
+      "first_release_date": "1953-09"
+    },
+    {
+      "id": "05f7b825-344f-4b0e-81e5-ac4cd08982c9",
+      "title": "The Sleeping Beauty (Complete Ballet)",
+      "type": "Album",
+      "first_release_date": "1953"
+    },
+    {
+      "id": "edc74b42-2b0e-4ba8-bc32-b19c02da010b",
+      "title": "Concerto Pour Violon Et Orchestre En Ré Majeur Op. 35",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "9aa46624-4411-4f0d-8dd3-b47066bb171e",
+      "title": "Konzert für Violine und Orchester d‐dur, op. 35",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "13d6d78f-7d74-447b-abe0-81cb0ffa4af3",
+      "title": "Sérénade en Ut majeur",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "6b1df766-9a3c-4ab1-b21c-678a68e69188",
+      "title": "The Nutcracker: Suites 1 and 2",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "e2c73b4e-33c4-4656-97c3-3fb961ceb985",
+      "title": "Tchaikovsky - Concerto No. 1",
+      "type": "Album",
+      "first_release_date": "1958-11-15"
+    },
+    {
+      "id": "ad1f0a13-6368-4766-90fc-6fed08af0740",
+      "title": "Piano Concerto no. 1",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "44f0257d-cb40-4f5a-9944-b627a8d7287b",
+      "title": "Swan Lake – Suite from the Ballet",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "989ab271-0525-4ea3-b436-d31db9caaf9c",
+      "title": "Swan Lake Ballet Suite",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "d56711df-e806-455c-bae0-3a1d5b1bec28",
+      "title": "Symphony no. 4 in F minor, Op. 36",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "00b6d01d-335d-486d-82b8-bd8d90b2d661",
+      "title": "Violin Concerto",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "a9a2ea00-6ae9-4075-a2ba-615cdb52718f",
+      "title": "1812 Overture",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "3b45e574-53f3-4a52-80d4-b682358d7ce0",
+      "title": "Konzert für Klavier und Orchester Nr. 1 b-Moll, op. 23",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "966860b8-85fe-4582-a267-97c9f393f294",
+      "title": "Tchaikovsky: Serenade for Strings / Arensky: Variations on a Theme by Tchaikovsky",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "34785bc3-8ebd-47ec-a08e-b8d1c543430d",
+      "title": "Tchaikovsky: Sonata in G major / Schumann: Humoreske",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "07109c16-5684-432f-9bcb-0c2979a3144e",
+      "title": "Tchaikovsky: Violin Concerto in D major / Mendelssohn: Violin Concerto in E minor",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "daa5f926-182f-4a64-b4d1-4982b33513ae",
+      "title": "Времена года",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "c86db02e-37cc-4eff-9d01-236816f0cee9",
+      "title": "Concerto in E minor for Violin and Orchestra / Concerto in D major for Violin and Orchestra",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "e7cbf347-dcdb-4c5b-bccb-078030b08a5a",
+      "title": "Symphonie Espagnole / Sérénade Mélancolique",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "90a43699-dff7-47e4-b1fd-4d492511b1f5",
+      "title": "Symphony no. 2 in C minor, op. 17",
+      "type": "Album",
+      "first_release_date": "1960"
+    }
+  ],
+  "tracks": {
+    "d296cf52-8c5a-45a9-a1e2-8d28390ed523": [
+      {
+        "id": "e926fc22-9584-4b7a-9e52-8c0f497368c3",
+        "title": "Overture Miniature",
+        "position": "1",
+        "length": "209026",
+        "work": null
+      },
+      {
+        "id": "04eadb5b-0c10-4a59-9fac-a78550cd3a0f",
+        "title": "The Nutcracker, op. 71: Act I. No. 2. Marche",
+        "position": "2",
+        "length": "135000",
+        "work": {
+          "id": "a93104a5-fd64-3f1d-9331-d5405781a5e7",
+          "title": "Щелкунчик, op. 71: Действие I, Картина I, no. 2. Марш",
+          "composers": [
+            {
+              "name": "Пётр Ильич Чайковский",
+              "mbid": "9ddd7abc-9e1b-471d-8031-583bc6bc8be9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d8098f65-9ac4-46e7-9408-b3dc6e045322",
+        "title": "Dance of the Sugar-Plum Fairy",
+        "position": "3",
+        "length": "105826",
+        "work": null
+      },
+      {
+        "id": "b7542b73-d96c-422e-b7b5-17de64492103",
+        "title": "Trepak",
+        "position": "1",
+        "length": "67093",
+        "work": null
+      },
+      {
+        "id": "5f853eba-f043-4fdc-8f03-7cf328bb27e6",
+        "title": "Arabian Dance, Part 1",
+        "position": "2",
+        "length": "226800",
+        "work": null
+      },
+      {
+        "id": "efecfca5-9560-4edc-a3c2-0b0abf1a0ab3",
+        "title": "The Nutcracker, op. 71: Act II. No. 12. Divertissement: Le Café (Danse arabe)",
+        "position": "3",
+        "length": "217000",
+        "work": {
+          "id": "9a717451-ef0d-326c-88c7-a7d61f9ebddd",
+          "title": "Щелкунчик, op. 71: Действие II, Картина III, no. 12b. Дивертисмент (б) Кофе: арабский танец",
+          "composers": [
+            {
+              "name": "Пётр Ильич Чайковский",
+              "mbid": "9ddd7abc-9e1b-471d-8031-583bc6bc8be9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "568824d1-36d1-48cf-bada-150f9d64a93c",
+        "title": "Chinese Dance",
+        "position": "4",
+        "length": "67786",
+        "work": null
+      },
+      {
+        "id": "998fd004-668c-49d1-b170-a587b5f19c1c",
+        "title": "Dance of the Flutes",
+        "position": "5",
+        "length": "128720",
+        "work": null
+      },
+      {
+        "id": "759770e1-7c55-4691-9f29-efc939fb4127",
+        "title": "Waltz of the Flowers, Part 1",
+        "position": "1",
+        "length": "392320",
+        "work": null
+      },
+      {
+        "id": "4e0c273d-a5b1-4724-a118-1501682cc3ab",
+        "title": "Waltz of the Flowers (Concluded)",
+        "position": "2",
+        "length": null,
+        "work": null
+      }
+    ],
+    "31f076d2-1bf7-42d5-9de4-0744ccb3c793": [
+      {
+        "id": "b6b08369-3f78-4f05-ba16-8cc446db0dd7",
+        "title": "Carmen Suite: Prélude (Prelude to Act 1)",
+        "position": "1",
+        "length": "83252",
+        "work": {
+          "id": "97f86c57-82ac-32ef-ade0-c8debc95a528",
+          "title": "Carmen Suite no. 1: I. Prélude. Allegro giocoso – Andante moderato",
+          "composers": [
+            {
+              "name": "Georges Bizet",
+              "mbid": "9bd20e6a-b41d-4983-a5b6-c0ff849fa235"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bc4f7a8a-d5d5-44cf-846a-6b0d12af3ec0",
+        "title": "Carmen Suite: Aragonaise (Prelude to Act IV)",
+        "position": "2",
+        "length": "147905",
+        "work": {
+          "id": "556cdec4-e05f-3ed8-a8b6-d62435d7ac23",
+          "title": "Carmen Suite no. 1: II. Aragonaise. Allegro vivo",
+          "composers": [
+            {
+              "name": "Georges Bizet",
+              "mbid": "9bd20e6a-b41d-4983-a5b6-c0ff849fa235"
+            }
+          ]
+        }
+      },
+      {
+        "id": "04ff1e47-752a-49d7-aeb7-98f62d80b35b",
+        "title": "Carmen Suite: Les Dragons d’Alcala (Prelude to Act II)",
+        "position": "3",
+        "length": "101433",
+        "work": {
+          "id": "07145431-f87d-38ff-8dcf-459b05d6b857",
+          "title": "Carmen Suite no. 1: V. Les Dragons d’Alcala. Allegro moderato",
+          "composers": [
+            {
+              "name": "Georges Bizet",
+              "mbid": "9bd20e6a-b41d-4983-a5b6-c0ff849fa235"
+            }
+          ]
+        }
+      },
+      {
+        "id": "62246397-63d1-4983-a76d-28c2a2f740dc",
+        "title": "Carmen Suite: Les Toréadors (Introduction to Act I)",
+        "position": "4",
+        "length": "128444",
+        "work": {
+          "id": "a1672346-8fb2-3e89-9a3f-a8e4cf6cc700",
+          "title": "Carmen Suite no. 1: VI. Les Toréadors. Allegro giocoso",
+          "composers": [
+            {
+              "name": "Georges Bizet",
+              "mbid": "9bd20e6a-b41d-4983-a5b6-c0ff849fa235"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1ad2179e-78d2-4ea3-b1a5-6235a2554485",
+        "title": "Carmen Suite: Intermezzo (Prelude to Act II)I",
+        "position": "5",
+        "length": "143699",
+        "work": {
+          "id": "278bd9aa-3551-3bae-812e-7fde1dc14501",
+          "title": "Carmen Suite no. 1: III. Intermezzo. Andantino quasi allegretto",
+          "composers": [
+            {
+              "name": "Georges Bizet",
+              "mbid": "9bd20e6a-b41d-4983-a5b6-c0ff849fa235"
+            }
+          ]
+        }
+      },
+      {
+        "id": "58ad99be-3afb-471a-b84c-72a08475af08",
+        "title": "Carmen Suite: La Garde montante (Children’s Chorus, Act I)",
+        "position": "6",
+        "length": "142811",
+        "work": {
+          "id": "5f84c977-ca36-3246-801a-ae6ec949e7c6",
+          "title": "Carmen Suite no. 2: V. La Garde montante",
+          "composers": [
+            {
+              "name": "Georges Bizet",
+              "mbid": "9bd20e6a-b41d-4983-a5b6-c0ff849fa235"
+            }
+          ]
+        }
+      },
+      {
+        "id": "68bf62b3-008a-49b8-8ce9-0412ba587805",
+        "title": "Carmen Suite: Danse bohème (Chanson bohème, Act I)",
+        "position": "7",
+        "length": "249991",
+        "work": {
+          "id": "d1a24c17-fe3c-35e2-ba01-ae5e856e83b7",
+          "title": "Carmen Suite no. 2: VI. Danse bohème",
+          "composers": [
+            {
+              "name": "Georges Bizet",
+              "mbid": "9bd20e6a-b41d-4983-a5b6-c0ff849fa235"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4495f539-6671-45bf-b03f-4f3d2d7876ca",
+        "title": "Capriccio italien, op. 45",
+        "position": "8",
+        "length": "959947",
+        "work": {
+          "id": "854f7f28-f202-3d7a-a424-abc659e7f70e",
+          "title": "Capriccio italien, op. 45",
+          "composers": [
+            {
+              "name": "Пётр Ильич Чайковский",
+              "mbid": "9ddd7abc-9e1b-471d-8031-583bc6bc8be9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "aa57f5b5-46c8-43bf-ba7a-65fc5f66bdf6",
+        "title": "Dance of the Hours",
+        "position": "9",
+        "length": "472398",
+        "work": {
+          "id": "e601cddf-3c50-38da-b297-bf21edb1d306",
+          "title": "La Gioconda: Atto III, scena 2. Danza delle ore",
+          "composers": [
+            {
+              "name": "Amilcare Ponchielli",
+              "mbid": "d8c01b12-f5bc-4365-848f-878c445cefe8"
+            }
+          ]
+        }
+      }
+    ],
+    "553cd661-c53a-42c5-8970-70f708941bbd": []
+  },
+  "discogs_id": 999914,
+  "wikidata_id": "Q7315"
+}

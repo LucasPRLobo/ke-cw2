@@ -1,0 +1,16 @@
+[
+  {"subject": "John Lennon", "predicate": "alterEgo", "object": "John Winston Ono Lennon"},
+  {"subject": "John Lennon", "predicate": "alterEgo", "object": "John Winston Lennon"},
+  {"subject": "John Lennon", "predicate": "founded", "object": "the Beatles"},
+  {"subject": "John Lennon", "predicate": "memberOf", "object": "the Beatles"},
+  {"subject": "John Lennon", "predicate": "collaboratedWith", "object": "Paul McCartney"},
+  {"subject": "John Lennon", "predicate": "released", "object": "John Lennon/Plastic Ono Band"},
+  {"subject": "John Lennon", "predicate": "released", "object": "Imagine"},
+  {"subject": "John Lennon", "predicate": "released", "object": "Give Peace a Chance"},
+  {"subject": "John Lennon", "predicate": "released", "object": "Working Class Hero"},
+  {"subject": "John Lennon", "predicate": "released", "object": "Double Fantasy"},
+  {"subject": "John Lennon", "predicate": "collaboratedWith", "object": "Yoko Ono"},
+  {"subject": "John Lennon", "predicate": "founded", "object": "Plastic Ono Band"},
+  {"subject": "Yoko Ono", "predicate": "founded", "object": "Plastic Ono Band"},
+  {"subject": "John Lennon", "predicate": "memberOf", "object": "Plastic Ono Band"}
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "subject": "Paul Simon",
+    "predicate": "collaboratedWith",
+    "object": "Art Garfunkel"
+  },
+  {
+    "subject": "Simon & Garfunkel",
+    "predicate": "hasGenre",
+    "object": "folk"
+  },
+  {
+    "subject": "Simon & Garfunkel",
+    "predicate": "hasGenre",
+    "object": "rock"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "memberOf",
+    "object": "Simon & Garfunkel"
+  },
+  {
+    "subject": "Simon & Garfunkel",
+    "predicate": "hasMember",
+    "object": "Paul Simon"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "hasGenre",
+    "object": "gospel"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "hasGenre",
+    "object": "reggae"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "hasGenre",
+    "object": "soul"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "released",
+    "object": "Paul Simon (1972)"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "released",
+    "object": "There Goes Rhymin' Simon (1973)"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "released",
+    "object": "Still Crazy After All These Years (1975)"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "performedAt",
+    "object": "Concert in Central Park"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "released",
+    "object": "Graceland"
+  },
+  {
+    "subject": "Graceland",
+    "predicate": "influencedBy",
+    "object": "South African"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "released",
+    "object": "The Rhythm of the Saints (1990)"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "performedAt",
+    "object": "Concert in the Park"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "composed",
+    "object": "The Capeman"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "released",
+    "object": "You're the One (2000)"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "released",
+    "object": "So Beautiful or So What (2011)"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "released",
+    "object": "Stranger to Stranger (2016)"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "released",
+    "object": "Seven Psalms"
+  },
+  {
+    "subject": "Paul Simon",
+    "predicate": "founded",
+    "object": "Children's Health Fund"
+  }
+]

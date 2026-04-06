@@ -1,0 +1,77 @@
+[
+  {
+    "subject": "Buena Vista Social Club",
+    "predicate": "hasGenre",
+    "object": "son"
+  },
+  {
+    "subject": "Buena Vista Social Club",
+    "predicate": "hasGenre",
+    "object": "bolero"
+  },
+  {
+    "subject": "Buena Vista Social Club",
+    "predicate": "hasGenre",
+    "object": "danz\u00f3n"
+  },
+  {
+    "subject": "Nick Gold",
+    "predicate": "founded",
+    "object": "Buena Vista Social Club"
+  },
+  {
+    "subject": "Ry Cooder",
+    "predicate": "produced",
+    "object": "Buena Vista Social Club (album)"
+  },
+  {
+    "subject": "Juan de Marcos Gonz\u00e1lez",
+    "predicate": "memberOf",
+    "object": "Buena Vista Social Club"
+  },
+  {
+    "subject": "Buena Vista Social Club",
+    "predicate": "performedAt",
+    "object": "Amsterdam"
+  },
+  {
+    "subject": "Buena Vista Social Club",
+    "predicate": "performedAt",
+    "object": "New York"
+  },
+  {
+    "subject": "Compay Segundo",
+    "predicate": "memberOf",
+    "object": "Buena Vista Social Club"
+  },
+  {
+    "subject": "Rub\u00e9n Gonz\u00e1lez",
+    "predicate": "memberOf",
+    "object": "Buena Vista Social Club"
+  },
+  {
+    "subject": "Ibrahim Ferrer",
+    "predicate": "memberOf",
+    "object": "Buena Vista Social Club"
+  },
+  {
+    "subject": "Eliades Ochoa",
+    "predicate": "memberOf",
+    "object": "Buena Vista Social Club"
+  },
+  {
+    "subject": "Omara Portuondo",
+    "predicate": "memberOf",
+    "object": "Buena Vista Social Club"
+  },
+  {
+    "subject": "Barbarito Torres",
+    "predicate": "memberOf",
+    "object": "Buena Vista Social Club"
+  },
+  {
+    "subject": "Buena Vista Social Club",
+    "predicate": "hasMusicalPeriod",
+    "object": "Cuba's musical golden age"
+  }
+]

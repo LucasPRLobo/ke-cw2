@@ -1,0 +1,19 @@
+[
+  {"subject": "Nina Simone", "predicate": "alterEgo", "object": "Eunice Kathleen Waymon"},
+  {"subject": "Nina Simone", "predicate": "alterEgo", "object": "High Priestess of Soul"},
+  {"subject": "Nina Simone", "predicate": "hasGenre", "object": "classical"},
+  {"subject": "Nina Simone", "predicate": "hasGenre", "object": "jazz"},
+  {"subject": "Nina Simone", "predicate": "hasGenre", "object": "blues"},
+  {"subject": "Nina Simone", "predicate": "hasGenre", "object": "folk"},
+  {"subject": "Nina Simone", "predicate": "hasGenre", "object": "R&B"},
+  {"subject": "Nina Simone", "predicate": "hasGenre", "object": "gospel"},
+  {"subject": "Nina Simone", "predicate": "hasGenre", "object": "pop"},
+  {"subject": "Nina Simone", "predicate": "hasMusicalPeriod", "object": "civil rights movement"},
+  {"subject": "Nina Simone", "predicate": "released", "object": "Feeling Good"},
+  {"subject": "Nina Simone", "predicate": "released", "object": "I Put a Spell on You"},
+  {"subject": "Nina Simone", "predicate": "released", "object": "Sinnerman"},
+  {"subject": "Nina Simone", "predicate": "released", "object": "Mississippi Goddam"},
+  {"subject": "Nina Simone", "predicate": "released", "object": "To Be Young, Gifted and Black"},
+  {"subject": "Nina Simone", "predicate": "released", "object": "My Baby Just Cares for Me"},
+  {"subject": "Nina Simone", "predicate": "released", "object": "I Loves You, Porgy"}
+]

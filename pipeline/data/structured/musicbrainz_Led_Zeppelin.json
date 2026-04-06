@@ -1,0 +1,1448 @@
+{
+  "mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3",
+  "name": "Led Zeppelin",
+  "type": "Group",
+  "country": "GB",
+  "gender": null,
+  "life_span": {
+    "begin": "1968",
+    "end": "1980-09-25",
+    "ended": "true"
+  },
+  "area": "United Kingdom",
+  "begin_area": "London",
+  "tags": [
+    {
+      "name": "arena rock",
+      "count": "2"
+    },
+    {
+      "name": "blues rock",
+      "count": "17"
+    },
+    {
+      "name": "british",
+      "count": "5"
+    },
+    {
+      "name": "classic rock",
+      "count": "7"
+    },
+    {
+      "name": "folk rock",
+      "count": "5"
+    },
+    {
+      "name": "hard rock",
+      "count": "33"
+    },
+    {
+      "name": "heavy metal",
+      "count": "4"
+    },
+    {
+      "name": "progressive rock",
+      "count": "1"
+    },
+    {
+      "name": "rock",
+      "count": "22"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "John Bonham",
+      "target_mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9",
+      "attributes": [
+        "drums (drum set)",
+        "original"
+      ],
+      "begin": "1968",
+      "end": "1980-09-25"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "John Paul Jones",
+      "target_mbid": "4490113a-3880-4f5b-a39b-105bfceaed04",
+      "attributes": [
+        "bass guitar",
+        "keyboard",
+        "original"
+      ],
+      "begin": "1968",
+      "end": "1980-09-25"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Jimmy Page",
+      "target_mbid": "519774a4-3b18-4042-b8c0-927845a616c9",
+      "attributes": [
+        "guitar",
+        "original"
+      ],
+      "begin": "1968",
+      "end": "1980-09-25"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Robert Plant",
+      "target_mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc",
+      "attributes": [
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1968",
+      "end": "1980-09-25"
+    },
+    {
+      "type": "subgroup",
+      "direction": "backward",
+      "target_name": "Jimmy Page & Robert Plant",
+      "target_mbid": "4a536dbf-8632-4cfd-b9ea-cdb35cb47c44",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Trilogy Tribute Tour",
+      "target_mbid": "26fb7b2c-2d71-41c3-8953-390dbf962636",
+      "attributes": [],
+      "begin": "2013-10",
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Boot-Led-Zeppelin",
+      "target_mbid": "37463bf1-d77c-4702-b4db-642af32957a9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Custard Pies",
+      "target_mbid": "33efa182-bfca-43a7-b2ac-e6db8f5215aa",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Dread Zeppelin",
+      "target_mbid": "74e2c381-7a79-4c21-8738-20da383e14d2",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Gallows Pole",
+      "target_mbid": "ad83de4b-a556-47f4-90ab-250a004d17c3",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Hammer of the Gods",
+      "target_mbid": "30397f1c-407c-4544-bd36-b149d72a6298",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Hats Off to Led Zeppelin",
+      "target_mbid": "c055204e-a3ba-48a6-bb76-7a4d0f19bd4f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Jason Bonham’s Led Zeppelin Evening",
+      "target_mbid": "8feb61e0-be9c-41c9-acd8-df0196783744",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Kashmir",
+      "target_mbid": "28165e59-4284-4dd9-b642-b330cf1adbe8",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "La Grange",
+      "target_mbid": "29b2b91b-0c04-4b28-9558-e027996e9310",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Led by Zeppelin",
+      "target_mbid": "f876a0f0-520a-43a1-be68-2aa86348a21e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Led Ladies",
+      "target_mbid": "1868ebc9-653e-4b1a-8507-37b2e4ec982a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Led Sabbath",
+      "target_mbid": "38c8a0d8-5514-44b8-95f2-788bd86737d8",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Led Zepagain",
+      "target_mbid": "0c526c66-8979-4062-bc21-b9d70711c014",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Led Zeppelin2",
+      "target_mbid": "93fc2072-7796-4c60-b937-4e724168e0a1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Ledsmith",
+      "target_mbid": "05641a0a-48b0-4807-a263-8be5bca625e9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Let's Eppelin",
+      "target_mbid": "7a01ebd4-b7d9-40e4-98c3-9bc8f4e3513c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Letz Zep",
+      "target_mbid": "95d79f59-9582-4e04-b860-eba7cda5d9fe",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Letz Zeppelin",
+      "target_mbid": "a6422b3c-695b-451e-b72f-8cc086b75d0a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Lez Zeppelin",
+      "target_mbid": "90ee221e-3c6c-4607-92ca-841f71869e11",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Magical Mystery Doors",
+      "target_mbid": "43df8bef-aa40-487b-ae50-5159be429ab1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Mothership: Tribute to Led Zeppelin",
+      "target_mbid": "5b142e5a-ecbc-4e53-8b31-8411f220c23e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "MR. JIMMY Led Zeppelin Revival",
+      "target_mbid": "715ab5c7-7457-45e1-acfe-453cdcca1e37",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "No Quarter",
+      "target_mbid": "4fe17f14-0b6d-43a6-9f88-ec59cd301b72",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Physical Graffiti",
+      "target_mbid": "dd5dd54f-73ab-40c6-94c1-0ce72f6307e4",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Physical Graffiti",
+      "target_mbid": "8deb29ea-4acf-4a06-9f87-2491cfec1c35",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Presence Led Zeppelin Tribute",
+      "target_mbid": "ace042c4-8686-43ed-9628-1adf131e8678",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Pudge Zeppelin",
+      "target_mbid": "00c1902f-554f-4df3-88e4-091a2a7e7685",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Pure Zeppelin Experience",
+      "target_mbid": "2ab58706-e668-45ca-9b4c-a5ecfe734fb1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Red Zeppelin",
+      "target_mbid": "4978ce95-82db-4fb4-b73d-0e523546dd34",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "A Song Remains",
+      "target_mbid": "0944f1d7-d06d-4a56-9d47-37b625125629",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Swan Song",
+      "target_mbid": "4c6906bf-4527-4782-9854-f84831c772f5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "A Tribute to Led Zeppelin",
+      "target_mbid": "77c35897-2c17-4afc-8cd5-a4914063103d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Santíssima Trindade",
+      "target_mbid": "077ab5e4-023f-4662-a19b-b01b99359b1c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Whole Lotta Led",
+      "target_mbid": "77f151b4-7513-4fd6-9f34-64da318b7daf",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Zed Leppelin",
+      "target_mbid": "a0ab7957-3bb4-44a6-a627-095e3fa48dfd",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "ZEP",
+      "target_mbid": "eb422362-afcc-44fb-a398-bdeac3b36e8c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Zep Leppard",
+      "target_mbid": "74b19e0c-757a-4bb5-9ba4-7ede39f35b01",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Zepparella",
+      "target_mbid": "0da833c3-bd55-4178-b2b8-10c4a44c50b5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "A Night of Zeppelin",
+      "target_mbid": "9e43d1b0-e91f-4c78-8bf0-b89cfb19f181",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000139026"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/26630"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/678d88b2-87b0-403b-b63d-5da7465aecc3"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.vjez.com/"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/34278"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.led-zeppelin.org/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://music.migu.cn/v3/music/artist/880594"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/848"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:LedZeppelinmontage.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0496389/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Led+Zeppelin"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-4445/led-zeppelin/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Led-zeppelin"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/Led-Zeppelin"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/ledzeppelin"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.ledzeppelin.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n82059248"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/L/Led_Zeppelin/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13904570n"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/5066866-3"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/led-zeppelin"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1290154"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/led_zeppelin"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/led-zeppelin"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.livefans.jp/artists/21721"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/led-zeppelin/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000077690/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.progarchives.com/artist.asp?id=2705"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.spirit-of-metal.com/en/band/Led_Zeppelin"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Led-Zeppelin/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n82059248"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=Acemvtift2nm3rpqajajuvo5eva"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id994656"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/77609/all"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/gb/artist/994656"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.7digital.com/artist/led-zeppelin"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.qobuz.com/gb-en/interpreter/led-zeppelin/350774"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.cdjapan.co.jp/person/700200544"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/17"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/led-zeppelin-13d6b509.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/ledzeppelin"
+    },
+    {
+      "type": "social network",
+      "target": "https://plus.google.com/100883639395451291511"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/ledzeppelin"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/18833"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/ledzeppelin"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.co.uk/artists/B001E7BL7Y"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/994656"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/67522"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.qobuz.com/gb-en/interpreter/led-zeppelin/350774"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/149063005"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q2331"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCaKZA66vM_TUpetUNohmR0A"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCYtap7ujIPaxTS2iCDoMi3g"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "0f18ec88-aa87-38a9-8a65-f03d81763560",
+      "title": "Led Zeppelin",
+      "type": "Album",
+      "first_release_date": "1969-01-12"
+    },
+    {
+      "id": "33b4653d-006e-3cc1-8afb-386b15a6cd6e",
+      "title": "Led Zeppelin II",
+      "type": "Album",
+      "first_release_date": "1969-10-22"
+    },
+    {
+      "id": "53f80f76-f8af-3558-bfd5-e7221e055c75",
+      "title": "Led Zeppelin III",
+      "type": "Album",
+      "first_release_date": "1970-10-05"
+    },
+    {
+      "id": "2e61da88-39e9-3473-81d2-c964cb394952",
+      "title": "[Led Zeppelin IV]",
+      "type": "Album",
+      "first_release_date": "1971-11-08"
+    },
+    {
+      "id": "9b5006e5-b276-3a05-bcdd-8d986842320b",
+      "title": "Houses of the Holy",
+      "type": "Album",
+      "first_release_date": "1973-03-28"
+    },
+    {
+      "id": "116c9490-6af4-3827-8261-2d5b1f508fe7",
+      "title": "Physical Graffiti",
+      "type": "Album",
+      "first_release_date": "1975-02-24"
+    },
+    {
+      "id": "42f8acce-90fc-3471-a4cd-ace1ab816276",
+      "title": "Presence",
+      "type": "Album",
+      "first_release_date": "1976-03-31"
+    },
+    {
+      "id": "2fbf4c3e-09e5-38f0-ae59-fbdc9ea16b87",
+      "title": "In Through the Out Door",
+      "type": "Album",
+      "first_release_date": "1979-08-15"
+    },
+    {
+      "id": "61de0438-6c34-363f-904e-b4d6267c79b9",
+      "title": "Coda",
+      "type": "Album",
+      "first_release_date": "1982-11-19"
+    },
+    {
+      "id": "522f9b05-ef35-4825-bc77-da50ba34461c",
+      "title": "Архив популярной музыки №6",
+      "type": "Compilation",
+      "first_release_date": "1988"
+    },
+    {
+      "id": "92d5e425-6dff-34d7-8edf-0c82156b46b0",
+      "title": "Led Zeppelin",
+      "type": "Compilation",
+      "first_release_date": "1990-10-08"
+    },
+    {
+      "id": "115af8d3-65da-370a-b174-b42e82f470e5",
+      "title": "Remasters",
+      "type": "Compilation",
+      "first_release_date": "1990-10-15"
+    },
+    {
+      "id": "64b334da-d355-4fba-8a51-b813015a7f75",
+      "title": "Архив Популярной Музыки № 7",
+      "type": "Compilation",
+      "first_release_date": "1990-11"
+    },
+    {
+      "id": "c9f0b50d-61d5-32ae-989f-fa365dbfb3bf",
+      "title": "Whole Lotta Rock!",
+      "type": "Compilation",
+      "first_release_date": "1992"
+    },
+    {
+      "id": "2950ea2f-b2f4-3d70-99fa-d61a6512a554",
+      "title": "Boxed Set 2",
+      "type": "Compilation",
+      "first_release_date": "1993-09-06"
+    },
+    {
+      "id": "b80eafc6-74f0-365d-8776-478d6e188468",
+      "title": "The Complete Studio Recordings",
+      "type": "Compilation",
+      "first_release_date": "1993-09-28"
+    },
+    {
+      "id": "08a7dbdf-18fa-33c5-85b2-bf9114a8ef8d",
+      "title": "BBC Sessions",
+      "type": "Compilation",
+      "first_release_date": "1997-11-11"
+    },
+    {
+      "id": "6d5c316e-1dcf-30e1-ac4d-726d67a747c4",
+      "title": "Early Days: The Best of Led Zeppelin, Volume One",
+      "type": "Compilation",
+      "first_release_date": "1999-11-23"
+    },
+    {
+      "id": "d9d3b39a-c55b-31b4-84de-f423da4c39b0",
+      "title": "Latter Days: The Best of Led Zeppelin, Volume Two",
+      "type": "Compilation",
+      "first_release_date": "2000-03-21"
+    },
+    {
+      "id": "0994b340-aa7c-45b9-91c3-379f8b6ac0a7",
+      "title": "Early Days & Latter Days: The Best of Led Zeppelin, Volumes One and Two",
+      "type": "Compilation",
+      "first_release_date": "2002-11-19"
+    },
+    {
+      "id": "fadd0405-9ba3-496b-890c-ad250336f3c2",
+      "title": "Led Zeppelin",
+      "type": "Compilation",
+      "first_release_date": "2006-07"
+    },
+    {
+      "id": "25b1892a-c518-3871-86b8-20071a42a563",
+      "title": "Definitive Collection",
+      "type": "Compilation",
+      "first_release_date": "2008-09-10"
+    },
+    {
+      "id": "87ac6730-6a50-408e-839d-002a7685df6c",
+      "title": "An Introduction to Led Zeppelin",
+      "type": "Compilation",
+      "first_release_date": "2018-09-27"
+    },
+    {
+      "id": "07e182ae-6567-4bc4-90f0-73619c942d73",
+      "title": "Led Zeppelin x Led Zeppelin",
+      "type": "Compilation",
+      "first_release_date": "2018-09-27"
+    },
+    {
+      "id": "ce0cca72-d865-30b9-9667-47241049fd18",
+      "title": "The Song Remains the Same",
+      "type": "Compilation",
+      "first_release_date": "1976-09-28"
+    }
+  ],
+  "tracks": {
+    "0f18ec88-aa87-38a9-8a65-f03d81763560": [
+      {
+        "id": "3f7e04ef-822a-412a-8fc7-669dcee6dbfa",
+        "title": "Good Times Bad Times",
+        "position": "1",
+        "length": "166160",
+        "work": {
+          "id": "9bbdbd7f-3b4d-33db-8a07-8b53b72293f7",
+          "title": "Good Times Bad Times",
+          "composers": [
+            {
+              "name": "John Bonham",
+              "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+            },
+            {
+              "name": "John Paul Jones",
+              "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7c5a7d3b-fcc0-4c88-8798-5f34fe2be0f3",
+        "title": "Babe I’m Gonna Leave You",
+        "position": "2",
+        "length": "401466",
+        "work": {
+          "id": "cfa697fc-2fa9-3cfd-b169-b29cf831faaf",
+          "title": "Babe I’m Gonna Leave You",
+          "composers": [
+            {
+              "name": "Anne Bredon",
+              "mbid": "8b32e37f-020c-4515-bf82-c26b7d7f974b"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b75129df-a8bb-47e1-9bca-3d5c04eceb1a",
+        "title": "You Shook Me",
+        "position": "3",
+        "length": "388000",
+        "work": {
+          "id": "eed98f33-d536-37c9-a838-22f5ad947837",
+          "title": "You Shook Me",
+          "composers": [
+            {
+              "name": "Willie Dixon",
+              "mbid": "ff4c8d42-4871-4778-885b-d41b01245133"
+            },
+            {
+              "name": "J.B. Lenoir",
+              "mbid": "29b9edaa-058f-489a-b54a-73cc3627661c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "553510ce-68dd-4e85-9e8c-eafb23d43bab",
+        "title": "Dazed and Confused",
+        "position": "4",
+        "length": "387000",
+        "work": {
+          "id": "324e9a98-a968-3f27-b274-4bccc2ebe0c8",
+          "title": "Dazed and Confused",
+          "composers": [
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Jake Holmes",
+              "mbid": "e1c69c84-5941-4c57-a041-2808d4d88db4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "500207e6-60cc-4272-af6a-74716e9d0608",
+        "title": "Your Time Is Gonna Come",
+        "position": "5",
+        "length": "274733",
+        "work": {
+          "id": "e12dc3de-ed8a-3d7f-a473-b67f454f147c",
+          "title": "Your Time Is Gonna Come",
+          "composers": [
+            {
+              "name": "John Paul Jones",
+              "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b6993ace-4af4-4bb7-959b-afb3b6719c3d",
+        "title": "Black Mountain Side",
+        "position": "6",
+        "length": "132573",
+        "work": {
+          "id": "2984fe19-95e4-321b-babc-34c4cde17ba6",
+          "title": "Black Mountain Side",
+          "composers": [
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1a10c3d7-438e-4f6c-b10f-b02c4e9bad6e",
+        "title": "Communication Breakdown",
+        "position": "7",
+        "length": "149000",
+        "work": {
+          "id": "d335c181-eff5-3165-81d9-dadd03c91e7e",
+          "title": "Communication Breakdown",
+          "composers": [
+            {
+              "name": "John Bonham",
+              "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+            },
+            {
+              "name": "John Paul Jones",
+              "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c7b621be-68bb-4061-9c35-30b177f0eb67",
+        "title": "I Can’t Quit You Baby",
+        "position": "8",
+        "length": "282440",
+        "work": {
+          "id": "6d995058-8387-333c-8c5c-71a1b3dc6011",
+          "title": "I Can’t Quit You Baby",
+          "composers": [
+            {
+              "name": "Willie Dixon",
+              "mbid": "ff4c8d42-4871-4778-885b-d41b01245133"
+            }
+          ]
+        }
+      },
+      {
+        "id": "812dc552-2045-4f02-960c-840eadc27db7",
+        "title": "How Many More Times",
+        "position": "9",
+        "length": "508693",
+        "work": {
+          "id": "f38484b2-f85c-36b9-b0f9-ce5cd9ae4bda",
+          "title": "How Many More Times",
+          "composers": [
+            {
+              "name": "John Bonham",
+              "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+            },
+            {
+              "name": "John Paul Jones",
+              "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      }
+    ],
+    "33b4653d-006e-3cc1-8afb-386b15a6cd6e": [
+      {
+        "id": "9d9c8206-8b4c-45fc-8f12-ffc1940b2b7f",
+        "title": "Whole Lotta Love",
+        "position": "1",
+        "length": "334053",
+        "work": {
+          "id": "36df44f5-7cad-37ee-9aae-89a5c58dfb07",
+          "title": "Whole Lotta Love",
+          "composers": [
+            {
+              "name": "John Bonham",
+              "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+            },
+            {
+              "name": "John Paul Jones",
+              "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edf5afb6-7c9b-403d-aad9-6e5323711cc9",
+        "title": "What Is and What Should Never Be",
+        "position": "2",
+        "length": "285826",
+        "work": {
+          "id": "8edcd65a-452e-3819-969e-02039ed2c482",
+          "title": "What Is and What Should Never Be",
+          "composers": [
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d79553cf-a4f5-494f-adb5-be841567e6d2",
+        "title": "The Lemon Song",
+        "position": "3",
+        "length": "379640",
+        "work": {
+          "id": "7d09a1ff-c459-3730-82e2-80b27d4ba124",
+          "title": "The Lemon Song",
+          "composers": [
+            {
+              "name": "John Bonham",
+              "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+            },
+            {
+              "name": "Howlin’ Wolf",
+              "mbid": "ca5b38c2-f39d-45a4-ad3d-daf4448846ef"
+            },
+            {
+              "name": "John Paul Jones",
+              "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e21defb3-82b7-481a-a457-63ce2329feaa",
+        "title": "Thank You",
+        "position": "4",
+        "length": "289320",
+        "work": {
+          "id": "975c64de-9161-3161-9729-3a2e0e938d78",
+          "title": "Thank You",
+          "composers": [
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a642c527-692e-4466-a734-bf30d0170ece",
+        "title": "Heartbreaker",
+        "position": "5",
+        "length": "254093",
+        "work": {
+          "id": "b41829d6-9af7-3159-a8ce-fca057a1bbfe",
+          "title": "Heartbreaker",
+          "composers": [
+            {
+              "name": "John Bonham",
+              "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+            },
+            {
+              "name": "John Paul Jones",
+              "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7895202a-b37a-4d54-8bcb-1678a6e3ec23",
+        "title": "Living Loving Maid (She's Just a Woman)",
+        "position": "6",
+        "length": "159306",
+        "work": {
+          "id": "9aa319e5-6ddf-3dc8-9b74-5e1e465e2b03",
+          "title": "Living Loving Maid (She’s Just a Woman)",
+          "composers": [
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "01c2ce15-bc8b-4629-825d-03d0f24d90bb",
+        "title": "Ramble On",
+        "position": "7",
+        "length": "264000",
+        "work": {
+          "id": "ff2dd223-0bed-3b8c-a92c-c047a81272f2",
+          "title": "Ramble On",
+          "composers": [
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dce2ef42-e12c-4c0f-ab27-b69495c3a41e",
+        "title": "Moby Dick",
+        "position": "8",
+        "length": "260914",
+        "work": {
+          "id": "2f5a6c59-d6b4-3bb7-9134-0fee120e3209",
+          "title": "Moby Dick",
+          "composers": [
+            {
+              "name": "John Bonham",
+              "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+            },
+            {
+              "name": "John Paul Jones",
+              "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "71c2acbb-c5ff-4677-ab7b-525ee2f70c66",
+        "title": "Bring It On Home",
+        "position": "9",
+        "length": "260706",
+        "work": {
+          "id": "60631848-81df-3413-9262-826f319aea70",
+          "title": "Bring It On Home",
+          "composers": [
+            {
+              "name": "Willie Dixon",
+              "mbid": "ff4c8d42-4871-4778-885b-d41b01245133"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ]
+        }
+      }
+    ],
+    "53f80f76-f8af-3558-bfd5-e7221e055c75": [
+      {
+        "id": "2cfad207-3f55-4aec-8120-86cf66e34d59",
+        "title": "Immigrant Song",
+        "position": "1",
+        "length": "145666",
+        "work": {
+          "id": "b38119e8-260f-372c-a1ca-653d02b5577c",
+          "title": "Immigrant Song",
+          "composers": [
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c3af47c6-0731-4d48-9460-5388536af4f2",
+        "title": "Friends",
+        "position": "2",
+        "length": "233666",
+        "work": {
+          "id": "f6d8c108-1f66-3dc0-9767-573fe66a2835",
+          "title": "Friends",
+          "composers": [
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b7715ccb-5a99-4fab-bd56-065d50ec8de0",
+        "title": "Celebration Day",
+        "position": "3",
+        "length": "209000",
+        "work": {
+          "id": "9585bdc9-0063-3e62-807d-889b0ce2e6d0",
+          "title": "Celebration Day",
+          "composers": [
+            {
+              "name": "John Paul Jones",
+              "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d9c83399-5c8a-4c66-804b-95ad757c8f1b",
+        "title": "Since I’ve Been Loving You",
+        "position": "4",
+        "length": "444000",
+        "work": {
+          "id": "653cff78-c53c-3ccd-a374-99c4ab19f896",
+          "title": "Since I’ve Been Loving You",
+          "composers": [
+            {
+              "name": "John Paul Jones",
+              "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f204cea2-3378-49b2-97f6-b4a6133caeea",
+        "title": "Out on the Tiles",
+        "position": "5",
+        "length": "245626",
+        "work": {
+          "id": "3070ec4f-6e8c-3b3d-80bf-6d75dc38d8d7",
+          "title": "Out on the Tiles",
+          "composers": [
+            {
+              "name": "John Bonham",
+              "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "32735fcb-3c8b-4bdd-80da-8e134815805d",
+        "title": "Gallows Pole",
+        "position": "6",
+        "length": "296133",
+        "work": {
+          "id": "b9c5ad2d-8a39-380d-9503-1b57662dbe64",
+          "title": "Gallows Pole",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fb4fb393-c05d-41fb-a303-c8a8f228e58e",
+        "title": "Tangerine",
+        "position": "7",
+        "length": "190333",
+        "work": {
+          "id": "825faa21-9413-3c52-8aa5-61c36b9e11a1",
+          "title": "Tangerine",
+          "composers": [
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f51ca7d1-5339-4c59-a827-1b651e216812",
+        "title": "That’s the Way",
+        "position": "8",
+        "length": "337000",
+        "work": {
+          "id": "ff171946-afd5-365b-b6f3-f5ce5564e7d9",
+          "title": "That’s the Way",
+          "composers": [
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3cb9fc23-e3b0-4c56-8936-0aaa4973e8e7",
+        "title": "Bron‐Yr‐Aur Stomp",
+        "position": "9",
+        "length": "257373",
+        "work": {
+          "id": "8f022c46-455a-3d72-b014-c4ed8fdf9dab",
+          "title": "Bron‐Yr‐Aur Stomp",
+          "composers": [
+            {
+              "name": "John Paul Jones",
+              "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dc7dc185-0f78-4422-841e-0c381826e0f2",
+        "title": "Hats Off to (Roy) Harper",
+        "position": "10",
+        "length": "221000",
+        "work": {
+          "id": "cfccf1bd-5e22-38b9-be90-a985ef1a8a9f",
+          "title": "Hats Off to (Roy) Harper",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 34278,
+  "wikidata_id": "Q2331"
+}

@@ -1,0 +1,78 @@
+{
+  "id": 529221,
+  "name": "Dominguinhos",
+  "realname": "José Domingos de Morais",
+  "profile": "Brazilian accordionist, songwriter and master of the Forró.  He was born February 12th, 1941 in Garanhuns, Brazil.  He died on July 23rd, 2013 in São Paulo, Brazil.",
+  "members": [],
+  "groups": [
+    {
+      "name": "Dominguinhos & Convidados",
+      "id": 2828660,
+      "active": true
+    },
+    {
+      "name": "Dominguinhos - Anastácia",
+      "id": 4372659,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Folk, World, & Country",
+    "Latin"
+  ],
+  "styles": [
+    "Baião",
+    "Choro",
+    "Forró"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Latin",
+      "style": "Forró"
+    },
+    {
+      "genre": "Latin",
+      "style": "Baião"
+    },
+    {
+      "genre": "Latin",
+      "style": "Forró"
+    },
+    {
+      "genre": "Latin",
+      "style": "Baião"
+    },
+    {
+      "genre": "Latin",
+      "style": "Choro"
+    },
+    {
+      "genre": "Latin",
+      "style": "Forró"
+    },
+    {
+      "genre": "Latin",
+      "style": "Baião"
+    },
+    {
+      "genre": "Latin",
+      "style": "Forró"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Baião"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Forró"
+    },
+    {
+      "genre": "Latin",
+      "style": "Baião"
+    },
+    {
+      "genre": "Latin",
+      "style": "Forró"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "subject": "Youssou N'Dour",
+    "predicate": "alterEgo",
+    "object": "Youssou Madjigu\u00e8ne Ndour"
+  },
+  {
+    "subject": "Youssou N'Dour",
+    "predicate": "hasGenre",
+    "object": "mbalax"
+  },
+  {
+    "subject": "Youssou N'Dour",
+    "predicate": "pioneerOf",
+    "object": "mbalax"
+  },
+  {
+    "subject": "mbalax",
+    "predicate": "hasGenre",
+    "object": "Serer music njuup"
+  }
+]

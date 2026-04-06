@@ -1,0 +1,107 @@
+[
+  {
+    "subject": "Thomas Bangalter",
+    "predicate": "memberOf",
+    "object": "Daft Punk"
+  },
+  {
+    "subject": "Guy-Manuel de Homem-Christo",
+    "predicate": "memberOf",
+    "object": "Daft Punk"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "hasGenre",
+    "object": "electronic music"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "hasGenre",
+    "object": "house music"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "hasGenre",
+    "object": "funk"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "hasGenre",
+    "object": "disco"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "hasGenre",
+    "object": "techno"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "hasGenre",
+    "object": "rock"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "hasGenre",
+    "object": "synth-pop"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "hasMusicalPeriod",
+    "object": "French house movement"
+  },
+  {
+    "subject": "Darlin'",
+    "predicate": "hasMember",
+    "object": "Thomas Bangalter"
+  },
+  {
+    "subject": "Darlin'",
+    "predicate": "hasMember",
+    "object": "Guy-Manuel de Homem-Christo"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "released",
+    "object": "Homework"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "released",
+    "object": "Discovery"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "released",
+    "object": "Human After All"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "released",
+    "object": "Alive 2007"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "released",
+    "object": "Random Access Memories"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "alterEgo",
+    "object": "robot personas"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "composed",
+    "object": "Tron: Legacy"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "collaboratedWith",
+    "object": "The Weeknd"
+  },
+  {
+    "subject": "Daft Punk",
+    "predicate": "founded",
+    "object": "Daft Punk"
+  }
+]

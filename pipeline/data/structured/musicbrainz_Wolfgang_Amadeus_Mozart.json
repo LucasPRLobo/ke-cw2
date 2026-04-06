@@ -1,0 +1,1267 @@
+{
+  "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75",
+  "name": "Wolfgang Amadeus Mozart",
+  "type": "Person",
+  "country": "AT",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1756-01-27",
+    "end": "1791-12-05",
+    "ended": "true"
+  },
+  "area": "Austria",
+  "begin_area": "Salzburg",
+  "tags": [
+    {
+      "name": "austrian",
+      "count": "6"
+    },
+    {
+      "name": "austrian composer",
+      "count": "1"
+    },
+    {
+      "name": "classical",
+      "count": "21"
+    },
+    {
+      "name": "classical period",
+      "count": "5"
+    },
+    {
+      "name": "complete violin wind",
+      "count": "1"
+    },
+    {
+      "name": "composer",
+      "count": "7"
+    },
+    {
+      "name": "composers",
+      "count": "1"
+    },
+    {
+      "name": "composition",
+      "count": "1"
+    },
+    {
+      "name": "european",
+      "count": "2"
+    },
+    {
+      "name": "german",
+      "count": "1"
+    },
+    {
+      "name": "opera",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Constanze Mozart",
+      "target_mbid": "d3c03d48-c2cb-4eed-8dbc-a38731f07f0e",
+      "attributes": [],
+      "begin": "1782-08-04",
+      "end": "1791-12-05"
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Amadeus Quartet",
+      "target_mbid": "7bf0b7e0-ce0b-411e-9977-aed8e67172a1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Génération Mozart",
+      "target_mbid": "37de41e0-59d3-4560-8bbc-aa5e50c47137",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Mozart, l’opéra rock",
+      "target_mbid": "e0815132-4d1b-4f3a-b738-0fe8f6d223f9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Wiener Mozart-Trio",
+      "target_mbid": "d9cb10c3-f268-49af-ade7-437101e2f36f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Leopold Mozart",
+      "target_mbid": "45993ba5-2083-4011-8d76-9497067bd092",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Karl Thomas Mozart",
+      "target_mbid": "0ae85ff1-6ae4-4339-8764-309519bb7ebe",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Franz Xaver Wolfgang Mozart",
+      "target_mbid": "dd7685f4-1e81-4da7-80a0-30299e94a9ab",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Johann Ernst Eberlin",
+      "target_mbid": "e5645679-7376-4ffc-b2d8-00ebf0ce66d5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Johann Nepomuk Hummel",
+      "target_mbid": "f7ef501b-2bc0-4083-ac52-3518255883a2",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Christian Danner",
+      "target_mbid": "e37f610f-6540-41b7-b45c-aec5f2e3327f",
+      "attributes": [
+        "classical music",
+        "violin"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Ignaz von Seyfried",
+      "target_mbid": "a083eabe-4873-4d92-86b5-f4b0f540bd2c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Thomas Attwood",
+      "target_mbid": "773fc828-dcab-4781-b389-d263441c4cdf",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Franziska Jacquin",
+      "target_mbid": "50076bfc-ca8f-4150-afc9-872144713f5f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Franz Jakob Freystädtler",
+      "target_mbid": "9140f046-d57e-4643-9d08-ba094988f9e9",
+      "attributes": [
+        "composition"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Mozart, l’opéra rock",
+      "target_mbid": "e0815132-4d1b-4f3a-b738-0fe8f6d223f9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000026350"
+    },
+    {
+      "type": "art gallery",
+      "target": "https://fanart.tv/artist/b972f589-fb0e-474e-b64a-803b0364fa75/wolfgang-amadeus-mozart/"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/55908"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/b972f589-fb0e-474e-b64a-803b0364fa75"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.pbs.org/wnet/gperf/education/mozart.html"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/95546"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/4NJhFmfw43RLBLjQvxDuRS"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/5695"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Croce-Mozart-Detail.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0003665/"
+    },
+    {
+      "type": "IMSLP",
+      "target": "https://imslp.org/wiki/Category:Mozart,_Wolfgang_Amadeus"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Wolfgang+Amadeus+Mozart"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Wolfgang-amadeus-mozart"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n80022788"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Composition/Composers/M/Mozart,_Wolfgang_Amadeus/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://adp.library.ucsb.edu/names/102711"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb14027233b"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118584596"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=485475"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6h41q6m"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-927318"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL5017833A"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/30/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/wolfgang_amadeus_mozart"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rism.online/people/115324"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.animenewsnetwork.com/encyclopedia/people.php?id=64140"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/wolfgang-amadeus-mozart/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n80022788"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/artist/id12374"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/at/artist/id12374"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/at/artist/12374"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000APY3QW"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/wolfgang-amadeus-mozart-5bd4d3b4.html"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/8344253"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/mozart"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/at/artist/12374"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/3518587"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/174"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/32197206"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q254"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCmeFxYk5BSbJGWN9OgTAIhw"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "1ff848cd-a656-4b4a-91b8-1ed783f75690",
+      "title": "Vivaldi: Concerto grosso in D minor, op. 3 no. 11 / Mozart: Divertimento in D major, K. 251",
+      "type": "Album",
+      "first_release_date": "1950"
+    },
+    {
+      "id": "a9c22edd-bf54-3505-ab1f-f6afd8554777",
+      "title": "Le nozze di Figaro",
+      "type": "Album",
+      "first_release_date": "1951"
+    },
+    {
+      "id": "e1f2e320-2290-4abe-af4a-e1f66088ff81",
+      "title": "Die Zauberflöte",
+      "type": "Album",
+      "first_release_date": "1952-12"
+    },
+    {
+      "id": "bc25bf30-cfd2-36bd-baa1-123a76339890",
+      "title": "Horn Concertos",
+      "type": "Album",
+      "first_release_date": "1954-11"
+    },
+    {
+      "id": "28feace5-6959-47ce-a037-ed83dcf3c40f",
+      "title": "Concerto in C major for Flute, Harp and Orchestra (K. 299) / Concerto no. 1 in G major for Flute and Orchestra (K. 313)",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "49af3df6-849a-412f-a8cf-4b15d66a1da8",
+      "title": "Gloria / Exultate Jubilate",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "2179df55-6175-4fcf-885e-093ba0b9ce88",
+      "title": "Le nozze di Figaro di Wolfgang Amadeus Mozart",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "5469fd3e-dd03-411a-9ca4-9f177c64d7a9",
+      "title": "Concerto 23 la majeur K.488",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "e8f93830-36ed-3a6c-b741-18b8c8911ad5",
+      "title": "Così fan tutte",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "c7f31ac3-d344-3874-b0cc-73792c09eeff",
+      "title": "Die Zauberflöte",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "29f6a059-c0a5-4510-aad9-d25aae632903",
+      "title": "Die Zauberflöte",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "8283577a-3425-46ef-8424-07d0b29acd9c",
+      "title": "Toccata en fa majeur / Concerto pour 2 trompettes en ut / Sonate en fa dièse, op. 78, « À Thérèse » / Symphonie n° 26 en mi bémol (K. 184) / Fantaisie‐impromptu, op. 66 / Carnaval romain, Ouverture",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "45b764cc-fbed-46b5-9d85-a3a0589c475f",
+      "title": "Symphonie N°41 \"Jupiter\"",
+      "type": "Album",
+      "first_release_date": "1956-03"
+    },
+    {
+      "id": "a0a4e94f-307c-4665-b13b-f97f269e0943",
+      "title": "Mendelssohn & Mozart: Violin Concertos (remastered)",
+      "type": "Album",
+      "first_release_date": "1956-04-16"
+    },
+    {
+      "id": "1815604e-fa1b-4ae3-9c62-db1d6ac0f01e",
+      "title": "Symphonies nos. 40 & 41",
+      "type": "Album",
+      "first_release_date": "1956-10-15"
+    },
+    {
+      "id": "a9704e80-5119-4936-8e63-c10c96c18711",
+      "title": "Complete String Quintets",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "90c6d372-147f-4657-946c-a600480a97fc",
+      "title": "Concerto pour flûte et harpe / Divertissement n° 11",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "9484908e-5eee-4c1c-9daf-dcaa690331bd",
+      "title": "Requiem Mass in D minor, K. 626",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "a335d8ba-bb01-4e2e-89bc-c84220f8ed95",
+      "title": "Sérénade N° 7 en ré majeur / (K. V. 250) / Sérénade Haffner /",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "fecf327e-e894-4ee6-a0eb-44a96b75ee45",
+      "title": "The Last Quartets of Mozart, Volume I",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "bc107c57-5801-4b0f-bd86-eb77357396c4",
+      "title": "The Last Quartets of Mozart, Volume II",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "84dc4267-bc4f-4892-830a-5e18b930e04c",
+      "title": "Sonata no. 15 in C major (K.545) (‘Sonate Facile’) / Sonata no. 11 in A major (K.331) / Sonata no. 13 in B flat major (K.333)",
+      "type": "Album",
+      "first_release_date": "1957-05"
+    },
+    {
+      "id": "0f23af79-5af7-481a-bb45-51154e8b608e",
+      "title": "Concerti",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "39feb336-cff3-4715-b94d-4b08ace70c43",
+      "title": "Piano Concertos: nos. 19 & 27 / Piano Sonata K. 280",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "5a96a8d0-f299-4bf4-94d4-a2ea2a046616",
+      "title": "Don Giovanni",
+      "type": "Album",
+      "first_release_date": "1958-06"
+    }
+  ],
+  "tracks": {
+    "1ff848cd-a656-4b4a-91b8-1ed783f75690": [
+      {
+        "id": "d5e082b7-3355-4a8e-9e5f-6990dc2b312c",
+        "title": "Concerto grosso in D minor, op. 3 no. 11: 1st Movement: Allegro",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "d420292b-949f-4fee-a842-3da3d44551d6",
+          "title": "Concerto in D minor for Two Violins, Cello and Strings, op. 3 no. 11, RV 565: I. Allegro – Adagio e spiccato – Allegro",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ea6a1094-d630-4de5-9383-2b1f1dbb4809",
+        "title": "Concerto grosso in D minor, op. 3 no. 11: 2nd Movemetn: Largo",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "bdc05750-cdd7-412e-976b-60c90a92190c",
+          "title": "Concerto in D minor for Two Violins, Cello and Strings, op. 3 no. 11, RV 565: II. Largo e spiccato",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7539bb4a-e1af-4a71-bada-c70d1990596e",
+        "title": "Concerto grosso in D minor, op. 3 no. 11: 3rd Movement: Allegro",
+        "position": "3",
+        "length": null,
+        "work": {
+          "id": "576443c9-2e4d-4275-bf75-9c1d065b7920",
+          "title": "Concerto in D minor for Two Violins, Cello and Strings, op. 3 no. 11, RV 565: III. Allegro",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6fb6ef17-2cb2-4f86-a851-2430f766cb19",
+        "title": "Divertimento in D major, K. 251: 1st Movement: Allegro molto",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "4650ce82-519a-3e6f-ab32-82e634f268c0",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": I. Allegro molto",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bcabece9-9d57-4460-8ee6-ffcf320881f9",
+        "title": "Divertimento in D major, K. 251: 2nd Movement: Menuetto",
+        "position": "5",
+        "length": null,
+        "work": {
+          "id": "1493f993-e75a-3e90-bf1d-fec2a235d48f",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": II. Minuetto",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "27988a95-b112-4de0-9c72-14c90a018f12",
+        "title": "Divertimento in D major, K. 251: 3rd Movement: Andantino",
+        "position": "6",
+        "length": null,
+        "work": {
+          "id": "81258b8f-9c6b-31be-96f0-f02303bb75a0",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": III. Andantino",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "df00511e-0922-46e1-b7f2-509e4bab179e",
+        "title": "Divertimento in D major, K. 251: 4th Movement: Menuetto",
+        "position": "7",
+        "length": null,
+        "work": {
+          "id": "187bdb5f-5118-3729-9112-69b25756a0db",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": IV. Minuetto",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "24981c78-9467-45e1-b6a9-5757f334cffd",
+        "title": "Divertimento in D major, K. 251: 5th Movement: Rondo",
+        "position": "8",
+        "length": null,
+        "work": {
+          "id": "870580d5-4c56-31c7-b919-ae6dcd0d3a69",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": V. Rondeau",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4f2b0fe6-4e8f-4fe2-9283-e0dcc1c2c564",
+        "title": "Divertimento in D major, K. 251: 6th Movement: Marcia alla francese",
+        "position": "9",
+        "length": null,
+        "work": {
+          "id": "4d83ee29-4ae5-322f-ae40-442a6585b1d8",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": VI. Marcia alla francese",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      }
+    ],
+    "a9c22edd-bf54-3505-ab1f-f6afd8554777": [
+      {
+        "id": "6b1c1071-0ee4-4bf1-bf7c-976fbdda0a68",
+        "title": "Le Nozze di Figaro: Act I: Duetto: Cinque ... dieci ... venti",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "dba3d37e-6d4f-394c-b23b-68e478671cf6",
+          "title": "Le nozze di Figaro, K. 492: Atto I, Scena I. (no. 1) Duetto “Cinque… dieci… Venti… trenta…” (Figaro, Susanna)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8851050a-4f83-4a36-982c-0fb65b4c548b",
+        "title": "Le Nozze di Figaro: Act I: Duettino: Se a caso madama",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "9c7c551d-8245-3b69-a558-54aee9fc008a",
+          "title": "Le nozze di Figaro, K. 492: Atto I, Scena I. (no. 2) Duettino “Se a caso madama la notte ti chiama” (Figaro, Susanna)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ea3cd719-f7ce-4e6a-97bb-e0af27e2cf10",
+        "title": "Le Nozze di Figaro: Act I: Cavatina: Se vuol ballare",
+        "position": "3",
+        "length": null,
+        "work": {
+          "id": "4f301be0-3592-318f-a49e-0a784700751d",
+          "title": "Le nozze di Figaro, K. 492: Atto I, Scena II. (no. 3) Cavatina “Se vuol ballare, signor Contino” (Figaro)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2a052411-10bf-499f-88e6-1e7d05cf34c0",
+        "title": "Le Nozze di Figaro: Act I: Aria: La vendetta",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "a8d7eb11-801e-3ccc-b8c4-dfc039b8bee9",
+          "title": "Le nozze di Figaro, K. 492: Atto I, Scena III. (no. 4) Aria “La vendetta, oh, la vendetta” (Bartolo)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d1ed0c49-871a-4628-b4ca-258233736593",
+        "title": "Le Nozze di Figaro: Act I: Duettino: Via resti servita",
+        "position": "5",
+        "length": null,
+        "work": {
+          "id": "6776b450-f02d-3417-8fc2-25b4747a2c7b",
+          "title": "Le nozze di Figaro, K. 492: Atto I, Scena IV. (no. 5) Duettino “Via, resti servita, madama brillante” (Marcellina, Susanna)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b7d0ad77-1c6d-4a5a-b184-45c8f74f8018",
+        "title": "Le Nozze di Figaro: Act I: Aria: Non so piu",
+        "position": "6",
+        "length": null,
+        "work": {
+          "id": "7c8872d8-37ed-3642-ac1d-1801d9857235",
+          "title": "Le nozze di Figaro, K. 492: Atto I, Scena V. (no. 6) Aria “Non so più cosa son, cosa faccio” (Cherubino)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7c866f43-bde4-41bc-bdd0-034ba7efe039",
+        "title": "Le Nozze di Figaro: Act I: Terzetto: Cosa sento 1",
+        "position": "7",
+        "length": null,
+        "work": {
+          "id": "7aa0645b-ce42-3e87-9f75-4b81d2cf1c9d",
+          "title": "Le nozze di Figaro, K. 492: Atto I, Scena VII. (no. 7) Terzetto “Cosa sento! tosto andante” (Il Conte, Basilio, Susanna)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d9b285ed-507c-4652-a5e5-a47edde88b84",
+        "title": "The Marriage of Figaro: Act 1: Chorus",
+        "position": "8",
+        "length": null,
+        "work": {
+          "id": "d775da05-6001-42a3-a1f9-f5936016790b",
+          "title": "Le nozze di Figaro, K. 492: Atto I",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fd972c34-0f9b-42e9-a906-4ca5f890ffa8",
+        "title": "Le Nozze di Figaro: Act 1: Aria: Non piu andrai",
+        "position": "9",
+        "length": null,
+        "work": {
+          "id": "bcc79df6-e116-38cc-96ce-5b4e4a41cad4",
+          "title": "Le nozze di Figaro, K. 492: Atto I, Scena VIII. (no. 10) Aria “Non più andrai, farfallone amoroso” (Figaro)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0277cb99-22cf-4cb0-8098-3f2cd161da46",
+        "title": "Le Nozze di Figaro: Act 2: Cavatina: Porgi amor",
+        "position": "10",
+        "length": null,
+        "work": {
+          "id": "ca3f63c1-4660-3344-bb12-c124dfe13411",
+          "title": "Le nozze di Figaro, K. 492: Atto II, Scena I. (no. 11) Cavatina “Porgi, amor qualche ristoro” (La Contessa)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "149415f4-d24a-4031-993c-d92175202229",
+        "title": "Le Nozze di Figaro: Act 2: Canzono: Voi che sapete",
+        "position": "11",
+        "length": null,
+        "work": {
+          "id": "ca017173-6247-3533-949a-90a0d679b060",
+          "title": "Le nozze di Figaro, K. 492: Atto II, Scena II. (no. 12) Canzona “Voi che sapete che cosa è amor” (Cherubino)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4a1a5655-49f8-49d8-b05c-6332d9d439ff",
+        "title": "Le Nozze di Figaro: Act 2: Aria: venite inginocchiatevi",
+        "position": "12",
+        "length": null,
+        "work": {
+          "id": "0d58a983-1e7f-331d-b56f-0a4fb597ba84",
+          "title": "Le nozze di Figaro, K. 492: Atto II, Scena II. (no. 13) Aria “Venite… inginocchiatevi…” (Susanna)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0fbb3ce6-170f-4b71-951d-b70fbdec8c00",
+        "title": "Le Nozze di Figaro: Act 2: Terzetto: Susanna, or via sortite",
+        "position": "13",
+        "length": null,
+        "work": {
+          "id": "da7ed47d-9b17-3c73-8fa9-cc966a4d43ee",
+          "title": "Le nozze di Figaro, K. 492: Atto II, Scena III. (no. 14) Terzetto “Susanna or via, sortite” (Il Conte, La Contessa, Susanna)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0a6d8c09-92e9-4460-893f-1edb814023e4",
+        "title": "Le Nozze di Figaro: Act 2: Duetto: Aprite, presto",
+        "position": "14",
+        "length": null,
+        "work": {
+          "id": "30c49319-00e8-3c46-8070-b14e91cb8ffe",
+          "title": "Le nozze di Figaro, K. 492: Atto II, Scena IV. (no. 15) Duettino “Aprite, presto, aprite” (Susanna, Cherubino)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "377aef7e-14f0-4673-a00d-285b3ded5db7",
+        "title": "The Marriage of Figaro: Act II: Finale",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "a2c04374-01b9-47a5-9e05-2691e9382329",
+          "title": "Le nozze di Figaro, K. 492: Atto II",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1213b2db-c824-43d3-b5f3-b9918274a533",
+        "title": "Le Nozze di Figaro: Act 3: Duetto: Crudel! perche finora",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "8ac35095-3460-369f-ba34-df2d11fa8b10",
+          "title": "Le nozze di Figaro, K. 492: Atto III, Scena II. (no. 17) Duetto “Crudel! Perché finora farmi languir così?” (Il Conte, Susanna)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "17325868-07de-4451-8008-bcf7f9ca14e8",
+        "title": "The Marriage of Figaro: Act III: Recit. & Aria: Hai Gia Vinto La Causa! - Vedro, Mentr'io",
+        "position": "3",
+        "length": null,
+        "work": {
+          "id": "46202eaf-1b07-409e-b324-a8129f9cebbe",
+          "title": "Le nozze di Figaro, K. 492: Atto III",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7320013b-bdf7-4063-951e-81e91d51e206",
+        "title": "Le Nozze di Figaro: Act 3: Sextetto: Riconosci in questo amplesso",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "09a52bf4-fa49-3fc3-8c58-e76722f847f1",
+          "title": "Le nozze di Figaro, K. 492: Atto III, Scena V. (no. 19) Sestetto “Riconosci in questo amplesso” (Susanna, Marcellina, Don Curzio, Il Conte, Bartolo, Figaro)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0427c1f5-e7ea-4ad4-a5f8-8a1a72df7080",
+        "title": "Le Nozze di Figaro: Act 3: Recit.: E Susanna non vien! / Aria: Dove sono",
+        "position": "5",
+        "length": null,
+        "work": {
+          "id": "4e0ed20f-3ee2-3908-b934-6cee2894679e",
+          "title": "Le nozze di Figaro, K. 492: Atto III, Scena VI. (no. 20) Aria “Dove sono i bei momenti” (La Contessa)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "11313fe9-2f27-4c61-90ff-1d7ff3569063",
+        "title": "Le Nozze di Figaro: Act 3: Duetto: Sull' aria",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "6ca3e245-d8e5-32e8-9d5a-34719830e1aa",
+          "title": "Le nozze di Figaro, K. 492: Atto III, Scena X. (no. 21) Duettino “Sull’aria… che soave zeffiretto” (La Contessa, Susanna)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d8beea7b-0987-4921-99e1-cfb07e34fe01",
+        "title": "Le Nozze di Figaro: Act 3: Riceveto, o padroncina",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "f0882f4a-81d7-3ad8-9ff0-39603bc29e51",
+          "title": "Le nozze di Figaro, K. 492: Atto III, Scena XI. (no. 22) Coro “Ricevete, oh padroncina” (Figaro, Susanna, Il Conte, La Contessa, Due Ragazze)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8e46d30f-8f40-4336-9849-8ed75bd264cb",
+        "title": "The Marriage of Figaro: Act III: Finale",
+        "position": "3",
+        "length": null,
+        "work": {
+          "id": "46202eaf-1b07-409e-b324-a8129f9cebbe",
+          "title": "Le nozze di Figaro, K. 492: Atto III",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "25a3c286-2660-4948-90a3-944b25cf01b1",
+        "title": "Le Nozze di Figaro: Act 4: Cavatina: L'ho perduta",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "f2fb5ceb-95cc-39bc-956d-d686f58bcf72",
+          "title": "Le nozze di Figaro, K. 492: Atto IV, Scena I. (no. 24) Cavatina “L’ho perduta… me meschina” (Barbarina)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7a331e08-d393-4b00-b880-15c96890fc90",
+        "title": "Le Nozze di Figaro: Act 4: Recit.: Tutto e disposto / Aria: Aprite un po'quegli occhi",
+        "position": "5",
+        "length": null,
+        "work": {
+          "id": "99b6dfc4-2e79-3f71-8fdd-20d005155f73",
+          "title": "Le nozze di Figaro, K. 492: Atto IV, Scena VIII. (no. 27) Aria “Aprite un po’ quegl’occhi” (Figaro)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "95b0b798-f578-4683-a4fd-189a1f4abe78",
+        "title": "Le Nozze di Figaro: Act 4: Recit.: G'unse alfin il momento / Aria: Deh vieni, non tardar",
+        "position": "6",
+        "length": null,
+        "work": {
+          "id": "322c3954-0045-3096-a310-667f86cce7e7",
+          "title": "Le nozze di Figaro, K. 492: Atto IV, Scena X. (no. 28) Aria “Deh vieni non tardar” (Susanna)",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0007f544-c738-4d29-9655-1ff4efb92647",
+        "title": "The Marriage of Figaro: Act IV: Finale",
+        "position": "7",
+        "length": null,
+        "work": {
+          "id": "5577dc87-3e11-44f4-996a-0673d589f2b2",
+          "title": "Le nozze di Figaro, K. 492: Atto IV",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      }
+    ],
+    "e1f2e320-2290-4abe-af4a-e1f66088ff81": [
+      {
+        "id": "74946e0e-3de0-42e3-9f22-0210a7238b81",
+        "title": "Overture",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "a47b8112-0d3a-4bdc-8cf5-9c15a797dde6",
+        "title": "Introduction : Zu Hilfe!",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "8de0eddc-dd45-460f-a15f-c6b5c291b7e0",
+        "title": "Aria : Der Vogelfänger Bin Ich Ja",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "08368d11-9ae8-4e0b-bed3-8aabb9656a7c",
+        "title": "Aria : Dies Bildnis Ist Bezaubernd Schön",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "b25c07e0-1903-4927-99f8-26c5c28a1f0f",
+        "title": "Recit. : O Zittre Nicht / Aria : Zum Leiden Bin Ich Auserkoren",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "1399ec8b-04d1-4cab-ae9e-7359a004dc56",
+        "title": "Finale, Act 2, Conclusion : Wir Wandeln Durch Des Tones",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "588eb5fc-e765-49bd-af3c-d339bcd4e37d",
+        "title": "Quintet : Hm, Hm, Hm",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "cf47efcd-3a3d-483b-b6cf-f97aaa887d87",
+        "title": "Trio : Du Feines Täubchen",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "4a5c63af-b0b5-4fc5-b22f-9e9c197e633f",
+        "title": "Duet : Bei Männern Welche Liebe Fühlen",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "ed284870-2185-45a7-99c4-6c624cd59f66",
+        "title": "Finale, Act 1 : Zum Ziele Führt Dich Diese Bahn",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "49ba0493-aaeb-43b4-b4f5-6f5f060f6a28",
+        "title": "Trio : Soll Ich Dich, Theurer",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "245a6d80-eae3-4ffc-8c38-1fb3e0ff04eb",
+        "title": "Aria : Ein Mädchen Oder Weibchen",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "8b545742-30ee-43e0-b3f5-4a635550e45d",
+        "title": "Finale, Act 2 : Bald Prangt",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "1dd71bfa-6807-4551-8160-cf309cf780bd",
+        "title": "Finale, Act 1, Conclusion : Wie Stark Ist Nicht Dein Zauberton",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "f4d4cf46-2f0d-45c6-858f-306286178c81",
+        "title": "Marsch Der Priester",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "4dfd964a-c839-483f-aa74-99966bb2bd74",
+        "title": "Aria And Chorus : Der Dreimalige Akkord / O Isis Und Osiris",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "dda309a2-8394-4e07-add7-906740767fac",
+        "title": "Duet : Bewahret Euch Vor Weibertücken",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "f5cb8f6e-12ce-4b75-b937-bbaddec39610",
+        "title": "Quintet : Wie ? Wie ? Wie ?",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "51e2e43d-a07b-4e94-bbe5-d02a7351cec6",
+        "title": "Aria : Alles Fühlt Der Lieben Freuden",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "91f4142a-ddea-4c08-8c2c-02d0332e71c6",
+        "title": "Aria : Der Hölle Rache",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "a2998750-5c4a-42c2-a233-bac8c8d156b0",
+        "title": "Aria : In Diesen Heilgen Hallen",
+        "position": "8",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "e5cbfd30-0375-43a3-b123-79634896ee79",
+        "title": "Trio : Seid Uns Zum Zweitenmal Willkommen",
+        "position": "9",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "56c55158-9da1-46f6-9a6d-265ea4d62b4a",
+        "title": "Aria : Ach Ich Fühl's",
+        "position": "10",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "d70d6aea-bbe5-4955-96bb-27988c74b3d1",
+        "title": "Chorus Of Priests : O Isis Und Osiris",
+        "position": "11",
+        "length": null,
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 95546,
+  "wikidata_id": "Q254"
+}

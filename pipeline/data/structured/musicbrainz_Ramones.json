@@ -1,0 +1,1820 @@
+{
+  "mbid": "d6ed7887-a401-47a8-893c-34b967444d26",
+  "name": "Ramones",
+  "type": "Group",
+  "country": "US",
+  "gender": null,
+  "life_span": {
+    "begin": "1974-01",
+    "end": "1996-08-06",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "New York",
+  "tags": [
+    {
+      "name": "estados unidos",
+      "count": "2"
+    },
+    {
+      "name": "new york punk",
+      "count": "1"
+    },
+    {
+      "name": "pop punk",
+      "count": "5"
+    },
+    {
+      "name": "power pop",
+      "count": "1"
+    },
+    {
+      "name": "punk",
+      "count": "3"
+    },
+    {
+      "name": "punk rock",
+      "count": "21"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "Spirit of the Forest",
+      "target_mbid": "d59c151d-9273-4963-88de-90077ebab7c3",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Joey Ramone",
+      "target_mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561",
+      "attributes": [
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1974-03",
+      "end": "1996"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Tommy Ramone",
+      "target_mbid": "f9f37f58-526d-43f9-9dad-bcb4ca8d8061",
+      "attributes": [
+        "drums (drum set)",
+        "original"
+      ],
+      "begin": "1974",
+      "end": "1978"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Dee Dee Ramone",
+      "target_mbid": "f23feff0-ed20-4e9c-ae45-4ff68a83be70",
+      "attributes": [
+        "bass guitar",
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1974",
+      "end": "1989"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Johnny Ramone",
+      "target_mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989",
+      "attributes": [
+        "guitar",
+        "original"
+      ],
+      "begin": "1974",
+      "end": "1996"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Marky Ramone",
+      "target_mbid": "9fd3870c-30d4-4136-9325-385651f35cb3",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1978",
+      "end": "1983"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Richie Ramone",
+      "target_mbid": "9d202e58-ca60-42f9-a6d9-897e08a667a9",
+      "attributes": [
+        "background vocals",
+        "drums (drum set)"
+      ],
+      "begin": "1983",
+      "end": "1987"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Elvis Ramone",
+      "target_mbid": "6ca00925-25d3-4aab-8e8f-21e88ef2a5f1",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1987",
+      "end": "1987"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Marky Ramone",
+      "target_mbid": "9fd3870c-30d4-4136-9325-385651f35cb3",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1987",
+      "end": "1996"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "C.J. Ramone",
+      "target_mbid": "8be7d8b3-15fd-4ebf-a27f-a6304045a4ce",
+      "attributes": [
+        "background vocals",
+        "bass guitar"
+      ],
+      "begin": "1989",
+      "end": "1996"
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Romanes",
+      "target_mbid": "de0fc497-d187-46e2-9db7-7d7c8727d198",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "MORONES",
+      "target_mbid": "c42747ee-f587-40c7-95a7-737d2d3f698e",
+      "attributes": [],
+      "begin": "2022-07-10",
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Gabba Gabba Heys",
+      "target_mbid": "8e990377-32fb-4d76-8aac-2c2b5975288e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Gabba Hey",
+      "target_mbid": "5df53f46-b1d9-4543-b8b7-f779c0b3bff9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "La P.P.A",
+      "target_mbid": "d514563e-6bca-46cb-9989-97479d9e6418",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Ramainz",
+      "target_mbid": "a2a55654-740e-4058-bff1-0fbf6b5488fb",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Ramoms",
+      "target_mbid": "c4a6196f-6168-4a5b-aa51-8211f2871318",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Ramonas",
+      "target_mbid": "a86f36ae-696c-498c-bd37-3ae5abc34207",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Ramonettes",
+      "target_mbid": "7518dc16-7874-4f97-98a2-5d17956596e7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Ramonos",
+      "target_mbid": "9f078a10-83f0-4e61-9e5b-adc228f7e2ed",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Rawönes",
+      "target_mbid": "608d705d-75dd-4cd9-ad71-b7dba18d459e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Raymonds",
+      "target_mbid": "b15cb64e-7711-4120-b0a7-f7e57494d21c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Rockaway Bitch",
+      "target_mbid": "6586ca69-ade5-41d7-8206-0c7e17db15f6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Rockaways",
+      "target_mbid": "ceef0527-d615-4b12-84f3-07b3d2471324",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Whoremones",
+      "target_mbid": "f5e92333-fc40-4ea9-92c9-f5b58693a242",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000490004"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/745"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/d6ed7887-a401-47a8-893c-34b967444d26"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.ramones-discography.com/"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/135478"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://web.archive.org/web/19970328172039/http://www.kauhajoki.fi/~jplaitio/ramones.html"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://web.archive.org/web/19970606130837/http://www.vivanet.com/~davela19/7ramones.html"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://web.archive.org/web/19970617231813/http://www.albany.edu/~orrin/ramones.html"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://web.archive.org/web/19970814113740/http://www.mds.mdh.se/~ent94hlm/musik/ramones.htm"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.officialramones.com/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/1co4F2pPNH8JjTutZkmgSm"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/1725"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/49596422"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Ramones_Toronto_1976.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0708506/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Ramones"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Ramones"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://muzikum.eu/en/122-6693/the-ramones/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/Ramones"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/ramones"
+    },
+    {
+      "type": "official homepage",
+      "target": "https://www.ramones.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n92021536"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/R/Ramones/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb139060446"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/5345154-5"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/ramones"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1448285"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/ramones"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/ramones"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.spirit-of-rock.com/en/band/The_Ramones"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Ramones/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n92021536"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.musik-sammler.de/artist/5041"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=Aijjl52uzfrjxvr2xwuppkgtvnq"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id60715"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://uk.7digital.com/artist/the-ramones"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/604"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/ramones-13d6a5cd.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://plus.google.com/105275577174076131247"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/RamonesOfficial"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/theramones"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/ramones/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.tiktok.com/@ramones"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/99871"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/ramones"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B000QJJY8O"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/60715"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/14283"
+    },
+    {
+      "type": "streaming",
+      "target": "https://us.napster.com/artist/the-ramones"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/121316149"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q483407"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/ramones"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCSrA5JaXpR21z_E1FDA03RA"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCXYTNaRC13Mc0muUaYDrT9g"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "7de1e321-4a53-3feb-b83e-f1dab88bf952",
+      "title": "Ramones",
+      "type": "Album",
+      "first_release_date": "1976-04-23"
+    },
+    {
+      "id": "bc3b5116-300a-3696-919d-bca466a3f143",
+      "title": "Leave Home",
+      "type": "Album",
+      "first_release_date": "1977-01-10"
+    },
+    {
+      "id": "dd959091-dba1-32b8-8159-0090959ce75b",
+      "title": "Rocket to Russia",
+      "type": "Album",
+      "first_release_date": "1977-11-04"
+    },
+    {
+      "id": "0d28173a-f23f-354a-97e7-82d6190d216c",
+      "title": "Road to Ruin",
+      "type": "Album",
+      "first_release_date": "1978-09-22"
+    },
+    {
+      "id": "b46e3fa3-f066-311b-a096-8c8b9353dab8",
+      "title": "End of the Century",
+      "type": "Album",
+      "first_release_date": "1980-02-04"
+    },
+    {
+      "id": "49afe458-8e5c-3ea1-bf5e-f131a3096df2",
+      "title": "Pleasant Dreams",
+      "type": "Album",
+      "first_release_date": "1981-07-20"
+    },
+    {
+      "id": "729e7ddd-599d-332c-82fd-ebe1ff99d17e",
+      "title": "Subterranean Jungle",
+      "type": "Album",
+      "first_release_date": "1983-02"
+    },
+    {
+      "id": "ede32ee7-c6e5-3bd4-98e2-aaf225c3a456",
+      "title": "Too Tough to Die",
+      "type": "Album",
+      "first_release_date": "1984"
+    },
+    {
+      "id": "67b8c3ea-d2bc-3375-8b77-f73a048f2165",
+      "title": "Animal Boy",
+      "type": "Album",
+      "first_release_date": "1986-05"
+    },
+    {
+      "id": "0c41b5c2-e0e7-376a-8059-39f769b08a24",
+      "title": "Halfway to Sanity",
+      "type": "Album",
+      "first_release_date": "1987-09-15"
+    },
+    {
+      "id": "c2998c83-704e-3d14-8f17-a1987ad21e42",
+      "title": "Brain Drain",
+      "type": "Album",
+      "first_release_date": "1989-05-18"
+    },
+    {
+      "id": "1da98657-e7fd-326c-aea1-2ec803739e00",
+      "title": "Mondo Bizarro",
+      "type": "Album",
+      "first_release_date": "1992-09-24"
+    },
+    {
+      "id": "3ac42917-32a6-305a-9dd6-835a4424ce14",
+      "title": "Acid Eaters",
+      "type": "Album",
+      "first_release_date": "1993-12-01"
+    },
+    {
+      "id": "fc1f2ab6-a252-3aca-958d-3a2a50e1a8ea",
+      "title": "¡Adios Amigos!",
+      "type": "Album",
+      "first_release_date": "1995-06-22"
+    },
+    {
+      "id": "59ee6a6f-16fb-38fd-a94c-828ebe08d64a",
+      "title": "Ramones Mania",
+      "type": "Compilation",
+      "first_release_date": "1988-05-31"
+    },
+    {
+      "id": "6ca4022d-ea6d-39f4-998a-46adf789160b",
+      "title": "All the Stuff (and More), Volume 1",
+      "type": "Compilation",
+      "first_release_date": "1990-05-31"
+    },
+    {
+      "id": "476f9deb-9618-3757-ab2c-c45d5ccc7963",
+      "title": "All the Stuff (and More), Volume 2",
+      "type": "Compilation",
+      "first_release_date": "1990-05"
+    },
+    {
+      "id": "aeaf7f2f-4c4a-455d-a86c-92e7cfa6a151",
+      "title": "Lifestyles of the Ramones",
+      "type": "Compilation",
+      "first_release_date": "1990"
+    },
+    {
+      "id": "dc10b4e4-a30f-3cb9-ac19-9f0f0eacdccc",
+      "title": "Ramones Mania 2",
+      "type": "Compilation",
+      "first_release_date": "1999-06-09"
+    },
+    {
+      "id": "0f97f908-b285-3629-83b6-10992fd0d568",
+      "title": "Anthology: Hey Ho, Let’s Go!",
+      "type": "Compilation",
+      "first_release_date": "1999-07-09"
+    },
+    {
+      "id": "014d5ad0-b3e8-3e26-9bde-52d5570918dd",
+      "title": "Greatest Hits",
+      "type": "Compilation",
+      "first_release_date": "1999-07-20"
+    },
+    {
+      "id": "a1b5be9f-ca73-3fa9-a745-fe588cc2a346",
+      "title": "Masters of Rock",
+      "type": "Compilation",
+      "first_release_date": "2001-08-23"
+    },
+    {
+      "id": "74eef753-e63b-3fe1-87e7-98f684eba8fb",
+      "title": "Best of the Chrysalis Years",
+      "type": "Compilation",
+      "first_release_date": "2002-04-23"
+    },
+    {
+      "id": "ba628a0f-735e-39d6-8d25-2bf7e61949c7",
+      "title": "The Chrysalis Years",
+      "type": "Compilation",
+      "first_release_date": "2002-08-26"
+    },
+    {
+      "id": "e8fe98a8-96ab-3939-92c5-79287fe7057e",
+      "title": "Loud, Fast Ramones: Their Toughest Hits",
+      "type": "Compilation",
+      "first_release_date": "2002-10-15"
+    }
+  ],
+  "tracks": {
+    "7de1e321-4a53-3feb-b83e-f1dab88bf952": [
+      {
+        "id": "59b14ce2-7b0a-4924-9e23-7418f2fad01c",
+        "title": "Blitzkrieg Bop",
+        "position": "1",
+        "length": "133120",
+        "work": {
+          "id": "e3c1f5f3-f006-3aab-bbb9-198660088504",
+          "title": "Blitzkrieg Bop",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7d3a2f87-13b4-4b3c-8e5c-b3cdcd8bdf13",
+        "title": "Beat on the Brat",
+        "position": "2",
+        "length": "152133",
+        "work": {
+          "id": "c7dac412-d417-35e7-bfa3-533753c6cd72",
+          "title": "Beat on the Brat",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "52ed0a5e-09b5-42a4-ad11-3e22441d1021",
+        "title": "Judy Is a Punk",
+        "position": "3",
+        "length": "92293",
+        "work": {
+          "id": "4c971aa7-0539-3974-809f-c6432bb962dc",
+          "title": "Judy Is a Punk",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cdca8e22-eea5-4b0d-b01c-244ad576bd9d",
+        "title": "I Wanna Be Your Boyfriend",
+        "position": "4",
+        "length": "144666",
+        "work": {
+          "id": "fef13239-a7bb-3399-a35b-548177bcc27a",
+          "title": "I Wanna Be Your Boyfriend",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1fb6d615-22bc-414e-b5ac-20e32032d69c",
+        "title": "Chain Saw",
+        "position": "5",
+        "length": "116400",
+        "work": {
+          "id": "1850e55c-be98-33aa-9f3f-7e3c4df8c0bf",
+          "title": "Chain Saw",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "aca83bac-7acc-454a-9750-0f46fae64d2e",
+        "title": "Now I Wanna Sniff Some Glue",
+        "position": "6",
+        "length": "96093",
+        "work": {
+          "id": "91fae06e-3ebf-3cea-9966-66f51f202e66",
+          "title": "Now I Wanna Sniff Some Glue",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3747970f-aeab-440b-a85d-3aeae8bab207",
+        "title": "I Don’t Wanna Go Down to the Basement",
+        "position": "7",
+        "length": "158133",
+        "work": {
+          "id": "bd3f0444-6a0f-4a87-ab2b-197e26ad1be3",
+          "title": "I Don’t Wanna Go Down to the Basement",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e9068b61-4326-463b-8e3a-36f99e3d42c6",
+        "title": "Loudmouth",
+        "position": "8",
+        "length": "135066",
+        "work": {
+          "id": "57088c55-f2f2-4c48-ab9d-15b8f8e06d2b",
+          "title": "Loudmouth",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f6a0ffdb-13ab-4e56-8917-66afb590e7ba",
+        "title": "Havana Affair",
+        "position": "9",
+        "length": "117026",
+        "work": {
+          "id": "dfa40a42-418a-3c11-8627-aa3161b974b5",
+          "title": "Havana Affair",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fec99019-ec23-4d7b-b8b9-b2e5e08501d2",
+        "title": "Listen to My Heart",
+        "position": "10",
+        "length": "118733",
+        "work": {
+          "id": "cf03204f-effd-3acb-8d40-63bb44b08ee5",
+          "title": "Listen to My Heart",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d0404829-b11e-4a90-8144-4f1771d2c599",
+        "title": "53rd & 3rd",
+        "position": "11",
+        "length": "141000",
+        "work": {
+          "id": "7f9909f6-7397-3461-83c1-8a13b729b886",
+          "title": "53rd & 3rd",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ff293fa7-55a2-441b-893b-406f561d1f50",
+        "title": "Let’s Dance",
+        "position": "12",
+        "length": "112000",
+        "work": {
+          "id": "659cf038-ea2c-39ca-bd6c-d69144fed295",
+          "title": "Let’s Dance",
+          "composers": [
+            {
+              "name": "Jim Lee",
+              "mbid": "cdc7d5be-ecdd-4895-be04-6bfbc3c1cb08"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ac25ec9a-eff9-4aa1-bcca-46b7ca62b656",
+        "title": "I Don’t Wanna Walk Around With You",
+        "position": "13",
+        "length": "103106",
+        "work": {
+          "id": "3a54641c-c61c-4e52-8eac-6e6a12cda866",
+          "title": "I Don’t Wanna Walk Around With You",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3d6934e8-65d2-470c-9013-cd1bfb86c060",
+        "title": "Today Your Love, Tomorrow the World",
+        "position": "14",
+        "length": "131066",
+        "work": {
+          "id": "f7ab4faf-4cd2-3629-85b2-6d9c54753bb9",
+          "title": "Today Your Love, Tomorrow the World",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            },
+            {
+              "name": "Ramones",
+              "mbid": "d6ed7887-a401-47a8-893c-34b967444d26"
+            }
+          ]
+        }
+      }
+    ],
+    "bc3b5116-300a-3696-919d-bca466a3f143": [
+      {
+        "id": "045f7963-3392-4e83-a561-1388dc0d41d2",
+        "title": "Glad to See You Go",
+        "position": "1",
+        "length": "133333",
+        "work": {
+          "id": "3019c4d6-9698-43be-8e48-ead3b51dc416",
+          "title": "Glad to See You Go",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "32dc42b7-2434-46a2-bc68-42231def35d5",
+        "title": "Gimme Gimme Shock Treatment",
+        "position": "2",
+        "length": "103160",
+        "work": {
+          "id": "8dbb8ec8-c081-3a93-a7ac-7735d3d26cbd",
+          "title": "Gimme Gimme Shock Treatment",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dc2b4c62-5db4-4aa3-a1f4-4dedf4500ef3",
+        "title": "I Remember You",
+        "position": "3",
+        "length": "140133",
+        "work": {
+          "id": "4e47ff7f-98c0-4bbb-92a2-33b38b6f8d94",
+          "title": "I Remember You",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a46ddaf8-2cbd-4378-af25-617e91349740",
+        "title": "Oh Oh I Love Her So",
+        "position": "4",
+        "length": "116000",
+        "work": {
+          "id": "9b55ec01-af45-4813-a6b0-1d43aa86ab6c",
+          "title": "Oh Oh I Love Her So",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "11ef4608-6fa7-4f2f-8a72-78277e3a9699",
+        "title": "Carbona Not Glue",
+        "position": "5",
+        "length": "113373",
+        "work": {
+          "id": "479ae0e3-6868-4015-9c47-66dc7dd4dffd",
+          "title": "Carbona Not Glue",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dd2d633f-120d-4904-ba02-fe6837d1bc87",
+        "title": "Suzy Is a Headbanger",
+        "position": "6",
+        "length": "132773",
+        "work": {
+          "id": "7f941737-c1cd-4fcb-b04b-42aaf8ca06d0",
+          "title": "Suzy Is a Headbanger",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d33157d4-344c-4002-9ce3-00aead497e56",
+        "title": "Pinhead",
+        "position": "7",
+        "length": "164240",
+        "work": {
+          "id": "5b60c404-8c7a-3e9e-b497-7dc95e543799",
+          "title": "Pinhead",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f27399e6-0b48-48ad-9115-8431d492a0e6",
+        "title": "Now I Wanna Be a Good Boy",
+        "position": "8",
+        "length": "135000",
+        "work": {
+          "id": "81421ed9-adcc-4db4-bdc5-4a9f3eccf7fb",
+          "title": "Now I Wanna Be a Good Boy",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3f748ffd-4580-4882-981b-d0d3ee2ccec6",
+        "title": "Swallow My Pride",
+        "position": "9",
+        "length": "128000",
+        "work": {
+          "id": "48551a42-721e-4d04-b220-de00fd1bc673",
+          "title": "Swallow My Pride",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e97dde2c-d94b-49b3-9ce3-e7dab4cb3a20",
+        "title": "What’s Your Game",
+        "position": "10",
+        "length": "158000",
+        "work": {
+          "id": "b2554863-80c7-4e4e-b7b6-49e7104657e8",
+          "title": "What’s Your Game",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bb9a3d20-b6fa-472c-9353-d0b583989766",
+        "title": "California Sun",
+        "position": "11",
+        "length": "120906",
+        "work": {
+          "id": "23acf0ad-09ef-3ed8-a3e2-659714581e53",
+          "title": "California Sun",
+          "composers": [
+            {
+              "name": "Henry Glover",
+              "mbid": "d42353b1-11d6-4e2f-af48-46dda26a5865"
+            },
+            {
+              "name": "Morris Levy",
+              "mbid": "1cf7083b-4ad4-4153-90df-e2e9ff384792"
+            }
+          ]
+        }
+      },
+      {
+        "id": "73c18668-976a-41bd-9e5a-ef7ce475e75c",
+        "title": "Commando",
+        "position": "12",
+        "length": "113626",
+        "work": {
+          "id": "7a2b0f97-fc02-329b-ac51-16443c1cdeb5",
+          "title": "Commando",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "151e85f4-9c62-4fa8-b736-c0514ad6e6d9",
+        "title": "You’re Gonna Kill That Girl",
+        "position": "13",
+        "length": "162000",
+        "work": {
+          "id": "47e5113a-2c32-4824-bb10-37c3ad3860b9",
+          "title": "You’re Gonna Kill That Girl",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6d03e807-f60f-4c67-a99b-c84bda6d3b1e",
+        "title": "You Should Never Have Opened That Door",
+        "position": "14",
+        "length": "115933",
+        "work": {
+          "id": "1011bc25-30bf-450c-8f32-3bbd295df853",
+          "title": "You Should Never Have Opened That Door",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      }
+    ],
+    "dd959091-dba1-32b8-8159-0090959ce75b": [
+      {
+        "id": "51c99566-f125-4306-b14f-8b9ee5d4713e",
+        "title": "Cretin Hop",
+        "position": "1",
+        "length": "115920",
+        "work": {
+          "id": "bb96af2d-dec4-34b5-ab6c-6a138adac639",
+          "title": "Cretin Hop",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fdd6fa47-a17b-4611-bb14-d829f4d4c8a0",
+        "title": "Rockaway Beach",
+        "position": "2",
+        "length": "126360",
+        "work": {
+          "id": "f7bea049-b7aa-3202-a7e7-8d4ff374da6b",
+          "title": "Rockaway Beach",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "95b08163-9f0b-4c99-9365-f16aebc1777e",
+        "title": "Here Today, Gone Tomorrow",
+        "position": "3",
+        "length": "169573",
+        "work": {
+          "id": "fb245f4c-b185-349c-a99a-b023e687be03",
+          "title": "Here Today, Gone Tomorrow",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d7d52b51-3545-4b19-9f18-f7bdb7299c35",
+        "title": "Locket Love",
+        "position": "4",
+        "length": "131426",
+        "work": {
+          "id": "13d48483-5c1c-4314-a83a-962b771bc808",
+          "title": "Locket Love",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "27043552-6296-44a1-9ccc-3a31d11ccedf",
+        "title": "I Don’t Care",
+        "position": "5",
+        "length": "99146",
+        "work": {
+          "id": "ddaec879-9c7d-427b-8025-7e9920f2c070",
+          "title": "I Don’t Care",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4f519610-8e08-4500-81c5-42f41bf4b882",
+        "title": "Sheena Is a Punk Rocker",
+        "position": "6",
+        "length": "168466",
+        "work": {
+          "id": "e91dae96-61e4-3b98-b3f2-f4f56142d862",
+          "title": "Sheena Is a Punk Rocker",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "35e3518e-cea5-4f2a-a9d5-6f50e73ce013",
+        "title": "We’re a Happy Family",
+        "position": "7",
+        "length": "151133",
+        "work": {
+          "id": "294b11af-d3aa-3e27-aea1-5fbcd13ad4d2",
+          "title": "We’re a Happy Family",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6e4ce31b-08ec-4b77-a495-dddd9fd2f2fb",
+        "title": "Teenage Lobotomy",
+        "position": "8",
+        "length": "121453",
+        "work": {
+          "id": "79ab01ff-f533-32e2-b09d-6d6ff8362109",
+          "title": "Teenage Lobotomy",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e8dd5b0d-eaf3-4a1c-9713-caf5f36cca9b",
+        "title": "Do You Wanna Dance?",
+        "position": "9",
+        "length": "115466",
+        "work": {
+          "id": "e5719339-1996-358f-b71b-25e96494a071",
+          "title": "Do You Want to Dance",
+          "composers": [
+            {
+              "name": "Bobby Freeman",
+              "mbid": "610fc73e-7741-4d2d-8db6-b7bdecac6714"
+            }
+          ]
+        }
+      },
+      {
+        "id": "869565ab-7119-4d4b-92a0-811eb80fbd47",
+        "title": "I Wanna Be Well",
+        "position": "10",
+        "length": "148400",
+        "work": {
+          "id": "ae544994-fb48-4092-accb-12bf50636943",
+          "title": "I Wanna Be Well",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0fbbae30-b3ba-4079-a1e5-25d60b8f4f7f",
+        "title": "I Can’t Give You Anything",
+        "position": "11",
+        "length": "121133",
+        "work": {
+          "id": "04b50021-b9cd-4451-b86c-106a797d1a71",
+          "title": "I Can’t Give You Anything",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7ed0762d-9bad-44f3-8743-3e965d55175a",
+        "title": "Ramona",
+        "position": "12",
+        "length": "157933",
+        "work": {
+          "id": "334a2178-7f1f-48ea-b9ce-a20e5c3c02f7",
+          "title": "Ramona",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e7204f20-579a-45bc-88d1-6e3d4b99ef61",
+        "title": "Surfin’ Bird",
+        "position": "13",
+        "length": "157733",
+        "work": {
+          "id": "3fe6d16d-4e5d-3309-bfeb-1ff3967d3ff6",
+          "title": "Surfin’ Bird",
+          "composers": [
+            {
+              "name": "Al Frazier",
+              "mbid": "70d0593e-f76e-4601-96ca-3bb43ed11336"
+            },
+            {
+              "name": "Sonny Harris",
+              "mbid": "ac67590b-93a2-4fef-a7de-8c155d0c9972"
+            },
+            {
+              "name": "Carl White",
+              "mbid": "538265aa-ff07-43da-bb7d-881fdc026779"
+            },
+            {
+              "name": "Turner Wilson",
+              "mbid": "637e6ebe-54b7-4c8f-9676-f184a55decf3"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b69fd811-7676-4725-b3c2-6f80a61b6ecb",
+        "title": "Why Is It Always This Way?",
+        "position": "14",
+        "length": "139000",
+        "work": {
+          "id": "122a4f1f-c6d6-4190-aa7b-b5fec2f05e1b",
+          "title": "Why Is It Always This Way?",
+          "composers": [
+            {
+              "name": "Douglas Glenn Colvin",
+              "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+            },
+            {
+              "name": "Thomas Erdelyi",
+              "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+            },
+            {
+              "name": "Joey Ramone",
+              "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+            },
+            {
+              "name": "Johnny Ramone",
+              "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 135478,
+  "wikidata_id": "Q483407"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "subject": "Celia Cruz",
+    "predicate": "hasGenre",
+    "object": "guaracha"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "alterEgo",
+    "object": "La Guarachera de Cuba"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "alterEgo",
+    "object": "Queen of Salsa"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "memberOf",
+    "object": "Sonora Matancera"
+  },
+  {
+    "subject": "Sonora Matancera",
+    "predicate": "hasMember",
+    "object": "Celia Cruz"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "hasGenre",
+    "object": "Afro-Cuban music"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "hasGenre",
+    "object": "guaracha"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "hasGenre",
+    "object": "rumba"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "hasGenre",
+    "object": "afro"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "hasGenre",
+    "object": "son"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "hasGenre",
+    "object": "bolero"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "collaboratedWith",
+    "object": "Tito Puente"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "hasGenre",
+    "object": "salsa"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "collaboratedWith",
+    "object": "Johnny Pacheco"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "collaboratedWith",
+    "object": "Willie Col\u00f3n"
+  },
+  {
+    "subject": "Celia Cruz",
+    "predicate": "performedAt",
+    "object": "Fania All-Stars"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "Dominguinhos",
+    "predicate": "hasGenre",
+    "object": "Forr\u00f3"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "influencedBy",
+    "object": "Luiz Gonzaga"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "collaboratedWith",
+    "object": "Luiz Gonzaga"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "collaboratedWith",
+    "object": "Caetano Veloso"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "collaboratedWith",
+    "object": "Gilberto Gil"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "collaboratedWith",
+    "object": "Gal Costa"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "collaboratedWith",
+    "object": "Z\u00e9 Ramalho"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "collaboratedWith",
+    "object": "Toquinho"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "collaboratedWith",
+    "object": "Elba Ramalho"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "collaboratedWith",
+    "object": "Yamandu Costa"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "collaboratedWith",
+    "object": "Maria Beth\u00e2nia"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "composed",
+    "object": "soundtrack of the film O Cangaceiro"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "performedAt",
+    "object": "Midem"
+  },
+  {
+    "subject": "Dominguinhos",
+    "predicate": "hasGenre",
+    "object": "Brazilian Popular Music"
+  }
+]

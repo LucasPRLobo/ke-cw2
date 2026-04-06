@@ -5,6 +5,17 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+# Load .env file if present (for LLM API keys)
+_env_path = os.path.join(os.path.dirname(__file__), "..", ".env")
+if os.path.exists(_env_path):
+    with open(_env_path) as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                key, _, value = line.partition("=")
+                if value and key.strip() not in os.environ:
+                    os.environ[key.strip()] = value.strip()
+
 from config import ARTISTS
 from sources.musicbrainz import fetch_artist as mb_fetch
 from sources.discogs import fetch_artist as dc_fetch
@@ -14,6 +25,7 @@ from mapping.structured import create_graph, map_artist, enrich_related_artists,
 from mapping.text import map_text_triples
 from ontology_header import add_ontology_header
 from ingest_rag_results import ingest_all as ingest_rag
+from llm_extraction import extract_all as llm_extract_all
 
 
 def build_knowledge_graph(artist_list, output_path="../ontology/music_history_kg.ttl"):
@@ -28,6 +40,12 @@ def build_knowledge_graph(artist_list, output_path="../ontology/music_history_kg
     # Step 0: Add ontology header (class/property declarations + extensions)
     add_ontology_header(g)
     print(f"Ontology header added: {len(g)} triples")
+
+    # Step 0b: LLM text extraction (uses cache; calls API only for missing artists)
+    print(f"\n{'='*60}")
+    print("LLM TEXT EXTRACTION — extracting triples from Wikipedia text")
+    print(f"{'='*60}")
+    llm_extract_all(artist_list)
 
     total = len(artist_list)
     failed = []

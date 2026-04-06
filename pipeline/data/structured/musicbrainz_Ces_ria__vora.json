@@ -1,0 +1,621 @@
+{
+  "mbid": "ceafdf2f-bc18-4b99-8c71-d1834b0065c3",
+  "name": "Cesária Évora",
+  "type": "Person",
+  "country": "CV",
+  "gender": "Female",
+  "life_span": {
+    "begin": "1941-08-27",
+    "end": "2011-12-17",
+    "ended": "true"
+  },
+  "area": "Cape Verde",
+  "begin_area": "São Vicente",
+  "tags": [
+    {
+      "name": "african",
+      "count": "1"
+    },
+    {
+      "name": "african traditions",
+      "count": "1"
+    },
+    {
+      "name": "afro house",
+      "count": "1"
+    },
+    {
+      "name": "cabo verde",
+      "count": "1"
+    },
+    {
+      "name": "coladeira",
+      "count": "2"
+    },
+    {
+      "name": "folk",
+      "count": "1"
+    },
+    {
+      "name": "international",
+      "count": "1"
+    },
+    {
+      "name": "latin",
+      "count": "1"
+    },
+    {
+      "name": "modinha",
+      "count": "1"
+    },
+    {
+      "name": "morna",
+      "count": "4"
+    },
+    {
+      "name": "pop",
+      "count": "1"
+    },
+    {
+      "name": "west african",
+      "count": "1"
+    },
+    {
+      "name": "world music",
+      "count": "1"
+    },
+    {
+      "name": "worldbeat",
+      "count": "1"
+    },
+    {
+      "name": "worldwide",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000195373"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/ceafdf2f-bc18-4b99-8c71-d1834b0065c3"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/5327"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/0Nks3cFWU2a7rooAlFQYgn"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/4086"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Ces%C3%A1ria_%C3%89vora_(2458662088).jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0959925/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Ces%C3%A1ria+%C3%89vora"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Cesaria-evora"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.cesaria-evora.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/nr96001922"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb139633227"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/121291081"
+    },
+    {
+      "type": "other databases",
+      "target": "https://id.oclc.org/worldcat/entity/E39PBJkXykVG4Phh97dQmfwDMP"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w64f52zt"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/cesaria-evora"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.idref.fr/035351012"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/6734/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000100401/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.themoviedb.org/person/1133856"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Cesaria-Evora/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-nr96-001922"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.maniadb.com/artist/118782"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/1218556/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/cv/artist/27458425"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.beatport.com/artist/cesaria-evora/252144"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/cv/artist/id27458425"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.yesasia.com/0-aid2054971-0-bpt.47-en/list.html"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/29509"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/cesaria-evora-3bd744d0.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/CesariaEvoraOfficial"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/107153"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/cv/artist/27458425"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/1535"
+    },
+    {
+      "type": "streaming",
+      "target": "https://us.napster.com/artist/cesaria-evora"
+    },
+    {
+      "type": "ticketing",
+      "target": "https://www.ticketmaster.com/artist/765015"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/28289981"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q103759"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCs5WMDtJoMaX5vIMus_cPhg"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "d1ed3306-7ffb-4e63-8797-f017b42938f6",
+      "title": "Cesária",
+      "type": "Album",
+      "first_release_date": "1987"
+    },
+    {
+      "id": "92a70a61-f684-3b8c-8ae6-31a7d0ad1465",
+      "title": "La Diva aux pieds nus",
+      "type": "Album",
+      "first_release_date": "1988"
+    },
+    {
+      "id": "11831ac6-3f7a-3647-ac32-aff4935ed9cd",
+      "title": "Distino Di Belita",
+      "type": "Album",
+      "first_release_date": "1990"
+    },
+    {
+      "id": "bc40df2d-3374-3466-b6b7-d1661cfe093b",
+      "title": "Mar Azul",
+      "type": "Album",
+      "first_release_date": "1991"
+    },
+    {
+      "id": "be6e9478-a32d-3a5f-9ad0-f0be447ac42d",
+      "title": "Miss Perfumado",
+      "type": "Album",
+      "first_release_date": "1992-06"
+    },
+    {
+      "id": "45f12309-6168-3141-8915-9e5cb52a5e06",
+      "title": "Cesaria",
+      "type": "Album",
+      "first_release_date": "1995-02-07"
+    },
+    {
+      "id": "ece2cfa1-bda2-34ac-9de4-2b8eba279d2e",
+      "title": "Cabo Verde",
+      "type": "Album",
+      "first_release_date": "1997-03-18"
+    },
+    {
+      "id": "187c9575-4188-3fff-b29e-e7b5fff845e7",
+      "title": "Café Atlantico",
+      "type": "Album",
+      "first_release_date": "1999-08-10"
+    },
+    {
+      "id": "f9713abf-d2ae-48dd-890e-5c7366478f25",
+      "title": "São Vicente di Longe",
+      "type": "Album",
+      "first_release_date": "2001-06-05"
+    },
+    {
+      "id": "8a26b4c8-30f8-3c2a-b145-145544de384c",
+      "title": "Voz d'amor",
+      "type": "Album",
+      "first_release_date": "2003-09-18"
+    },
+    {
+      "id": "98123312-7a28-47a9-9712-cf0fe1c9bccf",
+      "title": "Rogamar",
+      "type": "Album",
+      "first_release_date": "2006-03-01"
+    },
+    {
+      "id": "6f9bff94-d74d-442b-bcf9-5c0786035f18",
+      "title": "Nha Sentimento",
+      "type": "Album",
+      "first_release_date": "2009-10-23"
+    },
+    {
+      "id": "ba11ad33-8250-4e61-8c8d-084d0e0d5fcf",
+      "title": "Mãe Carinhosa",
+      "type": "Album",
+      "first_release_date": "2013-03-04"
+    },
+    {
+      "id": "2fcabe22-48bd-30ea-ae63-8aaad0a69179",
+      "title": "Sodade",
+      "type": "Compilation",
+      "first_release_date": "1994"
+    },
+    {
+      "id": "4062ef53-8834-4471-9ebd-4355367d4b21",
+      "title": "Sodade, o melhor de Cesaria Evora",
+      "type": "Compilation",
+      "first_release_date": "1994"
+    },
+    {
+      "id": "c50afbaa-4b7b-304e-aade-881b4cfd9b72",
+      "title": "Best Of",
+      "type": "Compilation",
+      "first_release_date": "1998-10-19"
+    },
+    {
+      "id": "3e3f3048-77ee-4d32-8b9b-b4383d094d87",
+      "title": "Le Monde De Cesaria Evora",
+      "type": "Compilation",
+      "first_release_date": "1999-12-28"
+    },
+    {
+      "id": "c0e6f5db-eb62-30c7-87c4-bb6331497286",
+      "title": "Les chansons du Cap-Vert",
+      "type": "Compilation",
+      "first_release_date": "2001"
+    },
+    {
+      "id": "02d12ef6-c54d-4fba-a297-864828dba5e5",
+      "title": "Les Essentiels",
+      "type": "Compilation",
+      "first_release_date": "2002-05-28"
+    },
+    {
+      "id": "32280f27-8109-4574-9c3d-68c89984a458",
+      "title": "Anthologie",
+      "type": "Compilation",
+      "first_release_date": "2002-06-20"
+    },
+    {
+      "id": "70b1aee9-00b8-460b-bb1d-f3cd7442b0db",
+      "title": "Grand Collection",
+      "type": "Compilation",
+      "first_release_date": "2003"
+    },
+    {
+      "id": "ad00cda3-9311-4002-980d-d8d738c8da9e",
+      "title": "Radio Mindelo: Early Recordings",
+      "type": "Compilation",
+      "first_release_date": "2008-12-08"
+    },
+    {
+      "id": "11f1a564-6bd5-4527-8a90-a5f0d047b84c",
+      "title": "Best of Cesária Évora",
+      "type": "Compilation",
+      "first_release_date": "2009-11-23"
+    },
+    {
+      "id": "a40c2894-0326-41ea-93a9-65c9f1af6b65",
+      "title": "Cesaria Evora &...",
+      "type": "Compilation",
+      "first_release_date": "2010-11-29"
+    },
+    {
+      "id": "7e012ba2-9438-4ce3-a066-40a53cd4642a",
+      "title": "The Essential Cesaria Evora",
+      "type": "Compilation",
+      "first_release_date": "2010"
+    }
+  ],
+  "tracks": {
+    "d1ed3306-7ffb-4e63-8797-f017b42938f6": [
+      {
+        "id": "9127fe7d-19e9-418e-813b-d5f4f37bb691",
+        "title": "Joaquim Paris",
+        "position": "1",
+        "length": "362693",
+        "work": null
+      },
+      {
+        "id": "f99100b3-fa57-40c0-beaa-a077c4a5509d",
+        "title": "Ingrata",
+        "position": "2",
+        "length": "394160",
+        "work": null
+      },
+      {
+        "id": "8df0b54b-ee8b-4c67-afde-d4f0597cd7ad",
+        "title": "Regresso",
+        "position": "3",
+        "length": "384480",
+        "work": null
+      },
+      {
+        "id": "90e7ddcf-6caf-475b-a855-b1fa3812a9c4",
+        "title": "D. Ana (take 1)",
+        "position": "4",
+        "length": "436493",
+        "work": null
+      },
+      {
+        "id": "13a32b34-4b8d-4af1-bd4e-80d79db64dc1",
+        "title": "D. Ana (take 2)",
+        "position": "5",
+        "length": "310000",
+        "work": null
+      },
+      {
+        "id": "3d7e2da0-598c-4c05-8d45-a802aad18bed",
+        "title": "Tchintchiroti Na Figueira",
+        "position": "6",
+        "length": "323626",
+        "work": null
+      },
+      {
+        "id": "4dd60aa2-9486-45bb-bdab-31164322371b",
+        "title": "Caboverdeano N’Angola",
+        "position": "7",
+        "length": "425546",
+        "work": null
+      }
+    ],
+    "92a70a61-f684-3b8c-8ae6-31a7d0ad1465": [
+      {
+        "id": "1f3c63d3-95fe-4330-937e-3a1ae3dcca3e",
+        "title": "Bia Lulucha",
+        "position": "1",
+        "length": "299480",
+        "work": null
+      },
+      {
+        "id": "ce1cc4e8-8259-4745-b6d6-adbdded16bae",
+        "title": "Destino negro",
+        "position": "2",
+        "length": "225293",
+        "work": null
+      },
+      {
+        "id": "b3d43d00-d84f-4e92-89c8-7066d6774854",
+        "title": "Passeio samba",
+        "position": "3",
+        "length": "289000",
+        "work": null
+      },
+      {
+        "id": "aad70934-a7fa-4e32-9322-2e3d8d446ff9",
+        "title": "Fruto proibido",
+        "position": "4",
+        "length": "273533",
+        "work": {
+          "id": "ba12856f-3dff-4b4b-9a66-f396e68014d7",
+          "title": "Fruto proibido",
+          "composers": []
+        }
+      },
+      {
+        "id": "ca34d44c-e165-4bfb-a89a-0ba3d37b8869",
+        "title": "Lucy",
+        "position": "5",
+        "length": "316000",
+        "work": null
+      },
+      {
+        "id": "9a1e70c2-853d-45a4-8d1e-781d2d674937",
+        "title": "Traz d’horizonte",
+        "position": "6",
+        "length": "247093",
+        "work": {
+          "id": "bd0427d7-fdc2-4225-b608-4c784cad2fcf",
+          "title": "Traz d'horizonte",
+          "composers": [
+            {
+              "name": "B. Leza",
+              "mbid": "5155f5fa-ae05-4764-8fcb-6adf09f716c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "424c1fd4-ecbf-4ec3-893c-60d9b0ee154a",
+        "title": "Despidida de immigrante",
+        "position": "7",
+        "length": "277000",
+        "work": null
+      },
+      {
+        "id": "b539cf1d-68eb-4dbe-8661-922aadcab553",
+        "title": "Cabo Verde terra estimada",
+        "position": "8",
+        "length": "276000",
+        "work": {
+          "id": "e3662db8-5fed-4770-92cc-4919fa48830c",
+          "title": "Cabo Verde terra estimada",
+          "composers": [
+            {
+              "name": "Jorge Monteiro",
+              "mbid": "1e769511-1e50-4449-b305-e7c42ac187a4"
+            }
+          ]
+        }
+      }
+    ],
+    "11831ac6-3f7a-3647-ac32-aff4935ed9cd": [
+      {
+        "id": "ac777846-d5f9-439d-a989-1f78da094762",
+        "title": "Bitina",
+        "position": "1",
+        "length": "254760",
+        "work": null
+      },
+      {
+        "id": "2df54eb9-5eed-4556-aa69-991b710ecb79",
+        "title": "Nova sintra",
+        "position": "2",
+        "length": "262960",
+        "work": {
+          "id": "610b8b93-3021-4006-af06-7d1d5f309720",
+          "title": "Nova sintra",
+          "composers": [
+            {
+              "name": "B. Leza",
+              "mbid": "5155f5fa-ae05-4764-8fcb-6adf09f716c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fc9db592-0a1e-4353-8806-cd03257f4d6c",
+        "title": "Emigranti",
+        "position": "3",
+        "length": "291133",
+        "work": null
+      },
+      {
+        "id": "a89da2f5-0b21-427d-a531-800aa49483da",
+        "title": "Tanha",
+        "position": "4",
+        "length": "248000",
+        "work": {
+          "id": "f00de2cf-04ae-461a-892f-b2925825a25c",
+          "title": "Tanha",
+          "composers": [
+            {
+              "name": "B. Leza",
+              "mbid": "5155f5fa-ae05-4764-8fcb-6adf09f716c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "633bec01-17b6-4f9f-ac9a-22ab9daa56e8",
+        "title": "Salamansa",
+        "position": "5",
+        "length": "219200",
+        "work": null
+      },
+      {
+        "id": "13d849dd-4413-4c95-aa70-5ed890de7d2b",
+        "title": "Odji maguado",
+        "position": "6",
+        "length": "239306",
+        "work": {
+          "id": "53b13894-e20b-4472-a5d4-b8e6e6c5c707",
+          "title": "Odji maguado",
+          "composers": [
+            {
+              "name": "B. Leza",
+              "mbid": "5155f5fa-ae05-4764-8fcb-6adf09f716c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "94e19609-f5cf-45aa-b984-9d3069074e1a",
+        "title": "T'imbutchode",
+        "position": "7",
+        "length": "239040",
+        "work": null
+      },
+      {
+        "id": "6bd12184-831f-4ffd-bf1c-1da7a977ef2a",
+        "title": "Distino di Belita",
+        "position": "8",
+        "length": "304093",
+        "work": null
+      },
+      {
+        "id": "4887e755-123f-4cf8-9bb0-09885b2db4a7",
+        "title": "Nova Sintra (version piano bar)",
+        "position": "9",
+        "length": "256240",
+        "work": null
+      },
+      {
+        "id": "d3003cfa-3602-43be-ab80-6057d9d78d9b",
+        "title": "Pontero",
+        "position": "10",
+        "length": "235173",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 5327,
+  "wikidata_id": "Q103759"
+}

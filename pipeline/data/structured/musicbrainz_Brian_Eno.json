@@ -1,0 +1,1140 @@
+{
+  "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872",
+  "name": "Brian Eno",
+  "type": "Person",
+  "country": "GB",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1948-05-15",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "United Kingdom",
+  "begin_area": "Woodbridge",
+  "tags": [
+    {
+      "name": "ambient",
+      "count": "25"
+    },
+    {
+      "name": "art pop",
+      "count": "1"
+    },
+    {
+      "name": "art rock",
+      "count": "6"
+    },
+    {
+      "name": "british",
+      "count": "3"
+    },
+    {
+      "name": "drone",
+      "count": "4"
+    },
+    {
+      "name": "electronic",
+      "count": "12"
+    },
+    {
+      "name": "experimental rock",
+      "count": "7"
+    },
+    {
+      "name": "glam rock",
+      "count": "2"
+    },
+    {
+      "name": "rock",
+      "count": "1"
+    },
+    {
+      "name": "uk",
+      "count": "2"
+    },
+    {
+      "name": "united kingdom",
+      "count": "3"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "Fripp & Eno",
+      "target_mbid": "1327beb8-ed6b-4c26-a8b7-5209eb01ce2c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "Harmonia 76",
+      "target_mbid": "59a34e53-1f30-4f99-8c1a-8465ffff84df",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "N.M.L. NO MORE LANDMINE",
+      "target_mbid": "03c3fef0-1229-403c-a024-fb7d522ecd10",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Roxy Music",
+      "target_mbid": "331ce348-1b08-40b9-8ed7-0763b92bd003",
+      "attributes": [],
+      "begin": "1971",
+      "end": "1973"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "801",
+      "target_mbid": "c65492b4-28af-4d63-b9f5-1db325fd5976",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Portsmouth Sinfonia",
+      "target_mbid": "1e33bf82-1736-4d25-9829-52bf0b2d1ddb",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Passengers",
+      "target_mbid": "e110c11f-1c94-4471-a350-c38f46b29389",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "MDH Band",
+      "target_mbid": "3c9646eb-aecb-43be-bf07-a09b57d9fac5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Darla Eno",
+      "target_mbid": "aef1725c-ad74-403f-8f23-228d2c40eb58",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Irial Eno",
+      "target_mbid": "3da9e750-5db4-49c2-8a40-fd30ba2c2e2c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Roger Eno",
+      "target_mbid": "796dea98-57f0-4c92-8dce-990bdbc4510a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "Tom Rogerson",
+      "target_mbid": "dec9f3fa-2c40-4b72-af6f-cfb6091c59c7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Fred again..",
+      "target_mbid": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Proxy Music",
+      "target_mbid": "54fdc799-060b-497a-868b-314382e85afd",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000617196"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+    },
+    {
+      "type": "BookBrainz",
+      "target": "https://bookbrainz.org/author/8020af40-5783-41c0-961d-1e3356ed756e"
+    },
+    {
+      "type": "discography page",
+      "target": "http://music.hyperreal.org/artists/brian_eno/discog.html"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/634"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.enoweb.co.uk/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/5nRTsSxPNnsySXsuJ6UHGq"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/7MSUfLeTdDEoZiJPDSBXgi"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/2042"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Brian_Eno_Profile_Long_Now_Foundation_2006.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0006061/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Brian+Eno"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Brian-eno"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/enobrian"
+    },
+    {
+      "type": "official homepage",
+      "target": "https://www.brian-eno.net/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n85135915"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13568282b"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118955691"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=516821"
+    },
+    {
+      "type": "other databases",
+      "target": "https://id.oclc.org/worldcat/entity/E39PBJjXfgWcpgYKywP89746rq"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/brian-eno"
+    },
+    {
+      "type": "other databases",
+      "target": "https://musicmoz.org/Bands_and_Artists/E/Eno,_Brian/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6x06gvg"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1105781"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/authors/OL63875A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/brian-eno"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.idref.fr/052608727"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/5405/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.progarchives.com/artist.asp?id=1639"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.spirit-of-rock.com/en/band/Brian_Eno"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Brian-Eno/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/gb/artist/id38124"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/317128/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/gb/artist/38124"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://ototoy.jp/_/default/a/1471"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://uk.7digital.com/artist/brian-eno"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.melon.com/artist/detail.htm?artistId=33902"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.qobuz.com/gb-en/interpreter/brian-eno/7711"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/3214"
+    },
+    {
+      "type": "social network",
+      "target": "https://bsky.app/profile/dark-shark.bsky.social"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/dark_shark"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/brianenomusic"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/brianeno/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.tiktok.com/@brianeno"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/41530"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/brian-eno-official"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.co.uk/artists/B000QJP582"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/38124"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/9230"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.melon.com/artist/detail.htm?artistId=33902"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.qobuz.com/gb-en/interpreter/brian-eno/7711"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/19238"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/2638470"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q569003"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCDDJRnc_LsRm-_CAfRcKCZA"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCDDJRnc_LsRm-_CAfRcKCZA"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "90d9be4c-30be-3e28-949a-66ee22c3a63a",
+      "title": "Here Come the Warm Jets",
+      "type": "Album",
+      "first_release_date": "1973-11"
+    },
+    {
+      "id": "bdde0830-6795-3a52-aaff-a5daf64184c8",
+      "title": "Taking Tiger Mountain (by Strategy)",
+      "type": "Album",
+      "first_release_date": "1974-11"
+    },
+    {
+      "id": "7d5a684e-73a3-325c-a59c-34c9a941d8d6",
+      "title": "Another Green World",
+      "type": "Album",
+      "first_release_date": "1975-09"
+    },
+    {
+      "id": "8aa4a5d9-808e-3aa9-9088-890efa7214b4",
+      "title": "Discreet Music",
+      "type": "Album",
+      "first_release_date": "1975-11"
+    },
+    {
+      "id": "6f9e2641-f79b-32f2-a752-f7212e9040e4",
+      "title": "Before and After Science",
+      "type": "Album",
+      "first_release_date": "1977-12"
+    },
+    {
+      "id": "63456fe7-2d31-378d-a97d-91e8b55946cc",
+      "title": "Cluster & Eno",
+      "type": "Album",
+      "first_release_date": "1977"
+    },
+    {
+      "id": "7da2aff3-6ea3-3eaf-9fe3-74ce89fd6dc0",
+      "title": "Music for Films",
+      "type": "Album",
+      "first_release_date": "1978-09"
+    },
+    {
+      "id": "66160657-0c19-3139-8742-6726fa484f93",
+      "title": "After the Heat",
+      "type": "Album",
+      "first_release_date": "1978"
+    },
+    {
+      "id": "5fdd6ba8-83c1-3a87-b378-d5f61dec5ddd",
+      "title": "Ambient 1: Music for Airports",
+      "type": "Album",
+      "first_release_date": "1978"
+    },
+    {
+      "id": "f500d8a1-64f4-3eb8-83ca-5a7c43edf422",
+      "title": "In a Land of Clear Colours",
+      "type": "Album",
+      "first_release_date": "1979"
+    },
+    {
+      "id": "bc72eaef-880a-30a0-b661-d6cdbd75c8da",
+      "title": "Fourth World, Vol. 1: Possible Musics",
+      "type": "Album",
+      "first_release_date": "1980-01-25"
+    },
+    {
+      "id": "02c0fc3b-9c3c-34e4-abed-bb6cd04fa1fc",
+      "title": "Ambient 2: The Plateaux of Mirror",
+      "type": "Album",
+      "first_release_date": "1980"
+    },
+    {
+      "id": "0dd5a352-6ae0-3e0d-bf18-bec30e27807d",
+      "title": "My Life in the Bush of Ghosts",
+      "type": "Album",
+      "first_release_date": "1981-02-01"
+    },
+    {
+      "id": "dc8ebaf6-2524-3c62-9c11-9155fa460f42",
+      "title": "Ambient 4: On Land",
+      "type": "Album",
+      "first_release_date": "1982-04"
+    },
+    {
+      "id": "03fe7fe6-2d96-3b40-816d-885b5118107e",
+      "title": "Apollo: Atmospheres & Soundtracks",
+      "type": "Album",
+      "first_release_date": "1983-07"
+    },
+    {
+      "id": "92dc4f33-f0bc-42da-856a-684e1eea3c2d",
+      "title": "Music for Films, Volume 2",
+      "type": "Album",
+      "first_release_date": "1983"
+    },
+    {
+      "id": "6c364112-e9fb-373c-9f1d-364b427f64c3",
+      "title": "The Pearl",
+      "type": "Album",
+      "first_release_date": "1984-08"
+    },
+    {
+      "id": "1696441a-25cd-32df-aad8-9ba367ea658c",
+      "title": "Hybrid",
+      "type": "Album",
+      "first_release_date": "1985"
+    },
+    {
+      "id": "f833a9fc-3c55-309f-a7f5-30fb9124040d",
+      "title": "Thursday Afternoon",
+      "type": "Album",
+      "first_release_date": "1985"
+    },
+    {
+      "id": "bef2e618-e3c3-3725-bef2-07d8bfcc0706",
+      "title": "Textures",
+      "type": "Album",
+      "first_release_date": "1989"
+    },
+    {
+      "id": "93de2cce-a2d6-389b-9050-8c6b78abab82",
+      "title": "Wrong Way Up",
+      "type": "Album",
+      "first_release_date": "1990-10"
+    },
+    {
+      "id": "e2e79340-b616-37df-9e5f-dd2b11d7c1cd",
+      "title": "My Squelchy Life",
+      "type": "Album",
+      "first_release_date": "1991-09"
+    },
+    {
+      "id": "8cc4ad2e-95b9-3bb9-9d34-1d1dc4dffe6e",
+      "title": "Nerve Net",
+      "type": "Album",
+      "first_release_date": "1992-09"
+    },
+    {
+      "id": "19ad2849-af1c-3e4a-8dca-e810132f2bf1",
+      "title": "The Shutov Assembly",
+      "type": "Album",
+      "first_release_date": "1992-11"
+    },
+    {
+      "id": "5aad875e-b319-3917-8e32-4eb13464c7dd",
+      "title": "Neroli",
+      "type": "Album",
+      "first_release_date": "1993-06"
+    }
+  ],
+  "tracks": {
+    "90d9be4c-30be-3e28-949a-66ee22c3a63a": [
+      {
+        "id": "f5f23de7-c15b-4978-99ed-dee21d7d5e12",
+        "title": "Needles in the Camel’s Eye",
+        "position": "1",
+        "length": "191053",
+        "work": {
+          "id": "6d560984-0255-3452-a252-2d11bd98b43d",
+          "title": "Needles in the Camel’s Eye",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            },
+            {
+              "name": "Phil Manzanera",
+              "mbid": "0d2cf864-5e99-472e-845f-5d1579979eee"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fa953bf0-432d-4a29-842d-7217e68e74af",
+        "title": "The Paw Paw Negro Blowtorch",
+        "position": "2",
+        "length": "185106",
+        "work": {
+          "id": "032bfe89-f2c1-4238-bd5a-7365400fa1ba",
+          "title": "The Paw Paw Negro Blowtorch",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "03f99283-5fa0-4c3d-a54c-e285c760b147",
+        "title": "Baby’s on Fire",
+        "position": "3",
+        "length": "320153",
+        "work": {
+          "id": "6cade529-4d4f-4b89-b7d1-2d0cd537aeb5",
+          "title": "Baby’s on Fire",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "77a80e37-fb2b-4425-8053-21fbee258502",
+        "title": "Cindy Tells Me",
+        "position": "4",
+        "length": "205560",
+        "work": {
+          "id": "6e96e501-45a1-4acd-b38d-e305221dc9f2",
+          "title": "Cindy Tells Me",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            },
+            {
+              "name": "Phil Manzanera",
+              "mbid": "0d2cf864-5e99-472e-845f-5d1579979eee"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0f9af4f4-f685-446b-961f-3e1b70c2104f",
+        "title": "Driving Me Backwards",
+        "position": "5",
+        "length": "312146",
+        "work": {
+          "id": "625f9e01-d0e2-4b2a-addc-d5f67d395fd4",
+          "title": "Driving Me Backwards",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3445493a-87a1-47c2-bfec-7288bdae6a37",
+        "title": "On Some Faraway Beach",
+        "position": "6",
+        "length": "276573",
+        "work": {
+          "id": "3e6181b8-4ac4-4fa7-b761-213c6803a328",
+          "title": "On Some Faraway Beach",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "63c11e3c-cb6b-4528-ac69-55b9761c91ca",
+        "title": "Blank Frank",
+        "position": "7",
+        "length": "217226",
+        "work": {
+          "id": "c85bd299-fe29-410d-892d-52736ed9b53b",
+          "title": "Blank Frank",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            },
+            {
+              "name": "Robert Fripp",
+              "mbid": "898b645e-eed2-490a-8ce2-0e7a4d2d5bc8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c0fe9e4c-46da-4de8-adef-08edaf496105",
+        "title": "Dead Finks Don’t Talk",
+        "position": "8",
+        "length": "260200",
+        "work": {
+          "id": "4e44fc1b-12a3-41f1-ab08-0aa21bf2269c",
+          "title": "Dead Finks Don’t Talk",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ca5d84c0-062d-415e-b8fd-4385b499054a",
+        "title": "Some of Them Are Old",
+        "position": "9",
+        "length": "311866",
+        "work": {
+          "id": "ab8ed4d2-b126-4a7f-8050-acd9a1a0d8d6",
+          "title": "Some of Them Are Old",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "df6f9697-116e-41b8-b91d-94c718727406",
+        "title": "Here Come the Warm Jets",
+        "position": "10",
+        "length": "242600",
+        "work": {
+          "id": "6cbf5e95-8920-3bba-bd78-e25b28124bfd",
+          "title": "Here Come the Warm Jets",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      }
+    ],
+    "bdde0830-6795-3a52-aaff-a5daf64184c8": [
+      {
+        "id": "c3e36f80-afca-4f08-b5cc-d3e33c724647",
+        "title": "Burning Airlines Give You So Much More",
+        "position": "1",
+        "length": "197600",
+        "work": {
+          "id": "92e7fcf6-8311-3f07-bf3c-e9742c58cd0e",
+          "title": "Burning Airlines Give You So Much More",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5195aff7-efe3-496b-81e8-5dcf7aa9777d",
+        "title": "Back in Judy’s Jungle",
+        "position": "2",
+        "length": "315933",
+        "work": {
+          "id": "1dcc74a5-00fb-3288-9ac4-e4431b374203",
+          "title": "Back in Judy’s Jungle",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1058c32d-9fc8-491f-88a7-519f7a97479f",
+        "title": "The Fat Lady of Limbourg",
+        "position": "3",
+        "length": "305080",
+        "work": {
+          "id": "41bcef59-b2fc-3c2e-bfe8-ccccffae4d46",
+          "title": "The Fat Lady of Limbourg",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1818d65a-6914-456c-8169-182855e57f0c",
+        "title": "Mother Whale Eyeless",
+        "position": "4",
+        "length": "346000",
+        "work": {
+          "id": "ec3e030c-8036-37dd-a801-455a28741c40",
+          "title": "Mother Whale Eyeless",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7de3f23e-3c61-4203-b593-2d097a254374",
+        "title": "The Great Pretender",
+        "position": "5",
+        "length": "311000",
+        "work": {
+          "id": "01ee4065-c2f4-3b9c-8eeb-5f30fed3dce2",
+          "title": "The Great Pretender",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d658a0c4-8561-44d7-852b-91e603b8c8c0",
+        "title": "Third Uncle",
+        "position": "6",
+        "length": "289906",
+        "work": {
+          "id": "2f038209-e9fb-3a09-8085-7f54a82adc21",
+          "title": "Third Uncle",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6773f86f-de8b-4f44-a99f-8f81102ab311",
+        "title": "Put a Straw Under Baby",
+        "position": "7",
+        "length": "205400",
+        "work": {
+          "id": "291cf987-c21f-3455-9a69-8cda4b9c87f3",
+          "title": "Put a Straw Under Baby",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "13d49229-1231-4c00-a3cb-8c20bcb720d6",
+        "title": "The True Wheel",
+        "position": "8",
+        "length": "311186",
+        "work": {
+          "id": "66ca17ff-01a4-3203-97fd-8ca435245c01",
+          "title": "The True Wheel",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            },
+            {
+              "name": "Phil Manzanera",
+              "mbid": "0d2cf864-5e99-472e-845f-5d1579979eee"
+            }
+          ]
+        }
+      },
+      {
+        "id": "640088bc-6261-41ea-a196-939ca9895ec2",
+        "title": "China My China",
+        "position": "9",
+        "length": "284800",
+        "work": {
+          "id": "a8427d60-e2d6-3432-a001-bf6c65c21b44",
+          "title": "China My China",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4a7c82bc-8662-4a09-9f54-03150bab7325",
+        "title": "Taking Tiger Mountain",
+        "position": "10",
+        "length": "332560",
+        "work": {
+          "id": "8addb108-9781-3980-abf3-368eaf69554d",
+          "title": "Taking Tiger Mountain",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      }
+    ],
+    "7d5a684e-73a3-325c-a59c-34c9a941d8d6": [
+      {
+        "id": "68b5e55a-2af1-41c4-b6d3-afb51487c6bf",
+        "title": "Sky Saw",
+        "position": "1",
+        "length": "207333",
+        "work": {
+          "id": "8e7f3e96-45a7-34f7-8194-f29b90d85f2e",
+          "title": "Sky Saw",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a838fb27-2a57-4829-bd94-adefcdb97a96",
+        "title": "Over Fire Island",
+        "position": "2",
+        "length": "111213",
+        "work": {
+          "id": "7a5c2577-8dba-3b7b-9278-553b7191692d",
+          "title": "Over Fire Island",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1db26d16-7c8e-450c-981c-75d6b7e3ad9f",
+        "title": "St. Elmo’s Fire",
+        "position": "3",
+        "length": "182413",
+        "work": {
+          "id": "68532459-de56-3f2a-b551-7d1217a32036",
+          "title": "St. Elmo’s Fire",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cf6ab6bb-ebcb-42d7-b311-a11a904d7e9b",
+        "title": "In Dark Trees",
+        "position": "4",
+        "length": "150066",
+        "work": {
+          "id": "01607403-9838-36ac-a52b-bbe249e46334",
+          "title": "In Dark Trees",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8086b7f8-7c46-4374-a36f-4d4d8e588a69",
+        "title": "The Big Ship",
+        "position": "5",
+        "length": "183000",
+        "work": {
+          "id": "e19a34ea-dfc0-3b28-ae7d-f704f088a634",
+          "title": "The Big Ship",
+          "composers": [
+            {
+              "name": "Danny Elfman",
+              "mbid": "5b24fbab-c58f-4c37-a59d-ab232e2d98c4"
+            },
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9d022130-b6ef-44f4-936b-e1b1990d76d8",
+        "title": "I’ll Come Running",
+        "position": "6",
+        "length": "230000",
+        "work": {
+          "id": "8f99052e-ec6a-3f7d-8b76-24acb4ff780d",
+          "title": "I’ll Come Running",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ecf9b6eb-b148-47c4-8c8f-382cb78e0528",
+        "title": "Another Green World",
+        "position": "7",
+        "length": "97000",
+        "work": {
+          "id": "c5217737-a50c-3302-884a-288e0fd1b2a4",
+          "title": "Another Green World",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "37875255-f3c1-40a1-8d3e-cd559823c433",
+        "title": "Sombre Reptiles",
+        "position": "8",
+        "length": "145826",
+        "work": {
+          "id": "080c9c8c-5780-394a-8a11-8ff0b95ac5c9",
+          "title": "Sombre Reptiles",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c8288e3b-0008-4fe7-9e5c-0489fe058e2f",
+        "title": "Little Fishes",
+        "position": "9",
+        "length": "90240",
+        "work": {
+          "id": "d508aaf7-3a1e-3ceb-a2dc-af83d4e21579",
+          "title": "Little Fishes",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6d833236-c47f-414f-8121-bdc648cdc0be",
+        "title": "Golden Hours",
+        "position": "10",
+        "length": "240866",
+        "work": {
+          "id": "6cbaeef5-122a-3775-b97e-b51398248771",
+          "title": "Golden Hours",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c94edc4e-9205-4960-b9c5-67fa19d5dd58",
+        "title": "Becalmed",
+        "position": "11",
+        "length": "236800",
+        "work": {
+          "id": "fd5dbefe-97da-340e-83b2-3bf7b17691fe",
+          "title": "Becalmed",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "87eeaec3-60c1-45b0-83ea-987f4a4adbab",
+        "title": "Zawinul/Lava",
+        "position": "12",
+        "length": "180573",
+        "work": {
+          "id": "fbfaa78b-64ee-378a-a7a5-385ddef97fa9",
+          "title": "Zawinul/Lava",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bac4b5fb-3793-4835-a56a-0cafde3a2b4f",
+        "title": "Everything Merges With the Night",
+        "position": "13",
+        "length": "239666",
+        "work": {
+          "id": "e2ab0617-5d05-3afa-a90f-c67f8e23a402",
+          "title": "Everything Merges With the Night",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      },
+      {
+        "id": "998abbfa-c581-40ed-8e2c-c6db1de04865",
+        "title": "Spirits Drifting",
+        "position": "14",
+        "length": "171000",
+        "work": {
+          "id": "ae718a38-875a-3757-906e-cacf12916fae",
+          "title": "Spirits Drifting",
+          "composers": [
+            {
+              "name": "Brian Eno",
+              "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 634,
+  "wikidata_id": "Q569003"
+}

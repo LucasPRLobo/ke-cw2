@@ -1,0 +1,67 @@
+[
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "alterEgo",
+    "object": "Queen of Soul"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "performedAt",
+    "object": "New Bethel Baptist Church"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "released",
+    "object": "I Never Loved a Man the Way I Love You"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "released",
+    "object": "Lady Soul"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "released",
+    "object": "Aretha Now"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "released",
+    "object": "Young, Gifted and Black"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "released",
+    "object": "Amazing Grace"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "released",
+    "object": "Sparkle"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "released",
+    "object": "Jump to It"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "released",
+    "object": "Who's Zoomin' Who?"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "released",
+    "object": "Aretha"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "released",
+    "object": "A Rose Is Still a Rose"
+  },
+  {
+    "subject": "Aretha Franklin",
+    "predicate": "collaboratedWith",
+    "object": "George Michael"
+  }
+]

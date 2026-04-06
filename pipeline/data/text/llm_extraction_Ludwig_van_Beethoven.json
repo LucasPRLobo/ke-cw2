@@ -1,0 +1,21 @@
+[
+  {"subject": "Beethoven", "predicate": "hasMusicalPeriod", "object": "Classical"},
+  {"subject": "Beethoven", "predicate": "hasMusicalPeriod", "object": "Romantic"},
+  {"subject": "Beethoven", "predicate": "influencedBy", "object": "Johann van Beethoven"},
+  {"subject": "Beethoven", "predicate": "influencedBy", "object": "Christian Gottlob Neefe"},
+  {"subject": "Beethoven", "predicate": "influencedBy", "object": "Joseph Haydn"},
+  {"subject": "Beethoven", "predicate": "influencedBy", "object": "Wolfgang Amadeus Mozart"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "Three Opus 1 Piano Trios (1795)"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "Symphony No. 1 (1800)"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "String Quartets Op. 18 (1801)"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "Symphony No. 3 'Eroica' (1805)"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "Fidelio (1805)"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "Violin Concerto (1806)"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "Symphony No. 5 (1808)"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "Piano Concerto No. 5 'Emperor' (1811)"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "Missa Solemnis (1819–1823)"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "Symphony No. 9 (1822–1824)"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "Diabelli Variations"},
+  {"subject": "Beethoven", "predicate": "composed", "object": "Große Fuge (1825–1826)"},
+  {"subject": "Beethoven", "predicate": "hasGenre", "object": "choral symphony"}
+]

@@ -1,0 +1,87 @@
+{
+  "CQ8": {
+    "question": "How many awards has David Bowie won?",
+    "kg_results_count": 10,
+    "kg_results_sample": [
+      "Commander of the Order of the British Empire",
+      "Commandeur des Arts et des Lettres",
+      "Grammy Hall of Fame",
+      "Grammy Lifetime Achievement Award",
+      "Great Britons",
+      "Ordre des Arts et des Lettres",
+      "Rock and Roll Hall of Fame",
+      "Rolling Stone's 100 Greatest Artists of All Time",
+      "Webby Lifetime Achievement Award",
+      "star on Hollywood Walk of Fame"
+    ]
+  },
+  "CQ7": {
+    "question": "What instruments does John Lennon play?",
+    "kg_results_count": 6,
+    "kg_results_sample": [
+      "bass guitar",
+      "guitar",
+      "harmonica",
+      "keyboard",
+      "piano",
+      "vocals"
+    ]
+  },
+  "CQ9": {
+    "question": "What subgenres emerged from rock music?",
+    "kg_results_count": 31,
+    "kg_results_sample": [
+      "alternative rock",
+      "art rock",
+      "avant-garde",
+      "beat",
+      "blues rock",
+      "bubblegum",
+      "country",
+      "country rock",
+      "experimental",
+      "folk rock",
+      "glam",
+      "grunge",
+      "hard rock",
+      "indie rock",
+      "jazz-rock",
+      "krautrock",
+      "latin",
+      "mod",
+      "new wave",
+      "noise rock"
+    ]
+  },
+  "CQ12": {
+    "question": "Which artists influenced David Bowie and share a common genre with him?",
+    "kg_results_count": 9,
+    "kg_results_sample": [
+      "Bob Dylan | pop rock",
+      "Bob Dylan | rock",
+      "The Beatles | experimental rock",
+      "The Beatles | hard rock",
+      "The Beatles | pop",
+      "The Beatles | pop rock",
+      "The Beatles | psychedelic pop",
+      "The Beatles | psychedelic rock",
+      "The Beatles | rock"
+    ]
+  },
+  "CQ20": {
+    "question": "Which countries had artists releasing jazz albums in the 1960s?",
+    "kg_results_count": 10,
+    "kg_results_sample": [
+      "BR",
+      "Brazil",
+      "US",
+      "United States",
+      "South Africa",
+      "ZA",
+      "ES",
+      "Spain",
+      "NG",
+      "Nigeria"
+    ]
+  }
+}

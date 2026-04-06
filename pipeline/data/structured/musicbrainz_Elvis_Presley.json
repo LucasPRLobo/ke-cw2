@@ -1,0 +1,1554 @@
+{
+  "mbid": "01809552-4f87-45b0-afff-2c6f0730a3be",
+  "name": "Elvis Presley",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1935-01-08",
+    "end": "1977-08-16",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "Tupelo",
+  "tags": [
+    {
+      "name": "actors",
+      "count": "2"
+    },
+    {
+      "name": "blue-eyed soul",
+      "count": "4"
+    },
+    {
+      "name": "blues",
+      "count": "4"
+    },
+    {
+      "name": "christmas music",
+      "count": "2"
+    },
+    {
+      "name": "country",
+      "count": "6"
+    },
+    {
+      "name": "film soundtrack",
+      "count": "3"
+    },
+    {
+      "name": "gospel",
+      "count": "4"
+    },
+    {
+      "name": "guitarists",
+      "count": "1"
+    },
+    {
+      "name": "https://musicbrainz.org/artist/01809552-4f87-45b0-afff-2c6f0730a3be",
+      "count": "2"
+    },
+    {
+      "name": "pop",
+      "count": "6"
+    },
+    {
+      "name": "pop rock",
+      "count": "2"
+    },
+    {
+      "name": "r&b",
+      "count": "2"
+    },
+    {
+      "name": "rock",
+      "count": "6"
+    },
+    {
+      "name": "rock & roll",
+      "count": "3"
+    },
+    {
+      "name": "rock and roll",
+      "count": "9"
+    },
+    {
+      "name": "rock musicians",
+      "count": "1"
+    },
+    {
+      "name": "rock-and-roll",
+      "count": "1"
+    },
+    {
+      "name": "rockabilly",
+      "count": "10"
+    },
+    {
+      "name": "singers",
+      "count": "1"
+    },
+    {
+      "name": "soul",
+      "count": "2"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "The Million Dollar Quartet",
+      "target_mbid": "b4bfd133-a931-42c7-a41c-0311893dea67",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Wanda Jackson",
+      "target_mbid": "550fbe01-42e9-4006-bcd0-6a1854dceb8f",
+      "attributes": [],
+      "begin": "1955",
+      "end": "1955"
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Anita Wood",
+      "target_mbid": "7fe336aa-ec14-4cec-95c3-f61f936f25ae",
+      "attributes": [],
+      "begin": "1957",
+      "end": "1962"
+    },
+    {
+      "type": "involved with",
+      "direction": "forward",
+      "target_name": "Tuesday Weld",
+      "target_mbid": "51502c9f-423a-405b-a9b9-5c9d0c14f47d",
+      "attributes": [],
+      "begin": "1961",
+      "end": "1961"
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Linda Thompson",
+      "target_mbid": "55c528ce-0580-462c-9e19-066304199c4a",
+      "attributes": [],
+      "begin": "1972",
+      "end": "1976-11"
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Ann‐Margret",
+      "target_mbid": "0d6e57aa-f495-460e-a27a-0d6677070914",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Priscilla Presley",
+      "target_mbid": "5936ddfb-c22d-4fc5-827b-8d426014556d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Elvis, Scotty & Bill",
+      "target_mbid": "8764d6b7-763b-4ab0-8940-60a50fb294f0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Blue Moon Boys",
+      "target_mbid": "be6f3c42-4a84-4bbc-9471-30c981d8afc4",
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Blue Moon Boys",
+      "target_mbid": "be6f3c42-4a84-4bbc-9471-30c981d8afc4",
+      "attributes": [
+        "electric guitar"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Elvis Depressedly",
+      "target_mbid": "531f2c87-9442-4c89-843c-56313dc58ed7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Elvis Hitler",
+      "target_mbid": "663765ff-c8f7-42eb-93d0-1fe698732ca1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Lisa Marie Presley",
+      "target_mbid": "4635869b-1f1a-452e-af87-f6c2e2ef6e74",
+      "attributes": [],
+      "begin": "1968-02-01",
+      "end": "1977-08-16"
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Gladys Presley",
+      "target_mbid": "c9c71188-14ea-45f9-8a56-b7f047cc7d93",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Robbie Rhodes",
+      "target_mbid": "e34d2026-57d6-4f86-a464-1db5d578283f",
+      "attributes": [],
+      "begin": "1978",
+      "end": "1981"
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Johnny Lee Memphis",
+      "target_mbid": "144b2e47-7da1-4059-b313-f2ca9ff7fb9f",
+      "attributes": [],
+      "begin": "2004",
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Vick Beasley",
+      "target_mbid": "fd09d67c-a22d-4c46-8082-4590aaf24a09",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Black Elvis",
+      "target_mbid": "4bf57898-b739-4fe6-8c30-ea6530a253f6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Elvana",
+      "target_mbid": "521018bd-81ce-4280-944a-04fc0b1e52e5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Elvis: An American Trilogy",
+      "target_mbid": "d8c86105-4bef-4dc1-b333-e172d77b3ed3",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Estefy Lennon Band",
+      "target_mbid": "bec11f22-f76f-46c1-a270-66a3035e0525",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Franz Goovaerts",
+      "target_mbid": "751760ee-5243-4498-9541-4b04e26edcbd",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Jesse Garron's Tribute to Elvis",
+      "target_mbid": "8f746fba-77f8-408e-846f-1d00552eaa10",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "D.K. Joël",
+      "target_mbid": "6186f6df-364f-4062-8125-046fa4586066",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "KAVAN (The World's #1 Rock N Roll Elvis)",
+      "target_mbid": "3d50772f-edeb-43ae-b19c-9a62ae5ef22b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Shawn Klush",
+      "target_mbid": "e45afde9-0e74-457d-a0a8-9b1720a28ee6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Jonny Lyons",
+      "target_mbid": "9ffbc079-99dc-48b9-9809-298e9709708a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Ray Martin",
+      "target_mbid": "73aa2554-9257-4962-af69-ca145af21b1d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Million Dollar Reunion",
+      "target_mbid": "391777f4-a983-4135-a8af-0ec8dd68f6da",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Don Obusek",
+      "target_mbid": "3483c5c3-5616-47fc-a0f5-01b87c15a2a4",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Trenten Oliphant",
+      "target_mbid": "51d35c83-0211-4921-89a8-43012f200aa7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Jesse Praesley",
+      "target_mbid": "9c8c45f6-ebd1-4302-bf6a-7e4099ba5be6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "RIO The Voice of Elvis",
+      "target_mbid": "7eb7ba5d-8cba-4f14-8624-f57fefb2f4b9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Moses Snow",
+      "target_mbid": "d442fda4-b9aa-4f2b-bb34-3946669ff0cc",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "John Van Thiel",
+      "target_mbid": "1b43eca1-e799-45c5-9da7-01c9040f7549",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "כהן ג'ורי",
+      "target_mbid": "9a8f7346-3ce3-4556-84af-6cf226acfb1f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Keith Allynn",
+      "target_mbid": "024a5e59-efbc-40bd-a0f3-5f2e1b1a471b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "vocal supporting musician",
+      "direction": "backward",
+      "target_name": "The Jordanaires",
+      "target_mbid": "42b93918-afa2-4f77-b231-b1244606900d",
+      "attributes": [],
+      "begin": "1956",
+      "end": "1972"
+    },
+    {
+      "type": "vocal supporting musician",
+      "direction": "backward",
+      "target_name": "The Imperials",
+      "target_mbid": "95db23d3-9f80-45ae-8c19-94c3c440d4b9",
+      "attributes": [],
+      "begin": "1966",
+      "end": "1971"
+    },
+    {
+      "type": "vocal supporting musician",
+      "direction": "backward",
+      "target_name": "Sherrill Nielsen",
+      "target_mbid": "586571bb-ec7d-4feb-816b-826834b88353",
+      "attributes": [],
+      "begin": null,
+      "end": "1977-08-16"
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000180228"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/1234"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/01809552-4f87-45b0-afff-2c6f0730a3be"
+    },
+    {
+      "type": "discography page",
+      "target": "http://personal.readysoft.es/ribes/elvis/elvis.htm"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.elvisrecords.com/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.sergent.com.au/elvis/Menu.html"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/27518"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://www.elvisnews.com/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/43ZHCT0cAZBISjO8DG9PnE"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/1125"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0000062/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Elvis+Presley"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-3887/elvis-presley/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Elvis-presley"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/Elvis-Presley"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/thekingelvis"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.elvis.com/"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.elvisthemusic.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n78079487"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/P/Presley,_Elvis/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13898654b"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118596357"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=84045"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/elvis-presley"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6fb512h"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-950844"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL511786A"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/3122/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/elvis_presley"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/elvis-presley"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000097506/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.spirit-of-rock.com/en/band/Elvis_Presley"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Elvis-Presley/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.musik-sammler.de/artist/1843"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.worldcat.org/wcidentities/lccn-n78-79487"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=Auockoc4x2cefmyvkatvky4fbgm"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/197443"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://ototoy.jp/_/default/a/854778"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://uk.7digital.com/artist/elvis-presley-(2)"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id197443"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://tower.jp/artist/176222"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/103"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/elvis-presley-73d6a2b1.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://plus.google.com/+elvispresley/posts"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/elvispresley"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/elvis"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/elvis/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.threads.com/@elvis"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.tiktok.com/@elvispresley"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/561119"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/elvissonymusic"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B001Q5ADBE"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/197443"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/1588"
+    },
+    {
+      "type": "streaming",
+      "target": "https://us.napster.com/artist/elvis-presley"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/22555"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/23404836"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q303"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCSEmH1YyFWltSBYkfLMtkcg"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCW6G95TBLCh5SdC-DHDSf5w"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UChgxarBUCnPJV871-46bJ2g"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "2ebeec96-6ef7-3d4d-943c-0b4a2af1d7cc",
+      "title": "Elvis Presley",
+      "type": "Album",
+      "first_release_date": "1956-03-13"
+    },
+    {
+      "id": "79dabce4-71c2-34ce-9d5d-83f9442fb325",
+      "title": "Elvis",
+      "type": "Album",
+      "first_release_date": "1956-10-19"
+    },
+    {
+      "id": "626a3486-a3ef-3cf6-bdda-11c55b529509",
+      "title": "Elvis’ Christmas Album",
+      "type": "Album",
+      "first_release_date": "1957-10-15"
+    },
+    {
+      "id": "4524e346-681e-364d-b975-bad70d71f2d7",
+      "title": "Elvis Is Back!",
+      "type": "Album",
+      "first_release_date": "1960-04-08"
+    },
+    {
+      "id": "d76fa095-8801-30b7-85be-65cbad806378",
+      "title": "His Hand in Mine",
+      "type": "Album",
+      "first_release_date": "1960-11-10"
+    },
+    {
+      "id": "d6090b20-bee8-38e1-bb25-8c4ee0a52204",
+      "title": "Something for Everybody",
+      "type": "Album",
+      "first_release_date": "1961-06-17"
+    },
+    {
+      "id": "86830b54-b672-3bf6-a9ca-27158f50b1be",
+      "title": "Pot Luck",
+      "type": "Album",
+      "first_release_date": "1962-06-05"
+    },
+    {
+      "id": "6590150a-22bf-3904-8b38-1a978f6b03f0",
+      "title": "Elvis for Everyone!",
+      "type": "Album",
+      "first_release_date": "1965-08-10"
+    },
+    {
+      "id": "84324cfa-4827-30e8-88ef-e432a98de181",
+      "title": "How Great Thou Art",
+      "type": "Album",
+      "first_release_date": "1967-02"
+    },
+    {
+      "id": "2a753764-89d5-3b72-8dff-8c599f1ea925",
+      "title": "From Elvis in Memphis",
+      "type": "Album",
+      "first_release_date": "1969-06-17"
+    },
+    {
+      "id": "d2fa78f3-50d9-3d5c-8760-a00074d5d376",
+      "title": "Back in Memphis",
+      "type": "Album",
+      "first_release_date": "1969-10-14"
+    },
+    {
+      "id": "99d47a96-4666-3d8f-a613-75561cda1b48",
+      "title": "That’s the Way It Is",
+      "type": "Album",
+      "first_release_date": "1970-11-01"
+    },
+    {
+      "id": "01e9f928-9fe4-3153-9404-e6b2b1e95f34",
+      "title": "Elvis Country: I’m 10,000 Years Old",
+      "type": "Album",
+      "first_release_date": "1971-01-02"
+    },
+    {
+      "id": "db779002-25dc-45f5-b39a-339879b30007",
+      "title": "Love Letters From Elvis",
+      "type": "Album",
+      "first_release_date": "1971-06"
+    },
+    {
+      "id": "07af1498-2709-30f5-80b8-232ce07f605c",
+      "title": "Elvis Sings the Wonderful World of Christmas",
+      "type": "Album",
+      "first_release_date": "1971-10-20"
+    },
+    {
+      "id": "40c090b7-cf63-33c2-9493-e15075a72035",
+      "title": "Elvis Now",
+      "type": "Album",
+      "first_release_date": "1972-02-20"
+    },
+    {
+      "id": "ac2a98ba-6578-3196-8d8e-7f2ca9687338",
+      "title": "He Touched Me",
+      "type": "Album",
+      "first_release_date": "1972-04-01"
+    },
+    {
+      "id": "5334291d-f8f1-39d7-b293-361c0d473191",
+      "title": "Elvis",
+      "type": "Album",
+      "first_release_date": "1973-07-16"
+    },
+    {
+      "id": "53dc4b12-cf49-31f2-bb27-e93a70b1c617",
+      "title": "Raised on Rock / For Ol’ Times Sake",
+      "type": "Album",
+      "first_release_date": "1973-11-01"
+    },
+    {
+      "id": "d7695480-d8e5-3cbb-beed-7de7021f2d0b",
+      "title": "Good Times",
+      "type": "Album",
+      "first_release_date": "1974-03-20"
+    },
+    {
+      "id": "9bbbe5c6-a7ac-3899-84d5-2788a9003e8d",
+      "title": "Promised Land",
+      "type": "Album",
+      "first_release_date": "1975-01-01"
+    },
+    {
+      "id": "d4edda0a-d70a-34aa-a31b-5bb00f3cdb8b",
+      "title": "Today",
+      "type": "Album",
+      "first_release_date": "1975-05-07"
+    },
+    {
+      "id": "63b80a2c-bfa9-391b-b199-fbaaafeedfdf",
+      "title": "From Elvis Presley Boulevard, Memphis, Tennessee",
+      "type": "Album",
+      "first_release_date": "1976-05"
+    },
+    {
+      "id": "a61b9898-0d5c-3850-a655-68dcc1462688",
+      "title": "Moody Blue",
+      "type": "Album",
+      "first_release_date": "1977"
+    },
+    {
+      "id": "abc1613d-b6c2-4c19-8504-40981df2347f",
+      "title": "Gold Collection Vol. 1",
+      "type": "Album",
+      "first_release_date": "1993"
+    }
+  ],
+  "tracks": {
+    "2ebeec96-6ef7-3d4d-943c-0b4a2af1d7cc": [
+      {
+        "id": "1f872af2-7b85-493d-89a9-6b92519429cd",
+        "title": "Blue Suede Shoes",
+        "position": "1",
+        "length": "120693",
+        "work": {
+          "id": "e5e57b3d-ff8c-3def-854b-fc9d22668f7d",
+          "title": "Blue Suede Shoes",
+          "composers": [
+            {
+              "name": "Carl Perkins",
+              "mbid": "068bd7ab-c38e-4fae-8ed2-cb0c153ed68f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "061ee417-6f1a-4f4f-a163-833e48ea7a71",
+        "title": "I’m Counting on You",
+        "position": "2",
+        "length": "145000",
+        "work": {
+          "id": "2d331370-0057-340f-87c1-60ea6835c246",
+          "title": "I’m Counting on You",
+          "composers": [
+            {
+              "name": "Don Robertson",
+              "mbid": "cb35d893-ddff-440f-b64d-a3ca1962e51e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7e13e88a-6155-4dbf-bf32-fd0558589d05",
+        "title": "I Got a Woman",
+        "position": "3",
+        "length": "145786",
+        "work": {
+          "id": "ea6ccf52-c878-34df-a8cb-2d320de462db",
+          "title": "I Got a Woman",
+          "composers": [
+            {
+              "name": "Ray Charles",
+              "mbid": "2ce02909-598b-44ef-a456-151ba0a3bd70"
+            },
+            {
+              "name": "Renald Richard",
+              "mbid": "3e7beb58-2991-4ac8-84cd-915f1d46acd5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6dc1bf63-80e5-48ba-a47f-f1037fb90d4d",
+        "title": "One‐Sided Love Affair",
+        "position": "4",
+        "length": "131480",
+        "work": {
+          "id": "c243aa5e-9fec-3133-9c73-c838f5f2691b",
+          "title": "One-Sided Love Affair",
+          "composers": [
+            {
+              "name": "Bill Campbell",
+              "mbid": "f46f9a66-f99f-4c84-b452-88135041e85a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6b301af7-950e-4c2d-a016-64d9e52aa208",
+        "title": "I Love You Because",
+        "position": "5",
+        "length": "163000",
+        "work": {
+          "id": "cc2c187f-6f9e-3443-956f-684b4e8307ae",
+          "title": "I Love You Because",
+          "composers": [
+            {
+              "name": "Leon Payne",
+              "mbid": "e3d0da79-2006-472c-8338-2ea2e259058b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "69394fc2-b39f-437a-afe8-e262cfc7db85",
+        "title": "Just Because",
+        "position": "6",
+        "length": "154000",
+        "work": {
+          "id": "f4df1135-e9e1-3eee-aa9c-955eb6ed0af3",
+          "title": "Just Because",
+          "composers": [
+            {
+              "name": "Leon Chappel",
+              "mbid": "d5c12342-9bd6-4ea6-b115-6005a88f0aa9"
+            },
+            {
+              "name": "Sid Robin",
+              "mbid": "0b5820aa-6926-4be8-9fb4-923893c56fe1"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c826e5d6-7732-4033-ac33-4f5d397d3b7b",
+        "title": "Tutti Frutti",
+        "position": "7",
+        "length": "119000",
+        "work": {
+          "id": "c3fe1dc6-21aa-3d8d-9cde-df8524fbc83c",
+          "title": "Tutti Frutti",
+          "composers": [
+            {
+              "name": "Dorothy LaBostrie",
+              "mbid": "f3897319-c9a4-4550-8b20-de5d508f8f15"
+            },
+            {
+              "name": "Little Richard",
+              "mbid": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be"
+            },
+            {
+              "name": "Joe Lubin",
+              "mbid": "a99a7722-450e-427a-908d-9c1ecaab3707"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fbe1e56b-c41d-4f61-9843-24e977a17821",
+        "title": "Tryin’ to Get to You",
+        "position": "8",
+        "length": "153000",
+        "work": {
+          "id": "c5b4b75c-f0b5-38cf-87e5-ed3b07f80660",
+          "title": "Trying to Get to You",
+          "composers": [
+            {
+              "name": "Rose Marie McCoy",
+              "mbid": "aae5ab53-d071-46d8-982c-54bd912761bd"
+            },
+            {
+              "name": "Charles Singleton",
+              "mbid": "b98d9cb9-dab6-451e-aea2-0a184f35c860"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b22017e4-934d-40c9-abee-816c4f5db18f",
+        "title": "I’m Gonna Sit Right Down and Cry (Over You)",
+        "position": "9",
+        "length": "123000",
+        "work": {
+          "id": "f8cddd85-328c-3025-a446-d4f444554436",
+          "title": "I’m Gonna Sit Right Down and Cry (Over You)",
+          "composers": [
+            {
+              "name": "Howard Biggs",
+              "mbid": "9176d57f-f160-41fc-a140-e1124420af19"
+            },
+            {
+              "name": "Joe Thomas",
+              "mbid": "67e3dc36-1774-44bb-9690-616c7073d911"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e6b7a317-bdcf-4d66-b739-d544c812a2b7",
+        "title": "I’ll Never Let You Go (Little Darlin’)",
+        "position": "10",
+        "length": "145640",
+        "work": {
+          "id": "6162993e-33fd-36fd-a0d2-1d52b6e287ad",
+          "title": "I’ll Never Let You Go Little Darlin’",
+          "composers": [
+            {
+              "name": "Jimmy Wakely",
+              "mbid": "0b8f67b3-b1d8-4d7a-8317-9d2e7e1cb277"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0c86f0f5-0aa2-40b4-9762-1d8d7cdf7c13",
+        "title": "Blue Moon",
+        "position": "11",
+        "length": "161240",
+        "work": {
+          "id": "3c339d3d-c76d-3eb5-b3bc-98c8c2d18620",
+          "title": "Blue Moon",
+          "composers": [
+            {
+              "name": "Richard Rodgers",
+              "mbid": "346448f5-25a0-4f78-bbd6-acc0205f7513"
+            }
+          ]
+        }
+      },
+      {
+        "id": "816d7008-2a42-4a66-a302-773bb851fa21",
+        "title": "Money Honey",
+        "position": "12",
+        "length": "155000",
+        "work": {
+          "id": "c9dc0c47-a461-3cf1-90c6-9dee753ef606",
+          "title": "Money Honey",
+          "composers": [
+            {
+              "name": "Jesse Stone",
+              "mbid": "b011ce7d-ff1c-43cd-82ae-d978ee4d5d49"
+            }
+          ]
+        }
+      }
+    ],
+    "79dabce4-71c2-34ce-9d5d-83f9442fb325": [
+      {
+        "id": "02ab4b31-61e3-495d-89d5-b5e3b4b37e3f",
+        "title": "Rip It Up",
+        "position": "1",
+        "length": "115080",
+        "work": {
+          "id": "36db83df-5ca8-359d-af39-03ddab0bd1bb",
+          "title": "Rip It Up",
+          "composers": [
+            {
+              "name": "Robert “Bumps” Blackwell",
+              "mbid": "44389e9f-8ae9-40ff-8645-d082a9109e72"
+            },
+            {
+              "name": "John Marascalco",
+              "mbid": "c343d682-7507-446f-97b1-6f39a9594c22"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e93cf844-f788-4af5-9b04-931cabdba140",
+        "title": "Love Me",
+        "position": "2",
+        "length": "165000",
+        "work": {
+          "id": "40cbacdd-6236-3453-98f9-b50d03cd1c17",
+          "title": "Love Me",
+          "composers": [
+            {
+              "name": "Mike Stoller",
+              "mbid": "02f314c0-2136-4172-8ea0-07149c77c722"
+            }
+          ]
+        }
+      },
+      {
+        "id": "167974a4-df97-46ee-95ea-ea98e103f300",
+        "title": "When My Blue Moon Turns to Gold Again",
+        "position": "3",
+        "length": "142733",
+        "work": {
+          "id": "cc8e6dfb-426d-3a6f-97cf-8c9f7212685e",
+          "title": "When My Blue Moon Turns to Gold Again",
+          "composers": [
+            {
+              "name": "Gene Sullivan",
+              "mbid": "88f9c0a2-81ac-4e5a-a108-db05dc669a73"
+            },
+            {
+              "name": "Wiley Walker",
+              "mbid": "663a6303-e7ab-4700-b834-dcc918577622"
+            }
+          ]
+        }
+      },
+      {
+        "id": "926a34b7-6596-4f9e-ace4-200f731a0ec2",
+        "title": "Long Tall Sally",
+        "position": "4",
+        "length": "113000",
+        "work": {
+          "id": "4679e271-b7c1-3331-882e-2a173f2001e4",
+          "title": "Long Tall Sally",
+          "composers": [
+            {
+              "name": "Robert “Bumps” Blackwell",
+              "mbid": "44389e9f-8ae9-40ff-8645-d082a9109e72"
+            },
+            {
+              "name": "Enotris Johnson",
+              "mbid": "e4eb9c22-c61f-4363-8617-ba22f3efdc01"
+            },
+            {
+              "name": "Little Richard",
+              "mbid": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6b284f28-9212-4ce7-ab32-3959c9bc7e63",
+        "title": "First in Line",
+        "position": "5",
+        "length": "203573",
+        "work": {
+          "id": "65101e89-03a7-31d1-ad49-4d5a63575eae",
+          "title": "First in Line",
+          "composers": [
+            {
+              "name": "Aaron Schroeder",
+              "mbid": "3897c75a-a0b5-4c23-9ede-6bea1e1736bb"
+            },
+            {
+              "name": "Ben Weisman",
+              "mbid": "35b394e6-5242-43f6-ac14-d80cf3b44a0d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5c20058a-50ce-48dd-bda2-ed7d08020074",
+        "title": "Paralyzed",
+        "position": "6",
+        "length": "145400",
+        "work": {
+          "id": "ee65bdef-23cf-374f-9dad-a16ffec7adc5",
+          "title": "Paralyzed",
+          "composers": [
+            {
+              "name": "Otis Blackwell",
+              "mbid": "778f22a1-236d-44e2-8e77-bbe17bc8f0f1"
+            },
+            {
+              "name": "Elvis Presley",
+              "mbid": "01809552-4f87-45b0-afff-2c6f0730a3be"
+            }
+          ]
+        }
+      },
+      {
+        "id": "59796eba-e1ef-4d98-ac11-330615bc0850",
+        "title": "So Glad You’re Mine",
+        "position": "7",
+        "length": "142000",
+        "work": {
+          "id": "74ebc241-545b-3870-8404-085f730c96a8",
+          "title": "So Glad You’re Mine",
+          "composers": [
+            {
+              "name": "Arthur “Big Boy” Crudup",
+              "mbid": "8d835405-44cb-49ea-b223-d5f91e109b22"
+            }
+          ]
+        }
+      },
+      {
+        "id": "576df6c6-b388-46f9-8115-724262be31c5",
+        "title": "Old Shep",
+        "position": "8",
+        "length": "251000",
+        "work": {
+          "id": "1c5c3128-7a70-37f6-9e93-a1211db7555d",
+          "title": "Old Shep",
+          "composers": [
+            {
+              "name": "Red Foley",
+              "mbid": "aff932c2-ec30-4ee9-9125-5f761aae61a4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9e588e7c-5f2d-4467-9bea-3b4094907668",
+        "title": "Ready Teddy",
+        "position": "9",
+        "length": "117573",
+        "work": {
+          "id": "0135dd36-dde3-325b-8394-0a9faf6aa653",
+          "title": "Ready Teddy",
+          "composers": [
+            {
+              "name": "Robert “Bumps” Blackwell",
+              "mbid": "44389e9f-8ae9-40ff-8645-d082a9109e72"
+            },
+            {
+              "name": "John Marascalco",
+              "mbid": "c343d682-7507-446f-97b1-6f39a9594c22"
+            }
+          ]
+        }
+      },
+      {
+        "id": "855aa7c0-5b77-482b-9b31-b6c8c6fe4deb",
+        "title": "Anyplace Is Paradise",
+        "position": "10",
+        "length": "147000",
+        "work": {
+          "id": "5565cdae-3fc5-31ad-8910-a895e514eda8",
+          "title": "Anyplace Is Paradise",
+          "composers": [
+            {
+              "name": "Joe Thomas",
+              "mbid": "67e3dc36-1774-44bb-9690-616c7073d911"
+            }
+          ]
+        }
+      },
+      {
+        "id": "90b39748-c63d-40c6-992c-4e898e1fb34f",
+        "title": "How’s the World Treating You",
+        "position": "11",
+        "length": "145760",
+        "work": {
+          "id": "f5d1ef2c-436b-3f9e-b852-43d808aea1df",
+          "title": "How’s the World Treating You",
+          "composers": [
+            {
+              "name": "Chet Atkins",
+              "mbid": "5810667a-9db6-4fd0-abac-667cdac5d415"
+            },
+            {
+              "name": "Boudleaux Bryant",
+              "mbid": "3630c766-cdd2-4af6-8d9b-98e49ecc9257"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ca376509-5ffa-4847-a48d-afd788ff64d1",
+        "title": "How Do You Think I Feel",
+        "position": "12",
+        "length": "130880",
+        "work": {
+          "id": "a4e6b55b-0a94-38c6-809e-03f16a0f9bee",
+          "title": "How Do You Think I Feel",
+          "composers": [
+            {
+              "name": "Webb Pierce",
+              "mbid": "cbd197c2-1c29-4f46-acc6-0565a916d143"
+            },
+            {
+              "name": "Wiley Walker",
+              "mbid": "663a6303-e7ab-4700-b834-dcc918577622"
+            }
+          ]
+        }
+      }
+    ],
+    "626a3486-a3ef-3cf6-bdda-11c55b529509": [
+      {
+        "id": "ced1dec3-9db5-4648-85b6-27c42d7358a0",
+        "title": "Santa Claus Is Back in Town",
+        "position": "1",
+        "length": "144066",
+        "work": {
+          "id": "e226bd7c-d143-4439-93dd-2c33ec2ba943",
+          "title": "Santa Claus Is Back in Town",
+          "composers": [
+            {
+              "name": "Jerry Leiber",
+              "mbid": "24252d8a-38e7-4358-bfe7-70d845f156ba"
+            },
+            {
+              "name": "Mike Stoller",
+              "mbid": "02f314c0-2136-4172-8ea0-07149c77c722"
+            }
+          ]
+        }
+      },
+      {
+        "id": "445b8f99-ef31-4cf1-bb7b-2d5b9ed2161f",
+        "title": "White Christmas",
+        "position": "2",
+        "length": "164133",
+        "work": {
+          "id": "30daa999-81af-34c3-bf22-b3c1c41c8c01",
+          "title": "White Christmas",
+          "composers": [
+            {
+              "name": "Irving Berlin",
+              "mbid": "5e645519-a175-4fe0-9a9b-eb9dc9f506b5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3ffc8fa4-7a54-47ec-a84e-53b7435bfae5",
+        "title": "Here Comes Santa Claus (Right Down Santa Claus Lane)",
+        "position": "3",
+        "length": "116000",
+        "work": {
+          "id": "8b5e0b0b-65ed-4e24-974a-262416875a4a",
+          "title": "Here Comes Santa Claus (Right Down Santa Claus Lane)",
+          "composers": [
+            {
+              "name": "Gene Autry",
+              "mbid": "675b7627-6b5d-4a46-a728-785cb24a299e"
+            },
+            {
+              "name": "Oakley Haldeman",
+              "mbid": "d71d5834-4a37-42f4-931e-8300844b8b16"
+            },
+            {
+              "name": "Harriett Melka",
+              "mbid": "4ea4dcf5-383a-4014-8ac8-90cd485b2de8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2fd89aa3-882a-4909-926f-4d98367148ab",
+        "title": "I’ll Be Home for Christmas",
+        "position": "4",
+        "length": "115026",
+        "work": {
+          "id": "1aa1b720-0c31-4f32-8a63-accc54024713",
+          "title": "I’ll Be Home for Christmas",
+          "composers": [
+            {
+              "name": "Walter Kent",
+              "mbid": "be20278d-c066-4ef5-9a4b-48b546e39f3f"
+            },
+            {
+              "name": "Buck Ram",
+              "mbid": "10d9b154-7c29-4bed-93da-3ba5965ae918"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f70d1f66-4693-4cca-9f44-62c7253ae6ab",
+        "title": "Blue Christmas",
+        "position": "5",
+        "length": "128746",
+        "work": {
+          "id": "414afdb5-bd79-3349-8a93-d940da14c36e",
+          "title": "Blue Christmas",
+          "composers": [
+            {
+              "name": "Billy Hayes",
+              "mbid": "1976921a-5102-4ea1-a3ce-6d89430689bd"
+            },
+            {
+              "name": "Jay Johnson",
+              "mbid": "0304ceef-677b-49dd-b501-a95568e5995f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "31e2ed1a-2e8d-4a59-8744-be8c2f52c038",
+        "title": "Santa Bring My Baby Back (to Me)",
+        "position": "6",
+        "length": "113333",
+        "work": {
+          "id": "6aecfa9a-70f1-4cc0-9390-2c27828f0b9b",
+          "title": "Santa Bring My Baby Back (to Me)",
+          "composers": [
+            {
+              "name": "Claude Demetrius",
+              "mbid": "4aada77c-d6b9-497e-a9ab-15df025ab553"
+            },
+            {
+              "name": "Aaron Schroeder",
+              "mbid": "3897c75a-a0b5-4c23-9ede-6bea1e1736bb"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d1a192f5-07d0-4340-851a-18b7a42e1b52",
+        "title": "O Little Town of Bethlehem",
+        "position": "7",
+        "length": "156800",
+        "work": {
+          "id": "e03d0a60-322a-4201-8e3a-095bd735998e",
+          "title": "O Little Town of Bethlehem",
+          "composers": [
+            {
+              "name": "Lewis Henry Redner",
+              "mbid": "dff5d398-8857-4ec2-882d-56fdc10ce07b"
+            },
+            {
+              "name": "Mark White",
+              "mbid": "8899ac04-4c51-4510-a252-30a0b42591a4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0a3714b7-2f36-4c91-a672-321ca7edca62",
+        "title": "Silent Night",
+        "position": "8",
+        "length": "145000",
+        "work": {
+          "id": "eb768a09-04f6-40c5-be05-c28812f05f30",
+          "title": "Silent Night",
+          "composers": [
+            {
+              "name": "Franz Xaver Gruber",
+              "mbid": "4122e107-a90c-4ff3-8223-51cf490c022c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e29edfda-8e62-459a-b8f2-63a461a6cc57",
+        "title": "(There’ll Be) Peace in the Valley for Me",
+        "position": "9",
+        "length": "202640",
+        "work": {
+          "id": "760347e8-c5c3-4ff9-b90b-6a9baa9e4c2c",
+          "title": "There’ll Be Peace in the Valley for Me",
+          "composers": [
+            {
+              "name": "Thomas A. Dorsey",
+              "mbid": "6fb94460-3194-43cb-8b30-aecf862c93b9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "909acc39-a127-4bb8-ad0b-3c5199d3ae67",
+        "title": "I Believe",
+        "position": "10",
+        "length": "125066",
+        "work": {
+          "id": "b6933bbe-f804-4710-974d-6a4cb00099c7",
+          "title": "I Believe",
+          "composers": [
+            {
+              "name": "Ervin Drake",
+              "mbid": "86098e4e-b5a5-4ada-801f-42b98f42806f"
+            },
+            {
+              "name": "Irvin Graham",
+              "mbid": "4b0fa389-89fd-437c-aa7a-b7ec293de988"
+            },
+            {
+              "name": "Jimmy Shirl",
+              "mbid": "df8a022a-2cad-4016-a2d1-5107a5858300"
+            },
+            {
+              "name": "Al Stillman",
+              "mbid": "f02bc184-12ba-40d4-909a-bd45b0e72ab6"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c3a4f204-15df-43a5-82e9-bd68d4699206",
+        "title": "Take My Hand, Precious Lord",
+        "position": "11",
+        "length": "198306",
+        "work": {
+          "id": "885e8ef3-3df0-47a5-babc-cfcea0f5fd58",
+          "title": "Take My Hand, Precious Lord",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            },
+            {
+              "name": "Thomas A. Dorsey",
+              "mbid": "6fb94460-3194-43cb-8b30-aecf862c93b9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0949fba5-9e35-4461-b073-1c0c5bba28bf",
+        "title": "It Is No Secret (What God Can Do)",
+        "position": "12",
+        "length": "235480",
+        "work": {
+          "id": "8c2f46bd-f866-400f-abc1-887c1d9a583b",
+          "title": "It Is No Secret",
+          "composers": [
+            {
+              "name": "Stuart Hamblen",
+              "mbid": "696e7bed-989a-4111-bc10-7f960561024b"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 27518,
+  "wikidata_id": "Q303"
+}

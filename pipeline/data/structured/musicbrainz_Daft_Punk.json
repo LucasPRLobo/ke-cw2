@@ -1,0 +1,1413 @@
+{
+  "mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+  "name": "Daft Punk",
+  "type": "Group",
+  "country": "FR",
+  "gender": null,
+  "life_span": {
+    "begin": "1993",
+    "end": "2021-02-22",
+    "ended": "true"
+  },
+  "area": "France",
+  "begin_area": "Paris",
+  "tags": [
+    {
+      "name": "dance",
+      "count": "2"
+    },
+    {
+      "name": "dance and electronica",
+      "count": "1"
+    },
+    {
+      "name": "disco",
+      "count": "3"
+    },
+    {
+      "name": "electro house",
+      "count": "2"
+    },
+    {
+      "name": "electroclash",
+      "count": "1"
+    },
+    {
+      "name": "electronic",
+      "count": "35"
+    },
+    {
+      "name": "european",
+      "count": "1"
+    },
+    {
+      "name": "film score",
+      "count": "2"
+    },
+    {
+      "name": "french",
+      "count": "7"
+    },
+    {
+      "name": "french electro",
+      "count": "2"
+    },
+    {
+      "name": "french house",
+      "count": "13"
+    },
+    {
+      "name": "french touch",
+      "count": "1"
+    },
+    {
+      "name": "funk",
+      "count": "2"
+    },
+    {
+      "name": "house",
+      "count": "16"
+    },
+    {
+      "name": "nu-disco",
+      "count": "1"
+    },
+    {
+      "name": "synthpop",
+      "count": "2"
+    },
+    {
+      "name": "vocoder",
+      "count": "2"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Thomas Bangalter",
+      "target_mbid": "122a2714-24f8-4046-a532-64064b5076d2",
+      "attributes": [
+        "bass",
+        "keyboard",
+        "original",
+        "synthesizer"
+      ],
+      "begin": "1993",
+      "end": "2021-02-22"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Guy‐Manuel de Homem‐Christo",
+      "target_mbid": "83886397-adf2-431a-b841-dc4af744a6cc",
+      "attributes": [
+        "drums (drum set)",
+        "guitar",
+        "original",
+        "synthesizer"
+      ],
+      "begin": "1993",
+      "end": "2021-02-22"
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Daft Punk NFT",
+      "target_mbid": "80846e42-6bba-4fed-9d08-f095b15f28ec",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Daft Funk",
+      "target_mbid": "00ed6585-726c-4d21-9eec-f7548cb3a926",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Robot Rock Alive",
+      "target_mbid": "bc2ebbe9-6765-4f96-9385-9ebc3a757b0a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000667669"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/263"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+    },
+    {
+      "type": "discography page",
+      "target": "http://emimusic.jp/daftpunk"
+    },
+    {
+      "type": "discography page",
+      "target": "https://daft.fm/artists/daft-punk/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://sonymusic.co.jp/daftpunk"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/1289"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/7618671"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://music.yandex.com/artist/13905"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/1477045"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/27"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Daftpunklapremiere2010.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm1386916/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Daft+Punk"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Daft-punk"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://muzikum.eu/en/daft-punk/lyrics"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/Daft-Punk"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/daftpunk"
+    },
+    {
+      "type": "official homepage",
+      "target": "https://daftpunk.com/"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://mouskni.com/artists/daft-punk/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://jaxsta.com/profile/0c43a427-4e1e-4986-8079-4b7a7359702e"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/no97063566"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/D/Daft_Punk/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb139764066"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/10198300-1"
+    },
+    {
+      "type": "other databases",
+      "target": "https://id.oclc.org/worldcat/entity/E39QQPVp836qD8MJb64BpRQfkt"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/daft-punk"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/10148/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ra.co/dj/daftpunk"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/daft-punk"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/daft-punk"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.idref.fr/080492193"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.livefans.jp/artists/2584"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/daft-punk/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000098950/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Daft-Punk/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-no97063566/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/332271/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/fr/artist/5468295"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.beatport.com/artist/-/3547"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.beatport.com/artist/daft-punk/3547"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.junodownload.com/artists/Daft+Punk/releases/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.qobuz.com/gb-en/interpreter/daft-punk/download-streaming-albums"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/fr/artist/id5468295"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.cdjapan.co.jp/person/700202980"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/2933"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/daft-punk-bd6d5a2.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/daftpunk"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/daftpunk"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/daftpunk/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.tiktok.com/@daftpunk"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/368193"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/daftpunkofficialmusic"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.fr/artists/B001E8WS3O"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/fr/artist/5468295"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/5468295"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/5468295"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/8847"
+    },
+    {
+      "type": "streaming",
+      "target": "https://us.napster.com/artist/daft-punk"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.qobuz.com/gb-en/interpreter/daft-punk/download-streaming-albums"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/13389"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/131208258"
+    },
+    {
+      "type": "video channel",
+      "target": "https://www.dailymotion.com/daftpunk"
+    },
+    {
+      "type": "video channel",
+      "target": "https://www.twitch.tv/daftpunk"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q185828"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UC_kRDKYrUlrbtrSiyu5Tflg"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "00054665-89fa-33d5-a8f0-1728ea8c32c3",
+      "title": "Homework",
+      "type": "Album",
+      "first_release_date": "1997-01-20"
+    },
+    {
+      "id": "48117b90-a16e-34ca-a514-19c702df1158",
+      "title": "Discovery",
+      "type": "Album",
+      "first_release_date": "2001-02-26"
+    },
+    {
+      "id": "f9e8042a-674e-3f01-80ec-7f0ab1c537df",
+      "title": "Human After All",
+      "type": "Album",
+      "first_release_date": "2005-03-01"
+    },
+    {
+      "id": "aa997ea0-2936-40bd-884d-3af8a0e064dc",
+      "title": "Random Access Memories",
+      "type": "Album",
+      "first_release_date": "2013-05-17"
+    },
+    {
+      "id": "b791a9cc-dc92-45ee-b5b9-be5617823411",
+      "title": "D.A.F.T. : A Story About Dogs, Androids, Firemen and Tomatoes",
+      "type": "Compilation",
+      "first_release_date": "1999"
+    },
+    {
+      "id": "1ed45c8c-9abd-4ec3-9ff6-43d264f0e6b7",
+      "title": "Homework / Discovery",
+      "type": "Compilation",
+      "first_release_date": "2002"
+    },
+    {
+      "id": "adddef22-87cf-41e4-8563-5a2fc376ccd3",
+      "title": "Interstella 5555: The 5tory Of The 5ecret 5tar 5ystem",
+      "type": "Compilation",
+      "first_release_date": "2003-12-01"
+    },
+    {
+      "id": "66ecf2c3-441f-3981-b85f-a005d9cc582d",
+      "title": "Musique, Volume 1: 1993–2005",
+      "type": "Compilation",
+      "first_release_date": "2006-03-06"
+    },
+    {
+      "id": "3c22791b-bbfe-466f-a818-611767716335",
+      "title": "Human After All / Daft Club",
+      "type": "Compilation",
+      "first_release_date": "2022"
+    },
+    {
+      "id": "ec8e9600-b802-48ff-a387-ace28cb90642",
+      "title": "Alive 2007 / Alive 1997",
+      "type": "Compilation",
+      "first_release_date": "2009"
+    },
+    {
+      "id": "b585e56e-69cb-4f53-9597-320af5e5f541",
+      "title": "TRON: Legacy",
+      "type": "Soundtrack",
+      "first_release_date": "2010-12-03"
+    },
+    {
+      "id": "bc49de56-46c7-4250-b987-a0cd43e73279",
+      "title": "TRON: Legacy R3C0NF1GUR3D",
+      "type": "Remix",
+      "first_release_date": "2011-04-04"
+    },
+    {
+      "id": "2462008f-216b-4c2d-bb9d-642eb02492d3",
+      "title": "Generic Radio Interview w/ Thomas Bangalter",
+      "type": "Interview",
+      "first_release_date": "2001"
+    },
+    {
+      "id": "984b148e-1208-408f-aa5e-8cb930315be4",
+      "title": "Random Access Memories: The Collaborators",
+      "type": "Interview",
+      "first_release_date": "2013-05-14"
+    },
+    {
+      "id": "8093fc8c-942c-30f3-a224-49dbc718f8e4",
+      "title": "Alive 1997",
+      "type": "Live",
+      "first_release_date": "2001-10-01"
+    },
+    {
+      "id": "4bac3d70-deea-3d80-85c4-8be9f90558e6",
+      "title": "Alive 2007",
+      "type": "Live",
+      "first_release_date": "2007-11-14"
+    },
+    {
+      "id": "1fd2e0fe-90f6-35ca-92c0-d816ab3bb79c",
+      "title": "Daft Club",
+      "type": "Remix",
+      "first_release_date": "2003-11-27"
+    },
+    {
+      "id": "16ea0f65-3462-3283-a3eb-e81dcc92c1d5",
+      "title": "Human After All: Remixes",
+      "type": "Remix",
+      "first_release_date": "2006-03-29"
+    },
+    {
+      "id": "e7f82de1-22bd-4ed9-9e87-0dd5d94291db",
+      "title": "Deep Cuts",
+      "type": "Remix",
+      "first_release_date": "2020"
+    },
+    {
+      "id": "b7a7b524-e29a-4d8e-a7f5-ffbcea5a38e4",
+      "title": "Homework (Remixes)",
+      "type": "Remix",
+      "first_release_date": "2022-02-02"
+    },
+    {
+      "id": "d34c6b11-6b3b-41ea-9fc6-44db1cc6577a",
+      "title": "Random Access Memories (drumless edition)",
+      "type": "Remix",
+      "first_release_date": "2023-11-17"
+    },
+    {
+      "id": "c1839360-3cab-4176-a0cd-ce831459b6a4",
+      "title": "Live @ We Are Family",
+      "type": "Album",
+      "first_release_date": "1997-04-11"
+    },
+    {
+      "id": "84216190-e46f-4cf1-8a28-76910183be38",
+      "title": "Discovery (Beta Version)",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "297c4c53-8eeb-4837-97e9-bdc77c4a8ee4",
+      "title": "ONE MORE VIRGIN –tracks for CELEBRATION of new century–",
+      "type": "Compilation",
+      "first_release_date": "2000"
+    },
+    {
+      "id": "3ab059bc-281d-4719-90c6-ed130fa2bd20",
+      "title": "Greatest Hits",
+      "type": "Compilation",
+      "first_release_date": "2006"
+    }
+  ],
+  "tracks": {
+    "00054665-89fa-33d5-a8f0-1728ea8c32c3": [
+      {
+        "id": "10cdacde-e54a-412a-863b-81d9ea6b3df2",
+        "title": "Daftendirekt",
+        "position": "1",
+        "length": "164560",
+        "work": {
+          "id": "3b0f80fc-801e-3d7d-a780-a6f748fa398f",
+          "title": "Daftendirekt",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9fc87ed0-cf62-4447-b411-d0832eb9daae",
+        "title": "WDPK 83.7 FM",
+        "position": "2",
+        "length": "28293",
+        "work": {
+          "id": "eed6108b-9a82-3a99-ae5a-556e099e48cf",
+          "title": "WDPK 83.7 FM",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0a6e234d-0c9d-41e0-bce7-5c0ca09befbd",
+        "title": "Revolution 909",
+        "position": "3",
+        "length": "326680",
+        "work": {
+          "id": "fc5df73d-ed7b-3426-ad42-5aa42e35cbb7",
+          "title": "Revolution 909",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4cde50af-2c78-4202-b8d0-30c1d916db97",
+        "title": "Da Funk",
+        "position": "4",
+        "length": "329000",
+        "work": {
+          "id": "4539c38c-b57e-3a1d-967d-cf8f8dad103c",
+          "title": "Da Funk",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "28651acc-1f13-4431-b2de-d93a33a50084",
+        "title": "Phœnix",
+        "position": "5",
+        "length": "297106",
+        "work": {
+          "id": "0d364d40-d512-336b-99a2-989b442b163e",
+          "title": "Phœnix",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9ca385f4-4082-494a-974a-b1a8aa997838",
+        "title": "Fresh",
+        "position": "6",
+        "length": "244400",
+        "work": {
+          "id": "d638d207-67ca-3a4e-8344-dfe30cba0b50",
+          "title": "Fresh",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7813d6e5-fe21-4cd0-8f8b-82b7c15662ae",
+        "title": "Around the World",
+        "position": "7",
+        "length": "429506",
+        "work": {
+          "id": "9b048f85-0725-37f0-b061-e23d6d972055",
+          "title": "Around the World",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bfbd9b4b-12c6-405d-9681-45cb71057985",
+        "title": "Rollin’ & Scratchin’",
+        "position": "8",
+        "length": "447533",
+        "work": {
+          "id": "5d1ab9d6-6be3-3f32-a003-9bf8b87f1d08",
+          "title": "Rollin’ & Scratchin’",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3707ab0d-ff31-46a2-9056-d094bae44c3e",
+        "title": "Teachers",
+        "position": "1",
+        "length": "173493",
+        "work": {
+          "id": "d0665822-3a0e-3aaf-beb6-c34c7985300d",
+          "title": "Teachers",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "95ab771e-62b4-4324-befd-024356c190c6",
+        "title": "High Fidelity",
+        "position": "2",
+        "length": "362333",
+        "work": {
+          "id": "987a8a1e-9d62-37b1-b3a4-6cd39bb873d7",
+          "title": "High Fidelity",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a42b76a0-3bd1-4c3a-8e83-751f48d818ec",
+        "title": "Rock’n Roll",
+        "position": "3",
+        "length": "453826",
+        "work": {
+          "id": "a862d220-c31d-31ab-9d04-c3dcddf52a99",
+          "title": "Rock’n Roll",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "89ae9c78-7e38-40ec-bf9f-79d1f2678890",
+        "title": "Oh Yeah",
+        "position": "4",
+        "length": "121200",
+        "work": {
+          "id": "e5b15a42-8212-36cc-878c-d04ff81edf46",
+          "title": "Oh Yeah",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5fceebe4-d425-4e83-85d0-b4ee61b8d8d6",
+        "title": "Burnin’",
+        "position": "5",
+        "length": "413666",
+        "work": {
+          "id": "c9cb1300-521d-3246-8613-1b9c1244aba8",
+          "title": "Burnin’",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1285a717-b387-4353-91d4-3ea357dfc9c5",
+        "title": "Indo Silver Club",
+        "position": "6",
+        "length": "274733",
+        "work": {
+          "id": "070cb220-1799-31e3-949f-e5882a5d9104",
+          "title": "Indo Silver Club",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a08473a1-e622-49cc-bb97-65f813429025",
+        "title": "Alive",
+        "position": "7",
+        "length": "315266",
+        "work": {
+          "id": "1399a0aa-3c55-3acb-af6b-1bf93a8c55ac",
+          "title": "Alive",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "eab36835-9fa7-4598-a50a-8bb114c9c5fb",
+        "title": "Funk Ad",
+        "position": "8",
+        "length": "51240",
+        "work": {
+          "id": "6a296235-7dc0-3332-914c-6947a635549d",
+          "title": "Funk Ad",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      }
+    ],
+    "48117b90-a16e-34ca-a514-19c702df1158": [
+      {
+        "id": "60fa767a-d85d-4991-82bc-4294e0b11ae7",
+        "title": "One More Time",
+        "position": "1",
+        "length": "320840",
+        "work": {
+          "id": "4bb47ffc-9006-32cf-8aa9-e213334550dc",
+          "title": "One More Time",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            },
+            {
+              "name": "Anthony Wayne Moore",
+              "mbid": "59f8e44c-5206-43f6-8b7b-87c8ea1f658d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7c0e11a3-1c7a-4e6d-a14d-6e86d86dbaad",
+        "title": "Aerodynamic",
+        "position": "2",
+        "length": "207866",
+        "work": {
+          "id": "861b67a5-e99f-3646-aaac-f29fbb01525b",
+          "title": "Aerodynamic",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "15f16efc-8762-4151-95ab-c12d06268640",
+        "title": "Digital Love",
+        "position": "3",
+        "length": "298333",
+        "work": {
+          "id": "3ce28f52-096d-337a-b58b-d266aa95869b",
+          "title": "Digital Love",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "George Duke",
+              "mbid": "fd180bc2-7b01-4b07-9597-451e7383f1b4"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            },
+            {
+              "name": "Carlos Sosa",
+              "mbid": "f01917d0-9340-4736-a47b-e8f38e730bf4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f1a6a40f-78f5-4918-968d-f64363bae94c",
+        "title": "Harder, Better, Faster, Stronger",
+        "position": "4",
+        "length": "224293",
+        "work": {
+          "id": "fb670a7d-4e22-3f65-8d3f-7cf2c29c6601",
+          "title": "Harder, Better, Faster, Stronger",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Edwin Birdsong",
+              "mbid": "41f1960d-be42-4ca0-8599-8d0fb77ae6d4"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d63ad586-1124-4df1-9a2b-c014d7b7cb02",
+        "title": "Crescendolls",
+        "position": "5",
+        "length": "211640",
+        "work": {
+          "id": "cb00aedf-7e26-3263-9c9f-598ff8d0f175",
+          "title": "Crescendolls",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "712edd8d-b413-4e4e-aca4-9b91fce2e65c",
+        "title": "Nightvision",
+        "position": "6",
+        "length": "104466",
+        "work": {
+          "id": "acdddcd1-3080-3918-8e12-5b92ece45c8b",
+          "title": "Nightvision",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8a98614f-0533-44ef-890a-639cab407a2d",
+        "title": "Superheroes",
+        "position": "7",
+        "length": "237800",
+        "work": {
+          "id": "ff2bd551-3ba4-36e7-aeb3-dc9fe39cfc76",
+          "title": "Superheroes",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            },
+            {
+              "name": "Barry Manilow",
+              "mbid": "7bb60591-46f3-4147-b692-1814a87e832e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "07b720fc-0d6f-4342-a6df-876d1749de0b",
+        "title": "High Life",
+        "position": "8",
+        "length": "201800",
+        "work": {
+          "id": "9ed35100-eb13-3edd-a1df-f81c83fcf5ab",
+          "title": "High Life",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "defbfcb2-7a5c-4456-be28-b7e5ccf92cc2",
+        "title": "Something About Us",
+        "position": "9",
+        "length": "231066",
+        "work": {
+          "id": "e697cecb-961a-34a7-8e19-f505e319faf2",
+          "title": "Something About Us",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e1fe1d12-dac2-4325-ae1b-25e0ef06b998",
+        "title": "Voyager",
+        "position": "10",
+        "length": "227866",
+        "work": {
+          "id": "126676fd-9f48-3d21-9ce4-701a132ad82d",
+          "title": "Voyager",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2a220770-1150-4190-b0e0-57d89a0a7469",
+        "title": "Veridis Quo",
+        "position": "11",
+        "length": "344946",
+        "work": {
+          "id": "f7818f82-ac89-3443-8d8e-467f49e80b9f",
+          "title": "Veridis Quo",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3f60ae01-43cc-4db9-86ec-97b79f83764f",
+        "title": "Short Circuit",
+        "position": "12",
+        "length": "206866",
+        "work": {
+          "id": "6b929151-472b-3843-87da-3b25a3e35bbf",
+          "title": "Short Circuit",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "59038571-03ea-4ca4-965c-a57eae2aa138",
+        "title": "Face to Face",
+        "position": "13",
+        "length": "240173",
+        "work": {
+          "id": "a549442d-ef86-31ad-b912-a33bad71b01d",
+          "title": "Face to Face",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            },
+            {
+              "name": "Todd Imperatrice",
+              "mbid": "aefb7d92-4d98-48e7-b50b-5fd7fe2c2eda"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1a915a2d-e2f4-4300-a230-96fc9c8a7b60",
+        "title": "Too Long",
+        "position": "14",
+        "length": "600293",
+        "work": {
+          "id": "dd6adb4b-d599-3b40-a4f2-ca88747f9b56",
+          "title": "Too Long",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            },
+            {
+              "name": "Anthony Wayne Moore",
+              "mbid": "59f8e44c-5206-43f6-8b7b-87c8ea1f658d"
+            }
+          ]
+        }
+      }
+    ],
+    "f9e8042a-674e-3f01-80ec-7f0ab1c537df": [
+      {
+        "id": "1f7b6b76-ea87-428b-b731-52ea62a708d2",
+        "title": "Human After All",
+        "position": "1",
+        "length": "319373",
+        "work": {
+          "id": "835232c3-2837-388f-8081-55d360be8b96",
+          "title": "Human After All",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "955a556d-7cda-4060-b402-bbfaf9d96c44",
+        "title": "The Prime Time of Your Life",
+        "position": "2",
+        "length": "263373",
+        "work": {
+          "id": "317aef33-044f-3cd2-9476-85333b9ec811",
+          "title": "The Prime Time of Your Life",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f92e924f-e795-433b-95ce-b256098abfd6",
+        "title": "Robot Rock",
+        "position": "3",
+        "length": "287720",
+        "work": {
+          "id": "8580438b-f27e-316d-9eed-f76f9a8eca34",
+          "title": "Robot Rock",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            },
+            {
+              "name": "Kae Williams Jr.",
+              "mbid": "c3acb39b-472b-4cd8-9b61-a5a396aa66a8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0ca77e5a-1c86-440b-a8e4-fa8c4b296c9c",
+        "title": "Steam Machine",
+        "position": "4",
+        "length": "320800",
+        "work": {
+          "id": "70c8dca5-5f6a-3b99-bd34-39ae38e80b53",
+          "title": "Steam Machine",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "82f8a6c1-21b1-4aec-96ed-d76a473b38c6",
+        "title": "Make Love",
+        "position": "5",
+        "length": "290000",
+        "work": {
+          "id": "8cc2f565-2148-36a5-9dec-754fd797afe0",
+          "title": "Make Love",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a6a58800-dd8f-4649-a61a-369a82d9ef38",
+        "title": "The Brainwasher",
+        "position": "6",
+        "length": "248240",
+        "work": {
+          "id": "19b02453-acec-38d3-9974-b07bf73df17c",
+          "title": "The Brainwasher",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "21a0211f-b7e5-4800-aa89-461591ac2a01",
+        "title": "On/Off",
+        "position": "7",
+        "length": "19333",
+        "work": {
+          "id": "ef9dee75-53ea-3568-8951-5c18cca8d945",
+          "title": "On/Off",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "76fa60bf-10c5-46d1-a47a-bf156dec2035",
+        "title": "Television Rules the Nation",
+        "position": "8",
+        "length": "287733",
+        "work": {
+          "id": "7ab9239b-a931-37fb-84dc-ad0e8cb46483",
+          "title": "Television Rules the Nation",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "48d9340a-0c6a-469a-b043-eeaec9f577c6",
+        "title": "Technologic",
+        "position": "9",
+        "length": "284360",
+        "work": {
+          "id": "df02b170-0edf-356f-ba0b-be313249507c",
+          "title": "Technologic",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fd0da185-a03d-405f-b7f2-8a271c6f632b",
+        "title": "Emotion",
+        "position": "10",
+        "length": "417320",
+        "work": {
+          "id": "db972b78-5b42-3cee-86f7-147d81aab3c8",
+          "title": "Emotion",
+          "composers": [
+            {
+              "name": "Thomas Bangalter",
+              "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+            },
+            {
+              "name": "Guy‐Manuel de Homem‐Christo",
+              "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 7618671,
+  "wikidata_id": "Q185828"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 95546,
+  "name": "Wolfgang Amadeus Mozart",
+  "realname": "Johannes Chrysostomus Wolfgangus Theophilus Mozart",
+  "profile": "Prolific and highly influential composer of classical music, born on January 27, 1756 in Salzburg, died December 5, 1791 in Vienna.\r\nSon of [a=Leopold Mozart]. His enormous output of more than six hundred compositions includes works that are widely acknowledged as pinnacles of symphonic, chamber, piano, operatic, and choral music. Mozart is among the most enduringly popular of European composers, and many of his works are part of the standard concert repertoire.\r\n\r\nMarried to [a=Constanze Mozart].\r\nHe has two children who are musicans too. The first child Karl Thomas Mozart and his last son before his death [a=Franz Xaver Wolfgang Mozart].",
+  "members": [],
+  "groups": [],
+  "genres": [
+    "Classical"
+  ],
+  "styles": [
+    "Classical",
+    "Opera"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Classical",
+      "style": "Opera"
+    },
+    {
+      "genre": "Classical",
+      "style": "Classical"
+    },
+    {
+      "genre": "Classical",
+      "style": "Classical"
+    },
+    {
+      "genre": "Classical",
+      "style": "Classical"
+    },
+    {
+      "genre": "Classical",
+      "style": "Opera"
+    },
+    {
+      "genre": "Classical",
+      "style": "Opera"
+    },
+    {
+      "genre": "Classical",
+      "style": "Classical"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "Ramones",
+    "predicate": "hasGenre",
+    "object": "punk rock"
+  },
+  {
+    "subject": "Ramones",
+    "predicate": "founded",
+    "object": "Ramones"
+  },
+  {
+    "subject": "Ramones",
+    "predicate": "hasMusicalPeriod",
+    "object": "punk movement"
+  },
+  {
+    "subject": "Ramones",
+    "predicate": "pioneerOf",
+    "object": "punk"
+  },
+  {
+    "subject": "Paul McCartney",
+    "predicate": "alterEgo",
+    "object": "Paul Ramon"
+  },
+  {
+    "subject": "Beatles",
+    "predicate": "hasMember",
+    "object": "Paul McCartney"
+  },
+  {
+    "subject": "Joey Ramone",
+    "predicate": "memberOf",
+    "object": "Ramones"
+  },
+  {
+    "subject": "Dee Dee Ramone",
+    "predicate": "memberOf",
+    "object": "Ramones"
+  },
+  {
+    "subject": "Johnny Ramone",
+    "predicate": "memberOf",
+    "object": "Ramones"
+  },
+  {
+    "subject": "Tommy Ramone",
+    "predicate": "memberOf",
+    "object": "Ramones"
+  },
+  {
+    "subject": "Marky Ramone",
+    "predicate": "memberOf",
+    "object": "Ramones"
+  },
+  {
+    "subject": "Richie Ramone",
+    "predicate": "memberOf",
+    "object": "Ramones"
+  },
+  {
+    "subject": "C. J. Ramone",
+    "predicate": "memberOf",
+    "object": "Ramones"
+  },
+  {
+    "subject": "Ramones",
+    "predicate": "performedAt",
+    "object": "Lollapalooza"
+  }
+]

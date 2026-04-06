@@ -139,6 +139,9 @@ def add_ontology_header(g):
         "An audio recording of a composition made by an artist who is not the original composer."
     )))
 
+    # Subproperty: playsInstrument — specialises mo:instrument for artist-instrument links
+    g.add((MH.playsInstrument, RDFS.subPropertyOf, MO.instrument))
+
     # ============================================================
     # 3. EXTENSIONS OF SCHEMA.ORG (2 subclasses + 2 subproperties)
     # ============================================================
@@ -415,6 +418,21 @@ def add_ontology_header(g):
     # Transitive: subgenreOf — enables transitive genre hierarchy queries
     # e.g., if post-punk subgenreOf punk, and punk subgenreOf rock, then post-punk subgenreOf rock
     g.add((MH.subgenreOf, RDF.type, OWL.TransitiveProperty))
+
+    # Irreflexive: properties where an entity cannot relate to itself
+    for prop in [MH.covers, MH.founded, MH.pioneerOf, MH.alterEgo,
+                 MH.performedAt, MH.wonAward, MH.hasMember]:
+        g.add((prop, RDF.type, OWL.IrreflexiveProperty))
+
+    # Asymmetric: if A→B then B→A is not implied (unlike symmetric)
+    for prop in [MH.covers, MH.founded, MH.producedBy, MH.pioneerOf]:
+        g.add((prop, RDF.type, OWL.AsymmetricProperty))
+
+    # Inverse: produced ↔ producedBy
+    g.add((MH.produced, OWL.inverseOf, MH.producedBy))
+
+    # Inverse: hasMember ↔ mo:member_of
+    g.add((MH.hasMember, OWL.inverseOf, MO.member_of))
 
     # Inverse properties (with domain/range)
     g.add((MH.influenced, RDF.type, OWL.ObjectProperty))

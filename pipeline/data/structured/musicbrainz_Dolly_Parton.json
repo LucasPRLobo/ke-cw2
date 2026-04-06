@@ -1,0 +1,1186 @@
+{
+  "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856",
+  "name": "Dolly Parton",
+  "type": "Person",
+  "country": "US",
+  "gender": "Female",
+  "life_span": {
+    "begin": "1946-01-19",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "United States",
+  "begin_area": "Locust Ridge",
+  "tags": [
+    {
+      "name": "2008 universal fire victim",
+      "count": "2"
+    },
+    {
+      "name": "bluegrass",
+      "count": "4"
+    },
+    {
+      "name": "country",
+      "count": "12"
+    },
+    {
+      "name": "country pop",
+      "count": "2"
+    },
+    {
+      "name": "nashville sound",
+      "count": "1"
+    },
+    {
+      "name": "nuno",
+      "count": "1"
+    },
+    {
+      "name": "pop",
+      "count": "3"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "Artists of Then, Now & Forever",
+      "target_mbid": "1f988d75-7f1c-4a74-b810-b6435a7f4fb4",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "♀♀♀♀: The Collaboration",
+      "target_mbid": "88d0832d-9e62-4ffd-b195-db7c49f4f401",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Mighty Fine Band",
+      "target_mbid": "d15bd1fc-0f15-44ea-ac6f-86cd7fa4b94d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Avie Lee Parton",
+      "target_mbid": "e79a6f93-c70d-4681-83e8-5d1ef628c505",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Rachel Dennison",
+      "target_mbid": "013da5cc-8729-42b5-a032-b298df2dc925",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Freida Parton-Overstreet",
+      "target_mbid": "4d43cf5d-534e-4e7f-9325-39e4ef65f5d7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Stella Parton",
+      "target_mbid": "83c0c030-6915-4ff6-8cee-89945696ce75",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Randy Parton",
+      "target_mbid": "da13926a-6dec-4499-883b-b97ba347d2de",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Floyd Parton",
+      "target_mbid": "69131e8d-f275-4dd0-97c1-3de8d66791c9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Dumb Blondes",
+      "target_mbid": "3f5ec942-bd5b-4157-bcf8-f59b00c56993",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Sarah Jayne",
+      "target_mbid": "453881ee-cc8e-4d75-8097-fcc5457afbdd",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Dolly Pardon",
+      "target_mbid": "e48adb2e-7f10-4beb-9166-cbf4e7297a33",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000175286"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/1674"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/1d543e07-d0d2-4834-a8db-d65c50c2a856"
+    },
+    {
+      "type": "blog",
+      "target": "https://officialdollyparton.tumblr.com/"
+    },
+    {
+      "type": "discography page",
+      "target": "https://musicalbums.ai/artist/Dolly%20Parton"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/39776"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.dollymania.net/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.dollyon-line.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.dollypartonfans.co.uk/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/8741"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.pandora.com/artist/dolly-parton/ARZfXgxZqq4g6jg"
+    },
+    {
+      "type": "free streaming",
+      "target": "http://www.deezer.com/en/artist/8741"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0000573/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Dolly+Parton"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-5148/dolly-parton/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Dolly-parton"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/dollyparton"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/dollypartonlegacy"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.dollyparton.com/"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.dollypartonentertainment.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n79128064"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13898270g"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/119278561"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/dolly-parton"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6c25cjj"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1175547"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL581117A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/dolly_parton"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/dolly-parton"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.ibdb.com/person.php?id=480323"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/dolly-parton/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000062478/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Dolly-Parton/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n79128064/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.maniadb.com/artist/120598"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=Apg2vnujn5qkl2b467mn2tiq4yi"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://7digital.com/artist/dolly-parton/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id535066"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000APVMA2"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/9317"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/dolly-parton-4bd6e7ae.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://plus.google.com/+DollyParton"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/DollyParton"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/DollyParton"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/dollyparton/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/152602"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/dollyparton"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/dollypartonofficial"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/officialdollyparton"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B000QJK4KQ"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/535066"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/535066"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/144"
+    },
+    {
+      "type": "streaming",
+      "target": "https://us.napster.com/artist/dolly-parton"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/56797314"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q180453"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/user/dollypartonmusic"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "fc756c01-d5a2-37d4-bc91-a755e59a995d",
+      "title": "Hello, I’m Dolly",
+      "type": "Album",
+      "first_release_date": "1967-09-18"
+    },
+    {
+      "id": "4cb77c65-8837-3252-a798-0343dffb8876",
+      "title": "Just Between You and Me",
+      "type": "Album",
+      "first_release_date": "1968-01"
+    },
+    {
+      "id": "e7fd537f-b859-4e5c-9ea6-d9d767f07733",
+      "title": "Just Because I’m a Woman",
+      "type": "Album",
+      "first_release_date": "1968-05-04"
+    },
+    {
+      "id": "d572fee5-bc07-34c4-910b-17a1962321fb",
+      "title": "Just the Two of Us",
+      "type": "Album",
+      "first_release_date": "1968-09"
+    },
+    {
+      "id": "5aebdd78-a670-4efe-86d9-ef3460ad9b6f",
+      "title": "In the Good Old Days (When Times Were Bad)",
+      "type": "Album",
+      "first_release_date": "1969-02-15"
+    },
+    {
+      "id": "91a243f7-914f-4811-b42a-336917b371b4",
+      "title": "Always, Always",
+      "type": "Album",
+      "first_release_date": "1969-07"
+    },
+    {
+      "id": "86e73186-3025-4413-ae18-44f1c0907eed",
+      "title": "My Blue Ridge Mountain Boy",
+      "type": "Album",
+      "first_release_date": "1969-09-08"
+    },
+    {
+      "id": "dec60b2b-e234-43bc-8298-8886cb30cd89",
+      "title": "The Fairest of Them All",
+      "type": "Album",
+      "first_release_date": "1970-02-02"
+    },
+    {
+      "id": "b2ccb01d-9719-4fda-aa6f-795a5ffe96b3",
+      "title": "Porter Wayne and Dolly Rebecca",
+      "type": "Album",
+      "first_release_date": "1970-03"
+    },
+    {
+      "id": "6c237a72-deef-3275-b6a7-b52bf5a6bd3b",
+      "title": "Once More",
+      "type": "Album",
+      "first_release_date": "1970-08"
+    },
+    {
+      "id": "b2b4bf04-066e-4448-bda6-ccf36453d65a",
+      "title": "The Golden Streets of Glory",
+      "type": "Album",
+      "first_release_date": "1971-02-25"
+    },
+    {
+      "id": "014176b5-9503-3b9c-b1cc-a89dc4f4ca0e",
+      "title": "Two of a Kind",
+      "type": "Album",
+      "first_release_date": "1971-02"
+    },
+    {
+      "id": "492b36d4-e97f-3566-8b78-80d07749e87f",
+      "title": "Joshua",
+      "type": "Album",
+      "first_release_date": "1971-05-01"
+    },
+    {
+      "id": "2c98f21a-e2af-3412-a253-de9a1e06d7f7",
+      "title": "Coat of Many Colors",
+      "type": "Album",
+      "first_release_date": "1971-10"
+    },
+    {
+      "id": "db49c2d2-5470-46a3-9e5b-8d444b19fbbb",
+      "title": "The Right Combination: Burning the Midnight Oil",
+      "type": "Album",
+      "first_release_date": "1972-01"
+    },
+    {
+      "id": "d4add775-a403-38ca-ac39-0340f2d94c90",
+      "title": "Touch Your Woman",
+      "type": "Album",
+      "first_release_date": "1972-03-10"
+    },
+    {
+      "id": "b1b32373-79fe-4464-8399-b94c3ad1db20",
+      "title": "Together Always",
+      "type": "Album",
+      "first_release_date": "1972-09"
+    },
+    {
+      "id": "e9708baa-37ef-456e-9bf4-126be29dbd84",
+      "title": "My Favorite Songwriter, Porter Wagoner",
+      "type": "Album",
+      "first_release_date": "1972-10-29"
+    },
+    {
+      "id": "61e091dd-39ab-3b74-9a19-55e3ac885bea",
+      "title": "We Found It",
+      "type": "Album",
+      "first_release_date": "1973-02"
+    },
+    {
+      "id": "c654b9a7-c32b-3298-b756-43ad7a57eb32",
+      "title": "My Tennessee Mountain Home",
+      "type": "Album",
+      "first_release_date": "1973-04-21"
+    },
+    {
+      "id": "ea28dc74-ff29-44e4-b989-0d1c3285f5dc",
+      "title": "Love and Music",
+      "type": "Album",
+      "first_release_date": "1973-07"
+    },
+    {
+      "id": "ac023204-2559-3c59-95f4-d53dc4f489db",
+      "title": "Bubbling Over",
+      "type": "Album",
+      "first_release_date": "1973-10-14"
+    },
+    {
+      "id": "e13af55a-84e8-31d5-a4cd-f5681616235b",
+      "title": "Jolene",
+      "type": "Album",
+      "first_release_date": "1974-02-04"
+    },
+    {
+      "id": "89eb88b9-63a0-4345-8563-7837ce21f794",
+      "title": "Porter ’n’ Dolly",
+      "type": "Album",
+      "first_release_date": "1974-05"
+    },
+    {
+      "id": "efca4de0-b23c-4e15-b582-874c238a06ca",
+      "title": "Love Is Like a Butterfly",
+      "type": "Album",
+      "first_release_date": "1974-09-16"
+    }
+  ],
+  "tracks": {
+    "fc756c01-d5a2-37d4-bc91-a755e59a995d": [
+      {
+        "id": "805535fe-c1c5-411d-989b-729dbf855641",
+        "title": "Dumb Blonde",
+        "position": "1",
+        "length": "149013",
+        "work": {
+          "id": "48038364-5b93-490a-afab-ecb555db465d",
+          "title": "Dumb Blonde",
+          "composers": [
+            {
+              "name": "Claude “Curly” Putman, Jr.",
+              "mbid": "05da2f6e-8e59-46e9-945c-60cfd60cc93f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "91b4cbce-e72a-4862-85a0-18e139e4835c",
+        "title": "Your Ole Handy Man",
+        "position": "2",
+        "length": "131293",
+        "work": {
+          "id": "9d0e647e-6aa1-4296-b6b3-cbc7e73f049f",
+          "title": "Your Ole Handy Man",
+          "composers": [
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "01f2f363-3db5-48c4-978c-486bc9b3ce32",
+        "title": "I Don’t Want to Throw Rice",
+        "position": "3",
+        "length": "142640",
+        "work": {
+          "id": "1934a6d6-4815-492d-80f2-afa6c208930a",
+          "title": "I Don’t Want to Throw Rice",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            },
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "798bbdb4-c1db-40bc-adee-2d8a88586403",
+        "title": "Put It Off Until Tomorrow",
+        "position": "4",
+        "length": "139000",
+        "work": {
+          "id": "6cb80ad0-153c-4ce1-821b-afca80998e81",
+          "title": "Put It Off Until Tomorrow",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            },
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2ea2d507-b72f-4b25-abab-2227431bfa0b",
+        "title": "I Wasted My Tears",
+        "position": "5",
+        "length": "138000",
+        "work": {
+          "id": "316c945b-1529-47de-8e8a-dc383f80fe03",
+          "title": "I Wasted My Tears",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            },
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3dc4436c-64af-4c6e-b167-5e9dd3f57a3d",
+        "title": "Something Fishy",
+        "position": "6",
+        "length": "128160",
+        "work": {
+          "id": "83be69b1-f7a7-45db-903a-667b86a776fb",
+          "title": "Something Fishy",
+          "composers": [
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9f5c2f2d-7a2a-4415-afc5-0256728496b3",
+        "title": "Fuel to the Flame",
+        "position": "7",
+        "length": "161000",
+        "work": {
+          "id": "f2809b44-8789-4daa-b1cd-5fd1ebfd7cc2",
+          "title": "Fuel to the Flame",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            },
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e72d90a0-5e89-4114-bee3-c27b1fea6563",
+        "title": "The Giving and the Taking",
+        "position": "8",
+        "length": "146040",
+        "work": {
+          "id": "86f97e79-e82c-4ee9-aef1-baf5f92c2bef",
+          "title": "The Giving and the Taking",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            },
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "54c8176c-4749-4f25-89f3-db397dc1c95b",
+        "title": "I’m in No Condition",
+        "position": "9",
+        "length": "131973",
+        "work": {
+          "id": "996c77c9-825c-4f98-979c-190df1a0f7d3",
+          "title": "I’m in No Condition",
+          "composers": [
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0d0dde8c-e5e7-4662-b25e-d424badd954a",
+        "title": "The Company You Keep",
+        "position": "10",
+        "length": "154933",
+        "work": {
+          "id": "e18b8725-5d9f-444d-93d9-bf5231a9db95",
+          "title": "The Company You Keep",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            },
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9609005f-58c6-4636-b566-978a21d0d756",
+        "title": "I’ve Lived My Life",
+        "position": "11",
+        "length": "157533",
+        "work": {
+          "id": "9be2ccd2-5167-4ca5-b50b-58dd23a6c583",
+          "title": "I’ve Lived My Life",
+          "composers": [
+            {
+              "name": "Lola Jean Dillon",
+              "mbid": "54003979-ec5d-444d-861d-26b1c90f8b03"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e97022c8-24ef-4446-a0cd-4abcc015c241",
+        "title": "The Little Things",
+        "position": "12",
+        "length": "145000",
+        "work": {
+          "id": "90ffe6c7-21d7-435d-b98f-01fa42876544",
+          "title": "The Little Things",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            },
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      }
+    ],
+    "4cb77c65-8837-3252-a798-0343dffb8876": [
+      {
+        "id": "557aafdd-0f59-44a0-bfb8-495d3d548756",
+        "title": "Because One of Us Was Wrong",
+        "position": "1",
+        "length": "125000",
+        "work": {
+          "id": "097e8b82-da31-473a-af67-c12248eb6d39",
+          "title": "Because One of Us Was Wrong",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            },
+            {
+              "name": "Tom Paxton",
+              "mbid": "1880815f-5f43-4eba-9038-96ba0380134d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1a8ae146-ce55-450b-ae19-58f040e9866c",
+        "title": "The Last Thing on My Mind",
+        "position": "2",
+        "length": "156376",
+        "work": {
+          "id": "f5bb0019-0f27-3926-861c-f4419cad7213",
+          "title": "The Last Thing on My Mind",
+          "composers": [
+            {
+              "name": "Tom Paxton",
+              "mbid": "1880815f-5f43-4eba-9038-96ba0380134d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1299795c-ac3d-482c-b471-2e16671192bb",
+        "title": "Love Is Worth Living",
+        "position": "3",
+        "length": "159000",
+        "work": {
+          "id": "44ffd696-e792-4df1-93ee-b5578bc95a87",
+          "title": "Love Is Worth Living",
+          "composers": [
+            {
+              "name": "Tom Paxton",
+              "mbid": "1880815f-5f43-4eba-9038-96ba0380134d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4b31b143-664e-4ac4-b63d-c335f6ae850b",
+        "title": "Just Between You and Me",
+        "position": "4",
+        "length": "140000",
+        "work": {
+          "id": "03a7d088-5614-428c-8513-a1c422b0de04",
+          "title": "Just Between You and Me",
+          "composers": [
+            {
+              "name": "Jack Clement",
+              "mbid": "cf28141b-700b-4d95-9476-309abaa85f85"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e817523c-0aa1-4f6c-923f-3d928bb1713a",
+        "title": "Mommie, Ain’t That Daddy",
+        "position": "5",
+        "length": "193000",
+        "work": {
+          "id": "3659cf93-b87b-4072-952a-528623c69c8c",
+          "title": "Mommie, Ain’t That Daddy",
+          "composers": [
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cc709f4d-a632-4a36-87de-dad91a626ef8",
+        "title": "Four-O-Thirty Three",
+        "position": "6",
+        "length": "166000",
+        "work": {
+          "id": "191df675-2d32-451e-a695-e87602e43659",
+          "title": "Four-O-Thirty Three",
+          "composers": [
+            {
+              "name": "George Jones",
+              "mbid": "f2903be0-79a7-4334-8cc5-e45309482a97"
+            },
+            {
+              "name": "Earl Montgomery",
+              "mbid": "bf4726a5-0542-4942-b852-f12ce44f2ca2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e50b69c2-fa84-42cd-bd1d-29338f36a04f",
+        "title": "Sorrow’s Tearing Down the House (That Happiness Once Built)",
+        "position": "7",
+        "length": "144000",
+        "work": {
+          "id": "88e90f67-ad34-46f9-99a2-dcb8f0f17e99",
+          "title": "Sorrow’s Tearing Down the House (That Happiness Once Built)",
+          "composers": [
+            {
+              "name": "Mel Tillis",
+              "mbid": "0d744e10-5e7e-4a5d-b89a-4bda5d8d7141"
+            },
+            {
+              "name": "Kent Westberry",
+              "mbid": "89e5332c-bcba-4cfc-b5ee-d4262073e4d3"
+            }
+          ]
+        }
+      },
+      {
+        "id": "be9eba0b-93e0-47ae-a779-a71106614838",
+        "title": "This Time Has Gotta Be Our Last Time",
+        "position": "8",
+        "length": "148000",
+        "work": {
+          "id": "de5bc8ae-1862-47eb-ad1d-e5301e801523",
+          "title": "This Time Has Gotta Be Our Last Time",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            }
+          ]
+        }
+      },
+      {
+        "id": "819f94b6-e1fe-412c-8fd9-cb39d343990c",
+        "title": "Before I Met You",
+        "position": "9",
+        "length": "113266",
+        "work": {
+          "id": "0d4719d4-c6bc-484b-8820-e2a6a3668c4b",
+          "title": "Before I Met You",
+          "composers": [
+            {
+              "name": "Jim Denny",
+              "mbid": "a7c8885b-9c6c-4170-904e-9366806786f5"
+            },
+            {
+              "name": "Joe Lewis",
+              "mbid": "85fcccd3-7864-4174-9f82-cacb53f92cd4"
+            },
+            {
+              "name": "Chuck Seitz",
+              "mbid": "932ba2d7-3607-4e50-a46f-d7690460e5de"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ad867108-078c-4871-89bd-727146719062",
+        "title": "Home Is Where the Hurt Is",
+        "position": "10",
+        "length": "133000",
+        "work": {
+          "id": "8fd1898a-047f-4653-a332-eb301addc66a",
+          "title": "Home Is Where the Hurt Is",
+          "composers": [
+            {
+              "name": "Marge Barton",
+              "mbid": "67cb71b1-4331-4524-942b-d6d3342a224c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e6a50b5d-006b-4d85-9958-ca4bfa10507d",
+        "title": "Two Sides to Every Story",
+        "position": "11",
+        "length": "140000",
+        "work": {
+          "id": "378c8e8f-89d5-4e23-bc6d-473b4859eee7",
+          "title": "Two Sides to Every Story",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            },
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2ad093e0-70b4-452f-8feb-f1c277ab3ff3",
+        "title": "Put It Off Until Tomorrow",
+        "position": "12",
+        "length": "140000",
+        "work": {
+          "id": "6cb80ad0-153c-4ce1-821b-afca80998e81",
+          "title": "Put It Off Until Tomorrow",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            },
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      }
+    ],
+    "e7fd537f-b859-4e5c-9ea6-d9d767f07733": [
+      {
+        "id": "849c03f1-da03-4ba6-a49b-3921a9c81363",
+        "title": "You’re Gonna Be Sorry",
+        "position": "1",
+        "length": "135400",
+        "work": {
+          "id": "52d9034f-84ec-4461-9776-a6a54247cf76",
+          "title": "You’re Gonna Be Sorry",
+          "composers": [
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "82f5ba42-0ef5-437c-b02f-e5a42c2a8c80",
+        "title": "I Wish I Felt This Way at Home",
+        "position": "2",
+        "length": "149200",
+        "work": {
+          "id": "8c3f3cb5-a024-4625-987c-02b082200dfe",
+          "title": "I Wish I Felt This Way at Home",
+          "composers": [
+            {
+              "name": "Harlan Howard",
+              "mbid": "960b2cd7-6ae3-4479-8518-6b68081730c3"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a6f1f13a-5f94-4ca8-a2d6-4b8d49c2196d",
+        "title": "False Eyelashes",
+        "position": "3",
+        "length": "150000",
+        "work": {
+          "id": "1148cbf4-c616-4406-b9cb-2b7ee42b1919",
+          "title": "False Eyelashes",
+          "composers": [
+            {
+              "name": "Bob Tubert",
+              "mbid": "0af31ff5-f983-4fe0-8072-13f8b19e4fe2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e099d831-331c-404d-b9be-b31736f2db95",
+        "title": "I’ll Oilwells Love You",
+        "position": "4",
+        "length": "136133",
+        "work": {
+          "id": "e18428ef-c98b-4756-83bc-d4c155fdb472",
+          "title": "I’ll Oilwells Love You",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            },
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2684d21f-8f3d-4bed-868e-9a74602e32d1",
+        "title": "The Only Way Out (Is to Walk Over Me)",
+        "position": "5",
+        "length": "175000",
+        "work": {
+          "id": "a535a4f9-fb6e-4ba7-90ed-9a4309fa2419",
+          "title": "The Only Way Out (Is to Walk Over Me)",
+          "composers": [
+            {
+              "name": "Neal Merritt",
+              "mbid": "fdfb02da-06a4-424f-a73c-9e94c492326a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5cb9b379-1e02-4e0e-bcd0-71e8978da8fd",
+        "title": "Little Bit Slow to Catch On",
+        "position": "6",
+        "length": "139000",
+        "work": {
+          "id": "152366bd-d43e-454a-a188-287014cd5e13",
+          "title": "Little Bit Slow to Catch On",
+          "composers": [
+            {
+              "name": "Claude “Curly” Putman, Jr.",
+              "mbid": "05da2f6e-8e59-46e9-945c-60cfd60cc93f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8fc5835d-cb14-4b24-8673-59619517db1d",
+        "title": "The Bridge",
+        "position": "7",
+        "length": "154000",
+        "work": {
+          "id": "3147e05d-0dac-4b9d-a467-f86f256c53f4",
+          "title": "The Bridge",
+          "composers": [
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "42abc06c-35b3-42ae-82c9-d4ecb288a744",
+        "title": "Love and Learn",
+        "position": "8",
+        "length": "153000",
+        "work": {
+          "id": "c9881428-e4ab-46c4-be1e-168a459f8575",
+          "title": "Love and Learn",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            }
+          ]
+        }
+      },
+      {
+        "id": "55139342-54e7-410d-a614-a7c60fba2981",
+        "title": "I’m Running Out of Love",
+        "position": "9",
+        "length": "126133",
+        "work": {
+          "id": "811c2f62-8b56-4252-b9f9-16b1c9e1b830",
+          "title": "I’m Running Out of Love",
+          "composers": [
+            {
+              "name": "Bill Owens",
+              "mbid": "f8436ea1-bd06-4c97-af29-9688a3bb6c04"
+            }
+          ]
+        }
+      },
+      {
+        "id": "497f2f22-809b-4c9e-a692-72f7d8dcaaa2",
+        "title": "Just Because I’m a Woman",
+        "position": "10",
+        "length": "184133",
+        "work": {
+          "id": "b9239504-3fdf-4566-b2e7-2e3239a0122a",
+          "title": "Just Because I’m a Woman",
+          "composers": [
+            {
+              "name": "Dolly Parton",
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856"
+            }
+          ]
+        }
+      },
+      {
+        "id": "58ad5e60-a33f-484a-8dae-9845ac865f52",
+        "title": "Baby Sister",
+        "position": "11",
+        "length": "159106",
+        "work": {
+          "id": "25ccb8f5-22e5-434b-be56-e9e13b83551c",
+          "title": "Baby Sister",
+          "composers": [
+            {
+              "name": "Shirl Milete",
+              "mbid": "a7e1cba3-5964-491d-963a-3cb7c2bffb95"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b605c3d5-afb1-47e8-a122-8265c5c7d649",
+        "title": "Try Being Lonely",
+        "position": "12",
+        "length": "162000",
+        "work": {
+          "id": "1462819d-cf91-4de4-9fef-4a63402d08ff",
+          "title": "Try Being Lonely",
+          "composers": [
+            {
+              "name": "George McCormick",
+              "mbid": "a4e3b14e-56d4-4062-9164-72102db14b3e"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 39776,
+  "wikidata_id": "Q180453"
+}

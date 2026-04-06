@@ -1,0 +1,57 @@
+[
+  {
+    "subject": "Jean-Michel Jarre",
+    "predicate": "composed",
+    "object": "music"
+  },
+  {
+    "subject": "Jean-Michel Jarre",
+    "predicate": "pioneerOf",
+    "object": "electronic"
+  },
+  {
+    "subject": "Jean-Michel Jarre",
+    "predicate": "pioneerOf",
+    "object": "ambient"
+  },
+  {
+    "subject": "Jean-Michel Jarre",
+    "predicate": "pioneerOf",
+    "object": "new-age"
+  },
+  {
+    "subject": "Jean-Michel Jarre",
+    "predicate": "influencedBy",
+    "object": "Pierre Soulages"
+  },
+  {
+    "subject": "Jean-Michel Jarre",
+    "predicate": "influencedBy",
+    "object": "Pierre Schaeffer"
+  },
+  {
+    "subject": "Jean-Michel Jarre",
+    "predicate": "influencedBy",
+    "object": "musique concr\u00e8te"
+  },
+  {
+    "subject": "Jean-Michel Jarre",
+    "predicate": "released",
+    "object": "Oxyg\u00e8ne"
+  },
+  {
+    "subject": "Jean-Michel Jarre",
+    "predicate": "released",
+    "object": "Equinoxe"
+  },
+  {
+    "subject": "Jean-Michel Jarre",
+    "predicate": "performedAt",
+    "object": "Place de la Concorde"
+  },
+  {
+    "subject": "Jean-Michel Jarre",
+    "predicate": "performedAt",
+    "object": "Moscow concert"
+  }
+]

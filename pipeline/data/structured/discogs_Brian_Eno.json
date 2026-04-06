@@ -1,0 +1,129 @@
+{
+  "id": 634,
+  "name": "Brian Eno",
+  "realname": "Brian Peter George St John le Baptiste de la Salle Eno",
+  "profile": "Brian Eno is an electronic musician and producer. Also known for his multifaceted interests outside of music, especially technological. He was born 15 May 1948 in Woodbridge, Suffolk, UK.\r\n\r\nHe attended Ipswich and Winchester Arts Schools where he studied with [a=Tom Phillips (3)], Roy Ascott, [a=Christian Wolff], Anthony Benjamin, [a=Noel Forster] and [a=George Brecht].\r\n\r\nStarting his musical career early, first thing of note being with the band [a=Roxy Music], Eno has gone on to produce a number of highly eclectic and increasingly ambient electronic and acoustic albums, and also works frequently as producer for many popular artists. \r\n\r\nHe is widely cited as coining the term \"ambient music\", with his series of albums using the term recorded between 1978 and 1982. \r\n\r\nHe collaborated with [a=David Byrne], formerly of [a=Talking Heads], on \"[url=http://www.discogs.com/Brian-Eno-David-Byrne-My-Life-In-The-Bush-Of-Ghosts/master/6392]My Life In The Bush Of Ghosts[/url]\" (1981) which was one of the first albums not in the rap or hip-hop genres to extensively feature sampling. \r\nEno collaborated with [a=David Bowie] as a writer and musician on Bowie's influential \"Berlin Trilogy\" of albums, \"[url=http://www.discogs.com/David-Bowie-Low/master/22382]Low[/url]\" (1977), \"[url=http://www.discogs.com/David-Bowie-Heroes/master/22294]Heroes[/url]\" (1977), and \"[url=http://www.discogs.com/David-Bowie-Lodger/master/22318]Lodger[/url]\" (1979), on Bowie's later album, \"[url=http://www.discogs.com/David-Bowie-1-Outside-The-Nathan-Adler-Diaries-A-Hyper-Cycle/master/22350]1. Outside - The Nathan Adler Diaries: A Hyper Cycle[/url]\" (1995), and on the track \"[url=http://www.discogs.com/David-Bowie-Im-Afraid-Of-Americans/master/53966]I'm Afraid Of Americans[/url]\" (1997). \r\nHe  has also collaborated with [a=Robert Fripp] of [a=King Crimson], [a=Robert Wyatt] on his \"[url=http://www.discogs.com/Robert-Wyatt-Shleep/master/23627]Shleep[/url]\" (1997) album, with [a=Jon Hassell] and with the German duo [a=Cluster]. \r\n\r\nEno is also well known for acting as a producer for a number of bands, these include [a=U2], [a=James], [a=Coldplay], et al. He won the Best Producer award at the 1994 and 1996 BRIT awards. He is an innovator across many fields of music and collaborated on the development of the Koan algorithmic music generator. He has also been involved in the field of visual arts. \r\n\r\nIn 1996 Brian Eno, and others, started the Long Now Foundation to educate the public into thinking about the very long term future of society. Brian Eno is also a columnist for the British newspaper, The Observer. \r\n\r\nInducted into the Rock & Roll Hall of Fame in 2019 as a member of Roxy Music.",
+  "members": [],
+  "groups": [
+    {
+      "name": "Fripp & Eno",
+      "id": 10344,
+      "active": true
+    },
+    {
+      "name": "Harmonia 76",
+      "id": 48044,
+      "active": true
+    },
+    {
+      "name": "Passengers",
+      "id": 55682,
+      "active": true
+    },
+    {
+      "name": "Roxy Music",
+      "id": 56621,
+      "active": false
+    },
+    {
+      "name": "The Scratch Orchestra",
+      "id": 115798,
+      "active": true
+    },
+    {
+      "name": "801",
+      "id": 119589,
+      "active": false
+    },
+    {
+      "name": "The MDH Band",
+      "id": 322589,
+      "active": true
+    },
+    {
+      "name": "Portsmouth Sinfonia",
+      "id": 442169,
+      "active": true
+    },
+    {
+      "name": "N.M.L. No More Landmine",
+      "id": 1251880,
+      "active": true
+    },
+    {
+      "name": "Africa Express",
+      "id": 3812010,
+      "active": true
+    },
+    {
+      "name": "Eno • Hyde",
+      "id": 3901231,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Electronic",
+    "Rock"
+  ],
+  "styles": [
+    "Art Rock",
+    "Avantgarde",
+    "Experimental",
+    "Glam",
+    "Prog Rock"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Rock",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Avantgarde"
+    },
+    {
+      "genre": "Rock",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Rock",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Glam"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Rock",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Rock",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Rock",
+      "style": "Prog Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Avantgarde"
+    }
+  ]
+}

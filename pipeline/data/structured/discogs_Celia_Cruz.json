@@ -1,0 +1,44 @@
+{
+  "id": 99729,
+  "name": "Celia Cruz",
+  "realname": "Celia de la Caridad Cruz Alfonso ",
+  "profile": "Cuban singer. \r\n\r\nBorn: 21 October 1925 in Havana, Cuba. \r\nDied: 16 July 2003 in Fort Lee, New Jersey, USA (aged 77). \r\n\r\nCruz is recognised by many as the \"Queen Of Salsa\", and being known for her shout of \"¡Azúcar!\" (en: \"Sugar\") during performances. The voice, charisma, and talent of Cruz has created one of the most impressive music careers. Listing her accomplishments would require a book. Her more than 70 albums have yielded many gold and platinum records, and she has received more than a hundred awards from prestigious institutions around the world. She also appeared in 10 movies, including \"The Mambo Kings\" (1992) and \"The Perez Family\" (1995). \r\n\r\nOf Afro-Cuban decent, Cruz began singing in amateur contests at the age of 14 in her home city of Havana, Cuba, where she studied music theory, piano and voice at the National Music Conservatory. In 1950 she began singing with the conjunto La Sonora Matancera, and with that group she was a central figure in some of the most glorious chapters of Afro-Cuban music, recording a number of legendary songs, including \"Yembe Laroco\", \"Yerbero Moderno\", \"Burundanga\", and \"Caramelo\", among many. By the end of the 1950s La Sonora Matancera was the most popular group in Cuba and Celia's alliance with them took her beyond the coast of Cuba; firstly to Mexico for two years, then moving to the US, and performing internationally. While in the group she met [a=Pedro Knight], at the time one of the band's two trumpeters, whom she married on July 14 1962 (Cruz died just 2 days after celebrating her 41st wedding anniversary).\r\n\r\nThough Cruz repeatedly tried to return to Cuba, the Castro regime forbade her to return to her native country. Regularly performing in Mexico and elsewhere in the world, she settled in the USA by buying a house in New York. In 1966 she started the first of several collaborations with [a=Tito Puente] and his orchestra. She also recorded with others, signing first for Seeco and in the mid-sixties for Tico Records. In 1974 Fania Records acquired Tico and signed Cruz to the Vaya imprint, where she remained until 1992. Later in life, she would turn to acting, debuting in 1992's The Mambo Kings. She made her last musical appearance in March 2003 at the ¡Celia Cruz: Azúcar! event organised in tribute of her. On the afternoon of 16 July 2003, Cruz died at her home in New Jersey. At her express wish, her remains were transferred to Miami for two days to receive the homage of her Cuban exile admirers, after which she was buried in the Woodlawn Cemetery in The Bronx, New York.\r\n\r\nShe received the first of her 5 Grammy Awards in 1989, and also won 2 Latin Grammy Awards. She received 3 doctorates Honoris Causa from Yale, Florida International University and Miami University.",
+  "members": [],
+  "groups": [
+    {
+      "name": "Fania All Stars",
+      "id": 15794,
+      "active": false
+    },
+    {
+      "name": "La Sonora Matancera",
+      "id": 416581,
+      "active": false
+    }
+  ],
+  "genres": [
+    "Latin"
+  ],
+  "styles": [
+    "Afro-Cuban",
+    "Guaracha"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Latin",
+      "style": "Afro-Cuban"
+    },
+    {
+      "genre": "Latin",
+      "style": "Afro-Cuban"
+    },
+    {
+      "genre": "Latin",
+      "style": "Guaracha"
+    },
+    {
+      "genre": "Latin",
+      "style": "Guaracha"
+    }
+  ]
+}

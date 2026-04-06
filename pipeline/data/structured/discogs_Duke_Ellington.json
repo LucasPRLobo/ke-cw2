@@ -1,0 +1,257 @@
+{
+  "id": 145257,
+  "name": "Duke Ellington",
+  "realname": "Edward Kennedy Ellington",
+  "profile": "American jazz pianist, composer and leader of his eponymous orchestra\r\nBorn April 29, 1899, Washington, D.C.\r\nDied May 24, 1974 in New York City, N.Y.\r\nKnown for his residency at the [l=Cotton Club] (1927-1931) and for composing over a thousand pieces (often in collaboration), many of them now standards. [a258464] shared composing duties (1939-1967). \r\nFather of [a323069], who took over the leadership of the orchestra after Duke died remaining until his own death in 1996. Grandfather of [a5641533].",
+  "members": [
+    {
+      "name": "Martin Banks",
+      "id": 323163,
+      "active": true
+    }
+  ],
+  "groups": [
+    {
+      "name": "Duke Ellington And His Orchestra",
+      "id": 284747,
+      "active": true
+    },
+    {
+      "name": "Metronome All Stars",
+      "id": 311056,
+      "active": true
+    },
+    {
+      "name": "Cootie Williams & His Rug Cutters",
+      "id": 313151,
+      "active": true
+    },
+    {
+      "name": "The Whoopee Makers",
+      "id": 339925,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington And His Cotton Club Orchestra",
+      "id": 342798,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington And His Kentucky Club Orchestra",
+      "id": 370230,
+      "active": true
+    },
+    {
+      "name": "The Washingtonians",
+      "id": 370233,
+      "active": true
+    },
+    {
+      "name": "Barney Bigard And His Orchestra",
+      "id": 373892,
+      "active": true
+    },
+    {
+      "name": "Rex Stewart And His Orchestra",
+      "id": 374632,
+      "active": true
+    },
+    {
+      "name": "The Harlem Footwarmers",
+      "id": 446648,
+      "active": true
+    },
+    {
+      "name": "The Jungle Band (2)",
+      "id": 446742,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington Quartet",
+      "id": 504974,
+      "active": true
+    },
+    {
+      "name": "The Chicago Footwarmers",
+      "id": 576124,
+      "active": true
+    },
+    {
+      "name": "The Georgia Syncopators",
+      "id": 634319,
+      "active": true
+    },
+    {
+      "name": "Johnny Hodges And His Orchestra",
+      "id": 843805,
+      "active": true
+    },
+    {
+      "name": "Rex Stewart And His 52nd Street Stompers",
+      "id": 1131247,
+      "active": true
+    },
+    {
+      "name": "Joe Turner And His Memphis Men",
+      "id": 1781630,
+      "active": true
+    },
+    {
+      "name": "Sonny Greer And His Memphis Men",
+      "id": 1781635,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington And His Jazz Group",
+      "id": 1820946,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington's Hot Five",
+      "id": 1962796,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington's Spacemen",
+      "id": 2241661,
+      "active": true
+    },
+    {
+      "name": "The Duke Ellington Trio",
+      "id": 2282254,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington And His Big Band",
+      "id": 2300991,
+      "active": true
+    },
+    {
+      "name": "The Oscar Pettiford Quartet",
+      "id": 2363920,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington Sextet",
+      "id": 2554777,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington Octet",
+      "id": 2631680,
+      "active": true
+    },
+    {
+      "name": "Ivie Anderson And Her Boys From Dixie",
+      "id": 2730598,
+      "active": true
+    },
+    {
+      "name": "The Six Jolly Jesters",
+      "id": 2773947,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington And The Whoopie Makers",
+      "id": 2853467,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington Alumni All Stars",
+      "id": 2860237,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington & Friends",
+      "id": 2889632,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington All Star Road Band",
+      "id": 3143026,
+      "active": true
+    },
+    {
+      "name": "The Duke Ellington Small Bands",
+      "id": 3162359,
+      "active": true
+    },
+    {
+      "name": "Harlem Hot Chocolates",
+      "id": 3517711,
+      "active": true
+    },
+    {
+      "name": "Esquire All American Award Winners",
+      "id": 3576979,
+      "active": true
+    },
+    {
+      "name": "The Ellington Twins",
+      "id": 3932354,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington And His Award Winners",
+      "id": 3995296,
+      "active": true
+    },
+    {
+      "name": "The Memphis Hot Shots",
+      "id": 4127016,
+      "active": true
+    },
+    {
+      "name": "The Coronets (3)",
+      "id": 4239220,
+      "active": true
+    },
+    {
+      "name": "Ten Black Berries",
+      "id": 4293455,
+      "active": true
+    },
+    {
+      "name": "Barney Bigard And His Jazzopaters",
+      "id": 5316143,
+      "active": true
+    },
+    {
+      "name": "The Harlem Music Masters",
+      "id": 5857985,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington's Philadelphia Melodians",
+      "id": 6948373,
+      "active": true
+    },
+    {
+      "name": "Frank Brown And His Tooters",
+      "id": 7422521,
+      "active": true
+    },
+    {
+      "name": "Duke Ellington And The Coronets",
+      "id": 10223452,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Jazz",
+    "Pop"
+  ],
+  "styles": [
+    "Vocal"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Jazz",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Pop",
+      "style": "Vocal"
+    }
+  ]
+}

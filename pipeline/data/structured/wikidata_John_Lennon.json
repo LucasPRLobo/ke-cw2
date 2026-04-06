@@ -1,0 +1,216 @@
+{
+  "wikidata_id": "Q1203",
+  "genres": [
+    "rock and roll",
+    "rock music",
+    "pop music",
+    "hard rock",
+    "blues rock",
+    "psychedelic rock",
+    "art rock",
+    "pop rock",
+    "beat music",
+    "experimental music",
+    "experimental rock"
+  ],
+  "instruments": [
+    "piano",
+    "guitar",
+    "bass guitar",
+    "harmonica",
+    "keyboard instrument",
+    "voice"
+  ],
+  "awards": [
+    "Rock and Roll Hall of Fame",
+    "Academy Award for Best Original Score",
+    "Grammy Lifetime Achievement Award",
+    "Member of the Order of the British Empire",
+    "star on Hollywood Walk of Fame"
+  ],
+  "labels": [
+    "Polydor",
+    "EMI",
+    "Capitol Records",
+    "Parlophone",
+    "Geffen Records",
+    "Apple Records",
+    "Atco Records"
+  ],
+  "influences": [],
+  "occupations": [
+    "actor",
+    "writer",
+    "composer",
+    "poet",
+    "singer",
+    "pianist",
+    "singer-songwriter",
+    "public figure",
+    "guitarist",
+    "film director",
+    "film producer",
+    "film actor",
+    "political activist",
+    "prose writer",
+    "peace activist",
+    "recording artist"
+  ],
+  "country": "United Kingdom",
+  "birth_place": "Liverpool Maternity Hospital",
+  "birth_date": "1940-10-09",
+  "death_date": "1980-12-08",
+  "wikipedia_title": "John Lennon",
+  "compositions": [
+    {
+      "title": "Imagine",
+      "genre": "pop music",
+      "date": "1971-01-01"
+    },
+    {
+      "title": "Jealous Guy",
+      "genre": "pop music",
+      "date": "1971-01-01"
+    },
+    {
+      "title": "All You Need Is Love",
+      "genre": "rock music",
+      "date": "1967-07-01"
+    },
+    {
+      "title": "All You Need Is Love",
+      "genre": "pop music",
+      "date": "1967-07-01"
+    },
+    {
+      "title": "All You Need Is Love",
+      "genre": "psychedelic pop",
+      "date": "1967-07-01"
+    },
+    {
+      "title": "Let It Be",
+      "genre": "gospel music",
+      "date": "1970-03-06"
+    },
+    {
+      "title": "Let It Be",
+      "genre": "pop rock",
+      "date": "1970-03-06"
+    },
+    {
+      "title": "Eleanor Rigby",
+      "genre": "popular music",
+      "date": "1966-01-01"
+    },
+    {
+      "title": "Yesterday",
+      "genre": "popular music",
+      "date": "1965-08-16"
+    },
+    {
+      "title": "Mean Mr. Mustard",
+      "genre": "rock music",
+      "date": "1969-09-26"
+    },
+    {
+      "title": "The End",
+      "genre": "hard rock",
+      "date": "1969-01-01"
+    },
+    {
+      "title": "You Never Give Me Your Money",
+      "genre": "rock music",
+      "date": "1969-09-26"
+    },
+    {
+      "title": "She Came In Through the Bathroom Window",
+      "genre": "rock music",
+      "date": "1969-01-01"
+    },
+    {
+      "title": "Maxwell's Silver Hammer",
+      "genre": "pop rock",
+      "date": "1969-09-26"
+    },
+    {
+      "title": "Because",
+      "genre": "art rock",
+      "date": "1969-10-01"
+    },
+    {
+      "title": "Sun King",
+      "genre": "art pop",
+      "date": "1969-10-01"
+    },
+    {
+      "title": "Oh! Darling",
+      "genre": "blues",
+      "date": "1969-09-26"
+    },
+    {
+      "title": "Golden Slumbers",
+      "genre": "progressive rock",
+      "date": "1969-09-26"
+    },
+    {
+      "title": "I Want You (She's So Heavy)",
+      "genre": "hard rock",
+      "date": "1969-01-01"
+    },
+    {
+      "title": "I Want You (She's So Heavy)",
+      "genre": "blues rock",
+      "date": "1969-01-01"
+    },
+    {
+      "title": "Polythene Pam",
+      "genre": "rock music",
+      "date": "1969-01-01"
+    },
+    {
+      "title": "Come Together",
+      "genre": null,
+      "date": "1969-01-01"
+    },
+    {
+      "title": "Her Majesty",
+      "genre": "music hall",
+      "date": "1969-09-26"
+    },
+    {
+      "title": "Strawberry Fields Forever",
+      "genre": "psychedelic rock",
+      "date": "1967-01-01"
+    },
+    {
+      "title": "Strawberry Fields Forever",
+      "genre": "psychedelic pop",
+      "date": "1967-01-01"
+    },
+    {
+      "title": "Baby, You're a Rich Man",
+      "genre": "psychedelic pop",
+      "date": "1967-01-01"
+    },
+    {
+      "title": "I Feel Fine",
+      "genre": "rock music",
+      "date": "1964-01-01"
+    },
+    {
+      "title": "Hello, Goodbye",
+      "genre": "pop rock",
+      "date": "1967-11-24"
+    },
+    {
+      "title": "A Day in the Life",
+      "genre": "rock music",
+      "date": "1967-01-01"
+    },
+    {
+      "title": "Good Day Sunshine",
+      "genre": "pop rock",
+      "date": "1966-01-01"
+    }
+  ]
+}

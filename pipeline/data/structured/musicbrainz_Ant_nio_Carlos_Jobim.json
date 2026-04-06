@@ -1,0 +1,723 @@
+{
+  "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0",
+  "name": "Antônio Carlos Jobim",
+  "type": "Person",
+  "country": "BR",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1927-01-25",
+    "end": "1994-12-08",
+    "ended": "true"
+  },
+  "area": "Brazil",
+  "begin_area": "Tijuca",
+  "tags": [
+    {
+      "name": "bossa nova",
+      "count": "8"
+    },
+    {
+      "name": "brazilian",
+      "count": "1"
+    },
+    {
+      "name": "jazz",
+      "count": "3"
+    },
+    {
+      "name": "latin",
+      "count": "2"
+    },
+    {
+      "name": "latin jazz",
+      "count": "4"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Ana Lontra Jobim",
+      "target_mbid": "59fcee05-9e41-418f-a89d-ca2090379c93",
+      "attributes": [],
+      "begin": "1986-04-30",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Tom Jobim e Orquestra",
+      "target_mbid": "552fb15e-d3c7-4afd-b33e-ef5988a298e9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Paulo Jobim",
+      "target_mbid": "b7062bd8-07ca-4d39-b755-98968dbe0735",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Maria Luiza Jobim",
+      "target_mbid": "385eb71c-c509-4ba2-b69d-57814e8cc19e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Elizabeth Jobim",
+      "target_mbid": "d7841814-3163-46bf-9884-c073a371fcbd",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Hans-Joachim Koellreutter",
+      "target_mbid": "03c63f8e-1035-46d4-91f6-671a55c6c3f9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000781837"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.bjbear71.com/Jobim/tom.html"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/27991"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/3pO5VjZ4wOHCMBXOvbMISG"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/4085"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Tomjobim.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0423388/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Ant%C3%B4nio+Carlos+Jobim"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Antonio-carlos-jobim"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www2.uol.com.br/tomjobim/index_flash.htm"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n81055554"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13895655z"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/119525615"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6rj59g2"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/antonio_carlos_jobim"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/antonio-carlos-jobim/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n81055554"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/201663245"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/2280"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/15356"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/fr/artist/201663245"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/201663245"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/201663245"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/3930"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/51875584"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q200131"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "03f9d867-f737-447e-a3ee-1732e6159c95",
+      "title": "Sinfonia do Rio de Janeiro",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "ef8b88e0-8ef1-428a-baa1-9a8a5b5b42cc",
+      "title": "Brasília: Sinfonia da Alvorada",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "ff43f179-c079-3ca8-b9e8-f9852ecff712",
+      "title": "The Composer of Desafinado, Plays",
+      "type": "Album",
+      "first_release_date": "1963"
+    },
+    {
+      "id": "b248d212-aace-3c3e-a23d-e13aaac1f87a",
+      "title": "Getz / Gilberto",
+      "type": "Album",
+      "first_release_date": "1964-03"
+    },
+    {
+      "id": "608b1c11-9f3c-3f1f-9f2e-3cc4f6c76390",
+      "title": "Caymmi visita Tom",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "e4b780f1-8741-3520-b093-351378dd3abd",
+      "title": "The Swinger From Rio",
+      "type": "Album",
+      "first_release_date": "1965-04"
+    },
+    {
+      "id": "5ef12b44-4d9e-4813-a955-efbf12f1cdf9",
+      "title": "A Certain Mr. Jobim",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "970b8169-76a1-317e-b04b-f979a3572d22",
+      "title": "The Wonderful World of Antonio Carlos Jobim",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "cc058406-882a-4d63-a94a-f14b47b5dca7",
+      "title": "Tom Jobim apresenta",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "943461cc-377c-3f96-9d89-4d3ff5b03d25",
+      "title": "Francis Albert Sinatra & Antônio Carlos Jobim",
+      "type": "Album",
+      "first_release_date": "1967-04"
+    },
+    {
+      "id": "bd2d1864-f84e-402b-baa4-3ab848cfea4c",
+      "title": "Antonio Carlos Jobim & Sérgio Mendes",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "935fccc4-064a-339c-ba4c-b0acee6ff5eb",
+      "title": "Wave",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "e749dd10-8be4-3c2c-abda-22102a2d7003",
+      "title": "Stone Flower",
+      "type": "Album",
+      "first_release_date": "1970"
+    },
+    {
+      "id": "27d85194-e2e9-3d86-b6c2-53fc3d7eb15c",
+      "title": "Tide",
+      "type": "Album",
+      "first_release_date": "1970"
+    },
+    {
+      "id": "a8e27598-6f50-39b2-87f1-2bcb6c9ad30b",
+      "title": "Jobim",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "f9520003-6075-310e-b650-bbaa8aaeab4d",
+      "title": "Elis & Tom",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "8305685b-6c6a-33ff-9aad-3f673be11854",
+      "title": "Urubu",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "13f2d5d8-0870-4449-8e97-de0942893922",
+      "title": "Miucha & Antonio Carlos Jobim",
+      "type": "Album",
+      "first_release_date": "1977"
+    },
+    {
+      "id": "b2fa07aa-8d8d-3106-8934-918f20d6b82d",
+      "title": "Miucha & Tom Jobim",
+      "type": "Album",
+      "first_release_date": "1979"
+    },
+    {
+      "id": "e86a1aea-bbcd-3623-8918-0e4aff2992c0",
+      "title": "Terra Brasilis",
+      "type": "Album",
+      "first_release_date": "1980"
+    },
+    {
+      "id": "d977eb6c-0704-3845-9858-c006f88ccb99",
+      "title": "Edu & Tom",
+      "type": "Album",
+      "first_release_date": "1981"
+    },
+    {
+      "id": "5c55a7c2-cf9a-32d3-84a4-76b6b4f8b49e",
+      "title": "Inédito",
+      "type": "Album",
+      "first_release_date": "1987"
+    },
+    {
+      "id": "18cb18c9-4f1e-333c-9859-4b2a5f4f5583",
+      "title": "Passarim",
+      "type": "Album",
+      "first_release_date": "1987"
+    },
+    {
+      "id": "b6ae7e60-c4b2-315b-b2f2-1bbf50a42586",
+      "title": "Encontro",
+      "type": "Album",
+      "first_release_date": "1991"
+    },
+    {
+      "id": "770e74dc-5641-3ec0-83e1-6b95365cdbca",
+      "title": "Antonio Brasileiro",
+      "type": "Album",
+      "first_release_date": "1994"
+    }
+  ],
+  "tracks": {
+    "03f9d867-f737-447e-a3ee-1732e6159c95": [
+      {
+        "id": "c99d772d-20b1-46d0-b88c-a303507401a9",
+        "title": "Tereza da praia",
+        "position": "1",
+        "length": "169000",
+        "work": {
+          "id": "be0fb4a7-705b-4cbb-9486-0a6d4ab36c70",
+          "title": "Tereza da praia",
+          "composers": [
+            {
+              "name": "Billy Blanco",
+              "mbid": "d31d3aa2-70de-4e57-8243-c6849eda4160"
+            },
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "abe94297-a24a-4342-9b06-d1e024f767d0",
+        "title": "O que vai ser mim",
+        "position": "2",
+        "length": "198000",
+        "work": null
+      },
+      {
+        "id": "de55789e-68d1-4a46-91aa-ebf7c38030d4",
+        "title": "Arpoador",
+        "position": "3",
+        "length": "153000",
+        "work": null
+      },
+      {
+        "id": "9d62c9e5-c1c9-47ae-8b50-f02e8bdc1264",
+        "title": "Noites do Rio",
+        "position": "4",
+        "length": "137377",
+        "work": null
+      },
+      {
+        "id": "c424bef9-dbe6-461c-bbda-c6401b8b1ccc",
+        "title": "O samba de amanhã",
+        "position": "5",
+        "length": "150000",
+        "work": null
+      },
+      {
+        "id": "6f19efea-b3d9-43d5-8c1e-4d375d36fea1",
+        "title": "Hino ao sol",
+        "position": "6",
+        "length": "111000",
+        "work": null
+      },
+      {
+        "id": "f73e8854-670a-40de-baa6-1b44ff2e1213",
+        "title": "Descendo o morro",
+        "position": "7",
+        "length": "160000",
+        "work": null
+      },
+      {
+        "id": "aa8f266c-c8dd-41fc-bbf9-5d5e6429c138",
+        "title": "Sinfonia do Rio de Janeiro",
+        "position": "8",
+        "length": "933000",
+        "work": null
+      },
+      {
+        "id": "f3ed63a7-7b40-4b48-b40d-8706fceccb8a",
+        "title": "Solidão",
+        "position": "9",
+        "length": "179000",
+        "work": null
+      },
+      {
+        "id": "dced74fa-c5dc-4b00-8e8f-f93502951b97",
+        "title": "Outra vez",
+        "position": "10",
+        "length": "178000",
+        "work": null
+      }
+    ],
+    "ef8b88e0-8ef1-428a-baa1-9a8a5b5b42cc": [
+      {
+        "id": "3f4d9846-41d2-4670-b3b6-0e11d3e1700e",
+        "title": "O planalto deserto (The Desert Tableland)",
+        "position": "1",
+        "length": "380000",
+        "work": {
+          "id": "1d3df520-2fcd-43f5-a09a-d72bdb6f0900",
+          "title": "Brasília, Sinfonia da Alvorada: I. O Planalto Deserto",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7f40e625-b265-49cc-9290-33d70c6efe91",
+        "title": "O homem (Man)",
+        "position": "2",
+        "length": "382000",
+        "work": {
+          "id": "ce9b5e1a-b883-4cc6-997f-61e2991ac4dc",
+          "title": "Brasília, Sinfonia da Alvorada: II. O Homem",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e85e5416-adde-4679-a70a-6531757d1609",
+        "title": "A chegada dos candangos (Arrival of the \"Candangos\")",
+        "position": "3",
+        "length": "285000",
+        "work": {
+          "id": "ef47d075-5165-4b14-bf38-c79cf9c2c697",
+          "title": "Brasília, Sinfonia da Alvorada: III. A Chegada dos Candangos",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c1ae6e5a-1888-44a2-9100-4ab1553042a7",
+        "title": "O trabalho e a construção (The Work and the Building)",
+        "position": "4",
+        "length": "568000",
+        "work": {
+          "id": "1f12bfb3-d0bc-42ad-b496-b96c249d14a8",
+          "title": "Brasília, Sinfonia da Alvorada: IV. O Trabalho e a Construção",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f7aed43f-26b4-4ad0-b16b-da7a03e54084",
+        "title": "Coral (Choral)",
+        "position": "5",
+        "length": "259026",
+        "work": {
+          "id": "ea03cc0b-bd05-45bf-b1fd-3079fe47e92d",
+          "title": "Brasília, Sinfonia da Alvorada: V. Coral",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      }
+    ],
+    "ff43f179-c079-3ca8-b9e8-f9852ecff712": [
+      {
+        "id": "2a09dd60-b4f1-48c9-bc43-236482aa76b5",
+        "title": "The Girl From Ipanema",
+        "position": "1",
+        "length": "162200",
+        "work": {
+          "id": "69f81329-a815-3ec2-aaee-1f781a1e026d",
+          "title": "The Girl From Ipanema",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "467c77bb-9f1b-41d1-a75b-6e31684a4188",
+        "title": "Amor em paz (Once I Loved)",
+        "position": "2",
+        "length": "216200",
+        "work": {
+          "id": "dbe9bfaf-448f-32e9-89cb-2493155d053d",
+          "title": "O amor em paz",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "87d80170-4dc1-4676-b874-3eefeb000b35",
+        "title": "Água de beber",
+        "position": "3",
+        "length": "171000",
+        "work": {
+          "id": "8bbf6da7-aab1-394b-9bb6-ddfea5477fa1",
+          "title": "Água de beber",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cc0ca1f8-9fc0-41b5-a815-b7ea527439f8",
+        "title": "Vivo sonhando (Dreamer)",
+        "position": "4",
+        "length": "155666",
+        "work": {
+          "id": "6505ce53-f8a2-3b61-bde4-03f5222f3d21",
+          "title": "Vivo sonhando",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7d91a155-e913-4b68-96e3-bb04ff6d8419",
+        "title": "O morro não tem vez (a.k.a. Favela)",
+        "position": "5",
+        "length": "200866",
+        "work": {
+          "id": "53372c2f-30d9-4084-ba3f-544fa4101167",
+          "title": "O morro não tem vez",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "59494aa1-4b3b-4fa0-9cb7-aefe4dd67e38",
+        "title": "Insensatez (How Insensitive)",
+        "position": "6",
+        "length": "175426",
+        "work": {
+          "id": "865cbfb3-e81a-31d1-94a4-f4bb098cd335",
+          "title": "Insensatez",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d2ccddea-4476-4a6e-82c8-c7b49b532512",
+        "title": "Corcovado (Quiet Nights)",
+        "position": "7",
+        "length": "145960",
+        "work": {
+          "id": "c93c9224-5608-36ee-980a-3dbba3c603e5",
+          "title": "Corcovado",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0b280501-732f-41c4-adc9-3069b6342ca9",
+        "title": "Samba de uma nota só (One Note Samba)",
+        "position": "8",
+        "length": "134373",
+        "work": {
+          "id": "c41e313a-d429-3283-9c39-a5ec4e4b0437",
+          "title": "Samba de uma nota só",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5fb24a25-ad68-444a-8440-8365e00d8943",
+        "title": "Meditation",
+        "position": "9",
+        "length": "195200",
+        "work": {
+          "id": "87c15f26-e79a-34db-843c-6884186c94bd",
+          "title": "Meditation",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2da40ea9-941e-427c-b876-6951a254f144",
+        "title": "Só danço samba (Jazz Samba)",
+        "position": "10",
+        "length": "141893",
+        "work": {
+          "id": "0b102419-df08-3fde-9e1b-f82f5158aa62",
+          "title": "Só danço samba",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            },
+            {
+              "name": "Norman Gimbel",
+              "mbid": "4b68c65a-8cb5-4c03-bb58-c1b1cf5eced1"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f62ba9a9-dfa5-4858-8731-5246b8e818cd",
+        "title": "Chega de saudade",
+        "position": "11",
+        "length": "259640",
+        "work": {
+          "id": "768cf901-2e16-36ee-8e5a-f8de66f4a00c",
+          "title": "Chega de saudade",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f7fc25aa-5b2e-4302-bae7-a5189b0b53df",
+        "title": "Desafinado",
+        "position": "12",
+        "length": "164133",
+        "work": {
+          "id": "807b8169-cb39-30c7-a9e2-d8491fc97651",
+          "title": "Desafinado",
+          "composers": [
+            {
+              "name": "Antônio Carlos Jobim",
+              "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 27991,
+  "wikidata_id": "Q200131"
+}

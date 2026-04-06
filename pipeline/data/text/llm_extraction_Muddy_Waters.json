@@ -1,0 +1,87 @@
+[
+  {
+    "subject": "Muddy Waters",
+    "predicate": "alterEgo",
+    "object": "McKinley Morganfield"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "hasGenre",
+    "object": "blues"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "pioneerOf",
+    "object": "Chicago blues"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "influencedBy",
+    "object": "Son House"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "influencedBy",
+    "object": "Robert Johnson"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "collaboratedWith",
+    "object": "Little Walter Jacobs"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "collaboratedWith",
+    "object": "Jimmy Rogers"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "collaboratedWith",
+    "object": "Elga Edmonds"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "collaboratedWith",
+    "object": "Elgin Evans"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "collaboratedWith",
+    "object": "Otis Spann"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "collaboratedWith",
+    "object": "Willie Dixon"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "performedAt",
+    "object": "Newport Jazz Festival"
+  },
+  {
+    "subject": "At Newport 1960",
+    "predicate": "released",
+    "object": "Muddy Waters"
+  },
+  {
+    "subject": "Muddy Waters",
+    "predicate": "hasMusicalPeriod",
+    "object": "post-World War II blues scene"
+  },
+  {
+    "subject": "Hoochie Coochie Man",
+    "predicate": "hasGenre",
+    "object": "blues"
+  },
+  {
+    "subject": "I Just Want to Make Love to You",
+    "predicate": "hasGenre",
+    "object": "blues"
+  },
+  {
+    "subject": "I'm Ready",
+    "predicate": "hasGenre",
+    "object": "blues"
+  }
+]

@@ -1,0 +1,871 @@
+{
+  "mbid": "ad79836d-9849-44df-8789-180bbc823f3c",
+  "name": "Antonio Vivaldi",
+  "type": "Person",
+  "country": "IT",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1678-03-04",
+    "end": "1741-07-28",
+    "ended": "true"
+  },
+  "area": "Italy",
+  "begin_area": "Venezia",
+  "tags": [
+    {
+      "name": "baroque",
+      "count": "8"
+    },
+    {
+      "name": "chamber music",
+      "count": "1"
+    },
+    {
+      "name": "choral",
+      "count": "1"
+    },
+    {
+      "name": "church music",
+      "count": "1"
+    },
+    {
+      "name": "classical",
+      "count": "11"
+    },
+    {
+      "name": "composer",
+      "count": "8"
+    },
+    {
+      "name": "concerto",
+      "count": "3"
+    },
+    {
+      "name": "european",
+      "count": "5"
+    },
+    {
+      "name": "i grandi concerti",
+      "count": "1"
+    },
+    {
+      "name": "italian",
+      "count": "7"
+    },
+    {
+      "name": "italian composer",
+      "count": "2"
+    },
+    {
+      "name": "musica classica",
+      "count": "1"
+    },
+    {
+      "name": "opera",
+      "count": "3"
+    },
+    {
+      "name": "sinfonia",
+      "count": "1"
+    },
+    {
+      "name": "western classical music",
+      "count": "1"
+    },
+    {
+      "name": "wiener akademie",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Giovanni Battista Vivaldi",
+      "target_mbid": "b8b9c2bb-0bc8-4500-adfb-38856504bbcb",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000685058"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/ad79836d-9849-44df-8789-180bbc823f3c"
+    },
+    {
+      "type": "biography",
+      "target": "https://musopen.org/music/composer/antonio-vivaldi/"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.pbs.org/wnet/gperf/education/vivaldi.html"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.classical.net/music/composer/works/vivaldi/index.html"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/108566"
+    },
+    {
+      "type": "download for free",
+      "target": "https://librivox.org/author/981"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/2QOIawHpSlOwXDvSqQ9YJR"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/4081"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Antonio_Vivaldi.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0006334/"
+    },
+    {
+      "type": "IMSLP",
+      "target": "https://imslp.org/wiki/Category:Vivaldi,_Antonio"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Antonio+Vivaldi"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Antonio-vivaldi"
+    },
+    {
+      "type": "other databases",
+      "target": "https://jaxsta.com/profile/adc05d91-3663-41bd-ad82-52f36e28f13f"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n79021280"
+    },
+    {
+      "type": "other databases",
+      "target": "https://adp.library.ucsb.edu/names/102302"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb139008966"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ci.nii.ac.jp/author/DA05368763"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118627287"
+    },
+    {
+      "type": "other databases",
+      "target": "https://id.ndl.go.jp/auth/ndlna/00527045"
+    },
+    {
+      "type": "other databases",
+      "target": "https://id.oclc.org/worldcat/entity/E39PBJrgGkmwkQr9PVpPyHKGHC"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/antonio-vivaldi"
+    },
+    {
+      "type": "other databases",
+      "target": "https://musicmoz.org/Composition/Composers/V/Vivaldi,_Antonio/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6cj8bwk"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1274783"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/authors/OL2746101A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL2746101A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://operabase.com/a2152141"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/3075/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/antonio_vivaldi"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rism.online/people/30003267"
+    },
+    {
+      "type": "other databases",
+      "target": "https://theatricalia.com/person/zbr/antonio-vivaldi"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.classicalarchives.com/composer/3521.html"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.dramonline.org/composers/vivaldi-antonio"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.goodreads.com/author/show/114744"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.idref.fr/027472183"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.librarything.com/author/vivaldiantonio"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/10921/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000239836/CLASSICAL/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.themoviedb.org/person/7587"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Antonio-Vivaldi/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n79021280"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.maniadb.com/artist/116066"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id242604"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.qobuz.com/it-it/interpreter/_/720"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B002E0GU76"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/135294"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/wd-73d63201.html"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/322371"
+    },
+    {
+      "type": "streaming",
+      "target": "http://open.qobuz.com/artist/720"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/it/artist/242604"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/3518585"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/2858"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/48848"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/42027007"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q1340"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCgxn_fiPtuHCZDXQpBW2_Tg"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "fbd010bf-d499-4c7c-b60f-769d048fd090",
+      "title": "Concerto in A minor / Concerto in D minor",
+      "type": "Album",
+      "first_release_date": "1950"
+    },
+    {
+      "id": "1ff848cd-a656-4b4a-91b8-1ed783f75690",
+      "title": "Vivaldi: Concerto grosso in D minor, op. 3 no. 11 / Mozart: Divertimento in D major, K. 251",
+      "type": "Album",
+      "first_release_date": "1950"
+    },
+    {
+      "id": "2d66a858-39f5-4303-a31a-aa0b5b52bff3",
+      "title": "Beatus Vir (Psalm 111) Oratorio For Soli, Double Chorus, Two Oboes, Double Orchestra Of Strings And Organ",
+      "type": "Album",
+      "first_release_date": "1952"
+    },
+    {
+      "id": "22fa590d-3ff2-4535-b2f5-75e9a83285c1",
+      "title": "L’Estro armonico: 12 Concerti for String Orchestra",
+      "type": "Album",
+      "first_release_date": "1952"
+    },
+    {
+      "id": "103a8af0-e2d8-4d33-8bc2-797c80bf142f",
+      "title": "La cetra: Twelve Concerti, Opus IX",
+      "type": "Album",
+      "first_release_date": "1952"
+    },
+    {
+      "id": "c155f769-69f5-49b3-bd27-60df3bafb4db",
+      "title": "The Four Seasons",
+      "type": "Album",
+      "first_release_date": "1953"
+    },
+    {
+      "id": "d51380ee-e274-4fa5-851f-a8790f9f1b6f",
+      "title": "Bonporti: Concerto in Re maggiore, op. 11 no. 8 / Concerto in Si bemolle maggiore, op. 11 no. 3 / Vivaldi: Concerto in Do maggiore, F. V no. 1 / Concerto d’orchestra in Sol minore",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "49af3df6-849a-412f-a8cf-4b15d66a1da8",
+      "title": "Gloria / Exultate Jubilate",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "5ed5a66d-0740-4003-95cb-87dba823bf52",
+      "title": "Il cimento dell’armonia e dell’inventione, op. 8",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "5fdbbc77-86c6-447d-8057-24ac57567bf5",
+      "title": "Les quatre saisons",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "5c510dda-9088-47dc-a9d3-e2ad9b8d87d3",
+      "title": "The Seasons, op. 8",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "8283577a-3425-46ef-8424-07d0b29acd9c",
+      "title": "Toccata en fa majeur / Concerto pour 2 trompettes en ut / Sonate en fa dièse, op. 78, « À Thérèse » / Symphonie n° 26 en mi bémol (K. 184) / Fantaisie‐impromptu, op. 66 / Carnaval romain, Ouverture",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "76a840b1-bda1-4549-8192-2ee27677ae48",
+      "title": "Le Quattro Stagioni",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "2d05b358-7db6-4223-a12a-4c3c0c6a5b97",
+      "title": "Les Quatre Saisons",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "e58b6923-e440-48ab-8337-bee577787d2a",
+      "title": "Die Vier Jahreszeiten",
+      "type": "Album",
+      "first_release_date": "1959-08"
+    },
+    {
+      "id": "60ca61ff-ccf9-44f5-914f-d84da38739b0",
+      "title": "4 Bassoon Concertos",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "a159d455-c457-4125-adb9-98bbf53fc28b",
+      "title": "6 concerti pour flûte (op. 10 intégral)",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "2cc0c352-bd18-407c-8ef1-436a24ed8482",
+      "title": "Le Quattro Stagioni",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "1611157f-b152-40ee-a301-586ae388af01",
+      "title": "Tartini / Vivaldi / Corelli",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "d0e394a2-26db-4370-a538-a149cc257326",
+      "title": "Die vier Jahreszeiten",
+      "type": "Album",
+      "first_release_date": "1960-05"
+    },
+    {
+      "id": "a88f0307-4a28-43ea-9c16-dc18bc8954b5",
+      "title": "Four Concertos",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "7c927f9a-308e-4c78-b172-7a35969bbddf",
+      "title": "Le quattro stagioni",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "80d38c8c-bad6-4f4d-b656-9c5338053884",
+      "title": "The Four Seasons",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "d7d81dcc-50d5-44a2-be2c-d127b4c33871",
+      "title": "5 Concerti",
+      "type": "Album",
+      "first_release_date": "1961-05"
+    },
+    {
+      "id": "19a60b60-16c9-4077-b2d1-e639181c8b3d",
+      "title": "Das Italienische Settecento",
+      "type": "Album",
+      "first_release_date": "1962"
+    }
+  ],
+  "tracks": {
+    "fbd010bf-d499-4c7c-b60f-769d048fd090": [
+      {
+        "id": "01652ac6-ffe4-4e34-b6a6-e200c9186c16",
+        "title": "Concerto in A minor for Viola d’Amore, Strings and Cembalo: 1st Movement: Allegro",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "bc0d68ff-4fe9-47a5-bbfb-5cec2c7e437a",
+          "title": "Concerto for Viola d'amore in A minor, RV 397: I. Allegro",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7ab31b25-c400-4035-84dc-e4549d86c6bc",
+        "title": "Concerto in A minor for Viola d’Amore, Strings and Cembalo: 2nd Movement: Largo",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "eafc221c-8182-4fac-8c2c-9987cb4916b2",
+          "title": "Concerto for Viola d'amore in A minor, RV 397: II. Largo",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ffc68dfc-511a-4b34-8f07-8f6a1b5c2dcc",
+        "title": "Concerto in A minor for Viola d’Amore, Strings and Cembalo: 3rd Movement: Allegro",
+        "position": "3",
+        "length": null,
+        "work": {
+          "id": "f6e7cc19-a53e-466b-a564-5e385e5c8bb6",
+          "title": "Concerto for Viola d'amore in A minor, RV 397: III. Allegro",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "62158b1f-06d5-4118-8633-2a71fcdee5d8",
+        "title": "Concerto in D minor for Viola d’Amore, Strings and Cembalo: 1st Movement: Allegro",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "238e31bb-08ec-468f-ad6b-a5df2e018ac5",
+          "title": "Viola d'Amore Concerto in D minor, RV 394: I. Allegro",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9389a51c-562d-407a-9c70-f050d94aab29",
+        "title": "Concerto in D minor for Viola d’Amore, Strings and Cembalo: 2nd Movement: Largo",
+        "position": "5",
+        "length": null,
+        "work": {
+          "id": "94ce30fb-55ff-43f9-9824-0309ac89ac24",
+          "title": "Viola d'Amore Concerto in D minor, RV 394: II. Andante",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "88460478-2a73-4cf8-9d6d-c354f9631d7b",
+        "title": "Concerto in D minor for Viola d’Amore, Strings and Cembalo: 3rd Movement: Allegro Vivo",
+        "position": "6",
+        "length": null,
+        "work": {
+          "id": "a2396993-f8cf-48ea-aa70-5611ad68637d",
+          "title": "Viola d'Amore Concerto in D minor, RV 394: III. Allegro",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      }
+    ],
+    "1ff848cd-a656-4b4a-91b8-1ed783f75690": [
+      {
+        "id": "d5e082b7-3355-4a8e-9e5f-6990dc2b312c",
+        "title": "Concerto grosso in D minor, op. 3 no. 11: 1st Movement: Allegro",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "d420292b-949f-4fee-a842-3da3d44551d6",
+          "title": "Concerto in D minor for Two Violins, Cello and Strings, op. 3 no. 11, RV 565: I. Allegro – Adagio e spiccato – Allegro",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ea6a1094-d630-4de5-9383-2b1f1dbb4809",
+        "title": "Concerto grosso in D minor, op. 3 no. 11: 2nd Movemetn: Largo",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "bdc05750-cdd7-412e-976b-60c90a92190c",
+          "title": "Concerto in D minor for Two Violins, Cello and Strings, op. 3 no. 11, RV 565: II. Largo e spiccato",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7539bb4a-e1af-4a71-bada-c70d1990596e",
+        "title": "Concerto grosso in D minor, op. 3 no. 11: 3rd Movement: Allegro",
+        "position": "3",
+        "length": null,
+        "work": {
+          "id": "576443c9-2e4d-4275-bf75-9c1d065b7920",
+          "title": "Concerto in D minor for Two Violins, Cello and Strings, op. 3 no. 11, RV 565: III. Allegro",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6fb6ef17-2cb2-4f86-a851-2430f766cb19",
+        "title": "Divertimento in D major, K. 251: 1st Movement: Allegro molto",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "4650ce82-519a-3e6f-ab32-82e634f268c0",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": I. Allegro molto",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bcabece9-9d57-4460-8ee6-ffcf320881f9",
+        "title": "Divertimento in D major, K. 251: 2nd Movement: Menuetto",
+        "position": "5",
+        "length": null,
+        "work": {
+          "id": "1493f993-e75a-3e90-bf1d-fec2a235d48f",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": II. Minuetto",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "27988a95-b112-4de0-9c72-14c90a018f12",
+        "title": "Divertimento in D major, K. 251: 3rd Movement: Andantino",
+        "position": "6",
+        "length": null,
+        "work": {
+          "id": "81258b8f-9c6b-31be-96f0-f02303bb75a0",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": III. Andantino",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "df00511e-0922-46e1-b7f2-509e4bab179e",
+        "title": "Divertimento in D major, K. 251: 4th Movement: Menuetto",
+        "position": "7",
+        "length": null,
+        "work": {
+          "id": "187bdb5f-5118-3729-9112-69b25756a0db",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": IV. Minuetto",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "24981c78-9467-45e1-b6a9-5757f334cffd",
+        "title": "Divertimento in D major, K. 251: 5th Movement: Rondo",
+        "position": "8",
+        "length": null,
+        "work": {
+          "id": "870580d5-4c56-31c7-b919-ae6dcd0d3a69",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": V. Rondeau",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4f2b0fe6-4e8f-4fe2-9283-e0dcc1c2c564",
+        "title": "Divertimento in D major, K. 251: 6th Movement: Marcia alla francese",
+        "position": "9",
+        "length": null,
+        "work": {
+          "id": "4d83ee29-4ae5-322f-ae40-442a6585b1d8",
+          "title": "Divertimento no. 11 for Oboe, 2 Horns & Strings in D major, K. 251 \"Nannerl Septet\": VI. Marcia alla francese",
+          "composers": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+            }
+          ]
+        }
+      }
+    ],
+    "2d66a858-39f5-4303-a31a-aa0b5b52bff3": [
+      {
+        "id": "99f563d8-60e5-4cd8-b5b1-815a8c7e0767",
+        "title": "Beatus vir (Psalm 111): Beatus vir qui timet Dominum: In mandatis ejus volet nimis",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "266d1710-39bb-4b05-9d01-d81974aa03f2",
+          "title": "Beatus Vir, RV 597: I. Allegro \"Beatus vir\"",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3342303c-3414-4e89-a7c4-03be1ba6afaa",
+        "title": "Beatus vir (Psalm 111): Potens in terra erit semen ejus: Generatio rectorum benedicetur",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "c6cb35d0-0c14-47b0-bcfd-7b0bc89d267d",
+          "title": "Beatus Vir, RV 597: II. Allegro non molto \"Potens in terra\"",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "485ce650-fd19-4e70-96f7-a7c839976da6",
+        "title": "Beatus vir (Psalm 111): Gloria et divitiae in domo ejus: Et justitia ejus manet in saeculum saeculi",
+        "position": "3",
+        "length": null,
+        "work": {
+          "id": "b94dc3d3-d464-47a5-ba8f-beb4eb359b28",
+          "title": "Beatus Vir, RV 597: III. Allegro \"Beatus vir\"",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5da7cbde-9934-4a1c-a027-d775c829261d",
+        "title": "Beatus vir (Psalm 111): Exortum est in tenebris lumen rectis: Misericors, et miserator, et justus",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "4095d826-bc2d-494b-878f-69a757f98da9",
+          "title": "Beatus Vir, RV 597: V. Allegro \"Beatus vir\"",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9d5113f5-9f1e-4625-8fb4-6fba56caed3a",
+        "title": "Beatus vir (Psalm 111): Jucundus homo qui miseretur et comodat, disponet semones suos in judicio: Quia in aeternum non commovebitur",
+        "position": "5",
+        "length": null,
+        "work": {
+          "id": "6353d882-23a7-4403-9d3e-4f7788719b7d",
+          "title": "Beatus Vir, RV 597: VII. Allegro \"Jucundus homo\"",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "39d47ada-ad05-44e3-81b2-acb01b296ed9",
+        "title": "Beatus vir (Psalm 111): In memoria aeterna erit justus: Ab auditione mala non timebit",
+        "position": "6",
+        "length": null,
+        "work": {
+          "id": "a2c21421-dce4-472f-b4a8-186729e5f6bc",
+          "title": "Beatus Vir, RV 597: IX. Andante molto \"In memoria aeterna\"",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f600e133-0247-45ce-a544-b05fe93fdfa4",
+        "title": "Beatus vir (Psalm 111): Paratum cor ejus sperare in Domino, confirmatum est cor ejus: Non commovebitur donec despiciat inimicos suos. Dispersit, dedit pauperibus: Justitia ejus manet in saeculum saeculi: Cornu ejus exaltabitar in gloria",
+        "position": "7",
+        "length": null,
+        "work": {
+          "id": "8d03c7b7-1807-44e1-ac8b-b49299c74ba0",
+          "title": "Beatus Vir, RV 597: X. Allegro \"Beatus vir\"",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0f831f79-030c-4754-a25b-3911e2f3d5fa",
+        "title": "Beatus vir (Psalm 111): Peccator videbit, et irascetur, dentibus suis fremet et tabescet: Desiderium pecatorum peribit",
+        "position": "8",
+        "length": null,
+        "work": {
+          "id": "b4c32693-7165-4b19-840a-b84fc0df454c",
+          "title": "Beatus Vir, RV 597: XII. Largo e spiccato \"Peccator videbit\"",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "11a6faa6-3d7a-4f64-829e-17bc5425bf81",
+        "title": "Beatus vir (Psalm 111): Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen",
+        "position": "9",
+        "length": null,
+        "work": {
+          "id": "32831943-3385-4b17-a107-236fa72baacf",
+          "title": "Beatus Vir, RV 597: XIII. Allegro \"Beatus vir\"",
+          "composers": [
+            {
+              "name": "Antonio Vivaldi",
+              "mbid": "ad79836d-9849-44df-8789-180bbc823f3c"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 108566,
+  "wikidata_id": "Q1340"
+}

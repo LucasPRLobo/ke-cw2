@@ -1,0 +1,1106 @@
+{
+  "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+  "name": "Bob Marley",
+  "type": "Person",
+  "country": "JM",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1945-02-06",
+    "end": "1981-05-11",
+    "ended": "true"
+  },
+  "area": "Jamaica",
+  "begin_area": "Nine Mile",
+  "tags": [
+    {
+      "name": "jamaican",
+      "count": "5"
+    },
+    {
+      "name": "kaya",
+      "count": "1"
+    },
+    {
+      "name": "reggae",
+      "count": "14"
+    },
+    {
+      "name": "roots reggae",
+      "count": "3"
+    },
+    {
+      "name": "singer-songwriter",
+      "count": "7"
+    },
+    {
+      "name": "soul and reggae",
+      "count": "3"
+    },
+    {
+      "name": "the wailers",
+      "count": "2"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "involved with",
+      "direction": "forward",
+      "target_name": "Cindy Breakspeare",
+      "target_mbid": "f74321a6-0cff-4812-94d0-318ca8f429ec",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Rita Marley",
+      "target_mbid": "efc381ba-ea68-49ca-af91-bebdd40fe1d8",
+      "attributes": [],
+      "begin": "1966-02-10",
+      "end": "1981-05-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Wailers",
+      "target_mbid": "c9e99d40-4a2c-4ca7-ac5b-e842264ee271",
+      "attributes": [],
+      "begin": "1963",
+      "end": "1966-02-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Wailers",
+      "target_mbid": "c9e99d40-4a2c-4ca7-ac5b-e842264ee271",
+      "attributes": [],
+      "begin": "1966-10",
+      "end": "1970-12"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Bob Marley & The Wailers",
+      "target_mbid": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+      "attributes": [
+        "eponymous",
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1970-12",
+      "end": "1981-05-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Bob Marley & The Wailers",
+      "target_mbid": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+      "attributes": [
+        "eponymous",
+        "guitar",
+        "original"
+      ],
+      "begin": "1970-12",
+      "end": "1981-05-11"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Wailers",
+      "target_mbid": "c9e99d40-4a2c-4ca7-ac5b-e842264ee271",
+      "attributes": [],
+      "begin": "1973",
+      "end": "1974"
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Cedella Marley",
+      "target_mbid": "a9196ce3-d4fe-4626-8c04-3d8972c1a592",
+      "attributes": [],
+      "begin": "1967-08-23",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Ziggy Marley",
+      "target_mbid": "7c09d8af-895a-4337-bb46-b4b6dcabff10",
+      "attributes": [],
+      "begin": "1968-10-17",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Stephen Marley",
+      "target_mbid": "99298e13-87d6-4f0c-9334-d327d73f83c0",
+      "attributes": [],
+      "begin": "1972-04-20",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Julian Marley",
+      "target_mbid": "624308cc-bb92-4fce-8b62-c47830d24cef",
+      "attributes": [],
+      "begin": "1975-06-04",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Ky‐Mani Marley",
+      "target_mbid": "56821280-4108-4776-b3e4-bdf5698cef35",
+      "attributes": [],
+      "begin": "1976-02-26",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Damian “Jr. Gong” Marley",
+      "target_mbid": "cbfb9bcd-c5a0-4d7c-865f-2c641c171e1c",
+      "attributes": [],
+      "begin": "1978-07-21",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Cedella Marley‐Booker",
+      "target_mbid": "d750e503-f614-4cdd-8797-6c52e997aae9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Sharon Marley",
+      "target_mbid": "491b8b21-c4f0-4854-b6d9-246e25ac60c6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Rohan Marley",
+      "target_mbid": "b6f68889-a2ec-46ce-a89d-e775a4410d35",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "King Cruff",
+      "target_mbid": "86aa88c6-8fb0-430d-badd-cab2286a60db",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Bieque",
+      "target_mbid": "d4452f9b-8f10-4cfd-b440-ce82b2cb3359",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Legend Live",
+      "target_mbid": "445e64c5-f2be-4181-86c6-3289ca2ee9db",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "One Love Marley Band",
+      "target_mbid": "c0e2d12f-a90a-4f3a-8c68-bc315271b931",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Rastapacho",
+      "target_mbid": "59543d75-a221-4bfe-8774-c79c4c1d743d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000071514"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/41441"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.bob-marley.es/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.reggaeguitarlessons.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.thirdfield.com/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/719"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Bob-Marley.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0002490/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Bob+Marley"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Bob-marley"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/bobmarley"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.bobmarley.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n81020153"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb11956164v"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118578057"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w69101dr"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-980665"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/bob-marley"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n81020153/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.musik-sammler.de/artist/4641"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id121982"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/5408"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/bobmarley"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/BobMarley"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/137124"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/121982"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/4067781"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/14778710"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q409"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/user/bobmarley"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "4bf54f30-73d7-476d-9607-f118c3d79990",
+      "title": "More Of Bob Marley At His Best",
+      "type": "Album",
+      "first_release_date": "1990"
+    },
+    {
+      "id": "a8d68f6f-9e09-4b5c-a44d-5a3d69378baa",
+      "title": "Kinky Reggae",
+      "type": "Album",
+      "first_release_date": "1991"
+    },
+    {
+      "id": "b210577c-f427-4e02-843e-83411200c739",
+      "title": "Lively Up Yourself",
+      "type": "Album",
+      "first_release_date": "1991"
+    },
+    {
+      "id": "0b469b63-95c0-48b5-9d6c-d037deb64cd5",
+      "title": "Songs Of Freedom",
+      "type": "Album",
+      "first_release_date": "1992-09-21"
+    },
+    {
+      "id": "c33eef9b-4829-49c4-80db-e9210b03c50e",
+      "title": "Bob Marley & The Chineke! Orchestra",
+      "type": "Album",
+      "first_release_date": "2022-07-22"
+    },
+    {
+      "id": "baa42ec7-c627-4ab1-ae65-b32abb1a2d56",
+      "title": "Archive Series",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "15ed7814-2218-4a8b-a7f0-fd7265b6cf5e",
+      "title": "Reggae",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "d53547fa-13e1-43da-9086-01f77a9f96f0",
+      "title": "Soul Shakedown",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "7ce629e3-7a8a-4db8-83b9-2634c5449282",
+      "title": "One Love",
+      "type": "Compilation",
+      "first_release_date": "1987"
+    },
+    {
+      "id": "0dd2062e-62f5-4846-abab-f5a98d9a1dfc",
+      "title": "Stir It Up",
+      "type": "Compilation",
+      "first_release_date": "1988"
+    },
+    {
+      "id": "0269baa0-7793-3738-a433-b9f306b531d3",
+      "title": "Songs of Freedom",
+      "type": "Compilation",
+      "first_release_date": "1992-10-06"
+    },
+    {
+      "id": "cbd0c287-4857-42e4-9b9e-7c3ffe047744",
+      "title": "Soul Rebel",
+      "type": "Compilation",
+      "first_release_date": "1997"
+    },
+    {
+      "id": "721be569-67f7-4fbe-861d-19ae9dfe6765",
+      "title": "Caution",
+      "type": "Compilation",
+      "first_release_date": "1998"
+    },
+    {
+      "id": "375e2c32-a181-43e1-9f3f-7a6b35ba7974",
+      "title": "3 CD Set",
+      "type": "Compilation",
+      "first_release_date": "1999"
+    },
+    {
+      "id": "c7d9d4c1-332b-4d33-adae-18e6105f9aee",
+      "title": "Best Of The Early Years",
+      "type": "Compilation",
+      "first_release_date": "1999"
+    },
+    {
+      "id": "dd88fda6-8519-458e-8963-79e4a3ff7c6f",
+      "title": "Trench Town Box",
+      "type": "Compilation",
+      "first_release_date": "2001"
+    },
+    {
+      "id": "e57e2ff6-60ba-4d6f-a472-7b0bfbeaa768",
+      "title": "Bob Marley",
+      "type": "Compilation",
+      "first_release_date": "2005"
+    },
+    {
+      "id": "254f38c3-4979-4f2e-91c5-f8ae82bd51f7",
+      "title": "The Very Best of Bob Marley",
+      "type": "Compilation",
+      "first_release_date": "2006"
+    },
+    {
+      "id": "61f75d8d-2e8a-4e36-a325-f372e451c4a5",
+      "title": "The First Ska Singles 1962",
+      "type": "Compilation",
+      "first_release_date": "2014"
+    },
+    {
+      "id": "19ae4440-892c-4176-9b98-22af924a71f9",
+      "title": "No Sympathy",
+      "type": "Compilation",
+      "first_release_date": null
+    },
+    {
+      "id": "7179e52a-81e0-4754-849c-ee607fb26fe5",
+      "title": "Soul Almighty",
+      "type": "Compilation",
+      "first_release_date": null
+    },
+    {
+      "id": "b4cfead3-4c60-46ae-88ee-0abf3c4d60ec",
+      "title": "Interviews... (So Much Things to Say)",
+      "type": "Interview",
+      "first_release_date": "1995"
+    },
+    {
+      "id": "668fc366-4852-4662-9deb-38ed9901861c",
+      "title": "Uprising Live!",
+      "type": "Live",
+      "first_release_date": null
+    },
+    {
+      "id": "a81ab157-6ddc-469e-ae79-41ff604a200f",
+      "title": "Unreleased Acoustic Tapes",
+      "type": "Album",
+      "first_release_date": "2009"
+    },
+    {
+      "id": "4045e92d-75f4-40bd-8846-b0ae973e5019",
+      "title": "Original Jamaican Vibrations",
+      "type": "Compilation",
+      "first_release_date": "2004"
+    }
+  ],
+  "tracks": {
+    "4bf54f30-73d7-476d-9607-f118c3d79990": [
+      {
+        "id": "23f3f48a-0741-442b-88e9-51fffd2323db",
+        "title": "Soul Almighty",
+        "position": "1",
+        "length": "150973",
+        "work": null
+      },
+      {
+        "id": "cdc62b6c-6ddc-47ed-aa2c-6c4e30c22ba9",
+        "title": "Kaya",
+        "position": "2",
+        "length": "152133",
+        "work": null
+      },
+      {
+        "id": "dfc3d27b-3451-4d79-a97b-6430f493599e",
+        "title": "Trench Town Rock",
+        "position": "3",
+        "length": "170333",
+        "work": null
+      },
+      {
+        "id": "3efb12e7-4575-470a-9980-4650c9b9f858",
+        "title": "400 Years",
+        "position": "4",
+        "length": "146693",
+        "work": null
+      },
+      {
+        "id": "2123f5be-29df-43b9-b8b0-68655527c582",
+        "title": "Do It Twice",
+        "position": "5",
+        "length": "163973",
+        "work": null
+      },
+      {
+        "id": "92fadb29-17da-40a6-bdf8-9ae482e8763a",
+        "title": "Stop the Train",
+        "position": "6",
+        "length": "144426",
+        "work": null
+      },
+      {
+        "id": "b02065a0-fb09-44fc-a2af-54ef55a3fd5d",
+        "title": "Reaction",
+        "position": "7",
+        "length": "160400",
+        "work": null
+      },
+      {
+        "id": "3a4fdaa3-2d4a-4af1-b50c-3c7f2da9efe6",
+        "title": "Put in On",
+        "position": "8",
+        "length": "174973",
+        "work": null
+      },
+      {
+        "id": "082ae710-5caf-47fc-92c9-f88a27a34503",
+        "title": "Fussin' and Fightin'",
+        "position": "9",
+        "length": "148466",
+        "work": null
+      },
+      {
+        "id": "7dace5c5-589c-4788-89af-42c6898059bc",
+        "title": "Memphis",
+        "position": "10",
+        "length": "178533",
+        "work": null
+      },
+      {
+        "id": "89932665-a2b1-419d-8848-daeb44612326",
+        "title": "African Herbman",
+        "position": "11",
+        "length": "143466",
+        "work": null
+      },
+      {
+        "id": "46097484-8713-4510-b1f0-f2d478cdeee7",
+        "title": "All in One",
+        "position": "12",
+        "length": "203733",
+        "work": null
+      }
+    ],
+    "a8d68f6f-9e09-4b5c-a44d-5a3d69378baa": [
+      {
+        "id": "ab2464ad-c351-4e28-862f-c7949745328d",
+        "title": "Kinky Reggae",
+        "position": "1",
+        "length": "213826",
+        "work": {
+          "id": "16448307-4818-499a-b8dc-33b6d2afb254",
+          "title": "Kinky Reggae",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "af897cba-0761-4079-b6cf-316a7f2e3a86",
+        "title": "Natural Mystic",
+        "position": "2",
+        "length": "344000",
+        "work": {
+          "id": "3fc3d231-2ea3-333c-9884-38293f6ca35b",
+          "title": "Natural Mystic",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f0d98b4f-9170-4beb-a463-14b6dd5c99a1",
+        "title": "There She Goes",
+        "position": "3",
+        "length": "154000",
+        "work": {
+          "id": "2a291840-ad7a-44f0-9457-60630c28921a",
+          "title": "There She Goes",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "18fe2ff2-d267-4e19-a832-02eb1770e341",
+        "title": "Mellow Mood",
+        "position": "4",
+        "length": "154333",
+        "work": {
+          "id": "e0bb3751-c325-35df-aaa6-498e3e3ee6c0",
+          "title": "Mellow Mood",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a359225e-7199-4c1a-b7c1-e89f78c85c5b",
+        "title": "Treat You Right",
+        "position": "5",
+        "length": "132000",
+        "work": null
+      },
+      {
+        "id": "470205fb-7069-4822-b9cc-376dad520cae",
+        "title": "How Many Times",
+        "position": "6",
+        "length": "145173",
+        "work": {
+          "id": "9a94ea52-18f0-4369-bc9f-963760abc946",
+          "title": "How Many Times",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "65f5b60a-a335-41e1-95b9-68094b216b2d",
+        "title": "Rebel's Hop",
+        "position": "7",
+        "length": "160826",
+        "work": {
+          "id": "ad476bdc-e518-4ccc-ab00-3c0db88ad538",
+          "title": "Rebel’s Hop",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            },
+            {
+              "name": "Curtis Mayfield",
+              "mbid": "4dca4bb2-23ba-4103-97e6-5810311db33a"
+            },
+            {
+              "name": "Barrett Strong",
+              "mbid": "31ee774b-6248-48d5-a8b5-0d9bebeaba9d"
+            },
+            {
+              "name": "Norman Whitfield",
+              "mbid": "01a7069c-882d-40f5-9575-c59d5bddcd61"
+            }
+          ]
+        }
+      },
+      {
+        "id": "48e15598-9c81-491d-864d-3cbd5ae17e53",
+        "title": "Soon Come",
+        "position": "8",
+        "length": "136333",
+        "work": {
+          "id": "f3b9df97-ceda-4cdb-944c-013a11d8f5fd",
+          "title": "Soon Come",
+          "composers": []
+        }
+      },
+      {
+        "id": "774b27e9-8978-481d-b673-2a79c74249ce",
+        "title": "Keep On Moving",
+        "position": "9",
+        "length": "186506",
+        "work": {
+          "id": "f43d4430-8b2d-33b4-afa1-123ab7d79044",
+          "title": "Keep On Moving",
+          "composers": [
+            {
+              "name": "Lee “Scratch” Perry",
+              "mbid": "af75ebe4-3ab1-423d-a499-2a6f9d011ce2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6c146e99-2427-4ac1-b2b0-7b1bc95a5067",
+        "title": "Mr. Brown",
+        "position": "10",
+        "length": "211000",
+        "work": {
+          "id": "06847519-2ed3-4265-83db-1c91fb0bbce7",
+          "title": "Mr. Brown",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bd1aa2e8-00a1-4dee-9dbd-69f90d4f064e",
+        "title": "Chances Are",
+        "position": "11",
+        "length": "199000",
+        "work": {
+          "id": "a633c1f0-5588-4f2a-8a7d-1bb55908e645",
+          "title": "Chances Are",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a695834a-0638-4b6d-b44e-dbcc751a50c5",
+        "title": "Hammer",
+        "position": "12",
+        "length": "173826",
+        "work": {
+          "id": "fd0e983a-4486-4943-a6d4-60ab4c5746ee",
+          "title": "Hammer",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "eb6e7ff2-260e-4b00-86ba-bf6b8a766fd8",
+        "title": "You Can't Do That To Me",
+        "position": "13",
+        "length": "172333",
+        "work": null
+      },
+      {
+        "id": "fc539bcb-e0a2-41e0-b865-3d3fc434d561",
+        "title": "Touch Me",
+        "position": "14",
+        "length": "189333",
+        "work": {
+          "id": "176c3a81-d3df-4091-85aa-e154ec2050df",
+          "title": "Touch Me",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4f7f9e9b-e8a4-4d58-b54b-c54d2851d184",
+        "title": "Caution",
+        "position": "15",
+        "length": "165173",
+        "work": {
+          "id": "030dbf79-e86a-4c34-a644-11907a72fb3b",
+          "title": "Caution",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d4cf264b-ad5b-445c-b72f-ea80383ab696",
+        "title": "Soul Captives",
+        "position": "16",
+        "length": "122893",
+        "work": {
+          "id": "ea6b2910-4315-4a73-80ed-f1c5d85421c0",
+          "title": "Soul Captives",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      }
+    ],
+    "b210577c-f427-4e02-843e-83411200c739": [
+      {
+        "id": "f9a38d2e-468e-48ad-879a-a50a81482e41",
+        "title": "Soul Shakedown Party",
+        "position": "1",
+        "length": "189666",
+        "work": {
+          "id": "fe58a598-09fd-485b-9d23-3b4bb009d981",
+          "title": "Soul Shakedown Party",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "952f0964-9b74-4f73-9f8b-731581da5ed8",
+        "title": "Lively Up Yourself",
+        "position": "2",
+        "length": "173666",
+        "work": {
+          "id": "0ec76bd1-f705-31b4-8e8d-82b237ca03a2",
+          "title": "Lively Up Yourself",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cb7b30bc-cfba-47ec-9211-46af2a88b5e6",
+        "title": "Riding High",
+        "position": "3",
+        "length": "168333",
+        "work": {
+          "id": "d3a7eb57-5a80-49dd-8b3b-f29db0a90f83",
+          "title": "Riding High",
+          "composers": [
+            {
+              "name": "Lee “Scratch” Perry",
+              "mbid": "af75ebe4-3ab1-423d-a499-2a6f9d011ce2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bd21cd7a-4114-4bc0-9b8a-185b8e3fc471",
+        "title": "It's Alright",
+        "position": "4",
+        "length": "157666",
+        "work": {
+          "id": "fd50cc17-015f-47ff-b75d-a598ee638c14",
+          "title": "It’s Alright",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1f84aaf8-bb7c-41be-9fb3-cb8312988878",
+        "title": "Reaction",
+        "position": "5",
+        "length": "164000",
+        "work": {
+          "id": "59cef815-8811-4e6f-ad42-08150df91469",
+          "title": "Reaction",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5cb368ea-1a0b-4659-a944-dd7495ef341e",
+        "title": "My Cup",
+        "position": "6",
+        "length": "215666",
+        "work": {
+          "id": "89963691-2e8a-4bb7-b9c1-ccf42d4ef433",
+          "title": "My Cup",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "730cbbc4-84a7-4e3b-bf89-67e847563107",
+        "title": "Can't You See",
+        "position": "7",
+        "length": "164333",
+        "work": null
+      },
+      {
+        "id": "fd615a28-0310-42aa-b433-56dc58f4202c",
+        "title": "No Water",
+        "position": "8",
+        "length": "130666",
+        "work": {
+          "id": "1e675e48-989c-47ec-ad76-436286986326",
+          "title": "No Water",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "69070e27-a64d-491b-b0f3-8734072a4641",
+        "title": "Trench Town Rock",
+        "position": "9",
+        "length": "178000",
+        "work": {
+          "id": "92d3b8ef-fbcd-437b-a717-979b2d43c948",
+          "title": "Trenchtown Rock",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1f0ed74e-e0a3-410f-b80d-f62b07f90f37",
+        "title": "No Sympathy",
+        "position": "10",
+        "length": "136333",
+        "work": {
+          "id": "1d5468c4-41c2-3c04-8c00-4fb7b2e50b3c",
+          "title": "No Sympathy",
+          "composers": [
+            {
+              "name": "Peter Tosh",
+              "mbid": "7db6aae5-6644-4513-9bfc-ca2e79d4469c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e6d23086-9cd6-4ded-89dd-65d30e4fb9df",
+        "title": "Stop That Train",
+        "position": "11",
+        "length": "141333",
+        "work": {
+          "id": "52c1b795-5a54-3238-848b-e4e1159ea41d",
+          "title": "Stop That Train",
+          "composers": [
+            {
+              "name": "Peter Tosh",
+              "mbid": "7db6aae5-6644-4513-9bfc-ca2e79d4469c"
+            },
+            {
+              "name": "Peter Tosh",
+              "mbid": "7db6aae5-6644-4513-9bfc-ca2e79d4469c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bcfb0aca-a2de-4f74-88fb-46c2a9577b88",
+        "title": "Go Tell It On The Mountain",
+        "position": "12",
+        "length": "195333",
+        "work": null
+      },
+      {
+        "id": "ccf08e93-9804-49b1-8762-8bdc8e069925",
+        "title": "Corner Stone",
+        "position": "13",
+        "length": "150333",
+        "work": {
+          "id": "d70b496f-f488-4dc7-818a-581bf0511a6a",
+          "title": "Corner Stone",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9181cf74-93c3-42e7-bb0e-168adb822f33",
+        "title": "Cheer Up",
+        "position": "14",
+        "length": "124333",
+        "work": {
+          "id": "b9504911-1945-4e96-bbd2-3433709e7c37",
+          "title": "Cheer Up",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ba7f4e14-07a8-4a13-9f38-d15a078b258e",
+        "title": "Back Out",
+        "position": "15",
+        "length": "133160",
+        "work": {
+          "id": "d6fadafa-87ef-4b6d-81f2-70eadbe8ac39",
+          "title": "Back Out",
+          "composers": [
+            {
+              "name": "Bob Marley",
+              "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        }
+      },
+      {
+        "id": "15564a19-74d5-4e15-b66c-8a9f39590a5c",
+        "title": "Don't Rock the Boat",
+        "position": "16",
+        "length": "271000",
+        "work": {
+          "id": "3210349d-874b-4fd1-8d5b-036a7b7dd19f",
+          "title": "Don’t Rock the Boat",
+          "composers": [
+            {
+              "name": "Lee “Scratch” Perry",
+              "mbid": "af75ebe4-3ab1-423d-a499-2a6f9d011ce2"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 41441,
+  "wikidata_id": "Q409"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "memberOf",
+    "object": "Genesis"
+  },
+  {
+    "subject": "Genesis",
+    "predicate": "hasMember",
+    "object": "Peter Gabriel"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "released",
+    "object": "So"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "released",
+    "object": "Us"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "released",
+    "object": "OVO"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "released",
+    "object": "Up"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "released",
+    "object": "Scratch My Back"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "released",
+    "object": "And I'll Scratch Yours"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "collaboratedWith",
+    "object": "Sting"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "released",
+    "object": "I/O"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "released",
+    "object": "O\\I"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "founded",
+    "object": "World of Music, Arts and Dance (WOMAD)"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "founded",
+    "object": "Real World Records"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "founded",
+    "object": "OD2"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "founded",
+    "object": "Witness"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "composed",
+    "object": "\"Biko\""
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "collaboratedWith",
+    "object": "Nelson Mandela"
+  },
+  {
+    "subject": "Peter Gabriel",
+    "predicate": "collaboratedWith",
+    "object": "Richard Branson"
+  }
+]

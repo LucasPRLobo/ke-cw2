@@ -1,0 +1,668 @@
+{
+  "mbid": "7bc8dd01-35ea-4b18-a64d-3a364dc76a52",
+  "name": "Paco de Lucía",
+  "type": "Person",
+  "country": "ES",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1947-12-21",
+    "end": "2014-02-25",
+    "ended": "true"
+  },
+  "area": "Spain",
+  "begin_area": "Algeciras",
+  "tags": [
+    {
+      "name": "flamenco",
+      "count": "5"
+    },
+    {
+      "name": "flamenco jazz",
+      "count": "3"
+    },
+    {
+      "name": "flamenco nuevo",
+      "count": "2"
+    },
+    {
+      "name": "jazz",
+      "count": "1"
+    },
+    {
+      "name": "latin jazz",
+      "count": "1"
+    },
+    {
+      "name": "modern classical",
+      "count": "1"
+    },
+    {
+      "name": "spanish classical music",
+      "count": "1"
+    },
+    {
+      "name": "spanish guitar",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "is person",
+      "direction": "backward",
+      "target_name": "Francisco Sánchez",
+      "target_mbid": "b39e3724-1770-4339-a183-1d125ad000d5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Paco de Lucía Sextet",
+      "target_mbid": "522db67f-a164-41a1-8c81-a96050060f4f",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Los Chiquitos de Algeciras",
+      "target_mbid": "8afe7ee4-1155-4f96-a305-3af8c02ec3cd",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Los Chiquitos de Algeciras",
+      "target_mbid": "8afe7ee4-1155-4f96-a305-3af8c02ec3cd",
+      "attributes": [
+        "additional"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Antonio Sánchez Pecino",
+      "target_mbid": "88e8bd7b-7aae-45e4-b417-a4a5348669ab",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Ramón de Algeciras",
+      "target_mbid": "2b502da4-d3f4-4036-b7b0-dcb41d8ca76d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Pepe de Lucía",
+      "target_mbid": "1679416b-24cf-4ecd-b3a1-286bb0469b30",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Antonio Sánchez",
+      "target_mbid": "be645544-48d2-435f-9beb-20808e5709b8",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Juan Martín",
+      "target_mbid": "7e2f420a-03d7-4265-99b2-9a7c037c75f9",
+      "attributes": [
+        "classical guitar"
+      ],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000082639"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/20184"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/3h8OjAdgYXVRoMZ8jFd6Uw"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/3293"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Paco%20de%20Lucia%201.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0524834/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Paco%20de%20Luc%C3%ADa"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Paco+de+Luc%C3%ADa"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Paco-de-lucia"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.pacodelucia.org/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n83046967"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13896848g"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/119466929"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1177314"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/paco_de_lucia"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n83046967"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/es/artist/id870157"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/paco-de-lucia-73d6ee2d.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/pacodelucia47"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/179183"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/4147062"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/22327986"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q153300"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "22f62d7a-6e42-4039-a13b-bbda7a3617bc",
+      "title": "Los chiquitos de Algeciras",
+      "type": "Album",
+      "first_release_date": "1963"
+    },
+    {
+      "id": "b2929858-df30-380c-a64f-21297c869127",
+      "title": "Dos guitarras flamencas en stereo",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "bc566f34-a4bc-3622-ad74-611fa51c06a7",
+      "title": "12 canciones de García Lorca para guitarra",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "fdf464a8-f75b-392d-885e-67974aa03554",
+      "title": "12 éxitos para 2 guitarras flamencas",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "a046a80c-786f-3f5a-94b6-af42dbfdbee8",
+      "title": "Canciones andaluzas para 2 guitarras",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "7c553c31-e872-33ef-b19c-63fa9981f4d0",
+      "title": "Dos guitarras flamencas en América Latina",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "c89ca287-8f02-359c-b583-daf011eb3d89",
+      "title": "La fabulosa guitarra de Paco de Lucía",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "c811bd57-6774-4eef-9d14-53d6d0deaa33",
+      "title": "Flamenco-Jazz",
+      "type": "Album",
+      "first_release_date": "1968"
+    },
+    {
+      "id": "79ed4214-5c41-3f4e-ad1e-aed389a11283",
+      "title": "12 hits para 2 guitarras flamencas y orquesta de cuerda",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "e5f6d12d-9f9d-3505-8194-6ff9dd242d95",
+      "title": "Al verte las flores lloran",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "0de338fb-58d1-3616-b33f-123857e3f4cb",
+      "title": "En Hispanoamérica",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "dc400b03-9870-3a53-a711-4a452b4af6b6",
+      "title": "Fantasía flamenca de Paco de Lucía",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "1403974a-ee01-3877-a7d0-d639b11e9bc6",
+      "title": "El Camarón de la Isla con la colaboración especial de Paco de Lucía",
+      "type": "Album",
+      "first_release_date": "1970"
+    },
+    {
+      "id": "6b69e9a2-3542-3981-92d3-b4a46fa2a051",
+      "title": "El Camarón de la Isla con la colaboración especial de Paco de Lucia (1971)",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "fb049570-9096-3d4f-9137-21b7dc32a77a",
+      "title": "El mundo del flamenco",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "edc8a8dc-0474-3c4b-8c6f-434e5dc0981e",
+      "title": "Recital de guitarra de Paco de Lucía",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "1e9d5404-e76b-382b-9f3b-090f3c293f13",
+      "title": "El duende flamenco de Paco de Lucía",
+      "type": "Album",
+      "first_release_date": "1972"
+    },
+    {
+      "id": "3e3eee7d-0fe9-37ce-98e9-0beb2af88bdf",
+      "title": "Fuente y caudal",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "56d3a6a8-e670-3de4-9057-e091234337a6",
+      "title": "Arte y Majestad",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "aa67cc38-dc0b-3e01-a79f-781cc0aae71b",
+      "title": "Almoraima",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "0886315e-60b3-3439-9d9d-b4441722cb4a",
+      "title": "Castillo de arena",
+      "type": "Album",
+      "first_release_date": "1977"
+    },
+    {
+      "id": "88ef6f6b-e847-3980-9eac-1063fe1ee7bb",
+      "title": "Paco de Lucía Interpreta a Manuel de Falla",
+      "type": "Album",
+      "first_release_date": "1978-04-05"
+    },
+    {
+      "id": "0d89fe18-dcff-3938-8bc8-3ab7ed127162",
+      "title": "Castro Marín",
+      "type": "Album",
+      "first_release_date": "1981"
+    },
+    {
+      "id": "5a092677-4c5e-31fe-850c-f25e7594ae9b",
+      "title": "Como el agua",
+      "type": "Album",
+      "first_release_date": "1981"
+    },
+    {
+      "id": "938fac6d-944e-3bc5-988c-1855d74a666f",
+      "title": "Sólo quiero caminar",
+      "type": "Album",
+      "first_release_date": "1981"
+    }
+  ],
+  "tracks": {
+    "22f62d7a-6e42-4039-a13b-bbda7a3617bc": [
+      {
+        "id": "137f971e-dc8d-41cc-ab96-2b22af89124a",
+        "title": "Hasta la fe de bautismo",
+        "position": "1",
+        "length": "259000",
+        "work": null
+      },
+      {
+        "id": "ed6418e2-d74d-4680-b3e2-942bda41f73f",
+        "title": "Llorando gotas de sangre",
+        "position": "2",
+        "length": "236000",
+        "work": null
+      },
+      {
+        "id": "cd673cc3-353e-4cf3-9f14-b3cb35cce5ee",
+        "title": "Mira lo que te he comprao",
+        "position": "3",
+        "length": "310000",
+        "work": null
+      },
+      {
+        "id": "485d71cf-ec09-4b19-b968-90fa96763cec",
+        "title": "Qué grande el castigo",
+        "position": "4",
+        "length": "349000",
+        "work": null
+      },
+      {
+        "id": "46f035cd-16ab-41b1-9e78-5f086283cb8a",
+        "title": "Yo no le temo a la muerte",
+        "position": "5",
+        "length": "296000",
+        "work": null
+      },
+      {
+        "id": "1cd467e5-90e6-44e4-9966-3c87efdde071",
+        "title": "Qué blancas canas te peinas",
+        "position": "6",
+        "length": "249000",
+        "work": null
+      },
+      {
+        "id": "fb01494c-19bb-4e37-9192-2d0824d05bad",
+        "title": "Si ahora tú no te arrepentías",
+        "position": "7",
+        "length": "217000",
+        "work": null
+      },
+      {
+        "id": "d73c0e54-5219-4944-8dc8-82d229c6da60",
+        "title": "Un pastor en la sierra",
+        "position": "8",
+        "length": "300000",
+        "work": null
+      },
+      {
+        "id": "f2344ccb-6ee4-4045-8c6f-26c506ebf455",
+        "title": "Le estoy pidiendo a la Virgen",
+        "position": "9",
+        "length": "255000",
+        "work": null
+      },
+      {
+        "id": "0f7a5638-98ea-4de4-ae2d-00bfd55fa5f4",
+        "title": "A buscar la flor",
+        "position": "10",
+        "length": "259000",
+        "work": null
+      },
+      {
+        "id": "a0a9e083-109b-4a8c-b56d-a8ce74254533",
+        "title": "Tú no debes tener celos",
+        "position": "11",
+        "length": "207000",
+        "work": null
+      },
+      {
+        "id": "a2dbf823-8bf9-4333-a99c-34142359fcee",
+        "title": "A clavito y a canela",
+        "position": "12",
+        "length": "258000",
+        "work": null
+      }
+    ],
+    "b2929858-df30-380c-a64f-21297c869127": [
+      {
+        "id": "1b7cc639-92de-4b56-99f3-3b30ce33818a",
+        "title": "Jerez en fiestas",
+        "position": "1",
+        "length": "236600",
+        "work": null
+      },
+      {
+        "id": "0776b4ea-3955-49c9-b6a6-93093454e0d9",
+        "title": "En la alcazaba",
+        "position": "2",
+        "length": "300506",
+        "work": null
+      },
+      {
+        "id": "9ea8bc97-11ec-48e9-9d76-473fb7e0d7b9",
+        "title": "Gaditanas",
+        "position": "3",
+        "length": "225893",
+        "work": null
+      },
+      {
+        "id": "e26b3c3c-354c-4038-a50b-b5e8dd9f6350",
+        "title": "Tientos del amanecer",
+        "position": "4",
+        "length": "255506",
+        "work": null
+      },
+      {
+        "id": "09a2e112-9048-48b5-ba2b-3a2eb067e7e4",
+        "title": "Guajira flamenca",
+        "position": "5",
+        "length": "232533",
+        "work": null
+      },
+      {
+        "id": "41d496d9-9b52-4630-aefa-b94920ff7837",
+        "title": "Real de la feria",
+        "position": "6",
+        "length": "173560",
+        "work": null
+      },
+      {
+        "id": "22234626-04d8-41fb-8c63-e6d6a85d5228",
+        "title": "Taconeo gitano",
+        "position": "7",
+        "length": "184333",
+        "work": null
+      },
+      {
+        "id": "75230c99-df3a-4482-99d0-52bd26c342b9",
+        "title": "Sortilegio",
+        "position": "8",
+        "length": "261106",
+        "work": null
+      },
+      {
+        "id": "36b9e503-6efd-460c-917a-2e217f615f59",
+        "title": "Seguiriya tradicional",
+        "position": "9",
+        "length": "252266",
+        "work": null
+      },
+      {
+        "id": "af4b0e30-2425-4d0f-b131-5ddb6bf2901f",
+        "title": "Entre arrayanes",
+        "position": "10",
+        "length": "230800",
+        "work": null
+      },
+      {
+        "id": "8f098fe9-2f4f-4e6a-ad2e-f441436eec3a",
+        "title": "Fuente de Carmona",
+        "position": "11",
+        "length": "261933",
+        "work": null
+      },
+      {
+        "id": "a963c342-9bc3-46bf-a042-324decc878ba",
+        "title": "La caleta",
+        "position": "12",
+        "length": "221534",
+        "work": {
+          "id": "1528ae55-c442-48b1-ad7f-7d8ef617e6e1",
+          "title": "En La Caleta",
+          "composers": [
+            {
+              "name": "Paco de Lucía",
+              "mbid": "7bc8dd01-35ea-4b18-a64d-3a364dc76a52"
+            },
+            {
+              "name": "José Torregrosa Alcaraz",
+              "mbid": "b5f37b9b-e492-41ba-994c-f95be63241a2"
+            }
+          ]
+        }
+      }
+    ],
+    "bc566f34-a4bc-3622-ad74-611fa51c06a7": [
+      {
+        "id": "36ec2ae3-c605-4429-884f-5ddc2c4a7948",
+        "title": "Zorongo gitano",
+        "position": "1",
+        "length": "177306",
+        "work": null
+      },
+      {
+        "id": "b1ca8829-a31f-454e-99bb-e120c1bf1978",
+        "title": "Sevillanas del siglo XVIII",
+        "position": "2",
+        "length": "189346",
+        "work": null
+      },
+      {
+        "id": "04b2011a-1890-4a66-b856-2f69df322571",
+        "title": "Las morillas de Jaén",
+        "position": "3",
+        "length": "175533",
+        "work": null
+      },
+      {
+        "id": "f1dafe22-6c15-4585-ae54-57bdd09772dc",
+        "title": "Anda jaleo",
+        "position": "4",
+        "length": "240733",
+        "work": null
+      },
+      {
+        "id": "89ecfd41-9feb-49bc-ae83-078472f69146",
+        "title": "Los mozos de Monleón",
+        "position": "5",
+        "length": "181346",
+        "work": null
+      },
+      {
+        "id": "1a00543e-7aec-4277-b695-48347a020e2f",
+        "title": "Los reyes de la baraja",
+        "position": "6",
+        "length": "172213",
+        "work": null
+      },
+      {
+        "id": "42625f61-5482-4591-bb54-c2a2c1437c18",
+        "title": "Los cuatro muleros",
+        "position": "7",
+        "length": "169946",
+        "work": null
+      },
+      {
+        "id": "ee0840e4-6df2-49e3-8547-380bf56df3ea",
+        "title": "Nana de Sevilla",
+        "position": "8",
+        "length": "188586",
+        "work": null
+      },
+      {
+        "id": "e5ee40a5-15a9-4e4d-a159-5fe00a78d506",
+        "title": "Café de chinitas",
+        "position": "9",
+        "length": "227040",
+        "work": null
+      },
+      {
+        "id": "9d67b025-9c5e-41b4-9341-52d8819dfa26",
+        "title": "El Vito",
+        "position": "10",
+        "length": "171960",
+        "work": {
+          "id": "a838fda5-997b-40c4-acac-1fab79cd7394",
+          "title": "El Vito",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8a302e4c-ef79-47c2-84e3-6341bfe93e31",
+        "title": "Los peregrinitos",
+        "position": "11",
+        "length": "211346",
+        "work": null
+      },
+      {
+        "id": "545036f8-ec79-4c73-9e6a-eb59ae6be361",
+        "title": "Las tres hojas",
+        "position": "12",
+        "length": "147493",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 20184,
+  "wikidata_id": "Q153300"
+}

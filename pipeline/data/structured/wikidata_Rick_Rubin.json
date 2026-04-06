@@ -1,0 +1,41 @@
+{
+  "wikidata_id": "Q587361",
+  "genres": [
+    "rock music",
+    "hip-hop",
+    "heavy metal music",
+    "country music"
+  ],
+  "instruments": [],
+  "awards": [],
+  "labels": [
+    "Columbia Records",
+    "Epic Records",
+    "American Recordings",
+    "Def Jam Recordings",
+    "Warner Bros. Records"
+  ],
+  "influences": [
+    "Flipper"
+  ],
+  "occupations": [
+    "record producer"
+  ],
+  "country": "United States",
+  "birth_place": "Lido Beach",
+  "birth_date": "1963-03-10",
+  "death_date": null,
+  "wikipedia_title": "Rick Rubin",
+  "compositions": [
+    {
+      "title": "Berzerk",
+      "genre": "hard rock",
+      "date": "2013-08-25"
+    },
+    {
+      "title": "Berzerk",
+      "genre": "rap rock",
+      "date": "2013-08-25"
+    }
+  ]
+}

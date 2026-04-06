@@ -1,0 +1,868 @@
+{
+  "mbid": "561d854a-6a28-4aa7-8c99-323e6ce46c2a",
+  "name": "Miles Davis",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1926-05-26",
+    "end": "1991-09-28",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "Alton",
+  "tags": [
+    {
+      "name": "bebop",
+      "count": "2"
+    },
+    {
+      "name": "classical",
+      "count": "1"
+    },
+    {
+      "name": "cool jazz",
+      "count": "9"
+    },
+    {
+      "name": "funk",
+      "count": "1"
+    },
+    {
+      "name": "hard bop",
+      "count": "6"
+    },
+    {
+      "name": "jazz",
+      "count": "25"
+    },
+    {
+      "name": "jazz fusion",
+      "count": "12"
+    },
+    {
+      "name": "jazz-funk",
+      "count": "1"
+    },
+    {
+      "name": "modal jazz",
+      "count": "10"
+    },
+    {
+      "name": "post-bop",
+      "count": "4"
+    },
+    {
+      "name": "rock",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "Artists United Against Apartheid",
+      "target_mbid": "298fb0c1-5a1f-43c1-854d-663762caad6e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "founder",
+      "direction": "forward",
+      "target_name": "Miles Davis and His Band",
+      "target_mbid": "55920730-831f-431f-80f7-539a2bf83f98",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "involved with",
+      "direction": "forward",
+      "target_name": "Juliette Gréco",
+      "target_mbid": "bb839dd4-94be-4732-b014-135a64c340a6",
+      "attributes": [],
+      "begin": "1949",
+      "end": "1991"
+    },
+    {
+      "type": "is person",
+      "direction": "forward",
+      "target_name": "Cleo Henry",
+      "target_mbid": "8dddb806-0971-4968-ac1d-68340402cd94",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Frances Taylor Davis",
+      "target_mbid": "1d8bf559-e9ab-4009-a61e-def117019485",
+      "attributes": [],
+      "begin": "1959-12-21",
+      "end": "1968"
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Betty Davis",
+      "target_mbid": "bb17dc42-ecaf-42ca-aa35-b23207573060",
+      "attributes": [],
+      "begin": "1968-09",
+      "end": "1969"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Cicely Tyson",
+      "target_mbid": "896d0e21-2b6e-4596-a76e-32c29049f19f",
+      "attributes": [],
+      "begin": "1981",
+      "end": "1989"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Miles Davis Quintet",
+      "target_mbid": "fe7245e7-d734-4ca1-8e26-691883f58201",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Miles Davis Sextet",
+      "target_mbid": "f137837b-fa55-48d1-8c85-f13961b3ac77",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Miles Davis Quartet",
+      "target_mbid": "03606dee-b333-48fe-b9af-d671c837d40f",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Miles Davis Septet",
+      "target_mbid": "88130878-7ee9-4ce2-b24b-1dd9da898030",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Miles Davis Nonet",
+      "target_mbid": "16d2b8e6-8930-4c9e-856f-e6d096479350",
+      "attributes": [
+        "eponymous",
+        "original",
+        "trumpet"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Charlie Parker Quintet",
+      "target_mbid": "e02d4f5a-8bcf-4fd3-8410-57c680389748",
+      "attributes": [
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Miles Davis and His Orchestra",
+      "target_mbid": "c52ff92e-b338-4815-bd63-4e9b89795e84",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Miles Davis All Stars",
+      "target_mbid": "607d7275-2b92-49e5-a7ee-32f9cc29b076",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Miles Davis Group",
+      "target_mbid": "5464e03d-32be-4e9a-bf74-2567f560df6f",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Miles Davis and His Band",
+      "target_mbid": "55920730-831f-431f-80f7-539a2bf83f98",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Charlie Parker Septet",
+      "target_mbid": "8d63d8f8-e743-48af-b45e-5d9639edcd1b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Miles Davis and His Band",
+      "target_mbid": "55920730-831f-431f-80f7-539a2bf83f98",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Erin Davis",
+      "target_mbid": "acbb43f8-c4b1-4af7-9b94-bf3c8cca0ab2",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Cheryl Davis",
+      "target_mbid": "ea389664-0eaa-4ecf-9567-3d1c807dbdc6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Elwood Buchanan",
+      "target_mbid": "81abda46-7201-4fa4-8026-5280d1b23105",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Wallace Roney",
+      "target_mbid": "30907194-57ca-4c7f-8e10-8c2883799052",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "A Tribute to Miles Davis",
+      "target_mbid": "10e59749-62bb-4aec-b18c-6b7a25714ec9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000423829"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/561d854a-6a28-4aa7-8c99-323e6ce46c2a"
+    },
+    {
+      "type": "discography page",
+      "target": "http://all-blues.de/music/missing.htm"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.plosin.com/milesahead/"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/23755"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.kind-of-blue.de/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/1910"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Miles_Davis_by_Palumbo.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0002537/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Miles+Davis"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Miles-davis"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/milesdavis"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.milesdavis.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://jaxsta.com/profile/80eaeb6a-e128-4421-8ab5-a4641d03f790"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n50035608"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/D/Davis,_Miles/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13893030g"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118524046"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w68k7wq0"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL4359245A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/miles_davis"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/78rpm/artist/miles-davis"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/miles-davis"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/cdalbum/artist/miles-davis"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/live/artist/miles-davis"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/tape/artist/miles-davis"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/vinyl/artist/miles-davis"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000286446/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n50035608"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/44984"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/106"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/milesdavis"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/MilesDavis"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/milesdavis/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/564879"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/fr/artist/44984"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/44984"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/55"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/27058"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/97762193"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q93341"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UC1ZS17c0DlqUjsXZK3K_bgA"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UC9NlE_veniVpnvpIegfifMQ"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCIev2PktTH5mI-QlGmbUkiw"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "c8d56072-a32d-43c4-b52f-82ff0b8311a4",
+      "title": "The New Sounds",
+      "type": "Album",
+      "first_release_date": "1951-10-05"
+    },
+    {
+      "id": "095878f4-58ac-43f4-93ae-92a1e6588d8d",
+      "title": "Modern Jazz Trumpets",
+      "type": "Album",
+      "first_release_date": "1951"
+    },
+    {
+      "id": "2df9638f-3618-40b1-8928-d7f922f44ef5",
+      "title": "The New Sounds",
+      "type": "Album",
+      "first_release_date": "1951"
+    },
+    {
+      "id": "093a3235-7271-46d5-9c94-c092edf1fb25",
+      "title": "Young Man With a Horn",
+      "type": "Album",
+      "first_release_date": "1952"
+    },
+    {
+      "id": "5d5b6555-9752-4edd-9e78-dcd5a76daca3",
+      "title": "Blue Period",
+      "type": "Album",
+      "first_release_date": "1953"
+    },
+    {
+      "id": "29393845-34a2-40a6-9c8c-6647c83e9c1d",
+      "title": "Miles Davis, Vol. 2",
+      "type": "Album",
+      "first_release_date": "1953"
+    },
+    {
+      "id": "1a5abe37-f8d5-488e-b600-8ac93f36f7c4",
+      "title": "The Compositions of Al Cohn",
+      "type": "Album",
+      "first_release_date": "1953"
+    },
+    {
+      "id": "231508e9-a256-4a05-b715-59e1ea242cbf",
+      "title": "Miles Davis With Sonny Rollins",
+      "type": "Album",
+      "first_release_date": "1954-06-29"
+    },
+    {
+      "id": "7aaa93b0-c370-4dae-98e3-d5be559a7167",
+      "title": "Vol. 3",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "39402cf4-888f-3af0-9d0c-0dc7e80baa35",
+      "title": "Blue Moods",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "e5e1dfb2-9184-32f4-af73-6093422ed77b",
+      "title": "Miles Davis and Milt Jackson Quintet / Sextet",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "2978c580-9123-3ca5-bf60-6a6e45ad2c4a",
+      "title": "Blue Haze",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "7b2ac355-548e-3d4a-b625-920dab441509",
+      "title": "Collectors’ Items",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "933c977e-8312-353e-b4ef-55d0dd90bd30",
+      "title": "Dig",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "9603415f-b57b-4dd7-bebc-a90b702a9623",
+      "title": "Bags’ Groove (Rudy Van Gelder Remaster)",
+      "type": "Album",
+      "first_release_date": "1957-01-01"
+    },
+    {
+      "id": "6477da93-2286-4919-a898-031caa34c307",
+      "title": "’Round About Midnight",
+      "type": "Album",
+      "first_release_date": "1957-03-18"
+    },
+    {
+      "id": "25a721dc-0940-359e-8b0d-4be9d5616348",
+      "title": "Bags’ Groove",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "cc0c7530-a135-3386-a682-0d33d14c876e",
+      "title": "Miles Ahead",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "e030683f-bbc0-467c-a0f8-700326104ff0",
+      "title": "Jazz Track",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "89896a3e-e309-3ed3-a1a9-36be29ae76b0",
+      "title": "Milestones",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "70f3e516-4e76-3dc5-a261-e6c5cd6d71a1",
+      "title": "Porgy and Bess",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "3b3675c7-f267-37c0-bda7-e9e96141e8e7",
+      "title": "Miles Davis and the Modern Jazz Giants",
+      "type": "Album",
+      "first_release_date": "1959-06"
+    },
+    {
+      "id": "8e8a594f-2175-38c7-a871-abb68ec363e7",
+      "title": "Kind of Blue",
+      "type": "Album",
+      "first_release_date": "1959-08-17"
+    },
+    {
+      "id": "966fede2-31b2-3b6a-ab50-4a650d3bb97d",
+      "title": "Sketches of Spain",
+      "type": "Album",
+      "first_release_date": "1960-08"
+    },
+    {
+      "id": "b5a0a374-d8e2-45d0-a4da-5b6465c2563a",
+      "title": "Quiet Nights",
+      "type": "Album",
+      "first_release_date": "1963-12"
+    }
+  ],
+  "tracks": {
+    "c8d56072-a32d-43c4-b52f-82ff0b8311a4": [
+      {
+        "id": "6fbd3ac9-d3b4-40b9-96ac-c119ff8765e3",
+        "title": "Conception",
+        "position": "1",
+        "length": "242760",
+        "work": {
+          "id": "85c7e7df-8c44-3394-bafc-3ab2c6053454",
+          "title": "Conception",
+          "composers": [
+            {
+              "name": "George Shearing",
+              "mbid": "ef83af4c-4da9-47d1-b9bd-df9db18b28e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cdf37d95-c0fe-4f5c-83aa-c3123cb62312",
+        "title": "Dig",
+        "position": "2",
+        "length": "455000",
+        "work": {
+          "id": "6207b4cc-9685-37e1-9b5a-372034f951f6",
+          "title": "Dig",
+          "composers": [
+            {
+              "name": "Miles Davis",
+              "mbid": "561d854a-6a28-4aa7-8c99-323e6ce46c2a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0e74f547-63bd-4319-bbcf-0536d39391b2",
+        "title": "My Old Flame",
+        "position": "3",
+        "length": "395000",
+        "work": {
+          "id": "11366d3e-8460-30d3-a57f-f9b0fe37c820",
+          "title": "My Old Flame",
+          "composers": [
+            {
+              "name": "Arthur Johnston",
+              "mbid": "f45179f2-dbe1-4076-af0f-e4a1b5bf2393"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f128935e-2504-4c97-85d3-2a0446e2984a",
+        "title": "It’s Only a Paper Moon",
+        "position": "4",
+        "length": "325000",
+        "work": {
+          "id": "28e35529-efef-3926-972f-2bb9171cdfa1",
+          "title": "It’s Only a Paper Moon",
+          "composers": [
+            {
+              "name": "Harold Arlen",
+              "mbid": "3508f3fd-3b18-493c-a362-376736bb6cde"
+            }
+          ]
+        }
+      }
+    ],
+    "095878f4-58ac-43f4-93ae-92a1e6588d8d": [
+      {
+        "id": "59ea7cf4-7a1b-4703-b073-a83bf226d024",
+        "title": "Dynamo",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "29fd128e-6177-4bb5-bad4-3a8ed56b01e9",
+        "title": "'Round Midnight",
+        "position": "2",
+        "length": "167000",
+        "work": {
+          "id": "f99aa87a-d665-3d56-8df6-1fb072ab2042",
+          "title": "’Round Midnight",
+          "composers": [
+            {
+              "name": "Thelonious Monk",
+              "mbid": "8e8c7417-c905-46b1-b42a-5260b4274ed4"
+            },
+            {
+              "name": "Cootie Williams",
+              "mbid": "754ed78e-d5c5-4a5f-846d-224ffa1c263c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0993a1a5-0b67-4f5c-9432-e76e5d2e7e10",
+        "title": "Diggin’ Dizzy",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "7dfb3663-ee30-4c05-ae91-9f2acdba29d0",
+        "title": "When I Grow Too Old to Dream",
+        "position": "4",
+        "length": "171000",
+        "work": {
+          "id": "1ff7aa1f-2981-38f9-baa7-ee7f3be0d5ea",
+          "title": "When I Grow Too Old to Dream",
+          "composers": [
+            {
+              "name": "Sigmund Romberg",
+              "mbid": "3c2caff5-ffbc-4711-9e4e-db94dd8e2e52"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ef98e753-4abf-4439-bd9a-755c4891d9d6",
+        "title": "Move",
+        "position": "5",
+        "length": null,
+        "work": {
+          "id": "6dd05b6c-6b37-4673-a47f-40fc7a733255",
+          "title": "Move",
+          "composers": [
+            {
+              "name": "Denzil Best",
+              "mbid": "733f3f0c-dde8-45e7-a725-173c16a9a591"
+            }
+          ]
+        }
+      },
+      {
+        "id": "76e9745a-a85e-472b-a867-abd01a59d133",
+        "title": "Confirmation (D1001-E)",
+        "position": "6",
+        "length": "173000",
+        "work": {
+          "id": "f56a7b7a-b9a7-37ad-b94b-035a82b904fb",
+          "title": "Confirmation",
+          "composers": [
+            {
+              "name": "Charlie Parker",
+              "mbid": "c7356af9-9ea6-4a78-a55b-c73775716312"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2b0e3b4c-2c0f-490e-bfd3-268591f6cad4",
+        "title": "Thermodynamics",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "43c2ee24-e3bb-4bfd-921c-d96a9566ccb6",
+        "title": "Superman",
+        "position": "8",
+        "length": null,
+        "work": null
+      }
+    ],
+    "2df9638f-3618-40b1-8928-d7f922f44ef5": [
+      {
+        "id": "7de6afc1-6059-4a56-97b5-f9ec69593d2f",
+        "title": "Odjenar",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "9386a2ef-6303-432c-a884-fc0a71535ced",
+        "title": "Hibeck",
+        "position": "2",
+        "length": "186306",
+        "work": {
+          "id": "a21b3a39-833a-4864-a2c5-c3a9d1400d2c",
+          "title": "Hibeck",
+          "composers": [
+            {
+              "name": "Lee Konitz",
+              "mbid": "9136db51-46ba-4208-afd6-7753fb0739aa"
+            }
+          ]
+        }
+      },
+      {
+        "id": "691246a9-ae68-4cda-b2bc-22a7f78728b6",
+        "title": "Yesterdays",
+        "position": "3",
+        "length": "146973",
+        "work": {
+          "id": "03afac4f-e4f2-3a29-a2e7-745cebcccee3",
+          "title": "Yesterdays",
+          "composers": [
+            {
+              "name": "Jerome Kern",
+              "mbid": "8fb64b2e-db8b-4579-ad08-f324ef1bf494"
+            }
+          ]
+        }
+      },
+      {
+        "id": "533390c9-a950-44e0-85cd-ef94b952dd63",
+        "title": "Ezz-thetic",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "dfd1ead4-7238-4057-a8e1-b711b355fb2e",
+        "title": "Indian Summer",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "a1ad5f69-1a13-4966-a908-28aca6a22468",
+        "title": "Duet For Saxophone And Guitar",
+        "position": "6",
+        "length": null,
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 23755,
+  "wikidata_id": "Q93341"
+}

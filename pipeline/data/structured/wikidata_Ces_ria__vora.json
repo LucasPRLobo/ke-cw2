@@ -1,0 +1,52 @@
+{
+  "wikidata_id": "Q103759",
+  "genres": [
+    "fado",
+    "morna",
+    "modinha"
+  ],
+  "instruments": [
+    "voice"
+  ],
+  "awards": [
+    "Kora Awards",
+    "Grammy Award for Best Contemporary World Music Album",
+    "Order of Cultural Merit (Brazil)",
+    "Knight of the Legion of Honour",
+    "Victory of the album of traditional musics or musics of the world"
+  ],
+  "labels": [
+    "Lusafrica"
+  ],
+  "influences": [],
+  "occupations": [
+    "singer"
+  ],
+  "country": "Cape Verde",
+  "birth_place": "Mindelo",
+  "birth_date": "1941-08-27",
+  "death_date": "2011-12-17",
+  "wikipedia_title": "Cesária Évora",
+  "compositions": [
+    {
+      "title": "Normal People Are Nothing Exceptional",
+      "genre": "documentary film",
+      "date": "1993-01-01"
+    },
+    {
+      "title": "Tender is the wolf",
+      "genre": null,
+      "date": "2006-01-01"
+    },
+    {
+      "title": "Tchindas",
+      "genre": "documentary film",
+      "date": "2015-01-01"
+    },
+    {
+      "title": "Tchindas",
+      "genre": "LGBTQ-related film",
+      "date": "2015-01-01"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 695388,
+  "name": "McKinley Morganfield",
+  "realname": null,
+  "profile": "Real name of [a=Muddy Waters].",
+  "members": [],
+  "groups": [
+    {
+      "name": "Son Simms Four",
+      "id": 623438,
+      "active": true
+    },
+    {
+      "name": "Muddy Waters Blues Band",
+      "id": 2842158,
+      "active": true
+    },
+    {
+      "name": "Muddy Waters & Friends",
+      "id": 6829429,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Blues",
+    "Folk, World, & Country"
+  ],
+  "styles": [
+    "Chicago Blues",
+    "Country Blues",
+    "Delta Blues",
+    "Electric Blues"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Blues",
+      "style": "Delta Blues"
+    },
+    {
+      "genre": "Blues",
+      "style": "Electric Blues"
+    },
+    {
+      "genre": "Blues",
+      "style": "Chicago Blues"
+    },
+    {
+      "genre": "Blues",
+      "style": "Chicago Blues"
+    },
+    {
+      "genre": "Blues",
+      "style": "Country Blues"
+    },
+    {
+      "genre": "Blues",
+      "style": "Chicago Blues"
+    }
+  ]
+}

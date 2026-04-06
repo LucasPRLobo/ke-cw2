@@ -1,0 +1,94 @@
+{
+  "id": 52833,
+  "name": "Frank Sinatra",
+  "realname": "Francis Albert Sinatra",
+  "profile": "US singer and actor\r\nBorn December 12, 1915 in Hoboken, New Jersey, USA.\r\nDied May 14, 1998 in Los Angeles, California, USA.\r\n\r\nNicknamed \"The Voice,\" \"Ol' Blue Eyes,\" \"The Chairman Of The Board,\" and \"Frankie Boy,\" the Italian-American began his musical career in the swing era with [a313097] and [a229639], Sinatra became a solo artist with great success after signing with [l1866] in March 1943; he stayed with Columbia until the label dropped him in June 1952. Sinatra signed a seven-year recording contract with [l654] on March 13, 1953, and released several critically lauded albums while with Capitol. Sinatra left Capitol to found his own record label in 1960, [l157], toured internationally, and fraternized with the Rat Pack and President [a441676] in the early 1960s.\r\n\r\nSinatra had three children, [a135246] (singer, artist), [a462600] (musician), and [a2191694] (TV producer), all with his first wife, Nancy Barbato (married 1939 to 1951). He was married three more times, to actresses [a1481869] (1951 to 1957) and [a280961] (1966 to 1968), and finally to model/showgirl Barbara Marx (from 1976), to whom he was still married at his death.",
+  "members": [],
+  "groups": [
+    {
+      "name": "Harry James And His Orchestra",
+      "id": 265635,
+      "active": true
+    },
+    {
+      "name": "Metronome All Stars",
+      "id": 311056,
+      "active": true
+    },
+    {
+      "name": "Sinatra & Company",
+      "id": 322144,
+      "active": true
+    },
+    {
+      "name": "The Rat Pack",
+      "id": 898238,
+      "active": true
+    },
+    {
+      "name": "Frank Sinatra And Friends",
+      "id": 2499989,
+      "active": true
+    },
+    {
+      "name": "Frank Sinatra And Band",
+      "id": 3559119,
+      "active": true
+    },
+    {
+      "name": "Metronome All-Star Band",
+      "id": 3678154,
+      "active": true
+    },
+    {
+      "name": "Frank Sinatra And Sextet",
+      "id": 3735902,
+      "active": true
+    },
+    {
+      "name": "The Sinatra Family",
+      "id": 4213111,
+      "active": true
+    },
+    {
+      "name": "Nancy Sinatra & Friends",
+      "id": 4246721,
+      "active": true
+    },
+    {
+      "name": "Frank Sinatra And His Orchestra",
+      "id": 4582987,
+      "active": true
+    },
+    {
+      "name": "Frank Sinatra With Chorus",
+      "id": 5802337,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Jazz",
+    "Pop"
+  ],
+  "styles": [
+    "Big Band"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Jazz",
+      "style": "Big Band"
+    },
+    {
+      "genre": "Pop",
+      "style": "Big Band"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Big Band"
+    },
+    {
+      "genre": "Pop",
+      "style": "Big Band"
+    }
+  ]
+}

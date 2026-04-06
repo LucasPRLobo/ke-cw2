@@ -1,0 +1,110 @@
+{
+  "id": 42754,
+  "name": "Yoko Ono",
+  "realname": "小野 洋子 / Ono Yōko",
+  "profile": "Japanese artist, musician and peace activist. \r\n\r\nBorn February 18, 1933 in Tokyo, Japan. Wife of [a=John Lennon] from 1969 until his death in 1980. Mother of [a=Sean Lennon]. Ex-wife of [a=Toshi Ichiyanagi] (1956-62). ",
+  "members": [],
+  "groups": [
+    {
+      "name": "The Plastic Ono Band",
+      "id": 256190,
+      "active": true
+    },
+    {
+      "name": "Peace Choir",
+      "id": 341227,
+      "active": true
+    },
+    {
+      "name": "John Lennon & Yoko Ono",
+      "id": 451329,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Electronic",
+    "Non-Music",
+    "Pop",
+    "Rock"
+  ],
+  "styles": [
+    "Art Rock",
+    "Avantgarde",
+    "Classic Rock",
+    "Experimental",
+    "Interview",
+    "Noise Rock",
+    "Pop Rock",
+    "Psychedelic Rock"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Electronic",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Avantgarde"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Psychedelic Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Rock",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Avantgarde"
+    },
+    {
+      "genre": "Rock",
+      "style": "Psychedelic Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Classic Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Noise Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Noise Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Avantgarde"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Interview"
+    }
+  ]
+}

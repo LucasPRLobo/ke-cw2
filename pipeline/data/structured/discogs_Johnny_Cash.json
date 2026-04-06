@@ -1,0 +1,122 @@
+{
+  "id": 135946,
+  "name": "Johnny Cash",
+  "realname": "John R. Cash",
+  "profile": "Johnny Cash was an American singer-songwriter, actor, musician and author, born February 26, 1932 in Kingsland, Arkansas, USA as J.R. Cash; he died September 12, 2003 in Baptist Hospital, Nashville, Tennessee, USA. Cash was a hugely influential country singer. His all-black stage wardrobe earned him the nickname \"The Man in Black\".\r\n\r\nHe was married to country singer [a=June Carter]. [a=Tommy Cash] is his younger brother. [a=Joanne Cash] is his younger sister. [a=Roy Cash Sr.] is his older brother. [a=Roy Cash Jr.] is his nephew. Singer-songwriter [a=Rosanne Cash] is his daughter, from his first marriage with Vivian Liberto. Stepfather of singer-songwriter [a=Carlene Carter] (daughter of [a=June Carter] and her first husband [a=Carl Smith (3)]).\r\n\r\nJohnny Cash was inducted into the Nashville Songwriters Hall of Fame in 1977, the Country Music Hall of Fame in 1980, the Rock And Roll Hall of Fame in 1992 (performer), and the Gospel Music Hall of Fame in 2010.",
+  "members": [],
+  "groups": [
+    {
+      "name": "Johnny Cash And The Tennessee Three",
+      "id": 458983,
+      "active": true
+    },
+    {
+      "name": "The Highwaymen",
+      "id": 677033,
+      "active": true
+    },
+    {
+      "name": "Johnny Cash & The Tennessee Two",
+      "id": 999536,
+      "active": true
+    },
+    {
+      "name": "The Million Dollar Quartet",
+      "id": 1063060,
+      "active": true
+    },
+    {
+      "name": "The Johnny Cash Family",
+      "id": 1679671,
+      "active": true
+    },
+    {
+      "name": "Class Of '55",
+      "id": 2283362,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Blues",
+    "Folk, World, & Country",
+    "Rock"
+  ],
+  "styles": [
+    "Country",
+    "Rockabilly"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Rock",
+      "style": "Country"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rockabilly"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Country"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Rockabilly"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rockabilly"
+    },
+    {
+      "genre": "Rock",
+      "style": "Country"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Rockabilly"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Country"
+    },
+    {
+      "genre": "Blues",
+      "style": "Country"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Country"
+    },
+    {
+      "genre": "Rock",
+      "style": "Country"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rockabilly"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Country"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Rockabilly"
+    },
+    {
+      "genre": "Rock",
+      "style": "Country"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rockabilly"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Country"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Rockabilly"
+    }
+  ]
+}

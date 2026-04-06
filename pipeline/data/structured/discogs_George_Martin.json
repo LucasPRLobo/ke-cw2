@@ -1,0 +1,97 @@
+{
+  "id": 259769,
+  "name": "George Martin",
+  "realname": "George Henry Martin",
+  "profile": "English record producer, arranger, composer, conductor, audio engineer, and musician (3 January 1926, Highbury, London, England, UK – 8 March 2016, Wiltshire, England, UK). [b] For the American songwriter who wrote a handful of songs recorded by Earl Klugh, Gene Dunlap, and The Four Tops, please use [a7620354].[/b]\r\n\r\nGeorge Martin took to music at an early age, becoming interested in the piano before the age of eight. He was later interested in architecture, design, and aeronautics, and ended up becoming a pilot in the Fleet Air Arm (the aviation branch of the Royal Navy) towards the end of World War II. \r\n\r\nHe returned to music, attending [l305416], studying composition, conducting, orchestration, and theory, and taking up the oboe as a second principal instrument. He got into the music industry as assistant to [a=Oscar Carl Preuss], the head of the [l=Parlophone] label, at a period when the label was in transition from second-rate classical recordings to \"pop\" music. At the same time, the world of music recording was transitioning from 78s to LPs and 45s, with magnetic tape making changes in the recording process. When Preuss  retired in 1955, Martin took over Parlophone, and at 29 was the youngest label chief in the company's history. \r\n\r\nAs a producer, George Martin's first number one hit in the U.K. was [a=The Temperance Seven]'s \"You're Driving Me Crazy\" in 1961. Martin moved Parlophone into the world of rock & roll with [a=The Vipers Skiffle Group], whose second single, \"Don't You Rock Me, Daddy-O\", was a Top Ten hit. Then, in the spring of 1962, Martin happened to interview [a=Brian Epstein], a Liverpool-based manager, about a quartet known as [a=The Beatles]. That summer, they were signed to Parlophone. Over the following years, Martin would help to shape The Beatles, getting credit from some as being the \"fifth Beatle\" for his work with the band. In 1963, records produced by Martin spent 37 weeks at the number one spot on the U.K. charts. But two years later, Martin split from Parlophone, due to the small producer's royalty which had not increased during the explosive growth of the label, to form in 1965 AIR (Associated Independent Recording). This production company was headed by Martin and two other producers who came from [l=EMI], Parlophone's parent label.\r\n\r\nThe Beatles were produced by George Martin through 1969's [i]Abbey Road[/i], and it wasn't until The Beatles broke up that Martin was completely free from his ties to EMI. In the 1970s, he produced a wide variety of artists and bands, from [a=America (2)] and [a=Jimmy Webb] to [a=Jeff Beck] and the [a=Mahavishnu Orchestra]. He continued to work with an array of artists via his company Associated Independent Recording (AIR). in 1969 when George Martin left EMI to establish [l264566] (fourth floor in 214 Oxford Street) an independent recording complex in the heart of central London, active since 1969 to 1991 then studio moved to [l890708] where George worked from 1992 to 2006. In 1979 opened [l268095] but closed after a tropical hurricane in 1989.\r\n\r\nOn June 15th, 1996, George Martin was knighted for his production work over the decades, especially with The Beatles. On October 20, 1998, [i]In My Life[/i] was released, and Sir George Martin took a bow from the music business. His last album was a collection of Beatles songs he originally produced, recreated by a variety of well-known artists.  He briefly came out of retirement in 2005, and with the aid of his son (with his second wife), [a=Giles Martin], he compiled clips and songs for the Beatles' and [a=Cirque Du Soleil]'s [i]LOVE[/i] project and remix album.   \r\n\r\nInducted into Rock And Roll Hall of Fame in 1999 (Non-Performer).\r\n",
+  "members": [],
+  "groups": [
+    {
+      "name": "Ray Cathode",
+      "id": 197040,
+      "active": true
+    },
+    {
+      "name": "George Martin And His Orchestra",
+      "id": 347269,
+      "active": true
+    },
+    {
+      "name": "Lezlo Anales",
+      "id": 2008799,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Non-Music",
+    "Pop",
+    "Rock",
+    "Stage & Screen"
+  ],
+  "styles": [
+    "Easy Listening",
+    "Light Music",
+    "Pop Rock",
+    "Promotional",
+    "Score",
+    "Soundtrack",
+    "Theme"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Pop",
+      "style": "Easy Listening"
+    },
+    {
+      "genre": "Pop",
+      "style": "Light Music"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Promotional"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Score"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Pop",
+      "style": "Promotional"
+    },
+    {
+      "genre": "Pop",
+      "style": "Score"
+    },
+    {
+      "genre": "Pop",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Promotional"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Score"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Theme"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Soundtrack"
+    }
+  ]
+}

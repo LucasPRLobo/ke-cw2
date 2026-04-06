@@ -1,0 +1,114 @@
+{
+  "id": 834818,
+  "name": "Boo Wilbury",
+  "realname": "Robert Dylan (born Robert Allen Zimmerman)",
+  "profile": "See [b][a=Bob Dylan][/b].",
+  "members": [],
+  "groups": [],
+  "genres": [
+    "Folk, World, & Country",
+    "Non-Music",
+    "Pop",
+    "Rock"
+  ],
+  "styles": [
+    "Classic Rock",
+    "Country Rock",
+    "Pop Rock",
+    "Rock & Roll"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Rock",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Country Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Pop",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Country Rock"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Country Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Classic Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Classic Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Classic Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Classic Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Classic Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Classic Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Classic Rock"
+    }
+  ]
+}

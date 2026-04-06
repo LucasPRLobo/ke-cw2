@@ -1,0 +1,1965 @@
+{
+  "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c",
+  "name": "Johann Sebastian Bach",
+  "type": "Person",
+  "country": "DE",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1685-03-21",
+    "end": "1750-07-28",
+    "ended": "true"
+  },
+  "area": "Germany",
+  "begin_area": "Eisenach",
+  "tags": [
+    {
+      "name": "bach",
+      "count": "1"
+    },
+    {
+      "name": "baroque",
+      "count": "13"
+    },
+    {
+      "name": "bertalan hock",
+      "count": "1"
+    },
+    {
+      "name": "cantata",
+      "count": "1"
+    },
+    {
+      "name": "cantata 147",
+      "count": "1"
+    },
+    {
+      "name": "classical",
+      "count": "19"
+    },
+    {
+      "name": "composer",
+      "count": "11"
+    },
+    {
+      "name": "european",
+      "count": "5"
+    },
+    {
+      "name": "german",
+      "count": "8"
+    },
+    {
+      "name": "german composer",
+      "count": "1"
+    },
+    {
+      "name": "gramophone selection",
+      "count": "3"
+    },
+    {
+      "name": "helmut walcha",
+      "count": "1"
+    },
+    {
+      "name": "mass",
+      "count": "1"
+    },
+    {
+      "name": "mathäuspassion",
+      "count": "1"
+    },
+    {
+      "name": "messe h-moll",
+      "count": "1"
+    },
+    {
+      "name": "motet",
+      "count": "1"
+    },
+    {
+      "name": "orchestral",
+      "count": "1"
+    },
+    {
+      "name": "organist",
+      "count": "1"
+    },
+    {
+      "name": "six",
+      "count": "1"
+    },
+    {
+      "name": "vox",
+      "count": "1"
+    },
+    {
+      "name": "wagner",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "conductor position",
+      "direction": "forward",
+      "target_name": "Thomanerchor Leipzig",
+      "target_mbid": "995a8150-123b-4f04-8c2c-904a262dd607",
+      "attributes": [
+        "principal"
+      ],
+      "begin": "1723",
+      "end": "1750"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Anna Magdalena Bach",
+      "target_mbid": "7bcb37ed-1d76-4eac-82b0-4c48082efe3b",
+      "attributes": [],
+      "begin": "1721-12-03",
+      "end": "1750-07-28"
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Bach‐Collegium Stuttgart",
+      "target_mbid": "8bc4fbd0-f05f-4408-834b-e9540afb3b7f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Bachorchester Würzburg",
+      "target_mbid": "f990ce00-afa7-4c4e-9aa9-ed13bc85f55e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Johann Sebastian Masana",
+      "target_mbid": "28291a5e-a2d8-479b-bda5-c4666930668d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Johann Sebastian Mastropiero",
+      "target_mbid": "c3078f7b-5a1a-4951-9d43-fc23a1b00058",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Johann Victa",
+      "target_mbid": "213fc903-2d62-42a0-b101-7a96fff61726",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Wilhelm Friedemann Bach",
+      "target_mbid": "4af324c6-0a7c-4c84-b7ce-c60ffe4a8f33",
+      "attributes": [],
+      "begin": "1710-11-22",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Carl Philipp Emanuel Bach",
+      "target_mbid": "f6486fc7-90ef-48ad-8ca3-905af1354afe",
+      "attributes": [],
+      "begin": "1714-03-08",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Johann Christoph Friedrich Bach",
+      "target_mbid": "16d891b8-3367-4ef1-94c9-d4257e271115",
+      "attributes": [],
+      "begin": "1732-06-21",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Johann Christian Bach",
+      "target_mbid": "470967b1-f9ef-4712-82df-6971b517ebdb",
+      "attributes": [],
+      "begin": "1735-09-05",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Johann Ambrosius Bach",
+      "target_mbid": "943c5cd8-a41a-41eb-b661-8d7c20f7328a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Gottfried Heinrich Bach",
+      "target_mbid": "b76e5eb5-2cfd-4e09-990c-1a9dd58ee124",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Johann Christoph Bach",
+      "target_mbid": "cc8d07ef-24ec-40d3-9820-659abad380b0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Johann Jacob Bach",
+      "target_mbid": "e9e539d5-25bc-4848-93f9-2f858b2a6d2b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Johann Gotthilf Ziegler",
+      "target_mbid": "6e6be03f-99a5-4178-af0c-a94dbc79e449",
+      "attributes": [],
+      "begin": "1715",
+      "end": "1715"
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Johann Gottfried Müthel",
+      "target_mbid": "7f2988af-7869-4d11-a68d-b7b6cbb69796",
+      "attributes": [],
+      "begin": "1750",
+      "end": "1750"
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Johann Ludwig Krebs",
+      "target_mbid": "4701e8aa-4222-44ab-b59b-d85c6b92c34d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Johann Philipp Kirnberger",
+      "target_mbid": "3addeeb4-e758-45cc-a655-8d7f1b3977af",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Gottfried August Homilius",
+      "target_mbid": "faeb51c0-04e0-4d54-b8cd-5f7fc3e604c3",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Johann Christian Kittel",
+      "target_mbid": "d920b92f-e7c9-49ed-a74a-9e52748cf622",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Johann Friedrich Doles",
+      "target_mbid": "3c70f8a3-7ac9-4142-b9b7-687507b9e2d6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Johann Christoph Friedrich Bach",
+      "target_mbid": "16d891b8-3367-4ef1-94c9-d4257e271115",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Johann Christoph Bach",
+      "target_mbid": "cc8d07ef-24ec-40d3-9820-659abad380b0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Carl Friedrich Abel",
+      "target_mbid": "449987ad-2b8c-4b1c-aeca-c2ab8d1e078d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Johann Tobias Krebs",
+      "target_mbid": "2b23e690-043d-4cbb-b20e-c6233815083d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Christian Samuel Barth",
+      "target_mbid": "c8f40911-a831-43ce-b602-4198f22c37a8",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Johann Lorenz Bach",
+      "target_mbid": "7ae6f9ca-687f-4744-bf1c-3b38dcbe7571",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Johann Christoph Altnikol",
+      "target_mbid": "8c19749a-54ce-4b9f-9abb-888052b7ba38",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The J.S. Bach Experience",
+      "target_mbid": "4ccd5d65-234b-454f-a3b0-c09c63c74d3e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000075140"
+    },
+    {
+      "type": "biography",
+      "target": "https://www.oxfordmusiconline.com/grovemusic/display/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-6002278195"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.jsbach.org/"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.pbs.org/wnet/gperf/education/bach.html"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/95537"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/5aIqB5nVVvmFsvSdExz408"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/5NN2Gn4lgn6pBEF35ti7dP"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/1900"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0001925/"
+    },
+    {
+      "type": "IMSLP",
+      "target": "https://imslp.org/wiki/Category:Bach,_Johann_Sebastian"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Johann+Sebastian+Bach"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Johann-sebastian-bach"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n79021425"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Composition/Composers/B/Bach,_Johann_Sebastian/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://adp.library.ucsb.edu/names/102304"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb118897907"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/11850553X"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=10027"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w63x84mt"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-789063"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL443516A"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/4977/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://overture.doremus.org/artist/269cec9d-5025-3a8a-b2ef-4f7acb088f2b"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/johann_sebastian_bach"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/johann-sebastian-bach/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Johann-Sebastian-Bach/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n79021425"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id11862"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B0017PCMX0"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/4192"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/johann-sebastian-bach-3d69187.html"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/556956"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/14753"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/1718"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/12304462"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q1339"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "26118854-7fa5-4405-a903-ec20281823a5",
+      "title": "St. Matthew Passion",
+      "type": "Album",
+      "first_release_date": "1954-01"
+    },
+    {
+      "id": "0e587fbc-3d59-4f8b-b09d-dd2d57bf50bd",
+      "title": "Oratorio de Noël",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "badac2e9-2d4e-38c1-8131-b760a26b5e54",
+      "title": "Sonatas and Partitas for Solo Violin",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "8283577a-3425-46ef-8424-07d0b29acd9c",
+      "title": "Toccata en fa majeur / Concerto pour 2 trompettes en ut / Sonate en fa dièse, op. 78, « À Thérèse » / Symphonie n° 26 en mi bémol (K. 184) / Fantaisie‐impromptu, op. 66 / Carnaval romain, Ouverture",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "dcff25f1-702d-3b5e-b0da-d48172e6e62a",
+      "title": "The Goldberg Variations",
+      "type": "Album",
+      "first_release_date": "1956-03-01"
+    },
+    {
+      "id": "89e7cd50-ed92-494f-afff-51d2d3e7a96d",
+      "title": "Suites pour violoncelle seul N° 1 en sol majeur / N° 2 en ré mineur",
+      "type": "Album",
+      "first_release_date": "1957-07"
+    },
+    {
+      "id": "a64a670b-9786-4d98-aecb-e92bbdeb64e3",
+      "title": "Suites pour violoncelle seul N° 5 en do mineur / N° 6 en ré majeur",
+      "type": "Album",
+      "first_release_date": "1957-07"
+    },
+    {
+      "id": "c191486d-6824-45ed-b650-3b12d4f9c512",
+      "title": "Piano Concerto No. 2 in B-flat major Op. 19 / Keyboard Concerto No. 1 in D minor, BWV 1052",
+      "type": "Album",
+      "first_release_date": "1957-10-14"
+    },
+    {
+      "id": "97f5bebc-9f06-4abd-b934-eb402b3f73a7",
+      "title": "Partita no. 5 in G major / Partita no. 6 in E minor",
+      "type": "Album",
+      "first_release_date": "1957-12-30"
+    },
+    {
+      "id": "0f23af79-5af7-481a-bb45-51154e8b608e",
+      "title": "Concerti",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "a402e35c-5fdc-4161-b84e-ffec9fb2e083",
+      "title": "Suites pour violoncelle seul N°3 en do majeur / N°4 en mi bémol majeur",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "64bd0acc-09a9-483b-b0ed-0b5a96c66b58",
+      "title": "Beethoven: Piano Concerto no. 1 in C major, op. 15 / Bach: Keyboard Concerto no. 5 in F minor",
+      "type": "Album",
+      "first_release_date": "1958-10-06"
+    },
+    {
+      "id": "23ab8c25-9100-4d91-8102-c4c9e5c92274",
+      "title": "Ich Will Den Kreuzstab Gerne Tragen / Ich Habe Genug",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "e7ce9b08-4aff-43fa-aa4e-5e9313c96217",
+      "title": "Magnificat / Cantate de Pâques",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "0a938519-b229-441d-a7ac-ab9cc2931f1f",
+      "title": "Бах/Бузони: Чакона / Моцарт: 12-я соната фа мажор",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "8eaf61b0-1a5d-44f7-95ad-5f9bfcba0435",
+      "title": "Konzert für Cembalo, Streicher und Continuo Nr. 1 d‐moll, BWV 1052 / Konzert für Cembalo, Streicher und Continuo Nr. 2 E‐dur, BWV 1053",
+      "type": "Album",
+      "first_release_date": "1959-10"
+    },
+    {
+      "id": "ea8f92ec-b3f7-43e7-b066-1de190293955",
+      "title": "Motetten",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "2e3a0598-53eb-342f-8639-cc74a1d2d47b",
+      "title": "The Well-Tempered Clavier, Books I & II",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "cfcb84fe-ed10-4807-90c3-aa0d762fa09b",
+      "title": "Concerto in F major / Partita no. 1 in B-flat major / Partita no. 2 in C minor",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "b0af607c-0bda-43fd-be80-ffe0ff140afa",
+      "title": "Concertos de Violon N°1 en la Mineur & N°2 en Mi Majeur",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "3650f52d-5000-4a6e-91ce-f7e2fc442b55",
+      "title": "Dupré at Saint-Sulpice, Vol. 4: Bach",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "5e79b22f-28b7-4442-a35e-5e500de1ca75",
+      "title": "Beethoven · Schubert — Trios · Bach — Sinfonias",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "43e70f68-e40c-4edf-8a61-5d115f3f376f",
+      "title": "Ciacona / Concert pentru vioară și orchestră în Mi major",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "ef01d2be-106d-4e4a-88da-16de1e4290b2",
+      "title": "Concertos pour violons",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "3d2342c6-ed72-425f-8cf5-c1a102a08c97",
+      "title": "Messe in h‐moll",
+      "type": "Album",
+      "first_release_date": "1961"
+    }
+  ],
+  "tracks": {
+    "26118854-7fa5-4405-a903-ec20281823a5": [
+      {
+        "id": "aaa93611-c881-426c-a5b5-a8991a9ae1b6",
+        "title": "St. Matthew Passion- Part I: Through Recitative Er Antwortete Und Sprach",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "5163dd98-aea0-4bae-a891-2f2e57c71420",
+        "title": "St. Matthew Passion- Part I: Recitative Wiewohl Mein Herz In Traenen Schwimmt Throught Chorale Was Mein Gott Will",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "0ea3cbd1-1b73-48bc-ad90-b7500001dd45",
+        "title": "St. Matthew Passion- Part I: From Recitative Und Er Kam Und Fand Sie Aber Schlafend Through Chorale O Mensch Bewein Dein Suende Gross",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "b2a6b915-193f-4d70-98c8-8230f5dce69c",
+        "title": "St. Matthew Passion- Part II: From Chorus Ach Nun Ist Mein Jesus Hin Through Aria Geduld Wenn Mich Falsche Zungen Stechen",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "dc960fb4-6ff9-419f-8b09-ac32918d77a6",
+        "title": "St. Matthew Passion- Part II: From Recitative Und Der Hohe Priester Antwortet Throught Recitative Er Hat Uns Allen Wohlgetan",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "da10e517-d3e8-46a1-b251-8affbc70a5e6",
+        "title": "St. Matthew Passion- Part II: From Aria Aus Liebe Will Mein Heiland, Sterben Through Recitative Dessgleichen Schmaehten Ihn",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "9539e46f-bfec-4a10-9105-649e98c19f8a",
+        "title": "St. Matthew Passion- Part II: From Recitative Ach Golgatha Unsel Ges Golgatha Through End of Work",
+        "position": "2",
+        "length": null,
+        "work": null
+      }
+    ],
+    "0e587fbc-3d59-4f8b-b09d-dd2d57bf50bd": [
+      {
+        "id": "a69f1640-3101-403f-af55-f00455498cdd",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil I, I. Coro \"Jauchzet, frohlocket!\"",
+        "position": "1",
+        "length": "372800",
+        "work": {
+          "id": "07472580-468d-3de2-bb69-8f5917c2e731",
+          "title": "Weihnachts‐Oratorium, BWV 248: Teil I, I. Coro „Jauchzet, frohlocket“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1fc41f64-c4dd-4589-91f7-7f65ea3d1025",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil I, II. Recitativo \"Es begab sich aber zu der Zeit\" (Evangelista)",
+        "position": "2",
+        "length": "72000",
+        "work": {
+          "id": "bb073249-7ccc-352e-88dc-5683db273e4c",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil I, II. Recitativo „Es begab sich aber zu der Zeit“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b348164c-d324-42c4-9bd7-896a93e50591",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil I, III. Recitativo (Alto) \"Nun wird mein liebster Bräutigam\"",
+        "position": "3",
+        "length": "53453",
+        "work": {
+          "id": "ba7387a8-6f90-3030-88f5-bfbdcf8cb76f",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil I, III. Recitativo (Alto) „Nun wird mein liebster Bräutigam“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d1b743da-6e4b-4b69-8c0b-68b25f9dfa40",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil I, IV. Aria (Alto) \"Bereite dich, Zion\"",
+        "position": "4",
+        "length": "231000",
+        "work": {
+          "id": "65463cd5-f6cc-3ec0-89ea-94c8d5192f2e",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil I, IV. Aria (Alto) „Bereite dich, Zion“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9df58752-c313-4669-80cb-fe24ba50755e",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil I, V. Choral \"Wie soll ich dich empfangen\"",
+        "position": "5",
+        "length": "79000",
+        "work": {
+          "id": "89bc1959-05c0-3a28-ae2f-f84529ee3e47",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil I, V. Choral „Wie soll ich dich empfangen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4580a6e2-f195-4000-8cf7-facec9e22920",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil I, VI. Recitativo \"Und sie gebar ihren ersten Sohn\" (Evangelista)",
+        "position": "6",
+        "length": "26840",
+        "work": {
+          "id": "22c4142b-b363-3545-b34a-bbdc2253568d",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil I, VI. Recitativo „Und sie gebar ihren ersten Sohn“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7ed00d0c-58eb-4e9c-be1e-3f5f510f0709",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil I, VII. Choral con Recitativo (Basso) \"Er ist auf Erden kommen arm\"",
+        "position": "7",
+        "length": "178586",
+        "work": {
+          "id": "6601e95f-7909-47d3-ba84-46efd7b0ea73",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil I, VII. Choral (Soprano) con Recitativo (Basso) „Er ist auf Erden kommen arm“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8ec65f27-7992-4fd7-aa4a-23aa5d5f1f43",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil I, VIII. Aria (Basso) \"Großer Herr, o starker König\"",
+        "position": "8",
+        "length": "336626",
+        "work": {
+          "id": "9d92892b-3e96-34a6-a944-6e0b9ee74ae8",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil I, VIII. Aria (Basso) „Großer Herr, o starker König“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1030684f-94f5-4e3f-8ec1-bf35fa0f4864",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil I, IX. Choral \"Ach mein herzliebes Jesulein\"",
+        "position": "9",
+        "length": "83840",
+        "work": {
+          "id": "247727a1-655b-354b-831c-3b009fc8d7d2",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil I, IX. Choral „Ach mein herzliebes Jesulein“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4e400a28-29c2-4627-be41-fd5b80c423fd",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LIV. Coro \"Herr, wenn die stolzen Feinde schnauben\"",
+        "position": "10",
+        "length": "344000",
+        "work": {
+          "id": "e66b12d5-bc9a-3859-924c-1aec1c66fc28",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LIV. Coro „Herr, wenn die stolzen Feinde schnauben“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c402a4ca-a5bc-4241-9259-e2862e99b73c",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LV. Recitativo \"Da berief Herodes die Weisen heimlich\" (Evangelista)",
+        "position": "11",
+        "length": "46000",
+        "work": {
+          "id": "d8791eea-7093-3c17-a093-b28b32290794",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LV. Recitativo „Da berief Herodes die Weisen heimlich“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fec6f710-05eb-488c-ae8b-7748724e6c5e",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LVI. Recitativo (Soprano) \"Du Falscher, suche nur den Herrn zu fällen\"",
+        "position": "12",
+        "length": "61266",
+        "work": {
+          "id": "35243269-fe02-4406-a7c2-903b8a4b3022",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LVI. Recitativo (Soprano) „Du Falscher, suche nur den Herrn zu fällen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "747370ef-821e-4c3d-8099-fcf948aa98f6",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LVII. Aria (Soprano) \"Nur ein Wink von seinen Händen\"",
+        "position": "13",
+        "length": "265000",
+        "work": {
+          "id": "fe3e5e11-188a-3a82-ad80-13b744f665c5",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LVII. Aria (Soprano) „Nur ein Wink von seinen Händen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ea92d54f-a0d3-4970-9307-5d116b852c68",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LVIII. Recitativo \"Als sie nun den König gehöret hatten\" (Evangelista)",
+        "position": "14",
+        "length": "84000",
+        "work": {
+          "id": "a9777aea-0b0c-3214-9bec-e7daff1cac37",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LVIII. Recitativo „Als sie nun den König gehöret hatten“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "249889e1-340f-4594-9aef-3e72994db420",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LIX. Choral \"Ich steh an deiner Krippen hier\"",
+        "position": "15",
+        "length": "59000",
+        "work": {
+          "id": "8b412eaf-f804-335d-8c2f-23f0515036bd",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LIX. Choral „Ich steh an deiner Krippen hier“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "777b80f5-7bc1-47e6-a082-37fdc5331a56",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LXI",
+        "position": "16",
+        "length": "153000",
+        "work": {
+          "id": "8455059b-9595-37e0-a6f9-302f7d07bb03",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LX. Recitativo „Und Gott befahl ihnen im Traum“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "777b80f5-7bc1-47e6-a082-37fdc5331a56",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LXI",
+        "position": "17",
+        "length": "153000",
+        "work": {
+          "id": "8455059b-9595-37e0-a6f9-302f7d07bb03",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LX. Recitativo „Und Gott befahl ihnen im Traum“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b5fbcb74-e6a1-4405-836a-02b81f5a54b3",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LXII. Aria (Tenore) \"Nun mögt ihr stolzen Feinde schrecken\"",
+        "position": "18",
+        "length": "298000",
+        "work": {
+          "id": "651900a1-2185-3a6f-8bd4-5dee8d5c36ba",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LXII. Aria (Tenore) „Nun mögt ihr stolzen Feinde schrecken“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "be0b6658-bc1b-4f43-a932-404889ac3b91",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LXIII. Recitativo (Soprano, alto, tenore, basso) \"Was will der Höllen Schrecken nun\"",
+        "position": "19",
+        "length": "50853",
+        "work": {
+          "id": "2ad4a15c-10ce-466c-95c9-c6863c6ad3a8",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LXIII. Recitativo (Soprano, Alto, Tenore, Basso) „Was will der Höllen Schrecken nun“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a0fc5c5b-c7f4-46e3-a5d9-6994bf494eea",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LXIV. Choral \"Nun seid ihr wohl gerochen\"",
+        "position": "20",
+        "length": "255000",
+        "work": {
+          "id": "f11b1160-0073-3f2f-b38d-d3c45e0b9bfc",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil VI, LXIV. Choral „Nun seid ihr wohl gerochen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4d0ad2d4-3e29-4c92-8791-0b57117f2f2c",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, X. Sinfonia",
+        "position": "1",
+        "length": "342000",
+        "work": {
+          "id": "bd0cf9fe-f1b5-3ee3-bed8-6143b9c81260",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, X. Sinfonia",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "35179f6c-a289-4b6d-966a-564dd6161041",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XI. Recitativo \"Und es waren Hirten in derselben Gegend\" (Evangelista)",
+        "position": "2",
+        "length": "46000",
+        "work": {
+          "id": "05435a9d-07e3-3642-a30a-1d187de86b35",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XI. Recitativo „Und es waren Hirten in derselben Gegend“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e6969bb9-d64e-4d9e-a206-95181794d984",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XII. Choral \"Brich an, o schönes Morgenlicht\"",
+        "position": "3",
+        "length": "70000",
+        "work": {
+          "id": "f9fdf85a-ec9b-3b51-ba7c-be778bca12d3",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XII. Choral „Brich an, o schönes Morgenlicht“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a32d0828-3e77-4372-8f7f-2d4499c14593",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XIII. Recitativo \"Und der Engel sprach zu ihnen\" (Evangelista, Angelus)",
+        "position": "4",
+        "length": "50000",
+        "work": {
+          "id": "43f39a53-06b3-4cdb-837e-b46d875bd5ec",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XIII. Recitativo „Und der Engel sprach zu ihnen“ (Evangelista, Angelus)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "207b5043-d6ea-467c-ad36-636f73b59747",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XIV. Recitativo (Basso) \"Was Gott dem Abraham verheissen\"",
+        "position": "5",
+        "length": "48786",
+        "work": {
+          "id": "927f8f81-766d-3bfd-97c5-4dc02ce8222a",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XIV. Recitativo (Basso) „Was Gott dem Abraham verheißen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e06b496a-ceed-40cc-87dc-ee7036f53fbf",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XV. Aria (Tenore) \"Frohe Hirten, eilt, ach eilet\"",
+        "position": "6",
+        "length": "245000",
+        "work": {
+          "id": "6e20143e-491d-343e-8110-2d01a8a18dc7",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XV. Aria (Tenore) „Frohe Hirten, eilt, ach eilet“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "27cd94a6-3a0d-4f52-b312-b6f168d4e35b",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XVI. Recitativo \"Und das habt zum Zeichen\" (Evangelista)",
+        "position": "7",
+        "length": "21160",
+        "work": {
+          "id": "a1f8aa44-0613-36f0-9b4b-9faf191fc3c8",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XVI. Recitativo „Und das habt zum Zeichen“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "544786bf-d06a-490c-9a74-49e498f175ec",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XVII. Choral \"Schaut hin, dort liegt im finstern Stall\"",
+        "position": "8",
+        "length": "44840",
+        "work": {
+          "id": "bbf424e3-e55e-31c1-ac5b-a0978c1b11ea",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XVII. Choral „Schaut hin, dort liegt im finstern Stall“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "33340ad5-39d4-4b43-9ffb-e9373bdabec0",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XVIII. Recitativo (Basso) \"So geht denn hin\"",
+        "position": "9",
+        "length": "57000",
+        "work": {
+          "id": "43e6b5b0-d964-31cf-8329-424b0f8911af",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XVIII. Recitativo (Basso) „So geht denn hin“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7a50c3a0-7d33-4a85-a576-50b21fa84ed5",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XIX. Aria (Alto) \"Schlafe, mein Liebster\"",
+        "position": "10",
+        "length": "368000",
+        "work": {
+          "id": "0f65a501-1343-3357-b369-b2d9f3a77a7e",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XIX. Aria (Alto) „Schlafe, mein Liebster“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7734c240-3f13-4bd7-94a0-7927768d8093",
+        "title": "Oratorio de Noël: II. - Deuxième jour de Noël, N° 20",
+        "position": "11",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "d8c5715a-29b9-46a0-b1b2-66e5e4953419",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XXI. Coro \"Ehre sei Gott in der Höhe\"",
+        "position": "12",
+        "length": "174000",
+        "work": {
+          "id": "87638b13-f50a-3aed-8319-08a9b33ab4a8",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XXI. Coro „Ehre sei Gott in der Höhe“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f89ab06d-32ef-4985-9be2-8b4b3448093d",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XXII. Recitativo (Basso) \"So recht, ihr Engel\"",
+        "position": "13",
+        "length": "30786",
+        "work": {
+          "id": "d3743f17-2306-3c6a-9447-fb6c2631087e",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XXII. Recitativo (Basso) „So recht, ihr Engel“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "053e07c7-b2ad-41db-a4eb-e8f36a0d4673",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil II, XXIII. Choral \"Wir singen dir in deinem Heer\"",
+        "position": "14",
+        "length": "77000",
+        "work": {
+          "id": "f2cc9bcd-5ae6-3dca-b83b-c85c5d0b042d",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil II, XXIII. Choral „Wir singen dir in deinem Heer“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "61fd2121-cbe6-4e95-a888-541b619085be",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLIII. Coro \"Ehre sei dir, gott, gesungen\"",
+        "position": "15",
+        "length": "301000",
+        "work": {
+          "id": "a71c1058-70dc-321f-b937-b27f24f3a3ca",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLIII. Coro „Ehre sei dir, Gott, gesungen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6ecd843f-22f4-41ff-9971-0b5e60ec151d",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLIV. Recitativo \"Da Jesus geboren war zu Bethlehem\" (Evangelista)",
+        "position": "16",
+        "length": "25000",
+        "work": {
+          "id": "da96fafe-ac76-3bb4-9211-91261555ee18",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLIV. Recitativo „Da Jesus geboren war zu Bethlehem“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bf09ff69-5731-405c-a5f9-03195ba0378a",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLVb. Coro and Recicitavo \"Wir haben seinen Stern gesehen\"",
+        "position": "17",
+        "length": "96640",
+        "work": {
+          "id": "1ff6dde0-8fd8-3d72-849b-b09a6d6cac79",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLV. Coro e Recitativo (Alto) „Wo ist der neugeborne König“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3b7a8312-3ccb-40bc-b6ed-531b6a1cf600",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLVI. Choral \"Dein Glanz all Finsternis verzehrt\"",
+        "position": "18",
+        "length": "57160",
+        "work": {
+          "id": "b214b27c-1216-3e91-9ab2-7a9f6dc18248",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLVI. Choral „Dein Glanz all Finsternis verzehrt“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2f3cb9c3-9993-4f57-b344-6a3b2bc9e7e6",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLVII. Aria (Basso) \"Erleucht auch meine finstre Sinnen\"",
+        "position": "19",
+        "length": "295000",
+        "work": {
+          "id": "5bf6ae31-b484-39e7-9f12-ee6cafc146b8",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLVII. Aria (Basso) „Erleucht auch meine finstre Sinnen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2575ae4a-b081-412f-b583-b19c1da40f8d",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLVIII. Recitativo \"Da das der König Herodes hörte\" (Evangelista)",
+        "position": "20",
+        "length": "53000",
+        "work": {
+          "id": "3753e527-7347-32b9-9ec3-b7b1312e6c30",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil V, XLVIII. Recitativo „Da das der König Herodes hörte“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2cb057fe-2985-4383-8a06-48c19a83909c",
+        "title": "Oratorio de Noël: V. - Le dimanche après la fête de la circoncision du Christ, N° 49",
+        "position": "21",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "9e56f435-10ea-4092-9ceb-e4df5c66ffbe",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil V, L. Recitativo \"Und ließ versammeln alle Hohepriester\" (Evangelista)",
+        "position": "22",
+        "length": "80000",
+        "work": {
+          "id": "bd15cb00-79c9-3105-8253-dbcd809e7ab3",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil V, L. Recitativo „Und ließ versammeln alle Hohepriester“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "284d17fd-7160-47ce-93f6-8f2d8410f600",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil V, LI. Aria Terzetto (Soprano, alto, tenore) \"Ach, wenn wird die Zeit erscheinen\"",
+        "position": "23",
+        "length": "388000",
+        "work": {
+          "id": "cbeb999e-862c-4077-b16c-1b1afcee61ae",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil V, LI. Aria Terzetto (Soprano, Alto, Tenore) „Ach, wenn wird die Zeit erscheinen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9be5fef7-cec0-4490-a1a3-ce1a4a5151d8",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil V, LII. Recitativo (Alto) \"Mein Liebster herrschet schon\"",
+        "position": "24",
+        "length": "39000",
+        "work": {
+          "id": "a7a8ae46-04c5-3959-b8ed-e5a9c32492cd",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil V, LII. Recitativo (Alto) „Mein Liebster herrschet schon“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5339b8c5-a1cf-4d3c-bcfa-005ed53f9a5e",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil V, LIII. Choral \"Zwar ist solche Herzensstube\"",
+        "position": "25",
+        "length": "54946",
+        "work": {
+          "id": "2d4a4569-2673-330d-b059-2e6305df1350",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil V, LIII. Choral „Zwar ist solche Herzensstube“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "66e64b1c-d486-4411-8fa1-8c4b30cfaa36",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXIV. Coro \"Herrscher des Himmels, erhöre das Lallen\"",
+        "position": "1",
+        "length": "127000",
+        "work": {
+          "id": "abf0bcd5-3b3a-3f66-a51d-d9b0a2d009c0",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXIV. Coro „Herrscher des Himmels, erhöre das Lallen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cf0c71dc-6a34-4922-9eae-8fc88446c8a1",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXV. Recitativo \"Und da die Engel\" (Evangelista)",
+        "position": "2",
+        "length": "13000",
+        "work": {
+          "id": "b574e856-79b8-4bd7-a2cd-59750638e24e",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXV. Recitativo „Und da die Engel“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "944a0474-e337-479a-b781-a49d7e5d1077",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXVI. Coro \"Lasset uns nun gehen\"",
+        "position": "3",
+        "length": "48786",
+        "work": {
+          "id": "c0961ffb-53ee-35c9-92d3-13db66bcb528",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXVI. Coro „Lasset uns nun gehen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ce0c965a-6b11-47fe-94a4-c3b22eba4d8d",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXVII. Recitativo (Basso) \"Er hat sein Volk getröst\"",
+        "position": "4",
+        "length": "54000",
+        "work": {
+          "id": "4c856b60-c526-31bc-89bc-57fd58b3d45b",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXVII. Recitativo (Basso) „Er hat sein Volk getröst“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f7855e5d-cf67-4d4b-9339-e63712355d36",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXVIII. Choral \"Dies hat er alles uns getan\"",
+        "position": "5",
+        "length": "52000",
+        "work": {
+          "id": "7d30d84f-6427-34bb-ae48-8c4b58306325",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXVIII. Choral „Dies hat er alles uns getan“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "256ed194-1d2f-474d-9cde-a62fa732eb69",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXIX. Aria duetto (Soprano, Basso) \"Herr, dein Mitleid\"",
+        "position": "6",
+        "length": "188000",
+        "work": {
+          "id": "007a9198-d59b-3b8f-a5bd-a4613e2d5fa1",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXIX. Aria duetto (Soprano, Basso) „Herr, dein Mitleid“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4601322a-88b6-49a9-af84-63f133559902",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXX. Recitativo \"Und sie kamen eilend\" (Evangelista)",
+        "position": "7",
+        "length": "77000",
+        "work": {
+          "id": "9a3a2325-d651-3d56-aaa8-ff00872d6bb1",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXX. Recitativo „Und sie kamen eilend“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c51dbbf3-35af-4b1f-be81-15641a60d037",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXXI. Aria (Alto) \"Schließe, mein Herze\"",
+        "position": "8",
+        "length": "303000",
+        "work": {
+          "id": "7a4c26c5-1c78-3679-985c-f4bc474dceab",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXXI. Aria (Alto) „Schließe, mein Herze“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "414f8fd6-981f-4ed6-ae66-86f7299e166a",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXXII. Recitativo (Alto) \"Ja, ja, mein Herz soll es bewahren\"",
+        "position": "9",
+        "length": "33000",
+        "work": {
+          "id": "f8eb34eb-654c-3024-9372-df8c6149a731",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXXII. Recitativo (Alto) „Ja, ja, mein Herz soll es bewahren“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "13d87cc2-0f4e-4a56-a4b1-f209d3137930",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXXIII. Choral \"Ich will dich mit Fleiß bewahren\"",
+        "position": "10",
+        "length": "59693",
+        "work": {
+          "id": "ad4f30fd-3b2f-357e-8327-258fe85c5ca4",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXXIII. Choral „Ich will dich mit Fleiß bewahren“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cde6ff42-edc6-47af-9e71-e4720abddb89",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXXIV. Recitativo \"Und die Hirten kehrten wieder um\" (Evangelista)",
+        "position": "11",
+        "length": "29000",
+        "work": {
+          "id": "dabf40b2-ba20-3aeb-98ea-e2888d95891a",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXXIV. Recitativo „Und die Hirten kehrten wieder um“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ba85fbbe-10c9-4341-8626-25d73c8b0678",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXXV. Choral \"Seid froh dieweil\" / Teil III, XXIV. Coro da capo \"Herrscher des Himmels, erhöre das Lallen\"",
+        "position": "12",
+        "length": "178000",
+        "work": {
+          "id": "abf0bcd5-3b3a-3f66-a51d-d9b0a2d009c0",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXIV. Coro „Herrscher des Himmels, erhöre das Lallen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c569016c-1a63-4d42-a19a-42e3e0caa7e5",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XXXVI. Coro \"Fallt mit Danken, fallt mit Loben\"",
+        "position": "13",
+        "length": "407000",
+        "work": {
+          "id": "36332bfe-027e-373e-88fd-373d3e0bd7ef",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XXXVI. Coro „Fallt mit Danken, fallt mit Loben“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0ea9a794-87f6-4a48-a45c-052dde1f3a58",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XXXVII. Recitativo \"Und da acht Tage um waren\" (Evangelista)",
+        "position": "14",
+        "length": "37906",
+        "work": {
+          "id": "529809c0-f81f-3c12-bd8d-3dac461a6329",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XXXVII. Recitativo „Und da acht Tage um waren“ (Evangelista)",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f7855e5d-cf67-4d4b-9339-e63712355d36",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXVIII. Choral \"Dies hat er alles uns getan\"",
+        "position": "15",
+        "length": "52000",
+        "work": {
+          "id": "7d30d84f-6427-34bb-ae48-8c4b58306325",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil III, XXVIII. Choral „Dies hat er alles uns getan“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "31d62c3f-0b91-4c58-8a1d-5aaaa064e70c",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XXXIX. (Soprano) \"Flößt, mein Heiland, flößt dein Namen\"",
+        "position": "16",
+        "length": "389000",
+        "work": {
+          "id": "a70da700-6e85-398e-b289-3ff5c3eca5ee",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XXXIX. (Soprano) „Flößt, mein Heiland, flößt dein Namen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "befab18d-0bc9-4ed0-a0f3-d3f9b0bc02c3",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XL. Recitativo (Basso) con Chorale \"Wohlan, dein Name soll allein\"",
+        "position": "17",
+        "length": "98533",
+        "work": {
+          "id": "2794fa76-da1e-41a9-b029-fd708244fe4c",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XL. Recitativo (Basso) con Chorale (Soprano) „Wohlan, dein Name soll allein“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2c333b10-69b8-499b-b415-34f56c058232",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XLI. Aria (Tenore) \"Ich will nur dir zu Ehren leben\"",
+        "position": "18",
+        "length": "276000",
+        "work": {
+          "id": "a3284bc2-8003-3e1b-90b8-b8451e7aec35",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XLI. Aria (Tenore) „Ich will nur dir zu Ehren leben“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6e5be768-eace-4b91-89cd-58a7467c21d1",
+        "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XLII. Choral \"Jesus richte mein Beginnen\"",
+        "position": "19",
+        "length": "128840",
+        "work": {
+          "id": "6adff70b-d38b-323e-a037-c301a8059471",
+          "title": "Weihnachts-Oratorium, BWV 248: Teil IV, XLII. Choral „Jesus richte mein Beginnen“",
+          "composers": [
+            {
+              "name": "Johann Sebastian Bach",
+              "mbid": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+            }
+          ]
+        }
+      }
+    ],
+    "badac2e9-2d4e-38c1-8131-b760a26b5e54": [
+      {
+        "id": "c8213433-58b5-4084-a2fa-a78a7cc993c9",
+        "title": "Sonate N° 1 en sol mineur: Adagio",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "723e786c-96cc-433f-8e7c-7db158bb89c8",
+        "title": "Sonate N° 1 en sol mineur: Fuga",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "619b4953-b0a6-48e4-b382-6b76732b551e",
+        "title": "Sonate N° 1 en sol mineur: Siciliana",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "43d13fea-fd61-4958-b430-6c5d9369b1ed",
+        "title": "Sonate N° 1 en sol mineur: Presto",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "fdee764f-9238-4ed7-a2c5-621c80dfe785",
+        "title": "Partita N° 1 en si mineur: Allemande",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "71ddb039-473b-4024-9cac-841f96c5f3f7",
+        "title": "Partita N° 1 en si mineur: Double",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "2d309016-8ed9-4e21-a814-17c5e9c68e88",
+        "title": "Partita N° 1 en si mineur: Courante",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "c230e0db-badb-47b3-a84f-210a244eec97",
+        "title": "Partita N° 1 en si mineur: Double",
+        "position": "8",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "8fb441ef-d08c-4140-9547-2045c0920754",
+        "title": "Partita N° 1 en si mineur: Sarabande",
+        "position": "9",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "a5116547-afd0-4990-994e-be89a83aea77",
+        "title": "Partita N° 1 en si mineur: Double",
+        "position": "10",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "823ac4ea-62bc-41ba-a375-fb0453723ea7",
+        "title": "Partita N° 1 en si mineur: Bourrée",
+        "position": "11",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "8c092c82-d547-480d-8518-2de174d3c148",
+        "title": "Partita N° 1 en si mineur: Double",
+        "position": "12",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "6cbd6565-1eea-4103-8cf3-1f25c92517e3",
+        "title": "Sonate N° 2 en la mineur: Grave",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "a95ba234-64d2-49bf-ac2c-352690b9a6c5",
+        "title": "Sonate N° 2 en la mineur: Fuga",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "d98ea322-58df-4d44-8d43-7d6848a3f920",
+        "title": "Sonate N° 2 en la mineur: Andante",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "947d52fe-8c4a-4749-83f6-d6eae9bd6d58",
+        "title": "Sonate N° 2 en la mineur: Allegro Assai",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "65ad8555-22ee-497b-a930-0fcd8c1ef93b",
+        "title": "Partita N° 2 en ré mineur: Allemande",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "214d2d34-2898-4c27-85f8-7716637c4490",
+        "title": "Partita N° 2 en ré mineur: Courante",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "7d17af4f-be18-42a7-8184-fec3975d59b5",
+        "title": "Partita N° 2 en ré mineur: Sarabande",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "17ebc636-bd8f-4e5e-b72b-89c6b0a430d2",
+        "title": "Partita N° 2 en ré mineur: Gigue",
+        "position": "8",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "20e18268-9022-4e57-b323-5888eabb9be9",
+        "title": "Partita N° 2 en ré mineur: Chaconne",
+        "position": "9",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "d6706452-7221-4757-9e05-5045cda77934",
+        "title": "Sonate N° 3 en ut majeur: Adagio",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "70e35c30-c108-4da1-9fd7-71781fca1f37",
+        "title": "Sonate N° 3 en ut majeur: Fuga",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "e974f372-c757-4c54-9223-3c0907f6d0f6",
+        "title": "Sonate N° 3 en ut majeur: Largo",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "c24dbc04-ee16-4b60-810b-2b32540bfb28",
+        "title": "Sonate N° 3 en ut majeur: Allegro",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "d50a28f2-dc6a-457c-b1e9-c02a89ea7e74",
+        "title": "Partita N° 3 en mi majeur: Prélude",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "fd0f4348-6625-44bd-bca5-64a1e2d63295",
+        "title": "Partita N° 3 en mi majeur: Loure",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "49962c7f-9acd-4b9b-8d3c-06cbd5c3935f",
+        "title": "Partita N° 3 en mi majeur: Gavotte",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "369bd2a8-ab61-4220-adf8-387b4f89e990",
+        "title": "Partita N° 3 en mi majeur: Menuet N° 1",
+        "position": "8",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "66d62516-352d-4b11-9569-bbd20db61007",
+        "title": "Partita N° 3 en mi majeur: Menuet N° 2",
+        "position": "9",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "df9f6513-5e4a-4d39-bde4-04f867528a78",
+        "title": "Partita N° 3 en mi majeur: Bourrée",
+        "position": "10",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "8a69c8ba-43bf-412c-ba3b-aa34ebe1e116",
+        "title": "Partita N° 3 en mi majeur: Gigue",
+        "position": "11",
+        "length": null,
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 95537,
+  "wikidata_id": "Q1339"
+}

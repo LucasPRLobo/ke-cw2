@@ -1,0 +1,3786 @@
+{
+  "07472580-468d-3de2-bb69-8f5917c2e731": [],
+  "bb073249-7ccc-352e-88dc-5683db273e4c": [],
+  "ba7387a8-6f90-3030-88f5-bfbdcf8cb76f": [],
+  "65463cd5-f6cc-3ec0-89ea-94c8d5192f2e": [],
+  "89bc1959-05c0-3a28-ae2f-f84529ee3e47": [],
+  "22c4142b-b363-3545-b34a-bbdc2253568d": [],
+  "6601e95f-7909-47d3-ba84-46efd7b0ea73": [],
+  "9d92892b-3e96-34a6-a944-6e0b9ee74ae8": [],
+  "247727a1-655b-354b-831c-3b009fc8d7d2": [],
+  "e66b12d5-bc9a-3859-924c-1aec1c66fc28": [],
+  "d8791eea-7093-3c17-a093-b28b32290794": [],
+  "35243269-fe02-4406-a7c2-903b8a4b3022": [],
+  "fe3e5e11-188a-3a82-ad80-13b744f665c5": [],
+  "a9777aea-0b0c-3214-9bec-e7daff1cac37": [],
+  "8b412eaf-f804-335d-8c2f-23f0515036bd": [],
+  "8455059b-9595-37e0-a6f9-302f7d07bb03": [],
+  "651900a1-2185-3a6f-8bd4-5dee8d5c36ba": [],
+  "2ad4a15c-10ce-466c-95c9-c6863c6ad3a8": [],
+  "f11b1160-0073-3f2f-b38d-d3c45e0b9bfc": [],
+  "bd0cf9fe-f1b5-3ee3-bed8-6143b9c81260": [],
+  "05435a9d-07e3-3642-a30a-1d187de86b35": [],
+  "f9fdf85a-ec9b-3b51-ba7c-be778bca12d3": [],
+  "43f39a53-06b3-4cdb-837e-b46d875bd5ec": [],
+  "927f8f81-766d-3bfd-97c5-4dc02ce8222a": [],
+  "6e20143e-491d-343e-8110-2d01a8a18dc7": [],
+  "a1f8aa44-0613-36f0-9b4b-9faf191fc3c8": [],
+  "bbf424e3-e55e-31c1-ac5b-a0978c1b11ea": [],
+  "43e6b5b0-d964-31cf-8329-424b0f8911af": [],
+  "0f65a501-1343-3357-b369-b2d9f3a77a7e": [],
+  "87638b13-f50a-3aed-8319-08a9b33ab4a8": [],
+  "d3743f17-2306-3c6a-9447-fb6c2631087e": [],
+  "f2cc9bcd-5ae6-3dca-b83b-c85c5d0b042d": [],
+  "a71c1058-70dc-321f-b937-b27f24f3a3ca": [],
+  "da96fafe-ac76-3bb4-9211-91261555ee18": [],
+  "1ff6dde0-8fd8-3d72-849b-b09a6d6cac79": [],
+  "b214b27c-1216-3e91-9ab2-7a9f6dc18248": [],
+  "5bf6ae31-b484-39e7-9f12-ee6cafc146b8": [],
+  "3753e527-7347-32b9-9ec3-b7b1312e6c30": [],
+  "bd15cb00-79c9-3105-8253-dbcd809e7ab3": [],
+  "cbeb999e-862c-4077-b16c-1b1afcee61ae": [],
+  "a7a8ae46-04c5-3959-b8ed-e5a9c32492cd": [],
+  "2d4a4569-2673-330d-b059-2e6305df1350": [],
+  "abf0bcd5-3b3a-3f66-a51d-d9b0a2d009c0": [],
+  "b574e856-79b8-4bd7-a2cd-59750638e24e": [],
+  "c0961ffb-53ee-35c9-92d3-13db66bcb528": [],
+  "4c856b60-c526-31bc-89bc-57fd58b3d45b": [],
+  "7d30d84f-6427-34bb-ae48-8c4b58306325": [],
+  "007a9198-d59b-3b8f-a5bd-a4613e2d5fa1": [],
+  "9a3a2325-d651-3d56-aaa8-ff00872d6bb1": [],
+  "7a4c26c5-1c78-3679-985c-f4bc474dceab": [],
+  "f56a7b7a-b9a7-37ad-b94b-035a82b904fb": [
+    {
+      "name": "Charlie Parker",
+      "mbid": "c7356af9-9ea6-4a78-a55b-c73775716312"
+    }
+  ],
+  "f99aa87a-d665-3d56-8df6-1fb072ab2042": [
+    {
+      "name": "Thelonious Monk",
+      "mbid": "8e8c7417-c905-46b1-b42a-5260b4274ed4"
+    },
+    {
+      "name": "Cootie Williams",
+      "mbid": "754ed78e-d5c5-4a5f-846d-224ffa1c263c"
+    }
+  ],
+  "f71730f0-062f-3da5-8086-6fb07fea1839": [
+    {
+      "name": "Carole King",
+      "mbid": "bf6c29f5-b69f-4842-9031-37f9645d365d"
+    }
+  ],
+  "e8f22db4-6ee7-3c9c-a3ac-84d0f9215a1b": [
+    {
+      "name": "Smokey Robinson",
+      "mbid": "c19ff12b-058f-44a8-b245-b0efb4752925"
+    },
+    {
+      "name": "Ronald White",
+      "mbid": "8e27a96f-07a6-4484-a475-f0d487fc3c86"
+    }
+  ],
+  "6c0ae4fc-2893-363a-a3e9-f04324e0f525": [
+    {
+      "name": "Jerome Kern",
+      "mbid": "8fb64b2e-db8b-4579-ad08-f324ef1bf494"
+    }
+  ],
+  "03afac4f-e4f2-3a29-a2e7-745cebcccee3": [
+    {
+      "name": "Jerome Kern",
+      "mbid": "8fb64b2e-db8b-4579-ad08-f324ef1bf494"
+    }
+  ],
+  "2e9136a2-90a9-3144-b4c1-8aba75b8e459": [
+    {
+      "name": "Bill Withers",
+      "mbid": "fd1a2d9d-9bb6-44de-83a3-41560658aba9"
+    }
+  ],
+  "85c7e7df-8c44-3394-bafc-3ab2c6053454": [
+    {
+      "name": "George Shearing",
+      "mbid": "ef83af4c-4da9-47d1-b9bd-df9db18b28e9"
+    }
+  ],
+  "09d93689-ba5e-4e5c-b076-88b5cea8670e": [
+    {
+      "name": "Berry Gordy",
+      "mbid": "55bc7f0d-bc56-4a5e-8555-77557bb757cd"
+    },
+    {
+      "name": "Freddie Perren",
+      "mbid": "f9300575-b356-4e5a-88b3-f76bf6f34115"
+    },
+    {
+      "name": "Deke Richards",
+      "mbid": "72c73a5b-1154-4944-97f8-defb1c6ac47c"
+    },
+    {
+      "name": "Fonce Mizell",
+      "mbid": "fc55f851-01d7-4e96-8d68-15e62aae4af7"
+    },
+    {
+      "name": "Fonce Mizell",
+      "mbid": "dc6a34dd-b2da-4f58-8096-a505cccffff3"
+    },
+    {
+      "name": "Christine Yarian",
+      "mbid": "81a28af8-03de-46a2-93f1-83a5cd08f0bd"
+    }
+  ],
+  "f1699dff-6bec-31ab-a4f1-a9eea7f8e858": [
+    {
+      "name": "Berry Gordy",
+      "mbid": "55bc7f0d-bc56-4a5e-8555-77557bb757cd"
+    },
+    {
+      "name": "Freddie Perren",
+      "mbid": "f9300575-b356-4e5a-88b3-f76bf6f34115"
+    },
+    {
+      "name": "Deke Richards",
+      "mbid": "72c73a5b-1154-4944-97f8-defb1c6ac47c"
+    },
+    {
+      "name": "Fonce Mizell",
+      "mbid": "fc55f851-01d7-4e96-8d68-15e62aae4af7"
+    },
+    {
+      "name": "Fonce Mizell",
+      "mbid": "dc6a34dd-b2da-4f58-8096-a505cccffff3"
+    }
+  ],
+  "28e35529-efef-3926-972f-2bb9171cdfa1": [
+    {
+      "name": "Harold Arlen",
+      "mbid": "3508f3fd-3b18-493c-a362-376736bb6cde"
+    }
+  ],
+  "11366d3e-8460-30d3-a57f-f9b0fe37c820": [
+    {
+      "name": "Arthur Johnston",
+      "mbid": "f45179f2-dbe1-4076-af0f-e4a1b5bf2393"
+    }
+  ],
+  "1ff7aa1f-2981-38f9-baa7-ee7f3be0d5ea": [
+    {
+      "name": "Sigmund Romberg",
+      "mbid": "3c2caff5-ffbc-4711-9e4e-db94dd8e2e52"
+    }
+  ],
+  "7ca52501-d23f-3a18-971f-0ed7a4911ec3": [
+    {
+      "name": "Brian Holland",
+      "mbid": "de2dcddf-d398-4a3e-adfc-2f108317d6c4"
+    },
+    {
+      "name": "Lamont Dozier",
+      "mbid": "b801e3ad-a23a-4ae8-9708-6c02a202e9e1"
+    }
+  ],
+  "24a85d52-5d52-4c37-a2f1-ed3ff696592d": [
+    {
+      "name": "Walter Scharf",
+      "mbid": "464d272d-cdd3-460a-a020-d8aad782e1e3"
+    }
+  ],
+  "8a4f59f8-46ac-45e6-a19b-611c24bc7a87": [
+    {
+      "name": "Willie Hutch",
+      "mbid": "870b79e0-10b7-4e19-b11f-65607cffad9a"
+    },
+    {
+      "name": "Willie Hutch",
+      "mbid": "b363fa4d-0069-47ac-a850-4fb289e4826d"
+    }
+  ],
+  "e231876e-45e8-38dc-b892-cda1ef4af420": [
+    {
+      "name": "Leon Ware",
+      "mbid": "9b1f8808-6bdd-4d36-b619-ec5c7e6d0d7d"
+    },
+    {
+      "name": "Arthur Ross",
+      "mbid": "65b31de6-0017-4176-9910-89bf827848c0"
+    }
+  ],
+  "c636d609-43b5-3c19-adb3-cce609476bf9": [
+    {
+      "name": "Henry Cosby",
+      "mbid": "63e1cd3d-d447-4792-bf33-1f52c7790125"
+    },
+    {
+      "name": "Sylvia Moy",
+      "mbid": "c65d58ac-a8a9-42b1-b55d-3335cd64c4ce"
+    },
+    {
+      "name": "Vicki Basemore",
+      "mbid": "dc1059c8-f837-40f1-ab13-cc8a2f90572d"
+    }
+  ],
+  "29e18cf7-3946-33f8-ad37-0b463a5f7176": [
+    {
+      "name": "Elliot Willensky",
+      "mbid": "563cd731-b52d-4cf9-bc05-50fb2213a255"
+    }
+  ],
+  "ef4f1a6d-2cf7-39f4-889d-7911f4e7f725": [
+    {
+      "name": "Leon Ren\u00e9",
+      "mbid": "8a65c2f3-e954-48b9-92e8-0abd8f2ea5fc"
+    }
+  ],
+  "a7e0edf9-4d0b-3269-a54a-2d85cb9c6b7c": [
+    {
+      "name": "Sidney Lippman",
+      "mbid": "1f808556-4ce3-41e7-ba9b-3a31d04bdc7d"
+    }
+  ],
+  "36ff7154-1199-4dd4-9b32-52b41f248c62": [
+    {
+      "name": "Beatrice Verdi",
+      "mbid": "94f75e26-442f-46ad-b202-fc40055d717e"
+    },
+    {
+      "name": "Christine Yarian",
+      "mbid": "81a28af8-03de-46a2-93f1-83a5cd08f0bd"
+    }
+  ],
+  "e390fb23-96b8-4161-9d16-3c4ee50880cd": [
+    {
+      "name": "Mike Cannon",
+      "mbid": "99235285-20dc-41e8-92fc-f3008a38aebc"
+    },
+    {
+      "name": "Don Fenceton",
+      "mbid": "adc742a8-b73d-4f64-aedd-906c7e0b72db"
+    },
+    {
+      "name": "Jerry Marcellino",
+      "mbid": "457ab752-33dc-426e-b68a-2abc40f7832c"
+    },
+    {
+      "name": "Mel Larson",
+      "mbid": "8cfc7139-d23e-4896-bcb6-5c8473d345b4"
+    }
+  ],
+  "f8eb34eb-654c-3024-9372-df8c6149a731": [],
+  "ad4f30fd-3b2f-357e-8327-258fe85c5ca4": [],
+  "dabf40b2-ba20-3aeb-98ea-e2888d95891a": [],
+  "36332bfe-027e-373e-88fd-373d3e0bd7ef": [],
+  "529809c0-f81f-3c12-bd8d-3dac461a6329": [],
+  "a70da700-6e85-398e-b289-3ff5c3eca5ee": [],
+  "2794fa76-da1e-41a9-b029-fd708244fe4c": [],
+  "a3284bc2-8003-3e1b-90b8-b8451e7aec35": [],
+  "6adff70b-d38b-323e-a037-c301a8059471": [],
+  "60bf6e77-537d-38b3-9cc5-b69ae66086dd": [],
+  "ba77fa8f-6d60-3693-a25d-4e3b70f445aa": [],
+  "f3eb00fc-db87-47af-a370-14666e195bca": [],
+  "6355d2d1-9b35-3e69-9897-8fc701907649": [],
+  "0f105c98-26c7-4bd4-9f8e-3a8d52f57926": [],
+  "6207b4cc-9685-37e1-9b5a-372034f951f6": [],
+  "6dd05b6c-6b37-4673-a47f-40fc7a733255": [],
+  "a21b3a39-833a-4864-a2c5-c3a9d1400d2c": [],
+  "49380a48-8e57-4ea1-87c8-6530f70553a9": [],
+  "30829a64-22ce-427c-975c-d33d6678e7d6": [],
+  "be7d7829-11e3-4eb2-9f29-5ecb337aaee2": [],
+  "9bf129d1-cf03-435f-aee9-45118b9cca3e": [],
+  "d2b5a78a-88a3-4c00-809e-f4b12c74d1a6": [],
+  "5df4efe4-712b-46f0-a0d7-6ea5b656cb6a": [],
+  "cead06c4-6072-47c9-85a0-4305755cdf7a": [],
+  "c83e1588-2cb3-45cf-bd63-c02eccf50a6b": [],
+  "12267352-0c3a-4859-90bf-17a1ed1ed8ad": [],
+  "e10448e6-91c4-4085-adfd-7cb5ec477465": [],
+  "a704b4c7-a097-4817-aa1b-a3cb8ed906ee": [],
+  "ebd3a12d-46e4-47c4-88ae-8755fff3fbf9": [],
+  "33772e3e-b122-49f4-bf33-14e60ca729cd": [],
+  "0423a51a-66c8-4c04-802b-c3e0d2e1a7e9": [],
+  "b4ed7ed9-1528-4d7f-8bff-18beb26175be": [],
+  "d25f51ee-44d3-46da-a85b-fd166d574b63": [],
+  "07958afa-573a-4ed9-a508-15fa6ec6bdf7": [],
+  "45ac3df1-50c7-45ac-a78b-6d22d2c37080": [],
+  "8b091fb1-bd1b-4253-970a-5b78b6b91370": [],
+  "f8ee65f8-3af9-497a-931c-197c73faa96c": [],
+  "08d392d9-474f-4839-8b49-8e9ea2fa164b": [],
+  "09ff2999-b288-4f23-8d5a-b2013a981844": [],
+  "fd22ace4-1edd-4a55-988f-8beeed187890": [],
+  "b2808519-fd68-4d10-bf6c-6845f7fc200b": [],
+  "9db5f356-0dc9-45d4-be6b-d7c3b7cba5d8": [],
+  "6e191a31-e650-4235-a4b0-bef7e57bc7cb": [],
+  "71774d74-54c1-41de-a4b2-65f3662b2051": [],
+  "605b12b9-ca06-4515-b4e6-eeb4be260a0d": [],
+  "7896f616-8066-4dc8-8137-86b6bd8075ca": [],
+  "db0e0409-ab29-4dca-8530-56fdd0bf65d6": [],
+  "405d2ab5-f4b4-4681-a0a2-e3eca0dab497": [],
+  "8c67ab97-b9dd-46cf-8b4e-a3a4c3861ff7": [],
+  "6464660a-b85d-476b-9ded-723d8740e9ce": [],
+  "a46f1fc2-7172-485d-baff-3ad6c3501473": [],
+  "6d785fff-076a-434f-b123-0bab8cb89318": [],
+  "39ef364e-3e75-444b-811f-dd1003631d66": [],
+  "992fe6aa-41ea-4260-9af7-c4c5fe74082a": [],
+  "e3a06dc9-0f4e-40fa-81d8-a8bce18337ae": [],
+  "f9f8e269-5ff3-4201-b659-e221505b9b89": [],
+  "55796a94-c071-4363-849e-140cc627743a": [],
+  "c70335f2-790c-4e63-83fd-ba08d7aa792b": [],
+  "839fb31c-a89c-4e60-ac22-809c29127626": [],
+  "b262d829-b8ef-483a-8a16-f2eddd150fae": [],
+  "979c2d5b-ed50-44d6-916f-9c8cd5ff3007": [],
+  "bc0d68ff-4fe9-47a5-bbfb-5cec2c7e437a": [],
+  "eafc221c-8182-4fac-8c2c-9987cb4916b2": [],
+  "f6e7cc19-a53e-466b-a564-5e385e5c8bb6": [],
+  "238e31bb-08ec-468f-ad6b-a5df2e018ac5": [],
+  "94ce30fb-55ff-43f9-9824-0309ac89ac24": [],
+  "a2396993-f8cf-48ea-aa70-5611ad68637d": [],
+  "d420292b-949f-4fee-a842-3da3d44551d6": [],
+  "bdc05750-cdd7-412e-976b-60c90a92190c": [],
+  "576443c9-2e4d-4275-bf75-9c1d065b7920": [],
+  "4650ce82-519a-3e6f-ab32-82e634f268c0": [],
+  "1493f993-e75a-3e90-bf1d-fec2a235d48f": [],
+  "81258b8f-9c6b-31be-96f0-f02303bb75a0": [],
+  "187bdb5f-5118-3729-9112-69b25756a0db": [],
+  "870580d5-4c56-31c7-b919-ae6dcd0d3a69": [],
+  "4d83ee29-4ae5-322f-ae40-442a6585b1d8": [],
+  "266d1710-39bb-4b05-9d01-d81974aa03f2": [],
+  "30775d65-4977-3836-ad29-c5f2acab2c39": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "f94364c5-b4ca-3555-af9e-86dff67757af": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "8133796b-6eb1-3e5b-a797-5906630b57a1": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "43ad4521-d89a-3eb0-b474-ece7a28dd242": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "234b0fa6-12f8-3c9c-98c4-f6bd8176a30b": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "954e6c5e-b4d2-31e8-ad36-e2108e823f80": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "fc99e449-1984-3351-b63d-e156d77e1db7": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "e56e2039-c79d-30bc-9b8a-d702660b4c71": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "6922b851-604d-32f1-9aa0-4895423e82d9": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "f6575710-965f-3582-bbf9-28edeb7ef0cc": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "e3de446e-12ce-3580-82e2-badd5dadc05f": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "19e1a09e-32ab-3f65-8184-8d0d17b202a0": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "17921999-272a-389b-a2f3-0e9f98924767": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "e98cd015-5031-38da-b7a3-06465072cc6d": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "2e585bfd-6b65-36a5-9e0a-4bb1353faebd": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "c4262c54-c76e-42df-93f3-39d2c15455db": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "06f87358-f383-4529-a2b5-43db6c252cad": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "7594212c-3f09-3543-aa79-c6d2c453b9c3": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "6fcee893-0836-3b1f-968f-f0b1d97f89ea": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "1f235196-7152-32e4-aa62-25d89a49ca9d": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "d6192f57-90ca-461d-85af-a5dbbdce89e7": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "b1a3bfd0-48b7-4d5c-adc5-28df89635150": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "cf610ca0-a95f-3606-a65d-e265e8a97ae4": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "f020b5a7-be34-4557-b849-382caa3871f1": [
+    {
+      "name": "Peter Gabriel",
+      "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    }
+  ],
+  "c6cb35d0-0c14-47b0-bcfd-7b0bc89d267d": [],
+  "b94dc3d3-d464-47a5-ba8f-beb4eb359b28": [],
+  "4095d826-bc2d-494b-878f-69a757f98da9": [],
+  "6353d882-23a7-4403-9d3e-4f7788719b7d": [],
+  "a2c21421-dce4-472f-b4a8-186729e5f6bc": [],
+  "8d03c7b7-1807-44e1-ac8b-b49299c74ba0": [],
+  "b4c32693-7165-4b19-840a-b84fc0df454c": [],
+  "32831943-3385-4b17-a107-236fa72baacf": [],
+  "eeb09010-7338-3a79-ba11-44c689083349": [],
+  "361ae712-04d5-3ed6-b82b-914200a2458a": [],
+  "fb78f908-719c-347e-b73c-c62769ad371d": [],
+  "06960aee-2fe5-3783-a32d-a83f0080c53c": [],
+  "3fa689d3-1c44-3acd-8285-5ee0dc7263ce": [],
+  "442e5f12-bf4e-38a1-a6d3-18de8e231fd4": [],
+  "a5fa0c2a-5637-4b23-84ab-4052622652f8": [],
+  "aa78acae-49db-4ca8-b3e8-957598efbb7a": [],
+  "9daa3d5e-7d6a-44da-b273-337a6cc3aca1": [],
+  "1a9ff420-da05-4d06-8a43-97dae9e7f277": [],
+  "5cce2272-d0cf-4689-b317-f3328351f1b8": [],
+  "d7e8600a-dd3f-4eac-b7b2-07eb2e6a5b16": [],
+  "5f5eaaf9-d767-44cb-ae1b-070cbfd021f6": [],
+  "97e6053d-d233-4aeb-979f-25df9937ef25": [],
+  "b6a5c0cd-dffc-4e19-a0b0-24d5e2dffac9": [],
+  "3f95c54e-b88d-4f89-a604-bd12cdb8a523": [],
+  "70f891af-ab8e-41c4-8581-01aa06b19ca7": [],
+  "ed3a4eb0-48f0-4e52-a8c6-d0e960010f86": [],
+  "3ea59e6f-4d98-3ef2-93ed-b698fc38ada5": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "dad62c26-f0f3-3d1d-a491-62078052c449": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "09560144-c191-3973-b247-be43f7c308c2": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "cf315953-a2bf-32ec-be4b-0d4bfaf05e97": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "b985a660-d207-30bc-951b-35853fd8b41e": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "6fb51014-54d6-328f-9074-765c8db731fd": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "d686006c-8fbb-36f5-90ae-3984fe6574ea": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "4d494cc0-1376-3cd2-87af-67dfe20a5c06": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "7e8acf98-46ce-33f1-bfa0-d2a4b897a132": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "3dd2ca0c-e59c-3743-8ad5-cc480ed61ac3": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "17f54152-63a6-3b20-b191-6a9045274e1d": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "721b62bc-3590-34da-a3b3-358c2607c987": [
+    {
+      "name": "Fr\u00e9d\u00e9ric Chopin",
+      "mbid": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+    }
+  ],
+  "03f9865e-4466-4e9c-a08a-c412287ed643": [
+    {
+      "name": "Tupac Shakur",
+      "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2"
+    },
+    {
+      "name": "Tupac Shakur",
+      "mbid": "98b5a1d4-3f58-412f-950c-ee9d82743705"
+    },
+    {
+      "name": "Tupac Shakur",
+      "mbid": "e263a1d8-8228-4ede-9e17-7acf8470165a"
+    },
+    {
+      "name": "Quincy Jones",
+      "mbid": "5803c81e-739a-4057-9a5c-cf84e55db630"
+    },
+    {
+      "name": "Johnny \"J\"",
+      "mbid": "8f6d6f9e-61dd-4a37-b304-1081fee3ae8b"
+    },
+    {
+      "name": "Leon Ware",
+      "mbid": "9b1f8808-6bdd-4d36-b619-ec5c7e6d0d7d"
+    },
+    {
+      "name": "Bruce Fisher",
+      "mbid": "57c5fb41-70ac-4055-b482-a36f869ee980"
+    },
+    {
+      "name": "Stanley Richardson",
+      "mbid": "9c44f7fd-66f9-4c37-b0f9-b39c6068fde9"
+    }
+  ],
+  "b6baa2c1-eeb6-3e22-b7d9-fcad11cc8e0b": [
+    {
+      "name": "Jean-Michel Jarre",
+      "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+    }
+  ],
+  "7ecbdfce-e75d-3079-8eb7-27c8895c715b": [
+    {
+      "name": "Jean-Michel Jarre",
+      "mbid": "86e2e2ad-6d1b-44fd-9463-b6683718a1cc"
+    }
+  ],
+  "dd87af93-b4b1-4041-94bc-a3d21dadc707": [],
+  "e32aa5d1-6ef4-4a9f-9b32-ff24912120aa": [],
+  "dde2be04-742c-4aee-890b-6226d6d5ca7a": [],
+  "cf8f49d3-91e7-4cb6-98b1-850a3719f19e": [],
+  "86e1eae6-7159-44e3-9395-f6af5bc6dec4": [],
+  "9fa3123a-d610-45d6-a938-7f5fc4c80c1e": [],
+  "6c501efc-fa3b-4ca2-a560-a8d77866337c": [],
+  "441ac8e6-5692-4cd5-8187-7e03020d47f5": [],
+  "b70e238b-1c1b-4aa8-b3ce-911676895875": [],
+  "c7e911aa-e68d-4fc0-93eb-bc9062062120": [],
+  "6100dd0f-fe6f-4dc8-b773-e357cb5b7c12": [],
+  "2ae2d382-2d09-4e8b-b8e2-2bd52a959ca7": [],
+  "0e83f0cd-02ae-4259-a495-40db2043930b": [],
+  "8333d33f-d5a6-48ae-92d8-0ccddb8a5701": [],
+  "94796e48-7a73-41b5-9b54-854b62ce1e2f": [],
+  "fd3fd0a8-ca8c-3e3d-a3bd-fdfac446719c": [],
+  "24b5af9f-504b-3ab7-a585-ddd3489271a6": [],
+  "f79d8600-9e61-3230-b61f-550998bd2be2": [],
+  "ceef55f3-8e19-38d6-9e1d-a6dd33c7f622": [],
+  "c78f3f9e-499b-391f-b38f-ca1d5e55a223": [],
+  "d03bb3e4-c7ca-3d28-8e69-64b41a49a122": [],
+  "2ffcb83b-2a24-3de5-a3da-b83cc947270d": [],
+  "23d3806e-7eb0-36ad-a607-26a631a0571a": [],
+  "928bf9f6-9e57-3a5d-8691-b58a8ba59eb5": [],
+  "7db03c5c-86c0-315c-b086-1099a76b7daa": [],
+  "b1e2e014-79cd-37ea-bf4a-09216053ee1c": [],
+  "8abfcec0-0d26-3032-8eab-3752a2f855a7": [],
+  "f6bd3b58-62c3-4841-947b-fe35662e14ae": [],
+  "5586955d-7901-4c86-a081-fb6de49935f2": [],
+  "271096dc-a47f-459b-9e27-ca8353ff800c": [],
+  "e04eeedc-f44f-3b3f-be7a-30a0634b4e57": [],
+  "f908ff52-0093-409c-9af7-95926203b98a": [],
+  "39496c2f-6254-4144-8d15-b343a8142dae": [],
+  "017d5883-8964-44a0-8fa4-2764afc43ffc": [],
+  "ce7bca2f-15cd-4006-8c48-ee9ace1a8150": [],
+  "8487e946-0a1c-4198-b911-3864fe16ffa7": [
+    {
+      "name": "Tupac Shakur",
+      "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2"
+    },
+    {
+      "name": "Tupac Shakur",
+      "mbid": "98b5a1d4-3f58-412f-950c-ee9d82743705"
+    },
+    {
+      "name": "Tupac Shakur",
+      "mbid": "e263a1d8-8228-4ede-9e17-7acf8470165a"
+    }
+  ],
+  "8bd3625e-a993-3388-bfb2-23dc1350fa4d": [
+    {
+      "name": "Johnny Cash",
+      "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+    }
+  ],
+  "ba883522-bf5a-37b5-b6b8-7572e139c6d7": [
+    {
+      "name": "Johnny Cash",
+      "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+    },
+    {
+      "name": "DP",
+      "mbid": "a54b71a1-6863-449a-b961-586eaea49440"
+    }
+  ],
+  "5d3da6b0-277f-47d7-9dc4-e66b0ec3309f": [
+    {
+      "name": "Johnny Cash",
+      "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+    }
+  ],
+  "e7e798b8-36ab-31cf-98af-2ab803877283": [
+    {
+      "name": "Johnny Cash",
+      "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+    }
+  ],
+  "cb1b5631-2798-3549-a3cd-99be9a17fb56": [
+    {
+      "name": "Johnny Cash",
+      "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+    }
+  ],
+  "0f66f66c-7186-48a7-a6ea-0aaf339ed814": [
+    {
+      "name": "Johnny Cash",
+      "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+    }
+  ],
+  "c3fe1dc6-21aa-3d8d-9cde-df8524fbc83c": [
+    {
+      "name": "Little Richard",
+      "mbid": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be"
+    },
+    {
+      "name": "Dorothy LaBostrie",
+      "mbid": "f3897319-c9a4-4550-8b20-de5d508f8f15"
+    },
+    {
+      "name": "Joe Lubin",
+      "mbid": "a99a7722-450e-427a-908d-9c1ecaab3707"
+    }
+  ],
+  "3c339d3d-c76d-3eb5-b3bc-98c8c2d18620": [
+    {
+      "name": "Richard Rodgers",
+      "mbid": "346448f5-25a0-4f78-bbd6-acc0205f7513"
+    }
+  ],
+  "e5e57b3d-ff8c-3def-854b-fc9d22668f7d": [
+    {
+      "name": "Carl Perkins",
+      "mbid": "068bd7ab-c38e-4fae-8ed2-cb0c153ed68f"
+    }
+  ],
+  "c9dc0c47-a461-3cf1-90c6-9dee753ef606": [
+    {
+      "name": "Jesse Stone",
+      "mbid": "b011ce7d-ff1c-43cd-82ae-d978ee4d5d49"
+    },
+    {
+      "name": "Jesse Stone",
+      "mbid": "76ed5db8-3bc9-483e-8238-e965f831ca5f"
+    }
+  ],
+  "ea6ccf52-c878-34df-a8cb-2d320de462db": [
+    {
+      "name": "Ray Charles",
+      "mbid": "2ce02909-598b-44ef-a456-151ba0a3bd70"
+    },
+    {
+      "name": "Renald Richard",
+      "mbid": "3e7beb58-2991-4ac8-84cd-915f1d46acd5"
+    }
+  ],
+  "36db83df-5ca8-359d-af39-03ddab0bd1bb": [
+    {
+      "name": "John Marascalco",
+      "mbid": "c343d682-7507-446f-97b1-6f39a9594c22"
+    },
+    {
+      "name": "Robert Blackwell",
+      "mbid": "44389e9f-8ae9-40ff-8645-d082a9109e72"
+    }
+  ],
+  "cc2c187f-6f9e-3443-956f-684b4e8307ae": [
+    {
+      "name": "Leon Payne",
+      "mbid": "e3d0da79-2006-472c-8338-2ea2e259058b"
+    }
+  ],
+  "6162993e-33fd-36fd-a0d2-1d52b6e287ad": [
+    {
+      "name": "Jimmy Wakely",
+      "mbid": "0b8f67b3-b1d8-4d7a-8317-9d2e7e1cb277"
+    }
+  ],
+  "f4df1135-e9e1-3eee-aa9c-955eb6ed0af3": [
+    {
+      "name": "Sid Robin",
+      "mbid": "0b5820aa-6926-4be8-9fb4-923893c56fe1"
+    },
+    {
+      "name": "Joe Shelton",
+      "mbid": "26d26bd1-6b07-4e84-90e5-af603ebc108a"
+    },
+    {
+      "name": "Joe Shelton",
+      "mbid": "6661d200-6d21-4a8d-9f31-e27f50cd4e92"
+    },
+    {
+      "name": "Bob Shelton",
+      "mbid": "212879c6-3dce-40b6-abf2-aacf7d101d12"
+    },
+    {
+      "name": "Bob Shelton",
+      "mbid": "be97c5e7-496f-491e-b421-ce7d46b04f11"
+    }
+  ],
+  "2d331370-0057-340f-87c1-60ea6835c246": [
+    {
+      "name": "Don Robertson",
+      "mbid": "cb35d893-ddff-440f-b64d-a3ca1962e51e"
+    }
+  ],
+  "c5b4b75c-f0b5-38cf-87e5-ed3b07f80660": [
+    {
+      "name": "Charles Singleton",
+      "mbid": "b98d9cb9-dab6-451e-aea2-0a184f35c860"
+    },
+    {
+      "name": "Rose Marie McCoy",
+      "mbid": "aae5ab53-d071-46d8-982c-54bd912761bd"
+    }
+  ],
+  "1da416e8-761d-3125-adcb-79bcea5ef544": [
+    {
+      "name": "Wallace Willis",
+      "mbid": "6695305e-59a5-44d3-80fc-592dbb155d18"
+    }
+  ],
+  "f8cddd85-328c-3025-a446-d4f444554436": [
+    {
+      "name": "Howard Biggs",
+      "mbid": "9176d57f-f160-41fc-a140-e1124420af19"
+    },
+    {
+      "name": "Joe Thomas",
+      "mbid": "67e3dc36-1774-44bb-9690-616c7073d911"
+    }
+  ],
+  "3dc80b85-f26e-41cd-a5c3-ccc8b7a8aae0": [
+    {
+      "name": "traditional",
+      "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+    }
+  ],
+  "c243aa5e-9fec-3133-9c73-c838f5f2691b": [
+    {
+      "name": "Bill Campbell",
+      "mbid": "f46f9a66-f99f-4c84-b452-88135041e85a"
+    }
+  ],
+  "0ffbf739-db65-3fcf-b4e7-fb08074524bf": [],
+  "98bb1633-d172-3a1d-8fca-3286a5aec2a2": [],
+  "8d410392-97fd-3db4-b431-41fc4a9cd2c3": [],
+  "6003f730-8a54-344b-a451-0495a61992ed": [],
+  "f8ead46b-ac7e-427f-bb58-8737cffe5469": [],
+  "b5d36f63-930c-4fe3-ab0c-8c0b118d0e42": [],
+  "a619ce36-dbe8-4c16-a5a3-587e934ec637": [],
+  "37d2acd4-00d2-488d-a093-947d1e8e0504": [],
+  "1b7e1b2a-a0b2-444a-8de3-113f302556c2": [],
+  "648cc6ca-9a3c-4e10-90a6-c21c8e76e10c": [],
+  "19f33441-4655-4aa1-b2f1-058ec6305592": [],
+  "b3116c25-33a5-44df-8099-da354f7d262f": [],
+  "8324de08-a364-4fa2-bbb1-c08d97f6ad83": [],
+  "04567be8-5f20-49ee-8b16-1a1bad1ded8c": [],
+  "01e759ee-3577-4136-b215-a9d365059ee6": [],
+  "92bf8aa2-c381-43a2-b5a5-9cb8aadc3101": [],
+  "37fcc664-afd8-4d01-a219-c38cc43f9f76": [],
+  "284526c4-8327-4b9b-9957-8fcafe9db0e9": [],
+  "145c8746-bc20-4626-a53c-0c5286d47272": [],
+  "f0d0b820-e8e6-4da2-ad1b-85f56cc467de": [],
+  "bcba7989-9342-4240-b5ba-c5242e0dc26c": [],
+  "290dca11-4c6c-4ec5-acbf-044cc12df716": [],
+  "9e1e199c-866f-42d1-961c-c35090c96bf8": [],
+  "1b32d278-5108-4ae8-bd01-3f8cf770f8bc": [],
+  "5a6738a1-3c14-45a2-a554-4f0587b18b0f": [],
+  "4ab82a1f-defc-4770-aee9-522bdd429762": [],
+  "4e203619-ad1c-4adf-9ba3-7705f305e9e4": [],
+  "797ba237-c2cb-41de-9e2c-3395e3f80785": [],
+  "c391d8c2-cbc7-33df-a6ec-de583e822c19": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    },
+    {
+      "name": "Giorgio Moroder",
+      "mbid": "38dd6337-19ae-4793-ab4b-313eff523457"
+    }
+  ],
+  "00936a08-8458-33f8-aa93-2ca6e9aa8069": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "60fb97b0-b84e-317c-b8ed-7aae45453a26": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "d833c85f-9486-418e-a31f-ce96a4f087ff": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "4679e271-b7c1-3331-882e-2a173f2001e4": [
+    {
+      "name": "Little Richard",
+      "mbid": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be"
+    },
+    {
+      "name": "Robert Blackwell",
+      "mbid": "44389e9f-8ae9-40ff-8645-d082a9109e72"
+    },
+    {
+      "name": "Enotris Johnson",
+      "mbid": "e4eb9c22-c61f-4363-8617-ba22f3efdc01"
+    }
+  ],
+  "30daa999-81af-34c3-bf22-b3c1c41c8c01": [
+    {
+      "name": "Irving Berlin",
+      "mbid": "5e645519-a175-4fe0-9a9b-eb9dc9f506b5"
+    }
+  ],
+  "f87ca150-2c38-31f3-95a1-c4bfc7957568": [
+    {
+      "name": "Phil Spector",
+      "mbid": "e7b587f7-e678-47c1-81dd-e7bb7855b0f9"
+    },
+    {
+      "name": "Ellie Greenwich",
+      "mbid": "4c857e19-d9bb-460e-b3ec-2d1ea24c3247"
+    },
+    {
+      "name": "Jeff Barry",
+      "mbid": "0e21491a-18a5-40d9-a68c-a651a0fda689"
+    }
+  ],
+  "6aecfa9a-70f1-4cc0-9390-2c27828f0b9b": [
+    {
+      "name": "Aaron Schroeder",
+      "mbid": "3897c75a-a0b5-4c23-9ede-6bea1e1736bb"
+    },
+    {
+      "name": "Claude Demetrius",
+      "mbid": "4aada77c-d6b9-497e-a9ab-15df025ab553"
+    }
+  ],
+  "760347e8-c5c3-4ff9-b90b-6a9baa9e4c2c": [
+    {
+      "name": "Thomas A. Dorsey",
+      "mbid": "6fb94460-3194-43cb-8b30-aecf862c93b9"
+    }
+  ],
+  "885e8ef3-3df0-47a5-babc-cfcea0f5fd58": [
+    {
+      "name": "Thomas A. Dorsey",
+      "mbid": "6fb94460-3194-43cb-8b30-aecf862c93b9"
+    }
+  ],
+  "0135dd36-dde3-325b-8394-0a9faf6aa653": [
+    {
+      "name": "John Marascalco",
+      "mbid": "c343d682-7507-446f-97b1-6f39a9594c22"
+    },
+    {
+      "name": "Robert Blackwell",
+      "mbid": "44389e9f-8ae9-40ff-8645-d082a9109e72"
+    }
+  ],
+  "74ebc241-545b-3870-8404-085f730c96a8": [
+    {
+      "name": "Arthur Crudup",
+      "mbid": "8d835405-44cb-49ea-b223-d5f91e109b22"
+    }
+  ],
+  "1c5c3128-7a70-37f6-9e93-a1211db7555d": [
+    {
+      "name": "Red Foley",
+      "mbid": "aff932c2-ec30-4ee9-9125-5f761aae61a4"
+    }
+  ],
+  "8c2f46bd-f866-400f-abc1-887c1d9a583b": [
+    {
+      "name": "Stuart Hamblen",
+      "mbid": "696e7bed-989a-4111-bc10-7f960561024b"
+    }
+  ],
+  "40cbacdd-6236-3453-98f9-b50d03cd1c17": [
+    {
+      "name": "Mike Stoller",
+      "mbid": "02f314c0-2136-4172-8ea0-07149c77c722"
+    },
+    {
+      "name": "Jerry Leiber",
+      "mbid": "24252d8a-38e7-4358-bfe7-70d845f156ba"
+    }
+  ],
+  "e226bd7c-d143-4439-93dd-2c33ec2ba943": [
+    {
+      "name": "Mike Stoller",
+      "mbid": "02f314c0-2136-4172-8ea0-07149c77c722"
+    },
+    {
+      "name": "Jerry Leiber",
+      "mbid": "24252d8a-38e7-4358-bfe7-70d845f156ba"
+    }
+  ],
+  "b6933bbe-f804-4710-974d-6a4cb00099c7": [
+    {
+      "name": "Ervin Drake",
+      "mbid": "86098e4e-b5a5-4ada-801f-42b98f42806f"
+    },
+    {
+      "name": "Al Stillman",
+      "mbid": "f02bc184-12ba-40d4-909a-bd45b0e72ab6"
+    },
+    {
+      "name": "Jimmy Shirl",
+      "mbid": "df8a022a-2cad-4016-a2d1-5107a5858300"
+    },
+    {
+      "name": "Irvin Graham",
+      "mbid": "4b0fa389-89fd-437c-aa7a-b7ec293de988"
+    }
+  ],
+  "1aa1b720-0c31-4f32-8a63-accc54024713": [
+    {
+      "name": "Buck Ram",
+      "mbid": "10d9b154-7c29-4bed-93da-3ba5965ae918"
+    },
+    {
+      "name": "Buck Ram",
+      "mbid": "57e6c608-5bdf-4ecf-ab54-fdec4c892a97"
+    },
+    {
+      "name": "Walter Kent",
+      "mbid": "be20278d-c066-4ef5-9a4b-48b546e39f3f"
+    }
+  ],
+  "9d651c9d-99cf-3d8d-b80f-641512ccd1e1": [
+    {
+      "name": "Buck Ram",
+      "mbid": "10d9b154-7c29-4bed-93da-3ba5965ae918"
+    },
+    {
+      "name": "Buck Ram",
+      "mbid": "57e6c608-5bdf-4ecf-ab54-fdec4c892a97"
+    }
+  ],
+  "8b5e0b0b-65ed-4e24-974a-262416875a4a": [
+    {
+      "name": "Oakley Haldeman",
+      "mbid": "d71d5834-4a37-42f4-931e-8300844b8b16"
+    }
+  ],
+  "414afdb5-bd79-3349-8a93-d940da14c36e": [
+    {
+      "name": "Billy Hayes",
+      "mbid": "1976921a-5102-4ea1-a3ce-6d89430689bd"
+    },
+    {
+      "name": "Jay Johnson",
+      "mbid": "0304ceef-677b-49dd-b501-a95568e5995f"
+    }
+  ],
+  "cc8e6dfb-426d-3a6f-97cf-8c9f7212685e": [],
+  "65101e89-03a7-31d1-ad49-4d5a63575eae": [],
+  "ee65bdef-23cf-374f-9dad-a16ffec7adc5": [],
+  "5565cdae-3fc5-31ad-8910-a895e514eda8": [],
+  "f5d1ef2c-436b-3f9e-b852-43d808aea1df": [],
+  "a4e6b55b-0a94-38c6-809e-03f16a0f9bee": [],
+  "e03d0a60-322a-4201-8e3a-095bd735998e": [],
+  "eb768a09-04f6-40c5-be05-c28812f05f30": [],
+  "830d6bbb-d516-40ae-bc4f-b3016d96bc82": [],
+  "925a6718-568f-3e8b-b90f-4a278b4354cc": [],
+  "6d68f767-17c7-40c2-9aa4-eace24fb9edb": [],
+  "0d26470c-ecc3-4132-a46f-b1bbac1371c5": [],
+  "2a4530e4-e785-4db2-8d8a-fcfb8663a81c": [],
+  "35a52940-20d5-4a82-8ce9-c02222741dea": [],
+  "38f7084b-d0a4-4fef-8da1-f3ef10cb9105": [],
+  "6a020eb1-7482-403f-a0bb-634016a9478b": [],
+  "4ffb1539-06d2-4b37-a60d-8eaa4184a184": [],
+  "f6a82957-5adf-496b-a5d2-ab379d7cea9d": [],
+  "d82ecb62-07b9-3a2c-b42b-60b27b26c228": [],
+  "73ba04c4-220b-3d93-bb07-b89f4eddbde2": [],
+  "7fe96098-2107-3444-87ce-040c3891ec9d": [],
+  "268eb407-bf0f-40c7-a09d-45a3ee647c6f": [],
+  "0667bee0-e474-4bb8-a25a-611abba9c4bc": [],
+  "7601a4b2-d611-4c9c-bea5-e39a59a8d650": [],
+  "f7f62a72-2bce-3652-be6c-27e8fd001b3e": [],
+  "c99286c3-2108-4f6c-8058-ebf764b36b9b": [],
+  "c7963fc7-4fc6-4b94-91c9-ab5fac853578": [],
+  "3135d904-ae48-3068-8ab3-03844d88c354": [],
+  "4cd4ef42-baf9-4d63-ad5c-552a493d0774": [],
+  "65473dda-bff0-38f6-bbad-43b622f8380c": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "2f4fdebc-8700-4396-8b5b-f0aceb75ccf4": [
+    {
+      "name": "Reinhold Mack",
+      "mbid": "bf2618fc-0c53-447d-9527-c7eb9c6cb001"
+    }
+  ],
+  "5757fff7-068f-3328-8eb0-cb427891e0cd": [
+    {
+      "name": "Irving Berlin",
+      "mbid": "5e645519-a175-4fe0-9a9b-eb9dc9f506b5"
+    }
+  ],
+  "b221e821-4520-3c2f-a1f1-142efdb703d7": [
+    {
+      "name": "Matt Dennis",
+      "mbid": "a693dfa5-0797-471f-b35b-c464be7f0c4c"
+    }
+  ],
+  "228a25c5-5180-4d9d-827f-4e8d8e62e4e9": [],
+  "214c5d35-1772-4be9-b6bb-e1661984c54a": [],
+  "4a87a31f-6380-45b7-911b-93fc28863d45": [],
+  "3770d5ca-9e1f-4fb5-885c-26054e30f643": [],
+  "006ee3af-39ea-44e5-a7b7-3b3f14265bc2": [],
+  "11c5ea20-2483-497e-940a-b970f53866c6": [],
+  "e5ede44a-73d5-48e2-b313-44c0e26d1c7e": [],
+  "ed610998-03fb-4639-925b-4d31d22477fb": [],
+  "daec6d90-8e40-391b-a024-fc0b2ceb0631": [],
+  "a00221bc-7556-42f6-bf05-8b1e208d1f98": [],
+  "fefcce89-7ade-3687-a010-b8f972fcc6a2": [],
+  "c7fc3a94-a801-3fea-9001-f229feeefebb": [],
+  "e09d0d02-659c-4390-9191-a263823c3ada": [],
+  "bf8fc0b4-8037-4b12-baef-912a1aa17f3e": [],
+  "b0b0f3e0-bcc5-4dda-8b58-60ba942e1325": [],
+  "9129dfd1-ebd2-45bc-a1c1-3f27494c171d": [],
+  "bfc750b7-7feb-48b7-b1f9-d84a116b4235": [],
+  "2f50b109-d5ff-42cf-a0d3-940e63517ab6": [],
+  "e4afc82e-8f53-4945-85a6-4db8dada718e": [],
+  "6ba1229c-a7fd-4a19-b4a9-7b3846620439": [],
+  "b49aa34e-6576-4d43-aee7-98b816d916d5": [],
+  "33b639d4-8ce3-42b0-84f8-537b0564fbe0": [],
+  "ac038254-acd9-430c-b446-b374f0393673": [],
+  "6f8683b9-7f8c-416a-b879-fa631b7dd276": [],
+  "dcb5122d-5f4b-442b-80b6-8196619d53c2": [],
+  "5be1965e-574e-4844-897e-2c8308b0f2be": [],
+  "3b6b212d-1bf7-3396-99c1-91a218126925": [],
+  "5d4ec508-c5a1-3ba8-b6e1-66ef02ce9232": [],
+  "64e5e9e2-5cbb-375f-baff-e6a7029be986": [],
+  "80577b86-df95-38b4-9e61-8bea3149c8e2": [],
+  "3bf08275-669b-3717-b6db-ff925d1650ed": [],
+  "e014c66f-ea6b-321c-a0ca-0d37054eb278": [],
+  "685b51b4-2cfc-3def-ac5c-fb7a580dd243": [],
+  "8270166a-6f89-3763-81e5-fc2bbf408cf2": [],
+  "f5e8ecf6-bc14-3b85-9074-bac8cae38ec3": [],
+  "b9b35072-5dd9-3c0a-8f60-46742be5c2e8": [],
+  "4a592b50-75b6-35ec-8d09-c9b65400fb25": [],
+  "f4769af8-e7b4-3339-8a87-1994bac8115c": [],
+  "be6207c9-f6a8-3dd9-86ab-d02db35b8804": [],
+  "d8496503-9544-3f9d-9a10-5dac78f0c25c": [],
+  "e0aa8133-f2b1-32f7-880a-037da77acee5": [],
+  "1757df78-ed85-3567-bd06-a11f2973c3dc": [],
+  "5e710838-d13e-4aa9-8d0c-15fbbb20b90e": [],
+  "e4e2860a-5d1c-3f92-84aa-348b554a512e": [],
+  "18e6fd71-7566-41ed-9f95-2a8c3dff7de1": [],
+  "0605029c-90ff-3601-a167-a122096addfe": [],
+  "7c8872d8-37ed-3642-ac1d-1801d9857235": [
+    {
+      "name": "Wolfgang Amadeus Mozart",
+      "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+    }
+  ],
+  "f5a12d42-00a1-3bc2-8ed1-df2506ea3db2": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "131c38ec-9606-3faf-b889-ee7238572c75": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "570edb47-3490-337a-9eb5-19542bcbf4a8": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "76a0fd00-0006-49c7-bd60-92e72490d3e8": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "59f4520e-95e1-3f77-ab62-ff9f21285bec": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "e393936f-b863-466a-9c84-50a51d995268": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "b57912dc-7ca1-3805-8af2-8eca5d3e7496": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "c35e6be5-57c8-3467-a779-64aef4d6c415": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "bd938649-94eb-3dd7-9239-43b739283469": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "b391eba1-24bc-3d4b-9510-e36f4ad0e4f5": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "04920e7f-790a-302c-873c-1efc11d20b4d": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "c05e06fd-89d8-36d8-8aab-9804b8dd5d89": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    },
+    {
+      "name": "folklore",
+      "mbid": null
+    }
+  ],
+  "5ed18d5c-9848-393a-a919-1cc02ef4bfe8": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "428eadb3-4fae-397f-b28b-d87c13519116": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "9725de39-be25-40de-a739-0ea170bbc0de": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "32623697-38ad-3cb0-b45a-da158426a1d7": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "675f22a0-5ea3-4939-860e-1f30ba629deb": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "c1620cb6-4a71-4a90-909c-6b2c2b9e0c63": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "b1c1f7f9-a870-3f5f-b5f5-854b8ae5eda3": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "b2f9b96d-89a1-4499-9606-26e60860309d": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "d5c204a5-18e6-3c3a-adb8-875a616dd214": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "a2331550-4792-3b4b-91ad-995ee329448f": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "8fbc762e-d02a-3212-a1a0-b76e34fb9f93": [
+    {
+      "name": "Bob Dylan",
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+    }
+  ],
+  "88bc04a1-7f5f-3607-8855-56cfa1cfe6dc": [
+    {
+      "name": "Blind Lemon Jefferson",
+      "mbid": "9481010a-db23-469d-87df-b04118850efb"
+    }
+  ],
+  "402405c8-acbd-3de4-9f8d-2bbaa595826e": [
+    {
+      "name": "Bukka White",
+      "mbid": "882af819-887e-4691-a4af-b14613058942"
+    }
+  ],
+  "99c40aca-bc94-4ba3-9605-bfb0cb26a0ea": [
+    {
+      "name": "Mal Waldron",
+      "mbid": "3f658e7f-4f44-4493-942c-ede5033bc6f7"
+    }
+  ],
+  "50214f6e-87fd-4067-9a5f-b3e8e1b748c5": [
+    {
+      "name": "Jesse Fuller",
+      "mbid": "e148154d-e1fb-4da4-8db2-d54bf9a894b8"
+    }
+  ],
+  "c899f86f-c9a1-49f8-aca3-5b04568dbb94": [
+    {
+      "name": "Henry Thomas",
+      "mbid": "46b6c6e1-81ca-4fa8-b264-8f0fe49dff1a"
+    }
+  ],
+  "0845e3dc-783d-40e8-a8ae-ba0289b98694": [
+    {
+      "name": "traditional",
+      "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+    }
+  ],
+  "b0b1fbb1-7fa6-3de8-a33f-c8b62fec94e3": [
+    {
+      "name": "traditional",
+      "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+    }
+  ],
+  "52089277-3826-33bc-9bd5-606365451cf9": [
+    {
+      "name": "traditional",
+      "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+    }
+  ],
+  "0ee749bc-fa4b-3e68-af25-686a5aab69e5": [
+    {
+      "name": "traditional",
+      "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+    }
+  ],
+  "5cee6e58-87c3-4183-b7b0-e2fa908e9240": [
+    {
+      "name": "traditional",
+      "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+    }
+  ],
+  "2f3b19e4-14a3-3756-bad2-0f000c920a25": [
+    {
+      "name": "John Lair",
+      "mbid": "bc75172c-359b-4d31-8c49-6ad95507e9ad"
+    }
+  ],
+  "08db792c-83ae-357b-aa44-91bb89419d33": [],
+  "003d9eca-e7a2-35c2-ab8e-9fe712088917": [],
+  "96b61c4e-465e-3571-8424-7f8626004ac0": [],
+  "609a8791-a8ce-38a8-8aa2-bc7bb418efbe": [],
+  "b4b25ee7-a1e1-475e-91af-0e459f56423d": [],
+  "c08968cc-86f9-4a70-a573-6ab689b629bf": [],
+  "3232d3b3-026a-4bfe-8597-df0b0c89db98": [],
+  "773e1fea-7af8-3d05-bcf3-276b387f4c4d": [],
+  "11e9382d-334c-498c-85cc-8029c1e03c57": [],
+  "dba3d37e-6d4f-394c-b23b-68e478671cf6": [],
+  "9c7c551d-8245-3b69-a558-54aee9fc008a": [],
+  "4f301be0-3592-318f-a49e-0a784700751d": [],
+  "a8d7eb11-801e-3ccc-b8c4-dfc039b8bee9": [],
+  "6776b450-f02d-3417-8fc2-25b4747a2c7b": [],
+  "7aa0645b-ce42-3e87-9f75-4b81d2cf1c9d": [],
+  "6ca3e245-d8e5-32e8-9d5a-34719830e1aa": [
+    {
+      "name": "Wolfgang Amadeus Mozart",
+      "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+    }
+  ],
+  "bcc79df6-e116-38cc-96ce-5b4e4a41cad4": [
+    {
+      "name": "Wolfgang Amadeus Mozart",
+      "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+    }
+  ],
+  "ca017173-6247-3533-949a-90a0d679b060": [
+    {
+      "name": "Wolfgang Amadeus Mozart",
+      "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+    }
+  ],
+  "322c3954-0045-3096-a310-667f86cce7e7": [
+    {
+      "name": "Wolfgang Amadeus Mozart",
+      "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+    }
+  ],
+  "ca3f63c1-4660-3344-bb12-c124dfe13411": [
+    {
+      "name": "Wolfgang Amadeus Mozart",
+      "mbid": "b972f589-fb0e-474e-b64a-803b0364fa75"
+    }
+  ],
+  "ed26d4de-d9db-361c-8bea-b7c08c7312b5": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "c4bb79ce-b942-3939-bfb1-9b57cc74ea5b": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "3d2be76e-8193-307e-bca5-71f9c734c0f0": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "24e04462-eb1a-337f-b20e-8ed8fee09d61": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "a92ad8ad-34f4-3af3-b708-c6100eed2bc5": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "16505c22-e286-3bb2-866e-ed00a8044cd7": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "a8a158e3-0a0e-37e1-b5b5-9480a02d816e": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "c65404bd-6bc9-30d3-9813-a960e83d9faf": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "07760ebd-56ef-3b95-b776-c0ff787326d8": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "bf51bdc8-5623-36af-a516-083166bb0bff": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "a3fb304a-3680-369c-b9a1-61d0931a1a60": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "c285d2be-1d11-3518-910c-10f68125297c": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "01f35a80-893c-3d2b-b74d-05a3ec9abc0f": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "45ffef49-4017-3d87-b04f-fc7c38ae7526": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "8a54ee89-8c1f-3511-aeef-8893379963b8": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "c31e5675-8fb4-38fc-a160-7e41638a9ffc": [
+    {
+      "name": "George Harrison",
+      "mbid": "42a8f507-8412-4611-854f-926571049fa0"
+    }
+  ],
+  "3d55b4e1-36f5-3cec-b702-59d1b534611e": [
+    {
+      "name": "Chuck Berry",
+      "mbid": "592a3b6d-c42b-4567-99c9-ecf63bd66499"
+    }
+  ],
+  "74e33237-62d6-35d2-8a39-892b9d3f1506": [
+    {
+      "name": "Burt Bacharach",
+      "mbid": "2882ffa3-dec9-4055-a842-a950728bcb02"
+    },
+    {
+      "name": "Luther Dixon",
+      "mbid": "1a2d3f1a-6146-4fb6-92c7-da4f91bcc44d"
+    }
+  ],
+  "3c45ba61-5116-35ef-bc5e-03c60511779b": [
+    {
+      "name": "Carole King",
+      "mbid": "bf6c29f5-b69f-4842-9031-37f9645d365d"
+    }
+  ],
+  "e39be679-5a1e-3ddb-9f23-c469783a54ea": [
+    {
+      "name": "Smokey Robinson",
+      "mbid": "c19ff12b-058f-44a8-b245-b0efb4752925"
+    }
+  ],
+  "a50f2637-33a5-3e1f-a375-101460bea6a5": [
+    {
+      "name": "Berry Gordy",
+      "mbid": "55bc7f0d-bc56-4a5e-8555-77557bb757cd"
+    },
+    {
+      "name": "Janie Bradford",
+      "mbid": "f23bf5f5-4246-4e5f-9f8e-6a104a813e23"
+    }
+  ],
+  "7e2dedbb-5be0-32d4-8985-079d6df1e78b": [
+    {
+      "name": "Bert Berns",
+      "mbid": "2891369d-d843-45d1-ac1d-52982095ae8c"
+    },
+    {
+      "name": "Phil Medley",
+      "mbid": "718cd7af-a94a-42e6-a10e-5b12db6e6dc7"
+    }
+  ],
+  "47dcb656-3e85-39eb-ab71-d2e75564fc44": [
+    {
+      "name": "Bobby Scott",
+      "mbid": "009a9fa1-c002-4fd5-a3e0-bc39a33bb07b"
+    }
+  ],
+  "b0df7fba-26c7-33f4-9475-eeceaf61aab8": [
+    {
+      "name": "Brian Holland",
+      "mbid": "de2dcddf-d398-4a3e-adfc-2f108317d6c4"
+    },
+    {
+      "name": "Freddie Gorman",
+      "mbid": "7877209b-9d91-4c03-8736-e8a7485bd58d"
+    },
+    {
+      "name": "Robert Bateman",
+      "mbid": "0a28318c-3da4-42d3-a777-9b6c5560f37c"
+    }
+  ],
+  "552f3fee-d045-3ca7-9104-d58bc127ffb5": [
+    {
+      "name": "Meredith Willson",
+      "mbid": "b042bb3d-912b-4e3f-a12b-e98675383b82"
+    }
+  ],
+  "ce7a1aeb-8feb-32ea-ab0f-255599a34107": [
+    {
+      "name": "Wes Farrell",
+      "mbid": "ca14af84-9dc4-4cd8-ad93-0c299881f4df"
+    },
+    {
+      "name": "Luther Dixon",
+      "mbid": "1a2d3f1a-6146-4fb6-92c7-da4f91bcc44d"
+    }
+  ],
+  "f85e85e4-e486-34a4-baf5-db003adfa9f0": [
+    {
+      "name": "Arthur Alexander",
+      "mbid": "749896c9-578c-459c-9487-22f5376172ab"
+    }
+  ],
+  "d890393b-d981-39e2-9a65-605ff9a8efc3": [
+    {
+      "name": "Richard Drapkin",
+      "mbid": "185a669f-45a0-4e63-a6f1-2ba51f5b1bad"
+    }
+  ],
+  "d775da05-6001-42a3-a1f9-f5936016790b": [],
+  "0d58a983-1e7f-331d-b56f-0a4fb597ba84": [],
+  "da7ed47d-9b17-3c73-8fa9-cc966a4d43ee": [],
+  "30c49319-00e8-3c46-8070-b14e91cb8ffe": [],
+  "a2c04374-01b9-47a5-9e05-2691e9382329": [],
+  "8ac35095-3460-369f-ba34-df2d11fa8b10": [],
+  "46202eaf-1b07-409e-b324-a8129f9cebbe": [],
+  "09a52bf4-fa49-3fc3-8c58-e76722f847f1": [],
+  "4e0ed20f-3ee2-3908-b934-6cee2894679e": [],
+  "f0882f4a-81d7-3ad8-9ff0-39603bc29e51": [],
+  "f2fb5ceb-95cc-39bc-956d-d686f58bcf72": [],
+  "99b6dfc4-2e79-3f71-8fdd-20d005155f73": [],
+  "5577dc87-3e11-44f4-996a-0673d589f2b2": [],
+  "7ededd22-2d41-4873-aac8-73015c915c80": [],
+  "66a63581-c457-4a75-a7fc-4b1dac3e2909": [],
+  "e62273f9-f06a-4f1d-a139-4a72e35078c6": [],
+  "7d16d16a-0d0d-4388-b38b-2f3363345402": [],
+  "ac967d83-36c2-3bf5-a2a6-562c4b1fdb2e": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "3044cd9b-c195-3a1a-b729-88e676b6eee8": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "4517f338-f9bf-30e4-8118-8b057c0f5895": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "09f0da5b-f428-43cc-aa74-6c5e37b028ee": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "4eefcad2-3147-48b7-8306-a4d8ef8f9e37": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "91c72d7c-b958-430a-98fb-28396978a127": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "eb3afc3d-9101-32ec-bda5-a669216dc96d": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "c501452d-327c-434a-831d-9cc22c42a795": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "580791b7-0fee-4f2d-9c8b-e93e631cfa86": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "8fcae174-a27e-4011-af87-f60880cefb53": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "88d03b42-f8b7-4203-a77f-290730aa88c6": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "2b665bed-8731-4b7f-a22c-c505d098ef36": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "7697c7e0-235d-401f-b2de-90510d43cecf": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "60fb0012-324a-48f7-8366-eff001b8a050": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    },
+    {
+      "name": "St\u00e9phane Grappelli",
+      "mbid": "bfc03211-a3a2-4700-8fa3-00968c02c5d0"
+    }
+  ],
+  "ca64f21d-7cb1-392a-bede-0fadf71138b6": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "0f771cef-1a0a-3d2d-a092-2145c14521d5": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "d5a2e85e-9c03-4e46-946f-6e288cb2a231": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "d44786f9-f2d0-3cfb-9bd9-9bc84ed430bb": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "0d77298c-dab2-4bbd-945d-e34f86ebae3d": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "609529e7-0109-4d14-b9fa-5952946b11a3": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "db3df2a9-79bb-48f8-9876-fbbd19de975b": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "54ecd710-2112-42b2-95dd-e083eff259f6": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "2c718b47-b11b-46c4-ac8a-8fcae2b77495": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "81db98c2-aad1-4e8c-886f-8da794bbf401": [
+    {
+      "name": "Paul Simon",
+      "mbid": "05517043-ff78-4988-9c22-88c68588ebb9"
+    },
+    {
+      "name": "Paul Simon",
+      "mbid": "82f75e30-e211-41a1-9b2b-f083b9dd3ba3"
+    }
+  ],
+  "5ea7fd4e-648d-3698-917c-10eb0b328ba1": [
+    {
+      "name": "George Gershwin",
+      "mbid": "65744963-191a-44ef-a3c7-b693a808a158"
+    }
+  ],
+  "987e7397-8ead-3a86-9054-be065e427ac5": [
+    {
+      "name": "Cole Porter",
+      "mbid": "4a94a6cb-e70a-418b-bb53-a37897b950ce"
+    }
+  ],
+  "b4f11508-863f-374e-88a9-b930fba10fd7": [
+    {
+      "name": "Cole Porter",
+      "mbid": "4a94a6cb-e70a-418b-bb53-a37897b950ce"
+    }
+  ],
+  "ade9c30c-faf5-3219-aa4a-6631d39deea7": [
+    {
+      "name": "Victor Young",
+      "mbid": "338f9d5d-9327-4f01-bb99-0cdf22c48565"
+    }
+  ],
+  "f8217125-b460-3902-8903-82979e3785ee": [
+    {
+      "name": "Harold Arlen",
+      "mbid": "3508f3fd-3b18-493c-a362-376736bb6cde"
+    }
+  ],
+  "3ed0d951-d66c-3731-a37b-30d985234108": [
+    {
+      "name": "Harold Arlen",
+      "mbid": "3508f3fd-3b18-493c-a362-376736bb6cde"
+    }
+  ],
+  "da630a31-a392-35cf-99e3-2620cb2b7fa7": [
+    {
+      "name": "Nacio Herb Brown",
+      "mbid": "5219ac97-886d-4465-87c5-882e31976981"
+    },
+    {
+      "name": "Gordon Clifford",
+      "mbid": "3c1d6ce1-0bca-4b0f-9c4b-8e77331672c2"
+    }
+  ],
+  "72715cfb-1ade-30ed-951f-14cea4bc6292": [
+    {
+      "name": "John Frederick Coots",
+      "mbid": "3bcb90e6-c8d9-463d-870a-3cc1e480a060"
+    }
+  ],
+  "8bb1de84-474b-3092-a779-5c21c77a77be": [
+    {
+      "name": "Harry M. Woods",
+      "mbid": "765d18ec-8a76-4f6e-9c6e-cd78a223724c"
+    }
+  ],
+  "778b7385-a5e6-367a-8fb8-50143d4ece55": [
+    {
+      "name": "Fred E. Ahlert",
+      "mbid": "15e3114e-19f8-4222-a585-0229920db798"
+    }
+  ],
+  "6261d6d4-caa9-31f0-8ab4-f977bcd57451": [
+    {
+      "name": "Harry Link",
+      "mbid": "7c0e243d-30e5-472f-b5db-afa0632abd19"
+    },
+    {
+      "name": "Jack Strachey",
+      "mbid": "1c8a91b9-5e5d-472a-bbc0-d5ce334cef0a"
+    }
+  ],
+  "07db079d-0182-322a-bf08-1c98221a7086": [
+    {
+      "name": "N.J. Clesi",
+      "mbid": "98f6ee4c-fcf9-434f-aeef-fb2fef850369"
+    }
+  ],
+  "94b79c8b-2186-4d80-8364-3d88fa535a76": [],
+  "65f7c57c-c18c-47e4-9927-46957d2c7f02": [],
+  "c9de9271-9eaa-467f-9180-51142a3c2b61": [],
+  "1d2780af-48b2-40fc-84b6-6969d3e6fb5d": [],
+  "f2a6d172-bc87-48a5-926b-bfe4a4543448": [],
+  "c9ad17e6-440e-40b6-b4f9-58b74b006c20": [],
+  "2c289883-b40a-4ad8-89da-79d1fdf8b16d": [],
+  "4b5bbaca-abd4-451e-866d-2cc6e1c35f8f": [],
+  "6f954774-b04d-486e-be35-06eca3d4118d": [],
+  "6ec7e58a-b410-4a83-ab3c-8afe10e4c75a": [],
+  "c7ea2308-270f-494f-a266-9c7a785288c8": [],
+  "24728894-5d8c-4a3d-8abf-2fa9e1e45134": [],
+  "5673df4c-301b-4bca-86cd-5dba92226a94": [],
+  "bc76594b-b113-4a57-b929-b9911531108e": [],
+  "13869248-f36a-3fe0-a8bd-7c0d2793d8d9": [
+    {
+      "name": "George Gershwin",
+      "mbid": "65744963-191a-44ef-a3c7-b693a808a158"
+    }
+  ],
+  "8812f327-e92e-37b9-bdc4-2cc1ade322c8": [
+    {
+      "name": "George Gershwin",
+      "mbid": "65744963-191a-44ef-a3c7-b693a808a158"
+    }
+  ],
+  "8f022c46-455a-3d72-b014-c4ed8fdf9dab": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    }
+  ],
+  "ff2dd223-0bed-3b8c-a92c-c047a81272f2": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    }
+  ],
+  "d335c181-eff5-3165-81d9-dadd03c91e7e": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    },
+    {
+      "name": "John Paul Jones",
+      "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+    },
+    {
+      "name": "Robert Plant",
+      "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+    },
+    {
+      "name": "John Bonham",
+      "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+    }
+  ],
+  "975c64de-9161-3161-9729-3a2e0e938d78": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    },
+    {
+      "name": "Robert Plant",
+      "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+    }
+  ],
+  "b41829d6-9af7-3159-a8ce-fca057a1bbfe": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    }
+  ],
+  "36df44f5-7cad-37ee-9aae-89a5c58dfb07": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    },
+    {
+      "name": "John Paul Jones",
+      "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+    },
+    {
+      "name": "Robert Plant",
+      "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+    },
+    {
+      "name": "John Bonham",
+      "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+    }
+  ],
+  "9bbdbd7f-3b4d-33db-8a07-8b53b72293f7": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    },
+    {
+      "name": "John Paul Jones",
+      "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+    },
+    {
+      "name": "Robert Plant",
+      "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+    },
+    {
+      "name": "John Bonham",
+      "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+    }
+  ],
+  "e12dc3de-ed8a-3d7f-a473-b67f454f147c": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    }
+  ],
+  "9aa319e5-6ddf-3dc8-9b74-5e1e465e2b03": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    },
+    {
+      "name": "Robert Plant",
+      "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+    }
+  ],
+  "f38484b2-f85c-36b9-b0f9-ce5cd9ae4bda": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    }
+  ],
+  "f6d8c108-1f66-3dc0-9767-573fe66a2835": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    }
+  ],
+  "b38119e8-260f-372c-a1ca-653d02b5577c": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    },
+    {
+      "name": "Robert Plant",
+      "mbid": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+    }
+  ],
+  "653cff78-c53c-3ccd-a374-99c4ab19f896": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    }
+  ],
+  "825faa21-9413-3c52-8aa5-61c36b9e11a1": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    }
+  ],
+  "cfccf1bd-5e22-38b9-be90-a985ef1a8a9f": [
+    {
+      "name": "Jimmy Page",
+      "mbid": "519774a4-3b18-4042-b8c0-927845a616c9"
+    }
+  ],
+  "9585bdc9-0063-3e62-807d-889b0ce2e6d0": [
+    {
+      "name": "John Paul Jones",
+      "mbid": "4490113a-3880-4f5b-a39b-105bfceaed04"
+    }
+  ],
+  "60631848-81df-3413-9262-826f319aea70": [
+    {
+      "name": "Willie Dixon",
+      "mbid": "ff4c8d42-4871-4778-885b-d41b01245133"
+    }
+  ],
+  "eed98f33-d536-37c9-a838-22f5ad947837": [
+    {
+      "name": "Willie Dixon",
+      "mbid": "ff4c8d42-4871-4778-885b-d41b01245133"
+    },
+    {
+      "name": "J. B. Lenoir",
+      "mbid": "29b9edaa-058f-489a-b54a-73cc3627661c"
+    }
+  ],
+  "324e9a98-a968-3f27-b274-4bccc2ebe0c8": [
+    {
+      "name": "Jake Holmes",
+      "mbid": "e1c69c84-5941-4c57-a041-2808d4d88db4"
+    }
+  ],
+  "2f5a6c59-d6b4-3bb7-9134-0fee120e3209": [
+    {
+      "name": "John Bonham",
+      "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+    }
+  ],
+  "3070ec4f-6e8c-3b3d-80bf-6d75dc38d8d7": [
+    {
+      "name": "John Bonham",
+      "mbid": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+    }
+  ],
+  "590e5567-c188-31f0-b7a8-a94e7e51c7b3": [
+    {
+      "name": "Franz Xaver Gruber",
+      "mbid": "4122e107-a90c-4ff3-8223-51cf490c022c"
+    }
+  ],
+  "bca56a5b-777a-3f42-ae6e-8a33a098d807": [
+    {
+      "name": "James P. Johnson",
+      "mbid": "2a58b026-9659-4bfb-90c9-56c4ad9125f1"
+    }
+  ],
+  "b3e49473-899d-3f08-9f06-2afc70f85e2e": [
+    {
+      "name": "John Frederick Coots",
+      "mbid": "3bcb90e6-c8d9-463d-870a-3cc1e480a060"
+    }
+  ],
+  "57f86d53-3b74-3446-9bf4-4b73c678700d": [
+    {
+      "name": "John Francis Wade",
+      "mbid": "997ccbe8-1820-4ee8-851f-a62ab571e226"
+    }
+  ],
+  "ca7bfba8-e5aa-3d25-9b4a-3b9d2626841d": [
+    {
+      "name": "James Pierpont",
+      "mbid": "ff98b821-de0d-4a0e-9002-507bf323a97d"
+    }
+  ],
+  "838d3974-d9a2-4019-848a-c0c3e5d1a7d6": [
+    {
+      "name": "Al Hoffman",
+      "mbid": "17051835-d7f4-45ee-b985-a9a640b570fd"
+    },
+    {
+      "name": "Al Goodhart",
+      "mbid": "413fb64b-58f4-42ec-9808-e01570fdb7a9"
+    },
+    {
+      "name": "Edward G. Nelson",
+      "mbid": "0a6c6f00-a370-4ffd-a08e-145566bd761a"
+    },
+    {
+      "name": "Edward G. Nelson",
+      "mbid": "2374ae4b-3304-47d0-91f4-0034a881edb2"
+    }
+  ],
+  "94e725f5-da4c-3daf-acea-be46ff06dc02": [
+    {
+      "name": "Richard Storrs Willis",
+      "mbid": "7eb17272-ac63-41e7-aeec-a38088014fb5"
+    }
+  ],
+  "c825b1f0-54d9-4bf5-978b-072a75f36919": [
+    {
+      "name": "Lewis Redner",
+      "mbid": "dff5d398-8857-4ec2-882d-56fdc10ce07b"
+    }
+  ],
+  "16834f90-0256-30bb-a5ab-6bdc9237cd13": [
+    {
+      "name": "Charles N. Daniels",
+      "mbid": "0987c822-8789-4198-8666-8ccb530ca0be"
+    },
+    {
+      "name": "Charles N. Daniels",
+      "mbid": "1f82e57a-3f91-420b-8033-986b75168214"
+    }
+  ],
+  "2ff51d26-cc88-443e-83b9-baf9cf244112": [
+    {
+      "name": "Hugh Martin",
+      "mbid": "46f29ffe-7479-4365-bfd0-fd8f2bb1c7bf"
+    },
+    {
+      "name": "Ralph Blane",
+      "mbid": "23eb93f3-52b5-470a-aee1-11b76336ae41"
+    }
+  ],
+  "cfa697fc-2fa9-3cfd-b169-b29cf831faaf": [],
+  "2984fe19-95e4-321b-babc-34c4cde17ba6": [],
+  "6d995058-8387-333c-8c5c-71a1b3dc6011": [],
+  "8edcd65a-452e-3819-969e-02039ed2c482": [],
+  "7d09a1ff-c459-3730-82e2-80b27d4ba124": [],
+  "b9c5ad2d-8a39-380d-9503-1b57662dbe64": [],
+  "ff171946-afd5-365b-b6f3-f5ce5564e7d9": [],
+  "08382c00-90ca-3187-a6ea-d9f4c2073596": [],
+  "766fa7ed-a504-43d9-83b3-5a45a1a17fc5": [],
+  "fef759d9-1f45-4494-a7ec-4b4f935c58ac": [],
+  "5d5c2f1c-6908-4cba-b15c-07a33dc310ff": [],
+  "b97ad517-2d1d-404a-a4e2-755b8569c2d9": [],
+  "3a7783ef-037e-42fd-8ed0-c3aeff7800dd": [],
+  "cbdc5879-6b8d-46a8-a178-9de83328155f": [],
+  "af40bed5-b424-4e09-a7f4-ba7a234103f0": [],
+  "93e81012-8a46-4bf1-9584-e872c962a410": [],
+  "f0741c11-ac58-48a0-a4e8-3b81d0dfd28c": [],
+  "9fdfe242-caea-4941-b5df-fcbe00f95892": [
+    {
+      "name": "David Bowie",
+      "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+    }
+  ],
+  "066bea58-1480-3152-83ed-bbd4f37b23f7": [
+    {
+      "name": "Billie Holiday",
+      "mbid": "d59c4cda-11d9-48db-8bfe-b557ee602aed"
+    },
+    {
+      "name": "Billie Holiday",
+      "mbid": "a17dd03a-80e6-4280-963a-e25ec9050b6f"
+    },
+    {
+      "name": "Arthur Herzog, Jr.",
+      "mbid": "6727725b-9247-484d-bea8-44ac04208e17"
+    }
+  ],
+  "c7ff39d3-72c1-4905-a3e3-b28f396c0c6d": [
+    {
+      "name": "Jerome Kern",
+      "mbid": "8fb64b2e-db8b-4579-ad08-f324ef1bf494"
+    }
+  ],
+  "5038f3b8-0451-36dc-8cc8-cd6cc6fb4683": [
+    {
+      "name": "Harold Arlen",
+      "mbid": "3508f3fd-3b18-493c-a362-376736bb6cde"
+    }
+  ],
+  "f8961e02-0664-4b26-84c2-8851da64cd1d": [
+    {
+      "name": "Lil Hardin Armstrong",
+      "mbid": "2a6f6ee8-a9cd-4826-9749-d0fe48fb49f7"
+    },
+    {
+      "name": "Lil Hardin Armstrong",
+      "mbid": "397c1ab6-4b92-4cae-bdbc-da23fe416569"
+    }
+  ],
+  "2b10cff9-a483-306f-9bfa-096f8295111c": [
+    {
+      "name": "Sigmund Romberg",
+      "mbid": "3c2caff5-ffbc-4711-9e4e-db94dd8e2e52"
+    }
+  ],
+  "10436d0f-c969-3133-8e55-7bd13fcad5f9": [
+    {
+      "name": "Jimmy McHugh",
+      "mbid": "c414371b-3377-43b5-9dc2-2a20254ed520"
+    }
+  ],
+  "0f588cc6-59a4-4c28-900c-4b8a35cec287": [
+    {
+      "name": "James V. Monaco",
+      "mbid": "f82ad155-eab8-4db6-a86e-9c1b6f515296"
+    }
+  ],
+  "497f68ad-527e-31c5-8049-3ea2018c996a": [
+    {
+      "name": "Beasley Smith",
+      "mbid": "67e2831b-4072-4c92-aeef-eb5fd6184abe"
+    }
+  ],
+  "c123b157-68ea-3720-8680-c530cedb9da9": [
+    {
+      "name": "Jean Schwartz",
+      "mbid": "ca6adee7-abf8-46ce-aebb-3c8c66f7931c"
+    }
+  ],
+  "b27d3d7e-c9c9-4c98-8454-b8dd5a873a52": [],
+  "e72463b3-ec6a-35a3-8eb7-cf015092dad0": [],
+  "9b51c7f3-1821-4698-aea8-b390e070ab88": [],
+  "76c78602-647a-42db-9403-f914de765519": [],
+  "ad0cccbd-2608-4400-a27a-f32a703a0ad7": [],
+  "ac876a45-c865-4a8b-a0df-c72dbe2926ba": [],
+  "1b320201-9116-4904-a63e-22b217f2250e": [],
+  "514cabed-9215-4d35-a04a-a71ba27935e5": [],
+  "4dfa2177-ca6d-4595-8bc4-53d45fd2364f": [],
+  "066dc4f0-b8fc-4dab-ac27-3f0fc8546cbf": [],
+  "edd91ebc-8340-4333-973f-f2ecc6bcdc86": [],
+  "c84d54a4-457e-3dc9-9ced-535e2cc3a347": [],
+  "b49b1ab9-8e71-3fe9-8916-5764ae1a2b1f": [],
+  "65ecbc97-d015-3d6c-b599-7dee875327fa": [],
+  "451b8255-8781-4eb3-b057-cf426daab303": [],
+  "2c19f71b-243e-4d41-9018-50a03bde6511": [],
+  "18785f04-a6e3-4676-9073-b68f6864ed47": [],
+  "64a04d47-ea60-3b67-a8cf-668833dbb77a": [],
+  "50d10553-72bc-41c4-ad79-787267139836": [],
+  "3940abe4-5391-327c-86b3-38eb21a88aa4": [],
+  "a5de4507-b0e0-3ce4-b0e0-9c41f228a47f": [],
+  "dfd98854-5caa-3b7a-aeba-d3181fa65bb5": [],
+  "8cb03062-a2c8-34d0-ae96-3db2238d6fff": [],
+  "74838b9e-d31a-30e8-8935-2540eba4c7d2": [],
+  "34980aee-9713-3b42-9f44-b0f72e180333": [],
+  "968e4567-4cba-3d87-988e-27ad0b0a7f4a": [],
+  "42deff8f-819f-319d-8821-77fc51993bca": [],
+  "159c775f-a905-3f11-9a97-290008d8fcb8": [],
+  "f62bc27c-5d97-3ea6-926c-89400894c693": [],
+  "0ee5157c-49a0-3530-8b86-1c9bfcf988fd": [],
+  "d8642252-dea5-45a3-bd56-f0147576e8c2": [],
+  "211acba4-0df3-3e8f-9901-a119ccbd104b": [],
+  "e6ff3027-63fd-483a-90bc-29e50c0ead3f": [],
+  "913bc84d-158b-3ac3-821e-6cc5e46c9bb5": [],
+  "ffdf5002-45cc-3533-898e-b43441b8aa3f": [],
+  "b6b0a615-adf9-3427-a3ba-cd34556d9997": [],
+  "7f82f52e-ba7d-40a6-9c95-1a5f83bfb9b9": [],
+  "0382dd6a-2e1e-42bc-9a86-e9ac84a795a3": [],
+  "7af56c47-032c-4afc-a728-a7f01f311fe5": [],
+  "387d1f2a-90d4-41a0-af53-c12b3ae0397a": [],
+  "2f21c12d-9fa2-39e6-9721-7a037e00167d": [
+    {
+      "name": "David Bowie",
+      "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+    }
+  ],
+  "ff5f6388-3b56-3202-bafb-1d013c2c02a9": [
+    {
+      "name": "David Bowie",
+      "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+    }
+  ],
+  "e9af27ab-78b0-3f0a-ad4e-e11b4bb33f7d": [
+    {
+      "name": "David Bowie",
+      "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+    }
+  ],
+  "8847e908-da1c-3b06-aec3-71e17126115c": [
+    {
+      "name": "David Bowie",
+      "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+    }
+  ],
+  "027b1438-68b8-42db-a850-f28add591b27": [],
+  "b6e2c219-5aff-4b7f-9139-da50994da1a5": [],
+  "6704641e-6d7f-45ef-9292-7eb059b04875": [],
+  "760bba40-8ba4-4601-9ebe-4181e98600f5": [],
+  "afa3ec1d-ed39-4580-b971-6d3d7b99232b": [],
+  "e83ad53a-1f36-4ce6-ac97-c6ff1286cd00": [],
+  "3e246289-1156-46e0-a6f2-01cb5b6acd8f": [],
+  "a8df46e5-7e5a-416a-acdf-64ad0df048ad": [],
+  "17c94fbb-1f05-43e9-85eb-91521345e4c1": [],
+  "a6d93841-804e-375e-b6aa-a26e8498a60a": [],
+  "f0e55d5d-6bdf-39df-abf4-02dbc4c7481d": [],
+  "96d46989-fe81-3050-8574-885c21e248d8": [],
+  "a205935b-a44d-3010-bb4d-4f53baeff186": [],
+  "d84749d1-6656-3719-9fdb-c5e4f8cb859f": [],
+  "f496aaea-4a44-3dea-9c8d-069df4881839": [],
+  "de27871f-b24d-3b6d-8137-ec775c6e8f76": [],
+  "a9f1113a-a952-3abc-8b3e-1fe0282ba6e3": [],
+  "7979bbbb-e03f-4893-bd2d-89c05097b43e": [],
+  "e9c21bd7-ded5-4026-ac24-89b26bd18c0c": [],
+  "d1a26913-0d36-3e57-b1b6-3de4bc96069a": [],
+  "9efee7c5-a072-4499-bdce-07396e9ad11c": [],
+  "d9e2e6f3-d80e-4329-81be-be8cd7835041": [],
+  "1bb8bd06-629c-4ed3-8af6-f8eeb456d299": [],
+  "2c9fe965-4770-3998-ad90-fee1f989e68e": [],
+  "c1e5de9d-8fd0-312c-83a4-cddf929183bc": [],
+  "b811e67f-155b-4df6-82e5-c0627d996ef3": [],
+  "dc22a221-5ba7-4660-8f71-489dfdcf5721": [],
+  "50c594a0-cbe8-4c8a-b021-89b59e187928": [],
+  "bcd7a7b0-487f-45c7-a2a4-d6ee4e5af35d": [],
+  "2303694d-9ba3-46a0-9e3d-0e97bd4f33c1": [],
+  "3318aec8-ff7f-4126-8cd0-f503ab41432d": [],
+  "c822f404-197f-4608-bc0d-0a01d98eb4a4": [],
+  "d4b79621-4d31-4ff7-8c62-a594fd8d72f8": [],
+  "171083af-f1d6-482d-b7f9-a771e099f4c5": [],
+  "a0ed2e58-4e80-479a-be50-c858bcd8481a": [],
+  "cb26d5c7-695d-4884-916a-c84cae5e964b": [],
+  "9962ecdc-4bd8-42d2-a784-092f893fc60e": [],
+  "26de8c24-c977-4fef-ae68-2b9d26c77880": [],
+  "04210c51-858a-3a83-a0eb-a316bd884aaa": [],
+  "2e78363d-b99f-4662-858a-1d57c2b695ad": [],
+  "98cb44d0-1459-4002-bf1f-c8b69a33073a": [],
+  "9181169a-d162-4532-bfd1-c04bd28e5e45": [],
+  "38de3606-e6da-4c1d-8330-eacf0bca0de5": [],
+  "fcbe916e-9089-3bae-bd9f-a1d6bb1fd0b7": [],
+  "911cc52e-0060-4043-b961-d9d37151dbf6": [],
+  "db7f3255-69d8-3f8c-887d-14abb563027e": [],
+  "480b5293-04fd-3de7-b8e7-103e8881f6a6": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    },
+    {
+      "name": "Brian May",
+      "mbid": "6d24f102-5c43-453a-8664-4ee092f441cf"
+    },
+    {
+      "name": "Roger Taylor",
+      "mbid": "558302b1-07ae-4be1-9edb-2a2b1f036313"
+    },
+    {
+      "name": "John Deacon",
+      "mbid": "a0b77a10-ecff-4b84-b1f3-008391038d67"
+    }
+  ],
+  "74e1ab0c-4a74-3392-9e9b-80fa2d8c3cfe": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "b5c2a07e-7bb9-40a2-b989-e9e4dc160113": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "5349ec56-331d-367b-9453-017834bccdb7": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "82563d10-9cf9-3c72-8dc0-7c17e6a4a348": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "9199f047-93ec-3a55-9c40-8e73c65c537f": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "4b90553e-abdc-3277-a4fa-4a852bd8cf8e": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "dcb91f99-f734-39f2-a7c3-d82478415b1a": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "e29dea11-8cee-4191-a5af-8bfe433d778b": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "c8b100f1-8707-44cb-bdf8-dd2e00b10d51": [
+    {
+      "name": "Freddie Mercury",
+      "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "name": "Freddie Mercury",
+      "mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53"
+    }
+  ],
+  "da08d5ab-65f4-3349-aa18-eb22fe2a6ac3": [
+    {
+      "name": "Brian May",
+      "mbid": "6d24f102-5c43-453a-8664-4ee092f441cf"
+    }
+  ],
+  "7c00a7d0-e29c-3afd-aa3d-fc8ed10b9dc3": [
+    {
+      "name": "Brian May",
+      "mbid": "6d24f102-5c43-453a-8664-4ee092f441cf"
+    }
+  ],
+  "bb356ec2-9032-43e9-b8de-b1b96307edb9": [
+    {
+      "name": "Brian May",
+      "mbid": "6d24f102-5c43-453a-8664-4ee092f441cf"
+    }
+  ],
+  "8b2d2f47-9e7b-3bc6-b7d1-41dfb39eddcc": [
+    {
+      "name": "Brian May",
+      "mbid": "6d24f102-5c43-453a-8664-4ee092f441cf"
+    }
+  ],
+  "6e5aee4f-ff89-3bdb-b7be-c65c8dc7fb55": [
+    {
+      "name": "Brian May",
+      "mbid": "6d24f102-5c43-453a-8664-4ee092f441cf"
+    }
+  ],
+  "7fb76f24-c68b-3510-8aa5-9972280a8bd7": [
+    {
+      "name": "Brian May",
+      "mbid": "6d24f102-5c43-453a-8664-4ee092f441cf"
+    },
+    {
+      "name": "Tim Staffell",
+      "mbid": "4102a510-b01e-4e8c-9d58-4cdb37b665b7"
+    }
+  ],
+  "d10d11d5-8b10-4eaf-873c-3e80c167fcc9": [
+    {
+      "name": "Brian May",
+      "mbid": "6d24f102-5c43-453a-8664-4ee092f441cf"
+    }
+  ],
+  "c3f44547-0f42-3127-b0d8-c6680cfd9aeb": [
+    {
+      "name": "Brian May",
+      "mbid": "6d24f102-5c43-453a-8664-4ee092f441cf"
+    }
+  ],
+  "cecbe138-7dd7-3130-92c1-9823ff88e704": [
+    {
+      "name": "Roger Taylor",
+      "mbid": "558302b1-07ae-4be1-9edb-2a2b1f036313"
+    }
+  ],
+  "34644e6f-9058-3331-b034-ee201559a3ab": [
+    {
+      "name": "Roger Taylor",
+      "mbid": "558302b1-07ae-4be1-9edb-2a2b1f036313"
+    }
+  ],
+  "cc5d253a-3b7e-4960-b83e-07d4de51c560": [
+    {
+      "name": "John Deacon",
+      "mbid": "a0b77a10-ecff-4b84-b1f3-008391038d67"
+    }
+  ],
+  "26beccc6-1d5d-3a0e-bc1b-a9b9e6e2b709": [],
+  "6aec735e-cacc-3350-b58a-3129e79f18af": [],
+  "f36dbf78-7b66-3ce4-8d84-08c92151afe5": [],
+  "cb74a7c9-b692-3a07-a4da-eeb69c238b54": [],
+  "752873ba-d146-3c25-b09f-b33d389ea6a2": [],
+  "875995ae-4480-34fe-8dce-b81e3d7020d0": [],
+  "cd838836-12ff-3bc1-a1c2-c2ed6268889f": [],
+  "8e43e37c-7a8d-37ac-973b-ca5483d9d19e": [],
+  "758b5d62-15eb-36ae-8d49-75777dfe78f1": [],
+  "9e9faad0-61ef-3e8c-a4c2-0e410d78ca1c": [],
+  "a6e4df27-a2ec-3902-8b85-27200695e4b9": [],
+  "56f2ebb9-248e-3153-91e3-1b83590dd6d6": [],
+  "b5bf879b-5a8d-4c4a-82d0-2a7ad16e8029": [],
+  "b1aded81-ae0f-49f1-898d-be9b895f1e36": [],
+  "675b8b58-fcdb-48a4-8c26-0d10815a3033": [],
+  "19c2f743-6dd5-4042-b12f-287addff83d2": [],
+  "877cc217-18d5-4f98-8ad2-592f20b30b85": [],
+  "8968b209-54b0-4352-8dbd-37d75b702309": [],
+  "2a525836-cce5-4748-82fd-3766aaf515f2": [],
+  "76bad05b-6ccb-40a3-bcea-aa3fe13878ae": [],
+  "42c9f503-4b0d-4c27-a0af-074226e6a846": [],
+  "17fc7190-1578-4a0b-9288-8ced9acb0aac": [],
+  "afc24dd2-e3e2-4155-83f5-a5fb722edb17": [],
+  "2153b6af-44ed-4fa1-853a-ce9ad8258cca": [],
+  "10debc3b-6359-4b84-89e9-cc993f35e851": [],
+  "12a647d4-d392-45f9-bb1e-f7836f2d9a02": [],
+  "14932986-3ca7-4f8a-a24d-8310d3422d76": [],
+  "7280f95b-8fee-464e-a031-b18e0baa8872": [],
+  "6269d61f-42f6-4277-b770-493704609eae": [],
+  "388613bc-d5f1-366e-896d-e50df985b796": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "b85845e2-38fc-3092-a992-d373e7d517e9": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "0d491b94-18d9-3c5a-9163-b3dfa4483fdb": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "ebac52bd-5131-30b3-ba53-1d3aa12e060b": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "d476a330-db54-3e23-9282-593fed5e338c": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "401fcb2c-5fbc-397a-a5c5-6b3a3df3e261": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "25e7aa88-98e5-3777-a640-5aae6e791e4f": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "fb670a7d-4e22-3f65-8d3f-7cf2c29c6601": [
+    {
+      "name": "Guy-Manuel de Homem-Christo",
+      "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+    },
+    {
+      "name": "Thomas Bangalter",
+      "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+    },
+    {
+      "name": "Edwin Birdsong",
+      "mbid": "41f1960d-be42-4ca0-8599-8d0fb77ae6d4"
+    }
+  ],
+  "a549442d-ef86-31ad-b912-a33bad71b01d": [
+    {
+      "name": "Guy-Manuel de Homem-Christo",
+      "mbid": "83886397-adf2-431a-b841-dc4af744a6cc"
+    },
+    {
+      "name": "Thomas Bangalter",
+      "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+    },
+    {
+      "name": "Todd Edwards",
+      "mbid": "fa0e2024-95ff-44b6-9a86-f0ab120b6a72"
+    }
+  ],
+  "4539c38c-b57e-3a1d-967d-cf8f8dad103c": [
+    {
+      "name": "Thomas Bangalter",
+      "mbid": "122a2714-24f8-4046-a532-64064b5076d2"
+    }
+  ],
+  "5684e377-0346-4b22-a2e0-d9d040e50fec": [],
+  "18fc9dbd-17c3-4dee-a11c-284f8978fdbd": [],
+  "04082f0d-8989-490b-99c0-6a14839963be": [],
+  "3b0f80fc-801e-3d7d-a780-a6f748fa398f": [],
+  "eed6108b-9a82-3a99-ae5a-556e099e48cf": [],
+  "fc5df73d-ed7b-3426-ad42-5aa42e35cbb7": [],
+  "0d364d40-d512-336b-99a2-989b442b163e": [],
+  "d638d207-67ca-3a4e-8344-dfe30cba0b50": [],
+  "9b048f85-0725-37f0-b061-e23d6d972055": [],
+  "5d1ab9d6-6be3-3f32-a003-9bf8b87f1d08": [],
+  "d0665822-3a0e-3aaf-beb6-c34c7985300d": [],
+  "987a8a1e-9d62-37b1-b3a4-6cd39bb873d7": [],
+  "a862d220-c31d-31ab-9d04-c3dcddf52a99": [],
+  "e5b15a42-8212-36cc-878c-d04ff81edf46": [],
+  "c9cb1300-521d-3246-8613-1b9c1244aba8": [],
+  "070cb220-1799-31e3-949f-e5882a5d9104": [],
+  "1399a0aa-3c55-3acb-af6b-1bf93a8c55ac": [],
+  "6a296235-7dc0-3332-914c-6947a635549d": [],
+  "4bb47ffc-9006-32cf-8aa9-e213334550dc": [],
+  "861b67a5-e99f-3646-aaac-f29fbb01525b": [],
+  "3ce28f52-096d-337a-b58b-d266aa95869b": [],
+  "cb00aedf-7e26-3263-9c9f-598ff8d0f175": [],
+  "acdddcd1-3080-3918-8e12-5b92ece45c8b": [],
+  "ff2bd551-3ba4-36e7-aeb3-dc9fe39cfc76": [],
+  "9ed35100-eb13-3edd-a1df-f81c83fcf5ab": [],
+  "e697cecb-961a-34a7-8e19-f505e319faf2": [],
+  "126676fd-9f48-3d21-9ce4-701a132ad82d": [],
+  "f7818f82-ac89-3443-8d8e-467f49e80b9f": [],
+  "6b929151-472b-3843-87da-3b25a3e35bbf": [],
+  "dd6adb4b-d599-3b40-a4f2-ca88747f9b56": [],
+  "835232c3-2837-388f-8081-55d360be8b96": [],
+  "317aef33-044f-3cd2-9476-85333b9ec811": [],
+  "8580438b-f27e-316d-9eed-f76f9a8eca34": [],
+  "70c8dca5-5f6a-3b99-bd34-39ae38e80b53": [],
+  "8cc2f565-2148-36a5-9dec-754fd797afe0": [],
+  "19b02453-acec-38d3-9974-b07bf73df17c": [],
+  "ef9dee75-53ea-3568-8951-5c18cca8d945": [],
+  "7ab9239b-a931-37fb-84dc-ad0e8cb46483": [],
+  "df02b170-0edf-356f-ba0b-be313249507c": [],
+  "db972b78-5b42-3cee-86f7-147d81aab3c8": [],
+  "b1002811-37ca-3aed-a3d1-f3e9474c28a7": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "bcd490e5-dac7-3b8a-b423-ae17e1209f3d": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "fd1aa4f2-ba26-3a05-b72d-4392c35a073c": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "09de7db7-b41c-3373-a4aa-e8e4972e6ff0": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "14f552db-5921-3699-a807-a0b944d9f725": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "531b2a9e-66b5-34ef-abb8-a499fdf3c308": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "62c39e8e-18e2-326b-9a2f-615f8e2b547d": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "743a57f0-95ff-3e0d-a46e-4f094362a339": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "b97caa46-b381-36e8-9482-0c9c6d6ea030": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "ef40e997-8a14-3c84-b371-5afc76e0626b": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "2fa4fbbf-c49d-30db-afec-5ba2ea3528df": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "afcc33f4-7877-3096-a025-179a1c3adce8": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "67ad3571-dc6f-3c67-9d6f-636774b4db74": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "9a55593e-1419-3aa7-8281-1ffc0bcb0ace": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "3911c0ca-0a63-3154-b5dd-947eddc1e161": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "b839598d-48bb-3636-9012-b095b0fed1a6": [
+    {
+      "name": "John Lennon",
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+    },
+    {
+      "name": "Paul McCartney",
+      "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+    }
+  ],
+  "8549de8e-f65b-3e64-b8a2-08c90cc5fdd1": [
+    {
+      "name": "George Harrison",
+      "mbid": "42a8f507-8412-4611-854f-926571049fa0"
+    }
+  ],
+  "cee76c6b-afcf-4ed7-b0ab-e732b35d4f7c": [
+    {
+      "name": "Julio Iglesias",
+      "mbid": "3be4099e-f180-4038-af84-ae18a09eab02"
+    }
+  ],
+  "9aff9182-f24e-4931-9e52-17f764997005": [
+    {
+      "name": "Julio Iglesias",
+      "mbid": "3be4099e-f180-4038-af84-ae18a09eab02"
+    }
+  ],
+  "940685d4-896f-4184-b12c-cf1a63f7133a": [
+    {
+      "name": "Julio Iglesias",
+      "mbid": "3be4099e-f180-4038-af84-ae18a09eab02"
+    }
+  ],
+  "8bbf6da7-aab1-394b-9bb6-ddfea5477fa1": [
+    {
+      "name": "Ant\u00f4nio Carlos Jobim",
+      "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+    }
+  ],
+  "807b8169-cb39-30c7-a9e2-d8491fc97651": [
+    {
+      "name": "Ant\u00f4nio Carlos Jobim",
+      "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+    }
+  ],
+  "c93c9224-5608-36ee-980a-3dbba3c603e5": [
+    {
+      "name": "Ant\u00f4nio Carlos Jobim",
+      "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+    }
+  ],
+  "c41e313a-d429-3283-9c39-a5ec4e4b0437": [
+    {
+      "name": "Ant\u00f4nio Carlos Jobim",
+      "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+    }
+  ],
+  "768cf901-2e16-36ee-8e5a-f8de66f4a00c": [
+    {
+      "name": "Ant\u00f4nio Carlos Jobim",
+      "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+    }
+  ],
+  "865cbfb3-e81a-31d1-94a4-f4bb098cd335": [
+    {
+      "name": "Ant\u00f4nio Carlos Jobim",
+      "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+    }
+  ],
+  "0b102419-df08-3fde-9e1b-f82f5158aa62": [
+    {
+      "name": "Ant\u00f4nio Carlos Jobim",
+      "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+    }
+  ],
+  "69f81329-a815-3ec2-aaee-1f781a1e026d": [
+    {
+      "name": "Ant\u00f4nio Carlos Jobim",
+      "mbid": "7a8dbe84-f4c0-4457-bfa3-edced1f8cde0"
+    }
+  ],
+  "6cade529-4d4f-4b89-b7d1-2d0cd537aeb5": [
+    {
+      "name": "Brian Eno",
+      "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+    }
+  ],
+  "29264c8e-8251-421d-99fd-794b7755afab": [
+    {
+      "name": "Benito Lauret",
+      "mbid": "bb5469f5-0902-4ed1-8582-0c94a946423c"
+    }
+  ],
+  "be0fb4a7-705b-4cbb-9486-0a6d4ab36c70": [],
+  "1d3df520-2fcd-43f5-a09a-d72bdb6f0900": [],
+  "ce9b5e1a-b883-4cc6-997f-61e2991ac4dc": [],
+  "ef47d075-5165-4b14-bf38-c79cf9c2c697": [],
+  "1f12bfb3-d0bc-42ad-b496-b96c249d14a8": [],
+  "ea03cc0b-bd05-45bf-b1fd-3079fe47e92d": [],
+  "dbe9bfaf-448f-32e9-89cb-2493155d053d": [],
+  "6505ce53-f8a2-3b61-bde4-03f5222f3d21": [],
+  "53372c2f-30d9-4084-ba3f-544fa4101167": [],
+  "87c15f26-e79a-34db-843c-6884186c94bd": [],
+  "6d560984-0255-3452-a252-2d11bd98b43d": [],
+  "032bfe89-f2c1-4238-bd5a-7365400fa1ba": [],
+  "6e96e501-45a1-4acd-b38d-e305221dc9f2": [],
+  "625f9e01-d0e2-4b2a-addc-d5f67d395fd4": [],
+  "3e6181b8-4ac4-4fa7-b761-213c6803a328": [],
+  "c85bd299-fe29-410d-892d-52736ed9b53b": [],
+  "4e44fc1b-12a3-41f1-ab08-0aa21bf2269c": [],
+  "ab8ed4d2-b126-4a7f-8050-acd9a1a0d8d6": [],
+  "6cbf5e95-8920-3bba-bd78-e25b28124bfd": [],
+  "92e7fcf6-8311-3f07-bf3c-e9742c58cd0e": [],
+  "7050e65f-66f8-31ee-be38-61ddfb93a60a": [
+    {
+      "name": "Chuck Berry",
+      "mbid": "592a3b6d-c42b-4567-99c9-ecf63bd66499"
+    }
+  ],
+  "dc896a9f-3844-3437-b436-fd0fd6aa8848": [
+    {
+      "name": "Chuck Berry",
+      "mbid": "592a3b6d-c42b-4567-99c9-ecf63bd66499"
+    }
+  ],
+  "6a9a6c98-cd21-3b65-8a30-3ba55693b6ea": [
+    {
+      "name": "Chuck Berry",
+      "mbid": "592a3b6d-c42b-4567-99c9-ecf63bd66499"
+    }
+  ],
+  "c9f76ba3-e75d-3782-af63-b29073087fd7": [
+    {
+      "name": "Chuck Berry",
+      "mbid": "592a3b6d-c42b-4567-99c9-ecf63bd66499"
+    }
+  ],
+  "1dcc74a5-00fb-3288-9ac4-e4431b374203": [],
+  "41bcef59-b2fc-3c2e-bfe8-ccccffae4d46": [],
+  "ec3e030c-8036-37dd-a801-455a28741c40": [],
+  "01ee4065-c2f4-3b9c-8eeb-5f30fed3dce2": [],
+  "2f038209-e9fb-3a09-8085-7f54a82adc21": [],
+  "291cf987-c21f-3455-9a69-8cda4b9c87f3": [],
+  "66ca17ff-01a4-3203-97fd-8ca435245c01": [],
+  "a8427d60-e2d6-3432-a001-bf6c65c21b44": [],
+  "8addb108-9781-3980-abf3-368eaf69554d": [],
+  "8e7f3e96-45a7-34f7-8194-f29b90d85f2e": [],
+  "7a5c2577-8dba-3b7b-9278-553b7191692d": [],
+  "68532459-de56-3f2a-b551-7d1217a32036": [],
+  "01607403-9838-36ac-a52b-bbe249e46334": [],
+  "e19a34ea-dfc0-3b28-ae7d-f704f088a634": [],
+  "8f99052e-ec6a-3f7d-8b76-24acb4ff780d": [],
+  "c5217737-a50c-3302-884a-288e0fd1b2a4": [],
+  "080c9c8c-5780-394a-8a11-8ff0b95ac5c9": [],
+  "d508aaf7-3a1e-3ceb-a2dc-af83d4e21579": [],
+  "6cbaeef5-122a-3775-b97e-b51398248771": [],
+  "fd5dbefe-97da-340e-83b2-3bf7b17691fe": [],
+  "fbfaa78b-64ee-378a-a7a5-385ddef97fa9": [],
+  "e2ab0617-5d05-3afa-a90f-c67f8e23a402": [],
+  "ae718a38-875a-3757-906e-cacf12916fae": [],
+  "0cda5e19-8488-35c0-a3c8-e9a86d30ebcd": [],
+  "6b034231-32bf-4c98-aff1-89b799ab42ee": [],
+  "1a5d0e26-f53f-35d2-9452-0ecf18b0214c": [],
+  "b228213f-3282-30ca-8fbb-b76b1fcea13e": [],
+  "74d1888d-bbd9-4323-8345-adfd44882143": [],
+  "985ebaa2-3a2f-41f4-8fd4-703fce1fadcd": [],
+  "5eb885b3-d8c5-4a87-8614-c9f473b29be6": [],
+  "bb58cef5-a288-4845-80d2-b9c418201ef2": [],
+  "a99a3ba3-26b0-3513-87b5-4db255ce9238": [],
+  "e54bb86f-6b38-3a24-aa9c-bef1c8b65408": [],
+  "7a652f80-3a46-4272-8ce6-c03099c3a81e": [],
+  "1694b953-fd9e-45c7-9a18-aba71b154039": [],
+  "360c1487-cd15-4f08-9896-07c8b75666be": [],
+  "7732153e-1d77-458f-a36e-745b31ac869e": [],
+  "b39cc070-3abe-3c11-a15b-c15683dc9a89": [],
+  "f5218ec4-352c-3431-8893-d02623fd2dbf": [],
+  "20772796-ac5e-36fd-b247-7bee69aba5bc": [],
+  "780eafb8-be47-4fcb-862f-1df6e5381c31": [],
+  "c05f57ea-6a33-4304-bea3-d30e295a0a64": [],
+  "c5a86ee2-6ce8-45cb-b697-d59dc452b7f7": [],
+  "34607acd-d7b7-3294-9bc8-8cedbe6ccd15": [],
+  "14c60955-0e11-3db1-9753-a9482a0eb01d": [],
+  "3eadade3-65f2-3c6e-9cf5-478718b7881e": [],
+  "6671bffb-f9cc-3ea9-96e4-91cdc8d746a6": [
+    {
+      "name": "Chuck Berry",
+      "mbid": "592a3b6d-c42b-4567-99c9-ecf63bd66499"
+    }
+  ],
+  "8fe3ee6b-106f-3d53-b7dc-7f5ce350f0f7": [
+    {
+      "name": "Chuck Berry",
+      "mbid": "592a3b6d-c42b-4567-99c9-ecf63bd66499"
+    }
+  ],
+  "3432360d-ffca-36cf-87fe-263f0b86f11b": [
+    {
+      "name": "Chuck Berry",
+      "mbid": "592a3b6d-c42b-4567-99c9-ecf63bd66499"
+    }
+  ],
+  "854f7f28-f202-3d7a-a424-abc659e7f70e": [
+    {
+      "name": "Pyotr Ilyich Tchaikovsky",
+      "mbid": "9ddd7abc-9e1b-471d-8031-583bc6bc8be9"
+    }
+  ],
+  "9840e142-269d-3fa3-9805-041a9235c18a": [
+    {
+      "name": "Kurt Cobain",
+      "mbid": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255"
+    },
+    {
+      "name": "Dave Grohl",
+      "mbid": "4d5f891d-9bce-45ae-ad86-912dd27252fa"
+    },
+    {
+      "name": "Dave Grohl",
+      "mbid": "2486bb60-2ccd-4792-bdd4-4c760d610616"
+    },
+    {
+      "name": "Krist Novoselic",
+      "mbid": "ac05e29f-0561-4445-bb26-5562d2389531"
+    }
+  ],
+  "f4e29ec5-4806-3c2b-bc84-c802552e8f35": [
+    {
+      "name": "Kurt Cobain",
+      "mbid": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255"
+    }
+  ],
+  "9928c4f9-de11-3a16-b75d-b6730c9407bb": [
+    {
+      "name": "Kurt Cobain",
+      "mbid": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255"
+    }
+  ],
+  "8b01d145-f9d7-3988-ab29-df7e502b186d": [
+    {
+      "name": "Kurt Cobain",
+      "mbid": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255"
+    }
+  ],
+  "f548fa27-1655-3a56-8985-6070b69b2f03": [
+    {
+      "name": "Kurt Cobain",
+      "mbid": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255"
+    }
+  ],
+  "124d8193-b050-3bce-a0cf-9d2c6da70e03": [
+    {
+      "name": "Kurt Cobain",
+      "mbid": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255"
+    }
+  ],
+  "46d9a773-e8cd-32b9-8132-3e26ca3e4c1a": [
+    {
+      "name": "Kurt Cobain",
+      "mbid": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255"
+    }
+  ],
+  "28fbba54-7a8c-38f9-8b1a-36cbe55eaf91": [
+    {
+      "name": "Kurt Cobain",
+      "mbid": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255"
+    }
+  ],
+  "0b1efcd7-a3ed-3fb9-8a52-5d3678c516ed": [
+    {
+      "name": "Kurt Cobain",
+      "mbid": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255"
+    }
+  ],
+  "e601cddf-3c50-38da-b297-bf21edb1d306": [
+    {
+      "name": "Amilcare Ponchielli",
+      "mbid": "d8c01b12-f5bc-4365-848f-878c445cefe8"
+    }
+  ],
+  "4298ff98-0cc8-3813-8864-a6af7ecea014": [
+    {
+      "name": "Robbie van Leeuwen",
+      "mbid": "a8e9957b-09ae-4ec9-aeb2-a4fff78a034a"
+    }
+  ],
+  "e8c19d0b-fa31-4196-8c91-91256c8a6f81": [],
+  "c65c9590-7a06-43b8-afe9-f7cc3d880659": [],
+  "f6f7ccc0-de2b-4469-b9ef-ee74dd8c233d": [],
+  "248ba3f3-0e93-49c2-a56e-94afed0280b5": [],
+  "a93104a5-fd64-3f1d-9331-d5405781a5e7": [],
+  "9a717451-ef0d-326c-88c7-a7d61f9ebddd": [],
+  "97f86c57-82ac-32ef-ade0-c8debc95a528": [],
+  "556cdec4-e05f-3ed8-a8b6-d62435d7ac23": [],
+  "07145431-f87d-38ff-8dcf-459b05d6b857": [],
+  "a1672346-8fb2-3e89-9a3f-a8e4cf6cc700": [],
+  "278bd9aa-3551-3bae-812e-7fde1dc14501": [],
+  "5f84c977-ca36-3246-801a-ae6ec949e7c6": [],
+  "d1a24c17-fe3c-35e2-ba01-ae5e856e83b7": [],
+  "dcfb9266-2bd7-312e-ac66-4278052151d9": [],
+  "2390c8d3-8e18-3f99-b725-3634e8cee8e6": [],
+  "5cc70feb-83e4-37da-9f9c-81bcf6598ddc": [],
+  "50069492-438a-33e7-9a37-a0ddc4486c67": [],
+  "12ad3b7d-42e4-35fe-819e-dfdbe1f4b26e": [],
+  "d3df6210-0fa2-3fc1-9a5a-27a582754169": [],
+  "14841c4a-e5ab-35c9-908a-7bf2642c56a2": [],
+  "51b327ff-7590-36e0-b445-407893bea2c7": [],
+  "b6f84ea2-62b6-3c96-8fc3-1eef05d5b297": [],
+  "8600462a-9a49-3a0b-98e5-4cf8084943c3": [],
+  "c2959dde-b211-3bbe-8ffc-63c514bd3094": [],
+  "5c6fe999-dccf-3787-acdc-2f34f89764d9": [],
+  "60532845-551d-342d-8e69-2476f6b31edc": [],
+  "59dc616e-b638-393f-b3c8-aca28b2427a4": [],
+  "ca5fafaf-5166-3b32-a7c0-db3a3edd3425": [],
+  "07e2a739-1cc4-3bdb-94d8-58cf274594d4": [],
+  "3b301c06-3168-37bf-8dec-b23f3984f4e7": [],
+  "340b9356-1db6-30d7-aa79-3b56e4d5aa08": [],
+  "e8c550b3-f67f-3bed-ad9a-a7a44e4bf6aa": [],
+  "0529dda5-a464-3f14-bcd8-dffe9cc39e3f": [],
+  "64992219-4756-366a-8d3e-c837ee5f089d": [],
+  "7d518fe6-76fc-340c-9a1b-e2ddd158bf33": [],
+  "0bb9704c-aa0d-30b6-b6a4-d6c08613057b": [
+    {
+      "name": "Kurt Cobain",
+      "mbid": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255"
+    }
+  ],
+  "e3c1f5f3-f006-3aab-bbb9-198660088504": [
+    {
+      "name": "Joey Ramone",
+      "mbid": "a272ee10-f1c4-45d0-8d1f-614901596591"
+    },
+    {
+      "name": "Joey Ramone",
+      "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+    },
+    {
+      "name": "Johnny Ramone",
+      "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+    },
+    {
+      "name": "Johnny Ramone",
+      "mbid": "d0fbf734-a7cb-41f2-9194-2cad1220f962"
+    },
+    {
+      "name": "Dee Dee Ramone",
+      "mbid": "f23feff0-ed20-4e9c-ae45-4ff68a83be70"
+    },
+    {
+      "name": "Dee Dee Ramone",
+      "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+    },
+    {
+      "name": "Tommy Ramone",
+      "mbid": "f9f37f58-526d-43f9-9dad-bcb4ca8d8061"
+    },
+    {
+      "name": "Tommy Ramone",
+      "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+    }
+  ],
+  "dfa40a42-418a-3c11-8627-aa3161b974b5": [
+    {
+      "name": "Joey Ramone",
+      "mbid": "a272ee10-f1c4-45d0-8d1f-614901596591"
+    },
+    {
+      "name": "Joey Ramone",
+      "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+    },
+    {
+      "name": "Johnny Ramone",
+      "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+    },
+    {
+      "name": "Johnny Ramone",
+      "mbid": "d0fbf734-a7cb-41f2-9194-2cad1220f962"
+    },
+    {
+      "name": "Dee Dee Ramone",
+      "mbid": "f23feff0-ed20-4e9c-ae45-4ff68a83be70"
+    },
+    {
+      "name": "Dee Dee Ramone",
+      "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+    },
+    {
+      "name": "Tommy Ramone",
+      "mbid": "f9f37f58-526d-43f9-9dad-bcb4ca8d8061"
+    },
+    {
+      "name": "Tommy Ramone",
+      "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+    }
+  ],
+  "a5532546-23ce-31da-9c18-3725c49abd61": [
+    {
+      "name": "traditional",
+      "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+    }
+  ],
+  "2f03438f-950c-3caa-b93e-b97122dc4eeb": [],
+  "bf1e8b83-9618-3386-8a3d-65bd6fb779ec": [],
+  "1672823f-fd6d-47d0-9615-d9227d8d9ba3": [],
+  "304dde76-f51c-3e41-bdce-8b5b8394bcfe": [],
+  "29e25374-4d10-42e9-9a6c-2825517288b3": [],
+  "12de07a6-04ca-40ed-8805-ce2b8a04b349": [],
+  "6a70b93c-491e-4711-889f-d0e336a30351": [],
+  "5b68c269-ba37-4970-8669-b4b3b347f1fb": [],
+  "58dac5f1-20a7-386a-b524-ccebd2614167": [],
+  "d2522cbc-c951-4435-915a-9192e55d009b": [],
+  "4cda7f0d-1b6c-43ab-893c-2f67a0b0a861": [],
+  "1cd7acdc-d378-4b80-8d5e-1b9802603dab": [],
+  "6b21d0a4-6b2d-4da5-ac01-4b853c71a51a": [],
+  "4e2bfd84-55bd-4890-9da0-4d6d2f643e4d": [],
+  "b60b1a96-4c3d-4605-8203-227bf1d2bd48": [],
+  "26b6bc2a-ed47-44ef-81ab-d24c2ee3a2ef": [],
+  "9245296d-a3a7-3d92-bab8-c243723dc6ee": [],
+  "39aefce9-6c78-3f07-ab94-8d5ac5df1519": [],
+  "119a58b4-e101-451c-9430-ab1bb3c5da8d": [],
+  "71ec4622-ed92-3cf0-a22c-f06a59611c0f": [],
+  "907970a5-e20b-3c16-8734-f628294eb181": [],
+  "f19cb934-14d3-4334-af02-d21f0f7d7bd3": [],
+  "73227679-f9c1-3657-9242-d023c64331b2": [],
+  "9bd5cb9c-d0ff-4a5b-8faf-9a3318160384": [],
+  "d6844702-d936-4ad6-abfc-21e75b79e5b3": [],
+  "e3db2b13-ee76-3d95-9ef9-3b50beb9a433": [],
+  "fc8b9521-5860-4d9a-baf0-ad4d3d389eb1": [],
+  "b5695fb0-4208-4324-ba91-1309b202111e": [],
+  "d58f3b4d-6487-418f-93d8-fbe69d9215df": [],
+  "231af94e-1a08-4560-9591-178c350f250f": [],
+  "3188e825-9145-4181-8e57-7bdb417b1259": [],
+  "5e49b8ab-e86c-441a-a497-9304149cea12": [],
+  "8b29617a-61c9-4c10-b360-4018972d69bc": [],
+  "8709def8-2029-4716-abf5-f8d87dd47f27": [],
+  "5bba44d0-a27e-413f-ab6c-b825d7222e93": [],
+  "5436061a-b25c-4ead-9059-6731c470dd2d": [],
+  "2049fa28-0ce2-4dfc-a06f-2598e9c52d14": [],
+  "c7dac412-d417-35e7-bfa3-533753c6cd72": [],
+  "4c971aa7-0539-3974-809f-c6432bb962dc": [],
+  "fef13239-a7bb-3399-a35b-548177bcc27a": [],
+  "1850e55c-be98-33aa-9f3f-7e3c4df8c0bf": [],
+  "91fae06e-3ebf-3cea-9966-66f51f202e66": [],
+  "bd3f0444-6a0f-4a87-ab2b-197e26ad1be3": [],
+  "57088c55-f2f2-4c48-ab9d-15b8f8e06d2b": [],
+  "cf03204f-effd-3acb-8d40-63bb44b08ee5": [],
+  "7f9909f6-7397-3461-83c1-8a13b729b886": [],
+  "e91dae96-61e4-3b98-b3f2-f4f56142d862": [
+    {
+      "name": "Joey Ramone",
+      "mbid": "a272ee10-f1c4-45d0-8d1f-614901596591"
+    },
+    {
+      "name": "Joey Ramone",
+      "mbid": "2f3f8fb1-e5dc-4548-9601-fada0485e561"
+    },
+    {
+      "name": "Johnny Ramone",
+      "mbid": "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989"
+    },
+    {
+      "name": "Johnny Ramone",
+      "mbid": "d0fbf734-a7cb-41f2-9194-2cad1220f962"
+    },
+    {
+      "name": "Dee Dee Ramone",
+      "mbid": "f23feff0-ed20-4e9c-ae45-4ff68a83be70"
+    },
+    {
+      "name": "Dee Dee Ramone",
+      "mbid": "94796bba-bffe-4510-8493-957e176b8c61"
+    },
+    {
+      "name": "Tommy Ramone",
+      "mbid": "f9f37f58-526d-43f9-9dad-bcb4ca8d8061"
+    },
+    {
+      "name": "Tommy Ramone",
+      "mbid": "859bf1bb-0470-4869-aa97-a2f1c0fee62c"
+    }
+  ],
+  "e5719339-1996-358f-b71b-25e96494a071": [
+    {
+      "name": "Bobby Freeman",
+      "mbid": "610fc73e-7741-4d2d-8db6-b7bdecac6714"
+    }
+  ],
+  "659cf038-ea2c-39ca-bd6c-d69144fed295": [],
+  "3a54641c-c61c-4e52-8eac-6e6a12cda866": [],
+  "f7ab4faf-4cd2-3629-85b2-6d9c54753bb9": [],
+  "3019c4d6-9698-43be-8e48-ead3b51dc416": [],
+  "8dbb8ec8-c081-3a93-a7ac-7735d3d26cbd": [],
+  "4e47ff7f-98c0-4bbb-92a2-33b38b6f8d94": [],
+  "9b55ec01-af45-4813-a6b0-1d43aa86ab6c": [],
+  "479ae0e3-6868-4015-9c47-66dc7dd4dffd": [],
+  "7f941737-c1cd-4fcb-b04b-42aaf8ca06d0": [],
+  "5b60c404-8c7a-3e9e-b497-7dc95e543799": [],
+  "81421ed9-adcc-4db4-bdc5-4a9f3eccf7fb": [],
+  "48551a42-721e-4d04-b220-de00fd1bc673": [],
+  "b2554863-80c7-4e4e-b7b6-49e7104657e8": [],
+  "23acf0ad-09ef-3ed8-a3e2-659714581e53": [],
+  "7a2b0f97-fc02-329b-ac51-16443c1cdeb5": [],
+  "47e5113a-2c32-4824-bb10-37c3ad3860b9": [],
+  "1011bc25-30bf-450c-8f32-3bbd295df853": [],
+  "bb96af2d-dec4-34b5-ab6c-6a138adac639": [],
+  "f7bea049-b7aa-3202-a7e7-8d4ff374da6b": [],
+  "fb245f4c-b185-349c-a99a-b023e687be03": [],
+  "13d48483-5c1c-4314-a83a-962b771bc808": [],
+  "ddaec879-9c7d-427b-8025-7e9920f2c070": [],
+  "294b11af-d3aa-3e27-aea1-5fbcd13ad4d2": [],
+  "79ab01ff-f533-32e2-b09d-6d6ff8362109": [],
+  "ae544994-fb48-4092-accb-12bf50636943": [],
+  "04b50021-b9cd-4451-b86c-106a797d1a71": [],
+  "334a2178-7f1f-48ea-b9ce-a20e5c3c02f7": [],
+  "3fe6d16d-4e5d-3309-bfeb-1ff3967d3ff6": [],
+  "122a4f1f-c6d6-4190-aa7b-b5fec2f05e1b": [],
+  "16448307-4818-499a-b8dc-33b6d2afb254": [],
+  "3fc3d231-2ea3-333c-9884-38293f6ca35b": [],
+  "2a291840-ad7a-44f0-9457-60630c28921a": [],
+  "e0bb3751-c325-35df-aaa6-498e3e3ee6c0": [],
+  "9a94ea52-18f0-4369-bc9f-963760abc946": [],
+  "ad476bdc-e518-4ccc-ab00-3c0db88ad538": [],
+  "f3b9df97-ceda-4cdb-944c-013a11d8f5fd": [],
+  "f43d4430-8b2d-33b4-afa1-123ab7d79044": [],
+  "06847519-2ed3-4265-83db-1c91fb0bbce7": [],
+  "a633c1f0-5588-4f2a-8a7d-1bb55908e645": [],
+  "fd0e983a-4486-4943-a6d4-60ab4c5746ee": [],
+  "176c3a81-d3df-4091-85aa-e154ec2050df": [],
+  "030dbf79-e86a-4c34-a644-11907a72fb3b": [],
+  "ea6b2910-4315-4a73-80ed-f1c5d85421c0": [],
+  "fe58a598-09fd-485b-9d23-3b4bb009d981": [],
+  "0ec76bd1-f705-31b4-8e8d-82b237ca03a2": [],
+  "d3a7eb57-5a80-49dd-8b3b-f29db0a90f83": [],
+  "fd50cc17-015f-47ff-b75d-a598ee638c14": [],
+  "59cef815-8811-4e6f-ad42-08150df91469": [],
+  "603c64a6-90cd-37ba-8fb7-277760b2123c": [
+    {
+      "name": "Harold Arlen",
+      "mbid": "3508f3fd-3b18-493c-a362-376736bb6cde"
+    }
+  ],
+  "22efa811-c782-442d-b595-5d5e4389c7e5": [
+    {
+      "name": "Miguel Matamoros",
+      "mbid": "4409cdcf-6300-4530-874f-23d75f1be63b"
+    }
+  ],
+  "0bf780e8-2771-4cfa-b34e-8ec86d1d52c0": [
+    {
+      "name": "Isolina Carrillo",
+      "mbid": "7edc3952-f853-4369-9883-589db1f3875f"
+    }
+  ],
+  "89963691-2e8a-4bb7-b9c1-ccf42d4ef433": [],
+  "1e675e48-989c-47ec-ad76-436286986326": [],
+  "92d3b8ef-fbcd-437b-a717-979b2d43c948": [],
+  "1d5468c4-41c2-3c04-8c00-4fb7b2e50b3c": [],
+  "52c1b795-5a54-3238-848b-e4e1159ea41d": [],
+  "d70b496f-f488-4dc7-818a-581bf0511a6a": [],
+  "b9504911-1945-4e96-bbd2-3433709e7c37": [],
+  "d6fadafa-87ef-4b6d-81f2-70eadbe8ac39": [],
+  "3210349d-874b-4fd1-8d5b-036a7b7dd19f": [],
+  "d800088b-8648-3471-a782-0a07096b2bc5": [],
+  "557967c8-d76f-3553-b553-c675fc9107da": [],
+  "477cf98f-02a5-4e32-9ab9-61cec766e87c": [],
+  "f4d363bc-1aaf-4ef4-a2db-a91b609d04b1": [],
+  "4e8fe68a-6557-4678-9ae3-427eb080dc14": [],
+  "07d934d5-af94-4a32-871d-b9cd327986f2": [],
+  "1bddca0c-cc8d-41af-bd28-48044c8f4dd8": [],
+  "c46fa214-25e2-4ba2-b152-704dd627baf7": [],
+  "3ef5955d-9acd-4e03-87ef-42fb9cf066e1": [],
+  "6c0e740d-c912-4f01-85d1-1da256c025fe": [],
+  "fed53a74-7e4c-4b9b-be2d-091a85c3285c": [],
+  "e7eb1cc6-6d11-4a65-9a81-67a4587253e6": [],
+  "4b5af548-f4c6-4915-8d39-717d1faaf47e": [],
+  "d88dcf46-f332-40f6-a439-8bd081f5e971": [],
+  "1528ae55-c442-48b1-ad7f-7d8ef617e6e1": [],
+  "a838fda5-997b-40c4-acac-1fab79cd7394": [],
+  "5939d6e6-5ae5-48bf-b919-09ed3c494990": [],
+  "11d520a0-f1e1-4358-8af0-c9ede7f7017e": [],
+  "692fd8d4-cdd6-4ed1-9ef7-ab478f8e2883": [],
+  "3f7a814f-39ca-42f3-be90-481e26276df8": [],
+  "09fb49a9-c7bb-3fe3-b704-3e6cb4a6b05e": [],
+  "9ffe50aa-b471-4e33-be06-61fd3625a4e3": [],
+  "d74ab43b-c1ea-48b1-851a-63652566505b": [],
+  "c23be7c2-2cb6-4697-87e5-79e065b45540": [],
+  "25bf5d36-70da-415e-9b56-a392839ee1eb": [],
+  "e1903c6c-89fc-43fa-b0fc-57fb88a432fa": [],
+  "91957a85-f4ce-43c4-9ea5-03c6e32dcaf6": [],
+  "0a7c4f6b-9a80-4806-86b3-09edcea57709": [],
+  "9c54cfc9-3e29-49d1-af55-1aee63f605f6": [],
+  "80571667-bbb7-4e28-84dd-5f4c5d603e59": [],
+  "070884d7-349d-4ff3-94cd-5c9c23102c63": [],
+  "6a4bcbd4-8626-3e3f-be8b-cf0d193c696e": [],
+  "7b2dbe07-80d0-3e4e-a014-12227e044731": [],
+  "9cb393b8-b374-34a3-864a-a0f9baa623f0": [],
+  "89dbb8f4-b109-450f-8751-acc57fc8abff": [],
+  "5ae08b36-bc63-485a-b964-78fa27772faa": [],
+  "48038364-5b93-490a-afab-ecb555db465d": [],
+  "9d0e647e-6aa1-4296-b6b3-cbc7e73f049f": [],
+  "4a12b910-3dae-39d0-81f2-784992adb459": [
+    {
+      "name": "Duke Ellington",
+      "mbid": "3af06bc4-68ad-4cae-bb7a-7eeeb45e411f"
+    },
+    {
+      "name": "Barney Bigard",
+      "mbid": "eab4d095-80d3-4b20-a16a-4d96d28ff67f"
+    }
+  ],
+  "07b775ae-be76-3e90-b105-cb94534989b9": [
+    {
+      "name": "Walter Donaldson",
+      "mbid": "0a2824a1-660d-42c9-9043-657f182533b3"
+    }
+  ],
+  "ec4219ef-463f-381f-b5d1-3cf85dbecdc3": [
+    {
+      "name": "Walter Donaldson",
+      "mbid": "0a2824a1-660d-42c9-9043-657f182533b3"
+    }
+  ],
+  "8dee3295-fc9e-37a8-bf72-f2e28c690f98": [
+    {
+      "name": "Richard Rodgers",
+      "mbid": "346448f5-25a0-4f78-bbd6-acc0205f7513"
+    }
+  ],
+  "f48c99d5-37ed-3b1f-a7a7-ff37ab47eb6d": [
+    {
+      "name": "Richard Rodgers",
+      "mbid": "346448f5-25a0-4f78-bbd6-acc0205f7513"
+    }
+  ],
+  "85f3c83a-821b-3cb9-a315-23caa68d7d28": [
+    {
+      "name": "Tadd Dameron",
+      "mbid": "52763c17-465b-48e9-9e2b-3345ea8ba761"
+    }
+  ],
+  "1934a6d6-4815-492d-80f2-afa6c208930a": [],
+  "6cb80ad0-153c-4ce1-821b-afca80998e81": [],
+  "316c945b-1529-47de-8e8a-dc383f80fe03": [],
+  "83be69b1-f7a7-45db-903a-667b86a776fb": [],
+  "f2809b44-8789-4daa-b1cd-5fd1ebfd7cc2": [],
+  "86f97e79-e82c-4ee9-aef1-baf5f92c2bef": [],
+  "996c77c9-825c-4f98-979c-190df1a0f7d3": [],
+  "e18b8725-5d9f-444d-93d9-bf5231a9db95": [],
+  "9be2ccd2-5167-4ca5-b50b-58dd23a6c583": [],
+  "90ffe6c7-21d7-435d-b98f-01fa42876544": [],
+  "097e8b82-da31-473a-af67-c12248eb6d39": [],
+  "f5bb0019-0f27-3926-861c-f4419cad7213": [],
+  "44ffd696-e792-4df1-93ee-b5578bc95a87": [],
+  "03a7d088-5614-428c-8513-a1c422b0de04": [],
+  "3659cf93-b87b-4072-952a-528623c69c8c": [],
+  "191df675-2d32-451e-a695-e87602e43659": [],
+  "88e90f67-ad34-46f9-99a2-dcb8f0f17e99": [],
+  "de5bc8ae-1862-47eb-ad1d-e5301e801523": [],
+  "0d4719d4-c6bc-484b-8820-e2a6a3668c4b": [],
+  "8fd1898a-047f-4653-a332-eb301addc66a": [],
+  "378c8e8f-89d5-4e23-bc6d-473b4859eee7": [],
+  "52d9034f-84ec-4461-9776-a6a54247cf76": [],
+  "8c3f3cb5-a024-4625-987c-02b082200dfe": [],
+  "1148cbf4-c616-4406-b9cb-2b7ee42b1919": [],
+  "e18428ef-c98b-4756-83bc-d4c155fdb472": [],
+  "a535a4f9-fb6e-4ba7-90ed-9a4309fa2419": [],
+  "152366bd-d43e-454a-a188-287014cd5e13": [],
+  "3147e05d-0dac-4b9d-a467-f86f256c53f4": [],
+  "c9881428-e4ab-46c4-be1e-168a459f8575": [],
+  "811c2f62-8b56-4252-b9f9-16b1c9e1b830": [],
+  "b9239504-3fdf-4566-b2e7-2e3239a0122a": [],
+  "25ccb8f5-22e5-434b-be56-e9e13b83551c": [],
+  "1462819d-cf91-4de4-9fef-4a63402d08ff": [],
+  "ba12856f-3dff-4b4b-9a66-f396e68014d7": [],
+  "bd0427d7-fdc2-4225-b608-4c784cad2fcf": [],
+  "e3662db8-5fed-4770-92cc-4919fa48830c": [],
+  "610b8b93-3021-4006-af06-7d1d5f309720": [],
+  "f00de2cf-04ae-461a-892f-b2925825a25c": [],
+  "53b13894-e20b-4472-a5d4-b8e6e6c5c707": [],
+  "bf864da6-3b35-4c5a-a089-0106ac320d73": [],
+  "74ee6050-626f-420f-8544-68a616a51b55": [],
+  "1f566afa-c610-3e45-ba81-cfefc8b26e95": [],
+  "8296830c-0d85-46cb-959a-b5b1165be849": [],
+  "1b7cfa86-37ee-45b9-a092-41ca38aaf26d": [],
+  "98d6dbeb-8672-39ef-a10f-eae069a2075c": [
+    {
+      "name": "Benny Goodman",
+      "mbid": "b09ae88f-4156-4caa-b129-1cacb5e1632e"
+    },
+    {
+      "name": "Edgar Sampson",
+      "mbid": "79842485-d513-4057-a55f-eb7212752719"
+    },
+    {
+      "name": "Chick Webb",
+      "mbid": "8ecae52e-9c89-4b61-99d8-ac11abc26771"
+    }
+  ],
+  "e91712f5-51ba-31f3-a04c-3749f0f5e454": [
+    {
+      "name": "George Gershwin",
+      "mbid": "65744963-191a-44ef-a3c7-b693a808a158"
+    }
+  ],
+  "3435dd9a-6ee0-31cb-8030-89987ffeb159": [
+    {
+      "name": "Richard Rodgers",
+      "mbid": "346448f5-25a0-4f78-bbd6-acc0205f7513"
+    }
+  ],
+  "1f40e982-b949-4e5e-86f6-e603efd8f188": [
+    {
+      "name": "Nat Adderley",
+      "mbid": "a9e79d89-f90b-4cef-943e-68151336a430"
+    }
+  ],
+  "219d7e1d-64fa-3e0d-bb07-d184b59d742f": [
+    {
+      "name": "Ann Ronell",
+      "mbid": "475e4df5-358a-45b3-89c9-e63d8de33aa2"
+    }
+  ],
+  "f2628ebf-2e68-45e4-bc41-2a89bcbc08b6": [
+    {
+      "name": "Rodolfo Falvo",
+      "mbid": "0c387664-78d8-4e82-a1ef-a0b391109cf7"
+    }
+  ],
+  "7ed1306f-df79-34fd-b9b3-a41e28fb9a95": [
+    {
+      "name": "George C. Cory Jr.",
+      "mbid": "e858ffad-36c5-4fc0-859a-d41294102260"
+    }
+  ],
+  "6703a6bc-53a8-4a80-8a70-b8c5ccc373ab": [],
+  "ee190161-0772-4a34-9630-504a2a528429": [],
+  "39603b83-9d3b-30df-9334-54c845c61962": [],
+  "1640af1e-c1a5-427d-9e47-7ddefcf19e11": [],
+  "6706a2f2-998b-438f-a93c-ac643e62dacc": [],
+  "d47099fa-5d26-49ff-94af-4adcef78ae8e": [],
+  "13a5adb3-6c09-45e2-a604-be4e0c324b0f": [],
+  "aaff994e-f21e-400c-9621-43d5bdf1a07a": [],
+  "a5cb463b-0183-4441-8838-e60b2ac98a2c": [],
+  "8ca8f1e7-e703-4928-84d8-d44bf3a8267a": [],
+  "8ea6faf1-04f7-4a87-8fe0-3fe0c64d1a7a": [],
+  "f7726f1d-b544-4250-9412-99330865253a": [],
+  "f53b6ece-7e02-3cb8-a0b5-d130658d99e1": [],
+  "2076a08d-d099-4d3f-af66-e929678b25c2": [],
+  "953cda4e-4aeb-45ee-90a3-468d19434e0e": [],
+  "bc4593e0-de85-49ca-b0a3-5afa90628b45": [],
+  "24f0675b-d73a-387a-86c5-ad3cae12997c": []
+}

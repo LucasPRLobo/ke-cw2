@@ -1,0 +1,110 @@
+{
+  "id": 39776,
+  "name": "Dolly Parton",
+  "realname": "Dolly Rebecca Parton",
+  "profile": "American Country singer, songwriter, and actress born on January 19, 1946 in Locust Ridge, Tennessee, USA.\r\n\r\nShe made her first solo record [m1168847], a Rockabilly song, in 1959 at the age of 13 on the [l107616] label. She went on in 1962 to make one Soul Pop single \"The Love You Gave\" ([m1246061])  for the [l39357] Records label. In 1964 she went on to sing for the [l26077] label. She first sang the Pop single \"What Do You Think About Lovin\" ([m1663365]). Then made the (Blue-Eyed) Soul single \"Happy, Happy Birthday Baby\" ([m1620742]) that hit the 1965 bubbling under charts. Then made the (Blue-Eyed) Soul Single \"Busy Signal\" ([m718784]). Then made the (Blue-Eyed) Soul single \"Don't Drop Out\" ([m1419675]). In 1966 she scored a No. 1 hit with [a1461660] on the [l5320] Records label. She went in 1966 after being forced by her previous labels to sing Soul and Pop, to sing country. She had her first top 100 hits \"Dumb Blonde\" ([r2294284]) and \"Something Fishy\" ([m614088]). She in 1967 replaced the country singer [a914802] on the [a357983] Show as the \"girl singer\". In 1968 she switched to [l11358] label. She scored her first No. 1 hit \"Joshua\" ([m862209]). She made singles for [l11358] until 1987 when she made singles for the [l1866] Records label. After that she made singles [l216059] label [her own label] and one single for the [l5320] Records label.\r\n\r\nShe acted in the films '9 To 5' (1980), 'The Best Little Whorehouse In Texas' (1982), 'Steel Magnolias' (1989), 'A Smokey Mountain Christmas' (1986), 'Christmas Of Many Colors: Circle Of Love' (2016), 'Gnomeo and Juliet' (2011), 'Joyful Noise' (2012), and 'Straight Talk' (1993). Her composition 'I Will Always Love You', written in 1974, became a worldwide hit for [a30542] in 1993. In the mid-1980s, she opened her own theme park called 'Dollywood'. Dolly Parton received the Songwriters Hall of Fame [a164574] Award in 2007.\r\n\r\nDaughter of [a=Avie Lee] and Robert [a=Lee Parton]; Granddaughter of [a=Jake Robert Owens]; Sister of [a=Willadeene Parton], [a=Stella Parton], [a=Cassie Parton], [a=Randy Parton], [a=Freida Parton], [a=Floyd Parton], and [a=Rachel Dennison]; Aunt of [a=Jada Star], [a=Heidi Parton], [a=Bryan Seaver], [a=Rebecca Seaver], and [a=Hannah Dennison]\r\n\r\nNiece of [a=Dorothy Jo Hope], [a=Estelle Watson], [a=John Henry III], [a=Louis Owens], and [a=Bill Owens]; First cousin of [a=Richie Owens], [a=Jeff Owens (10)], [a=Dale Puckett], [a=Dwight Puckett], and [a=Debbie Jo Puckett]\r\n\r\nStudios: [l310285].",
+  "members": [],
+  "groups": [
+    {
+      "name": "Porter Wagoner And Dolly Parton",
+      "id": 2123908,
+      "active": true
+    },
+    {
+      "name": "The \"Howdy-Cracker Vocal Revue\"",
+      "id": 4347448,
+      "active": true
+    },
+    {
+      "name": "Trio (25)",
+      "id": 4513078,
+      "active": true
+    },
+    {
+      "name": "Artists Of Then, Now & Forever",
+      "id": 6560830,
+      "active": true
+    },
+    {
+      "name": "Chet Atkins and His Friends",
+      "id": 8752582,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Folk, World, & Country",
+    "Funk / Soul",
+    "Pop",
+    "Rock"
+  ],
+  "styles": [
+    "Ballad",
+    "Bubblegum",
+    "Country",
+    "Pop Rock",
+    "Rockabilly",
+    "Soul"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Country"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Rockabilly"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Country"
+    },
+    {
+      "genre": "Rock",
+      "style": "Soul"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rockabilly"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Soul"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Rockabilly"
+    },
+    {
+      "genre": "Pop",
+      "style": "Soul"
+    },
+    {
+      "genre": "Pop",
+      "style": "Rockabilly"
+    },
+    {
+      "genre": "Rock",
+      "style": "Bubblegum"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Pop",
+      "style": "Bubblegum"
+    },
+    {
+      "genre": "Pop",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Ballad"
+    }
+  ]
+}

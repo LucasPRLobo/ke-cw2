@@ -565,10 +565,19 @@ def enrich_related_artists(g, mb_rate_limit=1.1):
             ?someone mh:collaboratedWith ?artist .
         } UNION {
             ?artist mh:collaboratedWith ?someone .
+        } UNION {
+            ?someone mh:influencedBy ?artist .
+        } UNION {
+            ?artist mh:influencedBy ?someone .
+        } UNION {
+            ?artist mh:composed ?work .
         }
         ?artist rdfs:label ?label .
         FILTER(STRSTARTS(STR(?artist), "http://musicbrainz.org/artist/"))
-        FILTER NOT EXISTS { ?artist mh:countryOfOrigin ?c }
+        FILTER(
+            !EXISTS { ?artist mh:countryOfOrigin ?c } ||
+            !EXISTS { ?artist mo:genre ?g }
+        )
     }
     """
     results = list(g.query(query))
@@ -591,19 +600,28 @@ def enrich_related_artists(g, mb_rate_limit=1.1):
         else:
             try:
                 time.sleep(mb_rate_limit)
-                detail = musicbrainzngs.get_artist_by_id(mbid)["artist"]
+                raw = musicbrainzngs.get_artist_by_id(mbid, includes=["tags"])["artist"]
+                # Extract top tags as genres
+                tags = [t["name"] for t in raw.get("tag-list", [])
+                        if int(t.get("count", 0)) >= 3]
+                life_span = raw.get("life-span", {})
                 cache[mbid] = {
-                    "country": detail.get("country"),
-                    "type": detail.get("type"),
+                    "country": raw.get("country"),
+                    "type": raw.get("type"),
+                    "tags": tags,
+                    "begin": life_span.get("begin"),
+                    "end": life_span.get("end"),
+                    "gender": raw.get("gender"),
                 }
                 api_calls += 1
             except Exception:
-                cache[mbid] = {"country": None, "type": None}
+                cache[mbid] = {"country": None, "type": None, "tags": [], "begin": None, "end": None, "gender": None}
                 continue
             detail = cache[mbid]
 
+        # Country
         country = detail.get("country")
-        if country:
+        if country and not any(g.triples((artist_uri, MH.countryOfOrigin, None))):
             country_code = country.lower()
             country_uri = MH[f"country/{country_code}"]
             g.add((country_uri, RDF.type, MH.Country))
@@ -614,7 +632,30 @@ def enrich_related_artists(g, mb_rate_limit=1.1):
             g.add((artist_uri, MH.countryOfOrigin, country_uri))
             enriched += 1
 
-        # Also add type if missing (respecting disjointness)
+        # Genres from tags
+        from config import GENRE_BLACKLIST
+        for tag_name in detail.get("tags", []):
+            if tag_name.lower() in GENRE_BLACKLIST:
+                continue
+            genre_norm = normalise_genre(tag_name)
+            genre_uri = MH[f"genre/{genre_norm}"]
+            if not any(g.triples((artist_uri, MO.genre, genre_uri))):
+                if not any(g.triples((genre_uri, RDF.type, None))):
+                    g.add((genre_uri, RDF.type, MO.Genre))
+                    g.add((genre_uri, RDFS.label, Literal(genre_norm.replace("_", " "), lang="en")))
+                g.add((artist_uri, MO.genre, genre_uri))
+                enriched += 1
+
+        # Birth/death dates
+        SCHEMA = Namespace("https://schema.org/")
+        if detail.get("begin") and not any(g.triples((artist_uri, SCHEMA.birthDate, None))):
+            g.add((artist_uri, SCHEMA.birthDate, _typed_date_literal(detail["begin"])))
+            enriched += 1
+        if detail.get("end") and not any(g.triples((artist_uri, SCHEMA.deathDate, None))):
+            g.add((artist_uri, SCHEMA.deathDate, _typed_date_literal(detail["end"])))
+            enriched += 1
+
+        # Type (respecting disjointness)
         artist_type = detail.get("type", "")
         if artist_type == "Person" and not any(g.triples((artist_uri, RDF.type, MO.MusicGroup))):
             g.add((artist_uri, RDF.type, MO.SoloMusicArtist))
@@ -626,7 +667,7 @@ def enrich_related_artists(g, mb_rate_limit=1.1):
     with open(ENRICHMENT_CACHE, "w") as f:
         json.dump(cache, f, indent=2)
 
-    print(f"  [ENRICH] Added country data for {enriched} artists ({api_calls} API calls, {len(results) - api_calls} cached)")
+    print(f"  [ENRICH] Added {enriched} triples (country, genre, dates) for related artists ({api_calls} API calls, {len(results) - api_calls} cached)")
     return enriched
 
 

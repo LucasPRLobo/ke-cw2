@@ -1,0 +1,2202 @@
+{
+  "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+  "name": "The Beatles",
+  "type": "Group",
+  "country": "GB",
+  "gender": null,
+  "life_span": {
+    "begin": "1960",
+    "end": "1970-04-10",
+    "ended": "true"
+  },
+  "area": "United Kingdom",
+  "begin_area": "Liverpool",
+  "tags": [
+    {
+      "name": "60s",
+      "count": "6"
+    },
+    {
+      "name": "beat",
+      "count": "1"
+    },
+    {
+      "name": "british",
+      "count": "22"
+    },
+    {
+      "name": "british invasion",
+      "count": "9"
+    },
+    {
+      "name": "britpop",
+      "count": "1"
+    },
+    {
+      "name": "classic rock",
+      "count": "3"
+    },
+    {
+      "name": "europe",
+      "count": "1"
+    },
+    {
+      "name": "film soundtrack",
+      "count": "1"
+    },
+    {
+      "name": "liverpool",
+      "count": "1"
+    },
+    {
+      "name": "mainstream rock",
+      "count": "1"
+    },
+    {
+      "name": "merseybeat",
+      "count": "14"
+    },
+    {
+      "name": "pop",
+      "count": "28"
+    },
+    {
+      "name": "pop rock",
+      "count": "23"
+    },
+    {
+      "name": "popular music",
+      "count": "1"
+    },
+    {
+      "name": "psychedelia",
+      "count": "1"
+    },
+    {
+      "name": "psychedelic pop",
+      "count": "15"
+    },
+    {
+      "name": "psychedelic rock",
+      "count": "7"
+    },
+    {
+      "name": "rock",
+      "count": "45"
+    },
+    {
+      "name": "rock and roll",
+      "count": "2"
+    },
+    {
+      "name": "rock groups",
+      "count": "1"
+    },
+    {
+      "name": "rock music",
+      "count": "1"
+    },
+    {
+      "name": "vyrzukhisuc-artiest",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "artist rename",
+      "direction": "backward",
+      "target_name": "The Quarrymen",
+      "target_mbid": "9fcc463b-7cfc-4ea4-a65e-bab77fc78e9a",
+      "attributes": [],
+      "begin": "1960",
+      "end": "1960"
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Jimmie Nicol",
+      "target_mbid": "cd640a5e-77e0-4c1e-a9e7-b93acf968feb",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1964-06-03",
+      "end": "1964-06-14"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Stuart Sutcliffe",
+      "target_mbid": "49a51491-650e-44b3-8085-2f07ac2986dd",
+      "attributes": [
+        "bass guitar"
+      ],
+      "begin": "1960-01",
+      "end": "1961"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Tommy Moore",
+      "target_mbid": "f7d30d7d-9976-4d31-9907-19f3c30a206d",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1960-05",
+      "end": "1960-06"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Norman Chapman",
+      "target_mbid": "6a0e143b-61bb-414f-99c8-96681be286a1",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1960-06",
+      "end": "1960-06"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Pete Best",
+      "target_mbid": "0d4ab0f9-bbda-4ab1-ae2c-f772ffcfbea9",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1960-08-12",
+      "end": "1962-08-16"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Chas Newby",
+      "target_mbid": "2629082c-19b4-42ae-b2e1-d6025ead67a0",
+      "attributes": [
+        "bass guitar"
+      ],
+      "begin": "1960-12",
+      "end": "1961-01"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "John Lennon",
+      "target_mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+      "attributes": [
+        "guitar",
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1960",
+      "end": "1969-09"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "George Harrison",
+      "target_mbid": "42a8f507-8412-4611-854f-926571049fa0",
+      "attributes": [
+        "guitar",
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1960",
+      "end": "1970-04-10"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Paul McCartney",
+      "target_mbid": "ba550d0e-adac-4864-b88b-407cab5e76af",
+      "attributes": [
+        "bass guitar",
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1960",
+      "end": "1970-04-10"
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ringo Starr",
+      "target_mbid": "300c4c73-33ac-4255-9d57-4e32627f5e13",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1962-08",
+      "end": "1970-04-10"
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "The aiBeatles",
+      "target_mbid": "7971ac46-4e9e-4001-83a1-81f7da6b70b2",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "forward",
+      "target_name": "Johnny Gentle",
+      "target_mbid": "0eae9f27-058c-45c1-a25d-89e5038f1e73",
+      "attributes": [],
+      "begin": "1960-05-20",
+      "end": "1960-05-28"
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beatles Revival Band",
+      "target_mbid": "0f697bc6-6df7-41c9-b550-39981e520d70",
+      "attributes": [],
+      "begin": "1976",
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Sgt. Peppercorn's Beatles Marathon",
+      "target_mbid": "7d5b2854-ce8f-4d4a-a099-364c1b2488d1",
+      "attributes": [],
+      "begin": "2010-12-10",
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Where’s Ringo",
+      "target_mbid": "08387cc6-dc48-4d72-ba3f-05c09c9a77fb",
+      "attributes": [],
+      "begin": "2015",
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "3 &",
+      "target_mbid": "8dfd2a90-3cfc-43b1-b8dc-87c2ec0d18d8",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Abbey Road",
+      "target_mbid": "503c67ae-98d9-4cd8-a7d4-204c41ddaa3d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Abbey Road",
+      "target_mbid": "c74f958d-7ced-4473-a451-770ceacf523b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Analogues",
+      "target_mbid": "f5c60db1-1376-4aa5-9480-512b9e110f31",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Apples",
+      "target_mbid": "48667056-ab61-4100-9894-abce9117ca1a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "BeApple",
+      "target_mbid": "1032afee-df26-439a-9b05-d3c55e91b1c8",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Beatallica",
+      "target_mbid": "8602561b-caa1-4ef7-9501-a4159b3a41c3",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Beatals",
+      "target_mbid": "a48ab144-74cf-4699-bb15-e0225eca78ce",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beatle Bronies",
+      "target_mbid": "450c66a3-b431-44ae-8326-7e7f7db15bcd",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "La Beatle Jam",
+      "target_mbid": "cf858f87-ab33-4fc3-ab5a-b9e9bd7e2f25",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Beatles Back2Back",
+      "target_mbid": "7cac6d47-ef4e-4347-8835-63ed3f2e74a7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Cavern Beatles",
+      "target_mbid": "31f6812d-12ab-406f-a13d-ad54976e49c6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Beatles Dub Club",
+      "target_mbid": "ed219412-e7c2-4437-b111-27c810636ac7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beatles Revival",
+      "target_mbid": "5153cd90-37c6-4fa0-8da6-dbf5513b4a44",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beatles Symphonic Fantasy",
+      "target_mbid": "c1497b67-1ab6-44f2-b58d-66e3d8ca7b69",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Beatles Complete",
+      "target_mbid": "05dc7aee-c05f-4e02-8301-e04f5bc74e7d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beatnix",
+      "target_mbid": "f99b1104-5f74-47a1-b9e1-f236a0de555a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beats",
+      "target_mbid": "e9394db9-ce32-4145-9d82-3d7f9bba0586",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beetles",
+      "target_mbid": "3d45df45-d73b-4366-a47d-b4ffb81cef3d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beetles",
+      "target_mbid": "1e18875a-70ec-4f35-a6cc-af301c0f301b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beladies",
+      "target_mbid": "f6431257-fcca-40e7-a9df-90a333462b31",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Better Beatles",
+      "target_mbid": "7383113a-2b44-4fd1-a2b1-277ca68803b7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Big Four",
+      "target_mbid": "b437ac4c-681c-4307-8bc9-7ace7c23711d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Buenos Aires Beatle Band",
+      "target_mbid": "f981550f-e1b6-4a36-84dc-f67d9741190b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Cast of Beatlemania",
+      "target_mbid": "f13c3ce6-966a-44e4-80de-c796c17830fc",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Caverners",
+      "target_mbid": "5213c51f-d3d8-4784-8e66-759c8b592d70",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Columbia",
+      "target_mbid": "ecd3c99a-d5d3-43cd-9b38-5ce02d48235f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Counterfeit Beatles",
+      "target_mbid": "ad60d963-44f1-4b41-b785-8284edcaaffe",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Crab Four",
+      "target_mbid": "80af295d-c252-4eb2-ba7b-a8d44ada1725",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Danger Four",
+      "target_mbid": "fae527dd-11b4-4523-beaf-ceacc02f59ba",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Dear Beatles",
+      "target_mbid": "ebb13877-6f89-431c-a0e2-5f7366ddb0e8",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Dung Beatles",
+      "target_mbid": "f4e71cc9-79d7-4f7a-8aca-fb16dab0f352",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Eggmen",
+      "target_mbid": "1d805ccb-89e7-4220-b2b9-6cc5497bc6e5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Estefy Lennon Band",
+      "target_mbid": "bec11f22-f76f-46c1-a270-66a3035e0525",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Fab Faux",
+      "target_mbid": "ce27a684-a12f-484c-b891-080b5ea4c331",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Fab Four",
+      "target_mbid": "a7dc0f1f-548e-4d95-8291-c12657bbe42d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Fabfakes",
+      "target_mbid": "911217e1-d165-4fb9-9e9f-3f12509b0eb5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Flake",
+      "target_mbid": "a3305543-f49d-4b69-82f0-b53173a84e31",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Jay Goeppner",
+      "target_mbid": "665a88c1-5688-4ff6-8218-495c5ca73c72",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Hard Day’s Night",
+      "target_mbid": "38603e0b-ed17-498a-9322-40c2d93cb2b4",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Hard Day’s Night",
+      "target_mbid": "1bad4ffd-1727-4865-a45e-2fdfd3befe44",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Hard Night's Day",
+      "target_mbid": "adbe5706-d9dc-42df-987f-d9302ad669d7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Harrison",
+      "target_mbid": "efd345ae-4c44-404c-9347-34802a218a60",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "HELP! A Beatles Tribute",
+      "target_mbid": "681f1304-a4d1-4215-beff-0ddcf457c683",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Stone Beat Invasion",
+      "target_mbid": "5cef2bb1-dc46-4940-9d45-d0e0890bc8b3",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Itchycoo Park",
+      "target_mbid": "296ada97-723a-4b70-ad63-d4db2206063c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Instant Karma",
+      "target_mbid": "5df32475-e3d1-4f38-bd03-3d0038ff3ead",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Koppykats",
+      "target_mbid": "5cc81de0-bbc2-4adc-8f83-41579ce0ac7a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Ladders",
+      "target_mbid": "40b283cc-1ab3-48ff-a485-7795031d24ae",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Lenny Pane",
+      "target_mbid": "59689474-79fa-4a1c-a708-c30692dbf7a9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Live From Hamburg the Fabulous Beatless",
+      "target_mbid": "e908390d-9ac6-467c-a5d3-d972c454623f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Liverpool",
+      "target_mbid": "ce184576-5a94-4a31-9d49-14eb0d900617",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Liverpool Lads a Beatles Tribute",
+      "target_mbid": "abdd68e9-cd78-453e-a0d6-315dc73cf0e4",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Los Beat3",
+      "target_mbid": "78d8d435-75b6-4cff-b2c2-687e6af78d42",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Magical Mystery Doors",
+      "target_mbid": "43df8bef-aa40-487b-ae50-5159be429ab1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Mersey Beatles",
+      "target_mbid": "3b901234-8f2d-4a09-b30b-a7d6008f5ec6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "A Hard Day’s Night",
+      "target_mbid": "d6b38023-0a5d-4d2e-aff0-58286649c4da",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Not The Beatles",
+      "target_mbid": "f540dcbe-4ae8-45c7-817b-372241202276",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Nowhere Men",
+      "target_mbid": "ceb01bbf-cbeb-4024-8a68-014623d16a8a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Nube 9",
+      "target_mbid": "494a9a5c-f582-4225-a39d-5827f0236959",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "ONES",
+      "target_mbid": "9758cf78-253d-494b-8072-5e4cf4da03db",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Punkles",
+      "target_mbid": "65548486-3923-44bf-863e-f3d4036f0320",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Rain",
+      "target_mbid": "1a8e8e32-feec-4358-b096-68e958ffa3d5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Revolver",
+      "target_mbid": "d352ebdf-cae3-4fb9-a4b3-750dacc686bd",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Rigbys",
+      "target_mbid": "8a344d7f-9665-49b8-b9af-2c8dfe175e77",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Rubber Souldiers",
+      "target_mbid": "edfd6a5b-79fb-4e02-83cf-b11304189af1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Beatles For Sale",
+      "target_mbid": "231bd03f-cbe2-4278-82a0-0c688ff4aa18",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Sgt. Pepper",
+      "target_mbid": "a6d31e9e-272b-40f7-afbe-d0d3f06bece6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Sgt. Pepper's Lonely Bluegrass Band",
+      "target_mbid": "48c6d0e1-beb0-4277-9bc0-5622297461cf",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Shouts",
+      "target_mbid": "83fb18dc-2879-45a9-bdb8-5ba3b609fb2b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Diego Souto and The Revolvers",
+      "target_mbid": "32814c6e-cbe5-4ac6-948e-de9d99ea3c5d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Starclubbers",
+      "target_mbid": "4e411310-7354-4641-b795-78d52ebf8d33",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Strawberry Fields",
+      "target_mbid": "c5fd8472-80a5-468d-9f35-8f4dc9142ba1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beagles",
+      "target_mbid": "381490ff-24a9-4ac0-b0cd-9850d6fc6ef1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The BeaStles",
+      "target_mbid": "2927750c-ebb0-47fb-9ce1-8cbdb90e80ea",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beatchos",
+      "target_mbid": "8754acd5-13c9-4c91-97f0-0f9ef317b3f7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Beatles Complete on Ukulele",
+      "target_mbid": "b2f173ed-cd51-452b-b75e-7563c63a446d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Ultimate Beatles",
+      "target_mbid": "606e66a4-30d4-48b3-b05e-ee222b955ff0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Two of Us",
+      "target_mbid": "83030cec-489d-4a0d-8220-37804048ee53",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Upbeat Beatles",
+      "target_mbid": "f236e16e-dab5-459b-afc9-caf411384125",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Who The Fab",
+      "target_mbid": "8d3afbd3-278a-4cfa-ba60-bcc37d59b210",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Wild Honey Pie",
+      "target_mbid": "e9162b32-fbdc-4c12-83a5-706f817199ea",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000754032"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+    },
+    {
+      "type": "discography page",
+      "target": "https://musicalbums.ai/artist/The%20Beatles"
+    },
+    {
+      "type": "discography page",
+      "target": "https://www.musicmeter.nl/artist/13409"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/82730"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://aboutthebeatles.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://beatlesfanclub.nl/"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://www.beatles.ru/"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://www.dmbeatles.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.britishbeatlesfanclub.co.uk/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://music.migu.cn/v3/music/artist/961"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://play.anghami.com/artist/4689"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.boomplay.com/artists/3199029"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/1"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.kkbox.com/hk/en/artist/OsUSXTUzyafhCb7Mt7"
+    },
+    {
+      "type": "free streaming",
+      "target": "http://www.pandora.com/beatles"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:The_Fabs.JPG"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm1397313/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/The+Beatles"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/The-beatles"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://muzikum.eu/en/the-beatles/lyrics"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/The-Beatles"
+    },
+    {
+      "type": "official homepage",
+      "target": "https://www.thebeatles.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n79018119"
+    },
+    {
+      "type": "other databases",
+      "target": "https://castalbums.org/people/The-Beatles/118334"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13901884f"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/2005535-3"
+    },
+    {
+      "type": "other databases",
+      "target": "https://id.oclc.org/worldcat/entity/E39QQPVp7YDyFJKp4fX79YyFWt"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/the-beatles"
+    },
+    {
+      "type": "other databases",
+      "target": "https://musicmoz.org/Bands_and_Artists/B/Beatles,_The/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1212427"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL2741516A"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/294/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/the-beatles"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/the-beatles"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/the-beatles/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000016837/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.progarchives.com/artist.asp?id=2407"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.spirit-of-rock.com/en/band/The_Beatles"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/The-Beatles/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=Apyx6rt3d2amstq7u3ntxenxhkq"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/gb/artist/id136975"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/222117/all"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/gb/artist/136975"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.onkyomusic.com/GB/artist/the-beatles"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.qobuz.com/gb-en/interpreter/the-beatles/26390"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.co.uk/-/e/B000APTK6K"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.cdjapan.co.jp/person/132351"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.yesasia.com/0-aid3935936-0-bpt.47-en/list.html"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/41"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/the-beatles-23d6a88b.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/thebeatles"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/thebeatles"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/thebeatles/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/417271"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/thebeatles"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B00GB0QTOY"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/136975"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/3634161"
+    },
+    {
+      "type": "streaming",
+      "target": "https://us.napster.com/artist/the-beatles"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.qobuz.com/gb-en/interpreter/the-beatles/26390"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/141205608"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q1299"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCc4K7bAqpdBP8jh1j9XZAww"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UC2XdaAVUannpujzv32jcouQ"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "de208292-8db5-3aed-a14a-b37a84d8c521",
+      "title": "Please Please Me",
+      "type": "Album",
+      "first_release_date": "1963-03-22"
+    },
+    {
+      "id": "a63dc65f-09f2-359b-a10e-648f00ecd96c",
+      "title": "With The Beatles",
+      "type": "Album",
+      "first_release_date": "1963-11-22"
+    },
+    {
+      "id": "653895d1-b592-3758-8bb1-8b9ba2bd6cb0",
+      "title": "Introducing… The Beatles",
+      "type": "Album",
+      "first_release_date": "1964-01-10"
+    },
+    {
+      "id": "c2c696fc-6beb-3dfb-bb15-7bb021ebeb5d",
+      "title": "Meet The Beatles!",
+      "type": "Album",
+      "first_release_date": "1964-01-20"
+    },
+    {
+      "id": "31770e0a-e537-376d-a7c0-48e507f3105e",
+      "title": "Twist and Shout",
+      "type": "Album",
+      "first_release_date": "1964-02-03"
+    },
+    {
+      "id": "387bc6cc-ac60-365f-819b-fbc78c486065",
+      "title": "The Beatles’ Second Album",
+      "type": "Album",
+      "first_release_date": "1964-04-10"
+    },
+    {
+      "id": "d0c93a59-fc4d-3d76-ac38-9c1d11071802",
+      "title": "The Beatles’ Long Tall Sally",
+      "type": "Album",
+      "first_release_date": "1964-05-11"
+    },
+    {
+      "id": "451e7aa4-a782-3979-9aa0-98c03a246fe9",
+      "title": "Something New",
+      "type": "Album",
+      "first_release_date": "1964-07-20"
+    },
+    {
+      "id": "f50a3b6f-27f0-3832-bd3f-3568dc557d95",
+      "title": "Beatles for Sale",
+      "type": "Album",
+      "first_release_date": "1964-12-04"
+    },
+    {
+      "id": "2d111aea-50f8-33cc-ab63-780bc57068c0",
+      "title": "Beatles ’65",
+      "type": "Album",
+      "first_release_date": "1964-12-15"
+    },
+    {
+      "id": "3d402374-9538-3c09-8566-2850fa3fce3f",
+      "title": "Beatles VI",
+      "type": "Album",
+      "first_release_date": "1965-06-14"
+    },
+    {
+      "id": "0d44e1cb-c6e0-3453-8b68-4d2082f05421",
+      "title": "Help!",
+      "type": "Album",
+      "first_release_date": "1965-08-06"
+    },
+    {
+      "id": "dca03435-8adb-30a5-ba82-5a162267ff38",
+      "title": "Rubber Soul",
+      "type": "Album",
+      "first_release_date": "1965-12-03"
+    },
+    {
+      "id": "0a4d1024-3463-3c74-8500-ea011bd5d523",
+      "title": "Yesterday and Today",
+      "type": "Album",
+      "first_release_date": "1966-06-14"
+    },
+    {
+      "id": "72d15666-99a7-321e-b1f3-a3f8c09dff9f",
+      "title": "Revolver",
+      "type": "Album",
+      "first_release_date": "1966-08-05"
+    },
+    {
+      "id": "9f7a4c28-8fa2-3113-929c-c47a9f7982c3",
+      "title": "Sgt. Pepper’s Lonely Hearts Club Band",
+      "type": "Album",
+      "first_release_date": "1967-05-26"
+    },
+    {
+      "id": "055be730-dcad-31bf-b550-45ba9c202aa3",
+      "title": "The Beatles",
+      "type": "Album",
+      "first_release_date": "1968-11-22"
+    },
+    {
+      "id": "9162580e-5df4-32de-80cc-f45a8d8a9b1d",
+      "title": "Abbey Road",
+      "type": "Album",
+      "first_release_date": "1969-09-26"
+    },
+    {
+      "id": "bff544a7-56e0-3ed6-9e0f-3b676cca9111",
+      "title": "Let It Be",
+      "type": "Album",
+      "first_release_date": "1970-05-08"
+    },
+    {
+      "id": "5d2d710a-b5c9-41cb-96f7-c77254f8aebf",
+      "title": "Schubert / Beatles",
+      "type": "Album",
+      "first_release_date": "2025-01-31"
+    },
+    {
+      "id": "aa3fd4f5-66a9-43f2-8448-faf402a376c8",
+      "title": "The Beatles With Tony Sheridan and Guests",
+      "type": "Compilation",
+      "first_release_date": "1964-02-03"
+    },
+    {
+      "id": "fd7b1c22-c073-3f06-aa1d-76718bfe578a",
+      "title": "Jolly What! England’s Greatest Recording Stars: The Beatles & Frank Ifield on Stage",
+      "type": "Compilation",
+      "first_release_date": "1964-02-26"
+    },
+    {
+      "id": "a4fcc821-2715-3f06-a8eb-a8ee8a7c2772",
+      "title": "The Beatles Beat",
+      "type": "Compilation",
+      "first_release_date": "1964-04"
+    },
+    {
+      "id": "8ee7d50d-3b1d-4d88-a918-1bafb3586191",
+      "title": "The Beatles’ First!",
+      "type": "Compilation",
+      "first_release_date": "1964-04"
+    },
+    {
+      "id": "6b125ade-4cd3-47b4-ba10-e7959dcdef41",
+      "title": "Les Beatles",
+      "type": "Compilation",
+      "first_release_date": "1964-05-22"
+    }
+  ],
+  "tracks": {
+    "de208292-8db5-3aed-a14a-b37a84d8c521": [
+      {
+        "id": "da77d23c-3acb-4b3d-9596-24aa55f03ece",
+        "title": "I Saw Her Standing There",
+        "position": "1",
+        "length": "175800",
+        "work": {
+          "id": "a8a158e3-0a0e-37e1-b5b5-9480a02d816e",
+          "title": "I Saw Her Standing There",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c91fd146-01cb-4673-b653-d0845c05e164",
+        "title": "Misery",
+        "position": "2",
+        "length": "110173",
+        "work": {
+          "id": "a92ad8ad-34f4-3af3-b708-c6100eed2bc5",
+          "title": "Misery",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "db567516-40c0-46b0-9198-a196b8d2a19c",
+        "title": "Anna (Go to Him)",
+        "position": "3",
+        "length": "177933",
+        "work": {
+          "id": "f85e85e4-e486-34a4-baf5-db003adfa9f0",
+          "title": "Anna (Go to Him)",
+          "composers": [
+            {
+              "name": "Arthur Alexander",
+              "mbid": "749896c9-578c-459c-9487-22f5376172ab"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b4e7e5e2-69a5-423c-be62-6a888d07ccb6",
+        "title": "Chains",
+        "position": "4",
+        "length": "146493",
+        "work": {
+          "id": "3c45ba61-5116-35ef-bc5e-03c60511779b",
+          "title": "Chains",
+          "composers": [
+            {
+              "name": "Carole King",
+              "mbid": "bf6c29f5-b69f-4842-9031-37f9645d365d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "64e7b8ca-2fa2-47ae-8f6a-e3ebf835e2da",
+        "title": "Boys",
+        "position": "5",
+        "length": "147506",
+        "work": {
+          "id": "ce7a1aeb-8feb-32ea-ab0f-255599a34107",
+          "title": "Boys",
+          "composers": [
+            {
+              "name": "Luther Dixon",
+              "mbid": "1a2d3f1a-6146-4fb6-92c7-da4f91bcc44d"
+            },
+            {
+              "name": "Wes Farrell",
+              "mbid": "ca14af84-9dc4-4cd8-ad93-0c299881f4df"
+            }
+          ]
+        }
+      },
+      {
+        "id": "04532aae-d0cb-403c-8e09-7ea1716a124c",
+        "title": "Ask Me Why",
+        "position": "6",
+        "length": "147733",
+        "work": {
+          "id": "07760ebd-56ef-3b95-b776-c0ff787326d8",
+          "title": "Ask Me Why",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "875c1cf7-f568-4f0d-b5e3-bc8a7614269a",
+        "title": "Please Please Me",
+        "position": "7",
+        "length": "121786",
+        "work": {
+          "id": "c4bb79ce-b942-3939-bfb1-9b57cc74ea5b",
+          "title": "Please Please Me",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1f518811-7cf9-4bdc-a656-0958e130f312",
+        "title": "Love Me Do",
+        "position": "8",
+        "length": "141693",
+        "work": {
+          "id": "3d2be76e-8193-307e-bca5-71f9c734c0f0",
+          "title": "Love Me Do",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c84e23aa-20d9-45df-85cb-a6ecdba6e44e",
+        "title": "P.S. I Love You",
+        "position": "9",
+        "length": "124000",
+        "work": {
+          "id": "16505c22-e286-3bb2-866e-ed00a8044cd7",
+          "title": "P.S. I Love You",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f9b03c87-41da-4e69-b97d-500d587e3703",
+        "title": "Baby It’s You",
+        "position": "10",
+        "length": "158066",
+        "work": {
+          "id": "74e33237-62d6-35d2-8a39-892b9d3f1506",
+          "title": "Baby It’s You",
+          "composers": [
+            {
+              "name": "Burt Bacharach",
+              "mbid": "2882ffa3-dec9-4055-a842-a950728bcb02"
+            }
+          ]
+        }
+      },
+      {
+        "id": "42df56b9-0aa2-4cb7-bcb5-b8c6d89803de",
+        "title": "Do You Want to Know a Secret",
+        "position": "11",
+        "length": "120000",
+        "work": {
+          "id": "bf51bdc8-5623-36af-a516-083166bb0bff",
+          "title": "Do You Want to Know a Secret",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a6fbba57-6e43-4a8b-a017-c9c2cf64b282",
+        "title": "A Taste of Honey",
+        "position": "12",
+        "length": "125000",
+        "work": {
+          "id": "47dcb656-3e85-39eb-ab71-d2e75564fc44",
+          "title": "A Taste of Honey",
+          "composers": [
+            {
+              "name": "Bobby Scott",
+              "mbid": "009a9fa1-c002-4fd5-a3e0-bc39a33bb07b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "14c4b37f-8a93-4dc3-bc23-2ed86cdb20bb",
+        "title": "There’s a Place",
+        "position": "13",
+        "length": "113000",
+        "work": {
+          "id": "45ffef49-4017-3d87-b04f-fc7c38ae7526",
+          "title": "There’s a Place",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "af6fb155-b03c-46ea-a44e-22ce394b2a46",
+        "title": "Twist and Shout",
+        "position": "14",
+        "length": "153266",
+        "work": {
+          "id": "7e2dedbb-5be0-32d4-8985-079d6df1e78b",
+          "title": "Twist and Shout",
+          "composers": [
+            {
+              "name": "Bert Russell Berns",
+              "mbid": "2891369d-d843-45d1-ac1d-52982095ae8c"
+            },
+            {
+              "name": "Phil Medley",
+              "mbid": "718cd7af-a94a-42e6-a10e-5b12db6e6dc7"
+            }
+          ]
+        }
+      }
+    ],
+    "a63dc65f-09f2-359b-a10e-648f00ecd96c": [
+      {
+        "id": "49150aa6-2f72-4c95-9247-130d5046e827",
+        "title": "It Won’t Be Long",
+        "position": "1",
+        "length": "133000",
+        "work": {
+          "id": "a3fb304a-3680-369c-b9a1-61d0931a1a60",
+          "title": "It Won’t Be Long",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c0071f77-86d0-4b0d-a36d-44c8af14dbe8",
+        "title": "All I’ve Got to Do",
+        "position": "2",
+        "length": "125000",
+        "work": {
+          "id": "01f35a80-893c-3d2b-b74d-05a3ec9abc0f",
+          "title": "All I’ve Got to Do",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "be5761a7-d99a-44e8-96a4-904b490f7061",
+        "title": "All My Loving",
+        "position": "3",
+        "length": "130000",
+        "work": {
+          "id": "c65404bd-6bc9-30d3-9813-a960e83d9faf",
+          "title": "All My Loving",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fd8dec5e-c45f-4761-9d15-c1fb675cc21b",
+        "title": "Don’t Bother Me",
+        "position": "4",
+        "length": "149000",
+        "work": {
+          "id": "c31e5675-8fb4-38fc-a160-7e41638a9ffc",
+          "title": "Don’t Bother Me",
+          "composers": [
+            {
+              "name": "George Harrison",
+              "mbid": "42a8f507-8412-4611-854f-926571049fa0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "13075131-64d3-447d-9c98-cd3e06afffda",
+        "title": "Little Child",
+        "position": "5",
+        "length": "108000",
+        "work": {
+          "id": "ed26d4de-d9db-361c-8bea-b7c08c7312b5",
+          "title": "Little Child",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7ac6bb7b-6dca-4343-95f6-27eefc1a8841",
+        "title": "Till There Was You",
+        "position": "6",
+        "length": "136733",
+        "work": {
+          "id": "552f3fee-d045-3ca7-9104-d58bc127ffb5",
+          "title": "Till There Was You",
+          "composers": [
+            {
+              "name": "Meredith Willson",
+              "mbid": "b042bb3d-912b-4e3f-a12b-e98675383b82"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d6760a03-b4fe-429b-ac0e-f49416a12409",
+        "title": "Please Mister Postman",
+        "position": "7",
+        "length": "155000",
+        "work": {
+          "id": "b0df7fba-26c7-33f4-9475-eeceaf61aab8",
+          "title": "Please Mr. Postman",
+          "composers": [
+            {
+              "name": "Robert Bateman",
+              "mbid": "0a28318c-3da4-42d3-a777-9b6c5560f37c"
+            },
+            {
+              "name": "Georgia Dobbins",
+              "mbid": "1fc08de3-ae28-46ef-9f90-7511042faad9"
+            },
+            {
+              "name": "William Garrett",
+              "mbid": "e679fd42-6456-4100-9076-2018736dce53"
+            },
+            {
+              "name": "Freddie Gorman",
+              "mbid": "7877209b-9d91-4c03-8736-e8a7485bd58d"
+            },
+            {
+              "name": "Brian Holland",
+              "mbid": "de2dcddf-d398-4a3e-adfc-2f108317d6c4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "706be20f-e062-4569-94cc-25842dc0a625",
+        "title": "Roll Over Beethoven",
+        "position": "8",
+        "length": "167640",
+        "work": {
+          "id": "3d55b4e1-36f5-3cec-b702-59d1b534611e",
+          "title": "Roll Over Beethoven",
+          "composers": [
+            {
+              "name": "Chuck Berry",
+              "mbid": "592a3b6d-c42b-4567-99c9-ecf63bd66499"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0432a2b7-614b-4389-b4fd-44ecdaddc84f",
+        "title": "Hold Me Tight",
+        "position": "9",
+        "length": "153000",
+        "work": {
+          "id": "8a54ee89-8c1f-3511-aeef-8893379963b8",
+          "title": "Hold Me Tight",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c30faedd-630b-48ea-9187-2ee737c310de",
+        "title": "You Really Got a Hold on Me",
+        "position": "10",
+        "length": "183000",
+        "work": {
+          "id": "e39be679-5a1e-3ddb-9f23-c469783a54ea",
+          "title": "You’ve Really Got a Hold on Me",
+          "composers": [
+            {
+              "name": "Smokey Robinson",
+              "mbid": "c19ff12b-058f-44a8-b245-b0efb4752925"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fe9a1f66-b3f7-451a-b0af-0ad513beafed",
+        "title": "I Wanna Be Your Man",
+        "position": "11",
+        "length": "119000",
+        "work": {
+          "id": "24e04462-eb1a-337f-b20e-8ed8fee09d61",
+          "title": "I Wanna Be Your Man",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "42fd2bdf-eb4b-486c-b144-d650013bd5b4",
+        "title": "Devil in Her Heart",
+        "position": "12",
+        "length": "148000",
+        "work": {
+          "id": "d890393b-d981-39e2-9a65-605ff9a8efc3",
+          "title": "Devil in His Heart",
+          "composers": [
+            {
+              "name": "Richard Drapkin",
+              "mbid": "185a669f-45a0-4e63-a6f1-2ba51f5b1bad"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b5351678-2cbe-4b3d-b843-9fbc0e36b423",
+        "title": "Not a Second Time",
+        "position": "13",
+        "length": "128000",
+        "work": {
+          "id": "c285d2be-1d11-3518-910c-10f68125297c",
+          "title": "Not a Second Time",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "37904f52-5381-4afa-a7a9-b49f408d6d33",
+        "title": "Money (That’s What I Want)",
+        "position": "14",
+        "length": "168000",
+        "work": {
+          "id": "a50f2637-33a5-3e1f-a375-101460bea6a5",
+          "title": "Money (That’s What I Want)",
+          "composers": [
+            {
+              "name": "Janie Bradford",
+              "mbid": "f23bf5f5-4246-4e5f-9f8e-6a104a813e23"
+            },
+            {
+              "name": "Berry Gordy",
+              "mbid": "55bc7f0d-bc56-4a5e-8555-77557bb757cd"
+            }
+          ]
+        }
+      }
+    ],
+    "653895d1-b592-3758-8bb1-8b9ba2bd6cb0": [
+      {
+        "id": "da77d23c-3acb-4b3d-9596-24aa55f03ece",
+        "title": "I Saw Her Standing There",
+        "position": "1",
+        "length": "175800",
+        "work": {
+          "id": "a8a158e3-0a0e-37e1-b5b5-9480a02d816e",
+          "title": "I Saw Her Standing There",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b5b2c4ce-4c7d-4fa9-99ab-96cc10e767f1",
+        "title": "Misery",
+        "position": "2",
+        "length": "105000",
+        "work": {
+          "id": "a92ad8ad-34f4-3af3-b708-c6100eed2bc5",
+          "title": "Misery",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "db567516-40c0-46b0-9198-a196b8d2a19c",
+        "title": "Anna (Go to Him)",
+        "position": "3",
+        "length": "177933",
+        "work": {
+          "id": "f85e85e4-e486-34a4-baf5-db003adfa9f0",
+          "title": "Anna (Go to Him)",
+          "composers": [
+            {
+              "name": "Arthur Alexander",
+              "mbid": "749896c9-578c-459c-9487-22f5376172ab"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b4e7e5e2-69a5-423c-be62-6a888d07ccb6",
+        "title": "Chains",
+        "position": "4",
+        "length": "146493",
+        "work": {
+          "id": "3c45ba61-5116-35ef-bc5e-03c60511779b",
+          "title": "Chains",
+          "composers": [
+            {
+              "name": "Carole King",
+              "mbid": "bf6c29f5-b69f-4842-9031-37f9645d365d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "64e7b8ca-2fa2-47ae-8f6a-e3ebf835e2da",
+        "title": "Boys",
+        "position": "5",
+        "length": "147506",
+        "work": {
+          "id": "ce7a1aeb-8feb-32ea-ab0f-255599a34107",
+          "title": "Boys",
+          "composers": [
+            {
+              "name": "Luther Dixon",
+              "mbid": "1a2d3f1a-6146-4fb6-92c7-da4f91bcc44d"
+            },
+            {
+              "name": "Wes Farrell",
+              "mbid": "ca14af84-9dc4-4cd8-ad93-0c299881f4df"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1f518811-7cf9-4bdc-a656-0958e130f312",
+        "title": "Love Me Do",
+        "position": "6",
+        "length": "141693",
+        "work": {
+          "id": "3d2be76e-8193-307e-bca5-71f9c734c0f0",
+          "title": "Love Me Do",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c84e23aa-20d9-45df-85cb-a6ecdba6e44e",
+        "title": "P.S. I Love You",
+        "position": "7",
+        "length": "124000",
+        "work": {
+          "id": "16505c22-e286-3bb2-866e-ed00a8044cd7",
+          "title": "P.S. I Love You",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f9b03c87-41da-4e69-b97d-500d587e3703",
+        "title": "Baby It’s You",
+        "position": "8",
+        "length": "158066",
+        "work": {
+          "id": "74e33237-62d6-35d2-8a39-892b9d3f1506",
+          "title": "Baby It’s You",
+          "composers": [
+            {
+              "name": "Burt Bacharach",
+              "mbid": "2882ffa3-dec9-4055-a842-a950728bcb02"
+            }
+          ]
+        }
+      },
+      {
+        "id": "42df56b9-0aa2-4cb7-bcb5-b8c6d89803de",
+        "title": "Do You Want to Know a Secret",
+        "position": "9",
+        "length": "120000",
+        "work": {
+          "id": "bf51bdc8-5623-36af-a516-083166bb0bff",
+          "title": "Do You Want to Know a Secret",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a6fbba57-6e43-4a8b-a017-c9c2cf64b282",
+        "title": "A Taste of Honey",
+        "position": "10",
+        "length": "125000",
+        "work": {
+          "id": "47dcb656-3e85-39eb-ab71-d2e75564fc44",
+          "title": "A Taste of Honey",
+          "composers": [
+            {
+              "name": "Bobby Scott",
+              "mbid": "009a9fa1-c002-4fd5-a3e0-bc39a33bb07b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "14c4b37f-8a93-4dc3-bc23-2ed86cdb20bb",
+        "title": "There’s a Place",
+        "position": "11",
+        "length": "113000",
+        "work": {
+          "id": "45ffef49-4017-3d87-b04f-fc7c38ae7526",
+          "title": "There’s a Place",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "af6fb155-b03c-46ea-a44e-22ce394b2a46",
+        "title": "Twist and Shout",
+        "position": "12",
+        "length": "153266",
+        "work": {
+          "id": "7e2dedbb-5be0-32d4-8985-079d6df1e78b",
+          "title": "Twist and Shout",
+          "composers": [
+            {
+              "name": "Bert Russell Berns",
+              "mbid": "2891369d-d843-45d1-ac1d-52982095ae8c"
+            },
+            {
+              "name": "Phil Medley",
+              "mbid": "718cd7af-a94a-42e6-a10e-5b12db6e6dc7"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 82730,
+  "wikidata_id": "Q1299"
+}

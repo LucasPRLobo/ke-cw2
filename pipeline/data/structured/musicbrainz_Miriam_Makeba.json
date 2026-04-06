@@ -1,0 +1,690 @@
+{
+  "mbid": "bc5c2918-4aba-4ef6-a245-100563a4487f",
+  "name": "Miriam Makeba",
+  "type": "Person",
+  "country": "ZA",
+  "gender": "Female",
+  "life_span": {
+    "begin": "1932-03-04",
+    "end": "2008-11-10",
+    "ended": "true"
+  },
+  "area": "South Africa",
+  "begin_area": "Johannesburg",
+  "tags": [
+    {
+      "name": "2008 universal fire victim",
+      "count": "1"
+    },
+    {
+      "name": "marabi",
+      "count": "1"
+    },
+    {
+      "name": "songwriter",
+      "count": "1"
+    },
+    {
+      "name": "world",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "is person",
+      "direction": "forward",
+      "target_name": "Mama Afrika",
+      "target_mbid": "6cc0f6ee-aedd-4ea8-8764-85b368e13e13",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Hugh Masekela",
+      "target_mbid": "83a2e0fb-3d9b-46ff-b383-3dde54c15297",
+      "attributes": [],
+      "begin": "1964",
+      "end": "1966"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Kwame Ture",
+      "target_mbid": "6df74405-1d8a-487e-8160-83d9180a23c6",
+      "attributes": [],
+      "begin": "1968",
+      "end": "1973"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Manhattan Brothers",
+      "target_mbid": "79a17f3c-bb26-4b3c-b252-b72b9abf2d03",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Bongi Makeba",
+      "target_mbid": "9019ea01-30a4-4ba2-a17c-edddedc8c865",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000496097"
+    },
+    {
+      "type": "bandcamp",
+      "target": "https://miriammakeba.bandcamp.com/"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/bc5c2918-4aba-4ef6-a245-100563a4487f"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/76040"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/18RkLKfeoUgZflWv9os25W"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/8514"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Miriam_makeba_01.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0538460/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Miriam+Makeba"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-9929/miriam-makeba/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Miriam-makeba"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.miriammakeba.co.za/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n87875765"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb12113767r"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118830783"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6cz7wgk"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-911660"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/miriam_makeba"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.ibdb.com/person.php?id=88154"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/19770/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n87875765"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/219900"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.amazon.co.uk/-/e/B000APYDIK"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.co.uk/-/e/B000APYDIK"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/17089"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/13631"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/49854255"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q146256"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "64b75de0-e230-3421-8093-20338ccd6316",
+      "title": "Miriam Makeba",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "186fc64e-744b-47f0-9281-3630af3640ce",
+      "title": "The Voice of Africa",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "dcef109a-dfe2-3844-99b6-cd264eb14259",
+      "title": "An Evening With Belafonte/Makeba",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "bfcaacf1-d979-4ef5-8e68-671ff8dcfd72",
+      "title": "All About Miriam",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "56a049e1-bb15-4362-b3cb-d0ebd71b7c05",
+      "title": "The Magic of Makeba",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "d24b30df-8907-4da8-934c-e95aa8784c6d",
+      "title": "The Magnificent Miriam Makeba",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "1169b089-013a-3ac2-aed3-20ec8cdd1cc7",
+      "title": "The World of Miriam Makeba",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "4b3050c0-a78e-3dab-b961-a9b222e34e7a",
+      "title": "Pata Pata",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "c0b9dee1-d335-44d4-b678-6a4ef68b9c5e",
+      "title": "Click Song",
+      "type": "Album",
+      "first_release_date": "1968"
+    },
+    {
+      "id": "1ecc21ec-65c5-4ec8-9614-5dff30e40b95",
+      "title": "Makeba!",
+      "type": "Album",
+      "first_release_date": "1968"
+    },
+    {
+      "id": "36717f2f-272c-46b2-8bc4-c0b30dcb1d93",
+      "title": "Keep Me in Mind",
+      "type": "Album",
+      "first_release_date": "1970"
+    },
+    {
+      "id": "93a33f49-31fa-4d4a-834e-3198c24d0d76",
+      "title": "Country Girl",
+      "type": "Album",
+      "first_release_date": "1978"
+    },
+    {
+      "id": "85b6d8f4-9bc5-3b75-8054-24cb1f2347d4",
+      "title": "Comme une symphonie d'amour / Malaisha / Sabelani / African Convention",
+      "type": "Album",
+      "first_release_date": "1979"
+    },
+    {
+      "id": "230da0a6-626c-37c9-80b6-e2349f52ed89",
+      "title": "Sangoma",
+      "type": "Album",
+      "first_release_date": "1988"
+    },
+    {
+      "id": "c6808d15-9561-4ba2-91f3-f9e043a9490f",
+      "title": "A Promise",
+      "type": "Album",
+      "first_release_date": "1989"
+    },
+    {
+      "id": "92477fb3-b6f6-342c-b87b-094416de424d",
+      "title": "Welela",
+      "type": "Album",
+      "first_release_date": "1989"
+    },
+    {
+      "id": "12ddcb9f-9dc1-3836-a0f8-cfa0e05a12a8",
+      "title": "Eyes on Tomorrow",
+      "type": "Album",
+      "first_release_date": "1991"
+    },
+    {
+      "id": "bb27a6dd-820b-3b43-9d40-2b36380e8472",
+      "title": "Homeland",
+      "type": "Album",
+      "first_release_date": "2000-04-25"
+    },
+    {
+      "id": "7fa506d3-9b51-440b-87ce-21bbe1993bc0",
+      "title": "Forbidden Games",
+      "type": "Album",
+      "first_release_date": "2014-11-16"
+    },
+    {
+      "id": "608e93ec-ca4b-4b8e-8a33-860ad066f7a3",
+      "title": "Live at Avo Session (Basel)",
+      "type": "Album",
+      "first_release_date": "2014-12-07"
+    },
+    {
+      "id": "1caaa3e1-1edb-4bc0-89c9-c8dfceca4f33",
+      "title": "Makeba Sings!",
+      "type": "Album",
+      "first_release_date": "2015-06-26"
+    },
+    {
+      "id": "66ca0bb9-495e-43dc-bd70-a7f713b12bc8",
+      "title": "The Best Of Miriam Makeba",
+      "type": "Compilation",
+      "first_release_date": "1968"
+    },
+    {
+      "id": "124b709c-8cff-4040-a5bc-a24c6d6db5fa",
+      "title": "Harry Belafonte & Miriam Makeba",
+      "type": "Compilation",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "4b0ee322-ef6b-4cce-8080-814d9b33b3a6",
+      "title": "Myriam Makeba",
+      "type": "Compilation",
+      "first_release_date": "1986"
+    },
+    {
+      "id": "d02eba30-83ed-3523-a5d0-d959574bf788",
+      "title": "The Queen of African Music",
+      "type": "Compilation",
+      "first_release_date": "1987"
+    }
+  ],
+  "tracks": {
+    "64b75de0-e230-3421-8093-20338ccd6316": [
+      {
+        "id": "995eb8b3-b0c1-4ff8-b82c-03c2602bf46c",
+        "title": "The Retreat Song",
+        "position": "1",
+        "length": "157000",
+        "work": {
+          "id": "1672823f-fd6d-47d0-9615-d9227d8d9ba3",
+          "title": "Jikele Maweni",
+          "composers": [
+            {
+              "name": "Miriam Makeba",
+              "mbid": "bc5c2918-4aba-4ef6-a245-100563a4487f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "38824ed4-278f-4cf4-8af4-0a4311075a01",
+        "title": "Suliram",
+        "position": "2",
+        "length": "166000",
+        "work": null
+      },
+      {
+        "id": "dafe5f64-8c8e-450a-9a67-875b4b55182b",
+        "title": "The Click Song",
+        "position": "3",
+        "length": "153000",
+        "work": {
+          "id": "304dde76-f51c-3e41-bdce-8b5b8394bcfe",
+          "title": "The Click Song",
+          "composers": [
+            {
+              "name": "Miriam Makeba",
+              "mbid": "bc5c2918-4aba-4ef6-a245-100563a4487f"
+            },
+            {
+              "name": "Rufus Khoza",
+              "mbid": "02ae9108-7a7c-4788-8fad-2edaefcfae80"
+            },
+            {
+              "name": "Nathan \"Dambuzza\" Mdledle",
+              "mbid": "4ab68428-8383-4d2c-83b2-9083e56b6577"
+            },
+            {
+              "name": "Joe Mogotsi",
+              "mbid": "2be40b21-3999-4e1a-a036-7d0c6df4423c"
+            },
+            {
+              "name": "Ronnie Modise Majola Sehume",
+              "mbid": "de074702-c58d-4fcf-9a9e-4d833ba33f01"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7b1b6d0d-2930-41f4-a585-a7bff5f87d12",
+        "title": "Umhome",
+        "position": "4",
+        "length": "81000",
+        "work": null
+      },
+      {
+        "id": "61942401-fe90-4837-a45b-ca844b971cc2",
+        "title": "Olilili",
+        "position": "5",
+        "length": "155000",
+        "work": null
+      },
+      {
+        "id": "23d6b9a8-0e4e-4fe2-86a1-2b1ff734b102",
+        "title": "Lakutshn, Ilanga",
+        "position": "6",
+        "length": "130000",
+        "work": null
+      },
+      {
+        "id": "eb82719a-ffa2-4b18-8711-627bf1af5cef",
+        "title": "Mbube",
+        "position": "7",
+        "length": "201280",
+        "work": {
+          "id": "29e25374-4d10-42e9-9a6c-2825517288b3",
+          "title": "Mbube",
+          "composers": [
+            {
+              "name": "Solomon Linda",
+              "mbid": "746e59cc-37d8-4152-abff-6569d209c3c6"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fed344b5-4175-4ecd-8453-cc785697e990",
+        "title": "The Naughty Little Flea",
+        "position": "8",
+        "length": "230000",
+        "work": null
+      },
+      {
+        "id": "8b80b883-2d27-4233-ba41-d547d8dac59a",
+        "title": "Where Does It Lead",
+        "position": "9",
+        "length": "153000",
+        "work": null
+      },
+      {
+        "id": "7f2277fd-258a-4b66-bcdf-0a6dae4e5904",
+        "title": "Nomeva",
+        "position": "10",
+        "length": "161000",
+        "work": null
+      },
+      {
+        "id": "4ca15919-0fcd-4da1-9d5a-ccdf1bea0bd2",
+        "title": "House of the Rising Sun",
+        "position": "11",
+        "length": "119000",
+        "work": {
+          "id": "a5532546-23ce-31da-9c18-3725c49abd61",
+          "title": "House of the Rising Sun",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2d207a1f-1b4f-47df-b5a4-0b750e400a6c",
+        "title": "Saduva",
+        "position": "12",
+        "length": "151000",
+        "work": null
+      },
+      {
+        "id": "0f4d47ae-c5a3-438a-9d72-dec51ea80e17",
+        "title": "One More Dance",
+        "position": "13",
+        "length": "164000",
+        "work": null
+      },
+      {
+        "id": "df54129a-8c9d-4cc2-bfc0-e0e743edd39b",
+        "title": "Iya Guduza",
+        "position": "14",
+        "length": "126000",
+        "work": {
+          "id": "12de07a6-04ca-40ed-8805-ce2b8a04b349",
+          "title": "Iya Guduza",
+          "composers": []
+        }
+      }
+    ],
+    "186fc64e-744b-47f0-9281-3630af3640ce": [
+      {
+        "id": "59a0e522-027d-417e-9e1e-29ae0e396909",
+        "title": "Nomthini",
+        "position": "1",
+        "length": "111000",
+        "work": null
+      },
+      {
+        "id": "673219a1-8665-4823-bc27-61b1997e88eb",
+        "title": "Willow Song",
+        "position": "2",
+        "length": "165000",
+        "work": null
+      },
+      {
+        "id": "52bc4046-362b-4084-bee8-3dd11a682036",
+        "title": "Langa More",
+        "position": "3",
+        "length": "140000",
+        "work": null
+      },
+      {
+        "id": "7e1e8041-e62a-4351-afb1-ca16687d8671",
+        "title": "Shihibolet",
+        "position": "4",
+        "length": "109000",
+        "work": null
+      },
+      {
+        "id": "2847a88e-e1c5-48c8-8adc-348c1c64950a",
+        "title": "Tuson",
+        "position": "5",
+        "length": "118000",
+        "work": null
+      },
+      {
+        "id": "433d206a-e16b-450d-8e75-4d6b3a0f53b2",
+        "title": "Qhude",
+        "position": "6",
+        "length": "163000",
+        "work": null
+      },
+      {
+        "id": "80f2996e-dc66-4c30-b07c-02fbca2a2daa",
+        "title": "Mayibuye",
+        "position": "7",
+        "length": "165000",
+        "work": null
+      },
+      {
+        "id": "bbd5568c-0629-43a2-ab35-8b6bf89fcf67",
+        "title": "Lovely Lies",
+        "position": "8",
+        "length": "162000",
+        "work": {
+          "id": "6a70b93c-491e-4711-889f-d0e336a30351",
+          "title": "Lovely Lies",
+          "composers": [
+            {
+              "name": "Mackay Davashe",
+              "mbid": "366df220-ca51-40ee-8ee7-2e506ce77f57"
+            },
+            {
+              "name": "Joe Glazer",
+              "mbid": "98a10aed-987d-4323-b801-5c783f910be4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "63d18adb-25e0-4d1d-945d-278626332de0",
+        "title": "Uyadela",
+        "position": "9",
+        "length": "150000",
+        "work": null
+      },
+      {
+        "id": "523da869-1b06-4e75-aadf-9cbe9e372e6d",
+        "title": "Mamoriri",
+        "position": "10",
+        "length": "100000",
+        "work": null
+      },
+      {
+        "id": "69e48582-2c53-4124-b0ff-14cddeebbe66",
+        "title": "Le Fleuve",
+        "position": "11",
+        "length": "125333",
+        "work": null
+      },
+      {
+        "id": "cc8ff1f5-3334-4d47-b1f5-c991b4ec1948",
+        "title": "Come to Glory",
+        "position": "12",
+        "length": "150000",
+        "work": null
+      }
+    ],
+    "dcef109a-dfe2-3844-99b6-cd264eb14259": [
+      {
+        "id": "0706ee7f-3970-4c3f-8187-8e35046b363f",
+        "title": "Train Song",
+        "position": "1",
+        "length": "188000",
+        "work": null
+      },
+      {
+        "id": "aa4b35a8-fc55-4d87-b73a-aa0a49602d9b",
+        "title": "In the Land of the Zulus",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "46a08bd8-317e-4d05-98d1-69272193b738",
+        "title": "Hush, Hush",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "a074141d-95d6-45de-8b8d-7b63a3d6cb80",
+        "title": "To Those We Love",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "f1350bb8-0abe-4b41-8901-dd39c1b6389e",
+        "title": "Give Us Our Land",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "bf2c33fb-d48c-49ee-a402-18bf522727ac",
+        "title": "Beware Verwoerd",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "082d35ae-38f9-4bf6-b8c2-79a61b727c62",
+        "title": "Gone Are My Children",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "d911daa8-276f-42c6-b772-a0ba7f633fdd",
+        "title": "Hurry, Mama, Hurry",
+        "position": "8",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "68952e88-2e9b-4243-92de-2b6763a3d0ab",
+        "title": "My Angel",
+        "position": "9",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "43d7362d-de97-478f-bdc8-05d170ca64ef",
+        "title": "Cannon",
+        "position": "10",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "13eb26a0-776f-4864-bddc-95abe532d2ae",
+        "title": "Lullaby",
+        "position": "11",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "cd24db2b-d032-4fcf-95ff-cd957783a80d",
+        "title": "Show Me the Way, My Brother",
+        "position": "12",
+        "length": null,
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 76040,
+  "wikidata_id": "Q146256"
+}

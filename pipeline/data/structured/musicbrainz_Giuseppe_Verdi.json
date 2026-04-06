@@ -1,0 +1,832 @@
+{
+  "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13",
+  "name": "Giuseppe Verdi",
+  "type": "Person",
+  "country": "IT",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1813-10-10",
+    "end": "1901-01-27",
+    "ended": "true"
+  },
+  "area": "Italy",
+  "begin_area": "Le Roncole",
+  "tags": [
+    {
+      "name": "classical",
+      "count": "4"
+    },
+    {
+      "name": "composer",
+      "count": "3"
+    },
+    {
+      "name": "european",
+      "count": "2"
+    },
+    {
+      "name": "italian",
+      "count": "4"
+    },
+    {
+      "name": "opera",
+      "count": "6"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "conductor position",
+      "direction": "forward",
+      "target_name": "Gürzenich-Chor",
+      "target_mbid": "0c388547-13ee-4e6a-8215-ce90e0773844",
+      "attributes": [],
+      "begin": "1877",
+      "end": "1877"
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Giuseppina Strepponi",
+      "target_mbid": "04b2b5a5-f2a6-478a-b0b8-c31e2ff00e5d",
+      "attributes": [],
+      "begin": "1847",
+      "end": "1859"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Giuseppina Strepponi",
+      "target_mbid": "04b2b5a5-f2a6-478a-b0b8-c31e2ff00e5d",
+      "attributes": [],
+      "begin": "1859-08-29",
+      "end": "1897-11-14"
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Verdi-Quartett",
+      "target_mbid": "5dd75fff-be57-4f67-999e-5b8ec67c8068",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Ferdinando Provesi",
+      "target_mbid": "8fb59154-1398-4e0e-b524-9c33869e2b6b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Vincenzo Lavigna",
+      "target_mbid": "0acbc2ad-b70e-4e4d-8b51-2bfd8d0cb2d6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Emanuele Muzio",
+      "target_mbid": "2798b835-0aa9-489c-b669-a15db00aee2f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000252723"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.pbs.org/wnet/gperf/education/verdi.html"
+    },
+    {
+      "type": "BookBrainz",
+      "target": "https://bookbrainz.org/author/0046a0fa-3ab5-463d-b622-195ded648e0c"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/192327"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/1JOQXgYdQV2yfrhewqx96o"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/4976"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Verdi-photo-Brogi.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0006333/"
+    },
+    {
+      "type": "IMSLP",
+      "target": "https://imslp.org/wiki/Category:Verdi,_Giuseppe"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Giuseppe+Verdi"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-6676/giuseppe-verdi/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://www.lieder.net/lieder/get_settings.html?ComposerId=6061"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.giuseppeverdi.it/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n79038460"
+    },
+    {
+      "type": "other databases",
+      "target": "https://adp.library.ucsb.edu/names/102328"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb139008052"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118626523"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=11207"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6959fkr"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1002468"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL132422A"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/350/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/giuseppe_verdi"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.classicalarchives.com/composer/3509.html"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Giuseppe-Verdi/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.worldcat.org/identities/lccn-n79-38460/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id693604"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B004I90LIU"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/5287"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/97970"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/7116"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/22329110"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q7317"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "6ae1667b-f338-4f2b-b3c7-6ecf1e84a564",
+      "title": "Aïda",
+      "type": "Album",
+      "first_release_date": "1952"
+    },
+    {
+      "id": "0cf8132a-3922-4f02-86e0-3087560c9c5a",
+      "title": "Requiem",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "e8249161-77e1-4fda-a052-572ee00f5715",
+      "title": "La forza del destino",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "7686266c-8e70-32c2-9a73-b095df622b6e",
+      "title": "Rigoletto",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "2e5e5d7f-bcc9-3c9c-b130-0a89bd6226d7",
+      "title": "Un ballo in maschera",
+      "type": "Album",
+      "first_release_date": "1957-09"
+    },
+    {
+      "id": "b52c5ed8-f661-4d93-af65-d1de4b62fbdb",
+      "title": "Overtures",
+      "type": "Album",
+      "first_release_date": "1959-02"
+    },
+    {
+      "id": "d8e33042-2b08-49b3-8155-db12ee17c0af",
+      "title": "Il trovatore",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "a41a640a-d230-3311-a296-d6db535d9b58",
+      "title": "Macbeth",
+      "type": "Album",
+      "first_release_date": "1960-01"
+    },
+    {
+      "id": "c17edd1b-6d1a-3787-aed2-2ad284ce88af",
+      "title": "Il trovatore",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "4e87fb2a-8977-4dc9-a885-d5f1193ba34c",
+      "title": "Otello",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "955a84a9-841a-395e-8a8b-2a0aef77386a",
+      "title": "La traviata",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "70d3b412-af99-3d38-b7a1-ed7a415aaa13",
+      "title": "Aïda",
+      "type": "Album",
+      "first_release_date": "1962"
+    },
+    {
+      "id": "d97b7e0f-8391-4d2b-868c-d1ec96e6a763",
+      "title": "A Verdi Collaboration",
+      "type": "Album",
+      "first_release_date": "1963"
+    },
+    {
+      "id": "d1f29591-4ce1-3853-997b-4572297181c2",
+      "title": "La traviata",
+      "type": "Album",
+      "first_release_date": "1963"
+    },
+    {
+      "id": "e970ccdd-e216-41a4-96ed-a8af54b49026",
+      "title": "Callas Sings Verdi Arias",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "698c92e7-d181-42c6-99dd-0ada06f63445",
+      "title": "Requiem",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "6d1ac6f6-9149-4b8e-812f-a68b43156c16",
+      "title": "Requiem",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "b8b1b4de-f425-37fa-baf9-3fa8f1f99c51",
+      "title": "Rigoletto",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "cc43eec9-1ca0-3e88-9114-7a9cf1474aaf",
+      "title": "Luisa Miller",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "8f94499a-f142-4c63-bae5-bf4f2ac9d343",
+      "title": "La traviata",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "b8741bc4-fee3-4fb3-a4c8-aeee6b78d6e8",
+      "title": "La traviata",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "01f06174-d783-4e76-b687-14ff3d3804a7",
+      "title": "Un ballo in maschera",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "80021db3-af4c-4ef9-8ce8-e96fc25f102b",
+      "title": "Requiem / Quattro Pezzi Sacri",
+      "type": "Album",
+      "first_release_date": "1968"
+    },
+    {
+      "id": "45a33088-124c-4bc6-8f70-1ddea9fd03d5",
+      "title": "String Quartets",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "e698896e-1755-42cb-8d35-cd8f08d182c1",
+      "title": "Il trovatore",
+      "type": "Album",
+      "first_release_date": "1970"
+    }
+  ],
+  "tracks": {
+    "6ae1667b-f338-4f2b-b3c7-6ecf1e84a564": [
+      {
+        "id": "c8ab8907-cede-442a-9a11-b889c5cbb53c",
+        "title": "Aida: Act 1, Scene 1. A Hall in the Palace of the King of Egypt at Memphis",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "5939d6e6-5ae5-48bf-b919-09ed3c494990",
+          "title": "Aida: Atto I",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5b2cde01-8a2a-47cf-879e-f34e30cd6cab",
+        "title": "Aida: Act 1, Scene 1 (concluded)",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "5939d6e6-5ae5-48bf-b919-09ed3c494990",
+          "title": "Aida: Atto I",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3d262751-99ed-4494-adab-d4927f036892",
+        "title": "Aida: Act 1, Scene 2. The Interior of the Temple of Vulcan at Memphis",
+        "position": "3",
+        "length": null,
+        "work": {
+          "id": "11d520a0-f1e1-4358-8af0-c9ede7f7017e",
+          "title": "Aida: Atto II",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "05101f3c-83e0-4c7c-a9ed-1dae8ee50b17",
+        "title": "Aida: Act 2, Scene 1. A Room in the Apartments of Amneris",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "11d520a0-f1e1-4358-8af0-c9ede7f7017e",
+          "title": "Aida: Atto II",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f504cecf-9c34-4822-b107-4978b07a6c8f",
+        "title": "Aida: Act 2, Scene 1 (concluded)",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "11d520a0-f1e1-4358-8af0-c9ede7f7017e",
+          "title": "Aida: Atto II",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "91460ac7-3d8b-42cb-92da-251c7c4794ef",
+        "title": "Aida: Act 2, Scene 2. An Avenue to the City of Thebes",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "11d520a0-f1e1-4358-8af0-c9ede7f7017e",
+          "title": "Aida: Atto II",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0a9d29f9-dbc0-49c5-89e3-bdf8a90032ed",
+        "title": "Aida: Act 2, Scene 2 (concluded)",
+        "position": "3",
+        "length": null,
+        "work": {
+          "id": "11d520a0-f1e1-4358-8af0-c9ede7f7017e",
+          "title": "Aida: Atto II",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0c92a444-af7b-4234-aaab-33426ad33c05",
+        "title": "Aida: Act 3. The Banks of the Nile",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "692fd8d4-cdd6-4ed1-9ef7-ab478f8e2883",
+          "title": "Aida: Atto III",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "73355324-2273-4d41-8e8c-3c21af5495aa",
+        "title": "Aida: Act 3 (concluded)",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "692fd8d4-cdd6-4ed1-9ef7-ab478f8e2883",
+          "title": "Aida: Atto III",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0a96a936-4f25-4e39-a34c-c973029117e8",
+        "title": "Aida: Act 4, Scene 1. A Hall in the King’s Palace",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "3f7a814f-39ca-42f3-be90-481e26276df8",
+          "title": "Aida: Atto IV",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "81a4d974-a9bc-4fd6-b139-e533682e0814",
+        "title": "Aida: Act 4, Scene 1 (concluded)",
+        "position": "3",
+        "length": null,
+        "work": {
+          "id": "3f7a814f-39ca-42f3-be90-481e26276df8",
+          "title": "Aida: Atto IV",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "24a40f79-01eb-4dc5-a091-957f441b225e",
+        "title": "Aida: Act 4, Scene 2. The Tomb",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "3f7a814f-39ca-42f3-be90-481e26276df8",
+          "title": "Aida: Atto IV",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      }
+    ],
+    "0cf8132a-3922-4f02-86e0-3087560c9c5a": [
+      {
+        "id": "b17fc59d-5cb5-4452-8aa2-3236fed21880",
+        "title": "Messa da Requiem: Requiem (coro, soli). Andante - Poco più - Attacca subito (come prima) - Animando un poco",
+        "position": "1",
+        "length": "502000",
+        "work": {
+          "id": "09fb49a9-c7bb-3fe3-b704-3e6cb4a6b05e",
+          "title": "Messa da requiem: Ia. Requiem: Requiem aeternam",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bd524b10-6a15-4686-9b4e-119890c031e5",
+        "title": "Messa da Requiem: Dies irae: Dies irae (coro). Allegro agitato",
+        "position": "2",
+        "length": "125373",
+        "work": {
+          "id": "9ffe50aa-b471-4e33-be06-61fd3625a4e3",
+          "title": "Messa da requiem: IIa. Dies irae: Dies irae (coro)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "48c6c42f-fc5d-4629-b58a-daca7846db6b",
+        "title": "Messa da Requiem: Dies irae: Tuba mirum (coro, basso). Allegro sostenuto - Molto meno mosso",
+        "position": "3",
+        "length": "164293",
+        "work": {
+          "id": "d74ab43b-c1ea-48b1-851a-63652566505b",
+          "title": "Messa da requiem: IIb. Dies irae: Tuba mirum (basso, coro)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ea54a13e-42b7-4e67-b868-98be72a84243",
+        "title": "Messa da Requiem: Dies irae: Liber scriptus (mezzo-soprano, coro). Allegro molto sostenuto - Allegro agitato",
+        "position": "4",
+        "length": "294000",
+        "work": {
+          "id": "c23be7c2-2cb6-4697-87e5-79e065b45540",
+          "title": "Messa da requiem: IId. Dies irae: Liber scriptus (mezzo-soprano, coro)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2424dcf0-5277-4646-b165-c7d875385258",
+        "title": "Messa da Requiem: Dies irae: Quid sum miser (soprano, mezzo-soprano, tenore). Adagio",
+        "position": "5",
+        "length": "216200",
+        "work": {
+          "id": "25bf5d36-70da-415e-9b56-a392839ee1eb",
+          "title": "Messa da requiem: IIe. Dies irae: Quid sum miser (soprano, mezzo-soprano, tenore)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "158412ee-690c-467c-b8b8-72ca5f928fc6",
+        "title": "Messa da Requiem: Dies irae: Rex tremendae (soli, coro). Adagio maestoso",
+        "position": "6",
+        "length": "219800",
+        "work": {
+          "id": "e1903c6c-89fc-43fa-b0fc-57fb88a432fa",
+          "title": "Messa da requiem: IIf. Dies irae: Rex tremendae (quartetto solista, coro)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "868ead89-74af-4056-a0a7-b45f639e5674",
+        "title": "Messa da Requiem: Dies irae: Recordare (soprano, mezzo-soprano). Lo stesso tempo",
+        "position": "7",
+        "length": "219333",
+        "work": {
+          "id": "91957a85-f4ce-43c4-9ea5-03c6e32dcaf6",
+          "title": "Messa da requiem: IIg. Dies irae: Recordare (soprano, mezzo-soprano)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "eeba1428-0ef6-408a-ba01-6fa852c6b523",
+        "title": "Messa da Requiem: Dies irae: Ingemisco (tenore). Lo stesso tempo - Poco meno mosso",
+        "position": "8",
+        "length": "193773",
+        "work": {
+          "id": "0a7c4f6b-9a80-4806-86b3-09edcea57709",
+          "title": "Messa da requiem: IIh. Dies irae: Ingemisco (tenore)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c72a16aa-fe85-470b-b6d9-459712f19ff0",
+        "title": "Messa da Requiem: Dies irae: Confutatis (basso, coro). Andante - Allegro come prima",
+        "position": "9",
+        "length": "273960",
+        "work": {
+          "id": "9c54cfc9-3e29-49d1-af55-1aee63f605f6",
+          "title": "Messa da requiem: IIi. Dies irae: Confutatis (basso, coro)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6c590ff6-1c28-4283-b1dc-7d0569be1c4c",
+        "title": "Messa da Requiem: Dies irae: Lacrimosa (soli, coro). Largo",
+        "position": "10",
+        "length": "322266",
+        "work": {
+          "id": "80571667-bbb7-4e28-84dd-5f4c5d603e59",
+          "title": "Messa da requiem: IIj. Dies irae: Lacrymosa (quartetto solista, coro)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fcb11380-2a27-4938-b3de-f973829929ba",
+        "title": "Messa da Requiem: Offertorio (soli). Andante mosso - Allegro mosso - Adagio - Come prima",
+        "position": "1",
+        "length": "533000",
+        "work": {
+          "id": "070884d7-349d-4ff3-94cd-5c9c23102c63",
+          "title": "Messa da requiem: III. Offertorio (quartetto solista)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f736a85b-6563-416c-b01a-780bd073c72d",
+        "title": "Messa da Requiem: Sanctus (coro). Allegro",
+        "position": "2",
+        "length": "148000",
+        "work": {
+          "id": "6a4bcbd4-8626-3e3f-be8b-cf0d193c696e",
+          "title": "Messa da requiem: IV. Sanctus (a doppio coro)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9e936be2-aa0e-4e48-8c78-8f6e2e4c6d0b",
+        "title": "Messa da Requiem: Agnus Dei (soprano, mezzo-soprano, coro)",
+        "position": "3",
+        "length": "262000",
+        "work": {
+          "id": "7b2dbe07-80d0-3e4e-a014-12227e044731",
+          "title": "Messa da requiem: V. Agnus Dei (soprano, mezzo-soprano, coro)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fd5f6746-295e-4638-b704-57e1db3a6e58",
+        "title": "Messa da Requiem: Lux aeterna (mezzo-soprano, tenore, basso). Allegro moderato",
+        "position": "4",
+        "length": "326000",
+        "work": {
+          "id": "9cb393b8-b374-34a3-864a-a0f9baa623f0",
+          "title": "Messa da requiem: VI. Lux aeterna (mezzo-soprano, tenor, bass)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9655be91-77e3-4227-96b4-8fb1c7e9f207",
+        "title": "Messa da Requiem: Libera me (soprano, coro). Moderato - Allegro agitato - Andante - Moderato - Allegro risoluto",
+        "position": "5",
+        "length": "728000",
+        "work": {
+          "id": "89dbb8f4-b109-450f-8751-acc57fc8abff",
+          "title": "Messa da requiem: VII. Libera me (soprano, coro)",
+          "composers": [
+            {
+              "name": "Giuseppe Verdi",
+              "mbid": "f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+            }
+          ]
+        }
+      }
+    ],
+    "e8249161-77e1-4fda-a052-572ee00f5715": []
+  },
+  "discogs_id": 192327,
+  "wikidata_id": "Q7317"
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "subject": "Miriam Makeba",
+    "predicate": "alterEgo",
+    "object": "Mama Africa"
+  },
+  {
+    "subject": "Miriam Makeba",
+    "predicate": "hasGenre",
+    "object": "Afropop"
+  },
+  {
+    "subject": "Miriam Makeba",
+    "predicate": "hasGenre",
+    "object": "jazz"
+  },
+  {
+    "subject": "Miriam Makeba",
+    "predicate": "hasGenre",
+    "object": "world music"
+  },
+  {
+    "subject": "the Skylarks",
+    "predicate": "hasGenre",
+    "object": "jazz"
+  },
+  {
+    "subject": "the Skylarks",
+    "predicate": "hasGenre",
+    "object": "traditional African melodies"
+  },
+  {
+    "subject": "the Skylarks",
+    "predicate": "hasGenre",
+    "object": "Western popular music"
+  },
+  {
+    "subject": "Miriam Makeba",
+    "predicate": "collaboratedWith",
+    "object": "Harry Belafonte"
+  },
+  {
+    "subject": "Miriam Makeba",
+    "predicate": "collaboratedWith",
+    "object": "Nina Simone"
+  },
+  {
+    "subject": "Miriam Makeba",
+    "predicate": "collaboratedWith",
+    "object": "Dizzy Gillespie"
+  },
+  {
+    "subject": "An Evening with Belafonte/Makeba",
+    "predicate": "collaboratedWith",
+    "object": "Harry Belafonte"
+  },
+  {
+    "subject": "Miriam Makeba",
+    "predicate": "composed",
+    "object": "Soweto Blues"
+  },
+  {
+    "subject": "Hugh Masekela",
+    "predicate": "composed",
+    "object": "Soweto Blues"
+  },
+  {
+    "subject": "Miriam Makeba",
+    "predicate": "pioneerOf",
+    "object": "world music"
+  },
+  {
+    "subject": "Miriam Makeba",
+    "predicate": "pioneerOf",
+    "object": "Afropop"
+  }
+]

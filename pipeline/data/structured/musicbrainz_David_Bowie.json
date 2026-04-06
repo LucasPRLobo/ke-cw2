@@ -1,0 +1,1727 @@
+{
+  "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
+  "name": "David Bowie",
+  "type": "Person",
+  "country": "GB",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1947-01-08",
+    "end": "2016-01-10",
+    "ended": "true"
+  },
+  "area": "England",
+  "begin_area": "Brixton",
+  "tags": [
+    {
+      "name": "actors",
+      "count": "3"
+    },
+    {
+      "name": "alternative rock",
+      "count": "12"
+    },
+    {
+      "name": "arrangers",
+      "count": "1"
+    },
+    {
+      "name": "art pop",
+      "count": "7"
+    },
+    {
+      "name": "art rock",
+      "count": "22"
+    },
+    {
+      "name": "british",
+      "count": "6"
+    },
+    {
+      "name": "classic rock",
+      "count": "3"
+    },
+    {
+      "name": "composers",
+      "count": "1"
+    },
+    {
+      "name": "glam rock",
+      "count": "22"
+    },
+    {
+      "name": "glam rock music",
+      "count": "1"
+    },
+    {
+      "name": "glam rock musicians",
+      "count": "1"
+    },
+    {
+      "name": "new wave",
+      "count": "5"
+    },
+    {
+      "name": "pop",
+      "count": "10"
+    },
+    {
+      "name": "pop rock",
+      "count": "5"
+    },
+    {
+      "name": "rock",
+      "count": "7"
+    },
+    {
+      "name": "rock music",
+      "count": "1"
+    },
+    {
+      "name": "rock musicians",
+      "count": "1"
+    },
+    {
+      "name": "singers",
+      "count": "1"
+    },
+    {
+      "name": "sound recording executives and producers",
+      "count": "1"
+    },
+    {
+      "name": "uk",
+      "count": "6"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "Band Aid",
+      "target_mbid": "0ecaa896-58fa-4dca-b53d-8da7bc5f59c5",
+      "attributes": [
+        "minor"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Carlos Alomar",
+      "target_mbid": "0719999c-d1bf-4e4b-b0a7-61a5384d0039",
+      "attributes": [
+        "guitar"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Cyrinda Foxe",
+      "target_mbid": "1884c49f-0f94-4db8-8638-c8c20df9405b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Claudia Lennear",
+      "target_mbid": "9ea306f4-0f53-4ae0-a7df-29fc8af13310",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Jean Millington",
+      "target_mbid": "b46f9075-ff87-4d52-9b65-d190a61dd626",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Susan Sarandon",
+      "target_mbid": "1c91934e-e5e3-444b-a87a-83aa77e33cc2",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Amanda Lear",
+      "target_mbid": "2f2608ed-ff2b-400e-b614-8c648bfaae7b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Angela Bowie",
+      "target_mbid": "28ebe985-7dd0-4e91-bda8-f323f7b19e11",
+      "attributes": [],
+      "begin": "1970-03-19",
+      "end": "1980-02-08"
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Iman Mohamed Abdulmajid",
+      "target_mbid": "1fc78551-2ddf-47c2-af90-91fcc48ec3a8",
+      "attributes": [],
+      "begin": "1992-04-24",
+      "end": "2016-01-10"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "David Bowie & The Buzz",
+      "target_mbid": "2010f1f2-344e-49ed-baf2-455226deb3df",
+      "attributes": [
+        "lead vocals",
+        "saxophone"
+      ],
+      "begin": "1966-02-10",
+      "end": "1966-12-02"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Arnold Corns",
+      "target_mbid": "1e18f529-2965-494e-be50-4b2a023148d4",
+      "attributes": [
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Manish Boys",
+      "target_mbid": "03beedf4-babe-4a7e-82d9-4e5883164812",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Bewlay Bros.",
+      "target_mbid": "9f132fea-c047-4b5c-a7a3-4996812ce0d0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Davy Jones & The Lower Third",
+      "target_mbid": "732ede83-aa0b-4ea3-a9cd-579b3ddf98f0",
+      "attributes": [
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Tin Machine",
+      "target_mbid": "39dfc059-93b1-41a1-af27-3a753c0711d3",
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Feathers",
+      "target_mbid": "48c82715-4569-43f7-a596-5c5d1f7ef0dc",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Konrads",
+      "target_mbid": "ff250b51-35c1-4ce3-acda-fedd93e21b80",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Riot Squad",
+      "target_mbid": "311d37e1-6305-4fe0-a6a7-37a377424bc8",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "David Bowie & The Hype",
+      "target_mbid": "2c0ac0c6-15a5-4423-bc30-b91322c869ad",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Hype",
+      "target_mbid": "3856fc93-87b7-4b20-a945-5fcbc6660752",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Tao Jones Index",
+      "target_mbid": "f6a84a03-890e-490b-81c8-f6d719b1221f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Astronettes",
+      "target_mbid": "1f32b941-ab8d-4a79-bbe1-d1b228d7488e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Tin Machine",
+      "target_mbid": "39dfc059-93b1-41a1-af27-3a753c0711d3",
+      "attributes": [
+        "saxophone"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Tin Machine",
+      "target_mbid": "39dfc059-93b1-41a1-af27-3a753c0711d3",
+      "attributes": [
+        "acoustic guitar"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Tin Machine",
+      "target_mbid": "39dfc059-93b1-41a1-af27-3a753c0711d3",
+      "attributes": [
+        "electric guitar"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Davie Jones & The King Bees",
+      "target_mbid": "f69e5632-46bf-46ad-b9fc-e70fc6f1d93a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Dave Rodgers",
+      "target_mbid": "9298d14c-ddf0-40b0-b6df-427e319524b3",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Lexi Jones",
+      "target_mbid": "fb8c04d8-28be-4939-ae4c-fbafc874540d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "Adrian Belew",
+      "target_mbid": "73c3f499-60e2-44e1-81dd-7fe2191461fa",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "Dennis Davis",
+      "target_mbid": "6c91c82c-4b4f-45ed-8271-3ef0af1b777e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "George Murray",
+      "target_mbid": "2fa21398-45e7-427c-92de-88cdaff90d4c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Celebrating David Bowie",
+      "target_mbid": "e24bd35b-2eb7-48d0-938d-32cac1aca952",
+      "attributes": [],
+      "begin": "2017-01-08",
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Afro Bowie",
+      "target_mbid": "54cbd60b-3cb2-4d33-bab4-7d5e8e486876",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Aladdinsane",
+      "target_mbid": "e4c5b23d-f661-404f-8c90-f5612777641f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Band Who Sold the World",
+      "target_mbid": "ddd6a971-a41f-47ef-9c41-b9213f7cd095",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Berlin Project",
+      "target_mbid": "00db4b82-1700-43b9-9620-6027ab1658a2",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Black Stardust",
+      "target_mbid": "9769c7d5-d574-41c9-b217-cd27037e00bf",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Bowie Collective",
+      "target_mbid": "d25e7112-c58b-4a1d-9b53-d16e01f45faf",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Bowie Concert",
+      "target_mbid": "a3797bc3-7240-40ca-8cc8-b4e5fee47fc7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Bowie Experience",
+      "target_mbid": "5455b76f-07ad-4ff3-aba8-b30f80ecc74f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Bowieremembered",
+      "target_mbid": "ab892343-07dd-405f-bca9-6ad63a9635af",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "David Brighton’s Space Oddity",
+      "target_mbid": "4815cba5-6478-4b94-bfff-67fa35bbdeab",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "ChangesTwoBowie",
+      "target_mbid": "c3a817db-8cc9-4ed7-9590-f33c1c38d4dc",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Cybernauts",
+      "target_mbid": "177069ca-595b-48a8-b461-b5eae8565937",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "David Bowie Band",
+      "target_mbid": "de84f0ca-98d8-4cb3-bbcd-87b35defdeaa",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The David Bowie Knives",
+      "target_mbid": "4f74991f-0156-427a-88db-9b2ac293dd42",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Diamond Dogs",
+      "target_mbid": "81d13a6e-742a-4804-b4aa-2a3662b1a8a0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Golden Years",
+      "target_mbid": "2bc23f08-0bf2-4fe3-bb09-9bfbc23ead26",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Woody Woodmansey’s Holy Holy",
+      "target_mbid": "84355c7e-150a-40e9-aa7d-bf9010a9815c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Jakob Hansonis Band",
+      "target_mbid": "b9964239-e4bf-4876-8d07-723d22147b28",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Moonage Daydream",
+      "target_mbid": "4b870f61-6bb2-4971-b06d-388e14429bd4",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Mr Ziggy & The GlassSpiders",
+      "target_mbid": "167d65e5-aeeb-4154-aadf-ee2bc07f1118",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "A Night of Bowie",
+      "target_mbid": "e30ece4f-4be6-477f-bd62-640fe0a3a2c9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Rays",
+      "target_mbid": "50a6346f-e916-4f00-be4e-99e69114af5c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Sensational David Bowie Tribute Band",
+      "target_mbid": "63f52bdb-5a3b-4ff9-a066-b7e47fe7ed07",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Spiders From Malmi",
+      "target_mbid": "ef0c9346-f5c2-40a5-bcc7-cab4883175d8",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Spiders From Milwaukee",
+      "target_mbid": "bdf35945-8d1a-4122-9e11-57a20b53f292",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Spiders From Sidcup",
+      "target_mbid": "edb9a683-e7fe-477f-b807-ba060ba3ff7a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Starman – The Dutch David Bowie Tribute",
+      "target_mbid": "cc6fe5d1-bce1-4640-b342-0c3ea232f0a0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Station to Station",
+      "target_mbid": "9833bf3c-2e21-4275-9be4-2a0163f71b2b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Stefano Cannone",
+      "target_mbid": "8979291f-0239-4102-8fb9-9913783b0688",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Thin White Duke",
+      "target_mbid": "f1736004-c22f-46ae-ae8c-ccdf291df217",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Thin White Duke",
+      "target_mbid": "88e59c70-9e6f-4315-a30b-0b8d027d9e02",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "This Is Not Bowie",
+      "target_mbid": "6c1f96a2-4504-4d2d-a515-aafff3c435d4",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Totally Bowie",
+      "target_mbid": "bd2c0e4a-8f21-44c5-ab05-a7b1cc3ac32d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "We Are Not",
+      "target_mbid": "918a58de-42b4-4f2b-b3ca-10afa376dce0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000531986"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/951"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/5441c29d-3602-4898-b1a1-b77fa23b8e50"
+    },
+    {
+      "type": "discography page",
+      "target": "https://www.illustrated-db-discography.nl/"
+    },
+    {
+      "type": "discography page",
+      "target": "https://www.sonymusic.co.jp/artist/DavidBowie/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.davidbowiecatalogue.com/"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/10263"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://bowiesongs.wordpress.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://www.bowiewonderworld.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://www.davidbowieitalia.it/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.bowiedownunder.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.algonet.se/~bassman/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.helden.org.uk/Number/1970list.htm"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.littleoogie.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.teenagewildlife.com/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://music.yandex.ru/artist/4650"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/997"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0000309/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/David+Bowie"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/David-bowie"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://muzikum.eu/en/david-bowie/lyrics"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/David-Bowie"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/davidbowie"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/davidbowielegacy"
+    },
+    {
+      "type": "official homepage",
+      "target": "https://www.davidbowie.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n81112099"
+    },
+    {
+      "type": "other databases",
+      "target": "https://castalbums.org/people/David-Bowie/10354"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb11893660s"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118514091"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=78985"
+    },
+    {
+      "type": "other databases",
+      "target": "https://id.oclc.org/worldcat/entity/E39PCjqFhpVfKMGwCwFpb37yV3"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/david-bowie"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6r22chc"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-931289"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL2741620A"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/2302/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/david-bowie"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/david-bowie"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/david-bowie/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/davy-jones-3/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000267529/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.progarchives.com/artist.asp?id=3790"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.spirit-of-rock.com/en/band/David_Bowie"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/David-Bowie/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=Aty46ftvcy64xhxamjpp4irv6sy"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/182672/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/30434/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/gb/artist/551695"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://ototoy.jp/_/default/a/117916"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.7digital.com/artist/david-bowie"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.beatport.com/artist/david-bowie/126890"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.junodownload.com/artists/David+Bowie/releases/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.qobuz.com/gb-en/interpreter/david-bowie/38326"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/gb/artist/id551695"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.co.uk/-/e/B000AQ090A"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/194"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/david-bowie-6bd6ee66.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/DavidBowieReal"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/davidbowie/"
+    },
+    {
+      "type": "social network",
+      "target": "https://bsky.app/profile/davidbowiereal.bsky.social"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/davidbowie"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.threads.com/@davidbowie"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.tiktok.com/@davidbowie"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/468870"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/davidbowieofficial"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B001DTGMZE"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/fr/artist/551695"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/551695"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/4768"
+    },
+    {
+      "type": "streaming",
+      "target": "https://us.napster.com/artist/david-bowie"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.qobuz.com/gb-en/interpreter/david-bowie/38326"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/16817"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/56606484"
+    },
+    {
+      "type": "video channel",
+      "target": "https://vimeo.com/davidbowie"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q5383"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UC3MD06xOSoPyfGY9GqWq3gQ"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UC8YgWcDKi1rLbQ1OtrOHeDw"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCh8hlIe7EcmVilHjnrE7gNw"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCvY1eVE6lTebXsdFbbXUtkQ"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "5db40351-97ed-36a8-88e2-a21a2603cae1",
+      "title": "David Bowie",
+      "type": "Album",
+      "first_release_date": "1967-06"
+    },
+    {
+      "id": "2e12918c-4973-3537-b9ab-e4723ae1ae1d",
+      "title": "David Bowie",
+      "type": "Album",
+      "first_release_date": "1969-11-04"
+    },
+    {
+      "id": "2536a41d-fde9-35d5-a6c6-cd4d94ffd916",
+      "title": "The Man Who Sold the World",
+      "type": "Album",
+      "first_release_date": "1970-11-04"
+    },
+    {
+      "id": "743b0b2e-a23a-3182-950e-232f8cb0dfb7",
+      "title": "Hunky Dory",
+      "type": "Album",
+      "first_release_date": "1971-12-17"
+    },
+    {
+      "id": "6c9ae3dd-32ad-472c-96be-69d0a3536261",
+      "title": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+      "type": "Album",
+      "first_release_date": "1972-06-06"
+    },
+    {
+      "id": "50f8710f-3ae6-319b-85a7-afe783f13449",
+      "title": "Aladdin Sane",
+      "type": "Album",
+      "first_release_date": "1973-04-19"
+    },
+    {
+      "id": "8b7bd1c2-be07-3083-989a-714f219f1ff8",
+      "title": "Pin Ups",
+      "type": "Album",
+      "first_release_date": "1973-10-19"
+    },
+    {
+      "id": "0dc4835d-b21a-3612-bac6-ab1e782a1396",
+      "title": "Diamond Dogs",
+      "type": "Album",
+      "first_release_date": "1974-05-24"
+    },
+    {
+      "id": "8c2a0eae-1359-3577-9127-e3d862acc2a2",
+      "title": "Young Americans",
+      "type": "Album",
+      "first_release_date": "1975-03-07"
+    },
+    {
+      "id": "686cdbd1-b400-32d8-8cb8-9317a2e41a58",
+      "title": "Station to Station",
+      "type": "Album",
+      "first_release_date": "1976-01-23"
+    },
+    {
+      "id": "f6a51281-56c4-3538-b915-65a9d4eb29b5",
+      "title": "Low",
+      "type": "Album",
+      "first_release_date": "1977-01-14"
+    },
+    {
+      "id": "1f5ef8d3-10ca-30eb-b41e-85b16987d412",
+      "title": "“Heroes”",
+      "type": "Album",
+      "first_release_date": "1977-10-14"
+    },
+    {
+      "id": "002ea22f-70c6-3bba-830e-4e0af067993c",
+      "title": "David Bowie Narrates Prokofiev’s Peter and the Wolf",
+      "type": "Album",
+      "first_release_date": "1978"
+    },
+    {
+      "id": "d6dd84a2-1a62-378c-b6c9-86a8b2211634",
+      "title": "Lodger",
+      "type": "Album",
+      "first_release_date": "1979-05-18"
+    },
+    {
+      "id": "bb13cb45-254c-3a61-89a5-15d22a97e6d6",
+      "title": "Scary Monsters… and Super Creeps",
+      "type": "Album",
+      "first_release_date": "1980-09-12"
+    },
+    {
+      "id": "75c2bddf-1799-3eda-b6b3-a0cf5189d8ed",
+      "title": "Let’s Dance",
+      "type": "Album",
+      "first_release_date": "1983-03"
+    },
+    {
+      "id": "2d0af79a-cb12-32e3-9cae-21696b910d53",
+      "title": "Tonight",
+      "type": "Album",
+      "first_release_date": "1984-09-01"
+    },
+    {
+      "id": "28f8a0f8-0eb9-35a2-b6cd-d5be21e4428c",
+      "title": "Never Let Me Down",
+      "type": "Album",
+      "first_release_date": "1987-04-18"
+    },
+    {
+      "id": "f5cc15ea-67a8-3c6b-9887-d45ae13a3156",
+      "title": "Black Tie White Noise",
+      "type": "Album",
+      "first_release_date": "1993-04-05"
+    },
+    {
+      "id": "f05647bf-86a7-3e6e-872a-20eb465be0a5",
+      "title": "1.Outside: The Nathan Adler Diaries: A Hyper Cycle",
+      "type": "Album",
+      "first_release_date": "1995-09-23"
+    },
+    {
+      "id": "9a723e6e-2ede-371b-88bf-396cc362d77b",
+      "title": "Earthling",
+      "type": "Album",
+      "first_release_date": "1997-02-01"
+    },
+    {
+      "id": "e8a94ea7-8466-389e-830a-d356801ca68c",
+      "title": "‘hours…’",
+      "type": "Album",
+      "first_release_date": "1999-10-05"
+    },
+    {
+      "id": "fed49206-4869-307d-9bfa-08109424cb73",
+      "title": "Heathen",
+      "type": "Album",
+      "first_release_date": "2002-06-05"
+    },
+    {
+      "id": "0f9d1be4-e975-39e9-a5ee-867c87824f42",
+      "title": "Reality",
+      "type": "Album",
+      "first_release_date": "2003-09-15"
+    },
+    {
+      "id": "84cf1d46-2e8c-430e-8361-f04ebf87f20d",
+      "title": "Toy",
+      "type": "Album",
+      "first_release_date": "2011-03-20"
+    }
+  ],
+  "tracks": {
+    "5db40351-97ed-36a8-88e2-a21a2603cae1": [
+      {
+        "id": "87d8cbad-f34e-4162-a809-a38fd49248f8",
+        "title": "Uncle Arthur",
+        "position": "1",
+        "length": "131266",
+        "work": {
+          "id": "7f82f52e-ba7d-40a6-9c95-1a5f83bfb9b9",
+          "title": "Uncle Arthur",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "008fbf08-649f-4257-b6cc-78cb6d441c22",
+        "title": "Sell Me a Coat",
+        "position": "2",
+        "length": "181666",
+        "work": {
+          "id": "0382dd6a-2e1e-42bc-9a86-e9ac84a795a3",
+          "title": "Sell Me a Coat",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3f0b540a-fed2-4ec8-b8dd-e2d19c660eee",
+        "title": "Rubber Band",
+        "position": "3",
+        "length": "140333",
+        "work": {
+          "id": "7af56c47-032c-4afc-a728-a7f01f311fe5",
+          "title": "Rubber Band",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "24b01ae9-c5ae-434a-b5b4-bfbd7af04cb4",
+        "title": "Love You Till Tuesday",
+        "position": "4",
+        "length": "192000",
+        "work": {
+          "id": "9fdfe242-caea-4941-b5df-fcbe00f95892",
+          "title": "Love You Till Tuesday",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a45052d7-d5f0-4b60-afdd-9a72a8755507",
+        "title": "There Is a Happy Land",
+        "position": "5",
+        "length": "194840",
+        "work": {
+          "id": "387d1f2a-90d4-41a0-af53-c12b3ae0397a",
+          "title": "There Is a Happy Land",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2a851410-fb7e-439c-82f1-439cb98606e7",
+        "title": "We Are Hungry Men",
+        "position": "6",
+        "length": "180160",
+        "work": {
+          "id": "027b1438-68b8-42db-a850-f28add591b27",
+          "title": "We Are Hungry Men",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "725a4d31-5e4a-413d-80a7-eb40c6d1e8a4",
+        "title": "When I Live My Dream",
+        "position": "7",
+        "length": "205000",
+        "work": {
+          "id": "b6e2c219-5aff-4b7f-9139-da50994da1a5",
+          "title": "When I Live My Dream",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "56838c0b-5fbb-4b8c-a041-e6fcee78c75e",
+        "title": "Little Bombardier",
+        "position": "8",
+        "length": "207773",
+        "work": {
+          "id": "6704641e-6d7f-45ef-9292-7eb059b04875",
+          "title": "Little Bombardier",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2e3ae1f9-3f3d-4480-b6ec-65ed14455f80",
+        "title": "Silly Boy Blue",
+        "position": "9",
+        "length": "233973",
+        "work": {
+          "id": "760bba40-8ba4-4601-9ebe-4181e98600f5",
+          "title": "Silly Boy Blue",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f2c28327-2f24-4108-9ad0-5c3fa3cb9cfa",
+        "title": "Come and Buy My Toys",
+        "position": "10",
+        "length": "130000",
+        "work": {
+          "id": "afa3ec1d-ed39-4580-b971-6d3d7b99232b",
+          "title": "Come and Buy My Toys",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ffc068b1-8b43-44c4-a891-725ad5b5267d",
+        "title": "Join the Gang",
+        "position": "11",
+        "length": "139493",
+        "work": {
+          "id": "e83ad53a-1f36-4ce6-ac97-c6ff1286cd00",
+          "title": "Join the Gang",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0e5fca0a-93be-4295-8546-d6c9f063a8ed",
+        "title": "She’s Got Medals",
+        "position": "12",
+        "length": "146200",
+        "work": {
+          "id": "3e246289-1156-46e0-a6f2-01cb5b6acd8f",
+          "title": "She’s Got Medals",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ca638ace-b2f0-4437-bd2a-74e70d1a40f5",
+        "title": "Maid of Bond Street",
+        "position": "13",
+        "length": "105533",
+        "work": {
+          "id": "a8df46e5-7e5a-416a-acdf-64ad0df048ad",
+          "title": "Maid of Bond Street",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "09fae20a-a5b8-4263-a49b-aa9d7d48dde3",
+        "title": "Please Mr. Gravedigger",
+        "position": "14",
+        "length": "157293",
+        "work": {
+          "id": "17c94fbb-1f05-43e9-85eb-91521345e4c1",
+          "title": "Please Mr. Gravedigger",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      }
+    ],
+    "2e12918c-4973-3537-b9ab-e4723ae1ae1d": [
+      {
+        "id": "84649f3b-6da6-4da6-8e33-a7a990b69516",
+        "title": "Space Oddity",
+        "position": "1",
+        "length": "315626",
+        "work": {
+          "id": "2f21c12d-9fa2-39e6-9721-7a037e00167d",
+          "title": "Space Oddity",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b9b9090d-23c0-46aa-9811-8fb5a9ccafc3",
+        "title": "Unwashed and Somewhat Slightly Dazed",
+        "position": "2",
+        "length": "372026",
+        "work": {
+          "id": "a6d93841-804e-375e-b6aa-a26e8498a60a",
+          "title": "Unwashed and Somewhat Slightly Dazed",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e0cccb31-0a9c-4846-98c0-e4af412228ce",
+        "title": "(Don’t Sit Down)",
+        "position": "3",
+        "length": "43533",
+        "work": {
+          "id": "f0e55d5d-6bdf-39df-abf4-02dbc4c7481d",
+          "title": "Don’t Sit Down",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "88f20741-0c96-4514-80d2-ea9c50e7cb4d",
+        "title": "Letter to Hermione",
+        "position": "4",
+        "length": "156240",
+        "work": {
+          "id": "96d46989-fe81-3050-8574-885c21e248d8",
+          "title": "Letter to Hermione",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7b05462d-aedb-4933-a846-af8a4fcfdccc",
+        "title": "Cygnet Committee",
+        "position": "5",
+        "length": "575000",
+        "work": {
+          "id": "a205935b-a44d-3010-bb4d-4f53baeff186",
+          "title": "Cygnet Committee",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6218e182-1ba8-4a18-980b-afecb2ce0b60",
+        "title": "Janine",
+        "position": "6",
+        "length": "205000",
+        "work": {
+          "id": "d84749d1-6656-3719-9fdb-c5e4f8cb859f",
+          "title": "Janine",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3917014a-46fd-4419-8528-8a457a4682ac",
+        "title": "An Occasional Dream",
+        "position": "7",
+        "length": "181373",
+        "work": {
+          "id": "f496aaea-4a44-3dea-9c8d-069df4881839",
+          "title": "An Occasional Dream",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "20ba9cb7-768e-4ff0-8656-9d3c74b8df17",
+        "title": "Wild Eyed Boy From Freecloud",
+        "position": "8",
+        "length": "291600",
+        "work": {
+          "id": "8847e908-da1c-3b06-aec3-71e17126115c",
+          "title": "Wild Eyed Boy From Freecloud",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "138bd73d-7e15-4950-9ef8-16ae32888051",
+        "title": "God Knows I’m Good",
+        "position": "9",
+        "length": "201000",
+        "work": {
+          "id": "de27871f-b24d-3b6d-8137-ec775c6e8f76",
+          "title": "God Knows I’m Good",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f239a701-9798-4abb-afd2-67bd6b404b5e",
+        "title": "Memory of a Free Festival",
+        "position": "10",
+        "length": "431000",
+        "work": {
+          "id": "ff5f6388-3b56-3202-bafb-1d013c2c02a9",
+          "title": "Memory of a Free Festival",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      }
+    ],
+    "2536a41d-fde9-35d5-a6c6-cd4d94ffd916": [
+      {
+        "id": "ff378417-ecfd-4b05-a864-a83149508a70",
+        "title": "The Width of a Circle",
+        "position": "1",
+        "length": "488760",
+        "work": {
+          "id": "a9f1113a-a952-3abc-8b3e-1fe0282ba6e3",
+          "title": "The Width of a Circle",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6f142b95-997c-4bc0-92f6-33c9c7c32a95",
+        "title": "All the Madmen",
+        "position": "2",
+        "length": "340840",
+        "work": {
+          "id": "7979bbbb-e03f-4893-bd2d-89c05097b43e",
+          "title": "All the Madmen",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5eaf6d51-40a3-4a4e-ae85-a8cabc706744",
+        "title": "Black Country Rock",
+        "position": "3",
+        "length": "216000",
+        "work": {
+          "id": "e9c21bd7-ded5-4026-ac24-89b26bd18c0c",
+          "title": "Black Country Rock",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6f45de1c-3471-4ff0-8d79-2bce81c95653",
+        "title": "After All",
+        "position": "4",
+        "length": "235466",
+        "work": {
+          "id": "d1a26913-0d36-3e57-b1b6-3de4bc96069a",
+          "title": "After All",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b7abf067-a41a-4955-88ee-1cb79b826467",
+        "title": "Running Gun Blues",
+        "position": "5",
+        "length": "195000",
+        "work": {
+          "id": "9efee7c5-a072-4499-bdce-07396e9ad11c",
+          "title": "Running Gun Blues",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7933de8b-1c51-460b-9676-018fbc813ff4",
+        "title": "Saviour Machine",
+        "position": "6",
+        "length": "268733",
+        "work": {
+          "id": "d9e2e6f3-d80e-4329-81be-be8cd7835041",
+          "title": "Saviour Machine",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "04670428-8d76-47aa-a7aa-77d5f84115b4",
+        "title": "She Shook Me Cold",
+        "position": "7",
+        "length": "256600",
+        "work": {
+          "id": "1bb8bd06-629c-4ed3-8af6-f8eeb456d299",
+          "title": "She Shook Me Cold",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d0c234bd-cfdc-4f73-a19f-67c4be0dc071",
+        "title": "The Man Who Sold the World",
+        "position": "8",
+        "length": "238267",
+        "work": {
+          "id": "e9af27ab-78b0-3f0a-ad4e-e11b4bb33f7d",
+          "title": "The Man Who Sold the World",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      },
+      {
+        "id": "10d4e086-2c7c-4dc0-9894-54e33e4e7f63",
+        "title": "The Supermen",
+        "position": "9",
+        "length": "221226",
+        "work": {
+          "id": "2c9fe965-4770-3998-ad90-fee1f989e68e",
+          "title": "The Supermen",
+          "composers": [
+            {
+              "name": "David Bowie",
+              "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 10263,
+  "wikidata_id": "Q5383"
+}

@@ -1,0 +1,143 @@
+{
+  "wikidata_id": "Q7346",
+  "genres": [
+    "jazz",
+    "hard bop",
+    "free jazz",
+    "post-bop",
+    "modal jazz"
+  ],
+  "instruments": [
+    "clarinet",
+    "saxophone",
+    "alto saxophone",
+    "baritone saxophone",
+    "tenor saxophone"
+  ],
+  "awards": [
+    "Grammy Lifetime Achievement Award",
+    "World War II Victory Medal",
+    "Asiatic-Pacific Campaign Medal",
+    "American Campaign Medal",
+    "North Carolina Music Hall of Fame",
+    "Pulitzer Prize Special Citations and Awards"
+  ],
+  "labels": [
+    "Atlantic Records",
+    "ABC Records",
+    "Blue Note",
+    "Impulse!",
+    "Prestige"
+  ],
+  "influences": [],
+  "occupations": [
+    "composer",
+    "conductor",
+    "singer",
+    "bandleader",
+    "saxophonist",
+    "jazz musician"
+  ],
+  "country": "United States",
+  "birth_place": "Hamlet",
+  "birth_date": "1926-09-23",
+  "death_date": "1967-07-17",
+  "wikipedia_title": "John Coltrane",
+  "compositions": [
+    {
+      "title": "Naima",
+      "genre": "jazz",
+      "date": "1960-01-01"
+    },
+    {
+      "title": "Desh",
+      "genre": "contemporary dance",
+      "date": ""
+    },
+    {
+      "title": "Giant Steps",
+      "genre": "modal jazz",
+      "date": "1960-01-01"
+    },
+    {
+      "title": "The Cat in the Bag",
+      "genre": "drama film",
+      "date": "1964-01-01"
+    },
+    {
+      "title": "Mr. P.C.",
+      "genre": "jazz",
+      "date": "1960-01-01"
+    },
+    {
+      "title": "Alabama",
+      "genre": null,
+      "date": "1963-01-01"
+    },
+    {
+      "title": "Equinox",
+      "genre": "jazz",
+      "date": "1964-06-01"
+    },
+    {
+      "title": "Moment's Notice",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "Ogunde",
+      "genre": "free jazz",
+      "date": "1967-01-01"
+    },
+    {
+      "title": "Impressions",
+      "genre": "jazz",
+      "date": "1961-01-01"
+    },
+    {
+      "title": "Lazy Bird",
+      "genre": null,
+      "date": "1957-01-01"
+    },
+    {
+      "title": "26-2",
+      "genre": "jazz",
+      "date": "1964-01-01"
+    },
+    {
+      "title": "A Love Supreme (2018-2019)",
+      "genre": "dance",
+      "date": ""
+    },
+    {
+      "title": "Wise One",
+      "genre": null,
+      "date": "1964-01-01"
+    },
+    {
+      "title": "26-2",
+      "genre": "jazz",
+      "date": "1960-01-01"
+    },
+    {
+      "title": "Fifth House",
+      "genre": "jazz",
+      "date": ""
+    },
+    {
+      "title": "Liberia",
+      "genre": "jazz",
+      "date": "1964-01-01"
+    },
+    {
+      "title": "Satellite",
+      "genre": "jazz",
+      "date": "1964-01-01"
+    },
+    {
+      "title": "Inspiration",
+      "genre": "jazz",
+      "date": "2018-06-01"
+    }
+  ]
+}

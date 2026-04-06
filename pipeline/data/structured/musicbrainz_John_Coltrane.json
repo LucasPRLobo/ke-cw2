@@ -1,0 +1,964 @@
+{
+  "mbid": "b625448e-bf4a-41c3-a421-72ad46cdb831",
+  "name": "John Coltrane",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1926-09-23",
+    "end": "1967-07-17",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "Hamlet",
+  "tags": [
+    {
+      "name": "american",
+      "count": "2"
+    },
+    {
+      "name": "avant-garde jazz",
+      "count": "7"
+    },
+    {
+      "name": "free jazz",
+      "count": "9"
+    },
+    {
+      "name": "hard bop",
+      "count": "9"
+    },
+    {
+      "name": "instrumental jazz",
+      "count": "1"
+    },
+    {
+      "name": "jazz",
+      "count": "17"
+    },
+    {
+      "name": "modal jazz",
+      "count": "7"
+    },
+    {
+      "name": "post-bop",
+      "count": "4"
+    },
+    {
+      "name": "saxophonist",
+      "count": "2"
+    },
+    {
+      "name": "spiritual jazz",
+      "count": "3"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Juanita Coltrane",
+      "target_mbid": "10d2ba26-6572-4b16-afe5-39ebbc468aac",
+      "attributes": [],
+      "begin": "1955",
+      "end": "1966"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Alice Coltrane",
+      "target_mbid": "d24fc285-7b2f-47da-8ac5-4070b08570b1",
+      "attributes": [],
+      "begin": "1965",
+      "end": "1967-07-17"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Dexter Culbertson's U.S. Navy Band",
+      "target_mbid": "c5e20057-447c-41ae-90a2-ce119dcb5e8b",
+      "attributes": [
+        "alto saxophone"
+      ],
+      "begin": "1946",
+      "end": "1946"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Dizzy Gillespie and His Orchestra",
+      "target_mbid": "e1f3d4a1-e009-4911-a7a9-6e50a02a73d9",
+      "attributes": [
+        "alto saxophone"
+      ],
+      "begin": "1949",
+      "end": "1950"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Dizzy Gillespie Sextet",
+      "target_mbid": "17df697d-197e-4a20-85a1-e09438305f5c",
+      "attributes": [
+        "alto saxophone"
+      ],
+      "begin": "1950",
+      "end": "1951"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Dizzy Gillespie Sextet",
+      "target_mbid": "17df697d-197e-4a20-85a1-e09438305f5c",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1950",
+      "end": "1951"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Gay Crosse & The Good Humor Six",
+      "target_mbid": "929d17e0-6589-400a-9d4c-1f0557db9cc3",
+      "attributes": [
+        "alto saxophone"
+      ],
+      "begin": "1952",
+      "end": "1952"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Gay Crosse & The Good Humor Six",
+      "target_mbid": "929d17e0-6589-400a-9d4c-1f0557db9cc3",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1952",
+      "end": "1952"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Johnny Hodges and His Orchestra",
+      "target_mbid": "2529b6d1-2bd5-4a57-b119-db4402ebd0c4",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1954",
+      "end": "1954"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Miles Davis Quintet",
+      "target_mbid": "fe7245e7-d734-4ca1-8e26-691883f58201",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1955",
+      "end": "1961"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Elmo Hope Sextet",
+      "target_mbid": "9fb7dbc9-76cf-412d-91cf-79ae97d8ace2",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1956",
+      "end": "1956"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Prestige All Stars",
+      "target_mbid": "93a7ed83-4497-4e38-bedf-d4d57b4eba1d",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1956",
+      "end": "1957"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Art Blakey Big Band",
+      "target_mbid": "93ea2964-cb0b-43f0-a36b-80eccc235dc3",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1957-12",
+      "end": "1957-12"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Red Garland Quintet",
+      "target_mbid": "a5944490-231e-485a-9baf-6d056a9733a3",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1957",
+      "end": "1957"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Thelonious Monk Septet",
+      "target_mbid": "51fe321e-5ad0-4dd1-a5c3-3e773688cdf8",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1957",
+      "end": "1957"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Thelonious Monk Quartet",
+      "target_mbid": "1cbe3eea-4671-452a-9265-7ef1ef9d8d2e",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1957",
+      "end": "1957"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Miles Davis Sextet",
+      "target_mbid": "f137837b-fa55-48d1-8c85-f13961b3ac77",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1958-01",
+      "end": "1960-04"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "George Russell Orchestra",
+      "target_mbid": "f3b0ddec-da41-442f-8b89-4f150e834d4c",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1958-09",
+      "end": "1958-09"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Cecil Taylor Quintet",
+      "target_mbid": "c718232d-5c58-474f-b770-a581977fb5c8",
+      "attributes": [
+        "tenor saxophone"
+      ],
+      "begin": "1958",
+      "end": "1958"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "John Coltrane Quartet",
+      "target_mbid": "a43270af-bc4a-4552-847e-617b11f38d7b",
+      "attributes": [
+        "eponymous",
+        "soprano saxophone",
+        "tenor saxophone"
+      ],
+      "begin": "1959",
+      "end": "1965"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "John Coltrane Trio",
+      "target_mbid": "616d142c-5e6e-4851-a81b-32d65412c295",
+      "attributes": [
+        "eponymous",
+        "saxophone"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "John Coltrane Quintet",
+      "target_mbid": "2a784762-f782-4b7c-b2a5-a5941ac9d5dc",
+      "attributes": [
+        "eponymous",
+        "soprano saxophone"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "John Coltrane Quintet",
+      "target_mbid": "2a784762-f782-4b7c-b2a5-a5941ac9d5dc",
+      "attributes": [
+        "eponymous",
+        "tenor saxophone"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "John Coltrane Sextet",
+      "target_mbid": "29ac7528-400f-4773-a461-0d38f73451e5",
+      "attributes": [
+        "eponymous",
+        "soprano saxophone"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "John Coltrane Sextet",
+      "target_mbid": "29ac7528-400f-4773-a461-0d38f73451e5",
+      "attributes": [
+        "eponymous",
+        "tenor saxophone"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Rova Channeling Coltrane",
+      "target_mbid": "30468d84-b2c5-4ff7-be68-8a8bab24d0fc",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Arjuna John Coltrane Jr.",
+      "target_mbid": "cf1908e7-2dba-4dc0-b07c-c0932b508c7d",
+      "attributes": [],
+      "begin": "1964",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Ravi Coltrane",
+      "target_mbid": "c14149eb-877d-460d-9d84-459dd14a3206",
+      "attributes": [],
+      "begin": "1965-08-06",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Oran Coltrane",
+      "target_mbid": "f5cb5cd8-b89b-44b8-b7ef-08a9269c0952",
+      "attributes": [],
+      "begin": "1967-03-19",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Michelle Coltrane",
+      "target_mbid": "bc9b5c7d-40ba-48f6-8f37-113dd1ba9b5f",
+      "attributes": [
+        "step"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Rova Channeling Coltrane",
+      "target_mbid": "30468d84-b2c5-4ff7-be68-8a8bab24d0fc",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000175553"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/51206"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/b625448e-bf4a-41c3-a421-72ad46cdb831"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=218"
+    },
+    {
+      "type": "discography page",
+      "target": "https://www.jazzdisco.org/john-coltrane/catalog/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.mossiehigh.com/Coltrane/Main.htm"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/2766215"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/97545"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/2hGh5VOeeqimQFxqXvfCUf"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/2449"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:John_Coltrane_1963a.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0173328/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/John+Coltrane"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/John-coltrane"
+    },
+    {
+      "type": "official homepage",
+      "target": "https://www.johncoltrane.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n50031907"
+    },
+    {
+      "type": "other databases",
+      "target": "https://adp.library.ucsb.edu/names/309224"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb138926615"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118521667"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=485239"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6x92hns"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1006213"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL7513936A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/john_coltrane"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/john-coltrane"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/cdalbum/artist/john-coltrane"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/tape/artist/john-coltrane"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/vinyl/artist/john-coltrane"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/john-coltrane/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/John-Coltrane/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n50-031907"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/31621/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/120199"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.amazon.com/-/e/B000APURBM"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000APURBM"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/2281"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/john-coltrane-bd6b596.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/JohnColtrane"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/johncoltrane"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/160815"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/johncoltraneofficial"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/120199"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/9042"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/61731379"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q7346"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCH4T2kv7rr9qnuP0DOXLxMA"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "1d4203bc-d096-3cea-a54e-8f01548b43a4",
+      "title": "Tenor Conclave",
+      "type": "Album",
+      "first_release_date": "1957-04"
+    },
+    {
+      "id": "a801b39f-b75b-3131-8d42-141bf3c694dd",
+      "title": "Coltrane",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "e3bbcc3e-1ab9-3e82-8023-b0188ade2c29",
+      "title": "Interplay for 2 Trumpets and 2 Tenors",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "b2e2ac12-8ff3-3b22-876b-e753d1541c3a",
+      "title": "Mal/2",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "8032a88d-0680-480a-91ed-34001c9c3773",
+      "title": "Mating Call",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "12349ce8-2087-3d16-93da-70cd65621774",
+      "title": "Blue Train",
+      "type": "Album",
+      "first_release_date": "1958-02"
+    },
+    {
+      "id": "9adc20e2-650a-4843-8e8b-8a63f4c620bb",
+      "title": "Wheelin’ & Dealin’",
+      "type": "Album",
+      "first_release_date": "1958-04"
+    },
+    {
+      "id": "f8718b6e-ba89-3341-8f87-a7ac479dbf3f",
+      "title": "Soultrane",
+      "type": "Album",
+      "first_release_date": "1958-10"
+    },
+    {
+      "id": "cb6ef28b-5ba3-33b2-ac1b-76261a088794",
+      "title": "John Coltrane with the Red Garland Trio",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "27c10c86-5b11-3897-81d0-740209abce98",
+      "title": "Cattin’ with Coltrane and Quinichette",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "3c426105-e67d-4774-8a02-5abc93fc92ad",
+      "title": "The Cats",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "2b52695d-4030-32a8-95c9-e37a93341d9f",
+      "title": "The Ray Draper Quintet featuring John Coltrane",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "2cdca11d-3e45-3152-93e5-4d2a4ddb1bc6",
+      "title": "Giant Steps",
+      "type": "Album",
+      "first_release_date": "1960-01"
+    },
+    {
+      "id": "11954f38-fa97-4b38-a7bc-3f23767367ab",
+      "title": "Soul Junction",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "b2f17c9e-4038-37e2-a200-eeb5ac492e4f",
+      "title": "Bags & Trane",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "7a0612cb-03ed-3d66-8001-b58084a56b59",
+      "title": "Coltrane Jazz",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "e15f29fe-0636-3816-aa47-467c20537550",
+      "title": "High Pressure",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "711ef782-d201-345e-916c-1d1b15f06e24",
+      "title": "Lush Life",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "b60cdf20-74b7-3bed-b233-0f4818235895",
+      "title": "My Favorite Things",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "9ba035a7-3f7c-3d96-9e07-0e0d45af41af",
+      "title": "Olé Coltrane",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "4e30ce8d-7031-3689-b65e-dd5159b9ee70",
+      "title": "Settin’ the Pace",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "20052b09-e445-3bca-b8b5-110c0efd559f",
+      "title": "Thelonious Monk with John Coltrane",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "f9aab952-b2c7-3f31-ad82-5cab900e834b",
+      "title": "Coltrane Plays the Blues",
+      "type": "Album",
+      "first_release_date": "1962"
+    },
+    {
+      "id": "1b45ff7c-3ce2-3bfe-bc62-f3f527ae984b",
+      "title": "Dig It!",
+      "type": "Album",
+      "first_release_date": "1962"
+    },
+    {
+      "id": "fd73eeda-af05-3ff8-a0e0-1c1f4aedbbf8",
+      "title": "Standard Coltrane",
+      "type": "Album",
+      "first_release_date": "1962"
+    }
+  ],
+  "tracks": {
+    "1d4203bc-d096-3cea-a54e-8f01548b43a4": [
+      {
+        "id": "69acf446-6155-4a2e-a659-0d41266148b1",
+        "title": "Tenor Conclave",
+        "position": "1",
+        "length": "665000",
+        "work": {
+          "id": "5e710838-d13e-4aa9-8d0c-15fbbb20b90e",
+          "title": "Tenor Conclave",
+          "composers": [
+            {
+              "name": "Hank Mobley",
+              "mbid": "026b096e-e024-42ab-82f3-107bddae77c2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "652179d8-f04d-4070-a9b0-5b93f70e282f",
+        "title": "Just You, Just Me",
+        "position": "2",
+        "length": "569000",
+        "work": {
+          "id": "e4e2860a-5d1c-3f92-84aa-348b554a512e",
+          "title": "Just You, Just Me",
+          "composers": [
+            {
+              "name": "Jesse Greer",
+              "mbid": "a216236e-fc6f-4d48-ab57-e5f1cc0ea99b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3b959273-061d-48ec-a18b-4debc2b17c3d",
+        "title": "Bob’s Boys",
+        "position": "3",
+        "length": "500000",
+        "work": {
+          "id": "18e6fd71-7566-41ed-9f95-2a8c3dff7de1",
+          "title": "Bob's Boys",
+          "composers": [
+            {
+              "name": "Hank Mobley",
+              "mbid": "026b096e-e024-42ab-82f3-107bddae77c2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b33a535e-c1b6-4cfc-9576-c278b140b9c3",
+        "title": "How Deep Is the Ocean",
+        "position": "4",
+        "length": "904493",
+        "work": {
+          "id": "5757fff7-068f-3328-8eb0-cb427891e0cd",
+          "title": "How Deep Is the Ocean?",
+          "composers": [
+            {
+              "name": "Irving Berlin",
+              "mbid": "5e645519-a175-4fe0-9a9b-eb9dc9f506b5"
+            }
+          ]
+        }
+      }
+    ],
+    "a801b39f-b75b-3131-8d42-141bf3c694dd": [
+      {
+        "id": "1bea4349-5bd3-45f2-8fac-eb4a6a9a2e38",
+        "title": "Bakai",
+        "position": "1",
+        "length": "522000",
+        "work": {
+          "id": "0605029c-90ff-3601-a167-a122096addfe",
+          "title": "Bakai",
+          "composers": [
+            {
+              "name": "Cal Massey",
+              "mbid": "9319ba6c-24b7-4716-bdd7-90c9033a9bd8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ebc223d1-2ea7-4a90-a7e1-74dbd43116b2",
+        "title": "Violets for Your Furs",
+        "position": "2",
+        "length": "377066",
+        "work": {
+          "id": "b221e821-4520-3c2f-a1f1-142efdb703d7",
+          "title": "Violets for Your Furs",
+          "composers": [
+            {
+              "name": "Matt Dennis",
+              "mbid": "a693dfa5-0797-471f-b35b-c464be7f0c4c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4bc5343b-3422-40ec-9865-b446019e1bb8",
+        "title": "Time Was",
+        "position": "3",
+        "length": "448960",
+        "work": {
+          "id": "08db792c-83ae-357b-aa44-91bb89419d33",
+          "title": "Time Was",
+          "composers": [
+            {
+              "name": "Miguel Prado",
+              "mbid": "f33a2058-ac12-4533-985a-3dc164cc8303"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e9724cee-2b8d-4e46-9c92-36e0c88dd92b",
+        "title": "Straight Street",
+        "position": "4",
+        "length": "379000",
+        "work": {
+          "id": "003d9eca-e7a2-35c2-ab8e-9fe712088917",
+          "title": "Straight Street",
+          "composers": [
+            {
+              "name": "John Coltrane",
+              "mbid": "b625448e-bf4a-41c3-a421-72ad46cdb831"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7a4e1bc5-8f64-48d5-896c-4c32e474a0bb",
+        "title": "While My Lady Sleeps",
+        "position": "5",
+        "length": "283000",
+        "work": {
+          "id": "96b61c4e-465e-3571-8424-7f8626004ac0",
+          "title": "While My Lady Sleeps",
+          "composers": [
+            {
+              "name": "Bronisław Kaper",
+              "mbid": "cdc82126-9892-4bed-864d-6b36e322507b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d4169e21-38a6-443c-9e1b-84158550261c",
+        "title": "Chronic Blues",
+        "position": "6",
+        "length": "491066",
+        "work": {
+          "id": "609a8791-a8ce-38a8-8aa2-bc7bb418efbe",
+          "title": "Chronic Blues",
+          "composers": [
+            {
+              "name": "John Coltrane",
+              "mbid": "b625448e-bf4a-41c3-a421-72ad46cdb831"
+            }
+          ]
+        }
+      }
+    ],
+    "e3bbcc3e-1ab9-3e82-8023-b0188ade2c29": [
+      {
+        "id": "f628c6b1-ef55-46f3-9b43-dc7900ad564a",
+        "title": "Interplay",
+        "position": "1",
+        "length": "580000",
+        "work": {
+          "id": "b4b25ee7-a1e1-475e-91af-0e459f56423d",
+          "title": "Interplay",
+          "composers": [
+            {
+              "name": "Mal Waldron",
+              "mbid": "3f658e7f-4f44-4493-942c-ede5033bc6f7"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ae816f09-51aa-4e0b-b038-61589c33bcd1",
+        "title": "Anatomy",
+        "position": "2",
+        "length": "714000",
+        "work": {
+          "id": "c08968cc-86f9-4a70-a573-6ab689b629bf",
+          "title": "Anatomy",
+          "composers": [
+            {
+              "name": "Mal Waldron",
+              "mbid": "3f658e7f-4f44-4493-942c-ede5033bc6f7"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e220e5c7-eb14-40c0-8239-8b8667eff1e6",
+        "title": "Light Blue",
+        "position": "3",
+        "length": "471000",
+        "work": {
+          "id": "3232d3b3-026a-4bfe-8597-df0b0c89db98",
+          "title": "Light Blue",
+          "composers": [
+            {
+              "name": "Mal Waldron",
+              "mbid": "3f658e7f-4f44-4493-942c-ede5033bc6f7"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8805c7ed-5e1b-4cdf-b70a-26c54cdab41f",
+        "title": "Soul Eyes",
+        "position": "4",
+        "length": "1050000",
+        "work": {
+          "id": "99c40aca-bc94-4ba3-9605-bfb0cb26a0ea",
+          "title": "Soul Eyes",
+          "composers": [
+            {
+              "name": "Mal Waldron",
+              "mbid": "3f658e7f-4f44-4493-942c-ede5033bc6f7"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 97545,
+  "wikidata_id": "Q7346"
+}

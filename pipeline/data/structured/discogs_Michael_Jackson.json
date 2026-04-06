@@ -1,0 +1,62 @@
+{
+  "id": 470023,
+  "name": "W.A. Mozart",
+  "realname": "Michael Joseph Jackson",
+  "profile": "This alias was used by Michael Jackson for his contribution to the television show \"The Simpsons\", \"Happy Birthday, Lisa\". Due to contractual obligations the writing credits were attributed to \"W.A. Mozart\".\r\n[b](For the classical composer, use [a=Wolfgang Amadeus Mozart].)[/b]",
+  "members": [],
+  "groups": [],
+  "genres": [
+    "Classical",
+    "Non-Music",
+    "Stage & Screen"
+  ],
+  "styles": [
+    "Comedy",
+    "Dialogue",
+    "Musical",
+    "Soundtrack",
+    "Theme"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Non-Music",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Theme"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Musical"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Dialogue"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Comedy"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Theme"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Musical"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Dialogue"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Comedy"
+    }
+  ]
+}

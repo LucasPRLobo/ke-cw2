@@ -1,0 +1,127 @@
+[
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "hasGenre",
+    "object": "symphonies"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "hasGenre",
+    "object": "concertos"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "hasGenre",
+    "object": "chamber music"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "hasGenre",
+    "object": "opera"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "hasGenre",
+    "object": "choral music"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "violin concertos"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Sinfonia Concertante"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "masses"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Idomeneo"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Die Entf\u00fchrung aus dem Serail"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Great Mass in C minor"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Haydn Quartets"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "symphonies"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "piano concertos"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "symphonies"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Jupiter"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Eine kleine Nachtmusik"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Clarinet Concerto"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Le nozze di Figaro"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Don Giovanni"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Cos\u00ec fan tutte"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Die Zauberfl\u00f6te"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Piano Concerto No. 27"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "composed",
+    "object": "Requiem"
+  },
+  {
+    "subject": "Wolfgang Amadeus Mozart",
+    "predicate": "hasMusicalPeriod",
+    "object": "Classical"
+  }
+]

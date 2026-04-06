@@ -1,0 +1,208 @@
+{
+  "id": 256166,
+  "name": "Hermeto Pascoal",
+  "realname": "Hermeto Pascoal",
+  "profile": "Brazilian composer, multi-instrumentalist, and musical innovator.\r\nBorn June 22, 1936 in Lagoa da Canoa, Alagoas, Brazil.\r\nDied September 14, 2025 in Rio de Janeiro, Brazil.\r\nKnown for his experimental approach and ability to play virtually any instrument, Pascoal was a highly influential figure in Brazilian and international jazz and avant-garde music. He collaborated with renowned artists such as Miles Davis and was famous for incorporating everyday objects into his performances. Throughout his career, he composed over 2000 instrumental pieces and remained creatively active until his late years.\r\n\r\nSee also the label [l=Hermeto Pascoal].",
+  "members": [],
+  "groups": [
+    {
+      "name": "Quarteto Novo",
+      "id": 83735,
+      "active": false
+    },
+    {
+      "name": "Conjunto Som 4",
+      "id": 844596,
+      "active": false
+    },
+    {
+      "name": "Brazilian Octopus",
+      "id": 905536,
+      "active": true
+    },
+    {
+      "name": "Sambrasa Trio",
+      "id": 1132362,
+      "active": false
+    },
+    {
+      "name": "Hermeto Pascoal E Grupo",
+      "id": 2115419,
+      "active": true
+    },
+    {
+      "name": "Hermeto Pascoal & Grupo Vice Versa",
+      "id": 5992704,
+      "active": false
+    },
+    {
+      "name": "Hermeto Pascoal & Big Band",
+      "id": 6410079,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Folk, World, & Country",
+    "Funk / Soul",
+    "Jazz",
+    "Latin"
+  ],
+  "styles": [
+    "Big Band",
+    "Bossa Nova",
+    "Choro",
+    "Forró",
+    "Funk",
+    "Fusion",
+    "Latin Jazz",
+    "MPB",
+    "Musique Concrète",
+    "Samba"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Jazz",
+      "style": "Bossa Nova"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Fusion"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Big Band"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Musique Concrète"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Forró"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Latin Jazz"
+    },
+    {
+      "genre": "Latin",
+      "style": "Musique Concrète"
+    },
+    {
+      "genre": "Latin",
+      "style": "Forró"
+    },
+    {
+      "genre": "Latin",
+      "style": "Latin Jazz"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Latin Jazz"
+    },
+    {
+      "genre": "Jazz",
+      "style": "MPB"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Samba"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Bossa Nova"
+    },
+    {
+      "genre": "Latin",
+      "style": "Latin Jazz"
+    },
+    {
+      "genre": "Latin",
+      "style": "MPB"
+    },
+    {
+      "genre": "Latin",
+      "style": "Samba"
+    },
+    {
+      "genre": "Latin",
+      "style": "Bossa Nova"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Latin Jazz"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "MPB"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Samba"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Bossa Nova"
+    },
+    {
+      "genre": "Jazz",
+      "style": "MPB"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Samba"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Funk"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Latin Jazz"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Choro"
+    },
+    {
+      "genre": "Latin",
+      "style": "MPB"
+    },
+    {
+      "genre": "Latin",
+      "style": "Samba"
+    },
+    {
+      "genre": "Latin",
+      "style": "Funk"
+    },
+    {
+      "genre": "Latin",
+      "style": "Latin Jazz"
+    },
+    {
+      "genre": "Latin",
+      "style": "Choro"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "MPB"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Samba"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Funk"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Latin Jazz"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Choro"
+    }
+  ]
+}

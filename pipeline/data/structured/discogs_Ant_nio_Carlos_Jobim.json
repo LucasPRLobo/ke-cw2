@@ -1,0 +1,60 @@
+{
+  "id": 27991,
+  "name": "Antonio Carlos Jobim",
+  "realname": "Antônio Carlos Brasileiro de Almeida Jobim",
+  "profile": "Brazilian songwriter, composer, arranger, singer, pianist, and guitarist. Also known simply as Tom Jobim. Jobim was inducted into the Songwriters Hall of Fame in 1991.\r\n\r\nBorn: 25 January 1927 in Rio de Janeiro, Brazil.\r\nDied: 8 December 1994 in New York City, New York, USA (aged 67).\r\n\r\nConsidered as the primary force behind the creation of the Bossa Nova style of Brazilian music, his songs have been performed by many singers and instrumentalists, both within Brazil and across the world. Associated with the publisher [l=Corcovado Music Corp.]\r\n\r\nFather of [a=Paulo Jobim] and [a636570].",
+  "members": [],
+  "groups": [
+    {
+      "name": "Antonio Carlos Jobim & Orchestra",
+      "id": 1173706,
+      "active": true
+    },
+    {
+      "name": "Nova Banda",
+      "id": 1434796,
+      "active": false
+    },
+    {
+      "name": "Tom E Seu Conjunto",
+      "id": 4510050,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Children's",
+    "Folk, World, & Country",
+    "Jazz",
+    "Latin"
+  ],
+  "styles": [
+    "Bossa Nova",
+    "Samba"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Latin",
+      "style": "Samba"
+    },
+    {
+      "genre": "Latin",
+      "style": "Samba"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Samba"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Bossa Nova"
+    },
+    {
+      "genre": "Latin",
+      "style": "Bossa Nova"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Bossa Nova"
+    }
+  ]
+}

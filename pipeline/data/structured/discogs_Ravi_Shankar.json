@@ -1,0 +1,62 @@
+{
+  "id": 299241,
+  "name": "Ravi Shankar",
+  "realname": "Robindro Shaunkor Chowdhury",
+  "profile": "Indian sitar player and composer.\r\nBorn April 7, 1920 in Varanasi, United Provinces, in the former British Raj, India.\r\nDied December 11, 2012 in San Diego, California, USA.\r\nFirst husband of [a5621191] and former son-in-law of [a2760667]. Father of [a866306], [a239658] and [a147031]. Brother of [a3320798] and [a6688178]. Uncle of [a2667] and [a600766].",
+  "members": [],
+  "groups": [
+    {
+      "name": "Shankar Family & Friends",
+      "id": 177234,
+      "active": true
+    },
+    {
+      "name": "Ravi Shankar & Sitar Ensemble",
+      "id": 6166295,
+      "active": true
+    },
+    {
+      "name": "Ravi Shankar & Party",
+      "id": 7341285,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Folk, World, & Country",
+    "Pop"
+  ],
+  "styles": [
+    "Hindustani",
+    "Indian Classical"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Indian Classical"
+    },
+    {
+      "genre": "Pop",
+      "style": "Indian Classical"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Indian Classical"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Indian Classical"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Indian Classical"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Indian Classical"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Hindustani"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": 11136,
+  "name": "Peter Gabriel",
+  "realname": "Peter Brian Gabriel",
+  "profile": "English singer, songwriter, producer, multi-instrumentalist and entrepreneur (born 13 February 1950 in Chobham, Surrey, England, UK). Father of photographer and film director [a=Anna Gabriel] (born 26 July 1974), and singer [a=Melanie Gabriel] (born 23 August 1976). He was the original lead singer of prog-rockers [a=Genesis] since 1967 but left in 1975 to pursue solo projects. As well as becoming a multi-platinum selling albums artist, he was the founder of the annual [l=WOMAD] music festival, owns one of Britain's most in-demand recording studios, [l=Real World Studios], and jointly owns the recording studio hardware manufacturer Solid State Logic.",
+  "members": [],
+  "groups": [
+    {
+      "name": "Genesis",
+      "id": 124506,
+      "active": false
+    },
+    {
+      "name": "Artists United Against Apartheid",
+      "id": 143887,
+      "active": true
+    },
+    {
+      "name": "Peace Together",
+      "id": 269548,
+      "active": true
+    },
+    {
+      "name": "Peace Choir",
+      "id": 341227,
+      "active": true
+    },
+    {
+      "name": "The Amnesty Allstars",
+      "id": 673799,
+      "active": true
+    },
+    {
+      "name": "The Conspirators (2)",
+      "id": 3527728,
+      "active": true
+    },
+    {
+      "name": "\"46664 The Event\" Cast",
+      "id": 8000316,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Non-Music",
+    "Rock"
+  ],
+  "styles": [
+    "Art Rock",
+    "Classic Rock",
+    "Country Rock",
+    "Folk Rock",
+    "Hard Rock",
+    "Interview",
+    "New Wave",
+    "Pop Rock",
+    "Prog Rock",
+    "Public Broadcast",
+    "Public Service Announcement",
+    "Radioplay",
+    "Soft Rock"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Rock",
+      "style": "Hard Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Prog Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Interview"
+    },
+    {
+      "genre": "Rock",
+      "style": "Radioplay"
+    },
+    {
+      "genre": "Rock",
+      "style": "Public Broadcast"
+    },
+    {
+      "genre": "Rock",
+      "style": "Public Service Announcement"
+    },
+    {
+      "genre": "Rock",
+      "style": "Folk Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Country Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Soft Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Classic Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Hard Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Prog Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Interview"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Radioplay"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Public Broadcast"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Public Service Announcement"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Folk Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Country Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Soft Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Classic Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Prog Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Art Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Public Broadcast"
+    },
+    {
+      "genre": "Rock",
+      "style": "New Wave"
+    },
+    {
+      "genre": "Rock",
+      "style": "Prog Rock"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Public Broadcast"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "New Wave"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Prog Rock"
+    }
+  ]
+}

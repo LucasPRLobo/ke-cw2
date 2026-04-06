@@ -1,0 +1,86 @@
+{
+  "id": 180119,
+  "name": "Chuck Berry",
+  "realname": "Charles Edward Anderson Berry",
+  "profile": "American guitarist, singer and songwriter and one of the pioneers of rock and roll music, born October 18, 1926, St. Louis, Missouri, died March 18, 2017, St. Charles County, Missouri Inducted into both the Songwriters Hall of Fame and the Rock and Roll Hall of Fame in 1986.\r\n\r\nBeware: The songwriter of \"Louie, Louie\" is [a=Richard Berry].",
+  "members": [],
+  "groups": [
+    {
+      "name": "Chuck Berry & His Combo",
+      "id": 450693,
+      "active": true
+    },
+    {
+      "name": "The Ecuadors",
+      "id": 1265364,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Pop",
+    "Rock"
+  ],
+  "styles": [
+    "Rhythm & Blues",
+    "Rock & Roll",
+    "Vocal"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Rock",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Pop",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Pop",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Rock",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Rock",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rhythm & Blues"
+    },
+    {
+      "genre": "Pop",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Pop",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Pop",
+      "style": "Rhythm & Blues"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rock & Roll"
+    }
+  ]
+}

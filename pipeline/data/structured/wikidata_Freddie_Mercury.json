@@ -1,0 +1,206 @@
+{
+  "wikidata_id": "Q15869",
+  "genres": [
+    "rock and roll",
+    "progressive rock",
+    "disco",
+    "glam rock",
+    "hard rock",
+    "pop rock",
+    "neoclassicism",
+    "traditional heavy metal",
+    "classical crossover",
+    "classic rock"
+  ],
+  "instruments": [
+    "piano",
+    "guitar",
+    "keyboard instrument",
+    "Hammond organ",
+    "voice"
+  ],
+  "awards": [
+    "Grammy Lifetime Achievement Award"
+  ],
+  "labels": [
+    "Polydor",
+    "Columbia Records",
+    "EMI",
+    "Parlophone",
+    "Hollywood Records"
+  ],
+  "influences": [
+    "Jimi Hendrix",
+    "Lata Mangeshkar"
+  ],
+  "occupations": [
+    "composer",
+    "poet",
+    "singer",
+    "record producer",
+    "pianist",
+    "singer-songwriter",
+    "graphic designer",
+    "guitarist",
+    "painter",
+    "rock musician",
+    "manufacturer"
+  ],
+  "country": "United Kingdom",
+  "birth_place": "Zanzibar City",
+  "birth_date": "1946-09-05",
+  "death_date": "1991-11-24",
+  "wikipedia_title": "Freddie Mercury",
+  "compositions": [
+    {
+      "title": "Love of My Life",
+      "genre": "popular music",
+      "date": "1979-01-01"
+    },
+    {
+      "title": "Crazy Little Thing Called Love",
+      "genre": "rockabilly",
+      "date": "1979-01-01"
+    },
+    {
+      "title": "Bohemian Rhapsody",
+      "genre": "progressive rock",
+      "date": "1975-10-31"
+    },
+    {
+      "title": "Bohemian Rhapsody",
+      "genre": "hard rock",
+      "date": "1975-10-31"
+    },
+    {
+      "title": "Bohemian Rhapsody",
+      "genre": "progressive pop",
+      "date": "1975-10-31"
+    },
+    {
+      "title": "We Are the Champions",
+      "genre": "soft rock",
+      "date": "1977-10-01"
+    },
+    {
+      "title": "Don't Stop Me Now",
+      "genre": "popular music",
+      "date": "1978-01-01"
+    },
+    {
+      "title": "Princes of the Universe",
+      "genre": "heavy metal music",
+      "date": "1986-03-12"
+    },
+    {
+      "title": "Princes of the Universe",
+      "genre": "hard rock",
+      "date": "1986-03-12"
+    },
+    {
+      "title": "Love Kills",
+      "genre": "Hi-NRG",
+      "date": "1984-09-10"
+    },
+    {
+      "title": "Body Language",
+      "genre": "funk",
+      "date": "1982-04-19"
+    },
+    {
+      "title": "Good Old-Fashioned Lover Boy",
+      "genre": "pop rock",
+      "date": "1976-01-01"
+    },
+    {
+      "title": "Bicycle Race",
+      "genre": "rock music",
+      "date": "1978-01-01"
+    },
+    {
+      "title": "A Winter's Tale",
+      "genre": "psychedelic rock",
+      "date": "1995-01-01"
+    },
+    {
+      "title": "The Show Must Go On",
+      "genre": "rock music",
+      "date": "1991-10-14"
+    },
+    {
+      "title": "The Show Must Go On",
+      "genre": "hard rock",
+      "date": "1991-10-14"
+    },
+    {
+      "title": "The Show Must Go On",
+      "genre": "art rock",
+      "date": "1991-10-14"
+    },
+    {
+      "title": "The Show Must Go On",
+      "genre": "symphonic rock",
+      "date": "1991-10-14"
+    },
+    {
+      "title": "Stone Cold Crazy",
+      "genre": "heavy metal music",
+      "date": "1974-01-01"
+    },
+    {
+      "title": "One Vision",
+      "genre": "popular music",
+      "date": "1985-01-01"
+    },
+    {
+      "title": "Flick of the Wrist",
+      "genre": "hard rock",
+      "date": "1974-10-21"
+    },
+    {
+      "title": "In the Lap of the Gods",
+      "genre": null,
+      "date": "1974-01-01"
+    },
+    {
+      "title": "Somebody to Love",
+      "genre": "rock music",
+      "date": "1976-11-12"
+    },
+    {
+      "title": "Barcelona",
+      "genre": "crossover",
+      "date": "1987-10-26"
+    },
+    {
+      "title": "Killer Queen",
+      "genre": "rock music",
+      "date": "1973-01-01"
+    },
+    {
+      "title": "Killer Queen",
+      "genre": "glam rock",
+      "date": "1973-01-01"
+    },
+    {
+      "title": "Under Pressure",
+      "genre": "rock and roll",
+      "date": "1981-01-01"
+    },
+    {
+      "title": "Seven Seas of Rhye",
+      "genre": "hard rock",
+      "date": "1973-01-01"
+    },
+    {
+      "title": "These Are the Days of Our Lives",
+      "genre": "rock music",
+      "date": "1991-01-01"
+    },
+    {
+      "title": "Cool Cat",
+      "genre": null,
+      "date": "1981-01-01"
+    }
+  ]
+}

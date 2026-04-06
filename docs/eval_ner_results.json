@@ -1,0 +1,83 @@
+{
+  "David Bowie": {
+    "spacy": {
+      "total": 88,
+      "types": 10,
+      "persons_orgs": 19
+    },
+    "bert": {
+      "total": 35,
+      "types": 3,
+      "persons_orgs": 7
+    },
+    "llm": {
+      "total_entities": 23,
+      "triples": 24,
+      "predicates": 6
+    },
+    "overlap": {
+      "spacy_only": 12,
+      "bert_only": 2,
+      "llm_only": 19,
+      "all_three": 2
+    },
+    "timing": {
+      "spacy_seconds": 2.002,
+      "bert_seconds": 3.945
+    }
+  },
+  "The Beatles": {
+    "spacy": {
+      "total": 94,
+      "types": 10,
+      "persons_orgs": 29
+    },
+    "bert": {
+      "total": 36,
+      "types": 4,
+      "persons_orgs": 15
+    },
+    "llm": {
+      "total_entities": 20,
+      "triples": 24,
+      "predicates": 6
+    },
+    "overlap": {
+      "spacy_only": 17,
+      "bert_only": 4,
+      "llm_only": 15,
+      "all_three": 4
+    },
+    "timing": {
+      "spacy_seconds": 0.342,
+      "bert_seconds": 0.818
+    }
+  },
+  "Ludwig van Beethoven": {
+    "spacy": {
+      "total": 60,
+      "types": 9,
+      "persons_orgs": 15
+    },
+    "bert": {
+      "total": 33,
+      "types": 3,
+      "persons_orgs": 15
+    },
+    "llm": {
+      "total_entities": 20,
+      "triples": 19,
+      "predicates": 4
+    },
+    "overlap": {
+      "spacy_only": 6,
+      "bert_only": 9,
+      "llm_only": 13,
+      "all_three": 4
+    },
+    "timing": {
+      "spacy_seconds": 0.284,
+      "bert_seconds": 1.571
+    }
+  }
+}

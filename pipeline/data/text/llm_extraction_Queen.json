@@ -1,0 +1,152 @@
+[
+  {
+    "subject": "Queen",
+    "predicate": "hasGenre",
+    "object": "rock"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "founded",
+    "object": "London"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "founded",
+    "object": "1970"
+  },
+  {
+    "subject": "Freddie Mercury",
+    "predicate": "memberOf",
+    "object": "Queen"
+  },
+  {
+    "subject": "Brian May",
+    "predicate": "memberOf",
+    "object": "Queen"
+  },
+  {
+    "subject": "Roger Taylor",
+    "predicate": "memberOf",
+    "object": "Queen"
+  },
+  {
+    "subject": "John Deacon",
+    "predicate": "memberOf",
+    "object": "Queen"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "hasMember",
+    "object": "Freddie Mercury"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "hasMember",
+    "object": "Brian May"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "hasMember",
+    "object": "Roger Taylor"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "hasMember",
+    "object": "John Deacon"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "influencedBy",
+    "object": "progressive rock"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "influencedBy",
+    "object": "hard rock"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "influencedBy",
+    "object": "heavy metal"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "hasGenre",
+    "object": "arena rock"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "hasGenre",
+    "object": "pop rock"
+  },
+  {
+    "subject": "Brian May",
+    "predicate": "memberOf",
+    "object": "Smile"
+  },
+  {
+    "subject": "Roger Taylor",
+    "predicate": "memberOf",
+    "object": "Smile"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "released",
+    "object": "Queen"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "released",
+    "object": "Queen II"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "released",
+    "object": "Sheer Heart Attack"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "released",
+    "object": "A Night at the Opera"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "released",
+    "object": "News of the World"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "released",
+    "object": "The Game"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "released",
+    "object": "Greatest Hits"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "released",
+    "object": "The Miracle"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "released",
+    "object": "Innuendo"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "released",
+    "object": "Made in Heaven"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "performedAt",
+    "object": "Live Aid"
+  },
+  {
+    "subject": "Queen",
+    "predicate": "performedAt",
+    "object": "Knebworth"
+  }
+]

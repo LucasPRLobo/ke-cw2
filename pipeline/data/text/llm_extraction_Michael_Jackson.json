@@ -1,0 +1,47 @@
+[
+  {
+    "subject": "Michael Jackson",
+    "predicate": "alterEgo",
+    "object": "King of Pop"
+  },
+  {
+    "subject": "Michael Jackson",
+    "predicate": "memberOf",
+    "object": "The Jackson 5"
+  },
+  {
+    "subject": "The Jackson 5",
+    "predicate": "hasMember",
+    "object": "Michael Jackson"
+  },
+  {
+    "subject": "Off the Wall",
+    "predicate": "released",
+    "object": "Michael Jackson"
+  },
+  {
+    "subject": "Thriller",
+    "predicate": "released",
+    "object": "Michael Jackson"
+  },
+  {
+    "subject": "Bad",
+    "predicate": "released",
+    "object": "Michael Jackson"
+  },
+  {
+    "subject": "Dangerous",
+    "predicate": "released",
+    "object": "Michael Jackson"
+  },
+  {
+    "subject": "HIStory",
+    "predicate": "released",
+    "object": "Michael Jackson"
+  },
+  {
+    "subject": "Invincible",
+    "predicate": "released",
+    "object": "Michael Jackson"
+  }
+]

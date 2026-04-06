@@ -1,0 +1,103 @@
+{
+  "id": 217655,
+  "name": "Alejandro Sanz",
+  "realname": "Alejandro Sánchez Pizarro",
+  "profile": "Spanish Singer-songwriter. Can be appears as Alejandro Sáenz.\r\n\r\nBorn December 18, 1968 in Madrid, Spain.",
+  "members": [],
+  "groups": [
+    {
+      "name": "Voces Unidas Por Chile",
+      "id": 4479482,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Electronic",
+    "Funk / Soul",
+    "Latin",
+    "Pop",
+    "Rock"
+  ],
+  "styles": [
+    "Acoustic",
+    "Ballad",
+    "Latin",
+    "Pop Rock",
+    "Soft Rock",
+    "Soul"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Pop",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Soul"
+    },
+    {
+      "genre": "Latin",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Latin",
+      "style": "Soul"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Soul"
+    },
+    {
+      "genre": "Pop",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Pop",
+      "style": "Soul"
+    },
+    {
+      "genre": "Rock",
+      "style": "Acoustic"
+    },
+    {
+      "genre": "Rock",
+      "style": "Soft Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Latin"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Latin",
+      "style": "Acoustic"
+    },
+    {
+      "genre": "Latin",
+      "style": "Soft Rock"
+    },
+    {
+      "genre": "Latin",
+      "style": "Latin"
+    },
+    {
+      "genre": "Latin",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Ballad"
+    }
+  ]
+}

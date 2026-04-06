@@ -1,0 +1,495 @@
+{
+  "mbid": "d5956a2f-bab9-4aa3-a9be-ad393518e5b0",
+  "name": "Dominguinhos",
+  "type": "Person",
+  "country": "BR",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1941-02-12",
+    "end": "2013-07-23",
+    "ended": "true"
+  },
+  "area": "Brazil",
+  "begin_area": "Pernambuco",
+  "tags": [
+    {
+      "name": "baião",
+      "count": "2"
+    },
+    {
+      "name": "choro",
+      "count": "1"
+    },
+    {
+      "name": "forró",
+      "count": "2"
+    },
+    {
+      "name": "latin",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Anastácia",
+      "target_mbid": "aee2d8dc-5a00-4ffa-ae89-b120e57261b9",
+      "attributes": [],
+      "begin": "1967",
+      "end": "1976"
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000178024"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/529221"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/1mCHLu4gizrN9PwHxKrJv4"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Dominguinhos_de_Morais.jpg"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-12501/dominguinhos/lyrics.html"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.dominguinhos.art.br/"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/57480"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/267608723"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q5290443"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "4fb12f54-8629-3a75-8937-47c757ee1d56",
+      "title": "Festa no Sertão",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "0e2663b5-9320-4ebb-aeab-543a0528cb18",
+      "title": "Domingo Menino Dominguinhos",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "6cb76a42-4697-498d-b952-98c949c04a9c",
+      "title": "Oi, Lá Vou Eu!",
+      "type": "Album",
+      "first_release_date": "1977"
+    },
+    {
+      "id": "fa603d43-4ec1-46f7-a053-be4a3a2c6df7",
+      "title": "Dominguinhos & Convidados Cantam Luiz Gonzaga",
+      "type": "Album",
+      "first_release_date": "1997"
+    },
+    {
+      "id": "c7d441d1-d870-3fdc-b426-de5b24b4239b",
+      "title": "Dominguinhos e convidados, Volume 2",
+      "type": "Album",
+      "first_release_date": "1997"
+    },
+    {
+      "id": "f986f036-4ce5-4bd6-9f07-9206fbc4b9cc",
+      "title": "Nas Costas Do Brasil",
+      "type": "Album",
+      "first_release_date": "1998"
+    },
+    {
+      "id": "85c0bb41-bb1c-3bf6-bfcc-7d6ef6c06442",
+      "title": "Dominguinhos e convidados, Volume 1",
+      "type": "Album",
+      "first_release_date": "1999-10-28"
+    },
+    {
+      "id": "56ddf2b6-7543-43ee-aec8-d064d67a57bd",
+      "title": "Você vai ver o que é bom",
+      "type": "Album",
+      "first_release_date": "1999"
+    },
+    {
+      "id": "6ca900a0-29bc-3856-bc48-664374c6cf4f",
+      "title": "Lembrando de você",
+      "type": "Album",
+      "first_release_date": "2001"
+    },
+    {
+      "id": "aeb27a96-05a9-39d0-a8fc-2fd48c162062",
+      "title": "Cada Um Belisca Um Pouco",
+      "type": "Album",
+      "first_release_date": "2004-07-12"
+    },
+    {
+      "id": "692a1ad5-7e11-4f2f-b71d-dba97cab9074",
+      "title": "Elba Ramalho E Dominguinhos",
+      "type": "Album",
+      "first_release_date": "2005"
+    },
+    {
+      "id": "10d24307-59e2-4b9f-8889-df650b0234ea",
+      "title": "Conterrâneos",
+      "type": "Album",
+      "first_release_date": "2006-10-16"
+    },
+    {
+      "id": "8cf8da82-d496-3fb3-96b3-ae8de44994fc",
+      "title": "Yamandu + Dominguinhos",
+      "type": "Album",
+      "first_release_date": "2007-09-03"
+    },
+    {
+      "id": "5eba4250-bdd0-40a6-b01f-8fe9542c4827",
+      "title": "Yamandu + Dominguinhos: Lado B",
+      "type": "Album",
+      "first_release_date": "2010"
+    },
+    {
+      "id": "f4435e2f-565b-4b07-93ed-5d35100cfa4f",
+      "title": "13 de Dezembro",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "0e763d59-52d1-4238-88be-e06b28649cf3",
+      "title": "A maravilhosa música brasileira",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "4aea665a-a4d8-4141-9443-20505b24e314",
+      "title": "Apôs Tá Certo",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "beceb838-d5a3-4050-a09c-fd8f85fb549f",
+      "title": "Aqui tá ficando bom",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "b9d529f6-8946-4970-b945-cce0f60c2502",
+      "title": "Chegando de Mansinho",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "2607a6df-29cc-43fc-bba6-f9c229845761",
+      "title": "Cheinho de Molho",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "e29eff71-3cc6-4bdd-8987-d1feacf2a7de",
+      "title": "Choro Chorado",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "f0325aee-9f67-45cb-8b93-e80cac204447",
+      "title": "Dominguinhos É Brasil",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "81a56d71-de19-436b-829e-fdd551dd8556",
+      "title": "Dominguinhos e Seu Acordeon",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "8471a225-b14a-4d3c-b6d8-1e7b37dc5977",
+      "title": "Dominguinhos É tradição",
+      "type": "Album",
+      "first_release_date": null
+    },
+    {
+      "id": "109293e9-4216-455c-a1a6-dd2a90e1baf4",
+      "title": "É isso ai, Simples como a vida",
+      "type": "Album",
+      "first_release_date": null
+    }
+  ],
+  "tracks": {
+    "4fb12f54-8629-3a75-8937-47c757ee1d56": [
+      {
+        "id": "98db0a95-7702-4791-a2bf-36346356b805",
+        "title": "Baião Mimoso",
+        "position": "1",
+        "length": "151000",
+        "work": null
+      },
+      {
+        "id": "1b6988f2-3d89-4f07-abd4-2d5f8a2b48b1",
+        "title": "Esse é o Forró",
+        "position": "2",
+        "length": "129000",
+        "work": null
+      },
+      {
+        "id": "221354fe-8766-4669-9860-5957ad581aad",
+        "title": "Forró da Pesada",
+        "position": "3",
+        "length": "118000",
+        "work": null
+      },
+      {
+        "id": "ac56b628-9fd2-43f8-8f89-f33f7349de60",
+        "title": "Toque Esta Outra Vez",
+        "position": "4",
+        "length": "136000",
+        "work": null
+      },
+      {
+        "id": "ab94b9e5-a278-407f-93fc-a094901676f7",
+        "title": "Você Queria tá ai",
+        "position": "5",
+        "length": "120000",
+        "work": null
+      },
+      {
+        "id": "c819f7c4-24e1-4114-951d-783c48f9e1c3",
+        "title": "Enigmático",
+        "position": "6",
+        "length": "174000",
+        "work": null
+      },
+      {
+        "id": "6ee49858-ad22-47b5-b980-332178542f9f",
+        "title": "Forró em Petrolina",
+        "position": "7",
+        "length": "116000",
+        "work": null
+      },
+      {
+        "id": "ea9c3363-8f5b-4eda-b1aa-1faedd30a98f",
+        "title": "Essa é Boa",
+        "position": "8",
+        "length": "168000",
+        "work": null
+      },
+      {
+        "id": "5b20e8d8-b0cc-4dcf-b946-af48e83eeef8",
+        "title": "Amor Estou Voltando",
+        "position": "9",
+        "length": "179000",
+        "work": null
+      },
+      {
+        "id": "2a4519ce-af34-45e0-8d53-0ee1b1908815",
+        "title": "Festa no Sertão",
+        "position": "10",
+        "length": "143000",
+        "work": null
+      },
+      {
+        "id": "015acc08-1ce8-4de0-9905-65ac60e876d4",
+        "title": "Minha Decisão",
+        "position": "11",
+        "length": "190000",
+        "work": null
+      },
+      {
+        "id": "effc089a-36eb-439a-b470-401c56dd78bf",
+        "title": "Homenagem a Pixinguinha",
+        "position": "12",
+        "length": "169000",
+        "work": null
+      }
+    ],
+    "0e2663b5-9320-4ebb-aeab-543a0528cb18": [
+      {
+        "id": "d5ad691a-0ace-4d85-aaf6-812ea632d5ad",
+        "title": "Quero um xamego",
+        "position": "1",
+        "length": "145000",
+        "work": null
+      },
+      {
+        "id": "58cfa285-80ed-4d70-8932-e69d3f3c8e39",
+        "title": "O Babulina",
+        "position": "2",
+        "length": "169082",
+        "work": null
+      },
+      {
+        "id": "91786d31-122d-4fec-8afc-44ce03083795",
+        "title": "Destino Traquino",
+        "position": "3",
+        "length": "274554",
+        "work": null
+      },
+      {
+        "id": "614becda-3361-48ab-9db2-76f24e2ac4be",
+        "title": "De mala e cuia",
+        "position": "4",
+        "length": "176000",
+        "work": null
+      },
+      {
+        "id": "1e4aa355-b587-49f6-b239-ceff572dbc5b",
+        "title": "Minha ilusão",
+        "position": "5",
+        "length": "228000",
+        "work": null
+      },
+      {
+        "id": "5de6ad5b-39a0-4219-9918-b309922de4f4",
+        "title": "Gracioso",
+        "position": "6",
+        "length": "131469",
+        "work": null
+      },
+      {
+        "id": "b878cebc-cee0-4a11-a392-a055538b50b0",
+        "title": "Tenho sede",
+        "position": "7",
+        "length": "179000",
+        "work": null
+      },
+      {
+        "id": "6927fe89-3b3e-4bbd-95d4-a3859152920f",
+        "title": "Forró do Sertão",
+        "position": "8",
+        "length": "190000",
+        "work": null
+      },
+      {
+        "id": "28626b51-d66f-4e95-b8e6-49e4eb0e3980",
+        "title": "Veja",
+        "position": "9",
+        "length": "192198",
+        "work": null
+      },
+      {
+        "id": "8b941b5e-cb64-4894-9c4f-e8ac616e41d6",
+        "title": "Cheguei pra ficar",
+        "position": "10",
+        "length": "144000",
+        "work": null
+      },
+      {
+        "id": "6b63fa6d-261c-4f6e-be0b-6489f291cb75",
+        "title": "O canto de Acauã",
+        "position": "11",
+        "length": "176000",
+        "work": null
+      },
+      {
+        "id": "eb09fc2b-35c3-400f-a146-53994e4c3928",
+        "title": "Baião violado",
+        "position": "12",
+        "length": "235000",
+        "work": null
+      }
+    ],
+    "6cb76a42-4697-498d-b952-98c949c04a9c": [
+      {
+        "id": "c0278833-5e2c-4940-9f17-c3f671b9e2e6",
+        "title": "Eu vou de banda",
+        "position": "1",
+        "length": "205000",
+        "work": null
+      },
+      {
+        "id": "4d1a3b7f-c7ea-4756-b4d1-51bc2d3cb8e6",
+        "title": "O que aconteceu, menina",
+        "position": "2",
+        "length": "245000",
+        "work": null
+      },
+      {
+        "id": "cc215995-25de-41eb-877d-6f85855f0cef",
+        "title": "No dia em que eu vim me embora",
+        "position": "3",
+        "length": "249000",
+        "work": null
+      },
+      {
+        "id": "c6d59a2e-988e-4bac-a096-db4cd5d76935",
+        "title": "Detrás do meu quintal",
+        "position": "4",
+        "length": "241000",
+        "work": null
+      },
+      {
+        "id": "72e5a08f-562a-4630-a599-58f3fa7865c2",
+        "title": "Oi, lá vou eu",
+        "position": "5",
+        "length": "196000",
+        "work": null
+      },
+      {
+        "id": "1b397d62-9c09-40ab-be9b-505b461b5bbc",
+        "title": "Xote da gameleira",
+        "position": "6",
+        "length": "164000",
+        "work": null
+      },
+      {
+        "id": "c77ba1df-b377-44f7-b091-c1e2f86597a1",
+        "title": "Catingueira fulorou",
+        "position": "7",
+        "length": "226000",
+        "work": null
+      },
+      {
+        "id": "cdb18d32-8733-47a6-bb9a-182095210076",
+        "title": "Desilusão",
+        "position": "8",
+        "length": "192000",
+        "work": null
+      },
+      {
+        "id": "c60a7d6f-0448-439e-835d-d49a87d8a39b",
+        "title": "Forró em Lagoa da Canoa",
+        "position": "9",
+        "length": "304000",
+        "work": null
+      },
+      {
+        "id": "db5b3688-6781-479d-9b9d-1172efcd4b08",
+        "title": "Arrebol",
+        "position": "10",
+        "length": "154000",
+        "work": null
+      },
+      {
+        "id": "b1f5588c-57a0-49ee-8966-e8bb80bb8cb9",
+        "title": "Não tem jeito que dê jeito",
+        "position": "11",
+        "length": "192000",
+        "work": null
+      },
+      {
+        "id": "f689db67-94e7-454f-8daa-ccf4453e066a",
+        "title": "Tempo triste",
+        "position": "12",
+        "length": "204000",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 529221,
+  "wikidata_id": "Q5290443"
+}

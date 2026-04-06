@@ -1,0 +1,52 @@
+[
+  {
+    "subject": "Hildegard of Bingen",
+    "predicate": "alterEgo",
+    "object": "Sibyl of the Rhine"
+  },
+  {
+    "subject": "Hildegard of Bingen",
+    "predicate": "hasMusicalPeriod",
+    "object": "High Middle Ages"
+  },
+  {
+    "subject": "Hildegard of Bingen",
+    "predicate": "hasGenre",
+    "object": "sacred monophony"
+  },
+  {
+    "subject": "Hildegard of Bingen",
+    "predicate": "founded",
+    "object": "monastery of Rupertsberg"
+  },
+  {
+    "subject": "Hildegard of Bingen",
+    "predicate": "founded",
+    "object": "monastery of Eibingen"
+  },
+  {
+    "subject": "Hildegard of Bingen",
+    "predicate": "composed",
+    "object": "hymns"
+  },
+  {
+    "subject": "Hildegard of Bingen",
+    "predicate": "composed",
+    "object": "antiphons"
+  },
+  {
+    "subject": "Hildegard of Bingen",
+    "predicate": "composed",
+    "object": "Ordo Virtutum"
+  },
+  {
+    "subject": "Ordo Virtutum",
+    "predicate": "hasGenre",
+    "object": "liturgical drama"
+  },
+  {
+    "subject": "Ordo Virtutum",
+    "predicate": "hasGenre",
+    "object": "morality play"
+  }
+]

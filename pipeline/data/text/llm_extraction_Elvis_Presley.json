@@ -1,0 +1,15 @@
+[
+  {"subject": "Elvis Presley", "predicate": "alterEgo", "object": "King of Rock and Roll"},
+  {"subject": "Elvis Presley", "predicate": "pioneerOf", "object": "rockabilly"},
+  {"subject": "Elvis Presley", "predicate": "hasGenre", "object": "rockabilly"},
+  {"subject": "Elvis Presley", "predicate": "hasGenre", "object": "country music"},
+  {"subject": "Elvis Presley", "predicate": "hasGenre", "object": "rhythm and blues"},
+  {"subject": "Elvis Presley", "predicate": "hasGenre", "object": "rock and roll"},
+  {"subject": "Elvis Presley", "predicate": "released", "object": "Heartbreak Hotel"},
+  {"subject": "Elvis Presley", "predicate": "released", "object": "Love Me Tender"},
+  {"subject": "Elvis Presley", "predicate": "released", "object": "Jailhouse Rock"},
+  {"subject": "Elvis Presley", "predicate": "released", "object": "Viva Las Vegas"},
+  {"subject": "Elvis Presley", "predicate": "performedAt", "object": "Elvis (television comeback special)"},
+  {"subject": "Elvis Presley", "predicate": "performedAt", "object": "Las Vegas concert residency"},
+  {"subject": "Elvis Presley", "predicate": "performedAt", "object": "Aloha from Hawaii"}
+]

@@ -1,0 +1,19 @@
+[
+  {"subject": "Freddie Mercury", "predicate": "alterEgo", "object": "Farrokh Bulsara"},
+  {"subject": "Freddie Mercury", "predicate": "memberOf", "object": "Queen"},
+  {"subject": "Freddie Mercury", "predicate": "hasGenre", "object": "rock"},
+  {"subject": "Freddie Mercury", "predicate": "hasGenre", "object": "operatic crossover"},
+  {"subject": "Queen", "predicate": "released", "object": "Bohemian Rhapsody"},
+  {"subject": "Queen", "predicate": "released", "object": "Killer Queen"},
+  {"subject": "Queen", "predicate": "released", "object": "Somebody to Love"},
+  {"subject": "Queen", "predicate": "released", "object": "Don't Stop Me Now"},
+  {"subject": "Queen", "predicate": "released", "object": "Crazy Little Thing Called Love"},
+  {"subject": "Freddie Mercury", "predicate": "collaboratedWith", "object": "Montserrat Caballé"},
+  {"subject": "Freddie Mercury", "predicate": "released", "object": "Barcelona"},
+  {"subject": "Freddie Mercury", "predicate": "collaboratedWith", "object": "Brian May"},
+  {"subject": "Freddie Mercury", "predicate": "collaboratedWith", "object": "Roger Taylor"},
+  {"subject": "Freddie Mercury", "predicate": "collaboratedWith", "object": "John Deacon"},
+  {"subject": "Brian May", "predicate": "memberOf", "object": "Queen"},
+  {"subject": "Roger Taylor", "predicate": "memberOf", "object": "Queen"},
+  {"subject": "John Deacon", "predicate": "memberOf", "object": "Queen"}
+]

@@ -1,0 +1,2945 @@
+{
+  "mbid": "022589ac-7177-460d-a178-9976cf70e29f",
+  "name": "Freddie Mercury",
+  "type": "Person",
+  "country": "GB",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1946-09-05",
+    "end": "1991-11-24",
+    "ended": "true"
+  },
+  "area": "United Kingdom",
+  "begin_area": "Stone Town",
+  "tags": [
+    {
+      "name": "british",
+      "count": "1"
+    },
+    {
+      "name": "classic rock",
+      "count": "1"
+    },
+    {
+      "name": "classical crossover",
+      "count": "1"
+    },
+    {
+      "name": "dance-pop",
+      "count": "3"
+    },
+    {
+      "name": "hard rock",
+      "count": "2"
+    },
+    {
+      "name": "pop",
+      "count": "2"
+    },
+    {
+      "name": "pop rock",
+      "count": "1"
+    },
+    {
+      "name": "rock",
+      "count": "6"
+    },
+    {
+      "name": "synth-pop",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "is person",
+      "direction": "backward",
+      "target_name": "Farrokh Bulsara",
+      "target_mbid": "03aba063-42f7-47c6-9974-6a6ab24a0b53",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Queen",
+      "target_mbid": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+      "attributes": [
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1970",
+      "end": "1991-11-24"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Ibex",
+      "target_mbid": "99fb8de2-33cc-4e82-9e88-08aeb4e1e6da",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Wreckage",
+      "target_mbid": "993ea29c-cb1e-4c0f-94d0-c6bd4bd23a72",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Sour Milk Sea",
+      "target_mbid": "f25910c3-e986-406e-8b00-82ed581fcee5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000130028"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/022589ac-7177-460d-a178-9976cf70e29f"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/79949"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/4M1FpEWs2PeYfJe7xxJfhH"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/7870"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_performing_in_New_Haven,_CT,_November_1978.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0006198/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Freddie+Mercury"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-5967/freddie-mercury/lyrics.html"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/freddiemercuryonline"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.freddiemercury.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n92107142"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb138974149"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/11907575X"
+    },
+    {
+      "type": "other databases",
+      "target": "https://opac.kbr.be/LIBRARY/doc/AUTHORITY/14327214"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/freddie-mercury"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.idref.fr/073923109"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/3337"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/freddie_mercury"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/freddiemercury"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/freddiemercury/"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/9664"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/71578767"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q15869"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCjymketYSQefUpvDHpPB1_w"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "e179dc23-7db6-3506-a01c-ae70210134f0",
+      "title": "Mr. Bad Guy",
+      "type": "Album",
+      "first_release_date": "1985-04-29"
+    },
+    {
+      "id": "374dc3eb-0f97-3657-8fb2-b99489deb01d",
+      "title": "Barcelona",
+      "type": "Album",
+      "first_release_date": "1988-11-16"
+    },
+    {
+      "id": "d286cfc6-077b-388b-927b-6dadb5d9debb",
+      "title": "The Solo Collection",
+      "type": "Compilation",
+      "first_release_date": "2000-10-23"
+    },
+    {
+      "id": "4f064de4-ea57-4805-a1a0-083dc2c81485",
+      "title": "The Video Collection",
+      "type": "Compilation",
+      "first_release_date": "2000"
+    },
+    {
+      "id": "dd06c516-1ffa-358a-b1f1-fd334b06f368",
+      "title": "Lover of Life, Singer of Songs: The Very Best of Freddie Mercury Solo",
+      "type": "Compilation",
+      "first_release_date": "2006-09-04"
+    },
+    {
+      "id": "4922df88-7b75-4049-8bef-ca0c4516599f",
+      "title": "Messenger of the Gods: The Singles",
+      "type": "Compilation",
+      "first_release_date": "2016-09-02"
+    },
+    {
+      "id": "79920c49-c235-45e0-b3f3-78b2cf42903e",
+      "title": "Never Boring",
+      "type": "Compilation",
+      "first_release_date": "2019-10-11"
+    },
+    {
+      "id": "e05fe30d-54e3-31a9-9f80-755893d58ef4",
+      "title": "The Freddie Mercury Album",
+      "type": "Compilation",
+      "first_release_date": "1992-11-16"
+    },
+    {
+      "id": "86e7afd8-15c5-469e-beb2-584b56ca116e",
+      "title": "Zabou",
+      "type": "Soundtrack",
+      "first_release_date": "1987-03-05"
+    },
+    {
+      "id": "950abab3-be7a-3303-809e-9d85cbb541b4",
+      "title": "Remixes",
+      "type": "Remix",
+      "first_release_date": "1993"
+    },
+    {
+      "id": "a28d5952-acba-3334-a959-5e8e9c70af67",
+      "title": "The Very Best",
+      "type": "Compilation",
+      "first_release_date": "1994"
+    },
+    {
+      "id": "0c6da806-bdfe-3e64-88ed-74e778b6bfac",
+      "title": "Romantic Ballads",
+      "type": "Compilation",
+      "first_release_date": "1998"
+    },
+    {
+      "id": "a76ce03e-5dab-4d68-a0ba-63d60e1abc1f",
+      "title": "Mr. Bad Guy / Barcelona",
+      "type": "Compilation",
+      "first_release_date": "2000"
+    },
+    {
+      "id": "cdd19443-143d-4689-9afb-802f0b6dcca6",
+      "title": "Queen / The Great Pretender",
+      "type": "Compilation",
+      "first_release_date": "2000"
+    },
+    {
+      "id": "4b29f0b2-bfaa-3130-bed1-81ab6b98b9df",
+      "title": "Star Profile",
+      "type": "Compilation",
+      "first_release_date": "2000"
+    },
+    {
+      "id": "9f51e86f-1716-4ad4-a07a-c9bdbbfaf81e",
+      "title": "Original Version • Single Version • Rarities",
+      "type": "Compilation",
+      "first_release_date": "2018"
+    },
+    {
+      "id": "63462eef-fb56-4258-9abb-3e646c75b098",
+      "title": "In Memoriam",
+      "type": "Compilation",
+      "first_release_date": null
+    }
+  ],
+  "tracks": {
+    "e179dc23-7db6-3506-a01c-ae70210134f0": [
+      {
+        "id": "0c2ca3a9-c86f-4ad5-901e-7960bad27b29",
+        "title": "Let’s Turn It On",
+        "position": "1",
+        "length": "222573",
+        "work": {
+          "id": "830d6bbb-d516-40ae-bc4f-b3016d96bc82",
+          "title": "Let's Turn It On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "57546716-2df8-478c-a1e0-e39b1b0ad674",
+        "title": "Made in Heaven",
+        "position": "2",
+        "length": "246173",
+        "work": {
+          "id": "60fb97b0-b84e-317c-b8ed-7aae45453a26",
+          "title": "Made in Heaven",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d007b190-70d1-4d87-ae78-ea275ecb29ba",
+        "title": "I Was Born to Love You",
+        "position": "3",
+        "length": "219253",
+        "work": {
+          "id": "925a6718-568f-3e8b-b90f-4a278b4354cc",
+          "title": "I Was Born to Love You",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "df78785a-d236-45a9-b0bf-f2db12caaecf",
+        "title": "Foolin’ Around",
+        "position": "4",
+        "length": "209946",
+        "work": {
+          "id": "6d68f767-17c7-40c2-9aa4-eace24fb9edb",
+          "title": "Foolin’ Around",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "666cec37-eecc-48af-bc1b-8e43ea4ce725",
+        "title": "Your Kind of Lover",
+        "position": "5",
+        "length": "214640",
+        "work": {
+          "id": "0d26470c-ecc3-4132-a46f-b1bbac1371c5",
+          "title": "Your Kind of Lover",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ea92be36-7da3-4441-905c-12d92224e5f5",
+        "title": "Mr. Bad Guy",
+        "position": "6",
+        "length": "250093",
+        "work": {
+          "id": "2a4530e4-e785-4db2-8d8a-fcfb8663a81c",
+          "title": "Mr. Bad Guy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c024dc45-1a67-41eb-a0e9-43a688835e89",
+        "title": "Man Made Paradise",
+        "position": "7",
+        "length": "249466",
+        "work": {
+          "id": "35a52940-20d5-4a82-8ce9-c02222741dea",
+          "title": "Man Made Paradise",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3e890abb-4953-4ac1-baa1-faa12e359d1a",
+        "title": "There Must Be More to Life Than This",
+        "position": "8",
+        "length": "180960",
+        "work": {
+          "id": "d833c85f-9486-418e-a31f-ce96a4f087ff",
+          "title": "There Must Be More to Life Than This",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b195a061-1196-4eb3-82ae-f1b255e05b69",
+        "title": "Living on My Own",
+        "position": "9",
+        "length": "203493",
+        "work": {
+          "id": "38f7084b-d0a4-4fef-8da1-f3ef10cb9105",
+          "title": "Living on My Own",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3ab009ab-918c-432c-8bbd-bba5a75c9064",
+        "title": "My Love Is Dangerous",
+        "position": "10",
+        "length": "223226",
+        "work": {
+          "id": "6a020eb1-7482-403f-a0bb-634016a9478b",
+          "title": "My Love Is Dangerous",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c08ff642-1152-44c8-afb7-7cb33c0b36e3",
+        "title": "Love Me Like There’s No Tomorrow",
+        "position": "11",
+        "length": "227000",
+        "work": {
+          "id": "4ffb1539-06d2-4b37-a60d-8eaa4184a184",
+          "title": "Love Me Like There's No Tomorrow",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      }
+    ],
+    "374dc3eb-0f97-3657-8fb2-b99489deb01d": [
+      {
+        "id": "a0d9275e-37b1-4bce-98be-01addff8c79e",
+        "title": "Barcelona",
+        "position": "1",
+        "length": "339000",
+        "work": {
+          "id": "00936a08-8458-33f8-aa93-2ca6e9aa8069",
+          "title": "Barcelona",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c93a3f23-1c17-4995-86a6-54526a953092",
+        "title": "La Japonaise",
+        "position": "2",
+        "length": "289466",
+        "work": {
+          "id": "f6a82957-5adf-496b-a5d2-ab379d7cea9d",
+          "title": "La Japonaise",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b23354c5-779b-4602-8cb2-bd06fa6de801",
+        "title": "The Fallen Priest",
+        "position": "3",
+        "length": "346000",
+        "work": {
+          "id": "d82ecb62-07b9-3a2c-b42b-60b27b26c228",
+          "title": "The Fallen Priest",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b75d94d8-269d-4ebf-9468-8a25f5cc4f98",
+        "title": "Ensueño",
+        "position": "4",
+        "length": "261093",
+        "work": {
+          "id": "73ba04c4-220b-3d93-bb07-b89f4eddbde2",
+          "title": "Ensueño",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "40657373-92a2-476c-bfec-bd9bc44a6422",
+        "title": "The Golden Boy",
+        "position": "5",
+        "length": "364706",
+        "work": {
+          "id": "7fe96098-2107-3444-87ce-040c3891ec9d",
+          "title": "The Golden Boy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f8788ef0-5d60-4928-af2a-04e97429a8da",
+        "title": "Guide Me Home",
+        "position": "6",
+        "length": "169973",
+        "work": {
+          "id": "268eb407-bf0f-40c7-a09d-45a3ee647c6f",
+          "title": "Guide Me Home",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "59a06f37-74fd-4091-bed5-3760abe236c4",
+        "title": "How Can I Go On",
+        "position": "7",
+        "length": "231560",
+        "work": {
+          "id": "0667bee0-e474-4bb8-a25a-611abba9c4bc",
+          "title": "How Can I Go On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "88f99e05-c24d-407a-80dd-7d4b16b93e69",
+        "title": "Overture Piccante",
+        "position": "8",
+        "length": "399626",
+        "work": {
+          "id": "7601a4b2-d611-4c9c-bea5-e39a59a8d650",
+          "title": "Overture Piccante",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      }
+    ],
+    "d286cfc6-077b-388b-927b-6dadb5d9debb": [
+      {
+        "id": "0c2ca3a9-c86f-4ad5-901e-7960bad27b29",
+        "title": "Let’s Turn It On",
+        "position": "1",
+        "length": "222573",
+        "work": {
+          "id": "830d6bbb-d516-40ae-bc4f-b3016d96bc82",
+          "title": "Let's Turn It On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "57546716-2df8-478c-a1e0-e39b1b0ad674",
+        "title": "Made in Heaven",
+        "position": "2",
+        "length": "246173",
+        "work": {
+          "id": "60fb97b0-b84e-317c-b8ed-7aae45453a26",
+          "title": "Made in Heaven",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d007b190-70d1-4d87-ae78-ea275ecb29ba",
+        "title": "I Was Born to Love You",
+        "position": "3",
+        "length": "219253",
+        "work": {
+          "id": "925a6718-568f-3e8b-b90f-4a278b4354cc",
+          "title": "I Was Born to Love You",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "df78785a-d236-45a9-b0bf-f2db12caaecf",
+        "title": "Foolin’ Around",
+        "position": "4",
+        "length": "209946",
+        "work": {
+          "id": "6d68f767-17c7-40c2-9aa4-eace24fb9edb",
+          "title": "Foolin’ Around",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "666cec37-eecc-48af-bc1b-8e43ea4ce725",
+        "title": "Your Kind of Lover",
+        "position": "5",
+        "length": "214640",
+        "work": {
+          "id": "0d26470c-ecc3-4132-a46f-b1bbac1371c5",
+          "title": "Your Kind of Lover",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ea92be36-7da3-4441-905c-12d92224e5f5",
+        "title": "Mr. Bad Guy",
+        "position": "6",
+        "length": "250093",
+        "work": {
+          "id": "2a4530e4-e785-4db2-8d8a-fcfb8663a81c",
+          "title": "Mr. Bad Guy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c024dc45-1a67-41eb-a0e9-43a688835e89",
+        "title": "Man Made Paradise",
+        "position": "7",
+        "length": "249466",
+        "work": {
+          "id": "35a52940-20d5-4a82-8ce9-c02222741dea",
+          "title": "Man Made Paradise",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3e890abb-4953-4ac1-baa1-faa12e359d1a",
+        "title": "There Must Be More to Life Than This",
+        "position": "8",
+        "length": "180960",
+        "work": {
+          "id": "d833c85f-9486-418e-a31f-ce96a4f087ff",
+          "title": "There Must Be More to Life Than This",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b195a061-1196-4eb3-82ae-f1b255e05b69",
+        "title": "Living on My Own",
+        "position": "9",
+        "length": "203493",
+        "work": {
+          "id": "38f7084b-d0a4-4fef-8da1-f3ef10cb9105",
+          "title": "Living on My Own",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3ab009ab-918c-432c-8bbd-bba5a75c9064",
+        "title": "My Love Is Dangerous",
+        "position": "10",
+        "length": "223226",
+        "work": {
+          "id": "6a020eb1-7482-403f-a0bb-634016a9478b",
+          "title": "My Love Is Dangerous",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c08ff642-1152-44c8-afb7-7cb33c0b36e3",
+        "title": "Love Me Like There’s No Tomorrow",
+        "position": "11",
+        "length": "227000",
+        "work": {
+          "id": "4ffb1539-06d2-4b37-a60d-8eaa4184a184",
+          "title": "Love Me Like There's No Tomorrow",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a0d9275e-37b1-4bce-98be-01addff8c79e",
+        "title": "Barcelona",
+        "position": "1",
+        "length": "339000",
+        "work": {
+          "id": "00936a08-8458-33f8-aa93-2ca6e9aa8069",
+          "title": "Barcelona",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c93a3f23-1c17-4995-86a6-54526a953092",
+        "title": "La Japonaise",
+        "position": "2",
+        "length": "289466",
+        "work": {
+          "id": "f6a82957-5adf-496b-a5d2-ab379d7cea9d",
+          "title": "La Japonaise",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b23354c5-779b-4602-8cb2-bd06fa6de801",
+        "title": "The Fallen Priest",
+        "position": "3",
+        "length": "346000",
+        "work": {
+          "id": "d82ecb62-07b9-3a2c-b42b-60b27b26c228",
+          "title": "The Fallen Priest",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b75d94d8-269d-4ebf-9468-8a25f5cc4f98",
+        "title": "Ensueño",
+        "position": "4",
+        "length": "261093",
+        "work": {
+          "id": "73ba04c4-220b-3d93-bb07-b89f4eddbde2",
+          "title": "Ensueño",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "40657373-92a2-476c-bfec-bd9bc44a6422",
+        "title": "The Golden Boy",
+        "position": "5",
+        "length": "364706",
+        "work": {
+          "id": "7fe96098-2107-3444-87ce-040c3891ec9d",
+          "title": "The Golden Boy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f8788ef0-5d60-4928-af2a-04e97429a8da",
+        "title": "Guide Me Home",
+        "position": "6",
+        "length": "169973",
+        "work": {
+          "id": "268eb407-bf0f-40c7-a09d-45a3ee647c6f",
+          "title": "Guide Me Home",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "59a06f37-74fd-4091-bed5-3760abe236c4",
+        "title": "How Can I Go On",
+        "position": "7",
+        "length": "231560",
+        "work": {
+          "id": "0667bee0-e474-4bb8-a25a-611abba9c4bc",
+          "title": "How Can I Go On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "88f99e05-c24d-407a-80dd-7d4b16b93e69",
+        "title": "Overture Piccante",
+        "position": "8",
+        "length": "399626",
+        "work": {
+          "id": "7601a4b2-d611-4c9c-bea5-e39a59a8d650",
+          "title": "Overture Piccante",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b5e6c530-27c2-4450-a702-f49a69a36f7e",
+        "title": "The Great Pretender (Malouf mix)",
+        "position": "1",
+        "length": "219000",
+        "work": {
+          "id": "9d651c9d-99cf-3d8d-b80f-641512ccd1e1",
+          "title": "The Great Pretender",
+          "composers": [
+            {
+              "name": "Buck Ram",
+              "mbid": "10d9b154-7c29-4bed-93da-3ba5965ae918"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bacf501c-69a9-4007-a4b1-d6524921dd60",
+        "title": "Foolin’ Around (Steve Brown remix)",
+        "position": "2",
+        "length": "216533",
+        "work": {
+          "id": "6d68f767-17c7-40c2-9aa4-eace24fb9edb",
+          "title": "Foolin’ Around",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "82eabff6-7f07-4cdc-a995-76f1fe29ea5b",
+        "title": "Time (Nile Rodgers 1992 remix)",
+        "position": "3",
+        "length": "229600",
+        "work": {
+          "id": "f7f62a72-2bce-3652-be6c-27e8fd001b3e",
+          "title": "Time",
+          "composers": [
+            {
+              "name": "John Christie",
+              "mbid": "185bee29-6a8c-4c2b-9746-7ec9ce5ea7fc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bf33f2f9-d4d7-45ac-9644-8a6db9eab1ef",
+        "title": "Your Kind of Lover",
+        "position": "4",
+        "length": "239440",
+        "work": {
+          "id": "0d26470c-ecc3-4132-a46f-b1bbac1371c5",
+          "title": "Your Kind of Lover",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ec0a80cc-2918-41f4-9b2e-66628c4dca33",
+        "title": "Exercises in Free Love",
+        "position": "5",
+        "length": "238000",
+        "work": {
+          "id": "c99286c3-2108-4f6c-8058-ebf764b36b9b",
+          "title": "Exercises in Free Love",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7b9af2c0-096e-4105-9f0e-48fcda642a0d",
+        "title": "In My Defence (Ron Nevison remix)",
+        "position": "6",
+        "length": "232533",
+        "work": {
+          "id": "c7963fc7-4fc6-4b94-91c9-ab5fac853578",
+          "title": "In My Defence",
+          "composers": [
+            {
+              "name": "Jeff Daniels",
+              "mbid": "4446dcf5-0560-486f-aacd-c5e1f74c4396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7d614ec0-544f-4754-a7bc-ba9a56ca53c5",
+        "title": "Mr. Bad Guy (Brian Malouf remix)",
+        "position": "7",
+        "length": "241173",
+        "work": {
+          "id": "2a4530e4-e785-4db2-8d8a-fcfb8663a81c",
+          "title": "Mr. Bad Guy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "92f3853c-76ce-4b41-b4d5-d25e9757a15c",
+        "title": "Let’s Turn It On (Jeff Lord‐Alge remix)",
+        "position": "8",
+        "length": "225973",
+        "work": {
+          "id": "830d6bbb-d516-40ae-bc4f-b3016d96bc82",
+          "title": "Let's Turn It On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d8d2496e-0ffa-410d-a9e1-0463319de23d",
+        "title": "Living on My Own (Julian Raymond mix)",
+        "position": "9",
+        "length": "217200",
+        "work": {
+          "id": "38f7084b-d0a4-4fef-8da1-f3ef10cb9105",
+          "title": "Living on My Own",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "802a541b-2964-4f45-bcad-d0ae596e3c5e",
+        "title": "My Love Is Dangerous (Jeff Lord‐Alge remix)",
+        "position": "10",
+        "length": "220600",
+        "work": {
+          "id": "6a020eb1-7482-403f-a0bb-634016a9478b",
+          "title": "My Love Is Dangerous",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "871c52a4-9d8a-4665-9302-59b05d0f4022",
+        "title": "Love Kills (Richard Wolf remix)",
+        "position": "11",
+        "length": "208266",
+        "work": {
+          "id": "c391d8c2-cbc7-33df-a6ec-de583e822c19",
+          "title": "Love Kills",
+          "composers": []
+        }
+      },
+      {
+        "id": "e50da598-1c81-4698-b37a-6ddd3834e4f0",
+        "title": "I Can Hear Music",
+        "position": "1",
+        "length": "206000",
+        "work": {
+          "id": "f87ca150-2c38-31f3-95a1-c4bfc7957568",
+          "title": "I Can Hear Music",
+          "composers": [
+            {
+              "name": "Jeff Barry",
+              "mbid": "0e21491a-18a5-40d9-a68c-a651a0fda689"
+            },
+            {
+              "name": "Ellie Greenwich",
+              "mbid": "4c857e19-d9bb-460e-b3ec-2d1ea24c3247"
+            },
+            {
+              "name": "Phil Spector",
+              "mbid": "e7b587f7-e678-47c1-81dd-e7bb7855b0f9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b1fbbeda-195e-42ef-801f-9d42eb74d902",
+        "title": "Goin’ Back",
+        "position": "2",
+        "length": "214706",
+        "work": {
+          "id": "3135d904-ae48-3068-8ab3-03844d88c354",
+          "title": "Goin’ Back",
+          "composers": [
+            {
+              "name": "Carole King",
+              "mbid": "bf6c29f5-b69f-4842-9031-37f9645d365d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ac7ed112-f498-41ae-98ff-6f46eaa2ef9b",
+        "title": "Love Kills",
+        "position": "3",
+        "length": "269693",
+        "work": {
+          "id": "c391d8c2-cbc7-33df-a6ec-de583e822c19",
+          "title": "Love Kills",
+          "composers": []
+        }
+      },
+      {
+        "id": "960c1d63-41c1-4817-8f70-e5dd02e4aadd",
+        "title": "Love Kills (original 1984 extended version)",
+        "position": "4",
+        "length": "322760",
+        "work": {
+          "id": "c391d8c2-cbc7-33df-a6ec-de583e822c19",
+          "title": "Love Kills",
+          "composers": []
+        }
+      },
+      {
+        "id": "ad72a015-1d32-47f4-a7bd-3932db42bc1b",
+        "title": "I Was Born to Love You (original 1985 extended version)",
+        "position": "5",
+        "length": "426000",
+        "work": {
+          "id": "925a6718-568f-3e8b-b90f-4a278b4354cc",
+          "title": "I Was Born to Love You",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a1f6e3c3-4ea1-42f7-b561-4369007d7456",
+        "title": "Stop All the Fighting (1985 non‐album b‐side)",
+        "position": "6",
+        "length": "200026",
+        "work": {
+          "id": "4cd4ef42-baf9-4d63-ad5c-552a493d0774",
+          "title": "Stop All the Fighting",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "743f121c-524f-4e67-ac30-0281904b09b3",
+        "title": "Stop All the Fighting (1985 non‐album b‐side extended version)",
+        "position": "7",
+        "length": "397733",
+        "work": {
+          "id": "4cd4ef42-baf9-4d63-ad5c-552a493d0774",
+          "title": "Stop All the Fighting",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cc1a2812-a920-4d2c-a769-ff40a7843c19",
+        "title": "Made in Heaven (original 1985 extended version)",
+        "position": "8",
+        "length": "290533",
+        "work": {
+          "id": "60fb97b0-b84e-317c-b8ed-7aae45453a26",
+          "title": "Made in Heaven",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c18f2d99-078f-4dd2-b187-277e3858a533",
+        "title": "She Blows Hot & Cold (1985 non‐album b‐side)",
+        "position": "9",
+        "length": "207000",
+        "work": {
+          "id": "228a25c5-5180-4d9d-827f-4e8d8e62e4e9",
+          "title": "She Blows Hot & Cold",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c0a217f6-807a-4c18-897c-0b36c9e2dab9",
+        "title": "She Blows Hot & Cold (1985 non‐album b‐side extended version)",
+        "position": "10",
+        "length": "351360",
+        "work": {
+          "id": "228a25c5-5180-4d9d-827f-4e8d8e62e4e9",
+          "title": "She Blows Hot & Cold",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8090f092-09bb-4042-9362-dcfbcc9e8c87",
+        "title": "Living on My Own (original 1985 extended version)",
+        "position": "11",
+        "length": "399000",
+        "work": {
+          "id": "38f7084b-d0a4-4fef-8da1-f3ef10cb9105",
+          "title": "Living on My Own",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "32aae37f-7480-4737-ad37-17a715c4dc7d",
+        "title": "My Love Is Dangerous (original 1985 extended version)",
+        "position": "12",
+        "length": "389693",
+        "work": {
+          "id": "6a020eb1-7482-403f-a0bb-634016a9478b",
+          "title": "My Love Is Dangerous",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e735b063-233f-4106-971c-eb26f2bd9159",
+        "title": "Love Me Like There’s No Tomorrow (original 1985 extended version)",
+        "position": "13",
+        "length": "332000",
+        "work": {
+          "id": "4ffb1539-06d2-4b37-a60d-8eaa4184a184",
+          "title": "Love Me Like There's No Tomorrow",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d70cc492-aeb6-4f64-a863-390114dbbb59",
+        "title": "Let’s Turn It On (original 1985 extended version)",
+        "position": "14",
+        "length": "309000",
+        "work": {
+          "id": "830d6bbb-d516-40ae-bc4f-b3016d96bc82",
+          "title": "Let's Turn It On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1203d79c-4254-4cde-ab7d-62180075b650",
+        "title": "Time",
+        "position": "1",
+        "length": "241787",
+        "work": {
+          "id": "f7f62a72-2bce-3652-be6c-27e8fd001b3e",
+          "title": "Time",
+          "composers": [
+            {
+              "name": "John Christie",
+              "mbid": "185bee29-6a8c-4c2b-9746-7ec9ce5ea7fc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cae03439-cfe8-4130-ab9f-dde18512133b",
+        "title": "Time (original 1986 extended version)",
+        "position": "2",
+        "length": "277733",
+        "work": {
+          "id": "f7f62a72-2bce-3652-be6c-27e8fd001b3e",
+          "title": "Time",
+          "composers": [
+            {
+              "name": "John Christie",
+              "mbid": "185bee29-6a8c-4c2b-9746-7ec9ce5ea7fc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1126f175-b21c-497e-9e7d-5e9556b1482d",
+        "title": "Time (original 1986 instrumental version)",
+        "position": "3",
+        "length": "203293",
+        "work": {
+          "id": "f7f62a72-2bce-3652-be6c-27e8fd001b3e",
+          "title": "Time",
+          "composers": [
+            {
+              "name": "John Christie",
+              "mbid": "185bee29-6a8c-4c2b-9746-7ec9ce5ea7fc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "00ac11a1-a99d-40bb-a640-68f6c8f19a70",
+        "title": "In My Defence",
+        "position": "4",
+        "length": "234413",
+        "work": {
+          "id": "c7963fc7-4fc6-4b94-91c9-ab5fac853578",
+          "title": "In My Defence",
+          "composers": [
+            {
+              "name": "Jeff Daniels",
+              "mbid": "4446dcf5-0560-486f-aacd-c5e1f74c4396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f6b25638-ca02-4998-9846-8d7f3abc3dd3",
+        "title": "The Great Pretender",
+        "position": "5",
+        "length": "206000",
+        "work": {
+          "id": "9d651c9d-99cf-3d8d-b80f-641512ccd1e1",
+          "title": "The Great Pretender",
+          "composers": [
+            {
+              "name": "Buck Ram",
+              "mbid": "10d9b154-7c29-4bed-93da-3ba5965ae918"
+            }
+          ]
+        }
+      },
+      {
+        "id": "72e4626f-5603-4972-a1c9-0f1d699447bd",
+        "title": "The Great Pretender (original 1987 extended version)",
+        "position": "6",
+        "length": "354933",
+        "work": {
+          "id": "9d651c9d-99cf-3d8d-b80f-641512ccd1e1",
+          "title": "The Great Pretender",
+          "composers": [
+            {
+              "name": "Buck Ram",
+              "mbid": "10d9b154-7c29-4bed-93da-3ba5965ae918"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ec0a80cc-2918-41f4-9b2e-66628c4dca33",
+        "title": "Exercises in Free Love",
+        "position": "7",
+        "length": "238000",
+        "work": {
+          "id": "c99286c3-2108-4f6c-8058-ebf764b36b9b",
+          "title": "Exercises in Free Love",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ad640d42-67d1-4c91-8633-f9ebc7a36d38",
+        "title": "Barcelona",
+        "position": "8",
+        "length": "265440",
+        "work": {
+          "id": "00936a08-8458-33f8-aa93-2ca6e9aa8069",
+          "title": "Barcelona",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "57554427-2c44-4fa6-bccf-470557b6885f",
+        "title": "Barcelona (extended version)",
+        "position": "9",
+        "length": "425666",
+        "work": {
+          "id": "00936a08-8458-33f8-aa93-2ca6e9aa8069",
+          "title": "Barcelona",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5a86d74f-7ce3-4cc6-8d8e-78d88b07792b",
+        "title": "How Can I Go On (1989 single version)",
+        "position": "10",
+        "length": "242107",
+        "work": {
+          "id": "0667bee0-e474-4bb8-a25a-611abba9c4bc",
+          "title": "How Can I Go On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "07557214-1be1-4d5e-af26-9d11fd00c0af",
+        "title": "Living on My Own (No More Brothers extended mix)",
+        "position": "11",
+        "length": "316000",
+        "work": {
+          "id": "38f7084b-d0a4-4fef-8da1-f3ef10cb9105",
+          "title": "Living on My Own",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0c9d62d2-a1fd-4f10-945a-61c5ebb1e520",
+        "title": "Living on My Own",
+        "position": "12",
+        "length": "217280",
+        "work": {
+          "id": "38f7084b-d0a4-4fef-8da1-f3ef10cb9105",
+          "title": "Living on My Own",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3fc72b4b-32aa-4a5c-8c23-cef49eea7ddb",
+        "title": "Living on My Own (1993 club mix)",
+        "position": "13",
+        "length": "267533",
+        "work": {
+          "id": "38f7084b-d0a4-4fef-8da1-f3ef10cb9105",
+          "title": "Living on My Own",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ddd2ff9c-3089-4ab9-ada4-7ebb7bd6096c",
+        "title": "Living on My Own (1993 Underground Solutions mix)",
+        "position": "14",
+        "length": "346200",
+        "work": {
+          "id": "38f7084b-d0a4-4fef-8da1-f3ef10cb9105",
+          "title": "Living on My Own",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "41d15c86-11d3-48e6-9688-bf0b037c31b0",
+        "title": "Barcelona",
+        "position": "1",
+        "length": "267160",
+        "work": {
+          "id": "00936a08-8458-33f8-aa93-2ca6e9aa8069",
+          "title": "Barcelona",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "190173c9-5147-486a-9bba-1a87f03a6788",
+        "title": "La Japonaise",
+        "position": "2",
+        "length": "287333",
+        "work": {
+          "id": "f6a82957-5adf-496b-a5d2-ab379d7cea9d",
+          "title": "La Japonaise",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9525ab46-cfa7-40ba-8722-c93c3ff3fa29",
+        "title": "The Fallen Priest",
+        "position": "3",
+        "length": "350640",
+        "work": {
+          "id": "d82ecb62-07b9-3a2c-b42b-60b27b26c228",
+          "title": "The Fallen Priest",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "59c4762b-91fe-4b6d-a54d-6116df38fabd",
+        "title": "Ensueño",
+        "position": "4",
+        "length": "240733",
+        "work": {
+          "id": "73ba04c4-220b-3d93-bb07-b89f4eddbde2",
+          "title": "Ensueño",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "89f30d9e-ecb3-48fd-ba54-641a2cf45b83",
+        "title": "The Golden Boy",
+        "position": "5",
+        "length": "363000",
+        "work": {
+          "id": "7fe96098-2107-3444-87ce-040c3891ec9d",
+          "title": "The Golden Boy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f30b96ef-be2c-4a64-b76c-4e0a5bb73666",
+        "title": "Guide Me Home",
+        "position": "6",
+        "length": "158866",
+        "work": {
+          "id": "268eb407-bf0f-40c7-a09d-45a3ee647c6f",
+          "title": "Guide Me Home",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e5ee7ae5-917b-44df-a92f-ba918cd86757",
+        "title": "How Can I Go On",
+        "position": "7",
+        "length": "238000",
+        "work": {
+          "id": "0667bee0-e474-4bb8-a25a-611abba9c4bc",
+          "title": "How Can I Go On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "999b438d-e268-40e2-b194-36de23725492",
+        "title": "Love Me Like There’s No Tomorrow",
+        "position": "8",
+        "length": "243000",
+        "work": {
+          "id": "4ffb1539-06d2-4b37-a60d-8eaa4184a184",
+          "title": "Love Me Like There's No Tomorrow",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "02ed7364-7004-431d-925c-eb1e75c436cd",
+        "title": "Made in Heaven",
+        "position": "9",
+        "length": "257000",
+        "work": {
+          "id": "60fb97b0-b84e-317c-b8ed-7aae45453a26",
+          "title": "Made in Heaven",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "52423534-4b49-4561-aee3-34dfdb2c38b3",
+        "title": "Mr. Bad Guy",
+        "position": "10",
+        "length": "254800",
+        "work": {
+          "id": "2a4530e4-e785-4db2-8d8a-fcfb8663a81c",
+          "title": "Mr. Bad Guy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "07e2044b-4185-49e8-a0eb-d0337734a36f",
+        "title": "There Must Be More to Life Than This",
+        "position": "11",
+        "length": "187000",
+        "work": {
+          "id": "d833c85f-9486-418e-a31f-ce96a4f087ff",
+          "title": "There Must Be More to Life Than This",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "76dfe717-61e1-413b-bf03-7fb129fef4b3",
+        "title": "In My Defence",
+        "position": "12",
+        "length": "236000",
+        "work": {
+          "id": "c7963fc7-4fc6-4b94-91c9-ab5fac853578",
+          "title": "In My Defence",
+          "composers": [
+            {
+              "name": "Jeff Daniels",
+              "mbid": "4446dcf5-0560-486f-aacd-c5e1f74c4396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9a8f6c68-4853-438f-bfed-ffe1abd03605",
+        "title": "The Great Pretender",
+        "position": "13",
+        "length": "207000",
+        "work": {
+          "id": "9d651c9d-99cf-3d8d-b80f-641512ccd1e1",
+          "title": "The Great Pretender",
+          "composers": [
+            {
+              "name": "Buck Ram",
+              "mbid": "10d9b154-7c29-4bed-93da-3ba5965ae918"
+            }
+          ]
+        }
+      },
+      {
+        "id": "98c0e300-278c-4f04-bfbc-d0e6a2d2c4dd",
+        "title": "Let’s Turn It On (a cappella)",
+        "position": "1",
+        "length": "184200",
+        "work": {
+          "id": "830d6bbb-d516-40ae-bc4f-b3016d96bc82",
+          "title": "Let's Turn It On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "67ae7ea2-65ee-4739-878b-2a4211a84859",
+        "title": "Made in Heaven (alternative version)",
+        "position": "2",
+        "length": "267000",
+        "work": {
+          "id": "60fb97b0-b84e-317c-b8ed-7aae45453a26",
+          "title": "Made in Heaven",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6055db67-655c-4d83-a77b-dcee4d083f20",
+        "title": "I Was Born to Love You (vocal & piano version)",
+        "position": "3",
+        "length": "178533",
+        "work": {
+          "id": "925a6718-568f-3e8b-b90f-4a278b4354cc",
+          "title": "I Was Born to Love You",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6a0dbfd0-44a1-44d6-ae7d-7809f5a57945",
+        "title": "Foolin’ Around (early version)",
+        "position": "4",
+        "length": "255733",
+        "work": {
+          "id": "6d68f767-17c7-40c2-9aa4-eace24fb9edb",
+          "title": "Foolin’ Around",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e71d692e-f386-4410-8ad7-e9bdfb336e43",
+        "title": "Foolin’ Around (original 1985 unreleased 12\" mix)",
+        "position": "5",
+        "length": "338000",
+        "work": {
+          "id": "6d68f767-17c7-40c2-9aa4-eace24fb9edb",
+          "title": "Foolin’ Around",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f34fb72e-5491-4f05-8c35-88e0abf15026",
+        "title": "Foolin’ Around (instrumental)",
+        "position": "6",
+        "length": "220000",
+        "work": {
+          "id": "6d68f767-17c7-40c2-9aa4-eace24fb9edb",
+          "title": "Foolin’ Around",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2d063f1b-f94d-45b5-97c8-e8a66df45291",
+        "title": "Your Kind of Lover (early version)",
+        "position": "7",
+        "length": "287493",
+        "work": {
+          "id": "0d26470c-ecc3-4132-a46f-b1bbac1371c5",
+          "title": "Your Kind of Lover",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "980bc303-6258-40c0-abb5-156adb2fd3b4",
+        "title": "Your Kind of Lover (vocal & piano version)",
+        "position": "8",
+        "length": "218413",
+        "work": {
+          "id": "0d26470c-ecc3-4132-a46f-b1bbac1371c5",
+          "title": "Your Kind of Lover",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1409fd6a-89bd-4c3a-ad92-222a68646ed2",
+        "title": "Mr. Bad Guy (orchestra out‐takes)",
+        "position": "9",
+        "length": "36133",
+        "work": {
+          "id": "2a4530e4-e785-4db2-8d8a-fcfb8663a81c",
+          "title": "Mr. Bad Guy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "eb9a6789-1bf8-4bd4-8e49-6f375c74b3bc",
+        "title": "Mr. Bad Guy (early version)",
+        "position": "10",
+        "length": "209000",
+        "work": {
+          "id": "2a4530e4-e785-4db2-8d8a-fcfb8663a81c",
+          "title": "Mr. Bad Guy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9bd9c5af-571f-461d-aab2-72c403c5971a",
+        "title": "There Must Be More to Life Than This (piano out‐takes)",
+        "position": "11",
+        "length": "168960",
+        "work": {
+          "id": "d833c85f-9486-418e-a31f-ce96a4f087ff",
+          "title": "There Must Be More to Life Than This",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "365e8d02-f2cd-4bbc-8d47-29e3bf68da06",
+        "title": "Living on My Own (hybrid edit: early/later versions)",
+        "position": "12",
+        "length": "270266",
+        "work": {
+          "id": "38f7084b-d0a4-4fef-8da1-f3ef10cb9105",
+          "title": "Living on My Own",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1facca49-02ec-4e69-b4ce-fce00b5925c0",
+        "title": "Love Is Dangerous (early version)",
+        "position": "13",
+        "length": "132773",
+        "work": {
+          "id": "6a020eb1-7482-403f-a0bb-634016a9478b",
+          "title": "My Love Is Dangerous",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f0198f79-afac-403f-aa86-43545d268404",
+        "title": "Love Me Like There’s No Tomorrow (early version)",
+        "position": "14",
+        "length": "138560",
+        "work": {
+          "id": "4ffb1539-06d2-4b37-a60d-8eaa4184a184",
+          "title": "Love Me Like There's No Tomorrow",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0a68baa6-55b1-40d3-a553-b3d95e389ee9",
+        "title": "Love Me Like There’s No Tomorrow (2nd early version: extract)",
+        "position": "15",
+        "length": "64200",
+        "work": {
+          "id": "4ffb1539-06d2-4b37-a60d-8eaa4184a184",
+          "title": "Love Me Like There's No Tomorrow",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d500db3e-4855-42fa-9dd1-643babfd4390",
+        "title": "Love Me Like There’s No Tomorrow (3rd early version)",
+        "position": "16",
+        "length": "206933",
+        "work": {
+          "id": "4ffb1539-06d2-4b37-a60d-8eaa4184a184",
+          "title": "Love Me Like There's No Tomorrow",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "460a9b1f-aefc-4d3f-93a9-940a3aacc25f",
+        "title": "Love Me Like There’s No Tomorrow (live take)",
+        "position": "17",
+        "length": "262906",
+        "work": {
+          "id": "4ffb1539-06d2-4b37-a60d-8eaa4184a184",
+          "title": "Love Me Like There's No Tomorrow",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f87ddfc9-a882-414f-9c8a-9b410d6afa10",
+        "title": "She Blows Hot & Cold (alternative version) (feat. Brian May)",
+        "position": "18",
+        "length": "276000",
+        "work": {
+          "id": "228a25c5-5180-4d9d-827f-4e8d8e62e4e9",
+          "title": "She Blows Hot & Cold",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2c954160-e451-4328-85e9-63b37b08a8cd",
+        "title": "Gazelle (demo)",
+        "position": "19",
+        "length": "81266",
+        "work": {
+          "id": "214c5d35-1772-4be9-b6bb-e1661984c54a",
+          "title": "Gazelle",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4d7bcf6d-c253-4602-aa08-17899181686c",
+        "title": "Money Can’t Buy Happiness (demo)",
+        "position": "20",
+        "length": "157000",
+        "work": {
+          "id": "4a87a31f-6380-45b7-911b-93fc28863d45",
+          "title": "Money Can't Buy Happiness",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ea1f5da9-cf99-4b07-8c27-d13c456b7c52",
+        "title": "Love Makin’ Love (demo)",
+        "position": "21",
+        "length": "218026",
+        "work": {
+          "id": "3770d5ca-9e1f-4fb5-885c-26054e30f643",
+          "title": "Love Makin' Love",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "af761d56-af86-4d1d-ba03-955d808434a1",
+        "title": "God Is Heavy (demo)",
+        "position": "22",
+        "length": "83266",
+        "work": {
+          "id": "006ee3af-39ea-44e5-a7b7-3b3f14265bc2",
+          "title": "God Is Heavy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed26c4b1-1fa1-41e2-8931-9bf0682d1690",
+        "title": "New York (demo)",
+        "position": "23",
+        "length": "133066",
+        "work": {
+          "id": "11c5ea20-2483-497e-940a-b970f53866c6",
+          "title": "New York",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dcbd8fbe-200c-436c-81f7-f7780d4f5ec8",
+        "title": "The Duet (The Fallen Priest) (extract from Garden Lodge tape)",
+        "position": "1",
+        "length": "184560",
+        "work": {
+          "id": "d82ecb62-07b9-3a2c-b42b-60b27b26c228",
+          "title": "The Fallen Priest",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "01feb972-f8f6-4da0-ba13-8855037ffeff",
+        "title": "Idea (Barcelona) (extract from Garden Lodge tape)",
+        "position": "2",
+        "length": "73333",
+        "work": {
+          "id": "00936a08-8458-33f8-aa93-2ca6e9aa8069",
+          "title": "Barcelona",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "707cdca3-76f6-4b6b-a7a4-85d8f488a478",
+        "title": "Idea (Barcelona) (2nd extract from Garden Lodge tape)",
+        "position": "3",
+        "length": "65373",
+        "work": {
+          "id": "00936a08-8458-33f8-aa93-2ca6e9aa8069",
+          "title": "Barcelona",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0f631d4b-0364-4b69-9fa1-987a9c9dba16",
+        "title": "Barcelona (early version: Freddie’s demo vocal)",
+        "position": "4",
+        "length": "261000",
+        "work": {
+          "id": "00936a08-8458-33f8-aa93-2ca6e9aa8069",
+          "title": "Barcelona",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d3fe2cf8-8f4b-4f0a-b80e-32a21f103123",
+        "title": "Barcelona (Freddie’s vocal slave)",
+        "position": "5",
+        "length": "271840",
+        "work": {
+          "id": "00936a08-8458-33f8-aa93-2ca6e9aa8069",
+          "title": "Barcelona",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4dc2359d-59e0-492e-be02-cb12aa38942f",
+        "title": "Barcelona (later version: Freddie’s vocal only)",
+        "position": "6",
+        "length": "266626",
+        "work": {
+          "id": "00936a08-8458-33f8-aa93-2ca6e9aa8069",
+          "title": "Barcelona",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ccfebbe0-b346-4748-8dff-c2c8e246db02",
+        "title": "La Japonaise (early version: Freddie’s demo vocal)",
+        "position": "7",
+        "length": "281000",
+        "work": {
+          "id": "f6a82957-5adf-496b-a5d2-ab379d7cea9d",
+          "title": "La Japonaise",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "73b9ad7c-24d1-4118-a98b-3bec3267062d",
+        "title": "La Japonaise (a cappella)",
+        "position": "8",
+        "length": "258133",
+        "work": {
+          "id": "f6a82957-5adf-496b-a5d2-ab379d7cea9d",
+          "title": "La Japonaise",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e620d166-0401-4f2d-bac0-7cdcde8e2899",
+        "title": "Rachmaninov’s Revenge (The Fallen Priest) (early version)",
+        "position": "9",
+        "length": "287200",
+        "work": {
+          "id": "d82ecb62-07b9-3a2c-b42b-60b27b26c228",
+          "title": "The Fallen Priest",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8faeec4f-21ec-498d-8f09-3681206676c6",
+        "title": "Rachmaninov’s Revenge (The Fallen Priest) (later version: Freddie’s demo vocal)",
+        "position": "10",
+        "length": "351000",
+        "work": {
+          "id": "d82ecb62-07b9-3a2c-b42b-60b27b26c228",
+          "title": "The Fallen Priest",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1abd7dd4-b7a2-4e38-9f5a-dfbe879773f6",
+        "title": "Ensueño (Montserrat’s live takes)",
+        "position": "11",
+        "length": "336000",
+        "work": {
+          "id": "73ba04c4-220b-3d93-bb07-b89f4eddbde2",
+          "title": "Ensueño",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5b72b358-77f4-41a0-ab89-532f81fab940",
+        "title": "The Golden Boy (early version: Freddie’s demo vocal)",
+        "position": "12",
+        "length": "234000",
+        "work": {
+          "id": "7fe96098-2107-3444-87ce-040c3891ec9d",
+          "title": "The Golden Boy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "aef58872-c5fc-45e5-9506-f8043ff0e5f7",
+        "title": "The Golden Boy (2nd early version: extract)",
+        "position": "13",
+        "length": "177466",
+        "work": {
+          "id": "7fe96098-2107-3444-87ce-040c3891ec9d",
+          "title": "The Golden Boy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5cf9e7a1-66e9-47bf-b932-f0ed60941aaa",
+        "title": "The Golden Boy (a cappella featuring gospel choir)",
+        "position": "14",
+        "length": "312933",
+        "work": {
+          "id": "7fe96098-2107-3444-87ce-040c3891ec9d",
+          "title": "The Golden Boy",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cc5188b5-3d2d-4890-8686-070a5e5db7bb",
+        "title": "Guide Me Home / How Can I Go On",
+        "position": "15",
+        "length": "413933",
+        "work": {
+          "id": "268eb407-bf0f-40c7-a09d-45a3ee647c6f",
+          "title": "Guide Me Home",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "296bff43-57f9-454b-b181-cb6a7f977fcf",
+        "title": "How Can I Go On (out‐take: extract)",
+        "position": "16",
+        "length": "91760",
+        "work": {
+          "id": "0667bee0-e474-4bb8-a25a-611abba9c4bc",
+          "title": "How Can I Go On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "326e3745-a80c-47a2-8552-308dc339829a",
+        "title": "How Can I Go On (alternative piano version)",
+        "position": "17",
+        "length": "224000",
+        "work": {
+          "id": "0667bee0-e474-4bb8-a25a-611abba9c4bc",
+          "title": "How Can I Go On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1a0e1adf-1d22-43d1-b504-e8a6e132e300",
+        "title": "When This Old Tired Body Wants to Sing (late night jam)",
+        "position": "18",
+        "length": "162840",
+        "work": {
+          "id": "e5ede44a-73d5-48e2-b313-44c0e26d1c7e",
+          "title": "When This Old Tired Body Wants to Sing",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d54515df-7aab-4b17-817b-b836fe90e585",
+        "title": "Rain (live 1969)",
+        "position": "1",
+        "length": "232400",
+        "work": {
+          "id": "65473dda-bff0-38f6-bbad-43b622f8380c",
+          "title": "Rain",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        }
+      },
+      {
+        "id": "79ff8f97-630a-4f8e-b8ee-9a9c65272872",
+        "title": "Green (rehearsal 1969)",
+        "position": "2",
+        "length": "195933",
+        "work": {
+          "id": "ed610998-03fb-4639-925b-4d31d22477fb",
+          "title": "Green",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e15cf844-7526-4e2a-a285-e752a610da8a",
+        "title": "The Man From Manhattan (original)",
+        "position": "3",
+        "length": "201160",
+        "work": {
+          "id": "daec6d90-8e40-391b-a024-fc0b2ceb0631",
+          "title": "The Man From Manhattan",
+          "composers": [
+            {
+              "name": "Eddie Howell",
+              "mbid": "57b7eeb2-6c27-4fd1-8497-4190bdfec996"
+            }
+          ]
+        }
+      },
+      {
+        "id": "704c35df-b186-4545-8116-3df2fd3c249b",
+        "title": "Love Is the Hero (12\" version)",
+        "position": "4",
+        "length": "322000",
+        "work": {
+          "id": "a00221bc-7556-42f6-bf05-8b1e208d1f98",
+          "title": "Love Is the Hero",
+          "composers": [
+            {
+              "name": "Billy Squier",
+              "mbid": "3792dcb3-036e-45d6-8ee2-ff8d12c6c6c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3a8f2d08-d34f-4ed7-96e4-4b02aec2a7ba",
+        "title": "Lady With a Tenor Sax (work in progress 1986)",
+        "position": "5",
+        "length": "242000",
+        "work": {
+          "id": "fefcce89-7ade-3687-a010-b8f972fcc6a2",
+          "title": "Lady With a Tenor Sax",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Billy Squier",
+              "mbid": "3792dcb3-036e-45d6-8ee2-ff8d12c6c6c9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f701f05c-3851-465b-8d89-ba7dce9a861c",
+        "title": "Hold On",
+        "position": "6",
+        "length": "219000",
+        "work": {
+          "id": "2f4fdebc-8700-4396-8b5b-f0aceb75ccf4",
+          "title": "Hold On",
+          "composers": [
+            {
+              "name": "Mack",
+              "mbid": "bf2618fc-0c53-447d-9527-c7eb9c6cb001"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b3ae48e1-edc6-4d5c-819c-21d2bda31c70",
+        "title": "Heaven for Everyone",
+        "position": "7",
+        "length": "294000",
+        "work": {
+          "id": "c7fc3a94-a801-3fea-9001-f229feeefebb",
+          "title": "Heaven for Everyone",
+          "composers": [
+            {
+              "name": "Roger Taylor",
+              "mbid": "558302b1-07ae-4be1-9edb-2a2b1f036313"
+            }
+          ]
+        }
+      },
+      {
+        "id": "277d0d37-2c8e-4001-9182-763b7ea518e8",
+        "title": "Love Kills (Rock mix)",
+        "position": "8",
+        "length": "267533",
+        "work": {
+          "id": "c391d8c2-cbc7-33df-a6ec-de583e822c19",
+          "title": "Love Kills",
+          "composers": []
+        }
+      },
+      {
+        "id": "62e1d2b0-986a-4763-9c07-c3d6540d21bc",
+        "title": "Love Kills (instrumental)",
+        "position": "9",
+        "length": "266000",
+        "work": {
+          "id": "c391d8c2-cbc7-33df-a6ec-de583e822c19",
+          "title": "Love Kills",
+          "composers": []
+        }
+      },
+      {
+        "id": "8ae73d9f-9c9d-4ca4-a7fa-0f5fb24f9359",
+        "title": "The Great Pretender (original demo)",
+        "position": "10",
+        "length": "185200",
+        "work": {
+          "id": "9d651c9d-99cf-3d8d-b80f-641512ccd1e1",
+          "title": "The Great Pretender",
+          "composers": [
+            {
+              "name": "Buck Ram",
+              "mbid": "10d9b154-7c29-4bed-93da-3ba5965ae918"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dbb78b63-1efa-4b7f-8139-934d194ffd73",
+        "title": "Holding On (demo)",
+        "position": "11",
+        "length": "252626",
+        "work": {
+          "id": "e09d0d02-659c-4390-9191-a263823c3ada",
+          "title": "Holding On",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3126c209-b59e-4e66-8d4e-717bb17d3243",
+        "title": "It’s So You (demo)",
+        "position": "12",
+        "length": "160706",
+        "work": {
+          "id": "bf8fc0b4-8037-4b12-baef-912a1aa17f3e",
+          "title": "It's So You",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "54933ed5-f40f-4d98-9f44-abc1e364ad71",
+        "title": "I Can’t Dance / Keep Smilin’ (demo)",
+        "position": "13",
+        "length": "223893",
+        "work": {
+          "id": "b0b0f3e0-bcc5-4dda-8b58-60ba942e1325",
+          "title": "I Can't Dance / Keep Smilin'",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bd08f5e2-9144-4ebb-8f51-82d2bb93ca0a",
+        "title": "Horns of Doom (demo)",
+        "position": "14",
+        "length": "257000",
+        "work": {
+          "id": "9129dfd1-ebd2-45bc-a1c1-3f27494c171d",
+          "title": "Horns of Doom",
+          "composers": [
+            {
+              "name": "David Richards",
+              "mbid": "afb2230e-4462-4eb6-aa5c-acc46417ab32"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c257e6be-a585-4618-bd68-068a8381c16e",
+        "title": "Yellow Breezes (demo)",
+        "position": "15",
+        "length": "326360",
+        "work": {
+          "id": "bfc750b7-7feb-48b7-b1f9-d84a116b4235",
+          "title": "Yellow Breezes",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a82de6f0-3a22-47e1-aaa5-fcf74595d2bc",
+        "title": "Have a Nice Day (fan club message)",
+        "position": "16",
+        "length": "45933",
+        "work": {
+          "id": "2f50b109-d5ff-42cf-a0d3-940e63517ab6",
+          "title": "Have a Nice Day",
+          "composers": [
+            {
+              "name": "Freddie Mercury",
+              "mbid": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            {
+              "name": "Mike Moran",
+              "mbid": "b5859eea-e825-4a6c-9272-f3fada390345"
+            }
+          ]
+        }
+      },
+      {
+        "id": "991eada6-7404-4c31-ba8d-8ba6dd4ea32e",
+        "title": "1979, London: The Crazy Tour",
+        "position": "1",
+        "length": "492293",
+        "work": null
+      },
+      {
+        "id": "4d0c338b-63ff-4f18-82f7-c65edf50c10e",
+        "title": "1984, Munich: The Works Tour",
+        "position": "2",
+        "length": "687840",
+        "work": null
+      },
+      {
+        "id": "ff94851f-e137-4f30-b7fc-c2ba7285ea8f",
+        "title": "1984, Munich: The Works Tour, Part 2: Going Solo",
+        "position": "3",
+        "length": "458400",
+        "work": null
+      },
+      {
+        "id": "b779d7ef-06f7-45d8-847d-8ed4536e2e51",
+        "title": "1985, Wembley, London: Week of Live Aid",
+        "position": "4",
+        "length": "405866",
+        "work": null
+      },
+      {
+        "id": "ba60eba4-25d9-42cf-be31-5586b5da7e9f",
+        "title": "1986, London: Tha Magic Tour",
+        "position": "5",
+        "length": "635866",
+        "work": null
+      },
+      {
+        "id": "7a0543f4-63e9-4f7d-8a5a-8026ebd81df5",
+        "title": "1987, Ibiza: Freddie’s 41st Birthday",
+        "position": "6",
+        "length": "596626",
+        "work": null
+      },
+      {
+        "id": "1eecc46e-dfcf-480d-96bd-caa9884086ce",
+        "title": "1987, Ibiza: 41st Birthday, Part 2: Montserrat Caballé",
+        "position": "7",
+        "length": "502266",
+        "work": null
+      },
+      {
+        "id": "b615b91b-7b5c-493d-bb11-aff926d36f6d",
+        "title": "1987, Ibiza: 41st Birthday, Part 3: The Great Pretender",
+        "position": "8",
+        "length": "626666",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 79949,
+  "wikidata_id": "Q15869"
+}

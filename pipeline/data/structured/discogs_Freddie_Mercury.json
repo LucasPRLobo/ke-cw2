@@ -1,0 +1,59 @@
+{
+  "id": 79949,
+  "name": "Freddie Mercury",
+  "realname": "Farrokh Bulsara (Gujarati: ફરોખ બલ્સારા‌ = Pharōkh Balsārā‌)",
+  "profile": "Best known as lead singer of popular British rock group [a=Queen]. Born 5 September 1946 in Stone Town, Zanzibar, died 24 November 1991 in Kensington, London, UK. \r\n\r\nBorn as Farrokh Pluto Bulsara to Parsi parents Bomi and Jer Bulsara, he attended St. Peter's boarding school near Bombay and formed his first school band (\"The Hectics\") where he played piano.\r\nAt age 17 the Bulsara family fled to England during the Zanzibar revolution and Freddie (as he began calling himself) took up studies in art design. He also formed a band called \"Ibex\" (later renamed to \"Wreckage\") but they failed to take off. Soon after he joined another band called \"Sour Milk Sea\" but it also disbanded. \r\n\r\nIn 1970 he met [a=Brian May] and [a=Roger Taylor] who at the time were going under the name [url=http://www.discogs.com/artist/Smile+(6)]Smile[/url]. Quickly taking full charge, he changed the name to \"[a=Queen]\", and with his art design education designed the band's logo. It was also around this time that he changed his name to Frederick Mercury by deed poll.\r\n\r\nAs flamboyant a performer he was on stage, Mr. Mercury was equally adept at songwriting; it was his \"Bohemian Rhapsody\" that propelled the band to superstardom.\r\n\r\nBetween the late 1970's and early 1980's, Freddie took a break from the band to pursue a solo career, spending much time in Munich and New York. In 1987 he was diagnosed with HIV. Despite his illness he still recorded with Queen to finish one last album (\"[r=889990]\") and his last recorded song, \"Mother Love\" (which was to appear on the posthumous \"[r=1383329]\" album). As the disease took hold, public appearances and subsequent videos revealed a very thin Freddie -- yet he insisted on keeping his illness a secret. \r\n\r\nOn 24 November 1991, he died in his Kensington home, one day after announcing his illness, aged 45.\r\n",
+  "members": [],
+  "groups": [
+    {
+      "name": "Queen",
+      "id": 81013,
+      "active": false
+    },
+    {
+      "name": "Ibex (4)",
+      "id": 193922,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Electronic",
+    "Pop",
+    "Rock",
+    "Stage & Screen"
+  ],
+  "styles": [
+    "Pop Rock",
+    "Synth-pop"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Pop",
+      "style": "Synth-pop"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Synth-pop"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Synth-pop"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Synth-pop"
+    },
+    {
+      "genre": "Pop",
+      "style": "Synth-pop"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Pop Rock"
+    }
+  ]
+}

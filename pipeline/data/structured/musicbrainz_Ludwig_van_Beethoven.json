@@ -1,0 +1,1151 @@
+{
+  "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9",
+  "name": "Ludwig van Beethoven",
+  "type": "Person",
+  "country": "DE",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1770-12-17",
+    "end": "1827-03-26",
+    "ended": "true"
+  },
+  "area": "Germany",
+  "begin_area": "Bonn",
+  "tags": [
+    {
+      "name": "32 sonatas",
+      "count": "1"
+    },
+    {
+      "name": "beethoven gardiner",
+      "count": "1"
+    },
+    {
+      "name": "classical",
+      "count": "25"
+    },
+    {
+      "name": "classical period",
+      "count": "3"
+    },
+    {
+      "name": "complete",
+      "count": "1"
+    },
+    {
+      "name": "composer",
+      "count": "15"
+    },
+    {
+      "name": "concerto",
+      "count": "2"
+    },
+    {
+      "name": "european",
+      "count": "4"
+    },
+    {
+      "name": "german",
+      "count": "14"
+    },
+    {
+      "name": "german composer",
+      "count": "4"
+    },
+    {
+      "name": "klavierwerke",
+      "count": "1"
+    },
+    {
+      "name": "mass",
+      "count": "1"
+    },
+    {
+      "name": "masterworks",
+      "count": "1"
+    },
+    {
+      "name": "opera",
+      "count": "3"
+    },
+    {
+      "name": "orchestral",
+      "count": "1"
+    },
+    {
+      "name": "organ",
+      "count": "1"
+    },
+    {
+      "name": "pianist",
+      "count": "6"
+    },
+    {
+      "name": "piano",
+      "count": "5"
+    },
+    {
+      "name": "romantic",
+      "count": "4"
+    },
+    {
+      "name": "romantic classical",
+      "count": "7"
+    },
+    {
+      "name": "sonata",
+      "count": "3"
+    },
+    {
+      "name": "stephen kovacevich* - beethovestephen kovacevich plays beethoven",
+      "count": "2"
+    },
+    {
+      "name": "symphony",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Ludwig Göransson",
+      "target_mbid": "78471616-3cb4-4139-a148-aeac3c7d0f79",
+      "attributes": [],
+      "begin": "1984-09-01",
+      "end": "1984-09-01"
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Kaspar Anton Karl van Beethoven",
+      "target_mbid": "74bd4ff0-8809-4f3e-8eed-58f422e14cb6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Johann Baptist Schenk",
+      "target_mbid": "30c3d939-c2e3-4993-8b06-ce1a9c27359c",
+      "attributes": [],
+      "begin": "1793",
+      "end": "1793"
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Babetta",
+      "target_mbid": "d7b8eb33-1f63-49d3-b25e-78337c14fc22",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Carl Czerny",
+      "target_mbid": "fb1c27b3-a54c-4c23-b554-9e989a955b39",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Christian Gottlob Neefe",
+      "target_mbid": "c9fb68ad-a664-4310-bb62-b819c284ab44",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Johann Georg Albrechtsberger",
+      "target_mbid": "879fccb4-44e2-4865-9eed-1f4163557c33",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Ferdinand Ries",
+      "target_mbid": "ba4a674d-57f0-440b-82f9-798965c05dd9",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Archduke Rudolph of Austria",
+      "target_mbid": "3b67158b-56a6-42f1-9fe5-c86b9d75b352",
+      "attributes": [
+        "composition",
+        "piano"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "forward",
+      "target_name": "Dorothea von Ertmann",
+      "target_mbid": "23efc700-8a73-4dbb-8bb9-6f3a2436b57b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Joseph Haydn",
+      "target_mbid": "c130b0fb-5dce-449d-9f40-1437f889f7fe",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000536126"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/1f9df192-a621-4f54-8850-2c5373b7eac9"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.pbs.org/wnet/gperf/education/beethoven.html"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/95544"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/1xND0lwT99g4IFt68TmAnK"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/2wOqMjp9TyABvtHdOSOTUS"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/6ZQrDf2Zo1jsciljDpJvc3"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/6144"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Beethoven.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0002727/"
+    },
+    {
+      "type": "IMSLP",
+      "target": "https://imslp.org/wiki/Category:Beethoven,_Ludwig_van"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Ludwig+van+Beethoven"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-6434/ludwig-van-beethoven/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Ludwig-van-beethoven"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/Ludwig-van-Beethoven"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n79107741"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Composition/Composers/B/Beethoven,_Ludwig_van/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://adp.library.ucsb.edu/names/102527"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb138912954"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118508288"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6fn14dt"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-791482"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL127077A"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/1186/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/ludwig_van_beethoven"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rism.online/people/11035"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/classical/composer/beethoven-ludwig-van"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.animenewsnetwork.com/encyclopedia/people.php?id=68279"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.ibdb.com/person.php?id=11364"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/ludwig-van-beethoven/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000235994/CLASSICAL/COMPOSER/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n79107741"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id1130028"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.prestomusic.com/classical/composers/143--beethoven"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.qobuz.com/us-en/interpreter/-/38"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000AP1SR4"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/6529"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/pages/Beethoven/110664992295466?rf=112492528765959"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/ludwigvanbeethovenofficial"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.de/artists/B001PU98CU"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/de/artist/1130028"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/23858459"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/54962105"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/57386"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/1663"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/32182557"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q255"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCnsAooIr-Dsr8zJOCSadQcA"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "c1c1cb09-4917-4e51-9ce9-d24eb648d9cd",
+      "title": "Kreutzer Sonata",
+      "type": "Album",
+      "first_release_date": "1918"
+    },
+    {
+      "id": "aac3b586-52b8-4f84-9ce0-67748a9c30c3",
+      "title": "Missa solemnis, op. 123",
+      "type": "Album",
+      "first_release_date": "1928"
+    },
+    {
+      "id": "5295feb6-a177-4710-8632-81dd28b5e4fe",
+      "title": "Piano Concerto no. 5 in E‐flat “Emperor”",
+      "type": "Album",
+      "first_release_date": "1941"
+    },
+    {
+      "id": "e329a60d-08b0-4455-b2e0-a7d5e93d5d69",
+      "title": "Beethoven: Symphony no. 9 in D minor, op. 125 (“Choral”) / Brahms: Song of Destiny, op. 54 (Schicksalslied)",
+      "type": "Album",
+      "first_release_date": "1949"
+    },
+    {
+      "id": "2f3dc44c-0d8a-4f32-8af6-da2fda13901b",
+      "title": "Fidelio",
+      "type": "Album",
+      "first_release_date": "1950"
+    },
+    {
+      "id": "f79b0f87-b11e-4736-b215-9edb79830d35",
+      "title": "Symphonie N° 7 / Ouverture \"Coriolan\"",
+      "type": "Album",
+      "first_release_date": "1951"
+    },
+    {
+      "id": "92c1856d-d1aa-4266-a71c-9d9dc256f5f2",
+      "title": "Piano Concert no. 5 “Emperor”",
+      "type": "Album",
+      "first_release_date": "1952-10"
+    },
+    {
+      "id": "67bbab07-1592-4381-b096-b83e22289260",
+      "title": "Symphony no. 5 in C minor",
+      "type": "Album",
+      "first_release_date": "1952-10"
+    },
+    {
+      "id": "1b87d1c3-3d45-4652-a1f7-b21664a04448",
+      "title": "Symphonie Nr. 3 in Es-Dur op. 55 (Eroica)",
+      "type": "Album",
+      "first_release_date": "1952"
+    },
+    {
+      "id": "de27f599-77c1-433e-bb5a-f57550f9887d",
+      "title": "Symphony no. 7",
+      "type": "Album",
+      "first_release_date": "1953-02"
+    },
+    {
+      "id": "74d03cbb-2d6d-4645-a414-ed0bd2c9cc5b",
+      "title": "Beethoven: Moonlight Sonata / Chopin",
+      "type": "Album",
+      "first_release_date": "1953"
+    },
+    {
+      "id": "699aa868-9bfd-4409-a777-2038753c4085",
+      "title": "Piano Concerto No. 5 \"Emperor\", E Flat Major, Opus 73",
+      "type": "Album",
+      "first_release_date": "1953"
+    },
+    {
+      "id": "71e3991b-59ca-4020-af4a-54f21e1ce340",
+      "title": "Violinkonzert D-Dur",
+      "type": "Album",
+      "first_release_date": "1953"
+    },
+    {
+      "id": "cf4d5640-b9f7-4380-b9dc-76ded81a9552",
+      "title": "Quartet for Strings in B-flat major, op. 130",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "acb82280-af30-4773-8050-493b21fd9640",
+      "title": "Symphonie N° 9 en ré mineur Op.125 avec chœurs / Symphonie N° 1 en ut majeur Op.21",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "0b12ad85-0ce9-4bc3-ab77-6daff05a9beb",
+      "title": "Mendelssohn: Violin Concerto in E minor / Beethoven: Romance no. 1 in G major / Romance no. 2 in F major",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "c0a92f1b-02ad-4fc3-8807-f7e0c6c014c3",
+      "title": "Pianoforte-Concerto no. 3 in C minor, op. 37",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "8283577a-3425-46ef-8424-07d0b29acd9c",
+      "title": "Toccata en fa majeur / Concerto pour 2 trompettes en ut / Sonate en fa dièse, op. 78, « À Thérèse » / Symphonie n° 26 en mi bémol (K. 184) / Fantaisie‐impromptu, op. 66 / Carnaval romain, Ouverture",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "5c3f424a-f1be-4f97-9aee-ce31e83856b7",
+      "title": "Sonata no. 30 in E major, op. 109 / Sonata no. 31 in A‐flat major, op. 110 / Sonata no. 32 in C minor, op. 111",
+      "type": "Album",
+      "first_release_date": "1956-09-17"
+    },
+    {
+      "id": "22c240ca-83ee-4eb2-98ce-01855b77e8f8",
+      "title": "Sonata no. 9 In A major op. 47 for Violin and Piano („Kreutzer”)",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "40fd801a-c430-47ca-85cc-56a76ea1d9f2",
+      "title": "Sonatas no. 17 in D minor “Tempest” & no. 18 in E‐flat major \"Hunt\"",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "fe7de2f1-d617-46a5-a76c-01bc12494b2e",
+      "title": "Symphony no. 2 in D major / Coriolan Overture",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "cb2ffadf-a17f-4f4f-9a07-4ac8dabea78b",
+      "title": "Concerto n° 5 pour piano et orchestre « L'Empereur »",
+      "type": "Album",
+      "first_release_date": "1957-02"
+    },
+    {
+      "id": "c191486d-6824-45ed-b650-3b12d4f9c512",
+      "title": "Piano Concerto No. 2 in B-flat major Op. 19 / Keyboard Concerto No. 1 in D minor, BWV 1052",
+      "type": "Album",
+      "first_release_date": "1957-10-14"
+    },
+    {
+      "id": "dcfbf6c0-0096-45de-b8c9-a0cae3c8f466",
+      "title": "8e Symphonie en Fa Majeur Opus 93",
+      "type": "Album",
+      "first_release_date": "1957"
+    }
+  ],
+  "tracks": {
+    "c1c1cb09-4917-4e51-9ce9-d24eb648d9cd": [
+      {
+        "id": "f9fb5350-eade-4ba5-b70e-2b80dc8dc28c",
+        "title": "Kreutzer Sonata: First Movement",
+        "position": "1",
+        "length": "242000",
+        "work": {
+          "id": "c84d54a4-457e-3dc9-9ced-535e2cc3a347",
+          "title": "Sonata for Violin and Piano no. 9 in A major, op. 47 “Kreutzer”: I. Adagio sostenuto - Presto",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cc48101a-1ec2-450f-a8a4-3e2af51336f7",
+        "title": "Kreutzer Sonata: Andante With Variations, Part I",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "b49b1ab9-8e71-3fe9-8916-5764ae1a2b1f",
+          "title": "Sonata for Violin and Piano no. 9 in A major, op. 47 “Kreutzer”: II. Andante con variazioni",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "473851c7-40f1-477f-8d00-cfa97d47ba6e",
+        "title": "Kreutzer Sonata: Andante With Variations, Part II",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "b49b1ab9-8e71-3fe9-8916-5764ae1a2b1f",
+          "title": "Sonata for Violin and Piano no. 9 in A major, op. 47 “Kreutzer”: II. Andante con variazioni",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c3b1e79a-d944-41cf-8e82-e474fe7b2697",
+        "title": "Kreutzer Sonata: Finale",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "65ecbc97-d015-3d6c-b599-7dee875327fa",
+          "title": "Sonata for Violin and Piano no. 9 in A major, op. 47 “Kreutzer”: III. Finale. Presto",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      }
+    ],
+    "aac3b586-52b8-4f84-9ce0-67748a9c30c3": [
+      {
+        "id": "5e1d9843-4049-4b78-ba67-ea483732d7e4",
+        "title": "Missa solemnis, op. 123: Kyrie, I. Assai sostenuto – Kyrie eleison",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "451b8255-8781-4eb3-b057-cf426daab303",
+          "title": "Missa Solemnis D-Dur, op. 123: Ia. Kyrie: Kyrie eleison",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "71fb9935-0c69-4470-8f57-c9155b806358",
+        "title": "Missa solemnis, op. 123: Kyrie, II. Andante assei ben marcato – Chrite eleison",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "2c19f71b-243e-4d41-9018-50a03bde6511",
+          "title": "Missa Solemnis D-Dur, op. 123: Ib. Kyrie: Christe eleison",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "887a8fae-e34c-4f71-aac6-66393e6e566e",
+        "title": "Missa solemnis, op. 123: Kyrie, III. Andante assei ben marcato – Kyrie eleison",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "18785f04-a6e3-4676-9073-b68f6864ed47",
+          "title": "Missa Solemnis D-Dur, op. 123: Ic. Kyrie: Kyrie eleison",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ece3d399-0d3f-478b-a97b-f7915b93f457",
+        "title": "Missa solemnis, op. 123: Gloria, I. Allegro vivace e meno allegro – Gloria in exelsis Deo",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "64a04d47-ea60-3b67-a8cf-668833dbb77a",
+          "title": "Missa solemnis D-Dur, op. 123: IIa. Gloria: Allegro vivace: Gloria in excelsis Deo",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ce20dc88-ba45-40c8-9dd5-b599fa77c6e6",
+        "title": "Missa solemnis, op. 123: Gloria, II. Larghetto – Qui tollis",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "50d10553-72bc-41c4-ad79-787267139836",
+          "title": "Missa solemnis D-Dur, op. 123: IIb. Gloria. Gratias agimus",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "26db8b8b-48e4-43bd-a661-3a451eb3b2a6",
+        "title": "Missa solemnis, op. 123: Gloria, III. Allegro maestoso‐fuga – Quoniam",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "3940abe4-5391-327c-86b3-38eb21a88aa4",
+          "title": "Missa solemnis D-Dur, op. 123: IId. Gloria: Allegro vivace: Quoniam tu solus Sanctus",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d8d87594-f25c-4d85-99c5-49bcd3f4ffee",
+        "title": "Missa solemnis, op. 123: Gloria, IV. In gloria Dei patris",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "a5de4507-b0e0-3ce4-b0e0-9c41f228a47f",
+          "title": "Missa solemnis D-Dur, op. 123: IIe. Gloria: Allegro vivace: In gloria Dei Patris. Amen",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f3a6386c-e8f3-4239-a6f2-3b4131dd01f8",
+        "title": "Missa solemnis, op. 123: Gredo, I. Allegro ma non troppo – Credo in unum Deum",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "dfd98854-5caa-3b7a-aeba-d3181fa65bb5",
+          "title": "Missa solemnis D-Dur, op. 123: IIIa. Credo: Allegro ma non troppo: Credo in unum Deum",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a2b3e25d-ab82-40cf-8bac-fe6e4c3415d1",
+        "title": "Missa solemnis, op. 123: Credo, II. Adagio – Et incarnatus est",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "8cb03062-a2c8-34d0-ae96-3db2238d6fff",
+          "title": "Missa solemnis D-Dur, op. 123: IIIb. Credo: Allegro ma non troppo: Et incarnatus est",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b55acbff-c619-469a-88c1-127cf182fb96",
+        "title": "Missa solemnis, op. 123: Credo, III. Adagio espressivo – Crucifixus etiam pro nobis",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "8cb03062-a2c8-34d0-ae96-3db2238d6fff",
+          "title": "Missa solemnis D-Dur, op. 123: IIIb. Credo: Allegro ma non troppo: Et incarnatus est",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fcaf919b-8da2-46e3-9ac8-cdf6649908cb",
+        "title": "Missa solemnis, op. 123: Credo, IV. Allegro et resurrexit",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "74838b9e-d31a-30e8-8935-2540eba4c7d2",
+          "title": "Missa solemnis D-Dur, op. 123: IIIc. Credo: Allegro ma non troppo: Et resurrexit - Et ascendit in coelum",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "230f8838-37b5-4117-86db-42d9e1d93590",
+        "title": "Missa solemnis, op. 123: Credo, V. Allegro ma non troppo – Et vitam",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "34980aee-9713-3b42-9f44-b0f72e180333",
+          "title": "Missa solemnis D-Dur, op. 123: IIId. Credo: Allegro ma non troppo: Et vitam venturi saeculi",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a2489b0f-dc9a-4489-a8b0-dd3ecc96a88c",
+        "title": "Missa solemnis, op. 123: Credo, VI. Grave – Et vitam venturi",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "968e4567-4cba-3d87-988e-27ad0b0a7f4a",
+          "title": "Missa solemnis D-Dur, op. 123: IIIe. Credo: Allegro ma non troppo: Amen, et vitam venturi saeculi. Amen",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "effeb51a-3b7a-4fa0-9150-821bdc4dde98",
+        "title": "Missa solemnis, op. 123: Sanctus, I. Adagio – Sanctus Dominus",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "42deff8f-819f-319d-8821-77fc51993bca",
+          "title": "Missa solemnis D-Dur, op. 123: IVa. Sanctus: Adagio: Sanctus, Sanctus, Sanctus Dominus, Deus Sabaoth",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b409ed18-99a3-45fe-95fa-851890828c3b",
+        "title": "Missa solemnis, op. 123: Sanctus, II. Praeludium – Benedictus",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "159c775f-a905-3f11-9a97-290008d8fcb8",
+          "title": "Missa solemnis D-Dur, op. 123: IVb. Sanctus: Adagio: Pleni sunt coeli et terra",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d2a21f56-fea6-445b-8556-37eb992d919d",
+        "title": "Missa solemnis, op. 123: Sanctus, III. Benedictus",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "f62bc27c-5d97-3ea6-926c-89400894c693",
+          "title": "Missa solemnis D-Dur, op. 123: IVd. Sanctus: Adagio: Benedictus, qui venit in nomine Domini",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6f9125b1-5ce1-46bc-8fbd-7875c91c0a34",
+        "title": "Missa solemnis, op. 123: Sanctus, IV. Benedictus – Qui venit",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "f62bc27c-5d97-3ea6-926c-89400894c693",
+          "title": "Missa solemnis D-Dur, op. 123: IVd. Sanctus: Adagio: Benedictus, qui venit in nomine Domini",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "da4fdf9e-a635-45ec-9b4b-29bc533f716d",
+        "title": "Missa solemnis, op. 123: Agnus Dei, I. Adagio – Agnus, agnus, Dei",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "f4b7a063-742a-4608-96ee-8c1280db3269",
+        "title": "Missa solemnis, op. 123: Agnus Dei, II. Agnus Dei – Dona nobis pacem",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "0ee5157c-49a0-3530-8b86-1c9bfcf988fd",
+          "title": "Missa solemnis D-Dur, op. 123: Va. Agnus Dei: Adagio: Agnus Dei, qui tollis peccata mundi",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b6291d13-46bf-413a-a89c-cfe28b0585cb",
+        "title": "Missa solemnis, op. 123: Agnus Dei, III. Allegro assai – Agnus Dei, qui tollis",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "d8642252-dea5-45a3-bd56-f0147576e8c2",
+          "title": "Missa solemnis D-Dur, op. 123: Vc. Agnus Dei: Allegro assai – Recit. – Tempo I – Presto – Tempo I: Agnus Dei, miserere",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ef98d6fb-0732-4ec0-a49f-2c22af9fc0f8",
+        "title": "Missa solemnis, op. 123: Agnus Dei, IV. Presto – Agnus Dei, dona pacem",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "211acba4-0df3-3e8f-9901-a119ccbd104b",
+          "title": "Missa solemnis D-Dur, op. 123: Vd. Agnus Dei: Adagio: Agnus Dei - Dona nobis pacem",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "668b1df6-0d73-43c9-9fbc-b97da8cabd17",
+        "title": "Die Himmel rühmen des Ewingen Ehre",
+        "position": "2",
+        "length": "202266",
+        "work": {
+          "id": "e6ff3027-63fd-483a-90bc-29e50c0ead3f",
+          "title": "Die Himmel rühmen",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      }
+    ],
+    "5295feb6-a177-4710-8632-81dd28b5e4fe": [
+      {
+        "id": "08f9a364-22cc-4863-af7b-1f1e51bd7799",
+        "title": "First Movement: Allegro (Beginning)",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "913bc84d-158b-3ac3-821e-6cc5e46c9bb5",
+          "title": "Concerto for Piano and Orchestra no. 5 in E-flat major, op. 73 “Emperor”: I. Allegro",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "45d80e0a-9048-4a30-aad5-4f1943196ccc",
+        "title": "First Movement: Allegro (Continuation)",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "913bc84d-158b-3ac3-821e-6cc5e46c9bb5",
+          "title": "Concerto for Piano and Orchestra no. 5 in E-flat major, op. 73 “Emperor”: I. Allegro",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7c6f38c3-5b3b-4c07-9a68-c16685697155",
+        "title": "First Movement: Allegro (Continuation)",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "913bc84d-158b-3ac3-821e-6cc5e46c9bb5",
+          "title": "Concerto for Piano and Orchestra no. 5 in E-flat major, op. 73 “Emperor”: I. Allegro",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9553d511-a838-48a1-bb52-63eeccfc6b83",
+        "title": "First Movement: Allegro (Continuation)",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "913bc84d-158b-3ac3-821e-6cc5e46c9bb5",
+          "title": "Concerto for Piano and Orchestra no. 5 in E-flat major, op. 73 “Emperor”: I. Allegro",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "02dcb4da-6871-4a37-9c3d-ef77abc70427",
+        "title": "First Movement: Allegro (Conclusion)",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "913bc84d-158b-3ac3-821e-6cc5e46c9bb5",
+          "title": "Concerto for Piano and Orchestra no. 5 in E-flat major, op. 73 “Emperor”: I. Allegro",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1189db25-c6d0-4b1f-8211-936cef74a105",
+        "title": "Second Movement: Adagio un poco mosso (Beginning)",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "ffdf5002-45cc-3533-898e-b43441b8aa3f",
+          "title": "Concerto for Piano and Orchestra no. 5 in E-flat major, op. 73 “Emperor”: II. Adagio un poco mosso",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f1bff809-5a4e-46de-8036-f7f6d8aa75e5",
+        "title": "Second Movement: Adagio un poco mosso (Conclusion)",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "ffdf5002-45cc-3533-898e-b43441b8aa3f",
+          "title": "Concerto for Piano and Orchestra no. 5 in E-flat major, op. 73 “Emperor”: II. Adagio un poco mosso",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c4397d18-70b0-4889-8902-cded3d284cb2",
+        "title": "Third Movement: Rondo (Beginning)",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "b6b0a615-adf9-3427-a3ba-cd34556d9997",
+          "title": "Concerto for Piano and Orchestra no. 5 in E-flat major, op. 73 “Emperor”: III. Rondo. Allegro",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cd01eaff-73f5-4f42-a124-1d2f8d560ac4",
+        "title": "Third Movement: Rondo (Continuation)",
+        "position": "3",
+        "length": null,
+        "work": {
+          "id": "b6b0a615-adf9-3427-a3ba-cd34556d9997",
+          "title": "Concerto for Piano and Orchestra no. 5 in E-flat major, op. 73 “Emperor”: III. Rondo. Allegro",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "61c890c1-6b8d-48d0-b757-96045748f97e",
+        "title": "Third Movement: Rondo (Continuation)",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "b6b0a615-adf9-3427-a3ba-cd34556d9997",
+          "title": "Concerto for Piano and Orchestra no. 5 in E-flat major, op. 73 “Emperor”: III. Rondo. Allegro",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c1c30299-d52b-40a1-b552-982326267972",
+        "title": "Third Movement: Rondo (Conclusion)",
+        "position": "2",
+        "length": null,
+        "work": {
+          "id": "b6b0a615-adf9-3427-a3ba-cd34556d9997",
+          "title": "Concerto for Piano and Orchestra no. 5 in E-flat major, op. 73 “Emperor”: III. Rondo. Allegro",
+          "composers": [
+            {
+              "name": "Ludwig van Beethoven",
+              "mbid": "1f9df192-a621-4f54-8850-2c5373b7eac9"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 95544,
+  "wikidata_id": "Q255"
+}

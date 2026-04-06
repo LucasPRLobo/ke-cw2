@@ -1,0 +1,91 @@
+{
+  "id": 135478,
+  "name": "Ramones",
+  "realname": null,
+  "profile": "USA punk rock band formed in 1974 and disbanded in 1996.\r\n\r\nHailing from Forest Hills - a neighborhood of Queens, New York City (USA) - the original line-up consisted of singer [a=Joey Ramone] (Jeffrey Hyman, born May 19th, 1951, died April 15th, 2001), guitarist [a=Johnny Ramone] (John Cummings, born October 8th, 1948, died September 15th, 2004), bassist [a=Dee Dee Ramone] (Douglas Colvin, born September 18th, 1952, died June 5th, 2002) and drummer [a=Tommy Ramone] (Tom Erdelyi, born January 29, 1952, died July 11th, 2014).\r\n\r\nAfter Tommy left the band in early 1978 he was replaced by [a=Marky Ramone] (Marc Bell). He was fired in 1983 and was then replaced by [a=Richie Ramone] (Richard Beau). In 1987, he then left the band and was briefly replaced by Elvis Ramone ([a=Clem Burke]) for two performances (August 28 & 29, 1987) before Marky returned in September, 1987. In 1989, Dee Dee left and was replaced by [a=C.J. Ramone] (Christopher John Ward).\r\n\r\nIn 2001, Joey Ramone passed away, a victim of Lymphoma. The following year, Dee Dee died in Los Angeles on June 5th, 2002. Johnny Ramone died in his sleep in Los Angeles on September 15th, 2004. Tommy died 10 years later, on July 11th, 2014, making him the last original member of the Ramones to die.\r\n\r\nInducted into Rock And Roll Hall of Fame in 2002 (Performer).",
+  "members": [
+    {
+      "name": "Tom Erdelyi",
+      "id": 252782,
+      "active": false
+    },
+    {
+      "name": "Marc Bell",
+      "id": 455523,
+      "active": true
+    },
+    {
+      "name": "John Cummings (3)",
+      "id": 559506,
+      "active": true
+    },
+    {
+      "name": "Douglas Colvin",
+      "id": 559510,
+      "active": false
+    },
+    {
+      "name": "Jeffrey Hyman",
+      "id": 559512,
+      "active": true
+    },
+    {
+      "name": "CJ Ward",
+      "id": 2322102,
+      "active": true
+    },
+    {
+      "name": "Richard Reinhardt",
+      "id": 2542441,
+      "active": false
+    },
+    {
+      "name": "Clement Anthony Bozewski",
+      "id": 7134948,
+      "active": false
+    }
+  ],
+  "groups": [],
+  "genres": [
+    "Rock"
+  ],
+  "styles": [
+    "Blues Rock",
+    "Punk",
+    "Rock & Roll"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Rock",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Rock",
+      "style": "Punk"
+    },
+    {
+      "genre": "Rock",
+      "style": "Punk"
+    },
+    {
+      "genre": "Rock",
+      "style": "Blues Rock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Punk"
+    },
+    {
+      "genre": "Rock",
+      "style": "Rock & Roll"
+    },
+    {
+      "genre": "Rock",
+      "style": "Punk"
+    },
+    {
+      "genre": "Rock",
+      "style": "Punk"
+    }
+  ]
+}

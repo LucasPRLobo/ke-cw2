@@ -1,0 +1,22 @@
+{
+  "id": 779927,
+  "name": "Lennon-McCartney",
+  "realname": null,
+  "profile": "[a=John Lennon] and [a=Paul McCartney] wrote and published approximately 180 songs together, as a credited partnership, between 1962 and 1969. \r\n\r\nLennon and McCartney wrote both the lyrics and music to these songs, differing from the common partnerships of that era which would split the composition and lyricist duties. As well, although every song is jointly credited, many of these songs were actually composed by only one of the two authors. \r\n\r\nA writing partnership since they were teenagers, McCartney and Lennon struck an agreement early into their budding career that every song they wrote would be jointly credited, no matter the actual author, splitting the royalties down the middle. \r\n\r\nMuch of the [a=Lennon-McCartney] partnership's output was recorded and released by artists other than [a=The Beatles]. In addition, many, if not most, of their songs have been subsequently covered by many other artists.",
+  "members": [
+    {
+      "name": "Paul McCartney",
+      "id": 35301,
+      "active": true
+    },
+    {
+      "name": "John Lennon",
+      "id": 46481,
+      "active": true
+    }
+  ],
+  "groups": [],
+  "genres": [],
+  "styles": [],
+  "genre_style_pairs": []
+}

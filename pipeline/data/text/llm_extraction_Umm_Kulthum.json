@@ -1,0 +1,52 @@
+[
+  {
+    "subject": "Umm Kulthum",
+    "predicate": "alterEgo",
+    "object": "Kawkab el-Sharq"
+  },
+  {
+    "subject": "Umm Kulthum",
+    "predicate": "alterEgo",
+    "object": "The Voice of Egypt"
+  },
+  {
+    "subject": "Umm Kulthum",
+    "predicate": "alterEgo",
+    "object": "Egypt's Fourth Pyramid"
+  },
+  {
+    "subject": "Umm Kulthum",
+    "predicate": "collaboratedWith",
+    "object": "Ahmed Rami"
+  },
+  {
+    "subject": "Umm Kulthum",
+    "predicate": "collaboratedWith",
+    "object": "Mohamed El Qasabgi"
+  },
+  {
+    "subject": "Umm Kulthum",
+    "predicate": "collaboratedWith",
+    "object": "Zakaria Ahmed"
+  },
+  {
+    "subject": "Umm Kulthum",
+    "predicate": "collaboratedWith",
+    "object": "Riad El Sunbati"
+  },
+  {
+    "subject": "Umm Kulthum",
+    "predicate": "collaboratedWith",
+    "object": "Baligh Hamdi"
+  },
+  {
+    "subject": "Umm Kulthum",
+    "predicate": "collaboratedWith",
+    "object": "Mohammed Abdel Wahab"
+  },
+  {
+    "subject": "Umm Kulthum",
+    "predicate": "performedAt",
+    "object": "various Arab and European countries"
+  }
+]

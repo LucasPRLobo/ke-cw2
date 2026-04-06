@@ -1,0 +1,145 @@
+{
+  "transe": {
+    "model": "TransE",
+    "embedding_dim": 128,
+    "epochs": 200,
+    "training_triples": 17209,
+    "testing_triples": 4303,
+    "entities": 6014,
+    "relations": 38,
+    "mrr": 0.0855,
+    "hits_at_1": 0.0052,
+    "hits_at_3": 0.1053,
+    "hits_at_10": 0.2274
+  },
+  "rotate": {
+    "model": "RotatE",
+    "embedding_dim": 64,
+    "epochs": 200,
+    "training_triples": 17209,
+    "testing_triples": 4303,
+    "entities": 6014,
+    "relations": 38,
+    "mrr": 0.557,
+    "hits_at_1": 0.4859,
+    "hits_at_3": 0.5901,
+    "hits_at_10": 0.6961
+  },
+  "compgcn": {
+    "model": "CompGCN",
+    "embedding_dim": 64,
+    "epochs": 200,
+    "training_triples": 17209,
+    "testing_triples": 4303,
+    "entities": 6014,
+    "relations": 76,
+    "mrr": 0.5259,
+    "hits_at_1": 0.4289,
+    "hits_at_3": 0.5826,
+    "hits_at_10": 0.7067
+  },
+  "predictions_influence": [
+    {
+      "tail_id": 1498,
+      "score": -31.36911964416504,
+      "tail_label": "http://example.org/music-history/artist/The_Rolling_Stones"
+    },
+    {
+      "tail_id": 1500,
+      "score": -31.769058227539062,
+      "tail_label": "http://example.org/music-history/artist/The_Shangri-Las"
+    },
+    {
+      "tail_id": 1425,
+      "score": -31.90695571899414,
+      "tail_label": "http://example.org/music-history/artist/Little_Richard"
+    },
+    {
+      "tail_id": 1368,
+      "score": -32.141746520996094,
+      "tail_label": "http://example.org/music-history/artist/Ella_Fitzgerald"
+    },
+    {
+      "tail_id": 1399,
+      "score": -32.4028205871582,
+      "tail_label": "http://example.org/music-history/artist/Janis_Martin"
+    },
+    {
+      "tail_id": 1437,
+      "score": -32.518978118896484,
+      "tail_label": "http://example.org/music-history/artist/Michel_Legrand"
+    },
+    {
+      "tail_id": 1503,
+      "score": -32.573387145996094,
+      "tail_label": "http://example.org/music-history/artist/The_Stooges"
+    },
+    {
+      "tail_id": 1497,
+      "score": -32.705223083496094,
+      "tail_label": "http://example.org/music-history/artist/The_Rivieras"
+    },
+    {
+      "tail_id": 1380,
+      "score": -32.73876953125,
+      "tail_label": "http://example.org/music-history/artist/Gaetano_Donizetti"
+    },
+    {
+      "tail_id": 1506,
+      "score": -32.8221549987793,
+      "tail_label": "http://example.org/music-history/artist/The_Troggs"
+    }
+  ],
+  "predictions_collab": [
+    {
+      "tail_id": 3726,
+      "score": -15.058514595031738,
+      "tail_label": "http://musicbrainz.org/artist/5803c81e-739a-4057-9a5c-cf84e55db630"
+    },
+    {
+      "tail_id": 3551,
+      "score": -16.008129119873047,
+      "tail_label": "http://musicbrainz.org/artist/17e5e4ec-000e-41ae-958a-dc33ae23fc78"
+    },
+    {
+      "tail_id": 3901,
+      "score": -16.25012969970703,
+      "tail_label": "http://musicbrainz.org/artist/a0b77a10-ecff-4b84-b1f3-008391038d67"
+    },
+    {
+      "tail_id": 2779,
+      "score": -17.046409606933594,
+      "tail_label": "http://example.org/music-history/genre/afro-cuban"
+    },
+    {
+      "tail_id": 3917,
+      "score": -17.080116271972656,
+      "tail_label": "http://musicbrainz.org/artist/aae5ab53-d071-46d8-982c-54bd912761bd"
+    },
+    {
+      "tail_id": 5151,
+      "score": -17.232921600341797,
+      "tail_label": "http://musicbrainz.org/recording/8df0b54b-ee8b-4c67-afde-d4f0597cd7ad"
+    },
+    {
+      "tail_id": 5379,
+      "score": -17.37348747253418,
+      "tail_label": "http://musicbrainz.org/recording/b04b6f14-3164-4f2e-a3c6-bccf8c85246d"
+    },
+    {
+      "tail_id": 2838,
+      "score": -17.38782501220703,
+      "tail_label": "http://example.org/music-history/genre/crossover"
+    },
+    {
+      "tail_id": 1389,
+      "score": -17.53365707397461,
+      "tail_label": "http://example.org/music-history/artist/Harold_Budd"
+    },
+    {
+      "tail_id": 1547,
+      "score": -17.542451858520508,
+      "tail_label": "http://example.org/music-history/award/Americana_Award_for_Artist_of_the_Year"
+    }
+  ]
+}

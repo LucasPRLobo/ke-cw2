@@ -1,0 +1,53 @@
+{
+  "id": 192327,
+  "name": "Giuseppe Verdi",
+  "realname": "Giuseppe Fortunino Francesco Verdi",
+  "profile": "Italian opera composer in the 19th-century.\r\nBorn on 9 or 10 October 1813, in Le Roncole, a village near Busseto, Italy.\r\nDied on 27 January 1901 in Milan, Italy.\r\nVerdi's operas are among the most sung on stages around the world.",
+  "members": [],
+  "groups": [],
+  "genres": [
+    "Classical"
+  ],
+  "styles": [
+    "Opera",
+    "Romantic"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Classical",
+      "style": "Opera"
+    },
+    {
+      "genre": "Classical",
+      "style": "Romantic"
+    },
+    {
+      "genre": "Classical",
+      "style": "Opera"
+    },
+    {
+      "genre": "Classical",
+      "style": "Romantic"
+    },
+    {
+      "genre": "Classical",
+      "style": "Opera"
+    },
+    {
+      "genre": "Classical",
+      "style": "Romantic"
+    },
+    {
+      "genre": "Classical",
+      "style": "Opera"
+    },
+    {
+      "genre": "Classical",
+      "style": "Romantic"
+    },
+    {
+      "genre": "Classical",
+      "style": "Opera"
+    }
+  ]
+}

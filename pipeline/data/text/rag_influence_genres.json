@@ -1,0 +1,12 @@
+[
+  {"artist": "Jimi Hendrix", "genres": ["rock", "hard rock", "blues rock", "psychedelic rock", "electric blues"]},
+  {"artist": "Lata Mangeshkar", "genres": ["playback singing", "classical Indian music", "Bollywood", "pop"]},
+  {"artist": "Flipper", "genres": ["punk rock", "noise rock", "hardcore punk", "alternative rock"]},
+  {"artist": "Bill Monroe", "genres": ["bluegrass", "country", "folk music", "gospel music"]},
+  {"artist": "Carter Family", "genres": ["country", "folk music", "gospel music", "bluegrass", "old-time music"]},
+  {"artist": "Dock Boggs", "genres": ["old-time music", "folk music", "country blues", "bluegrass"]},
+  {"artist": "Hank Williams", "genres": ["country", "honky-tonk", "gospel music", "folk music", "bluegrass"]},
+  {"artist": "Janis Martin", "genres": ["rockabilly", "country", "rock and roll"]},
+  {"artist": "Kitty Wells", "genres": ["country", "honky-tonk", "gospel music", "bluegrass"]},
+  {"artist": "Loretta Lynn", "genres": ["country", "honky-tonk", "bluegrass", "country pop", "folk music"]}
+]

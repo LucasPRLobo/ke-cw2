@@ -1,0 +1,113 @@
+{
+  "id": 19812,
+  "name": "Fela Kuti",
+  "realname": "Olufela Olusegun Oludotun Ransome-Kuti",
+  "profile": "Born: 15 October 1938, in Abeokuta, Nigeria. \r\nDied: 2 August 1997, of AIDS and heart failure in Lagos, Nigeria. \r\n\r\nHe formed his first group Koola Lobitos in 1963. The large jazz, funk, and afrobeat collective underwent many changes in the following decades but the style remained the same thanks to Fela's vision and other key members such as drummer Tony Allen. \r\n\r\nIn 1969 after visiting America, Fela returned to Nigeria and opened club Afro Spot in Lagos also changing the group's name to Afrika 70. He played with Ginger Baker on the album Ginger Baker Live with Afrika 70 and Fela Kuti, released in 1971 and along side Bobby Gass, better known as Bobby Tench from The Jeff Beck Group, on Stratavarious which was released the next year. In 1981 Fela changed the group's name for the last time to Egypt 80. \r\n\r\nHe was known as Fela Ransome-Kuti until about 1978, when he renamed himself Fela Anikulapo Kuti, the middle name meaning 'he who carries death in his pouch'. He was a human rights revolutionary who started his own political party, Movement Of The People, to protest the kleptocracy in Nigeria. He had his own compound called the Kalakuta Republic in Lagos, which he declared independent from Nigeria, where he and his uncountable number of wives lived and they were constantly terrorized by the government.\r\n\r\nHis influence on funk and African music is unsurpassed and has put his name to many albums, the total number thought to be 77.\r\n\r\nFather of [a3376] and [a727660].",
+  "members": [],
+  "groups": [
+    {
+      "name": "Africa 70",
+      "id": 224273,
+      "active": true
+    },
+    {
+      "name": "Egypt 80",
+      "id": 273534,
+      "active": true
+    },
+    {
+      "name": "Nigeria 70",
+      "id": 639889,
+      "active": true
+    },
+    {
+      "name": "Fela Ransome Kuti & His Koola Lobitos",
+      "id": 1453270,
+      "active": true
+    },
+    {
+      "name": "Fela Ransome-Kuti Quintet",
+      "id": 1591545,
+      "active": true
+    },
+    {
+      "name": "Ginger Baker & African Friends",
+      "id": 3012051,
+      "active": true
+    },
+    {
+      "name": "Fela Ransome-Kuti & The Highlife Rakers",
+      "id": 4951861,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Folk, World, & Country",
+    "Funk / Soul",
+    "Jazz"
+  ],
+  "styles": [
+    "Afrobeat",
+    "Easy Listening",
+    "Highlife",
+    "Soul"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Funk / Soul",
+      "style": "Highlife"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Afrobeat"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Highlife"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Afrobeat"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Afrobeat"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Soul"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Easy Listening"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Afrobeat"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Afrobeat"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Afrobeat"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Afrobeat"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Afrobeat"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Afrobeat"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Afrobeat"
+    }
+  ]
+}

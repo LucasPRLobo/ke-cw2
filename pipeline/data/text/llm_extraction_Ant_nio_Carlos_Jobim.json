@@ -1,0 +1,13 @@
+[
+  {"subject": "Tom Jobim", "predicate": "hasGenre", "object": "bossa nova"},
+  {"subject": "Tom Jobim", "predicate": "hasGenre", "object": "samba"},
+  {"subject": "Tom Jobim", "predicate": "hasGenre", "object": "cool jazz"},
+  {"subject": "Tom Jobim", "predicate": "pioneerOf", "object": "bossa nova"},
+  {"subject": "Tom Jobim", "predicate": "composed", "object": "Garota de Ipanema (The Girl from Ipanema)"},
+  {"subject": "Tom Jobim", "predicate": "collaboratedWith", "object": "Stan Getz"},
+  {"subject": "Tom Jobim", "predicate": "collaboratedWith", "object": "João Gilberto"},
+  {"subject": "Tom Jobim", "predicate": "released", "object": "Getz/Gilberto (1965)"},
+  {"subject": "Tom Jobim", "predicate": "collaboratedWith", "object": "Frank Sinatra"},
+  {"subject": "Tom Jobim", "predicate": "released", "object": "Francis Albert Sinatra & Antônio Carlos Jobim (1967)"},
+  {"subject": "Tom Jobim", "predicate": "released", "object": "Antônio Brasileiro (1994)"}
+]

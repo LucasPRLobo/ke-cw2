@@ -1,8 +1,7 @@
 __pycache__/                                                                                                                                                                                             
 *.pyc                                                                                                                                                                                                    
 .vscode/                                                                                                                                                                                                 
-pipeline/data/                                                                                                                                                                                           
-data/                                                     
+/data/
 class_content/                                                                                                                                                                                           
 *.pdf                                                     
 venv/                                                                                                                                                                                                    
@@ -10,13 +9,11 @@ venv/
 .env
 
 # Personal working docs (not for shared repo)
-docs/prompts_log.md
 docs/report_draft.md
 docs/experiment_tracker.md
 docs/cq_prompt_justification.md
 docs/entity_linking_strategy.md
 docs/tools_and_techniques.md
-docs/completion_analysis.md
 docs/progress.md
 docs/group_message_draft.md
 docs/meeting_template.md

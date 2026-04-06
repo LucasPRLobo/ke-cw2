@@ -1,0 +1,1329 @@
+{
+  "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86",
+  "name": "Johnny Cash",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1932-02-26",
+    "end": "2003-09-12",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "Kingsland",
+  "tags": [
+    {
+      "name": "americana",
+      "count": "5"
+    },
+    {
+      "name": "blues",
+      "count": "4"
+    },
+    {
+      "name": "composers",
+      "count": "1"
+    },
+    {
+      "name": "country",
+      "count": "26"
+    },
+    {
+      "name": "country gospel",
+      "count": "6"
+    },
+    {
+      "name": "country music",
+      "count": "1"
+    },
+    {
+      "name": "folk",
+      "count": "7"
+    },
+    {
+      "name": "gospel",
+      "count": "3"
+    },
+    {
+      "name": "guitarists",
+      "count": "1"
+    },
+    {
+      "name": "harmonica players",
+      "count": "1"
+    },
+    {
+      "name": "lyricists",
+      "count": "1"
+    },
+    {
+      "name": "outlaw country",
+      "count": "3"
+    },
+    {
+      "name": "rock and roll",
+      "count": "2"
+    },
+    {
+      "name": "rockabilly",
+      "count": "8"
+    },
+    {
+      "name": "singers",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "The Million Dollar Quartet",
+      "target_mbid": "b4bfd133-a931-42c7-a41c-0311893dea67",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "The Tennessee Two",
+      "target_mbid": "19d97337-24c1-44a6-aea8-a9238890cc17",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "June Carter Cash",
+      "target_mbid": "4ee75011-678b-46e0-b8e1-8ef47e5b7379",
+      "attributes": [],
+      "begin": "1968-03-01",
+      "end": "2003-05-15"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Tennessee Three",
+      "target_mbid": "ab73de4d-06ee-4814-acce-2e3e537eb4ac",
+      "attributes": [
+        "guitar",
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1954",
+      "end": "2003"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Highwaymen",
+      "target_mbid": "c685765c-b778-4ed6-9035-8f7088431765",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Johnny Cash & June Carter Cash",
+      "target_mbid": "927a0e2e-5f51-462f-87a8-4ba03897e944",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Class Of '55",
+      "target_mbid": "fe94cef8-b6ee-4a1e-9ca4-c2aafc982dcf",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Chonny Jash",
+      "target_mbid": "334dc046-2920-4208-b4f1-e88d305ff6f1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Johnny Cash & June Carter Cash",
+      "target_mbid": "927a0e2e-5f51-462f-87a8-4ba03897e944",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Carrie Cash",
+      "target_mbid": "91598d20-5136-4eff-a461-c54777981f38",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "John Carter Cash",
+      "target_mbid": "31fd3e29-aed0-4361-b3aa-8bf3d86810c5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Rosanne Cash",
+      "target_mbid": "5ff6f6eb-31ad-4903-a3c3-4c9283fcde8b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Cindy Cash",
+      "target_mbid": "93b23a51-ad5b-461d-a12f-d27a6c73973a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Carlene Carter",
+      "target_mbid": "57e1d966-6e70-4307-a704-4b0aaa8459fb",
+      "attributes": [
+        "step"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Joanne Cash",
+      "target_mbid": "254e596d-65f5-46cd-b6c2-fb39174d0ebe",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Tommy Cash",
+      "target_mbid": "d8c5c228-0dff-4236-beae-3e2982714a72",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "The Poops",
+      "target_mbid": "7aeccb42-1128-4f6e-afbe-dda4c39e2d5d",
+      "attributes": [],
+      "begin": "2020-02-07",
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "The Capitols",
+      "target_mbid": "0cf97acb-7b9e-4587-a760-d4e80381fd35",
+      "attributes": [],
+      "begin": "2020-06-06",
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "A Boy Named Johnny",
+      "target_mbid": "c263ca28-243e-4a37-b083-94611dff7e20",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Dirty Rotten Cash",
+      "target_mbid": "5bab180b-1a27-4eb1-a625-ca582a6d3c5a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Johnny Cash Tribuut",
+      "target_mbid": "5d76ae2b-b71e-4c18-ad7d-c67ce691cca2",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Jonny Lyons",
+      "target_mbid": "9ffbc079-99dc-48b9-9809-298e9709708a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "The Man In Black Trio",
+      "target_mbid": "23336824-031c-4497-bf7c-eeffe1a668f3",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Million Dollar Reunion",
+      "target_mbid": "391777f4-a983-4135-a8af-0ec8dd68f6da",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Not Johnny Cash & the Tennessee Four",
+      "target_mbid": "5dec0d92-b140-4cf8-84c6-6d730ae1cb49",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Ride This Train",
+      "target_mbid": "d96a08de-c207-482f-a292-8ed8672d10c2",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000816890"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+    },
+    {
+      "type": "biography",
+      "target": "http://countrymusichalloffame.org/full-list-of-inductees/view/johnny-cash"
+    },
+    {
+      "type": "biography",
+      "target": "https://tims.blackcat.nl/messages/johnny_cash.htm"
+    },
+    {
+      "type": "discography page",
+      "target": "http://albumcredits.com/Profile/1548"
+    },
+    {
+      "type": "discography page",
+      "target": "http://rcs-discography.com/rcs/artist.php?key=cash3600"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.lpdiscography.com/c/Cash/cash2.htm"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.rocky-52.net/chanteursc/cash_j.htm"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/135946"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.cmt.com/artists/az/cash_johnny/artist.jhtml"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.gactv.com/gac/ar_az_johnny_cash"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/6kACVPfCOnqzgfEF5ryl0x"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/405"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:JohnnyCash1969.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0143599/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Johnny+Cash"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-5284/johnny-cash/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Johnny-cash"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/johnnycash"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.losthighwayrecords.com/johnnycash"
+    },
+    {
+      "type": "official homepage",
+      "target": "https://www.johnnycash.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n79018367"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/C/Cash,_Johnny/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13892236v"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118519433"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=487534"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/johnny-cash"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6j67rb3"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1116637"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL301275A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/johnny_cash"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/johnny-cash/all"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/1720/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000092586/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Johnny-Cash/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n79018367"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id70936"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/296762/all"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/70936"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.qobuz.com/us-en/interpreter/johnny-cash/22802"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.cdjapan.co.jp/person/700148588"
+    },
+    {
+      "type": "purevolume",
+      "target": "http://www.purevolume.com/johnnycashthegoodprofile"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/665"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/johnny-cash-bd6b1b6.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/JohnnyCash"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/johnnycash"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/johnnycash/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/483720"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/johnnycash"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B001E3EXN2"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/70936"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/156"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.amazon.com/-/e/B000APLVFI"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.pandora.com/artist/johnny-cash/AR5X4hJKgZZKfqP"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/27251336"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q42775"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCLwdOhL6TKbmjRtZ8wIr-Bg"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/user/JohnnyCashVEVO"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCiGs21G3KeE2tpbbMPzn9Qg"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "288b58ea-6b89-3dae-8428-2822fb15c7cb",
+      "title": "Johnny Cash With His Hot and Blue Guitar",
+      "type": "Album",
+      "first_release_date": "1957-10-11"
+    },
+    {
+      "id": "00da4796-a49b-370f-8ac9-88cd90a4a5ac",
+      "title": "The Fabulous Johnny Cash",
+      "type": "Album",
+      "first_release_date": "1958-11"
+    },
+    {
+      "id": "687df0ac-d420-4809-9bfc-ccd69363783a",
+      "title": "Hymns by Johnny Cash",
+      "type": "Album",
+      "first_release_date": "1959-05"
+    },
+    {
+      "id": "95f5ba76-f661-3eed-a954-42fa1d16ed71",
+      "title": "Songs of Our Soil",
+      "type": "Album",
+      "first_release_date": "1959-09"
+    },
+    {
+      "id": "b657899c-2f8e-3411-b794-6056a7bd44e0",
+      "title": "Ride This Train",
+      "type": "Album",
+      "first_release_date": "1960-08-01"
+    },
+    {
+      "id": "f7753b55-3bd3-30a0-887f-0e186e1b7305",
+      "title": "Now, There Was a Song!",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "2379d5a7-b5ec-445c-bf0f-bb76ae84dd0a",
+      "title": "The Lure of the Grand Canyon",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "fc6b647d-8915-3578-9465-44be5408c5e6",
+      "title": "Hymns From the Heart",
+      "type": "Album",
+      "first_release_date": "1962-04-02"
+    },
+    {
+      "id": "1e2773f6-5e57-31dc-acda-3819a5774ff6",
+      "title": "The Sound of Johnny Cash",
+      "type": "Album",
+      "first_release_date": "1962-06-04"
+    },
+    {
+      "id": "46a247e5-4d60-3213-872a-b3345f8454e3",
+      "title": "Blood, Sweat and Tears",
+      "type": "Album",
+      "first_release_date": "1963-01-07"
+    },
+    {
+      "id": "77fd27bd-ffed-3384-87ca-8191fe9e42cb",
+      "title": "The Christmas Spirit",
+      "type": "Album",
+      "first_release_date": "1963-11"
+    },
+    {
+      "id": "394beb31-b770-3d4e-a40d-7fa99b6f0d1a",
+      "title": "I Walk the Line",
+      "type": "Album",
+      "first_release_date": "1964-06"
+    },
+    {
+      "id": "8fc2a449-90b5-3698-8dc9-de127b812b1d",
+      "title": "Bitter Tears: Ballads of the American Indian",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "f39282bd-ba09-4e8f-a39a-54b7f4baa9bd",
+      "title": "Keep on the Sunny Side",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "4c59b7f1-23e2-3f9b-9c98-74e35ea72996",
+      "title": "Johnny Cash Sings the Ballads of the True West",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "b7b44840-602a-3202-94ce-47f15f38e792",
+      "title": "Orange Blossom Special",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "8546d6ff-c1da-32c8-8171-13a7bc287158",
+      "title": "Everybody Loves a Nut",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "9e16b2a7-114c-3173-a49b-f67361712d33",
+      "title": "Happiness Is You",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "50031fc5-b480-368a-a7f2-a5db73fd3370",
+      "title": "Carryin’ On With Johnny Cash & June Carter",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "1e896abe-d5d5-348b-ad6e-6c9068793dad",
+      "title": "From Sea to Shining Sea",
+      "type": "Album",
+      "first_release_date": "1968-01"
+    },
+    {
+      "id": "de0ead03-22a3-3569-9c26-559dd9a059a0",
+      "title": "The Holy Land",
+      "type": "Album",
+      "first_release_date": "1969-01"
+    },
+    {
+      "id": "98cfdc81-c6d5-31be-a63c-ee3ec1a707ec",
+      "title": "Hello, I’m Johnny Cash",
+      "type": "Album",
+      "first_release_date": "1970-01"
+    },
+    {
+      "id": "4c301360-e5ef-3a4c-befc-1ef642de8b50",
+      "title": "Man in Black",
+      "type": "Album",
+      "first_release_date": "1971-05"
+    },
+    {
+      "id": "79620023-4a8e-3809-b103-37a37fc09dd9",
+      "title": "A Thing Called Love",
+      "type": "Album",
+      "first_release_date": "1972-04"
+    },
+    {
+      "id": "7201df58-d4e8-37cc-ba0f-c448cc8bc578",
+      "title": "America: A 200-Year Salute in Story and Song",
+      "type": "Album",
+      "first_release_date": "1972"
+    }
+  ],
+  "tracks": {
+    "288b58ea-6b89-3dae-8428-2822fb15c7cb": [
+      {
+        "id": "9ce0b05b-7f6d-43f7-8bb7-e427b047c218",
+        "title": "Rock Island Line",
+        "position": "1",
+        "length": "131000",
+        "work": {
+          "id": "0ffbf739-db65-3fcf-b4e7-fb08074524bf",
+          "title": "Rock Island Line",
+          "composers": [
+            {
+              "name": "Lead Belly",
+              "mbid": "ddcfbdcf-cf8d-4776-8a69-10f39376b5a2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bd4e76b9-7ee3-4ff0-a314-d38ef0587e76",
+        "title": "I Heard That Lonesome Whistle Blow",
+        "position": "2",
+        "length": "144986",
+        "work": {
+          "id": "98bb1633-d172-3a1d-8fca-3286a5aec2a2",
+          "title": "(I Heard That) Lonesome Whistle",
+          "composers": [
+            {
+              "name": "Jimmie Davis",
+              "mbid": "06ed4e1e-4416-4a7c-b14b-bc68dfd252aa"
+            },
+            {
+              "name": "Hank Williams",
+              "mbid": "906bddec-bc73-49f8-ac1e-eaee691c6cf9"
+            },
+            {
+              "name": "Jimmie Davis",
+              "mbid": "06ed4e1e-4416-4a7c-b14b-bc68dfd252aa"
+            },
+            {
+              "name": "Hank Williams",
+              "mbid": "906bddec-bc73-49f8-ac1e-eaee691c6cf9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b23f5c98-f0a0-4706-b068-1643b196cfab",
+        "title": "Country Boy",
+        "position": "3",
+        "length": "111426",
+        "work": {
+          "id": "8d410392-97fd-3db4-b431-41fc4a9cd2c3",
+          "title": "Country Boy",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7016adf7-40d9-4934-aac2-7dcc7936a3fd",
+        "title": "If the Good Lord’s Willing",
+        "position": "4",
+        "length": "103000",
+        "work": {
+          "id": "6003f730-8a54-344b-a451-0495a61992ed",
+          "title": "If the Lord’s Willing and the Creeks Don’t Rise",
+          "composers": [
+            {
+              "name": "Jerry Reed",
+              "mbid": "44419ff2-0251-49ba-933b-b09733ff9adb"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9e8b5fb0-4eb3-4584-98f1-7831b59ab611",
+        "title": "Cry! Cry! Cry!",
+        "position": "5",
+        "length": "146026",
+        "work": {
+          "id": "5d3da6b0-277f-47d7-9dc4-e66b0ec3309f",
+          "title": "Cry! Cry! Cry!",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d8270a64-dd94-46b0-9e08-c7ce8c891272",
+        "title": "Remember Me (I’m the One Who Loves You)",
+        "position": "6",
+        "length": "119720",
+        "work": {
+          "id": "f8ead46b-ac7e-427f-bb58-8737cffe5469",
+          "title": "(Remember Me) I’m the One Who Loves You",
+          "composers": [
+            {
+              "name": "Stuart Hamblen",
+              "mbid": "696e7bed-989a-4111-bc10-7f960561024b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "533ffecd-cb31-46de-9f71-414211ca5ca7",
+        "title": "So Doggone Lonesome",
+        "position": "7",
+        "length": "156373",
+        "work": {
+          "id": "0f66f66c-7186-48a7-a6ea-0aaf339ed814",
+          "title": "So Doggone Lonesome",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            }
+          ]
+        }
+      },
+      {
+        "id": "15fcad59-8f42-46da-a862-47ab81e99f46",
+        "title": "I Was There When It Happened",
+        "position": "8",
+        "length": "136000",
+        "work": {
+          "id": "b5d36f63-930c-4fe3-ab0c-8c0b118d0e42",
+          "title": "I Was There When It Happened",
+          "composers": [
+            {
+              "name": "Jimmie Davis",
+              "mbid": "06ed4e1e-4416-4a7c-b14b-bc68dfd252aa"
+            },
+            {
+              "name": "Fern Jones",
+              "mbid": "fbce6c82-6962-4c1b-96b2-6d6047f9b120"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b9e8436a-ef5d-4949-af67-f95ce1667f50",
+        "title": "I Walk the Line",
+        "position": "9",
+        "length": "164626",
+        "work": {
+          "id": "ba883522-bf5a-37b5-b6b8-7572e139c6d7",
+          "title": "I Walk the Line",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6a7c4b4f-89c1-4bae-ae5e-30883c6d24e5",
+        "title": "The Wreck of the Old ’97",
+        "position": "10",
+        "length": "107706",
+        "work": {
+          "id": "a619ce36-dbe8-4c16-a5a3-587e934ec637",
+          "title": "Wreck of the Old 97",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "73ddec7a-f259-4942-a9b2-a7b928b0f593",
+        "title": "Folsom Prison Blues",
+        "position": "11",
+        "length": "168893",
+        "work": {
+          "id": "8bd3625e-a993-3388-bfb2-23dc1350fa4d",
+          "title": "Folsom Prison Blues",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            }
+          ]
+        }
+      },
+      {
+        "id": "40d9fb64-ae0c-4ec7-a472-9b7db6f4ef2d",
+        "title": "Doin’ My Time",
+        "position": "12",
+        "length": "158000",
+        "work": {
+          "id": "37d2acd4-00d2-488d-a093-947d1e8e0504",
+          "title": "Doing My Time",
+          "composers": [
+            {
+              "name": "Jimmie Skinner",
+              "mbid": "0b74898e-d682-4037-8bc9-ad71c428d3b9"
+            }
+          ]
+        }
+      }
+    ],
+    "00da4796-a49b-370f-8ac9-88cd90a4a5ac": [
+      {
+        "id": "637fc224-7ef3-46dc-8776-95be04d339bd",
+        "title": "Run Softly, Blue River",
+        "position": "1",
+        "length": "145333",
+        "work": {
+          "id": "1b7e1b2a-a0b2-444a-8de3-113f302556c2",
+          "title": "Run Softly, Blue River",
+          "composers": []
+        }
+      },
+      {
+        "id": "0c337005-9263-4f79-a2c0-a628a6c5e856",
+        "title": "Frankie’s Man, Johnny",
+        "position": "2",
+        "length": "138466",
+        "work": {
+          "id": "3dc80b85-f26e-41cd-a5c3-ccc8b7a8aae0",
+          "title": "Frankie’s Man, Johnny",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dcd6df9e-751e-4277-bdae-0b74cc0d8ec2",
+        "title": "That’s All Over",
+        "position": "3",
+        "length": "115133",
+        "work": {
+          "id": "648cc6ca-9a3c-4e10-90a6-c21c8e76e10c",
+          "title": "That’s All Over",
+          "composers": [
+            {
+              "name": "Dick Glasser",
+              "mbid": "f74d921b-ff91-46dc-b048-f29bb40283c2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f4e8f850-4fbd-4b05-a186-9ab89c47bcea",
+        "title": "The Troubadour",
+        "position": "4",
+        "length": "137800",
+        "work": {
+          "id": "19f33441-4655-4aa1-b2f1-058ec6305592",
+          "title": "Troubadour",
+          "composers": [
+            {
+              "name": "Cindy Walker",
+              "mbid": "b9eeaf09-dcb0-4265-b1c6-c6d446008064"
+            }
+          ]
+        }
+      },
+      {
+        "id": "611cc9a8-17c5-4bc6-9b5a-562ff1f25e19",
+        "title": "One More Ride",
+        "position": "5",
+        "length": "122000",
+        "work": {
+          "id": "b3116c25-33a5-44df-8099-da354f7d262f",
+          "title": "One More Ride",
+          "composers": [
+            {
+              "name": "Bob Nolan",
+              "mbid": "09ffd55e-f998-4f9f-9e62-107789ada951"
+            }
+          ]
+        }
+      },
+      {
+        "id": "89c3f324-274a-46a5-8860-a651f5cca863",
+        "title": "That’s Enough",
+        "position": "6",
+        "length": "163600",
+        "work": {
+          "id": "8324de08-a364-4fa2-bbb1-c08d97f6ad83",
+          "title": "That’s Enough",
+          "composers": [
+            {
+              "name": "Dorothy Love Coates",
+              "mbid": "cb5f4534-0548-4e00-83d7-6760f6c37c38"
+            },
+            {
+              "name": "Jack Nitzsche",
+              "mbid": "28a20b09-5ef7-4f81-878a-a5d8aef5ab1c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b62f056e-e444-4b30-b0f1-6c369497470c",
+        "title": "I Still Miss Someone",
+        "position": "7",
+        "length": "155000",
+        "work": {
+          "id": "cb1b5631-2798-3549-a3cd-99be9a17fb56",
+          "title": "I Still Miss Someone",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            },
+            {
+              "name": "Roy Cash Jr.",
+              "mbid": "68e0829c-a773-4253-b0e0-1cca684a649a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2f6b86cb-4664-454a-a05a-0cb0f8f7171f",
+        "title": "Don’t Take Your Guns to Town",
+        "position": "8",
+        "length": "185533",
+        "work": {
+          "id": "e7e798b8-36ab-31cf-98af-2ab803877283",
+          "title": "Don’t Take Your Guns to Town",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            }
+          ]
+        }
+      },
+      {
+        "id": "05634aa8-e8e9-4f45-9355-b75c40e1e63d",
+        "title": "I’d Rather Die Young",
+        "position": "9",
+        "length": "152533",
+        "work": {
+          "id": "04567be8-5f20-49ee-8b16-1a1bad1ded8c",
+          "title": "I’d Rather Die Young",
+          "composers": [
+            {
+              "name": "Beasley Smith",
+              "mbid": "67e2831b-4072-4c92-aeef-eb5fd6184abe"
+            },
+            {
+              "name": "Billy Vaughn",
+              "mbid": "547e9b0c-66ea-42a3-8990-ac1969f3521c"
+            },
+            {
+              "name": "Randy Wood",
+              "mbid": "45755560-84fa-419a-a14a-5b5e62b321cf"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2e0ff84a-00ed-475c-adde-48de181dd8b3",
+        "title": "Pickin’ Time",
+        "position": "10",
+        "length": "120400",
+        "work": {
+          "id": "01e759ee-3577-4136-b215-a9d365059ee6",
+          "title": "Pickin’ Time",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0a8628fa-74bf-4a43-8e31-d887c75bc9db",
+        "title": "Shepherd of My Heart",
+        "position": "11",
+        "length": "133106",
+        "work": {
+          "id": "92bf8aa2-c381-43a2-b5a5-9cb8aadc3101",
+          "title": "Shepherd of My Heart",
+          "composers": [
+            {
+              "name": "Jenny Lou Carson",
+              "mbid": "cc901fd1-7a6c-483c-bde1-34292a6eadcc"
+            }
+          ]
+        }
+      },
+      {
+        "id": "874bc9ce-b9d2-402d-98c9-cba2502f58eb",
+        "title": "Suppertime",
+        "position": "12",
+        "length": "169534",
+        "work": {
+          "id": "37fcc664-afd8-4d01-a219-c38cc43f9f76",
+          "title": "Suppertime",
+          "composers": [
+            {
+              "name": "Ira Stanphill",
+              "mbid": "8b0cef0c-e676-4851-9442-d080050ea315"
+            }
+          ]
+        }
+      }
+    ],
+    "687df0ac-d420-4809-9bfc-ccd69363783a": [
+      {
+        "id": "bbf1a1af-361d-4ce8-b55c-a7b130028b16",
+        "title": "It Was Jesus",
+        "position": "1",
+        "length": "126933",
+        "work": {
+          "id": "284526c4-8327-4b9b-9957-8fcafe9db0e9",
+          "title": "It Was Jesus",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3140b5e8-8991-403b-abca-2faa3a119547",
+        "title": "I Saw a Man",
+        "position": "2",
+        "length": "156000",
+        "work": {
+          "id": "145c8746-bc20-4626-a53c-0c5286d47272",
+          "title": "I Saw a Man",
+          "composers": [
+            {
+              "name": "Arthur Smith",
+              "mbid": "4a06ee5e-d7e2-4e1e-9c48-c5d0d1716371"
+            }
+          ]
+        }
+      },
+      {
+        "id": "54570b45-8b4f-43a0-a2a0-46aaa07a3d45",
+        "title": "Are All the Children In",
+        "position": "3",
+        "length": "118000",
+        "work": {
+          "id": "f0d0b820-e8e6-4da2-ad1b-85f56cc467de",
+          "title": "Are All the Children In",
+          "composers": [
+            {
+              "name": "Craig Starrett",
+              "mbid": "7566cafe-a268-4a2a-8e88-1bed97f24f51"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a0736a05-fdaa-4ef6-a3f4-0c72e433cd30",
+        "title": "The Old Account",
+        "position": "4",
+        "length": "149000",
+        "work": {
+          "id": "bcba7989-9342-4240-b5ba-c5242e0dc26c",
+          "title": "The Old Account Was Settled",
+          "composers": [
+            {
+              "name": "[traditional]",
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1f52c399-a7c1-43cf-ab6c-a00349e9a4c7",
+        "title": "Lead Me Gently Home",
+        "position": "5",
+        "length": "124000",
+        "work": {
+          "id": "290dca11-4c6c-4ec5-acbf-044cc12df716",
+          "title": "Lead Me Gently Home, Father",
+          "composers": [
+            {
+              "name": "William L. Thompson",
+              "mbid": "55e3a8de-b8a5-4f24-9a9a-bd49dbadf1a8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "66f1b8a5-f1f7-49bc-bba7-ac3dc107d101",
+        "title": "Swing Low, Sweet Chariot",
+        "position": "6",
+        "length": "117000",
+        "work": {
+          "id": "1da416e8-761d-3125-adcb-79bcea5ef544",
+          "title": "Swing Low, Sweet Chariot",
+          "composers": [
+            {
+              "name": "Wallace Willis",
+              "mbid": "6695305e-59a5-44d3-80fc-592dbb155d18"
+            }
+          ]
+        }
+      },
+      {
+        "id": "89b02f4d-f6db-445a-80e8-e20c16843d97",
+        "title": "Snow in His Hair",
+        "position": "7",
+        "length": "144000",
+        "work": {
+          "id": "9e1e199c-866f-42d1-961c-c35090c96bf8",
+          "title": "Snow in His Hair",
+          "composers": [
+            {
+              "name": "Marshall Pack",
+              "mbid": "f50f34f5-a255-4868-b1d7-de1eb6377aea"
+            }
+          ]
+        }
+      },
+      {
+        "id": "650d4376-6ef8-45c8-8d98-a6a46c1938be",
+        "title": "Lead Me, Father",
+        "position": "8",
+        "length": "151000",
+        "work": {
+          "id": "1b32d278-5108-4ae8-bd01-3f8cf770f8bc",
+          "title": "Lead Me Father",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            }
+          ]
+        }
+      },
+      {
+        "id": "23372932-d5d6-4e29-ab03-3a061f890b09",
+        "title": "I Called Him",
+        "position": "9",
+        "length": "111000",
+        "work": {
+          "id": "5a6738a1-3c14-45a2-a554-4f0587b18b0f",
+          "title": "I Call Him",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            },
+            {
+              "name": "Roy Cash Jr.",
+              "mbid": "68e0829c-a773-4253-b0e0-1cca684a649a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4c21c5e1-ad21-490e-ac8a-6be95a2f5348",
+        "title": "These Things Shall Pass",
+        "position": "10",
+        "length": "140000",
+        "work": {
+          "id": "4ab82a1f-defc-4770-aee9-522bdd429762",
+          "title": "These Things Shall Pass, Mark",
+          "composers": [
+            {
+              "name": "Benedict Roger Wallers",
+              "mbid": "d339d59a-18db-4b38-86d5-c72fa9a3a475"
+            }
+          ]
+        }
+      },
+      {
+        "id": "581e787c-36e8-4d0f-b270-420f69e1ce94",
+        "title": "He’ll Be a Friend",
+        "position": "11",
+        "length": "120000",
+        "work": {
+          "id": "4e203619-ad1c-4adf-9ba3-7705f305e9e4",
+          "title": "He’ll Be a Friend",
+          "composers": [
+            {
+              "name": "Johnny Cash",
+              "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6c64c79b-6956-4231-af01-ec6f146a7d5e",
+        "title": "God Will",
+        "position": "12",
+        "length": "144000",
+        "work": {
+          "id": "797ba237-c2cb-41de-9e2c-3395e3f80785",
+          "title": "God Will",
+          "composers": [
+            {
+              "name": "John D. Loudermilk",
+              "mbid": "e5fbd7a7-eaaa-49fa-8512-ac2d1b416011"
+            },
+            {
+              "name": "Marijohn Wilkin",
+              "mbid": "c66e5dec-4271-443d-93bc-1a652e25f03f"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 135946,
+  "wikidata_id": "Q42775"
+}

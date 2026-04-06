@@ -1,0 +1,71 @@
+{
+  "id": 41441,
+  "name": "Bob Marley",
+  "realname": "Robert Nesta Marley",
+  "profile": "Jamaican singer, songwriter and musician most famous for fronting [a21764].\r\nBorn: February 6, 1945 Nine Miles, Jamaica.\r\nDied: May 11, 1981 of cancer in Miami, Florida, USA at 36 years of age.\r\n\r\nHe was the rhythm guitarist and lead singer for the ska, rocksteady and reggae bands [a=The Wailers] (1963-1974) and [a=Bob Marley & The Wailers] (1974–1981). Marley remains the most widely known and revered performer of reggae music, and is credited with helping spread both Jamaican music and the Rastafari movement to a worldwide audience.\r\n\r\nMarley's music was heavily influenced by the social issues of his homeland, and he is considered to have given voice to the specific political and cultural nexus of Jamaica. His best-known hits include \"I Shot the Sheriff\", \"No Woman, No Cry\", \"Could You Be Loved\", \"Stir It Up\", \"Get Up Stand Up\", \"Jamming\", \"Redemption Song\", \"One Love\" and, \"Three Little Birds\", as well as the posthumous releases \"Buffalo Soldier\" and \"Iron Lion Zion\". The compilation album Legend (1984), released three years after his death, is reggae's best-selling album, going ten times Platinum which is also known as one Diamond in the U.S., and selling 25 million copies worldwide.\r\n\r\nInducted into Rock & Roll Hall of Fame in 1994 (Performer)\r\nInducted into Songwriters Hall of Fame in 2010.",
+  "members": [],
+  "groups": [
+    {
+      "name": "Bob Marley & The Wailers",
+      "id": 21764,
+      "active": true
+    },
+    {
+      "name": "The Wailers",
+      "id": 52145,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Folk, World, & Country",
+    "Reggae"
+  ],
+  "styles": [
+    "Gospel",
+    "Holiday",
+    "Reggae Gospel",
+    "Ska"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Reggae",
+      "style": "Ska"
+    },
+    {
+      "genre": "Reggae",
+      "style": "Ska"
+    },
+    {
+      "genre": "Reggae",
+      "style": "Reggae Gospel"
+    },
+    {
+      "genre": "Reggae",
+      "style": "Ska"
+    },
+    {
+      "genre": "Reggae",
+      "style": "Holiday"
+    },
+    {
+      "genre": "Reggae",
+      "style": "Ska"
+    },
+    {
+      "genre": "Reggae",
+      "style": "Gospel"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Ska"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Gospel"
+    },
+    {
+      "genre": "Reggae",
+      "style": "Reggae Gospel"
+    }
+  ]
+}

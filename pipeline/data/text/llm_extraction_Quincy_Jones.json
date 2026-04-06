@@ -1,0 +1,20 @@
+[
+  {"subject": "Quincy Jones", "predicate": "hasGenre", "object": "jazz"},
+  {"subject": "Quincy Jones", "predicate": "hasGenre", "object": "pop"},
+  {"subject": "Quincy Jones", "predicate": "produced", "object": "It's My Party"},
+  {"subject": "Quincy Jones", "predicate": "collaboratedWith", "object": "Frank Sinatra"},
+  {"subject": "Quincy Jones", "predicate": "collaboratedWith", "object": "Count Basie"},
+  {"subject": "Quincy Jones", "predicate": "produced", "object": "Off the Wall"},
+  {"subject": "Quincy Jones", "predicate": "produced", "object": "Thriller"},
+  {"subject": "Quincy Jones", "predicate": "produced", "object": "Bad"},
+  {"subject": "Quincy Jones", "predicate": "produced", "object": "We Are the World"},
+  {"subject": "Quincy Jones", "predicate": "composed", "object": "The Pawnbroker"},
+  {"subject": "Quincy Jones", "predicate": "composed", "object": "In the Heat of the Night"},
+  {"subject": "Quincy Jones", "predicate": "composed", "object": "In Cold Blood"},
+  {"subject": "Quincy Jones", "predicate": "composed", "object": "The Italian Job"},
+  {"subject": "Quincy Jones", "predicate": "composed", "object": "The Wiz"},
+  {"subject": "Quincy Jones", "predicate": "composed", "object": "The Color Purple"},
+  {"subject": "Quincy Jones", "predicate": "composed", "object": "Roots"},
+  {"subject": "Quincy Jones", "predicate": "collaboratedWith", "object": "Lesley Gore"},
+  {"subject": "Quincy Jones", "predicate": "collaboratedWith", "object": "Michael Jackson"}
+]

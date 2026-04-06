@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "Chuck Berry",
+    "predicate": "pioneerOf",
+    "object": "rock and roll"
+  },
+  {
+    "subject": "Chuck Berry",
+    "predicate": "composed",
+    "object": "Maybellene"
+  },
+  {
+    "subject": "Chuck Berry",
+    "predicate": "composed",
+    "object": "Roll Over Beethoven"
+  },
+  {
+    "subject": "Chuck Berry",
+    "predicate": "composed",
+    "object": "Rock and Roll Music"
+  },
+  {
+    "subject": "Chuck Berry",
+    "predicate": "composed",
+    "object": "Johnny B. Goode"
+  },
+  {
+    "subject": "Chuck Berry",
+    "predicate": "influencedBy",
+    "object": "T-Bone Walker"
+  },
+  {
+    "subject": "Chuck Berry",
+    "predicate": "memberOf",
+    "object": "Johnnie Johnson Trio"
+  },
+  {
+    "subject": "Chuck Berry",
+    "predicate": "founded",
+    "object": "Berry's Club Bandstand"
+  },
+  {
+    "subject": "Maybellene",
+    "predicate": "hasGenre",
+    "object": "rhythm and blues"
+  },
+  {
+    "subject": "Maybellene",
+    "predicate": "hasGenre",
+    "object": "rock and roll"
+  },
+  {
+    "subject": "Roll Over Beethoven",
+    "predicate": "hasGenre",
+    "object": "rock and roll"
+  },
+  {
+    "subject": "Rock and Roll Music",
+    "predicate": "hasGenre",
+    "object": "rock and roll"
+  },
+  {
+    "subject": "Johnny B. Goode",
+    "predicate": "hasGenre",
+    "object": "rock and roll"
+  },
+  {
+    "subject": "Chuck Berry",
+    "predicate": "influencedBy",
+    "object": "Muddy Waters"
+  }
+]

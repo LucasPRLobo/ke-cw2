@@ -1,0 +1,338 @@
+{
+  "id": 227677,
+  "name": "Buena Vista Social Club",
+  "realname": null,
+  "profile": "Buena Vista Social Club is an ensemble of Cuban musicians established in 1996 to revive the music of pre-revolutionary Cuba. The project was organized by World Circuit executive Nick Gold, produced by American guitarist Ry Cooder and directed by Juan de Marcos González. They named the group after the homonymous members' club in the Buenavista quarter of Havana, a popular music venue in the 1940s. To showcase the popular styles of the time, such as son, bolero and danzón, they recruited a dozen veteran musicians, many of whom had been retired for many years.\r\n\r\nMusicians:\r\nLuis Barzaga\r\nJoachim Cooder\r\nRy Cooder\r\nJulio Alberto Fernández\r\nIbrahim Ferrer\r\nCarlos González\r\nJuan de Marcos González\r\nRubén González\r\nSalvador Repilado Labrada\r\nManuel 'Puntillita' Licea\r\nOrlando 'Cachaito' López\r\nBenito Suárez Magana\r\nManuel 'Guajiro' Mirabal\r\nEliades Ochoa\r\nOmara Portuondo\r\nJulienne Oviedo Sánchez\r\nCompay Segundo\r\nBarbarito Torres\r\nAlberto 'Virgilio' Valdés\r\nLázaro Villa",
+  "members": [
+    {
+      "name": "Ry Cooder",
+      "id": 55080,
+      "active": false
+    },
+    {
+      "name": "Ibrahim Ferrer",
+      "id": 152232,
+      "active": false
+    },
+    {
+      "name": "Omara Portuondo",
+      "id": 278938,
+      "active": true
+    },
+    {
+      "name": "Rubén González",
+      "id": 342106,
+      "active": false
+    },
+    {
+      "name": "Eliades Ochoa",
+      "id": 342111,
+      "active": true
+    },
+    {
+      "name": "Alberto \"Virgilio\" Valdés",
+      "id": 356498,
+      "active": true
+    },
+    {
+      "name": "Carlos González",
+      "id": 356501,
+      "active": true
+    },
+    {
+      "name": "Barbarito Torres",
+      "id": 363534,
+      "active": true
+    },
+    {
+      "name": "Manuel Galbán",
+      "id": 364194,
+      "active": false
+    },
+    {
+      "name": "Joachim Cooder",
+      "id": 364196,
+      "active": true
+    },
+    {
+      "name": "Orlando \"Cachaíto\" López",
+      "id": 364202,
+      "active": true
+    },
+    {
+      "name": "Luis Frank Arias",
+      "id": 365935,
+      "active": true
+    },
+    {
+      "name": "Francisco Repilado",
+      "id": 365939,
+      "active": false
+    },
+    {
+      "name": "Lázaro Villa",
+      "id": 432818,
+      "active": true
+    },
+    {
+      "name": "Angel Terry",
+      "id": 432827,
+      "active": true
+    },
+    {
+      "name": "Luis Barzaga",
+      "id": 434259,
+      "active": true
+    },
+    {
+      "name": "Salvador Repilado Labrada",
+      "id": 434261,
+      "active": true
+    },
+    {
+      "name": "Julienne Oviedo Sanchez",
+      "id": 434262,
+      "active": true
+    },
+    {
+      "name": "Demetrio Muñiz",
+      "id": 509239,
+      "active": false
+    },
+    {
+      "name": "Juan de Marcos González",
+      "id": 575036,
+      "active": true
+    },
+    {
+      "name": "Julio Fernández Colina",
+      "id": 588766,
+      "active": true
+    },
+    {
+      "name": "Benito Suárez",
+      "id": 588767,
+      "active": true
+    },
+    {
+      "name": "Angel Terri Domech",
+      "id": 890733,
+      "active": true
+    },
+    {
+      "name": "Roberto García",
+      "id": 1212009,
+      "active": true
+    },
+    {
+      "name": "Jesús \"Aguaje\" Ramos",
+      "id": 1629908,
+      "active": true
+    },
+    {
+      "name": "Manuel 'Guajiro' Mirabal",
+      "id": 2759196,
+      "active": true
+    },
+    {
+      "name": "Ruy López-Nussa",
+      "id": 5622823,
+      "active": false
+    },
+    {
+      "name": "Manuel 'Puntillita' Licea",
+      "id": 5753291,
+      "active": false
+    },
+    {
+      "name": "José Antonio \"Maceo\" Rodríguez",
+      "id": 5765090,
+      "active": false
+    }
+  ],
+  "groups": [],
+  "genres": [
+    "Folk, World, & Country",
+    "Jazz",
+    "Latin"
+  ],
+  "styles": [
+    "Afro-Cuban Jazz",
+    "Ballad",
+    "Bolero",
+    "Danzon",
+    "Guajira",
+    "Son",
+    "Trova"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Jazz",
+      "style": "Afro-Cuban Jazz"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Trova"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Son"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Danzon"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Bolero"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Guajira"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Latin",
+      "style": "Afro-Cuban Jazz"
+    },
+    {
+      "genre": "Latin",
+      "style": "Trova"
+    },
+    {
+      "genre": "Latin",
+      "style": "Son"
+    },
+    {
+      "genre": "Latin",
+      "style": "Danzon"
+    },
+    {
+      "genre": "Latin",
+      "style": "Bolero"
+    },
+    {
+      "genre": "Latin",
+      "style": "Guajira"
+    },
+    {
+      "genre": "Latin",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Afro-Cuban Jazz"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Trova"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Son"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Danzon"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Bolero"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Guajira"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Afro-Cuban Jazz"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Bolero"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Son"
+    },
+    {
+      "genre": "Latin",
+      "style": "Afro-Cuban Jazz"
+    },
+    {
+      "genre": "Latin",
+      "style": "Bolero"
+    },
+    {
+      "genre": "Latin",
+      "style": "Son"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Afro-Cuban Jazz"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Bolero"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Son"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Afro-Cuban Jazz"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Bolero"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Son"
+    },
+    {
+      "genre": "Latin",
+      "style": "Afro-Cuban Jazz"
+    },
+    {
+      "genre": "Latin",
+      "style": "Bolero"
+    },
+    {
+      "genre": "Latin",
+      "style": "Son"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Afro-Cuban Jazz"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Son"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Trova"
+    },
+    {
+      "genre": "Latin",
+      "style": "Afro-Cuban Jazz"
+    },
+    {
+      "genre": "Latin",
+      "style": "Son"
+    },
+    {
+      "genre": "Latin",
+      "style": "Trova"
+    }
+  ]
+}

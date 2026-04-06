@@ -1,0 +1,776 @@
+{
+  "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58",
+  "name": "Hildegard von Bingen",
+  "type": "Person",
+  "country": "DE",
+  "gender": "Female",
+  "life_span": {
+    "begin": "1098-09-16",
+    "end": "1179-09-17",
+    "ended": "true"
+  },
+  "area": "Germany",
+  "begin_area": "Bermersheim",
+  "tags": [
+    {
+      "name": "classical",
+      "count": "1"
+    },
+    {
+      "name": "composer",
+      "count": "1"
+    },
+    {
+      "name": "early music",
+      "count": "1"
+    },
+    {
+      "name": "female composer",
+      "count": "1"
+    },
+    {
+      "name": "medieval",
+      "count": "2"
+    },
+    {
+      "name": "women composers",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Hildegard von Binge Drinking",
+      "target_mbid": "2277d300-1237-4fbf-b222-b41ae3b226d3",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Hildegard von Blingin’",
+      "target_mbid": "4720bd68-9be0-4652-bf8a-41d190cfd5ed",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/743697"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/2xt1t3lfZ5FGaEKrs0jp0d"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/1264933"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm1388183/"
+    },
+    {
+      "type": "IMSLP",
+      "target": "https://imslp.org/wiki/Category:Hildegard"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n80118409"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb11907515z"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118550993"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6np30g1"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1131144"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL5840320A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n80118409"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/87772061"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q70991"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "ef37673f-632e-30a9-80db-5d3be1a9d4b4",
+      "title": "Ordo virtutum",
+      "type": "Album",
+      "first_release_date": "1982"
+    },
+    {
+      "id": "247d3e59-801b-373f-8adc-0951f9baed7f",
+      "title": "A Feather on the Breath of God",
+      "type": "Album",
+      "first_release_date": "1985-04"
+    },
+    {
+      "id": "348bd9de-018e-37a8-a9a7-320a4c9be19b",
+      "title": "Symphoniae (Geistliche Gesänge)",
+      "type": "Album",
+      "first_release_date": "1985"
+    },
+    {
+      "id": "e5d3369b-4d20-32e3-a91a-f5ecaf56f572",
+      "title": "Zum Fest der Heiligen Hildegard von Bingen (Schola und Chor der Benediktinerinnenabtei St Hildegard, Eibingen)",
+      "type": "Album",
+      "first_release_date": "1990"
+    },
+    {
+      "id": "586341f4-0594-441f-9891-115551355a08",
+      "title": "Jouissance",
+      "type": "Album",
+      "first_release_date": "1993"
+    },
+    {
+      "id": "e8096659-3605-3e82-882c-1d281587c750",
+      "title": "Canticles of Ecstasy",
+      "type": "Album",
+      "first_release_date": "1994-10-28"
+    },
+    {
+      "id": "4d7deacc-b913-3f6e-9305-9263466e4028",
+      "title": "Vision: The Music of Hildegard von Bingen",
+      "type": "Album",
+      "first_release_date": "1994-11-01"
+    },
+    {
+      "id": "e42b7e6d-bffc-3c51-baff-9a80d051ccc7",
+      "title": "Heavenly Revelations: Hymns, Sequences, Antiphons, Responds",
+      "type": "Album",
+      "first_release_date": "1995"
+    },
+    {
+      "id": "a97db418-6ff2-408f-a7f6-d1f90f5832dc",
+      "title": "The Harmony of Heaven",
+      "type": "Album",
+      "first_release_date": "1995"
+    },
+    {
+      "id": "8c4e533e-422b-3137-acb9-0af984a26034",
+      "title": "Voice of the Blood",
+      "type": "Album",
+      "first_release_date": "1995"
+    },
+    {
+      "id": "1f898ef7-1b7b-3e43-8c92-6aefbeb1f499",
+      "title": "O Nobilissima Viriditas",
+      "type": "Album",
+      "first_release_date": "1996"
+    },
+    {
+      "id": "7d1906ab-62e8-4933-b72c-2bdd398994d6",
+      "title": "Symphony of The Harmony of Celestial Revelations: The Complete Hildegard von Bingen, Volume 1",
+      "type": "Album",
+      "first_release_date": "1996"
+    },
+    {
+      "id": "857bf380-1f78-3b81-b317-ff2048155588",
+      "title": "11,000 Virgins: Chants for the Feast of St. Ursula",
+      "type": "Album",
+      "first_release_date": "1997-04-29"
+    },
+    {
+      "id": "8ec74528-b1d4-3bbb-8990-87b7ff9e24c3",
+      "title": "O Jerusalem",
+      "type": "Album",
+      "first_release_date": "1997-05-20"
+    },
+    {
+      "id": "e541504e-9f7b-44fb-9741-c27b8f5d19c0",
+      "title": "\"O Vis Aeternitatis\": Vespers in der Abtei St. Hildegard",
+      "type": "Album",
+      "first_release_date": "1997-08-01"
+    },
+    {
+      "id": "a0a3d005-e349-459a-98f0-1a8376008ec4",
+      "title": "Celestial Light",
+      "type": "Album",
+      "first_release_date": "1997"
+    },
+    {
+      "id": "8068525e-d1e5-34f1-b861-47b22fc77b30",
+      "title": "Celestial Stairs",
+      "type": "Album",
+      "first_release_date": "1997"
+    },
+    {
+      "id": "2932e3dd-5a07-4f5b-8f08-5c261882342b",
+      "title": "Laudes de Sainte Ursule",
+      "type": "Album",
+      "first_release_date": "1997"
+    },
+    {
+      "id": "899dd345-80b2-4650-845d-2f0caa3804a3",
+      "title": "Hortus Deliciarum",
+      "type": "Album",
+      "first_release_date": "1998"
+    },
+    {
+      "id": "d0ae9251-3439-3132-8dcb-a3dd5486a66a",
+      "title": "Ordo Virtutum",
+      "type": "Album",
+      "first_release_date": "1998"
+    },
+    {
+      "id": "2f000392-c727-4a7f-a09d-9a75ff7e46fe",
+      "title": "Saints",
+      "type": "Album",
+      "first_release_date": "1998"
+    },
+    {
+      "id": "f23cd88c-94cf-433a-a57d-c71d4b5dd633",
+      "title": "Aurora: The Complete Hildegard von Bingen, Volume 2",
+      "type": "Album",
+      "first_release_date": "1999"
+    },
+    {
+      "id": "6956e989-c15c-3443-a3bf-3f458366f2e8",
+      "title": "Music of the Angels: Hildegard von Bingen: The Gold Collection",
+      "type": "Album",
+      "first_release_date": "2000"
+    },
+    {
+      "id": "85ab5435-de08-409f-a4a2-036a852853b5",
+      "title": "Sapphire Night",
+      "type": "Album",
+      "first_release_date": "2003"
+    },
+    {
+      "id": "1782d163-dac5-4fe9-921c-766724b17767",
+      "title": "Sponsa regis : La victoire de la Vierge dans l’œuvre d’Hildegard",
+      "type": "Album",
+      "first_release_date": "2003"
+    }
+  ],
+  "tracks": {
+    "ef37673f-632e-30a9-80db-5d3be1a9d4b4": [
+      {
+        "id": "389336f6-5b9e-42d7-a004-4626b90b102a",
+        "title": "Ecce quadragesimo tertio",
+        "position": "1",
+        "length": "202933",
+        "work": {
+          "id": "5b68c269-ba37-4970-8669-b4b3b347f1fb",
+          "title": "Ecce quadragesimo tertio",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "32fe2a8c-f580-465d-91fb-05e6609f9b76",
+        "title": "Antiphon: O splendidissima gemma",
+        "position": "2",
+        "length": "303800",
+        "work": {
+          "id": "58dac5f1-20a7-386a-b524-ccebd2614167",
+          "title": "Symphonia armonie celestium revelationum: O splendidissima gemma",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9a9228a7-20bf-4423-ac35-edf6fa4037af",
+        "title": "Prologue: Qui sunt hi, qui ut nubes?",
+        "position": "3",
+        "length": "133866",
+        "work": {
+          "id": "d2522cbc-c951-4435-915a-9192e55d009b",
+          "title": "Ordo Virtutum: Prologue. Qui sunt hi, qui ut nubes?",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2a6b9e80-8c7d-4bb6-913d-b4b939f7d4be",
+        "title": "Scene One: O nos peregrine sumus",
+        "position": "4",
+        "length": "1173200",
+        "work": {
+          "id": "4cda7f0d-1b6c-43ab-893c-2f67a0b0a861",
+          "title": "Ordo Virtutum: Scene 1. O nos peregrine sumus",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5babecf0-e26e-4fbc-a2b0-37a07c61b7b6",
+        "title": "Scene Two: Ego, Humilitas, regina, Virtutum",
+        "position": "5",
+        "length": "1120200",
+        "work": {
+          "id": "1cd7acdc-d378-4b80-8d5e-1b9802603dab",
+          "title": "Ordo Virtutum: Scene 2. Ego Humilitas",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c4a112a6-cb4e-4aa0-b529-a3113f850500",
+        "title": "Scene Two: Ego sum, amatrix simplicium morum",
+        "position": "1",
+        "length": "728560",
+        "work": {
+          "id": "1cd7acdc-d378-4b80-8d5e-1b9802603dab",
+          "title": "Ordo Virtutum: Scene 2. Ego Humilitas",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f0797371-10f2-4d8f-bd75-96867fa7ee96",
+        "title": "Scene Three: Heu, heu, nos Virtutes plangamus",
+        "position": "2",
+        "length": "805706",
+        "work": {
+          "id": "6b21d0a4-6b2d-4da5-ac01-4b853c71a51a",
+          "title": "Ordo Virtutum: Scene 3. Heu! Heu! nos virtutes plangamus",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "14959f0c-ec33-4b1d-8a53-63d26739bb88",
+        "title": "Scene Four: Que es, aut unde venis?",
+        "position": "3",
+        "length": "587466",
+        "work": {
+          "id": "4e2bfd84-55bd-4890-9da0-4d6d2f643e4d",
+          "title": "Ordo Virtutum: Scene 3. Que es, aut unde venis?",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dc30a20c-86ce-42d2-b7b4-7903e2d54649",
+        "title": "Finale: Hoc audiant et intelligant omnes populi",
+        "position": "4",
+        "length": "46666",
+        "work": {
+          "id": "b60b1a96-4c3d-4605-8203-227bf1d2bd48",
+          "title": "Ordo Virtutum: Finale. In principio",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1536b951-7637-4d8d-aae6-e45bb60694d0",
+        "title": "Finale: In principio omnes creature viruerunt",
+        "position": "5",
+        "length": "240000",
+        "work": {
+          "id": "b60b1a96-4c3d-4605-8203-227bf1d2bd48",
+          "title": "Ordo Virtutum: Finale. In principio",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      }
+    ],
+    "247d3e59-801b-373f-8adc-0951f9baed7f": [
+      {
+        "id": "903cb98c-9947-4a2a-a7b7-1dbb2414599d",
+        "title": "Columba aspexit",
+        "position": "1",
+        "length": "317800",
+        "work": {
+          "id": "26b6bc2a-ed47-44ef-81ab-d24c2ee3a2ef",
+          "title": "Symphonia armonie celestium revelationem: Columba aspexit",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fea1d5fc-1490-486b-8c45-7b456f06c18b",
+        "title": "Ave, generosa",
+        "position": "2",
+        "length": "276840",
+        "work": {
+          "id": "9245296d-a3a7-3d92-bab8-c243723dc6ee",
+          "title": "Symphonia armonie celestium revelationum: Ave generosa",
+          "composers": [
+            {
+              "name": "Ola Gjeilo",
+              "mbid": "161b32e2-2c37-4445-9087-a597ebcd0fd4"
+            },
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "498ce779-6ea2-429b-8e88-957c36a9dab3",
+        "title": "O ignis spiritus",
+        "position": "3",
+        "length": "288333",
+        "work": {
+          "id": "39aefce9-6c78-3f07-ab94-8d5ac5df1519",
+          "title": "Symphonia armonie celestium revelationum: O ignis Spiritus paracliti",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "410c1651-8508-491b-bd7a-23fefff60237",
+        "title": "O Ierusalem",
+        "position": "4",
+        "length": "482493",
+        "work": {
+          "id": "119a58b4-e101-451c-9430-ab1bb3c5da8d",
+          "title": "Symphonia armonie celestium revelationem: O Jerusalem aurea civitas",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b1bc8fe7-c3fe-4ff4-b2f4-51221a6071fb",
+        "title": "O Euchari",
+        "position": "5",
+        "length": "343173",
+        "work": {
+          "id": "71ec4622-ed92-3cf0-a22c-f06a59611c0f",
+          "title": "O Euchari",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dba4a20c-f4f0-42ef-80ea-fb4a1eab1e14",
+        "title": "O viridissima virga",
+        "position": "6",
+        "length": "193826",
+        "work": {
+          "id": "907970a5-e20b-3c16-8734-f628294eb181",
+          "title": "Symphonia armonie celestium revelationum: O viridissima virga",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b9fe7ed4-4fbc-473e-a53e-35d9b3b177e1",
+        "title": "O presul vere civitatis",
+        "position": "7",
+        "length": "372173",
+        "work": {
+          "id": "f19cb934-14d3-4334-af02-d21f0f7d7bd3",
+          "title": "Symphonia armonie celestium revelationum: O presul vere civitatis",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cd4d612f-2c7a-4c11-a18e-623b88a9bd58",
+        "title": "O Ecclesia",
+        "position": "8",
+        "length": "371346",
+        "work": {
+          "id": "73227679-f9c1-3657-9242-d023c64331b2",
+          "title": "Symphonia armonie celestium revelationem: O Ecclesia",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      }
+    ],
+    "348bd9de-018e-37a8-a9a7-320a4c9be19b": [
+      {
+        "id": "704d1818-bbae-416b-830f-b7bace038623",
+        "title": "Symphonia armonie celestium revelationem: O quam mirabilis est",
+        "position": "1",
+        "length": "161066",
+        "work": {
+          "id": "9bd5cb9c-d0ff-4a5b-8faf-9a3318160384",
+          "title": "Symphonia armonie celestium revelationem: O quam mirabilis est",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "01e86bdc-d516-448e-8530-296d1976c654",
+        "title": "Symphonia armonie celestium revelationem: O pulchare facies",
+        "position": "2",
+        "length": "235200",
+        "work": {
+          "id": "d6844702-d936-4ad6-abfc-21e75b79e5b3",
+          "title": "Symphonia armonie celestium revelationem: O pulchrae facies",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a0429252-79a2-4cb0-9aa8-67c369dbae57",
+        "title": "Symphonia armonie celestium revelationem: O virga ac diadema purpurae regis",
+        "position": "3",
+        "length": "289626",
+        "work": {
+          "id": "e3db2b13-ee76-3d95-9ef9-3b50beb9a433",
+          "title": "Symphonia armonie celestium revelationum: O virga ac diadema",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "83c09e02-c1cc-45f5-8a5b-295608bea5d0",
+        "title": "Instrumental",
+        "position": "4",
+        "length": "112773",
+        "work": {
+          "id": "fc8b9521-5860-4d9a-baf0-ad4d3d389eb1",
+          "title": "Instrumental",
+          "composers": []
+        }
+      },
+      {
+        "id": "4167674c-c0fd-4333-8879-a319843c28e5",
+        "title": "Symphonia armonie celestium revelationem: O clarissima mater",
+        "position": "5",
+        "length": "487466",
+        "work": {
+          "id": "b5695fb0-4208-4324-ba91-1309b202111e",
+          "title": "Symphonia armonie celestium revelationem: O clarissima mater",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7b0be4b2-6604-4e4e-8eee-a2156e7e133f",
+        "title": "Instrumental",
+        "position": "6",
+        "length": "299693",
+        "work": {
+          "id": "d58f3b4d-6487-418f-93d8-fbe69d9215df",
+          "title": "Instrumental",
+          "composers": []
+        }
+      },
+      {
+        "id": "2a0b3821-1fa1-42c7-9a90-ac24e08a1cd8",
+        "title": "Symphonia armonie celestium revelationem: Spiritul Sancto honor sit",
+        "position": "7",
+        "length": "296173",
+        "work": {
+          "id": "231af94e-1a08-4560-9591-178c350f250f",
+          "title": "Symphonia armonie celestium revelationem: Spiritui sancto",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "868b8e39-6c4a-4562-9161-2329bea6b52f",
+        "title": "Symphonia armonie celestium revelationem: O virtus sapientiae",
+        "position": "8",
+        "length": "173426",
+        "work": {
+          "id": "3188e825-9145-4181-8e57-7bdb417b1259",
+          "title": "Symphonia armonie celestium revelationem: O virtus Sapientiae",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a1b0097c-ab03-470b-908f-c7c0f6ec8b70",
+        "title": "Symphonia armonie celestium revelationem: O lucidissima Apostolorum turba",
+        "position": "9",
+        "length": "400533",
+        "work": {
+          "id": "5e49b8ab-e86c-441a-a497-9304149cea12",
+          "title": "Symphonia armonie celestium revelationum: O lucidissima apostolorum turba",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cf59d499-c8d1-46ed-9622-a493455464ac",
+        "title": "Instrumental",
+        "position": "10",
+        "length": "177933",
+        "work": {
+          "id": "8b29617a-61c9-4c10-b360-4018972d69bc",
+          "title": "Instrumental",
+          "composers": []
+        }
+      },
+      {
+        "id": "5a315cea-b89a-4652-8b2e-016f627a8ea5",
+        "title": "Symphonia armonie celestium revelationem: O successores fortissimi leonis",
+        "position": "11",
+        "length": "130133",
+        "work": {
+          "id": "8709def8-2029-4716-abf5-f8d87dd47f27",
+          "title": "Symphonia armonie celestium revelationem: O successores fortissimi leonis",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f3c071ed-09f3-4d20-b4bd-197fd9665403",
+        "title": "Symphonia armonie celestium revelationem: O vos, felices radices",
+        "position": "12",
+        "length": "306733",
+        "work": {
+          "id": "5bba44d0-a27e-413f-ab6c-b825d7222e93",
+          "title": "Symphonia armonie celestium revelationem: O vos, felices radices",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a5508c65-bcc7-4686-93c8-23f88bb8c97a",
+        "title": "Instrumental",
+        "position": "13",
+        "length": "318800",
+        "work": {
+          "id": "5436061a-b25c-4ead-9059-6731c470dd2d",
+          "title": "Instrumental",
+          "composers": []
+        }
+      },
+      {
+        "id": "6ddf8026-cc8a-4255-a33d-794187d6f802",
+        "title": "Symphonia armonie celestium revelationem: Vos flores rosarum",
+        "position": "14",
+        "length": "346440",
+        "work": {
+          "id": "2049fa28-0ce2-4dfc-a06f-2598e9c52d14",
+          "title": "Symphonia armonie celestium revelationem: Vos flores rosarum",
+          "composers": [
+            {
+              "name": "Hildegard von Bingen",
+              "mbid": "2d923f7b-45a1-4204-beb8-5b106e913b58"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 743697,
+  "wikidata_id": "Q70991"
+}

@@ -1,0 +1,236 @@
+{
+  "wikidata_id": "Q392",
+  "genres": [
+    "jazz",
+    "blues",
+    "rock music",
+    "country music",
+    "gospel music",
+    "folk rock",
+    "country rock",
+    "Christian rock",
+    "American folk music",
+    "Americana",
+    "folk-pop"
+  ],
+  "instruments": [
+    "piano",
+    "guitar",
+    "harmonica",
+    "nyckelharpa",
+    "Richter-tuned harmonica",
+    "voice"
+  ],
+  "awards": [
+    "Presidential Medal of Freedom",
+    "Nobel Prize in Literature",
+    "Academy Award for Best Original Song",
+    "Rock and Roll Hall of Fame",
+    "Polar Music Prize",
+    "Grammy Award for Album of the Year",
+    "Grammy Lifetime Achievement Award",
+    "Grammy Award for Best Male Rock Vocal Performance",
+    "Grammy Award for Best Solo Rock Vocal Performance",
+    "Grammy Award for Best Rock Performance by a Duo or Group with Vocal",
+    "Kennedy Center Honors",
+    "National Medal of Arts",
+    "Princess of Asturias Award for the Arts",
+    "Grammy Award for Best Contemporary Folk Album",
+    "Grammy Award for Best Traditional Folk Album",
+    "Pulitzer Prize Special Citations and Awards",
+    "Knight of the Legion of Honour",
+    "Grammy Award for Best Americana Album",
+    "Commandeur des Arts et des Lettres",
+    "honorary doctor of the University of St Andrews",
+    "honorary doctorate from Princeton University",
+    "Terence Donovan Award"
+  ],
+  "labels": [
+    "Columbia Records",
+    "Asylum Records"
+  ],
+  "influences": [
+    "Woody Guthrie",
+    "Allen Ginsberg",
+    "Bertolt Brecht",
+    "Robert Johnson",
+    "Suze Rotolo"
+  ],
+  "occupations": [
+    "screenwriter",
+    "actor",
+    "writer",
+    "composer",
+    "poet",
+    "disc jockey",
+    "singer",
+    "record producer",
+    "musician",
+    "songwriter",
+    "lyricist",
+    "guitarist",
+    "painter",
+    "film director",
+    "radio personality",
+    "designer",
+    "film actor",
+    "autobiographer"
+  ],
+  "country": "United States",
+  "birth_place": "Duluth",
+  "birth_date": "1941-05-24",
+  "death_date": null,
+  "wikipedia_title": "Bob Dylan",
+  "compositions": [
+    {
+      "title": "Like a Rolling Stone",
+      "genre": "folk rock",
+      "date": "1965-01-01"
+    },
+    {
+      "title": "4th Time Around",
+      "genre": "popular music",
+      "date": "1966-01-01"
+    },
+    {
+      "title": "Black Crow Blues",
+      "genre": "contemporary folk music",
+      "date": "1964-01-01"
+    },
+    {
+      "title": "My Own Love Song",
+      "genre": "drama film",
+      "date": "2010-01-01"
+    },
+    {
+      "title": "The Ballad of Frankie Lee and Judas Priest",
+      "genre": "folk rock",
+      "date": "1967-01-01"
+    },
+    {
+      "title": "You're Gonna Make Me Lonesome When You Go",
+      "genre": "popular music",
+      "date": "1974-01-01"
+    },
+    {
+      "title": "Blowin' in the Wind",
+      "genre": "contemporary folk music",
+      "date": "1962-01-01"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "genre": "contemporary folk music",
+      "date": "1967-01-01"
+    },
+    {
+      "title": "Masters of War",
+      "genre": "popular music",
+      "date": "1963-01-01"
+    },
+    {
+      "title": "John Wesley Harding",
+      "genre": "folk rock",
+      "date": "1967-01-01"
+    },
+    {
+      "title": "One of Us Must Know (Sooner or Later)",
+      "genre": "popular music",
+      "date": "1966-01-01"
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "genre": "rock music",
+      "date": "1973-01-01"
+    },
+    {
+      "title": "I'm Not There",
+      "genre": "drama film",
+      "date": "2007-01-01"
+    },
+    {
+      "title": "I'm Not There",
+      "genre": "biographical film",
+      "date": "2007-01-01"
+    },
+    {
+      "title": "I'm Not There",
+      "genre": "musical film",
+      "date": "2007-01-01"
+    },
+    {
+      "title": "I'm Not There",
+      "genre": "drama film",
+      "date": "2008-02-28"
+    },
+    {
+      "title": "I'm Not There",
+      "genre": "biographical film",
+      "date": "2008-02-28"
+    },
+    {
+      "title": "I'm Not There",
+      "genre": "musical film",
+      "date": "2008-02-28"
+    },
+    {
+      "title": "Masked and Anonymous",
+      "genre": "drama film",
+      "date": "2003-01-01"
+    },
+    {
+      "title": "Masked and Anonymous",
+      "genre": "musical film",
+      "date": "2003-01-01"
+    },
+    {
+      "title": "If Not for You",
+      "genre": "popular music",
+      "date": "1970-01-01"
+    },
+    {
+      "title": "Pat Garrett and Billy the Kid",
+      "genre": "Western film",
+      "date": "1973-05-23"
+    },
+    {
+      "title": "Pat Garrett and Billy the Kid",
+      "genre": "biographical film",
+      "date": "1973-05-23"
+    },
+    {
+      "title": "Pat Garrett and Billy the Kid",
+      "genre": "Western film",
+      "date": "1973-05-25"
+    },
+    {
+      "title": "Pat Garrett and Billy the Kid",
+      "genre": "biographical film",
+      "date": "1973-05-25"
+    },
+    {
+      "title": "Pat Garrett and Billy the Kid",
+      "genre": "Western film",
+      "date": "1973-08-30"
+    },
+    {
+      "title": "Pat Garrett and Billy the Kid",
+      "genre": "biographical film",
+      "date": "1973-08-30"
+    },
+    {
+      "title": "Pat Garrett and Billy the Kid",
+      "genre": "Western film",
+      "date": "1973-08-31"
+    },
+    {
+      "title": "Pat Garrett and Billy the Kid",
+      "genre": "biographical film",
+      "date": "1973-08-31"
+    },
+    {
+      "title": "Pat Garrett and Billy the Kid",
+      "genre": "Western film",
+      "date": "1973-09-20"
+    }
+  ]
+}

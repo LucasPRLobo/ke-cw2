@@ -1,0 +1,255 @@
+{
+  "wikidata_id": "Q5383",
+  "genres": [
+    "rapping",
+    "electronic music",
+    "alternative rock",
+    "rock music",
+    "pop music",
+    "glam rock",
+    "hard rock",
+    "soul",
+    "new wave",
+    "ambient music",
+    "psychedelic rock",
+    "art rock",
+    "psychedelic pop",
+    "pop rock",
+    "avant-garde jazz",
+    "blue-eyed soul",
+    "experimental rock",
+    "art pop"
+  ],
+  "instruments": [
+    "piano",
+    "guitar",
+    "saxophone",
+    "keyboard instrument",
+    "drum kit",
+    "musical keyboard",
+    "ARP 2500",
+    "voice"
+  ],
+  "awards": [
+    "Grammy Hall of Fame",
+    "Great Britons",
+    "Rock and Roll Hall of Fame",
+    "Ordre des Arts et des Lettres",
+    "Grammy Lifetime Achievement Award",
+    "Saturn Award for Best Actor",
+    "Rolling Stone's 100 Greatest Artists of All Time",
+    "Commander of the Order of the British Empire",
+    "Commandeur des Arts et des Lettres",
+    "star on Hollywood Walk of Fame",
+    "Webby Lifetime Achievement Award",
+    "Science Fiction and Fantasy Hall of Fame",
+    "honorary doctor of the Berklee College of Music"
+  ],
+  "labels": [
+    "Mercury Records",
+    "Columbia Records",
+    "EMI",
+    "RCA Records",
+    "Virgin Records",
+    "Parlophone",
+    "Decca",
+    "Rykodisc",
+    "Bertelsmann Music Group",
+    "Vocalion Records",
+    "Pye Records",
+    "Deram",
+    "Iso (record label)",
+    "RCA"
+  ],
+  "influences": [
+    "Bob Dylan",
+    "The Beatles",
+    "Jacques Brel",
+    "Pink Floyd",
+    "Andy Warhol",
+    "Little Richard",
+    "The Velvet Underground",
+    "Scott Walker"
+  ],
+  "occupations": [
+    "actor",
+    "composer",
+    "singer",
+    "record producer",
+    "pianist",
+    "singer-songwriter",
+    "musician",
+    "mime artist",
+    "songwriter",
+    "bandleader",
+    "guitarist",
+    "painter",
+    "music video director",
+    "vocalist",
+    "film producer",
+    "visual artist",
+    "librettist",
+    "art collector",
+    "film actor",
+    "occultist",
+    "saxophonist",
+    "manufacturer"
+  ],
+  "country": "United Kingdom",
+  "birth_place": "Brixton",
+  "birth_date": "1947-01-08",
+  "death_date": "2016-01-10",
+  "wikipedia_title": "David Bowie",
+  "compositions": [
+    {
+      "title": "Ziggy Stardust",
+      "genre": "glam rock",
+      "date": "1972-01-01"
+    },
+    {
+      "title": "Fame",
+      "genre": "funk",
+      "date": "1975-07-25"
+    },
+    {
+      "title": "Ashes to Ashes",
+      "genre": "popular music",
+      "date": "1980-01-01"
+    },
+    {
+      "title": "Absolute Beginners",
+      "genre": "musical film",
+      "date": "1986-04-18"
+    },
+    {
+      "title": "Absolute Beginners",
+      "genre": "romance film",
+      "date": "1986-04-18"
+    },
+    {
+      "title": "Absolute Beginners",
+      "genre": "teen film",
+      "date": "1986-04-18"
+    },
+    {
+      "title": "Absolute Beginners",
+      "genre": "coming-of-age film",
+      "date": "1986-04-18"
+    },
+    {
+      "title": "Absolute Beginners",
+      "genre": "musical film",
+      "date": "1986-04-24"
+    },
+    {
+      "title": "Absolute Beginners",
+      "genre": "romance film",
+      "date": "1986-04-24"
+    },
+    {
+      "title": "Absolute Beginners",
+      "genre": "teen film",
+      "date": "1986-04-24"
+    },
+    {
+      "title": "Absolute Beginners",
+      "genre": "coming-of-age film",
+      "date": "1986-04-24"
+    },
+    {
+      "title": "Suffragette City",
+      "genre": "glam rock",
+      "date": "1972-01-01"
+    },
+    {
+      "title": "Space Oddity",
+      "genre": "folk rock",
+      "date": "1969-07-11"
+    },
+    {
+      "title": "Space Oddity",
+      "genre": "space rock",
+      "date": "1969-07-11"
+    },
+    {
+      "title": "\"Heroes\"",
+      "genre": "rock music",
+      "date": "1977-01-01"
+    },
+    {
+      "title": "The Nomad Soul",
+      "genre": "adventure video game",
+      "date": "1999-10-29"
+    },
+    {
+      "title": "The Nomad Soul",
+      "genre": "first-person shooter",
+      "date": "1999-10-29"
+    },
+    {
+      "title": "The Nomad Soul",
+      "genre": "action-adventure game",
+      "date": "1999-10-29"
+    },
+    {
+      "title": "The Nomad Soul",
+      "genre": "role-playing video game",
+      "date": "1999-10-29"
+    },
+    {
+      "title": "The Nomad Soul",
+      "genre": "fighting game",
+      "date": "1999-10-29"
+    },
+    {
+      "title": "The Nomad Soul",
+      "genre": "cyberpunk video game",
+      "date": "1999-10-29"
+    },
+    {
+      "title": "Under Pressure",
+      "genre": "rock and roll",
+      "date": "1981-01-01"
+    },
+    {
+      "title": "Sound and Vision",
+      "genre": "art rock",
+      "date": "1977-01-01"
+    },
+    {
+      "title": "Sound and Vision",
+      "genre": "art pop",
+      "date": "1977-01-01"
+    },
+    {
+      "title": "C.R.A.Z.Y.",
+      "genre": "comedy film",
+      "date": "2005-05-27"
+    },
+    {
+      "title": "C.R.A.Z.Y.",
+      "genre": "independent film",
+      "date": "2005-05-27"
+    },
+    {
+      "title": "C.R.A.Z.Y.",
+      "genre": "historical drama",
+      "date": "2005-05-27"
+    },
+    {
+      "title": "C.R.A.Z.Y.",
+      "genre": "LGBTQ-related film",
+      "date": "2005-05-27"
+    },
+    {
+      "title": "C.R.A.Z.Y.",
+      "genre": "coming-of-age film",
+      "date": "2005-05-27"
+    },
+    {
+      "title": "C.R.A.Z.Y.",
+      "genre": "comedy film",
+      "date": "2006-05-25"
+    }
+  ]
+}

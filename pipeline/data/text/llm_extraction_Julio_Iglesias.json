@@ -1,0 +1,17 @@
+[
+  {
+    "subject": "Julio Iglesias",
+    "predicate": "hasGenre",
+    "object": "Spanish song"
+  },
+  {
+    "subject": "Julio Iglesias",
+    "predicate": "hasGenre",
+    "object": "Songwriter"
+  },
+  {
+    "subject": "Julio Iglesias",
+    "predicate": "performedAt",
+    "object": "Concerts"
+  }
+]

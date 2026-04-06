@@ -1,0 +1,168 @@
+{
+  "id": 209415,
+  "name": "Jean-Michel Jarre",
+  "realname": "Jean-Michel André Jarre",
+  "profile": "Jean-Michel Jarre, born August 24, 1948 in  Lyon, France, is a French composer of electronic music.\r\nSon of [a=Maurice Jarre], a composer of film music, who has written the scores to such films as Lawrence Of Arabia and Dr. Zhivago, among many others. Father of [a=David Jarre].\r\nHe is well-known for staging spectacular outdoor concerts of his music, which feature laser displays and fireworks, and three of which appeared in the Guinness Book of Records for their large audiences.\r\nOne of his albums, Musique pour supermarchés had a print run on only a single copy, which was auctioned to raise money for French artists.\r\nIn 1986 he worked with NASA-Astronaut Ronald McNair was to play the saxophone part of Jarre's piece Rendez-Vous VI while in orbit on board the Space Shuttle Challenger. It was to have been the first piece of music recorded in space, for the album Rendez-Vous.\r\nAfter the Challenger disaster of January 28, 1986, the piece was recorded with a different saxophonist, retitled Ron's piece and the album dedicated to the seven Challenger astronauts.\r\nHe is a UNESCO Goodwill Ambassador and was married to [a=Charlotte Rampling] from 1978 to 1997.",
+  "members": [],
+  "groups": [
+    {
+      "name": "The Dustbins",
+      "id": 544855,
+      "active": false
+    },
+    {
+      "name": "Groupe De Recherches Musicales",
+      "id": 1770847,
+      "active": false
+    },
+    {
+      "name": "The Vizitors",
+      "id": 2145655,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Classical",
+    "Electronic",
+    "Non-Music",
+    "Stage & Screen"
+  ],
+  "styles": [
+    "Ambient",
+    "Contemporary",
+    "Experimental",
+    "Health-Fitness",
+    "Impressionist",
+    "Musique Concrète",
+    "Score",
+    "Soundtrack",
+    "Synth-pop",
+    "Therapy"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Electronic",
+      "style": "Musique Concrète"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Therapy"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Synth-pop"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Health-Fitness"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Therapy"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Synth-pop"
+    },
+    {
+      "genre": "Non-Music",
+      "style": "Health-Fitness"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Score"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Contemporary"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Impressionist"
+    },
+    {
+      "genre": "Classical",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Classical",
+      "style": "Score"
+    },
+    {
+      "genre": "Classical",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Classical",
+      "style": "Contemporary"
+    },
+    {
+      "genre": "Classical",
+      "style": "Impressionist"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Score"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Contemporary"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Impressionist"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Soundtrack"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Ambient"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Ambient"
+    }
+  ]
+}

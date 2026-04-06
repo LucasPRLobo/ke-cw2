@@ -1,0 +1,97 @@
+[
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "composed",
+    "object": "work"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "hasGenre",
+    "object": "flamenco-influenced ballads"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "hasGenre",
+    "object": "pop"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "hasGenre",
+    "object": "rock"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "hasGenre",
+    "object": "funk"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "hasGenre",
+    "object": "R&B"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "hasGenre",
+    "object": "jazz"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "released",
+    "object": "Viviendo Deprisa"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "released",
+    "object": "Si T\u00fa Me Miras"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "released",
+    "object": "3"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "released",
+    "object": "M\u00e1s"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "released",
+    "object": "El Alma al Aire"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "released",
+    "object": "No Es lo Mismo"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "released",
+    "object": "El Tren de los Momentos"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "released",
+    "object": "Para\u00edso Express"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "released",
+    "object": "La M\u00fasica No Se Toca"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "released",
+    "object": "Sirope"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "collaboratedWith",
+    "object": "Shakira"
+  },
+  {
+    "subject": "Alejandro Sanz",
+    "predicate": "influencedBy",
+    "object": "flamenco"
+  }
+]

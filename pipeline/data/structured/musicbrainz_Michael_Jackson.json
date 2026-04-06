@@ -1,0 +1,1230 @@
+{
+  "mbid": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+  "name": "Michael Jackson",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1958-08-29",
+    "end": "2009-06-25",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "Gary",
+  "tags": [
+    {
+      "name": "american",
+      "count": "1"
+    },
+    {
+      "name": "boogie",
+      "count": "1"
+    },
+    {
+      "name": "contemporary r&b",
+      "count": "14"
+    },
+    {
+      "name": "cultural icon",
+      "count": "1"
+    },
+    {
+      "name": "dance-pop",
+      "count": "18"
+    },
+    {
+      "name": "disco",
+      "count": "16"
+    },
+    {
+      "name": "hip hop",
+      "count": "1"
+    },
+    {
+      "name": "new jack swing",
+      "count": "2"
+    },
+    {
+      "name": "pop",
+      "count": "31"
+    },
+    {
+      "name": "pop rap",
+      "count": "1"
+    },
+    {
+      "name": "pop rock",
+      "count": "2"
+    },
+    {
+      "name": "pop soul",
+      "count": "7"
+    },
+    {
+      "name": "post-disco",
+      "count": "3"
+    },
+    {
+      "name": "r&b",
+      "count": "2"
+    },
+    {
+      "name": "soul",
+      "count": "3"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "USA for Africa",
+      "target_mbid": "45e3c90f-2de6-4452-99b3-8dbf7a3cf6df",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "DJ Nabs",
+      "target_mbid": "c00458d0-dad3-48c6-a722-1f993af67b9d",
+      "attributes": [
+        "turntable"
+      ],
+      "begin": "1992",
+      "end": "1993"
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Jennifer Batten",
+      "target_mbid": "b1d5accf-a81a-462f-a2ca-c59ba1cb07b8",
+      "attributes": [
+        "guitar"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Don Boyette",
+      "target_mbid": "f8028e16-e2ec-4bc7-b21c-9fd145b56368",
+      "attributes": [
+        "bass guitar"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "involved with",
+      "direction": "forward",
+      "target_name": "Brooke Shields",
+      "target_mbid": "f0d0ffa8-c780-4837-8e56-6053fa1c1eb8",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Lisa Marie Presley",
+      "target_mbid": "4635869b-1f1a-452e-af87-f6c2e2ef6e74",
+      "attributes": [],
+      "begin": "1994-05-26",
+      "end": "1996-08-20"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Jacksons",
+      "target_mbid": "e5257dc5-1edd-4fca-b7e6-1158e00522c8",
+      "attributes": [],
+      "begin": "1966",
+      "end": "1984"
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Prince Michael Jackson I",
+      "target_mbid": "5857471e-4238-4cd4-8c2e-1d9108db79c9",
+      "attributes": [],
+      "begin": "1997-02-13",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Paris Jackson",
+      "target_mbid": "9d1818d3-0d61-4e76-b6c5-5b4883f792fd",
+      "attributes": [],
+      "begin": "1998-04-03",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Joe Jackson",
+      "target_mbid": "9e697989-6e3e-46c3-ad0e-4bdf53f6b650",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Janet Jackson",
+      "target_mbid": "6be2828f-6c0d-4059-99d4-fa18acf1a296",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Rebbie Jackson",
+      "target_mbid": "78bb7e34-0e7f-4103-b180-5274d11e50da",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Jermaine Jackson",
+      "target_mbid": "ccbdc2ab-1055-44d5-8417-a6b4898bf91b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Tito Jackson",
+      "target_mbid": "19a3943b-19fb-4781-a585-afe9f46fd6d1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Randy Jackson",
+      "target_mbid": "593abf14-4292-4d62-b365-79c7674cd1a5",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Marlon Jackson",
+      "target_mbid": "dfa29df0-2f21-409c-8509-a75e72205e1d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Jackie Jackson",
+      "target_mbid": "d06f65d2-26e0-4d40-95e5-22592917eb52",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "LaToya Jackson",
+      "target_mbid": "7a0a724b-6c98-4a7a-9991-2faf659d3f8b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Christ'OF",
+      "target_mbid": "0af139d6-a56d-42c8-ab70-f27ceb9d5e92",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Sergio Cortés Parra",
+      "target_mbid": "e150f407-85ad-4972-9e3c-c8de3f7e2300",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "This is Michael",
+      "target_mbid": "66ea2663-c8e4-4df2-8895-e75e64bfff50",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Who's Bad: The Ultimate Michael Jackson Experience",
+      "target_mbid": "35b0e8d6-d8f3-49a0-8597-ad3680364b18",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000467203"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/294"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/f27ec8db-af05-4f36-916e-3d57f91ecf5e"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/15885"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/470023"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.mjfanclub.net/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://audiomack.com/michael-jackson"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://play.anghami.com/artist/1278"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://vk.com/artist/michaeljackson"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.boomplay.com/artists/1845320"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/259"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_in_1988.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0001391/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Michael+Jackson"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-3710/michael-jackson/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Michael-jackson"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://j-lyric.net/artist/a050575/"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/Michael-Jackson"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/michaeljackson"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.michaeljackson.com/"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.sonymusic.co.jp/Music/International/Arch/ES/MichaelJackson/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n83133203"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/J/Jackson,_Michael/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://castalbums.org/people/Michael-Jackson/1059"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb12088047p"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118711083"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/michael-jackson"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w64467gw"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-299259"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ocremix.org/artist/5385/michael-jackson"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL774692A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/michael_jackson"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/michael-jackson"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.ibdb.com/person.php?id=533502"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.livefans.jp/artists/12437"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/michael-jackson/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000051424/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Michael-Jackson/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n83133203"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.maniadb.com/artist/127011"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=Ai6bhstqbdyafulwecypadv2b34"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/11595/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/32940"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.bugs.co.kr/artist/8009999"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://uk.7digital.com/artist/michael-jackson"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.beatport.com/artist/michael-jackson/206348"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.junodownload.com/artists/Michael+Jackson/releases/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.melon.com/artist/detail.htm?artistId=7800"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://tower.jp/artist/174544"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000APU04Q"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.cdjapan.co.jp/person/700227304"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.yesasia.com/0-aid2978300-0-bpt.47-en/list.html"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/254"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/michael-jackson-6bd6e252.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://plus.google.com/+MichaelJackson/"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/michaeljackson"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/michaeljackson"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/michaeljackson/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.weibo.com/6525312631"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/237682"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/mjimmortal"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B000QJK2YE"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/fr/artist/32940"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/32940"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.bugs.co.kr/artist/8009999"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/606"
+    },
+    {
+      "type": "streaming",
+      "target": "https://us.napster.com/artist/michael-jackson"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.melon.com/artist/detail.htm?artistId=7800"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.qobuz.com/gb-en/interpreter/michael-jackson/50195"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/nz/artist/32940"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/za/artist/32940"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/7312"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/27092134"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q2831"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UC5OrDvL9DscpcAstz7JnQGA"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UCoIOOL7QKuBhQHVKL8y7BEQ"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "97e0014d-a267-33a0-a868-bb4e2552918a",
+      "title": "Got to Be There",
+      "type": "Album",
+      "first_release_date": "1972-01-24"
+    },
+    {
+      "id": "51343255-0ad3-3635-9aa2-548ba939b23e",
+      "title": "Ben",
+      "type": "Album",
+      "first_release_date": "1972-08-04"
+    },
+    {
+      "id": "06b064b9-01e7-32d8-b585-86404584e795",
+      "title": "Music & Me",
+      "type": "Album",
+      "first_release_date": "1973-04-13"
+    },
+    {
+      "id": "50b9d7de-9124-33c0-83a3-76722bf346e5",
+      "title": "Forever, Michael",
+      "type": "Album",
+      "first_release_date": "1975-01-16"
+    },
+    {
+      "id": "ee749c63-5699-38e0-b565-7e84414648d9",
+      "title": "Off the Wall",
+      "type": "Album",
+      "first_release_date": "1979-08-10"
+    },
+    {
+      "id": "f32fab67-77dd-3937-addc-9062e28e4c37",
+      "title": "Thriller",
+      "type": "Album",
+      "first_release_date": "1982-11-30"
+    },
+    {
+      "id": "a5711a77-42d1-3f4c-830c-e27a96f0800f",
+      "title": "Bad",
+      "type": "Album",
+      "first_release_date": "1987-08-25"
+    },
+    {
+      "id": "d6b52521-0dfa-390f-970f-790174c22752",
+      "title": "Dangerous",
+      "type": "Album",
+      "first_release_date": "1991-11-25"
+    },
+    {
+      "id": "2324e560-e8ba-302d-a43d-2ea5ec9c83f7",
+      "title": "HIStory: Past, Present and Future, Book I",
+      "type": "Album",
+      "first_release_date": "1995-05-01"
+    },
+    {
+      "id": "c24c5313-da47-3155-8277-a6a1a4237966",
+      "title": "Invincible",
+      "type": "Album",
+      "first_release_date": "2001-10-29"
+    },
+    {
+      "id": "f0da27eb-3563-4d93-88fb-2c90d46a2cfa",
+      "title": "The Music of Michael Jackson",
+      "type": "Album",
+      "first_release_date": "2005"
+    },
+    {
+      "id": "0656d7fa-0ed7-4d3f-887e-ed728697c5ad",
+      "title": "Michael",
+      "type": "Album",
+      "first_release_date": "2010-12-10"
+    },
+    {
+      "id": "c78abbe0-82a4-4868-9344-401ec34f5b69",
+      "title": "Xscape",
+      "type": "Album",
+      "first_release_date": "2014-05-09"
+    },
+    {
+      "id": "9c7d3e7b-daab-485f-894b-a8f9dc8b1a4e",
+      "title": "Joyful Jukebox Music",
+      "type": "Compilation",
+      "first_release_date": "1976-10-26"
+    },
+    {
+      "id": "90915175-cc35-3970-99f5-8f279ab59585",
+      "title": "The Best of Michael Jackson",
+      "type": "Compilation",
+      "first_release_date": "1980-03"
+    },
+    {
+      "id": "46d28b2d-8d92-4d79-ac00-372457ba89af",
+      "title": "Michael Jackson",
+      "type": "Compilation",
+      "first_release_date": "1981"
+    },
+    {
+      "id": "0621bd78-b867-39ab-8606-9636bfd94447",
+      "title": "One Day in Your Life",
+      "type": "Compilation",
+      "first_release_date": "1981"
+    },
+    {
+      "id": "22fc8d45-6802-46f8-8a78-6ae823a9ed92",
+      "title": "14 Greatest Hits With the Jackson 5",
+      "type": "Compilation",
+      "first_release_date": "1983"
+    },
+    {
+      "id": "54e774a0-7091-31f6-8765-9de5735fcbb1",
+      "title": "18 Greatest Hits",
+      "type": "Compilation",
+      "first_release_date": "1983"
+    },
+    {
+      "id": "6f33ff5d-025a-42d6-827e-6d5bb5a30b4a",
+      "title": "18 Greatest Hits",
+      "type": "Compilation",
+      "first_release_date": "1983"
+    },
+    {
+      "id": "e6696f23-a356-4cff-a096-fdf2a1e1a358",
+      "title": "Great Songs and Performances That Inspired the Motown 25th Anniversary Television Special",
+      "type": "Compilation",
+      "first_release_date": "1983"
+    },
+    {
+      "id": "500d9b05-68c3-3535-86e3-cf685869efc0",
+      "title": "Farewell My Summer Love",
+      "type": "Compilation",
+      "first_release_date": "1984-05-15"
+    },
+    {
+      "id": "b513c135-b957-305b-9c5c-7f829d6195b3",
+      "title": "Got to Be There / Ben",
+      "type": "Compilation",
+      "first_release_date": "1986-07"
+    },
+    {
+      "id": "37906983-1005-36fb-b8e7-3a04687e6f4f",
+      "title": "Anthology",
+      "type": "Compilation",
+      "first_release_date": "1986"
+    },
+    {
+      "id": "6a427340-2d07-45b5-b557-aaaab91357fd",
+      "title": "The 12″ Tape",
+      "type": "Compilation",
+      "first_release_date": "1986"
+    }
+  ],
+  "tracks": {
+    "97e0014d-a267-33a0-a868-bb4e2552918a": [
+      {
+        "id": "bc76298a-c8f4-42fc-a25d-43cb91fd0a77",
+        "title": "Ain’t No Sunshine",
+        "position": "1",
+        "length": "252240",
+        "work": {
+          "id": "2e9136a2-90a9-3144-b4c1-8aba75b8e459",
+          "title": "Ain’t No Sunshine",
+          "composers": [
+            {
+              "name": "Bill Withers",
+              "mbid": "fd1a2d9d-9bb6-44de-83a3-41560658aba9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "05c01193-27c5-4ad0-84d3-582b47c72d8c",
+        "title": "I Wanna Be Where You Are",
+        "position": "2",
+        "length": "179000",
+        "work": {
+          "id": "e231876e-45e8-38dc-b892-cda1ef4af420",
+          "title": "I Wanna Be Where You Are",
+          "composers": [
+            {
+              "name": "Arthur “T‐Boy” Ross",
+              "mbid": "65b31de6-0017-4176-9910-89bf827848c0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9fc4da88-c9ec-496b-b480-fa43a3ba42bf",
+        "title": "Girl Don’t Take Your Love From Me",
+        "position": "3",
+        "length": "230280",
+        "work": {
+          "id": "8a4f59f8-46ac-45e6-a19b-611c24bc7a87",
+          "title": "Girl Don’t Take Your Love From Me",
+          "composers": [
+            {
+              "name": "Willie Hutch",
+              "mbid": "870b79e0-10b7-4e19-b11f-65607cffad9a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1a27fd68-bd72-4f4f-a626-93f7b38cbe85",
+        "title": "In Our Small Way",
+        "position": "4",
+        "length": "220600",
+        "work": {
+          "id": "36ff7154-1199-4dd4-9b32-52b41f248c62",
+          "title": "In Our Small Way",
+          "composers": [
+            {
+              "name": "Beatrice Verdi",
+              "mbid": "94f75e26-442f-46ad-b202-fc40055d717e"
+            },
+            {
+              "name": "Christine Yarian",
+              "mbid": "81a28af8-03de-46a2-93f1-83a5cd08f0bd"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bc502fe1-76bb-4a20-a0ad-c9b0b8f58154",
+        "title": "Got to Be There",
+        "position": "5",
+        "length": "204000",
+        "work": {
+          "id": "29e18cf7-3946-33f8-ad37-0b463a5f7176",
+          "title": "Got to Be There",
+          "composers": [
+            {
+              "name": "Elliot Willensky",
+              "mbid": "563cd731-b52d-4cf9-bc05-50fb2213a255"
+            }
+          ]
+        }
+      },
+      {
+        "id": "92b934d2-451c-411d-b2ca-0c543fa9ec53",
+        "title": "Rockin’ Robin",
+        "position": "6",
+        "length": "153053",
+        "work": {
+          "id": "ef4f1a6d-2cf7-39f4-889d-7911f4e7f725",
+          "title": "Rockin’ Robin",
+          "composers": [
+            {
+              "name": "Jimmie Thomas",
+              "mbid": "43cff1c9-9602-4feb-8fbc-797c8f6af85a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b2c47600-80ff-4550-ba38-b88270377d75",
+        "title": "Wings of My Love",
+        "position": "7",
+        "length": "204066",
+        "work": {
+          "id": "09d93689-ba5e-4e5c-b076-88b5cea8670e",
+          "title": "Wings of My Love",
+          "composers": [
+            {
+              "name": "The Corporation",
+              "mbid": "2c0a4632-6ff9-44d1-8932-adbd227d7bbb"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f5335a06-b15f-4e78-acbe-3d3a6be0a4d7",
+        "title": "Maria (You Were the Only One)",
+        "position": "8",
+        "length": "222880",
+        "work": null
+      },
+      {
+        "id": "d69617bf-3224-404a-8bd1-c503805451eb",
+        "title": "Love Is Here and Now You’re Gone",
+        "position": "9",
+        "length": "173426",
+        "work": {
+          "id": "7ca52501-d23f-3a18-971f-0ed7a4911ec3",
+          "title": "Love Is Here and Now You’re Gone",
+          "composers": [
+            {
+              "name": "Lamont Dozier",
+              "mbid": "b801e3ad-a23a-4ae8-9708-6c02a202e9e1"
+            },
+            {
+              "name": "Brian Holland",
+              "mbid": "de2dcddf-d398-4a3e-adfc-2f108317d6c4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "320a11eb-2aca-446e-a388-37e48025308c",
+        "title": "You’ve Got a Friend",
+        "position": "10",
+        "length": "294000",
+        "work": {
+          "id": "f71730f0-062f-3da5-8086-6fb07fea1839",
+          "title": "You’ve Got a Friend",
+          "composers": [
+            {
+              "name": "Carole King",
+              "mbid": "bf6c29f5-b69f-4842-9031-37f9645d365d"
+            }
+          ]
+        }
+      }
+    ],
+    "51343255-0ad3-3635-9aa2-548ba939b23e": [
+      {
+        "id": "50d32bd1-c37e-4b3a-9f4b-38bb823dc4ba",
+        "title": "Ben",
+        "position": "1",
+        "length": "166066",
+        "work": {
+          "id": "24a85d52-5d52-4c37-a2f1-ed3ff696592d",
+          "title": "Ben",
+          "composers": [
+            {
+              "name": "Walter Scharf",
+              "mbid": "464d272d-cdd3-460a-a020-d8aad782e1e3"
+            }
+          ]
+        }
+      },
+      {
+        "id": "41afeaf7-2944-465b-b083-4e31c654cd71",
+        "title": "Greatest Show on Earth",
+        "position": "2",
+        "length": "170840",
+        "work": null
+      },
+      {
+        "id": "34f1a9da-c65c-495f-a9b2-74b8236d8180",
+        "title": "People Make the World Go ’Round",
+        "position": "3",
+        "length": "196440",
+        "work": {
+          "id": "60bf6e77-537d-38b3-9cc5-b69ae66086dd",
+          "title": "People Make the World Go Round",
+          "composers": [
+            {
+              "name": "Thom Bell",
+              "mbid": "96b63688-fb86-4aff-b682-85f0165bece1"
+            },
+            {
+              "name": "Linda Creed",
+              "mbid": "523af0eb-badf-4d80-bf5c-cf102f846ef1"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d4c57771-972d-41c3-aa09-d2d9971b5307",
+        "title": "We've Got a Good Thing Going",
+        "position": "4",
+        "length": "184600",
+        "work": {
+          "id": "f1699dff-6bec-31ab-a4f1-a9eea7f8e858",
+          "title": "We’ve Got a Good Thing Going",
+          "composers": [
+            {
+              "name": "The Corporation",
+              "mbid": "2c0a4632-6ff9-44d1-8932-adbd227d7bbb"
+            },
+            {
+              "name": "Berry Gordy",
+              "mbid": "55bc7f0d-bc56-4a5e-8555-77557bb757cd"
+            },
+            {
+              "name": "Fonce Mizell",
+              "mbid": "fc55f851-01d7-4e96-8d68-15e62aae4af7"
+            },
+            {
+              "name": "Freddie Perren",
+              "mbid": "f9300575-b356-4e5a-88b3-f76bf6f34115"
+            },
+            {
+              "name": "Deke Richards",
+              "mbid": "72c73a5b-1154-4944-97f8-defb1c6ac47c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "44337c18-b8ad-4611-a027-0a2361da9ac2",
+        "title": "Everybody’s Somebody’s Fool",
+        "position": "5",
+        "length": "181240",
+        "work": null
+      },
+      {
+        "id": "ab3ba554-a107-4a7c-aa98-898eddf17b33",
+        "title": "My Girl",
+        "position": "6",
+        "length": "190533",
+        "work": {
+          "id": "e8f22db4-6ee7-3c9c-a3ac-84d0f9215a1b",
+          "title": "My Girl",
+          "composers": [
+            {
+              "name": "Smokey Robinson",
+              "mbid": "c19ff12b-058f-44a8-b245-b0efb4752925"
+            },
+            {
+              "name": "Ronald White",
+              "mbid": "8e27a96f-07a6-4484-a475-f0d487fc3c86"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6a4ad25a-0d25-492b-a475-6e3a2b8515c1",
+        "title": "What Goes Around Comes Around",
+        "position": "7",
+        "length": "214200",
+        "work": null
+      },
+      {
+        "id": "1a27fd68-bd72-4f4f-a626-93f7b38cbe85",
+        "title": "In Our Small Way",
+        "position": "8",
+        "length": "220600",
+        "work": {
+          "id": "36ff7154-1199-4dd4-9b32-52b41f248c62",
+          "title": "In Our Small Way",
+          "composers": [
+            {
+              "name": "Beatrice Verdi",
+              "mbid": "94f75e26-442f-46ad-b202-fc40055d717e"
+            },
+            {
+              "name": "Christine Yarian",
+              "mbid": "81a28af8-03de-46a2-93f1-83a5cd08f0bd"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7d00d4a4-0b0d-4ee9-9650-b65a58c3c660",
+        "title": "Shoo-Be-Doo-Be-Doo-Da-Day",
+        "position": "9",
+        "length": "201840",
+        "work": {
+          "id": "ba77fa8f-6d60-3693-a25d-4e3b70f445aa",
+          "title": "Shoo-Be-Doo-Be-Doo-Da-Day",
+          "composers": [
+            {
+              "name": "Henry Cosby",
+              "mbid": "63e1cd3d-d447-4792-bf33-1f52c7790125"
+            },
+            {
+              "name": "Sylvia Moy",
+              "mbid": "c65d58ac-a8a9-42b1-b55d-3335cd64c4ce"
+            },
+            {
+              "name": "Stevie Wonder",
+              "mbid": "1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "036f8fea-d71b-4c59-a82f-ce85bf49561f",
+        "title": "You Can Cry on My Shoulder",
+        "position": "10",
+        "length": "159866",
+        "work": null
+      }
+    ],
+    "06b064b9-01e7-32d8-b585-86404584e795": [
+      {
+        "id": "e8942b23-be27-43ca-8669-1909c65920c5",
+        "title": "With a Child’s Heart",
+        "position": "1",
+        "length": "213373",
+        "work": {
+          "id": "c636d609-43b5-3c19-adb3-cce609476bf9",
+          "title": "With a Child’s Heart",
+          "composers": [
+            {
+              "name": "Victoria Basemore",
+              "mbid": "dc1059c8-f837-40f1-ab13-cc8a2f90572d"
+            },
+            {
+              "name": "Henry Cosby",
+              "mbid": "63e1cd3d-d447-4792-bf33-1f52c7790125"
+            },
+            {
+              "name": "Sylvia Moy",
+              "mbid": "c65d58ac-a8a9-42b1-b55d-3335cd64c4ce"
+            }
+          ]
+        }
+      },
+      {
+        "id": "36894523-df1f-49ad-96a5-e6944a069154",
+        "title": "Up Again",
+        "position": "2",
+        "length": "169000",
+        "work": null
+      },
+      {
+        "id": "f62e4912-cb57-4d13-9475-26e653c0e59b",
+        "title": "All the Things You Are, Are Mine",
+        "position": "3",
+        "length": "179000",
+        "work": {
+          "id": "6c0ae4fc-2893-363a-a3e9-f04324e0f525",
+          "title": "All the Things You Are",
+          "composers": [
+            {
+              "name": "Jerome Kern",
+              "mbid": "8fb64b2e-db8b-4579-ad08-f324ef1bf494"
+            }
+          ]
+        }
+      },
+      {
+        "id": "32d9103b-11fb-4ee5-a078-e35de673fb8f",
+        "title": "Happy (Love Theme From \"Lady Sings the Blues\")",
+        "position": "4",
+        "length": "205666",
+        "work": {
+          "id": "f3eb00fc-db87-47af-a370-14666e195bca",
+          "title": "Happy (Love Theme from Lady Sings the Blues)",
+          "composers": [
+            {
+              "name": "Michel Legrand",
+              "mbid": "2c330f54-9245-488b-b678-dc8a236d06b3"
+            }
+          ]
+        }
+      },
+      {
+        "id": "911d9820-5a07-4245-88f2-be4d8e6798e3",
+        "title": "Too Young",
+        "position": "5",
+        "length": "217200",
+        "work": {
+          "id": "a7e0edf9-4d0b-3269-a54a-2d85cb9c6b7c",
+          "title": "Too Young",
+          "composers": [
+            {
+              "name": "Sidney Lippman",
+              "mbid": "1f808556-4ce3-41e7-ba9b-3a31d04bdc7d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f43de7b2-1230-44da-ac59-8f7128f2e746",
+        "title": "Doggin' Around",
+        "position": "6",
+        "length": "174000",
+        "work": {
+          "id": "6355d2d1-9b35-3e69-9897-8fc701907649",
+          "title": "Doggin' Around",
+          "composers": [
+            {
+              "name": "Paul Tarnopol",
+              "mbid": "e1ebea09-e79f-4656-8c6d-582129c98f66"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4b310055-f952-4b56-8ebe-51c2346e9154",
+        "title": "Euphoria",
+        "position": "7",
+        "length": "170000",
+        "work": {
+          "id": "0f105c98-26c7-4bd4-9f8e-3a8d52f57926",
+          "title": "Euphoria",
+          "composers": [
+            {
+              "name": "Jacqueline Hilliard",
+              "mbid": "e089fa08-b4df-4765-8468-2853a6e1de97"
+            },
+            {
+              "name": "Leon Ware",
+              "mbid": "9b1f8808-6bdd-4d36-b619-ec5c7e6d0d7d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3f85f055-45a7-499c-8c60-db8c00e90da9",
+        "title": "Morning Glow",
+        "position": "8",
+        "length": "218000",
+        "work": null
+      },
+      {
+        "id": "db71522d-748e-4e1d-a10c-b977a9d31471",
+        "title": "Johnny Raven",
+        "position": "9",
+        "length": "214173",
+        "work": null
+      },
+      {
+        "id": "34f6d01c-fd3a-49a2-9e0e-e1dd401dabd4",
+        "title": "Music and Me",
+        "position": "10",
+        "length": "158000",
+        "work": {
+          "id": "e390fb23-96b8-4161-9d16-3c4ee50880cd",
+          "title": "Music and Me",
+          "composers": [
+            {
+              "name": "Mike Cannon",
+              "mbid": "99235285-20dc-41e8-92fc-f3008a38aebc"
+            },
+            {
+              "name": "Don Fenceton",
+              "mbid": "adc742a8-b73d-4f64-aedd-906c7e0b72db"
+            },
+            {
+              "name": "Mel Larson",
+              "mbid": "8cfc7139-d23e-4896-bcb6-5c8473d345b4"
+            },
+            {
+              "name": "Jerry Marcellino",
+              "mbid": "457ab752-33dc-426e-b68a-2abc40f7832c"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 470023,
+  "wikidata_id": "Q2831"
+}

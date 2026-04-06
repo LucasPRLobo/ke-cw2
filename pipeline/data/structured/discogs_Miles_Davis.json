@@ -1,0 +1,207 @@
+{
+  "id": 23755,
+  "name": "Miles Davis",
+  "realname": "Miles Dewey Davis III",
+  "profile": "Trumpeter, bandleader, and composer\r\nBorn May 26, 1926 in Alton, Illinois, USA, died September 28, 1991 in Santa Monica, California, USA (aged 65)\r\n\r\nOne of the most important figures in jazz history, Davis adopted multiple musical directions in a five-decade career that kept him at the forefront of many major stylistic developments in jazz. His album \"[m=5460]\" (1959) is the highest selling jazz album ever with over five million copies sold.\r\n\r\nMiles settled in New York City to study at Juilliard School. He made his professional debut as a member of [a272028] from 1944 to 1948. In 1948, Davis began to found his own ensembles. At that time, he met [a255137], who contributed to [a497768]'s scores and arrangements. The dozen sides they recorded in 1949-50 were eventually assembled as the LP \"[m=62308]\" (1957), with Davis and Evans working together again from 1957 on further projects.\r\n\r\nMiles Davis was prominent in the creation of the 'Hard Bop' style in the mid-1950s (his first regular quintet featured [a97545]), and the \"time, no changes\" approach in his second quintet a decade later. In the late 1960s, he introduced electronic instruments and rock and funk rhythms in his music. Around 1975, he went on a hiatus over health and personal problems, re-emerging in 1980.\r\n\r\nHe married dancer/actress [a7671712] on December 12, 1959; the couple divorced in 1968. He then married singer [a1076460] in September 1968; they divorced in 1970. He then married actress [a6279083] on November 26, 1981; they divorced in 1989. Father of [a680784] and [a1493787]. Uncle of [a279708] (Jr).\r\n\r\nInducted into Rock And Roll Hall of Fame in 2006 (Performer).\r\n\r\nWinner of eight Grammy Awards:\r\n- Best Jazz Composition Of More Than Five Minutes Duration for Sketches Of Spain on [m=48172]\r\n- Best Jazz Performance - Large Group Or Soloist With Large Group for [m=8260]\r\n- Best Jazz Instrumental Performance, Soloist for [m=65130]\r\n- Best Jazz Instrumental Performance, Soloist for [m=63355]\r\n- Best Jazz Instrumental Performance, Big Band for [m=62288]\r\n- Best Jazz Instrumental Performance, Soloist (On A Jazz Recording) for [m=62288]\r\n- Best R&B Instrumental Performance for [m=62359]\r\n- Best Large Jazz Ensemble Performance for [m=188032]",
+  "members": [],
+  "groups": [
+    {
+      "name": "Gil Evans And His Orchestra",
+      "id": 59659,
+      "active": false
+    },
+    {
+      "name": "Artists United Against Apartheid",
+      "id": 143887,
+      "active": true
+    },
+    {
+      "name": "The Miles Davis Sextet",
+      "id": 260757,
+      "active": true
+    },
+    {
+      "name": "The Miles Davis Quintet",
+      "id": 262152,
+      "active": true
+    },
+    {
+      "name": "Miles Davis All Stars",
+      "id": 262586,
+      "active": true
+    },
+    {
+      "name": "The Charlie Parker Septet",
+      "id": 272020,
+      "active": true
+    },
+    {
+      "name": "The Charlie Parker All-Stars",
+      "id": 272024,
+      "active": true
+    },
+    {
+      "name": "The Charlie Parker Sextet",
+      "id": 272027,
+      "active": true
+    },
+    {
+      "name": "The Charlie Parker Quintet",
+      "id": 272028,
+      "active": true
+    },
+    {
+      "name": "The Cannonball Adderley Quintet",
+      "id": 277633,
+      "active": false
+    },
+    {
+      "name": "Miles Davis And His Orchestra",
+      "id": 284743,
+      "active": true
+    },
+    {
+      "name": "Metronome All Stars",
+      "id": 311056,
+      "active": true
+    },
+    {
+      "name": "Coleman Hawkins All Star Band",
+      "id": 311725,
+      "active": true
+    },
+    {
+      "name": "Charlie Parker's Re-Boppers",
+      "id": 317873,
+      "active": true
+    },
+    {
+      "name": "Billy Eckstine And His Orchestra",
+      "id": 320609,
+      "active": true
+    },
+    {
+      "name": "Charlie Parker And His Orchestra",
+      "id": 340586,
+      "active": true
+    },
+    {
+      "name": "Tadd Dameron And His Orchestra",
+      "id": 344335,
+      "active": true
+    },
+    {
+      "name": "Benny Carter And His Orchestra",
+      "id": 368184,
+      "active": true
+    },
+    {
+      "name": "Lee Konitz Sextet",
+      "id": 375439,
+      "active": true
+    },
+    {
+      "name": "George Treadwell And His All Stars",
+      "id": 377171,
+      "active": true
+    },
+    {
+      "name": "The Miles Davis Nonet",
+      "id": 497768,
+      "active": true
+    },
+    {
+      "name": "Sonny Rollins Quartet",
+      "id": 549499,
+      "active": false
+    },
+    {
+      "name": "The Miles Davis Quartet",
+      "id": 634013,
+      "active": true
+    },
+    {
+      "name": "Miles Davis And His Band",
+      "id": 840892,
+      "active": true
+    },
+    {
+      "name": "Miles Davis-Tadd Dameron Quintet",
+      "id": 840893,
+      "active": true
+    },
+    {
+      "name": "Coleman Hawkins All Stars",
+      "id": 1514279,
+      "active": true
+    },
+    {
+      "name": "Miles Davis + 19",
+      "id": 1566346,
+      "active": true
+    },
+    {
+      "name": "Miles Davis & His Tuba Band",
+      "id": 1739676,
+      "active": true
+    },
+    {
+      "name": "Miles Davis Septet",
+      "id": 1900148,
+      "active": true
+    },
+    {
+      "name": "Miles Davis Group",
+      "id": 3265665,
+      "active": true
+    },
+    {
+      "name": "Miles Davis Octet",
+      "id": 3581056,
+      "active": true
+    },
+    {
+      "name": "The Miles Davis Ensemble",
+      "id": 4700108,
+      "active": true
+    },
+    {
+      "name": "Birdland All-Stars",
+      "id": 5188532,
+      "active": true
+    },
+    {
+      "name": "Miles Davis And His Cool Wailers",
+      "id": 5827783,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Jazz"
+  ],
+  "styles": [
+    "Bop"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Jazz",
+      "style": "Bop"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Bop"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Bop"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Bop"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Bop"
+    }
+  ]
+}

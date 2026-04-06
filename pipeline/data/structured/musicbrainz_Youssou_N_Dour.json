@@ -1,0 +1,471 @@
+{
+  "mbid": "af081ea2-7a2c-4fbd-8200-92d62056b5f5",
+  "name": "Youssou N’Dour",
+  "type": "Person",
+  "country": "SN",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1959-10-01",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "Senegal",
+  "begin_area": "Dakar",
+  "tags": [
+    {
+      "name": "african",
+      "count": "1"
+    },
+    {
+      "name": "senegalese",
+      "count": "1"
+    },
+    {
+      "name": "world",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Étoile de Dakar",
+      "target_mbid": "81672953-14d5-4113-8914-005f144062b3",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Youssou N’Dour & Le Super Étoile",
+      "target_mbid": "7add9a91-fa46-49de-870d-0a7c7b04c1db",
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000692100"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/af081ea2-7a2c-4fbd-8200-92d62056b5f5"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.asahi-net.or.jp/~xx3n-di/071-yndour/yn-discography.html"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/17590"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/77zlytAFjPFjUKda8TNIDY"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/203"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:YoussouNDour08TIFF.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0618468/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Youssou+N'Dour"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-5956/youssou-ndour/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Youssou-ndour"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/nr90005489"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13939477m"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/119093553"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6np54tx"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/youssou_ndour"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-nr90005489/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id153580"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/youssoundoursn"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/youssoundourofficiel"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/youssoundour1959/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/323985"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/153580"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/6056"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/34647591"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q210734"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "ed0b2a46-29ce-4f1c-8784-38a273590888",
+      "title": "Diongoma",
+      "type": "Album",
+      "first_release_date": "1983"
+    },
+    {
+      "id": "2014ba7e-8f9f-3318-ab71-708b8143db08",
+      "title": "Djamil: Inedits 84–85",
+      "type": "Album",
+      "first_release_date": "1985"
+    },
+    {
+      "id": "07928183-6757-4c51-88dd-5981aabd8773",
+      "title": "Nelson Mandela",
+      "type": "Album",
+      "first_release_date": "1985"
+    },
+    {
+      "id": "1ceb827c-549e-3d11-a3a6-4f2890b314b1",
+      "title": "The Lion",
+      "type": "Album",
+      "first_release_date": "1989"
+    },
+    {
+      "id": "fbb3af93-1e4e-3a29-b9d7-17605424d722",
+      "title": "Set",
+      "type": "Album",
+      "first_release_date": "1990"
+    },
+    {
+      "id": "1f85e8c1-6dc5-3f7f-9c7f-e44700a7b279",
+      "title": "Eyes Open",
+      "type": "Album",
+      "first_release_date": "1992-06-02"
+    },
+    {
+      "id": "ffc94f37-2341-35c7-8d08-f46e80e76cba",
+      "title": "The Guide (Wommat)",
+      "type": "Album",
+      "first_release_date": "1994-05-16"
+    },
+    {
+      "id": "46831713-1cde-3de8-a9d3-385c8c423433",
+      "title": "Senegal: Gainde: Voices From the Heart of Africa",
+      "type": "Album",
+      "first_release_date": "1995"
+    },
+    {
+      "id": "cc094355-cef5-3f0f-b47b-37facebb4618",
+      "title": "Joko: From Village to Town",
+      "type": "Album",
+      "first_release_date": "2000-02-21"
+    },
+    {
+      "id": "3e384bd0-6fb4-3411-945f-323d26f2ec47",
+      "title": "Joko (The Link)",
+      "type": "Album",
+      "first_release_date": "2000-09-05"
+    },
+    {
+      "id": "ed261739-51de-356c-860f-77a82da8d58e",
+      "title": "Ba Tay",
+      "type": "Album",
+      "first_release_date": "2002-04-06"
+    },
+    {
+      "id": "f9d61866-fb70-3273-8b8d-ad45350ddfb2",
+      "title": "Nothing’s in Vain (Coono du réér)",
+      "type": "Album",
+      "first_release_date": "2002-10-22"
+    },
+    {
+      "id": "4d08f8ed-b865-40fa-a80c-a1b9eb35a414",
+      "title": "Céy You",
+      "type": "Album",
+      "first_release_date": "2003"
+    },
+    {
+      "id": "d1dfd479-d208-4d45-9c78-2f7a334edba8",
+      "title": "Together",
+      "type": "Album",
+      "first_release_date": "2003"
+    },
+    {
+      "id": "3bc55a2f-5fe9-3394-b4c7-4d8e56639e58",
+      "title": "Egypt",
+      "type": "Album",
+      "first_release_date": "2004-06-08"
+    },
+    {
+      "id": "9c506abe-ebce-3097-8224-a6035e2c1dcb",
+      "title": "Alsaama Day",
+      "type": "Album",
+      "first_release_date": "2007-04-10"
+    },
+    {
+      "id": "a4927f05-416b-3990-a32e-b1445967ea04",
+      "title": "Rokku Mi Rokka",
+      "type": "Album",
+      "first_release_date": "2007-10-30"
+    },
+    {
+      "id": "83234566-6e1e-461b-b953-55bde2ccd6a4",
+      "title": "Dakar–Kingston",
+      "type": "Album",
+      "first_release_date": "2010-06-21"
+    },
+    {
+      "id": "ba0dda40-8c08-4607-8ac2-7fd8dd3e2cb0",
+      "title": "Mballax Dafay Wax",
+      "type": "Album",
+      "first_release_date": "2011"
+    },
+    {
+      "id": "c5251024-0229-46e8-8240-6214e8ab7cd9",
+      "title": "Africa Rekk",
+      "type": "Album",
+      "first_release_date": "2016-11-04"
+    },
+    {
+      "id": "bebad9d0-d05e-4325-8f8d-05d1823b053e",
+      "title": "Seeni Valeurs",
+      "type": "Album",
+      "first_release_date": "2017-08-01"
+    },
+    {
+      "id": "36bbc87b-8861-43f8-b9bf-6054f8356755",
+      "title": "History",
+      "type": "Album",
+      "first_release_date": "2019-04-12"
+    },
+    {
+      "id": "32daf3ba-428c-4b22-8001-035396696935",
+      "title": "Eclairer le monde - Light the World",
+      "type": "Album",
+      "first_release_date": "2025-04-04"
+    },
+    {
+      "id": "37292ac6-7f42-3eda-b2f7-4449ec932d03",
+      "title": "Hey You! The Best of Youssou N’Dour",
+      "type": "Compilation",
+      "first_release_date": "1993"
+    },
+    {
+      "id": "83de3949-692e-3280-83c9-56cdd909d559",
+      "title": "The Best of Youssou N’Dour",
+      "type": "Compilation",
+      "first_release_date": "1994-11-07"
+    }
+  ],
+  "tracks": {
+    "ed0b2a46-29ce-4f1c-8784-38a273590888": [
+      {
+        "id": "4fa5bd56-4ac2-48f3-80f9-290e8a346520",
+        "title": "Diongoma",
+        "position": "1",
+        "length": "391445",
+        "work": null
+      },
+      {
+        "id": "a83c5a72-c91c-4888-8521-ffcd8ed681ca",
+        "title": "Massamba",
+        "position": "2",
+        "length": "323004",
+        "work": null
+      },
+      {
+        "id": "f6003211-9542-4a5c-bc61-852af8db7490",
+        "title": "Saf Safati",
+        "position": "3",
+        "length": "309316",
+        "work": null
+      },
+      {
+        "id": "f1388420-c1e6-430a-a858-990ecf22e35e",
+        "title": "M'Ba",
+        "position": "4",
+        "length": "331572",
+        "work": null
+      },
+      {
+        "id": "2e084c0b-99a5-494e-98e6-95975b6454c2",
+        "title": "Lampa Fall",
+        "position": "5",
+        "length": "286000",
+        "work": null
+      },
+      {
+        "id": "8362a3cd-891a-4b00-b68f-5b69baba91a8",
+        "title": "Nidiaye",
+        "position": "6",
+        "length": "284029",
+        "work": null
+      }
+    ],
+    "2014ba7e-8f9f-3318-ab71-708b8143db08": [
+      {
+        "id": "1fbf3369-26d5-45be-a6e0-0829b398c326",
+        "title": "Djamil",
+        "position": "1",
+        "length": "327933",
+        "work": null
+      },
+      {
+        "id": "72515df6-5d89-486e-a4fc-767c1a46c1d4",
+        "title": "Laye Fall",
+        "position": "2",
+        "length": "415826",
+        "work": null
+      },
+      {
+        "id": "db1ba6eb-9695-4976-9d2e-3f342dca4622",
+        "title": "Bekoor",
+        "position": "3",
+        "length": "386733",
+        "work": null
+      },
+      {
+        "id": "f6807407-8726-4688-956c-12ce32df1971",
+        "title": "Wagane Faye",
+        "position": "4",
+        "length": "312000",
+        "work": null
+      },
+      {
+        "id": "226d21d7-0ed5-4b0b-bef2-480570a67175",
+        "title": "Nanette Ada",
+        "position": "5",
+        "length": "574173",
+        "work": null
+      },
+      {
+        "id": "85bebbaa-289e-439c-9a5c-01cd6664b191",
+        "title": "Xale Yi Rew Mi",
+        "position": "6",
+        "length": "266533",
+        "work": null
+      }
+    ],
+    "07928183-6757-4c51-88dd-5981aabd8773": [
+      {
+        "id": "decb4137-e82e-4c2a-9c9a-6c12a47318f8",
+        "title": "N'Dobine",
+        "position": "1",
+        "length": "300840",
+        "work": null
+      },
+      {
+        "id": "b01ab7f3-7340-444f-be31-67738e8cf39f",
+        "title": "Donkaasi Gi",
+        "position": "2",
+        "length": "281813",
+        "work": null
+      },
+      {
+        "id": "c656b734-9d6d-4b31-b6b4-de9a0d0fd694",
+        "title": "Wareff",
+        "position": "3",
+        "length": "302186",
+        "work": null
+      },
+      {
+        "id": "f62e2071-92a2-473d-bdb3-ca40f4ee4017",
+        "title": "Sayi Maninde",
+        "position": "4",
+        "length": "328600",
+        "work": null
+      },
+      {
+        "id": "63dd5cd1-3d61-483a-b268-6166d6c43e72",
+        "title": "The Rubberband Man",
+        "position": "5",
+        "length": "316920",
+        "work": {
+          "id": "c1e5de9d-8fd0-312c-83a4-cddf929183bc",
+          "title": "The Rubberband Man",
+          "composers": [
+            {
+              "name": "Thom Bell",
+              "mbid": "96b63688-fb86-4aff-b682-85f0165bece1"
+            },
+            {
+              "name": "Linda Creed",
+              "mbid": "523af0eb-badf-4d80-bf5c-cf102f846ef1"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ee34b1a0-c877-41ea-beea-65c730f7ea36",
+        "title": "Moule Moule",
+        "position": "6",
+        "length": "305280",
+        "work": null
+      },
+      {
+        "id": "c6873261-a8d9-42b8-bd6a-02181e3bb629",
+        "title": "Samayaye",
+        "position": "7",
+        "length": "321706",
+        "work": null
+      },
+      {
+        "id": "d788832c-2b07-47f0-950c-d1c69566aaa3",
+        "title": "A Par Theid",
+        "position": "8",
+        "length": "329293",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 17590,
+  "wikidata_id": "Q210734"
+}

@@ -1,0 +1,600 @@
+{
+  "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396",
+  "name": "Yoko Ono",
+  "type": "Person",
+  "country": "US",
+  "gender": "Female",
+  "life_span": {
+    "begin": "1933-02-18",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "New York",
+  "begin_area": "Tokyo",
+  "tags": [
+    {
+      "name": "art pop",
+      "count": "2"
+    },
+    {
+      "name": "avant-garde",
+      "count": "2"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "一柳慧",
+      "target_mbid": "faa6b561-3c93-498a-8924-dc99872bfa11",
+      "target_type": "Person",
+      "target_disambiguation": "Japanese composer and pianist",
+      "attributes": [],
+      "begin": "1956",
+      "end": "1963"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "John Lennon",
+      "target_mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+      "target_type": "Person",
+      "target_disambiguation": "The Beatles",
+      "attributes": [],
+      "begin": "1969-03-20",
+      "end": "1980-12-08"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Plastic Ono Band",
+      "target_mbid": "84f81b32-8b3a-4914-9cff-017a52f9d16b",
+      "target_type": "Group",
+      "target_disambiguation": "",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": "1969-06",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Peace Choir",
+      "target_mbid": "6d72bf52-417d-4ca0-84db-dea062bb2fe0",
+      "target_type": "Group",
+      "target_disambiguation": "",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Apple",
+      "target_mbid": "3dba35e6-28f4-4926-aae3-ff82ad934aa8",
+      "target_type": "Group",
+      "target_disambiguation": "John Lennon and Yoko Ono side project",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Sean Ono Lennon",
+      "target_mbid": "722c6718-0c61-4db2-a8bc-993a8c5d2baf",
+      "target_type": "Person",
+      "target_disambiguation": "",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Julian Lennon",
+      "target_mbid": "fbe1a6d6-12c9-459e-bf73-fdcc76b14b7e",
+      "target_type": "Person",
+      "target_disambiguation": "",
+      "attributes": [
+        "step"
+      ],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000521704"
+    },
+    {
+      "type": "bandcamp",
+      "target": "https://yokoono.bandcamp.com/"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/b0b33754-a664-43b7-ba00-be0dc4ec2396"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/42754"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://web.archive.org/web/19961206175551/http://www.yoko.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://web.archive.org/web/19981206132710/http://www.cam.org/~rjoly/yoko/onoweb.html"
+    },
+    {
+      "type": "fanpage",
+      "target": "https://web.archive.org/web/20021003081834/http://www.a-i-u.net/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/2s4tjL6W3qrblOe0raIzwJ"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/174087"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0648780/"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/officialyokoono"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n50001903"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/O/Ono,_Yoko/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb120405568"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118590049"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=392134"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/yoko-ono"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w63x8f82"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL425281A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/yoko_ono"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Yoko-Ono/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n50001903"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id321559"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/321559"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/4576"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/yokoono"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/YokoOno"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/yokoonopage"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/yokoono/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/yokoonoofficial/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/399524"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/yokoono"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/321559"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/8804"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/111076257"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q117012"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/user/Y0K0ON0"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "b7cb0753-b05f-35c7-bcc2-85e1c783bd0f",
+      "title": "Unfinished Music No. 1: Two Virgins",
+      "type": "Album",
+      "first_release_date": "1968-11-11"
+    },
+    {
+      "id": "ae59682d-3dfe-3a0c-b9e5-87623bd0ae6f",
+      "title": "Unfinished Music No. 2: Life With the Lions",
+      "type": "Album",
+      "first_release_date": "1969-05-26"
+    },
+    {
+      "id": "9ea6179c-075e-3784-b0e0-62813bd94723",
+      "title": "Wedding Album",
+      "type": "Album",
+      "first_release_date": "1969-10-20"
+    },
+    {
+      "id": "39fecfe6-ad51-3fad-bd61-2b11e8e1f954",
+      "title": "Yoko Ono/Plastic Ono Band",
+      "type": "Album",
+      "first_release_date": "1970-12-11"
+    },
+    {
+      "id": "733a878c-1ba6-37bc-b3a8-1b0b8beb523f",
+      "title": "Fly",
+      "type": "Album",
+      "first_release_date": "1971-09-21"
+    },
+    {
+      "id": "e5153705-e798-343c-aeaf-1777db763dd6",
+      "title": "Some Time in New York City",
+      "type": "Album",
+      "first_release_date": "1972-09-15"
+    },
+    {
+      "id": "d170c3d1-874a-3d5b-8f87-e4de93a5ab61",
+      "title": "Approximately Infinite Universe",
+      "type": "Album",
+      "first_release_date": "1973-01-08"
+    },
+    {
+      "id": "9df883dd-cafe-3901-9b56-92ca62dede15",
+      "title": "Feeling the Space",
+      "type": "Album",
+      "first_release_date": "1973-11-23"
+    },
+    {
+      "id": "790ec782-7344-366c-af67-4a427bcaf991",
+      "title": "Double Fantasy",
+      "type": "Album",
+      "first_release_date": "1980-11-17"
+    },
+    {
+      "id": "a3851f14-59b0-32e8-8825-f00c2c2ef4c0",
+      "title": "Season of Glass",
+      "type": "Album",
+      "first_release_date": "1981-06-12"
+    },
+    {
+      "id": "2c498918-13b5-3730-942c-42e3ce36f5e1",
+      "title": "It’s Alright (I See Rainbows)",
+      "type": "Album",
+      "first_release_date": "1982-11"
+    },
+    {
+      "id": "9e51160b-c309-334a-84f9-80feb0112a8f",
+      "title": "Milk and Honey",
+      "type": "Album",
+      "first_release_date": "1984-01-19"
+    },
+    {
+      "id": "87e0138c-dfb1-38e0-9432-f16400dc6f2c",
+      "title": "Starpeace",
+      "type": "Album",
+      "first_release_date": "1985-02-18"
+    },
+    {
+      "id": "b98d7c26-a6dc-3e14-86be-490dfaf70d64",
+      "title": "Rising",
+      "type": "Album",
+      "first_release_date": "1995"
+    },
+    {
+      "id": "3908a924-3e5f-4f47-8f81-3093895c4311",
+      "title": "A Story",
+      "type": "Album",
+      "first_release_date": "1997-07-22"
+    },
+    {
+      "id": "c2744084-a914-3a27-9774-4726ef1e6281",
+      "title": "Blueprint for a Sunrise",
+      "type": "Album",
+      "first_release_date": "2001-10-06"
+    },
+    {
+      "id": "f9e38504-bc2f-40bc-82e4-1a84dc325134",
+      "title": "Between My Head and the Sky",
+      "type": "Album",
+      "first_release_date": "2009-09-21"
+    },
+    {
+      "id": "c2f35de4-a08a-4ce9-8f05-cae185e72950",
+      "title": "YOKOKIMTHURSTON",
+      "type": "Album",
+      "first_release_date": "2012-09-25"
+    },
+    {
+      "id": "fe14816a-83e0-4837-9e71-e5ed6bd7f1cb",
+      "title": "Take Me to the Land of Hell",
+      "type": "Album",
+      "first_release_date": "2013-09-12"
+    },
+    {
+      "id": "57764f77-6b53-4a17-b370-26e214b0d7bd",
+      "title": "Warzone",
+      "type": "Album",
+      "first_release_date": "2018-10-19"
+    },
+    {
+      "id": "46583e07-4f56-4298-9169-e1da26cea14a",
+      "title": "Selected Recordings From Grapefruit",
+      "type": "Album",
+      "first_release_date": "2025-03-21"
+    },
+    {
+      "id": "a29c5436-f22a-3f18-b5ff-53d152385a7a",
+      "title": "Walking on Thin Ice",
+      "type": "Compilation",
+      "first_release_date": "1992-05-07"
+    },
+    {
+      "id": "cffdf4a1-9a8e-34a3-b865-b7f5d86758bd",
+      "title": "Onobox",
+      "type": "Compilation",
+      "first_release_date": "1992"
+    },
+    {
+      "id": "8c2ab669-2dbf-41cc-96ce-ccabd19c261d",
+      "title": "Onomix",
+      "type": "Compilation",
+      "first_release_date": "2012"
+    },
+    {
+      "id": "9690f4a7-ca16-44bd-9f04-2b1518fd1db0",
+      "title": "Power To The People (New York City - The Evolution Documentary)",
+      "type": "Compilation",
+      "first_release_date": "2025-10-24"
+    }
+  ],
+  "tracks": {
+    "b7cb0753-b05f-35c7-bcc2-85e1c783bd0f": [
+      {
+        "id": "b04b6f14-3164-4f2e-a3c6-bccf8c85246d",
+        "title": "Two Virgins, Side One",
+        "position": "1",
+        "length": "857000",
+        "work": {
+          "id": "7ededd22-2d41-4873-aac8-73015c915c80",
+          "title": "Two Virgins",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "03750b69-da3b-4cc1-9431-24407550b000",
+        "title": "Two Virgins, Side Two",
+        "position": "2",
+        "length": "884000",
+        "work": {
+          "id": "7ededd22-2d41-4873-aac8-73015c915c80",
+          "title": "Two Virgins",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      }
+    ],
+    "ae59682d-3dfe-3a0c-b9e5-87623bd0ae6f": [
+      {
+        "id": "3878ce45-de65-4984-88a5-ec7b5b8b5c61",
+        "title": "Cambridge 1969",
+        "position": "1",
+        "length": "1591066",
+        "work": {
+          "id": "66a63581-c457-4a75-a7fc-4b1dac3e2909",
+          "title": "Cambridge 1969",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8d8e0617-f34a-48b4-8b6f-bb96d7dad15b",
+        "title": "No Bed for Beatle John",
+        "position": "2",
+        "length": "280933",
+        "work": {
+          "id": "e62273f9-f06a-4f1d-a139-4a72e35078c6",
+          "title": "No Bed for Beatle John",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4dc1e7ac-0cc3-4358-9c79-d017fc51988c",
+        "title": "Baby’s Heartbeat",
+        "position": "3",
+        "length": "309760",
+        "work": {
+          "id": "7d16d16a-0d0d-4388-b38b-2f3363345402",
+          "title": "Baby’s Heartbeat",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "60668439-d600-4f6a-a890-374cefe48dd0",
+        "title": "Two Minutes Silence",
+        "position": "4",
+        "length": "120040",
+        "work": {
+          "id": "94b79c8b-2186-4d80-8364-3d88fa535a76",
+          "title": "Two Minutes Silence",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e55daa51-8b0d-4b5e-844b-acd5494b26d2",
+        "title": "Radio Play",
+        "position": "5",
+        "length": "759893",
+        "work": {
+          "id": "65f7c57c-c18c-47e4-9927-46957d2c7f02",
+          "title": "Radio Play",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      }
+    ],
+    "9ea6179c-075e-3784-b0e0-62813bd94723": [
+      {
+        "id": "740ab5d0-be5e-4629-aa9e-4b07465c7ff8",
+        "title": "John & Yoko",
+        "position": "1",
+        "length": "1363293",
+        "work": {
+          "id": "c9de9271-9eaa-467f-9180-51142a3c2b61",
+          "title": "John & Yoko",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1284b50b-4275-4a00-9eab-9cd0816d4519",
+        "title": "Amsterdam",
+        "position": "2",
+        "length": "1499400",
+        "work": {
+          "id": "1d2780af-48b2-40fc-84b6-6969d3e6fb5d",
+          "title": "Amsterdam",
+          "composers": [
+            {
+              "name": "John Lennon",
+              "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Yoko Ono",
+              "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 42754,
+  "wikidata_id": "Q117012"
+}

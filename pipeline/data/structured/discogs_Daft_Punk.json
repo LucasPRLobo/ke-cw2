@@ -1,0 +1,36 @@
+{
+  "id": 7618671,
+  "name": "Indo Silver Club (2)",
+  "realname": null,
+  "profile": "Daft Punk alias used in the 1996 [l18] release, [m138026]",
+  "members": [
+    {
+      "name": "Thomas Bangalter",
+      "id": 3775,
+      "active": true
+    },
+    {
+      "name": "Guy-Manuel de Homem-Christo",
+      "id": 424278,
+      "active": true
+    }
+  ],
+  "groups": [],
+  "genres": [
+    "Electronic"
+  ],
+  "styles": [
+    "House",
+    "Techno"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Electronic",
+      "style": "House"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Techno"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "completeness": {
+    "cm1_schema": 92.9,
+    "cm1_populated": 26,
+    "cm1_expected": 28,
+    "cm1_missing": [
+      "hasGenre",
+      "memberOf"
+    ],
+    "cm2_property_rates": {
+      "countryOfOrigin": 42.1,
+      "genre": 17.8,
+      "birthDate": 16.1,
+      "birthPlace": 16.1,
+      "wonAward": 14.4,
+      "signedTo": 13.3,
+      "playsInstrument": 28.8,
+      "influencedBy": 9.3
+    },
+    "cm3_primary": 58,
+    "cm3_secondary": 296,
+    "cm3_total": 354
+  },
+  "cq_coverage": {
+    "coverage_percent": 100.0,
+    "passed": 20,
+    "total": 20,
+    "details": {
+      "CQ1": {
+        "title": "Album release dates",
+        "answerable": true
+      },
+      "CQ2": {
+        "title": "Artist genres",
+        "answerable": true
+      },
+      "CQ3": {
+        "title": "Albums",
+        "answerable": true
+      },
+      "CQ4": {
+        "title": "Producers",
+        "answerable": true
+      },
+      "CQ5": {
+        "title": "Band members",
+        "answerable": true
+      },
+      "CQ6": {
+        "title": "Producers by genre",
+        "answerable": true
+      },
+      "CQ7": {
+        "title": "Instruments in bands",
+        "answerable": true
+      },
+      "CQ8": {
+        "title": "Awards",
+        "answerable": true
+      },
+      "CQ9": {
+        "title": "Subgenres",
+        "answerable": true
+      },
+      "CQ10": {
+        "title": "Compositions",
+        "answerable": true
+      },
+      "CQ11": {
+        "title": "Award winners at labels",
+        "answerable": true
+      },
+      "CQ12": {
+        "title": "Influences sharing genres",
+        "answerable": true
+      },
+      "CQ13": {
+        "title": "Labels by genre count",
+        "answerable": true
+      },
+      "CQ14": {
+        "title": "Cross-country collaborations",
+        "answerable": true
+      },
+      "CQ15": {
+        "title": "Instruments per genre",
+        "answerable": true
+      },
+      "CQ16": {
+        "title": "Multinational bands",
+        "answerable": true
+      },
+      "CQ17": {
+        "title": "Artist labels + albums",
+        "answerable": true
+      },
+      "CQ18": {
+        "title": "Composers by country",
+        "answerable": true
+      },
+      "CQ19": {
+        "title": "Award winners who collaborated",
+        "answerable": true
+      },
+      "CQ20": {
+        "title": "Genre geographic spread",
+        "answerable": true
+      }
+    }
+  },
+  "entity_linking": {
+    "extraction_files": 57,
+    "total_triples": 103,
+    "linked": 102,
+    "accuracy_percent": 99.0
+  },
+  "rag_comparison": {
+    "plain_llm_strengths": "Detailed, well-structured, provides context and history",
+    "plain_llm_weaknesses": "Not grounded in our KG data, doesn't verify or challenge our existing data",
+    "rag_strengths": "Critically evaluates KG claim (34 vs 28+), identifies data quality issue, refuses to fabricate, recommends verification sources",
+    "rag_weaknesses": "More cautious, fewer specific details",
+    "winner": "RAG \u2014 demonstrates data quality awareness and responsible KG construction",
+    "key_insight": "The RAG approach discovered a potential data quality issue in our KG (34 awards may overccount due to including both competitive and honorary awards). The plain LLM wouldn't have caught this because it doesn't know what our KG claims."
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "wikidata_id": "Q15862",
+  "genres": [
+    "rock music",
+    "heavy metal music",
+    "progressive rock",
+    "glam rock",
+    "hard rock",
+    "art rock",
+    "pop rock",
+    "traditional heavy metal"
+  ],
+  "instruments": [],
+  "awards": [
+    "Rock and Roll Hall of Fame",
+    "Polar Music Prize",
+    "Songwriters Hall of Fame",
+    "Grammy Lifetime Achievement Award",
+    "star on Hollywood Walk of Fame",
+    "Echo Pop Award for the Best International Rock/Pop Group"
+  ],
+  "labels": [
+    "EMI",
+    "Island Records",
+    "Capitol Records",
+    "Parlophone",
+    "Hollywood Records",
+    "Elektra",
+    "EMI Records"
+  ],
+  "influences": [
+    "The Beatles",
+    "Pink Floyd",
+    "Jimi Hendrix",
+    "The Who",
+    "Cream"
+  ],
+  "occupations": [],
+  "country": null,
+  "birth_place": null,
+  "birth_date": null,
+  "death_date": null,
+  "wikipedia_title": "Queen (band)",
+  "compositions": [
+    {
+      "title": "The Show Must Go On",
+      "genre": "rock music",
+      "date": "1991-10-14"
+    },
+    {
+      "title": "The Show Must Go On",
+      "genre": "hard rock",
+      "date": "1991-10-14"
+    },
+    {
+      "title": "The Show Must Go On",
+      "genre": "art rock",
+      "date": "1991-10-14"
+    },
+    {
+      "title": "The Show Must Go On",
+      "genre": "symphonic rock",
+      "date": "1991-10-14"
+    },
+    {
+      "title": "Greatest Video Hits 2",
+      "genre": null,
+      "date": "2003-01-01"
+    },
+    {
+      "title": "We Are the Champions: Final Live in Japan",
+      "genre": "concert film",
+      "date": "1992-01-01"
+    },
+    {
+      "title": "Greatest Video Hits 1",
+      "genre": null,
+      "date": "2002-01-01"
+    },
+    {
+      "title": "We Will Rock You",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "You Don't Fool Me",
+      "genre": "rock music",
+      "date": "1996-11-18"
+    },
+    {
+      "title": "We Will Rock You",
+      "genre": "concert film",
+      "date": "1982-01-01"
+    },
+    {
+      "title": "Le Presbytère",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "Stone Cold Crazy",
+      "genre": null,
+      "date": ""
+    }
+  ]
+}

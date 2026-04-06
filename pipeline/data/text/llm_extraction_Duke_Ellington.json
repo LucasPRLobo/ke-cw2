@@ -1,0 +1,62 @@
+[
+  {
+    "subject": "Duke Ellington",
+    "predicate": "composed",
+    "object": "more than one thousand compositions"
+  },
+  {
+    "subject": "Duke Ellington",
+    "predicate": "memberOf",
+    "object": "Duke Ellington's orchestra"
+  },
+  {
+    "subject": "Duke Ellington",
+    "predicate": "hasGenre",
+    "object": "jazz"
+  },
+  {
+    "subject": "Duke Ellington",
+    "predicate": "collaboratedWith",
+    "object": "Billy Strayhorn"
+  },
+  {
+    "subject": "Duke Ellington",
+    "predicate": "performedAt",
+    "object": "Cotton Club"
+  },
+  {
+    "subject": "Duke Ellington",
+    "predicate": "performedAt",
+    "object": "Newport Jazz Festival"
+  },
+  {
+    "subject": "Duke Ellington",
+    "predicate": "hasGenre",
+    "object": "American Music"
+  },
+  {
+    "subject": "Duke Ellington",
+    "predicate": "hasMember",
+    "object": "Jimmy Blanton"
+  },
+  {
+    "subject": "Duke Ellington",
+    "predicate": "hasMember",
+    "object": "Ben Webster"
+  },
+  {
+    "subject": "Duke Ellington",
+    "predicate": "composed",
+    "object": "Caravan"
+  },
+  {
+    "subject": "Duke Ellington",
+    "predicate": "hasGenre",
+    "object": "big band jazz"
+  },
+  {
+    "subject": "Duke Ellington",
+    "predicate": "founded",
+    "object": "Duke Ellington's orchestra"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "wikidata_id": "Q174957",
+  "genres": [
+    "jazz",
+    "blues",
+    "soul",
+    "gospel music"
+  ],
+  "instruments": [
+    "piano",
+    "voice"
+  ],
+  "awards": [
+    "Rock and Roll Hall of Fame",
+    "honorary doctorate"
+  ],
+  "labels": [
+    "Bethlehem Records",
+    "Charly Records"
+  ],
+  "influences": [],
+  "occupations": [
+    "singer",
+    "pianist",
+    "singer-songwriter",
+    "civil rights advocate",
+    "recording artist",
+    "jazz pianist"
+  ],
+  "country": "United States",
+  "birth_place": "Tryon",
+  "birth_date": "1933-02-22",
+  "death_date": "2003-04-21",
+  "wikipedia_title": "Nina Simone",
+  "compositions": [
+    {
+      "title": "Rwanda pour mémoire",
+      "genre": "documentary film",
+      "date": "2003-01-01"
+    },
+    {
+      "title": "Mississippi Goddam",
+      "genre": "popular music",
+      "date": "1964-01-01"
+    },
+    {
+      "title": "Four Women",
+      "genre": null,
+      "date": "1978-01-01"
+    },
+    {
+      "title": "Point of No Return",
+      "genre": "film score",
+      "date": "1993-01-01"
+    },
+    {
+      "title": "Point of No Return",
+      "genre": "soundtrack",
+      "date": "1993-01-01"
+    }
+  ]
+}

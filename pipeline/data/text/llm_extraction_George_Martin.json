@@ -1,0 +1,47 @@
+[
+  {
+    "subject": "George Martin",
+    "predicate": "produced",
+    "object": "The Beatles' original albums"
+  },
+  {
+    "subject": "George Martin",
+    "predicate": "collaboratedWith",
+    "object": "The Beatles"
+  },
+  {
+    "subject": "George Martin",
+    "predicate": "composed",
+    "object": "orchestral and string arrangements"
+  },
+  {
+    "subject": "Sgt. Pepper's Lonely Hearts Club Band",
+    "predicate": "producedBy",
+    "object": "George Martin"
+  },
+  {
+    "subject": "George Martin",
+    "predicate": "produced",
+    "object": "comedy and novelty records"
+  },
+  {
+    "subject": "George Martin",
+    "predicate": "collaboratedWith",
+    "object": "Peter Sellers"
+  },
+  {
+    "subject": "George Martin",
+    "predicate": "collaboratedWith",
+    "object": "Spike Milligan"
+  },
+  {
+    "subject": "George Martin",
+    "predicate": "collaboratedWith",
+    "object": "Bernard Cribbins"
+  },
+  {
+    "subject": "George Martin",
+    "predicate": "founded",
+    "object": "Associated Independent Recording"
+  }
+]

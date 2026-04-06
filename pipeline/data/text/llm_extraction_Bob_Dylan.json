@@ -1,0 +1,17 @@
+[
+  {"subject": "Bob Dylan", "predicate": "alterEgo", "object": "Robert Allen Zimmerman"},
+  {"subject": "Bob Dylan", "predicate": "alterEgo", "object": "Robert Dylan"},
+  {"subject": "Bob Dylan", "predicate": "hasMusicalPeriod", "object": "1960s"},
+  {"subject": "Bob Dylan", "predicate": "hasGenre", "object": "folk"},
+  {"subject": "Bob Dylan", "predicate": "hasGenre", "object": "protest songs"},
+  {"subject": "Bob Dylan", "predicate": "hasGenre", "object": "country"},
+  {"subject": "Bob Dylan", "predicate": "released", "object": "The Freewheelin' Bob Dylan"},
+  {"subject": "Bob Dylan", "predicate": "released", "object": "The Times They Are a-Changin'"},
+  {"subject": "Bob Dylan", "predicate": "released", "object": "Blowin' in the Wind"},
+  {"subject": "Bob Dylan", "predicate": "released", "object": "Highway 61 Revisited"},
+  {"subject": "Bob Dylan", "predicate": "released", "object": "Blonde on Blonde"},
+  {"subject": "Bob Dylan", "predicate": "released", "object": "Nashville Skyline"},
+  {"subject": "Bob Dylan", "predicate": "collaboratedWith", "object": "The Band"},
+  {"subject": "Bob Dylan", "predicate": "released", "object": "Basement Tapes"},
+  {"subject": "Bob Dylan", "predicate": "performedAt", "object": "1965 Newport Folk Festival"}
+]

@@ -1,0 +1,134 @@
+{
+  "id": 5034422,
+  "name": "BTS (4)",
+  "realname": "BTS (방탄소년단)",
+  "profile": "K-Pop band. An acronym of Bangtan Sonyeondan (Korean: 방탄소년단, literally meaning \"Bulletproof Boy Scouts\") or “Beyond the Scene”, also known as the Bangtan Boys.",
+  "members": [
+    {
+      "name": "V (37)",
+      "id": 4489474,
+      "active": true
+    },
+    {
+      "name": "Jimin (2)",
+      "id": 5115944,
+      "active": true
+    },
+    {
+      "name": "J-Hope",
+      "id": 5570617,
+      "active": true
+    },
+    {
+      "name": "Jin (30)",
+      "id": 5570618,
+      "active": true
+    },
+    {
+      "name": "Jungkook",
+      "id": 5570620,
+      "active": true
+    },
+    {
+      "name": "Suga (14)",
+      "id": 5570699,
+      "active": true
+    },
+    {
+      "name": "Kim Nam-joon",
+      "id": 7283293,
+      "active": true
+    }
+  ],
+  "groups": [],
+  "genres": [
+    "Funk / Soul",
+    "Hip Hop",
+    "Pop",
+    "Stage & Screen"
+  ],
+  "styles": [
+    "Concert Film",
+    "Contemporary R&B",
+    "K-pop",
+    "Music Video"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Hip Hop",
+      "style": "K-pop"
+    },
+    {
+      "genre": "Pop",
+      "style": "K-pop"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "K-pop"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "Contemporary R&B"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "K-pop"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Contemporary R&B"
+    },
+    {
+      "genre": "Pop",
+      "style": "K-pop"
+    },
+    {
+      "genre": "Pop",
+      "style": "Contemporary R&B"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "Music Video"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "K-pop"
+    },
+    {
+      "genre": "Pop",
+      "style": "Music Video"
+    },
+    {
+      "genre": "Pop",
+      "style": "K-pop"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Music Video"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "K-pop"
+    },
+    {
+      "genre": "Pop",
+      "style": "K-pop"
+    },
+    {
+      "genre": "Pop",
+      "style": "Concert Film"
+    },
+    {
+      "genre": "Pop",
+      "style": "K-pop"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "Concert Film"
+    },
+    {
+      "genre": "Stage & Screen",
+      "style": "K-pop"
+    }
+  ]
+}

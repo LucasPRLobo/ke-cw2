@@ -1,0 +1,83 @@
+{
+  "id": 17590,
+  "name": "Youssou N'Dour",
+  "realname": "Youssou Madjiguène Ndour",
+  "profile": "Senegalese singer, songwriter, percussionist, composer, occasional actor, businessman, and politician, born 1 October 1959, Dakar.\r\n\r\nHe began singing as a child performer at neighborhood gatherings in the tough Medina section of Dakar, Senegal, West Africa. He took formally to the stage at age 12 and by his mid-teens was singing regularly with the Star Band, the most successful group in Senegal at that time. In 1979, he formed his own ensemble, the Etoile de Dakar, which, by 1981, had evolved into The Super Etoile. The most famous band in Africa, The Super Etoile, guided by Youssou N'Dour has crafted and invented a thoroughly modern African pop style, one which has gone on to influence artists as diverse as Peter Gabriel and Paul Simon. \r\n\r\nIt was Gabriel, in fact, who introduced N'Dour to American and British artists via his So album (in 1986) and took N'Dour and The Super Etoile on the road with him in a subsequent world tour. In 1988, Youssou N'Dour was a co-headliner on the Amnesty International \"Human Rights Now!\" tour alongside Gabriel, Bruce Springsteen, Sting, and Tracy Chapman. It was during the \"Human Rights Now!\" tour that N'Dour first heard Chimes Of Freedom and became friends with Branford Marsalis, who appears on The Guide.\r\n\r\nN'Dour's first international album releases on Virgin, The Lion (1989), produced by George Acogny and containing the N'Dour-Gabriel composed single \"Shaking The Tree\"; and Set (1990), produced by Brian Eno-compadre Michael Brook, prompted Brian Cullman to write in Rolling Stone: \"If any third world performer has a real shot at the sort of universal popularity last enjoyed by Bob Marley, it's Youssou, a singer with a voice so extraordinary that the history of Africa seems locked inside it.\" \r\n\r\nIn the summer of 1991, Youssou N'Dour signed to Spike Lee's 40 Acres & A Mule Musicworks label, distributed by Columbia. N'Dour was impressed by Lee's stated commitment to \"enlarging the legacy of great African-American music\" in a wide range of styles and Lee's belief that N'Dour's music constituted a part of that legacy. The result of that union was 1992's Eyes Open; self-produced by N'Dour at his own state-of-the-art Xippi Studio in Dakar and featuring The Super Etoile, Eyes Open went on to win a Grammy Award nomination. \r\n\r\nSince the release of Eyes Open, Youssou N'Dour was made an ambassador for UNICEF in conjunction with the Year Of The Child. In July 1993, an African opera composed by N'Dour premiered at the Paris Opera. N'Dour was the subject of a recent episode of the BBC's Rhythms Of The World program.",
+  "members": [],
+  "groups": [
+    {
+      "name": "Etoile De Dakar",
+      "id": 490786,
+      "active": false
+    },
+    {
+      "name": "Le Super Etoile De Dakar",
+      "id": 856861,
+      "active": true
+    },
+    {
+      "name": "Sol En Si",
+      "id": 1003228,
+      "active": true
+    },
+    {
+      "name": "Star Band De Dakar",
+      "id": 2818313,
+      "active": false
+    },
+    {
+      "name": "Agir Réagir",
+      "id": 3409373,
+      "active": true
+    },
+    {
+      "name": "Espoir Pour Haïti",
+      "id": 4401414,
+      "active": true
+    },
+    {
+      "name": "Youssou N'Dour & Friends",
+      "id": 7082690,
+      "active": true
+    },
+    {
+      "name": "\"46664 The Event\" Cast",
+      "id": 8000316,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Folk, World, & Country",
+    "Latin"
+  ],
+  "styles": [
+    "African",
+    "Mbalax"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Mbalax"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "African"
+    },
+    {
+      "genre": "Latin",
+      "style": "African"
+    },
+    {
+      "genre": "Latin",
+      "style": "Mbalax"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "African"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Mbalax"
+    }
+  ]
+}

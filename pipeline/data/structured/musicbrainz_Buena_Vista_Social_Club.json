@@ -1,0 +1,688 @@
+{
+  "mbid": "2a85ecff-41e9-4be1-aca6-c87054a4c334",
+  "name": "Buena Vista Social Club",
+  "type": "Group",
+  "country": "CU",
+  "gender": null,
+  "life_span": {
+    "begin": "1996",
+    "end": "2015",
+    "ended": "true"
+  },
+  "area": "Cuba",
+  "begin_area": "La Habana",
+  "tags": [
+    {
+      "name": "afro-cuban jazz",
+      "count": "5"
+    },
+    {
+      "name": "bolero son",
+      "count": "2"
+    },
+    {
+      "name": "folk",
+      "count": "2"
+    },
+    {
+      "name": "jazz",
+      "count": "3"
+    },
+    {
+      "name": "latin",
+      "count": "2"
+    },
+    {
+      "name": "pilón",
+      "count": "2"
+    },
+    {
+      "name": "rock and indie",
+      "count": "2"
+    },
+    {
+      "name": "son cubano",
+      "count": "5"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Barbarito Torres",
+      "target_mbid": "2eeccea9-efda-4b12-b939-0edf34de8922",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Luis Barzaga",
+      "target_mbid": "4b062412-8c5a-43cd-9769-11d0019b05a1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Joachim Cooder",
+      "target_mbid": "8481b31d-6d23-476f-bec3-c22c5d11761b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ry Cooder",
+      "target_mbid": "a4e2650b-938b-4b72-95bc-6e229cd34601",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Ibrahim Ferrer",
+      "target_mbid": "a61930ae-dfe3-4574-bc5b-b0fa8d8efb62",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Luis Frank",
+      "target_mbid": "07b3a182-5799-4dee-859a-791d2ca766cd",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Rubén González",
+      "target_mbid": "861dbed8-5662-4778-9eca-3abb2245710e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Orlando “Cachaíto” López",
+      "target_mbid": "0094b33e-b865-40fd-8913-ba6d66752fa6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Eliades Ochoa",
+      "target_mbid": "1de8629a-9dd3-444c-86a0-9f9bd8c02218",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Omara Portuondo",
+      "target_mbid": "d2e06763-1035-4b1a-82c7-b7c08e06ba48",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Salvador Repilado",
+      "target_mbid": "6299f8bd-6bb9-4020-a1df-3a30a93fce9b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Compay Segundo",
+      "target_mbid": "8b8ab7a4-add8-4353-a586-e1086e521af8",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Benito Suárez",
+      "target_mbid": "d4861831-debc-4287-862d-658668aa1876",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "backward",
+      "target_name": "Lázaro Villa",
+      "target_mbid": "595e2514-9ebb-4bd0-9b87-68809a45c861",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "subgroup",
+      "direction": "backward",
+      "target_name": "Orquesta Buena Vista Social Club",
+      "target_mbid": "9bf5116f-104e-4383-a103-4dc86d07c621",
+      "attributes": [],
+      "begin": "2004",
+      "end": "2016"
+    },
+    {
+      "type": "subgroup",
+      "direction": "backward",
+      "target_name": "The Havana Lounge",
+      "target_mbid": "03fab0a4-f2e5-4c65-9430-d7b68125bf1c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000627250"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/2a85ecff-41e9-4be1-aca6-c87054a4c334"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/227677"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/11kBu957KTYoAltZHDm8gW"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/2799"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Buena+Vista+Social+Club"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.buenavistasocialclub.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/buena_vista_social_club"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/buena-vista-social-club/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/artist/id5620149"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.amazon.com/-/e/B000APKFPA"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000APKFPA"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/pages/Buena-Vista-Social-Club/11938531959"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/5620149"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/3521820"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/159644830"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q842415"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "32bbab8e-02c0-30d2-9e23-a19739864b84",
+      "title": "Buena Vista Social Club",
+      "type": "Album",
+      "first_release_date": "1997-06-23"
+    },
+    {
+      "id": "e609a38e-aad7-4626-8338-2cc439239f56",
+      "title": "Carnegie 25",
+      "type": "Album",
+      "first_release_date": "2023-08-04"
+    },
+    {
+      "id": "55aa7cd1-4f1e-4d72-a50b-16be00acf615",
+      "title": "Lost and Found",
+      "type": "Compilation",
+      "first_release_date": "2015-03-23"
+    },
+    {
+      "id": "3f25ebdc-5e8a-35e3-b06f-43181fbdbf3a",
+      "title": "At Carnegie Hall",
+      "type": "Live",
+      "first_release_date": "2008-10-13"
+    },
+    {
+      "id": "da87e26a-b50b-48b0-89ea-a1841af1d2e9",
+      "title": "1999-11-22: Centennial Hall - University of Arizona, Tuscon, AZ, USA",
+      "type": "Live",
+      "first_release_date": "1999-11-22"
+    }
+  ],
+  "tracks": {
+    "32bbab8e-02c0-30d2-9e23-a19739864b84": [
+      {
+        "id": "47b7339f-8f7e-432e-acf1-8cb6b53a3554",
+        "title": "Chan Chan",
+        "position": "1",
+        "length": "258000",
+        "work": {
+          "id": "d800088b-8648-3471-a782-0a07096b2bc5",
+          "title": "Chan Chan",
+          "composers": [
+            {
+              "name": "Compay Segundo",
+              "mbid": "8b8ab7a4-add8-4353-a586-e1086e521af8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f22b505c-9496-4c67-a872-c2768b4ae50f",
+        "title": "De camino a la vereda",
+        "position": "2",
+        "length": "303973",
+        "work": {
+          "id": "557967c8-d76f-3553-b553-c675fc9107da",
+          "title": "De camino a La Vereda",
+          "composers": [
+            {
+              "name": "Ibrahim Ferrer",
+              "mbid": "a61930ae-dfe3-4574-bc5b-b0fa8d8efb62"
+            }
+          ]
+        }
+      },
+      {
+        "id": "471cc66c-7772-4d6c-b780-b2429a48edc2",
+        "title": "El cuarto de Tula",
+        "position": "3",
+        "length": "445826",
+        "work": {
+          "id": "477cf98f-02a5-4e32-9ab9-61cec766e87c",
+          "title": "El cuarto de Tula",
+          "composers": [
+            {
+              "name": "Sergio González Siaba",
+              "mbid": "41c949df-ee81-4525-82fb-51982a8282ea"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7a2f8a38-e1a8-4f8d-9d92-919d6ea54195",
+        "title": "Pueblo Nuevo",
+        "position": "4",
+        "length": "366706",
+        "work": {
+          "id": "f4d363bc-1aaf-4ef4-a2db-a91b609d04b1",
+          "title": "Pueblo Nuevo",
+          "composers": [
+            {
+              "name": "Israel “Cachao” López",
+              "mbid": "d6060786-dac7-4101-80f1-8a10c81d0a7a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3337d23e-eec6-4e8c-a279-9dcfee979719",
+        "title": "Dos gardenias",
+        "position": "5",
+        "length": "184000",
+        "work": {
+          "id": "0bf780e8-2771-4cfa-b34e-8ec86d1d52c0",
+          "title": "Dos gardenias",
+          "composers": [
+            {
+              "name": "Isolina Carrillo",
+              "mbid": "7edc3952-f853-4369-9883-589db1f3875f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fd503a45-da49-4a11-8e4b-cc0e123cf366",
+        "title": "¿Y tú qué has hecho?",
+        "position": "6",
+        "length": "194733",
+        "work": {
+          "id": "4e8fe68a-6557-4678-9ae3-427eb080dc14",
+          "title": "¿Y tú qué has hecho?",
+          "composers": [
+            {
+              "name": "Eusebio Delfín",
+              "mbid": "fd636720-75ec-471c-990a-f33de8c7c35f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "de7429d0-04f4-4c20-b0d8-b350610db002",
+        "title": "Veinte años",
+        "position": "7",
+        "length": "211960",
+        "work": {
+          "id": "07d934d5-af94-4a32-871d-b9cd327986f2",
+          "title": "Veinte años",
+          "composers": [
+            {
+              "name": "María Teresa Vera",
+              "mbid": "89183d7e-bec7-4931-a5ce-a0d30d7155ed"
+            }
+          ]
+        }
+      },
+      {
+        "id": "68d8672e-7f48-4fa6-aca1-b63fc9b3e2da",
+        "title": "El carretero",
+        "position": "8",
+        "length": "210000",
+        "work": {
+          "id": "1bddca0c-cc8d-41af-bd28-48044c8f4dd8",
+          "title": "El carretero",
+          "composers": [
+            {
+              "name": "Guillermo Portabales",
+              "mbid": "ea562209-d706-401a-8b18-0e832980aae4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "16c11b1d-162e-4b9e-a3c0-fc74546b4520",
+        "title": "Candela",
+        "position": "9",
+        "length": "329000",
+        "work": {
+          "id": "c46fa214-25e2-4ba2-b152-704dd627baf7",
+          "title": "Candela",
+          "composers": [
+            {
+              "name": "Faustino Oramas",
+              "mbid": "7edff7f4-4840-408a-8218-d0a848ce62a3"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4198c8e0-7cf4-48c1-b143-c2b9ad9074a8",
+        "title": "Amor de loca juventud",
+        "position": "10",
+        "length": "202926",
+        "work": {
+          "id": "3ef5955d-9acd-4e03-87ef-42fb9cf066e1",
+          "title": "Amor de Loca Juventud",
+          "composers": [
+            {
+              "name": "Rafael Ortíz",
+              "mbid": "3abe9f1f-5221-4271-987f-3e2b4ebf7187"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9820e0fd-a16c-43f3-8cd0-e5f0949ad9f6",
+        "title": "Orgullecida",
+        "position": "11",
+        "length": "199000",
+        "work": {
+          "id": "6c0e740d-c912-4f01-85d1-1da256c025fe",
+          "title": "Orgullecida",
+          "composers": [
+            {
+              "name": "Eliseo Silveira",
+              "mbid": "164ef7f1-cf18-4495-8b65-28be2dcf88d7"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b6d6d862-bc20-4c9a-9571-ee6f9cbb490c",
+        "title": "Murmullo",
+        "position": "12",
+        "length": "231000",
+        "work": {
+          "id": "fed53a74-7e4c-4b9b-be2d-091a85c3285c",
+          "title": "Murmullo",
+          "composers": [
+            {
+              "name": "Electo Rosell",
+              "mbid": "c9a2a5d5-d563-4f7a-9b91-9abc39c31e4b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "82014f36-3cc7-4682-bfea-2f6b7104c61d",
+        "title": "Buena Vista Social Club",
+        "position": "13",
+        "length": "292712",
+        "work": {
+          "id": "e7eb1cc6-6d11-4a65-9a81-67a4587253e6",
+          "title": "Buena Vista Social Club",
+          "composers": [
+            {
+              "name": "Israel “Cachao” López",
+              "mbid": "d6060786-dac7-4101-80f1-8a10c81d0a7a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "93eb6045-fc56-4e71-8577-583fcbd31e60",
+        "title": "La Bayamesa",
+        "position": "14",
+        "length": "174000",
+        "work": {
+          "id": "4b5af548-f4c6-4915-8d39-717d1faaf47e",
+          "title": "La Bayamesa",
+          "composers": [
+            {
+              "name": "Sindo Garay",
+              "mbid": "830c8f8b-916a-47f4-922a-df69ebfbd92a"
+            }
+          ]
+        }
+      }
+    ],
+    "e609a38e-aad7-4626-8338-2cc439239f56": [
+      {
+        "id": "8f846003-594f-4048-97bb-31aebf30c596",
+        "title": "Chan Chan (Live)",
+        "position": "1",
+        "length": "285000",
+        "work": null
+      },
+      {
+        "id": "10eb7b23-29f7-4c22-8688-c6743c8cf4df",
+        "title": "Dos Gardenias",
+        "position": "2",
+        "length": "184000",
+        "work": null
+      },
+      {
+        "id": "a5604f9c-4f06-4073-84d0-35b62917bccf",
+        "title": "Vicenta",
+        "position": "3",
+        "length": "222000",
+        "work": null
+      },
+      {
+        "id": "62b191ea-0baa-438f-b78e-22458cfbc548",
+        "title": "El Cuarto De Tula (Live)",
+        "position": "4",
+        "length": "480000",
+        "work": null
+      },
+      {
+        "id": "1a95114b-d4d5-41f9-9e96-92e47e8bb407",
+        "title": "Pueblo Nuevo",
+        "position": "5",
+        "length": "366000",
+        "work": null
+      },
+      {
+        "id": "f3e8e6a7-f878-4fdc-886d-81fb75c43e9a",
+        "title": "Saludo Compay",
+        "position": "6",
+        "length": "256000",
+        "work": null
+      }
+    ],
+    "55aa7cd1-4f1e-4d72-a50b-16be00acf615": [
+      {
+        "id": "595055c9-4e40-410d-90e2-366be54d82f1",
+        "title": "Bruca maniguá (live)",
+        "position": "1",
+        "length": "315524",
+        "work": null
+      },
+      {
+        "id": "94b65e36-7554-4c8b-9f5e-5b7f4ac3a12b",
+        "title": "Macusa",
+        "position": "2",
+        "length": "244565",
+        "work": null
+      },
+      {
+        "id": "2e629e75-3418-4026-aca0-c857d64dd6b8",
+        "title": "Tiene sabor",
+        "position": "3",
+        "length": "197889",
+        "work": {
+          "id": "d88dcf46-f332-40f6-a439-8bd081f5e971",
+          "title": "Tiene sabor",
+          "composers": [
+            {
+              "name": "Rolando Valdés",
+              "mbid": "5abc9bda-4d62-408f-a6d5-5417d848d23f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ac26f0fb-2042-4b44-bda0-25440f911b7d",
+        "title": "Bodas de oro",
+        "position": "4",
+        "length": "279949",
+        "work": null
+      },
+      {
+        "id": "de603a67-25a2-4d7a-af4a-cdcaca33e214",
+        "title": "Black Chicken 37",
+        "position": "5",
+        "length": "213499",
+        "work": null
+      },
+      {
+        "id": "64f1c26a-d084-404b-8591-1121b8ddec09",
+        "title": "Habanera",
+        "position": "6",
+        "length": "136794",
+        "work": null
+      },
+      {
+        "id": "441c1e30-d774-4154-9e91-181b47ee8ec5",
+        "title": "Como fue (live)",
+        "position": "7",
+        "length": "240703",
+        "work": null
+      },
+      {
+        "id": "4e31c094-39a0-4ab2-9409-4256c4d543aa",
+        "title": "Guajira en F",
+        "position": "8",
+        "length": "261144",
+        "work": null
+      },
+      {
+        "id": "e9077b4d-802f-40c5-87aa-0755b7d7caed",
+        "title": "Quiéreme mucho",
+        "position": "9",
+        "length": "88695",
+        "work": null
+      },
+      {
+        "id": "2b3a18b9-52d8-45d6-9431-5b0ed9aabeae",
+        "title": "Pedacito de papel",
+        "position": "10",
+        "length": "157645",
+        "work": null
+      },
+      {
+        "id": "281ad27e-90f0-40c9-988c-a5da66fc475c",
+        "title": "Mami me gustó (live)",
+        "position": "11",
+        "length": "317946",
+        "work": null
+      },
+      {
+        "id": "a4f5de4d-1140-4d98-9bbb-f67c5a74b451",
+        "title": "Lágrimas negras",
+        "position": "12",
+        "length": "244917",
+        "work": {
+          "id": "22efa811-c782-442d-b595-5d5e4389c7e5",
+          "title": "Lágrimas negras",
+          "composers": [
+            {
+              "name": "Miguel Matamoros",
+              "mbid": "4409cdcf-6300-4530-874f-23d75f1be63b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5c551475-f199-4b5b-9656-b1d19ecc555a",
+        "title": "Como siento yo (live)",
+        "position": "13",
+        "length": "113797",
+        "work": null
+      },
+      {
+        "id": "d9d54568-7262-424b-94f1-2285953f85d3",
+        "title": "Rubén Sings!",
+        "position": "14",
+        "length": "48242",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 227677,
+  "wikidata_id": "Q842415"
+}

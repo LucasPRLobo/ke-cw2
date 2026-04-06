@@ -1,0 +1,241 @@
+{
+  "wikidata_id": "Q2831",
+  "genres": [
+    "blues",
+    "rock music",
+    "hip-hop",
+    "samba",
+    "pop music",
+    "rhythm and blues",
+    "disco",
+    "hard rock",
+    "soul",
+    "funk",
+    "dance-pop",
+    "dance music",
+    "new jack swing",
+    "urban contemporary"
+  ],
+  "instruments": [
+    "piano",
+    "drum kit",
+    "percussion instrument"
+  ],
+  "awards": [
+    "Genesis Award",
+    "Rock and Roll Hall of Fame",
+    "Grammy Award for Record of the Year",
+    "Grammy Award for Album of the Year",
+    "Grammy Lifetime Achievement Award",
+    "Grammy Award for Best Male Pop Vocal Performance",
+    "Grammy Award for Best Male Rock Vocal Performance",
+    "Grammy Award for Song of the Year",
+    "Grammy Award for Best Male R&B Vocal Performance",
+    "Grammy Award for Best R&B Song",
+    "Grammy Legend Award",
+    "Grammy Award for Best Music Video",
+    "American Choreography Awards",
+    "Grammy Award for Best Music Film",
+    "Grammy Award for Best Album for Children",
+    "Grammy Award for Producer of the Year, Non-Classical",
+    "Medal of the City of Paris",
+    "star on Hollywood Walk of Fame",
+    "International Artist Award of Excellence",
+    "Johnny Mercer Award",
+    "Officer of the National Order of Merit",
+    "Echo Pop Award for the Best International Rock/Pop Male Artist"
+  ],
+  "labels": [
+    "Universal Music Group",
+    "Motown",
+    "Epic Records",
+    "Sony Music",
+    "Legacy Recordings",
+    "Sony BMG Music Entertainment, Inc.",
+    "Steeltown Records"
+  ],
+  "influences": [
+    "Charlie Chaplin",
+    "The Beatles",
+    "James Brown",
+    "Diana Ross",
+    "Fred Astaire",
+    "Marcel Marceau",
+    "Jackie Wilson",
+    "Sam Cooke",
+    "Sammy Davis Jr.",
+    "Sly Stone"
+  ],
+  "occupations": [
+    "actor",
+    "composer",
+    "businessperson",
+    "entrepreneur",
+    "singer",
+    "record producer",
+    "singer-songwriter",
+    "musician",
+    "songwriter",
+    "choreographer",
+    "dancer",
+    "philanthropist",
+    "autobiographer"
+  ],
+  "country": "United States",
+  "birth_place": "Gary",
+  "birth_date": "1958-08-29",
+  "death_date": "2009-06-25",
+  "wikipedia_title": "Michael Jackson",
+  "compositions": [
+    {
+      "title": "The Way You Make Me Feel",
+      "genre": "pop music",
+      "date": "1987-01-01"
+    },
+    {
+      "title": "The Way You Make Me Feel",
+      "genre": "contemporary R&B",
+      "date": "1987-01-01"
+    },
+    {
+      "title": "Moonwalker",
+      "genre": "fantasy film",
+      "date": "1988-01-01"
+    },
+    {
+      "title": "Moonwalker",
+      "genre": "science fiction film",
+      "date": "1988-01-01"
+    },
+    {
+      "title": "Moonwalker",
+      "genre": "musical film",
+      "date": "1988-01-01"
+    },
+    {
+      "title": "Moonwalker",
+      "genre": "crime film",
+      "date": "1988-01-01"
+    },
+    {
+      "title": "Moonwalker",
+      "genre": "superhero film",
+      "date": "1988-01-01"
+    },
+    {
+      "title": "Moonwalker",
+      "genre": "fantasy film",
+      "date": "1989-01-12"
+    },
+    {
+      "title": "Moonwalker",
+      "genre": "science fiction film",
+      "date": "1989-01-12"
+    },
+    {
+      "title": "Moonwalker",
+      "genre": "musical film",
+      "date": "1989-01-12"
+    },
+    {
+      "title": "Moonwalker",
+      "genre": "crime film",
+      "date": "1989-01-12"
+    },
+    {
+      "title": "Moonwalker",
+      "genre": "superhero film",
+      "date": "1989-01-12"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "documentary film",
+      "date": "2009-01-01"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "biographical film",
+      "date": "2009-01-01"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "musical film",
+      "date": "2009-01-01"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "documentary film",
+      "date": "2009-10-25"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "biographical film",
+      "date": "2009-10-25"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "musical film",
+      "date": "2009-10-25"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "documentary film",
+      "date": "2009-10-28"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "biographical film",
+      "date": "2009-10-28"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "musical film",
+      "date": "2009-10-28"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "documentary film",
+      "date": "2009-10-29"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "biographical film",
+      "date": "2009-10-29"
+    },
+    {
+      "title": "Michael Jackson's This Is It",
+      "genre": "musical film",
+      "date": "2009-10-29"
+    },
+    {
+      "title": "Don't Stop 'Til You Get Enough",
+      "genre": "disco",
+      "date": "1978-01-01"
+    },
+    {
+      "title": "Dirty Diana",
+      "genre": "hard rock",
+      "date": "1987-01-01"
+    },
+    {
+      "title": "Dirty Diana",
+      "genre": "pop rock",
+      "date": "1987-01-01"
+    },
+    {
+      "title": "They Don't Care About Us",
+      "genre": "blues",
+      "date": "1996-04-16"
+    },
+    {
+      "title": "They Don't Care About Us",
+      "genre": "hip-hop",
+      "date": "1996-04-16"
+    },
+    {
+      "title": "They Don't Care About Us",
+      "genre": "hard rock",
+      "date": "1996-04-16"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "wikidata_id": "Q254",
+  "genres": [
+    "opera",
+    "symphony",
+    "Classical period",
+    "chamber music"
+  ],
+  "instruments": [
+    "organ",
+    "piano",
+    "violin",
+    "viola",
+    "harpsichord",
+    "clavichord",
+    "fortepiano"
+  ],
+  "awards": [
+    "Order of the Golden Spur"
+  ],
+  "labels": [],
+  "influences": [
+    "Johann Sebastian Bach",
+    "Johann Joseph Fux"
+  ],
+  "occupations": [
+    "composer",
+    "pianist",
+    "musician",
+    "organist",
+    "violinist",
+    "music educator"
+  ],
+  "country": "Prince-Archbishopric of Salzburg",
+  "birth_place": "Salzburg",
+  "birth_date": "1756-01-27",
+  "death_date": "1791-12-05",
+  "wikipedia_title": "Wolfgang Amadeus Mozart",
+  "compositions": [
+    {
+      "title": "The Magic Flute",
+      "genre": "opera",
+      "date": "1800-01-01"
+    },
+    {
+      "title": "The Magic Flute",
+      "genre": "singspiel",
+      "date": "1800-01-01"
+    },
+    {
+      "title": "Eine kleine Nachtmusik",
+      "genre": "classical music",
+      "date": "1887-01-01"
+    },
+    {
+      "title": "Gigue in G Major, K. 574",
+      "genre": "piano piece in one movement",
+      "date": "1789-01-01"
+    },
+    {
+      "title": "Mitridate, re di Ponto",
+      "genre": "opera seria",
+      "date": "1800-01-01"
+    },
+    {
+      "title": "Land der Berge, Land am Strome",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "Zaide",
+      "genre": "singspiel",
+      "date": "1800-01-01"
+    },
+    {
+      "title": "Piano Concerto No. 1",
+      "genre": null,
+      "date": "1767-01-01"
+    },
+    {
+      "title": "Symphony No. 1",
+      "genre": null,
+      "date": "1764-01-01"
+    },
+    {
+      "title": "Piano Concerto No. 10",
+      "genre": null,
+      "date": "1779-01-01"
+    },
+    {
+      "title": "Piano Concerto No. 17",
+      "genre": null,
+      "date": "1784-01-01"
+    },
+    {
+      "title": "Symphony No. 10",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "Piano Concerto No. 11",
+      "genre": null,
+      "date": "1782-01-01"
+    },
+    {
+      "title": "Piano Concerto No. 12",
+      "genre": null,
+      "date": "1782-01-01"
+    },
+    {
+      "title": "Symphony No. 12",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "Piano Concerto No. 13",
+      "genre": null,
+      "date": "1783-01-01"
+    },
+    {
+      "title": "Symphony No. 13",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "Apollo et Hyacinthus",
+      "genre": "intermezzo",
+      "date": "1800-01-01"
+    },
+    {
+      "title": "Piano Concerto No. 14",
+      "genre": null,
+      "date": "1784-01-01"
+    },
+    {
+      "title": "Symphony No. 14",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "Amadeus",
+      "genre": "drama film",
+      "date": "1984-01-01"
+    },
+    {
+      "title": "Amadeus",
+      "genre": "period drama film",
+      "date": "1984-01-01"
+    },
+    {
+      "title": "Amadeus",
+      "genre": "biographical film",
+      "date": "1984-01-01"
+    },
+    {
+      "title": "Amadeus",
+      "genre": "musical film",
+      "date": "1984-01-01"
+    },
+    {
+      "title": "Amadeus",
+      "genre": "flashback film",
+      "date": "1984-01-01"
+    },
+    {
+      "title": "Amadeus",
+      "genre": "drama film",
+      "date": "1984-09-06"
+    },
+    {
+      "title": "Amadeus",
+      "genre": "period drama film",
+      "date": "1984-09-06"
+    },
+    {
+      "title": "Amadeus",
+      "genre": "biographical film",
+      "date": "1984-09-06"
+    },
+    {
+      "title": "Amadeus",
+      "genre": "musical film",
+      "date": "1984-09-06"
+    }
+  ]
+}

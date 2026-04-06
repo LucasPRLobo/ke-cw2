@@ -1,0 +1,32 @@
+{
+  "question": "How many awards has Quincy Jones won, and what are the most notable ones?",
+  "plain_llm_response": {
+    "total": "28 Grammy Awards from 80 nominations, plus 1 Emmy, 1 Tony, 2 honorary Oscars",
+    "key_detail": "Provides detailed breakdown but answers from parametric knowledge only — no grounding in our specific KG data"
+  },
+  "rag_response": {
+    "kg_context": "Our KG says Quincy Jones has 34 awards",
+    "total_awards_accurate": null,
+    "accuracy_note": "UNCERTAIN: Cannot confirm or deny 34 with confidence. 28 Grammys + 1 Emmy + 1 Tony = 30 confirmed competitive awards. Gap to 34 may reflect honorary awards or inclusion criteria differences.",
+    "notable_awards": [
+      "28 Grammy Awards (competitive)",
+      "Grammy Legend Award (1992)",
+      "Primetime Emmy Award – Roots (1977)",
+      "Tony Award – The Color Purple (2016)",
+      "Jean Hersholt Humanitarian Award (1995)",
+      "Kennedy Center Honors (2001)",
+      "National Medal of the Arts (2011)",
+      "Academy Honorary Award (2024)"
+    ],
+    "missing_awards": "CANNOT SAFELY ENUMERATE — recommends cross-referencing Wikidata and Recording Academy records",
+    "key_detail": "RAG response engages critically with the KG's claim (34 awards), identifies potential discrepancy, and refuses to fabricate missing awards to avoid KG data corruption"
+  },
+  "comparison_analysis": {
+    "plain_llm_strengths": "Detailed, well-structured, provides context and history",
+    "plain_llm_weaknesses": "Not grounded in our KG data, doesn't verify or challenge our existing data",
+    "rag_strengths": "Critically evaluates KG claim (34 vs 28+), identifies data quality issue, refuses to fabricate, recommends verification sources",
+    "rag_weaknesses": "More cautious, fewer specific details",
+    "winner": "RAG — demonstrates data quality awareness and responsible KG construction",
+    "key_insight": "The RAG approach discovered a potential data quality issue in our KG (34 awards may overccount due to including both competitive and honorary awards). The plain LLM wouldn't have caught this because it doesn't know what our KG claims."
+  }
+}

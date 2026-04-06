@@ -1,0 +1,49 @@
+{
+  "id": 38863,
+  "name": "Aretha Franklin",
+  "realname": "Aretha Louise Franklin",
+  "profile": "American singer, pianist, and songwriter.\r\n\r\nBorn: 25 March 1942 in Memphis, Tennessee, USA.\r\nDied: 16 August 2018 in Detroit, Michigan, USA (age 76).\r\n\r\nWidely regarded as one of the best female vocalists of all time, she is nicknamed the 'Queen of Soul' or simply referred to as 'Aretha'. In 1987 she was the first woman to be inducted into the Rock & Roll Hall of Fame (Performer).\r\n\r\nDaughter of [a=Reverend C.L. Franklin] and sister of [a=Carolyn Franklin], [a=Erma Franklin], Vaughn Franklin, and Reverend [a=Cecil Franklin], who served as her business manager until his death in 1990. She had four sons: [a=Clarence Franklin] from Donald Burk, Edward Franklin from Edward Jordan, [a=Teddy F. White] also known as [a=Teddy Richards] when she was married to [a=Ted White], and the Christian rap artist [a7950516] from [a=Ken Cunningham]. Her last husband was [a=Glynn Turman]. Cousin of [a=Brenda Bryant].",
+  "members": [],
+  "groups": [
+    {
+      "name": "Divas (6)",
+      "id": 3321801,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Blues",
+    "Funk / Soul",
+    "Jazz"
+  ],
+  "styles": [
+    "Gospel",
+    "Soul"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Funk / Soul",
+      "style": "Gospel"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Gospel"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Soul"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Soul"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Soul"
+    },
+    {
+      "genre": "Blues",
+      "style": "Soul"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "subject": "Pyotr Ilyich Tchaikovsky",
+    "predicate": "hasGenre",
+    "object": "classical"
+  },
+  {
+    "subject": "Pyotr Ilyich Tchaikovsky",
+    "predicate": "hasMusicalPeriod",
+    "object": "Romantic period"
+  },
+  {
+    "subject": "Pyotr Ilyich Tchaikovsky",
+    "predicate": "composed",
+    "object": "1812 Overture"
+  },
+  {
+    "subject": "Pyotr Ilyich Tchaikovsky",
+    "predicate": "composed",
+    "object": "First Piano Concerto"
+  },
+  {
+    "subject": "Pyotr Ilyich Tchaikovsky",
+    "predicate": "composed",
+    "object": "Violin Concerto"
+  },
+  {
+    "subject": "Pyotr Ilyich Tchaikovsky",
+    "predicate": "composed",
+    "object": "Romeo and Juliet Overture-Fantasy"
+  },
+  {
+    "subject": "Pyotr Ilyich Tchaikovsky",
+    "predicate": "composed",
+    "object": "Eugene Onegin"
+  },
+  {
+    "subject": "Pyotr Ilyich Tchaikovsky",
+    "predicate": "composed",
+    "object": "Swan Lake"
+  },
+  {
+    "subject": "Pyotr Ilyich Tchaikovsky",
+    "predicate": "composed",
+    "object": "The Sleeping Beauty"
+  },
+  {
+    "subject": "Pyotr Ilyich Tchaikovsky",
+    "predicate": "composed",
+    "object": "The Nutcracker"
+  },
+  {
+    "subject": "Pyotr Ilyich Tchaikovsky",
+    "predicate": "influencedBy",
+    "object": "The Five"
+  }
+]

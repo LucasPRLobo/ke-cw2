@@ -1,0 +1,75 @@
+{
+  "id": 76040,
+  "name": "Miriam Makeba",
+  "realname": "Miriam Zenzi Makeba",
+  "profile": "Grammy Award-winning South African singer, also known as \"Mama Afrika\", born March 4th, 1932, in Johannesburg and died November 10th, 2008, in Castel Volturno, Italy. She sang with [a1855666] and [a1573191], before landing a role in the musical King Kong in 1959. She left for London where she met [a=Harry Belafonte], who invited her to America. Makeba is widely regarded as the first lady of South Africa traditional music. At one time married to [a=Hugh Masekela], she became an international superstar in the USA and the UK, before being able to return to South Africa once the political situation had improved.",
+  "members": [],
+  "groups": [
+    {
+      "name": "The manhattan brothers",
+      "id": 1573191,
+      "active": true
+    },
+    {
+      "name": "The Skylarks (3)",
+      "id": 1855666,
+      "active": true
+    },
+    {
+      "name": "Miriam Makeba Et Son Quintette Guinéen",
+      "id": 2473371,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Folk, World, & Country",
+    "Jazz"
+  ],
+  "styles": [
+    "African",
+    "Folk",
+    "Gospel"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Jazz",
+      "style": "Folk"
+    },
+    {
+      "genre": "Jazz",
+      "style": "African"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Folk"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "African"
+    },
+    {
+      "genre": "Jazz",
+      "style": "Folk"
+    },
+    {
+      "genre": "Jazz",
+      "style": "African"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Folk"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "African"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Gospel"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "African"
+    }
+  ]
+}

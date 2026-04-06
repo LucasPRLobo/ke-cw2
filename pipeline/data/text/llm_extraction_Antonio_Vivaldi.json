@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "hasGenre",
+    "object": "Baroque music"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "hasMusicalPeriod",
+    "object": "Baroque"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "pioneerOf",
+    "object": "orchestration"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "pioneerOf",
+    "object": "violin technique"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "pioneerOf",
+    "object": "programmatic music"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "composed",
+    "object": "instrumental concertos"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "composed",
+    "object": "sacred choral works"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "composed",
+    "object": "operas"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "composed",
+    "object": "The Four Seasons"
+  },
+  {
+    "subject": "The Four Seasons",
+    "predicate": "hasGenre",
+    "object": "violin concertos"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "performedAt",
+    "object": "Ospedale della Piet\u00e0"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "performedAt",
+    "object": "Venice"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "performedAt",
+    "object": "Mantua"
+  },
+  {
+    "subject": "Antonio Vivaldi",
+    "predicate": "performedAt",
+    "object": "Vienna"
+  }
+]

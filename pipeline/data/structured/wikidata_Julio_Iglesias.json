@@ -1,0 +1,100 @@
+{
+  "wikidata_id": "Q122003",
+  "genres": [
+    "pop music",
+    "country music",
+    "soft rock",
+    "adult contemporary music",
+    "Latin pop",
+    "Italo disco",
+    "French pop",
+    "traditional pop",
+    "Latin ballad"
+  ],
+  "instruments": [
+    "guitar",
+    "voice"
+  ],
+  "awards": [
+    "Premios Ondas",
+    "Grammy Lifetime Achievement Award",
+    "Grammy Award for Best Latin Pop Album",
+    "International Latin Music Hall of Fame",
+    "Latin Recording Academy Person of the Year",
+    "Knight of the Legion of Honour",
+    "star on Hollywood Walk of Fame",
+    "Latin Songwriters Hall of Fame",
+    "Favorite Latin Artist",
+    "Dearest Son of Madrid",
+    "gold Medal of the Community of Madrid",
+    "Lo Nuestro Excellence Award"
+  ],
+  "labels": [
+    "Decca",
+    "Philips Records",
+    "CBS Records International",
+    "Sony Music",
+    "Discos Columbia S.A."
+  ],
+  "influences": [],
+  "occupations": [
+    "composer",
+    "businessperson",
+    "singer",
+    "songwriter",
+    "association football player",
+    "recording artist"
+  ],
+  "country": "Spain",
+  "birth_place": "Madrid",
+  "birth_date": "1943-09-23",
+  "death_date": null,
+  "wikipedia_title": "Julio Iglesias",
+  "compositions": [
+    {
+      "title": "Gwendolyne",
+      "genre": "pop music",
+      "date": "1970-01-01"
+    },
+    {
+      "title": "All of You",
+      "genre": "pop music",
+      "date": "1984-01-01"
+    },
+    {
+      "title": "Chiquilla",
+      "genre": null,
+      "date": "1970-01-01"
+    },
+    {
+      "title": "Pauvres Diables",
+      "genre": null,
+      "date": "1979-01-01"
+    },
+    {
+      "title": "La vida sigue igual",
+      "genre": null,
+      "date": "1968-01-01"
+    },
+    {
+      "title": "Pobre diablo",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "Bir Günah Gibi",
+      "genre": "pop music",
+      "date": "1983-01-01"
+    },
+    {
+      "title": "Lo mejor de tu vida",
+      "genre": "ballade",
+      "date": "2005-01-01"
+    },
+    {
+      "title": "Lo mejor de tu vida",
+      "genre": "canción melódica",
+      "date": "2005-01-01"
+    }
+  ]
+}

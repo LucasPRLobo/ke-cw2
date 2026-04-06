@@ -1,0 +1,649 @@
+{
+  "mbid": "98b5a1d4-3f58-412f-950c-ee9d82743705",
+  "name": "Tupac Shakur",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1971-06-16",
+    "end": "1996-09-13",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "East Harlem",
+  "tags": [
+    {
+      "name": "conscious hip hop",
+      "count": "1"
+    },
+    {
+      "name": "gangsta rap",
+      "count": "1"
+    },
+    {
+      "name": "hip hop",
+      "count": "1"
+    },
+    {
+      "name": "west coast hip hop",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "is person",
+      "direction": "forward",
+      "target_name": "2Pac",
+      "target_mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "is person",
+      "direction": "forward",
+      "target_name": "Makaveli",
+      "target_mbid": "e263a1d8-8228-4ede-9e17-7acf8470165a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Afeni Shakur",
+      "target_mbid": "cd48a889-bbd1-4150-9144-5b7db0ba1c85",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Mopreme Shakur",
+      "target_mbid": "d0d172ea-89ac-4227-8aa7-3082343f1a33",
+      "attributes": [
+        "step"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Sekyiwa Kai",
+      "target_mbid": "1c2c794c-8954-4e11-ba64-c085d972cf1a",
+      "attributes": [
+        "half"
+      ],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/176766"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0000637/"
+    },
+    {
+      "type": "official homepage",
+      "target": "https://www.2pac.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/120393336"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/authors/OL1400173A/"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/54339977"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q6107"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "c154cfb6-7107-35e0-86c7-8d7cd7a19382",
+      "title": "The Rose That Grew From Concrete, Volume 1",
+      "type": "Compilation",
+      "first_release_date": "2000-10-17"
+    },
+    {
+      "id": "c107f6cf-70a9-4a38-9254-e842c640529f",
+      "title": "East & West Coast Rival",
+      "type": "Album",
+      "first_release_date": "1996-07-30"
+    }
+  ],
+  "tracks": {
+    "c154cfb6-7107-35e0-86c7-8d7cd7a19382": [
+      {
+        "id": "04da1e63-c3e4-4c41-8830-91af224bcb0a",
+        "title": "Tupac Interlude",
+        "position": "1",
+        "length": "57066",
+        "work": null
+      },
+      {
+        "id": "d4b196c1-8ecd-4a8b-8158-99bdb6f8fa90",
+        "title": "Wake Me When I’m Free",
+        "position": "2",
+        "length": "351666",
+        "work": null
+      },
+      {
+        "id": "053404fc-e49a-4418-895e-a3cdad5d218c",
+        "title": "Can U C the Pride in the Panther? (male version)",
+        "position": "3",
+        "length": "176866",
+        "work": null
+      },
+      {
+        "id": "af35138e-b96a-4bb8-94fa-2c445288db12",
+        "title": "When Ure Heart Turns Cold",
+        "position": "4",
+        "length": "97960",
+        "work": null
+      },
+      {
+        "id": "affd70f5-a0ad-4e43-93b8-92741d33db08",
+        "title": "U R Ripping Us Apart!!!",
+        "position": "5",
+        "length": "183530",
+        "work": null
+      },
+      {
+        "id": "11d13447-6902-439d-91ba-07672b6a28a3",
+        "title": "Tears of a Teenage Mother",
+        "position": "6",
+        "length": "36493",
+        "work": null
+      },
+      {
+        "id": "c7ea506a-71f7-4ecb-9806-a900df3485ca",
+        "title": "God",
+        "position": "7",
+        "length": "47866",
+        "work": null
+      },
+      {
+        "id": "2ef0a95b-6f1c-4e6e-900c-8dcda23151d7",
+        "title": "And Still I Love You",
+        "position": "8",
+        "length": "182440",
+        "work": null
+      },
+      {
+        "id": "16296dab-81b1-4e41-ba0b-f34e984a6124",
+        "title": "Can U C the Pride in the Panther? (female version)",
+        "position": "9",
+        "length": "294400",
+        "work": null
+      },
+      {
+        "id": "6dcfd198-e8f9-4a5d-861f-39e0f3dff62e",
+        "title": "If There Be Pain",
+        "position": "10",
+        "length": "271693",
+        "work": null
+      },
+      {
+        "id": "ed32ada1-45ad-45db-8d06-8636cc9da47e",
+        "title": "A River That Flows Forever",
+        "position": "11",
+        "length": "140373",
+        "work": null
+      },
+      {
+        "id": "4809b2b9-a4eb-4eba-b68d-e8de8482f008",
+        "title": "The Rose That Grew From Concrete",
+        "position": "12",
+        "length": "155400",
+        "work": null
+      },
+      {
+        "id": "52481828-6fd8-47b9-91d6-e0b2bbc9515f",
+        "title": "In the Event of My Demise",
+        "position": "13",
+        "length": "280733",
+        "work": null
+      },
+      {
+        "id": "78ee65c5-b50c-4213-88e2-ae8ba6a2362f",
+        "title": "What of a Love Unspoken",
+        "position": "14",
+        "length": "195960",
+        "work": null
+      },
+      {
+        "id": "9ade5755-50be-4265-b4fe-8a71fbc40280",
+        "title": "Sometimes I Cry",
+        "position": "15",
+        "length": "190306",
+        "work": null
+      },
+      {
+        "id": "4486c741-8b37-4a28-8fcf-f5238c73eac1",
+        "title": "The Fear in the Heart of a Man",
+        "position": "16",
+        "length": "255800",
+        "work": null
+      },
+      {
+        "id": "32f1b8b4-5740-49bf-9568-c0cbf19ba8d7",
+        "title": "Starry Night",
+        "position": "17",
+        "length": "273133",
+        "work": null
+      },
+      {
+        "id": "1080250c-221b-4818-bfb4-b1a28bd84d85",
+        "title": "What of Fame?",
+        "position": "18",
+        "length": "20560",
+        "work": null
+      },
+      {
+        "id": "7e210623-274a-49d5-aedf-ca7b8530caf1",
+        "title": "Only 4 the Righteous",
+        "position": "19",
+        "length": "149240",
+        "work": null
+      },
+      {
+        "id": "4deb2015-e2d6-4417-9bc6-23d94e62587f",
+        "title": "Why Must U Be Unfaithful?",
+        "position": "20",
+        "length": "71760",
+        "work": null
+      },
+      {
+        "id": "decfe85e-0c26-4b9b-b186-68fae1768908",
+        "title": "Wife 4 Life",
+        "position": "21",
+        "length": "245933",
+        "work": null
+      },
+      {
+        "id": "797c5eb4-9c7c-4d33-9721-99fcb2c86b56",
+        "title": "Lady Liberty Needs Glasses",
+        "position": "22",
+        "length": "143066",
+        "work": null
+      },
+      {
+        "id": "24f863cd-9dfc-4b88-b429-d2a60d733b92",
+        "title": "Family Tree",
+        "position": "23",
+        "length": "200933",
+        "work": null
+      },
+      {
+        "id": "7a9cff1a-8ae5-4e07-bc19-f3893bebdf1d",
+        "title": "Thug Blues",
+        "position": "24",
+        "length": "286266",
+        "work": null
+      },
+      {
+        "id": "1c2a666b-60f4-4c27-bb15-0d162a955478",
+        "title": "The Sun and the Moon",
+        "position": "25",
+        "length": "116266",
+        "work": null
+      }
+    ],
+    "c107f6cf-70a9-4a38-9254-e842c640529f": [
+      {
+        "id": "fb6cae61-979f-4de9-9f13-cb01b57e4ed1",
+        "title": "Going Back to Cali",
+        "position": "1",
+        "length": "232000",
+        "work": {
+          "id": "f6bd3b58-62c3-4841-947b-fe35662e14ae",
+          "title": "Going Back to Cali",
+          "composers": [
+            {
+              "name": "Easy Mo Bee",
+              "mbid": "ddac1a2e-3fb5-4af6-adf0-f6008c7ddfb5"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "mbid": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "name": "Roger Troutman",
+              "mbid": "1ee7489a-af64-4ca2-9041-c1d8588b3a97"
+            }
+          ]
+        }
+      },
+      {
+        "id": "de26e2d2-40d3-45d0-874a-ddf670c65a4e",
+        "title": "Hail Mary",
+        "position": "2",
+        "length": "312000",
+        "work": null
+      },
+      {
+        "id": "a44ca742-266d-48d2-a658-88c66c6ba400",
+        "title": "Notorious Thugs",
+        "position": "3",
+        "length": "367133",
+        "work": {
+          "id": "5586955d-7901-4c86-a081-fb6de49935f2",
+          "title": "Notorious Thugs",
+          "composers": [
+            {
+              "name": "Bizzy Bone",
+              "mbid": "af308783-61fb-492b-9c37-a8cf48f2f064"
+            },
+            {
+              "name": "Diddy",
+              "mbid": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6"
+            },
+            {
+              "name": "Anthony Henderson",
+              "mbid": "f2acfabb-58f3-4dce-942e-daf5294d1b57"
+            },
+            {
+              "name": "Layzie Bone",
+              "mbid": "89933299-e8e8-475d-9ff4-100accfcb298"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "mbid": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "name": "Stevie J",
+              "mbid": "4002a377-5446-49a8-8116-3ed6a9ea0eef"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f9319b36-b490-4b2a-b031-250451616b47",
+        "title": "2 of Amerikaz Most Wanted",
+        "position": "4",
+        "length": "247000",
+        "work": {
+          "id": "271096dc-a47f-459b-9e27-ca8353ff800c",
+          "title": "2 of Amerikaz Most Wanted",
+          "composers": [
+            {
+              "name": "2Pac",
+              "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2"
+            },
+            {
+              "name": "Calvin Broadus",
+              "mbid": "965f5705-6eb1-49a1-b312-cd3d65bcc7c9"
+            },
+            {
+              "name": "Daz Dillinger",
+              "mbid": "1964d560-1e82-4879-bd6e-3cbfb7dba01e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "641db42c-eea2-4d36-b033-b5247ffeac21",
+        "title": "Hypnotize",
+        "position": "5",
+        "length": "239240",
+        "work": {
+          "id": "e04eeedc-f44f-3b3f-be7a-30a0634b4e57",
+          "title": "Hypnotize",
+          "composers": [
+            {
+              "name": "Deric “D‐Dot” Angelettie",
+              "mbid": "2e6aa53e-3426-41c4-accb-644548f93fff"
+            },
+            {
+              "name": "Andy Armer",
+              "mbid": "2368677a-471c-483b-bfa5-0f6e7b361c92"
+            },
+            {
+              "name": "Randy Badazz",
+              "mbid": "3123a92e-c994-47be-853b-0e19f5813c04"
+            },
+            {
+              "name": "Diddy",
+              "mbid": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6"
+            },
+            {
+              "name": "Ron Lawrence",
+              "mbid": "d891490a-8cb5-4050-abc7-c2dd1eaf6973"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "mbid": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            }
+          ]
+        }
+      },
+      {
+        "id": "53fc4524-0733-49f1-813b-52b64355a0f3",
+        "title": "How Do U Want It",
+        "position": "6",
+        "length": "288000",
+        "work": {
+          "id": "03f9865e-4466-4e9c-a08a-c412287ed643",
+          "title": "How Do U Want It",
+          "composers": [
+            {
+              "name": "2Pac",
+              "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2"
+            },
+            {
+              "name": "Bruce Fisher",
+              "mbid": "57c5fb41-70ac-4055-b482-a36f869ee980"
+            },
+            {
+              "name": "Johnny “J”",
+              "mbid": "8f6d6f9e-61dd-4a37-b304-1081fee3ae8b"
+            },
+            {
+              "name": "Quincy Jones",
+              "mbid": "5803c81e-739a-4057-9a5c-cf84e55db630"
+            },
+            {
+              "name": "Stan Richardson",
+              "mbid": "9c44f7fd-66f9-4c37-b0f9-b39c6068fde9"
+            },
+            {
+              "name": "Leon Ware",
+              "mbid": "9b1f8808-6bdd-4d36-b619-ec5c7e6d0d7d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1814e52e-22e0-402f-b9a0-d297e792f265",
+        "title": "Kick in the Door",
+        "position": "7",
+        "length": "214000",
+        "work": {
+          "id": "f908ff52-0093-409c-9af7-95926203b98a",
+          "title": "Kick In the Door",
+          "composers": [
+            {
+              "name": "Screamin’ Jay Hawkins",
+              "mbid": "185af318-55c7-405f-8b00-0fa308e56da9"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "mbid": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "name": "DJ Premier",
+              "mbid": "084e06f5-3c82-4b71-bd94-dd69e7bd515e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d352b76a-99a6-4810-a2b9-e1646701e64d",
+        "title": "Fuck the World",
+        "position": "8",
+        "length": "253706",
+        "work": {
+          "id": "39496c2f-6254-4144-8d15-b343a8142dae",
+          "title": "Fuck the World",
+          "composers": [
+            {
+              "name": "2Pac",
+              "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2"
+            },
+            {
+              "name": "Gregory Edward Jacobs",
+              "mbid": "7ad56ca2-9846-47dd-bcf4-679b4ad4a5d9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "437f1b43-841e-424f-8921-8321e5f37803",
+        "title": "Mo Money Mo Problems",
+        "position": "9",
+        "length": "257000",
+        "work": {
+          "id": "017d5883-8964-44a0-8fa4-2764afc43ffc",
+          "title": "Mo Money Mo Problems",
+          "composers": [
+            {
+              "name": "Diddy",
+              "mbid": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6"
+            },
+            {
+              "name": "Bernard Edwards",
+              "mbid": "ba7ff664-5c64-4a62-a3e2-63445c1a25db"
+            },
+            {
+              "name": "Mase",
+              "mbid": "76716b81-e361-427e-a931-19373388387d"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "mbid": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "name": "Nile Rodgers",
+              "mbid": "c6d571dd-c0ae-4ac8-9500-780b1b9b25e5"
+            },
+            {
+              "name": "Stevie J",
+              "mbid": "4002a377-5446-49a8-8116-3ed6a9ea0eef"
+            }
+          ]
+        }
+      },
+      {
+        "id": "069f1417-5ac8-4bca-8b54-e697c05d1109",
+        "title": "Toss It Up",
+        "position": "10",
+        "length": "284000",
+        "work": {
+          "id": "ce7bca2f-15cd-4006-8c48-ee9ace1a8150",
+          "title": "Toss It Up",
+          "composers": [
+            {
+              "name": "2Pac",
+              "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2"
+            },
+            {
+              "name": "Danny Boy",
+              "mbid": "630156f6-c7ea-4da4-bf82-560bba702538"
+            },
+            {
+              "name": "Joel “Jo‐Jo” Hailey",
+              "mbid": "db69948e-c9e8-4289-939b-98f2534853b2"
+            },
+            {
+              "name": "Aaron Hall",
+              "mbid": "298c0a84-ed06-459c-8679-8f2f76575387"
+            },
+            {
+              "name": "K‐Ci",
+              "mbid": "6d1b9399-3045-4d43-b753-b3af3d0696c4"
+            },
+            {
+              "name": "Reggie Moore",
+              "mbid": "3c284147-f3a9-4257-9936-897ab161528c"
+            },
+            {
+              "name": "Demetrius Shipp",
+              "mbid": "b7e27a15-9686-474f-a658-7cbeecfa3ac0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7475bd1c-6592-4e9e-942c-e49236c7a5de",
+        "title": "Juicy",
+        "position": "11",
+        "length": "302000",
+        "work": null
+      },
+      {
+        "id": "474cf56b-3d2d-4302-803b-f5fffb0ec4f4",
+        "title": "Hit ’Em Up",
+        "position": "12",
+        "length": "313000",
+        "work": {
+          "id": "8487e946-0a1c-4198-b911-3864fe16ffa7",
+          "title": "Hit ’Em Up",
+          "composers": [
+            {
+              "name": "2Pac",
+              "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2"
+            },
+            {
+              "name": "Franne Golde",
+              "mbid": "908970dd-d969-40fa-9453-de2cbb523242"
+            },
+            {
+              "name": "Duane Hitchings",
+              "mbid": "21e6aab7-8077-4351-b013-f3f29772714c"
+            },
+            {
+              "name": "Dennis Lambert",
+              "mbid": "1b774e78-7df7-41d2-af46-f9578d952e0c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "295e9884-3e31-4410-98fa-faf820db7a04",
+        "title": "Miss U",
+        "position": "13",
+        "length": "262000",
+        "work": null
+      },
+      {
+        "id": "55d67416-8141-4d16-8970-43d208bc490b",
+        "title": "To Live & Die In L.A.",
+        "position": "14",
+        "length": "252000",
+        "work": null
+      },
+      {
+        "id": "3099dc48-16c2-4ef3-b1bb-cdba9b39ec5e",
+        "title": "Player Hater",
+        "position": "15",
+        "length": "237000",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 176766,
+  "wikidata_id": "Q6107"
+}

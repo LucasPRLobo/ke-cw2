@@ -1,0 +1,38 @@
+{
+  "id": 67331,
+  "name": "Julio Iglesias",
+  "realname": "Julio José Iglesias de la Cueva",
+  "profile": "Spanish singer, songwriter, former professional footballer and record producer.  Born September 23, 1943 in Madrid, Spain.  Father of [a916330] and [a87582], as well as others.\r\n",
+  "members": [],
+  "groups": [],
+  "genres": [
+    "Pop"
+  ],
+  "styles": [
+    "Ballad",
+    "Chanson",
+    "Vocal"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Pop",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Pop",
+      "style": "Ballad"
+    },
+    {
+      "genre": "Pop",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Pop",
+      "style": "Chanson"
+    },
+    {
+      "genre": "Pop",
+      "style": "Vocal"
+    }
+  ]
+}

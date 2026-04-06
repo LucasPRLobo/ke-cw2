@@ -1,0 +1,57 @@
+[
+  {
+    "subject": "John Coltrane",
+    "predicate": "hasGenre",
+    "object": "jazz"
+  },
+  {
+    "subject": "John Coltrane",
+    "predicate": "composed",
+    "object": "music"
+  },
+  {
+    "subject": "John Coltrane",
+    "predicate": "hasMusicalPeriod",
+    "object": "20th-century music"
+  },
+  {
+    "subject": "John Coltrane",
+    "predicate": "hasGenre",
+    "object": "bebop"
+  },
+  {
+    "subject": "John Coltrane",
+    "predicate": "hasGenre",
+    "object": "hard bop"
+  },
+  {
+    "subject": "John Coltrane",
+    "predicate": "pioneerOf",
+    "object": "free jazz"
+  },
+  {
+    "subject": "John Coltrane",
+    "predicate": "collaboratedWith",
+    "object": "Miles Davis"
+  },
+  {
+    "subject": "John Coltrane",
+    "predicate": "collaboratedWith",
+    "object": "Thelonious Monk"
+  },
+  {
+    "subject": "A Love Supreme",
+    "predicate": "hasGenre",
+    "object": "spiritual"
+  },
+  {
+    "subject": "John Coltrane",
+    "predicate": "released",
+    "object": "A Love Supreme"
+  },
+  {
+    "subject": "Alice Coltrane",
+    "predicate": "collaboratedWith",
+    "object": "John Coltrane"
+  }
+]

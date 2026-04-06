@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "Giuseppe Verdi",
+    "predicate": "hasGenre",
+    "object": "opera"
+  },
+  {
+    "subject": "Giuseppe Verdi",
+    "predicate": "influencedBy",
+    "object": "Gioachino Rossini"
+  },
+  {
+    "subject": "Giuseppe Verdi",
+    "predicate": "influencedBy",
+    "object": "Vincenzo Bellini"
+  },
+  {
+    "subject": "Giuseppe Verdi",
+    "predicate": "influencedBy",
+    "object": "Gaetano Donizetti"
+  },
+  {
+    "subject": "Giuseppe Verdi",
+    "predicate": "influencedBy",
+    "object": "Giacomo Meyerbeer"
+  },
+  {
+    "subject": "Giuseppe Verdi",
+    "predicate": "influencedBy",
+    "object": "Gaspare Spontini"
+  },
+  {
+    "subject": "Nabucco",
+    "predicate": "composed",
+    "object": "Giuseppe Verdi"
+  },
+  {
+    "subject": "Rigoletto",
+    "predicate": "composed",
+    "object": "Giuseppe Verdi"
+  },
+  {
+    "subject": "Il trovatore",
+    "predicate": "composed",
+    "object": "Giuseppe Verdi"
+  },
+  {
+    "subject": "La traviata",
+    "predicate": "composed",
+    "object": "Giuseppe Verdi"
+  },
+  {
+    "subject": "Aida",
+    "predicate": "composed",
+    "object": "Giuseppe Verdi"
+  },
+  {
+    "subject": "Requiem",
+    "predicate": "composed",
+    "object": "Giuseppe Verdi"
+  },
+  {
+    "subject": "Otello",
+    "predicate": "composed",
+    "object": "Giuseppe Verdi"
+  },
+  {
+    "subject": "Falstaff",
+    "predicate": "composed",
+    "object": "Giuseppe Verdi"
+  }
+]

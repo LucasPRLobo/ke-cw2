@@ -1,0 +1,32 @@
+[
+  {
+    "subject": "Ces\u00e1ria \u00c9vora",
+    "predicate": "hasGenre",
+    "object": "morna"
+  },
+  {
+    "subject": "Ces\u00e1ria \u00c9vora",
+    "predicate": "alterEgo",
+    "object": "Cize"
+  },
+  {
+    "subject": "Ces\u00e1ria \u00c9vora",
+    "predicate": "alterEgo",
+    "object": "Barefoot Diva"
+  },
+  {
+    "subject": "Ces\u00e1ria \u00c9vora",
+    "predicate": "alterEgo",
+    "object": "Queen of Morna"
+  },
+  {
+    "subject": "Ces\u00e1ria \u00c9vora",
+    "predicate": "influencedBy",
+    "object": "Madonna"
+  },
+  {
+    "subject": "La Diva Aux Pieds Nus",
+    "predicate": "producedBy",
+    "object": "Jos\u00e9 \"Dj\u00f4\" da Silva"
+  }
+]

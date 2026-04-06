@@ -1,0 +1,51 @@
+{
+  "id": 95537,
+  "name": "Johann Sebastian Bach",
+  "realname": "Johann Sebastian Bach",
+  "profile": "Johann Sebastian Bach was born on March 21, 1685 in Eisenach, Thuringia, Germany. A prolific German composer and organist, his sacred and secular works for choir, orchestra and solo instruments drew together the strands of the baroque genre and brought it to its ultimate maturity. Although he introduced no new forms, he enriched the prevailing German style with a robust contrapuntal technique, a control of harmonic and motivic organisation from the smallest to the largest scales, and the adaptation of rhythms and textures from abroad, particularly Italy and France. Many people consider him to be the greatest Baroque composer, and one of the greatest composers of all time. From 1723 until his death he was Thomascantor at Leipzig.\r\n\r\nIn a scholarly context, the appearance of  [u]“BWV” on phonographic works[/u]—regardless of audio formats—signals far more than a simple catalog reference. It functions as a formal academic designation that situates Johann Sebastian Bach’s music firmly within the framework of modern musicology. Established in the mid-20th century through the [u]Bach-Werke-Verzeichnis[/u], BWV numbers provide a standardized system that allows scholars, performers, and listeners to identify, compare, and study Bach’s compositions with precision and consistency.\r\n\r\nRevered for their intellectual depth, technical command and artistic beauty, J.S. Bach's works include the Brandenburg concertos, the keyboard suites and partitas, the Mass in B Minor, the St. Matthew Passion, The Musical Offering, The Art of Fugue and a large number of cantatas, of which about 220 survive. He died on July 28, 1750.\r\n\r\nSome of his sons also became composers - [a=Carl Philipp Emanuel Bach], [a=Johann Christian Bach], [a=Wilhelm Friedemann Bach] and [a=Johann Christoph Friedrich Bach].",
+  "members": [],
+  "groups": [],
+  "genres": [
+    "Classical"
+  ],
+  "styles": [
+    "Baroque",
+    "Classical",
+    "Oratorio",
+    "Passion"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Classical",
+      "style": "Baroque"
+    },
+    {
+      "genre": "Classical",
+      "style": "Classical"
+    },
+    {
+      "genre": "Classical",
+      "style": "Baroque"
+    },
+    {
+      "genre": "Classical",
+      "style": "Baroque"
+    },
+    {
+      "genre": "Classical",
+      "style": "Oratorio"
+    },
+    {
+      "genre": "Classical",
+      "style": "Passion"
+    },
+    {
+      "genre": "Classical",
+      "style": "Baroque"
+    },
+    {
+      "genre": "Classical",
+      "style": "Baroque"
+    }
+  ]
+}

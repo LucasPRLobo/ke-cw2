@@ -1,0 +1,94 @@
+{
+  "id": 10263,
+  "name": "David Bowie",
+  "realname": "David Robert Jones",
+  "profile": "British pop/rock singer, musician, songwriter, and actor.\r\n\r\nBorn: 8 January 1947 in Brixton, London, England, UK.\r\nDied: 10 January 2016 in Manhattan, New York City, USA (aged 69).\r\n\r\nBowie is recognized as one of the most respected contemporary musicians of his period. He was a leading figure in the music industry and is considered one of the most influential musicians of the 20th century.\r\nInducted into Rock And Roll Hall of Fame in 1996.\r\n\r\nFor a list of all band and group involvement, please see [b][a1240431][/b].",
+  "members": [],
+  "groups": [],
+  "genres": [
+    "Funk / Soul",
+    "Pop",
+    "Rock"
+  ],
+  "styles": [
+    "Acoustic",
+    "Mod",
+    "Pop Rock",
+    "Soul",
+    "Vocal"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Rock",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Pop",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Rock",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Rock",
+      "style": "Acoustic"
+    },
+    {
+      "genre": "Pop",
+      "style": "Vocal"
+    },
+    {
+      "genre": "Pop",
+      "style": "Acoustic"
+    },
+    {
+      "genre": "Rock",
+      "style": "Mod"
+    },
+    {
+      "genre": "Pop",
+      "style": "Mod"
+    },
+    {
+      "genre": "Rock",
+      "style": "Mod"
+    },
+    {
+      "genre": "Rock",
+      "style": "Soul"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Mod"
+    },
+    {
+      "genre": "Funk / Soul",
+      "style": "Soul"
+    },
+    {
+      "genre": "Pop",
+      "style": "Mod"
+    },
+    {
+      "genre": "Pop",
+      "style": "Soul"
+    },
+    {
+      "genre": "Rock",
+      "style": "Mod"
+    },
+    {
+      "genre": "Rock",
+      "style": "Pop Rock"
+    },
+    {
+      "genre": "Pop",
+      "style": "Mod"
+    },
+    {
+      "genre": "Pop",
+      "style": "Pop Rock"
+    }
+  ]
+}

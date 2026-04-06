@@ -1,0 +1,144 @@
+{
+  "id": 4654,
+  "name": "Kraftwerk",
+  "realname": null,
+  "profile": "German group formed in Düsseldorf in 1970. Formerly known as [a=Organisation], Kraftwerk debuted live as the trio of Ralf Hütter, Florian Schneider-Esleben and Charly Weiss at the Tivoli Popfestival, Aachen on 11 July 1970. Klaus Dinger then took over as drummer. Gigs between 26 December 1970 and 31 July 1971 omitted Hütter, with various line-ups including Michael Rother and others. After a gig in the Weserberglands of Germany on 31 July 1971, Dinger & Rother then split-off forming [a=Neu!]. Shortly after, Hütter returned. First known Hütter/Schneider gig is 22 November 1971 at the Sachsenwald Gymnasium, Hamburg.\r\n\r\nCurrent members:\r\nRalf Hütter (July 1970 to December 1970, September 1971-) Lead Vocals, Vocoder, Synthesizers, Keyboards, Organ, Drums and Percussion, Guitar, Bass Guitar\r\nHenning Schmitz (1987-) Electronic Percussion (1987–) Sound Engineering\r\nFalk Grieffenhagen (2013-) Electronic Percussion\r\nGeorg Bongartz (2023-) Video Technician\r\n\r\nFormer Members:\r\nKarl Bartos (1974-1991) Electronic Percussion\r\nKlaus Dinger (1970-1971) Drum\r\nWolfgang Flür (1973-1987) Electronic Percussion\r\nAndreas Hohmann (1970) Drum\r\nEberhard Kranemann (1970-1971) Bass Guitar\r\nThomas Lohmann (1970) Drum\r\nHouschäng Néjadepour (1970-1971) Electric Guitar\r\nMichael Rother (1971) Electric Guitar\r\nFlorian Schneider-Esleben (1970-2008) \r\nCharly Weiss (1970) Drums\r\nPlato Kostic (a.k.a. Plato Riviera) (1970) Bass Guitar\r\nPeter Schmidt (1970) Drums\r\nEmil Schult (1973) Electric guitar, Electronic violin\r\nKlaus Röder (1974) Electric guitar, Electronic violin\r\nFritz Hilpert (1987-2022) Electronic Percussion, Sound Engineering\r\nFernando Abrantes (1991) Electronic Percussion, Synthesizer\r\nStefan Pfaffe (2008-2012) Video Technician",
+  "members": [
+    {
+      "name": "Karl Bartos",
+      "id": 22862,
+      "active": false
+    },
+    {
+      "name": "Michael Rother",
+      "id": 37955,
+      "active": false
+    },
+    {
+      "name": "Ralf Hütter",
+      "id": 92412,
+      "active": true
+    },
+    {
+      "name": "Klaus Röder",
+      "id": 220621,
+      "active": false
+    },
+    {
+      "name": "Wolfgang Flür",
+      "id": 364272,
+      "active": false
+    },
+    {
+      "name": "Florian Schneider",
+      "id": 373381,
+      "active": false
+    },
+    {
+      "name": "Klaus Dinger",
+      "id": 388633,
+      "active": false
+    },
+    {
+      "name": "Fritz Hilpert",
+      "id": 393567,
+      "active": false
+    },
+    {
+      "name": "Henning Schmitz",
+      "id": 408566,
+      "active": true
+    },
+    {
+      "name": "Andreas Hohmann",
+      "id": 462399,
+      "active": false
+    },
+    {
+      "name": "Eberhard Kranemann",
+      "id": 541898,
+      "active": false
+    },
+    {
+      "name": "Houschäng Nejadépour",
+      "id": 633901,
+      "active": false
+    },
+    {
+      "name": "Fernando Abrantes",
+      "id": 1209436,
+      "active": false
+    },
+    {
+      "name": "Charly Weiss",
+      "id": 1694157,
+      "active": false
+    },
+    {
+      "name": "Georg Bongartz",
+      "id": 2934140,
+      "active": true
+    },
+    {
+      "name": "Stefan Pfaffe",
+      "id": 6075925,
+      "active": false
+    },
+    {
+      "name": "Falk Grieffenhagen",
+      "id": 6115972,
+      "active": true
+    }
+  ],
+  "groups": [],
+  "genres": [
+    "Electronic",
+    "Rock"
+  ],
+  "styles": [
+    "Experimental",
+    "Krautrock"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Electronic",
+      "style": "Krautrock"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Krautrock"
+    },
+    {
+      "genre": "Rock",
+      "style": "Experimental"
+    },
+    {
+      "genre": "Rock",
+      "style": "Krautrock"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Krautrock"
+    },
+    {
+      "genre": "Electronic",
+      "style": "Experimental"
+    }
+  ]
+}

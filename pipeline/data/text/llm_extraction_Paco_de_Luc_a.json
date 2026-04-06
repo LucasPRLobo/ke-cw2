@@ -1,0 +1,117 @@
+[
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "hasGenre",
+    "object": "flamenco"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "hasGenre",
+    "object": "classical"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "hasGenre",
+    "object": "jazz"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "pioneerOf",
+    "object": "new flamenco"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "collaboratedWith",
+    "object": "Camar\u00f3n de la Isla"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "composed",
+    "object": "R\u00edo Ancho"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "composed",
+    "object": "Entre dos aguas"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "composed",
+    "object": "La Barrosa"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "composed",
+    "object": "\u00cdmpetu"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "composed",
+    "object": "Cepa Andaluza"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "composed",
+    "object": "Gloria al Ni\u00f1o Ricardo"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "collaboratedWith",
+    "object": "John McLaughlin"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "collaboratedWith",
+    "object": "Al Di Meola"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "collaboratedWith",
+    "object": "Larry Coryell"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "founded",
+    "object": "Paco de Luc\u00eda Sextet"
+  },
+  {
+    "subject": "Paco de Luc\u00eda Sextet",
+    "predicate": "hasMember",
+    "object": "Pepe de Luc\u00eda"
+  },
+  {
+    "subject": "Paco de Luc\u00eda Sextet",
+    "predicate": "hasMember",
+    "object": "Ram\u00f3n de Algeciras"
+  },
+  {
+    "subject": "Paco de Luc\u00eda Sextet",
+    "predicate": "hasMember",
+    "object": "Paco de Luc\u00eda"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "collaboratedWith",
+    "object": "Chick Corea"
+  },
+  {
+    "subject": "Chick Corea",
+    "predicate": "collaboratedWith",
+    "object": "Paco de Luc\u00eda"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "collaboratedWith",
+    "object": "Juan d'Anyelica"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "performedAt",
+    "object": "Expo '92 in Seville"
+  },
+  {
+    "subject": "Paco de Luc\u00eda",
+    "predicate": "performedAt",
+    "object": "Plaza Mayor in Madrid"
+  }
+]

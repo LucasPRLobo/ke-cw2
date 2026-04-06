@@ -1,0 +1,969 @@
+{
+  "mbid": "197450cd-0124-4164-b723-3c22dd16494d",
+  "name": "Frank Sinatra",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1915-12-12",
+    "end": "1998-05-14",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "Hoboken",
+  "tags": [
+    {
+      "name": "acting",
+      "count": "1"
+    },
+    {
+      "name": "actors",
+      "count": "1"
+    },
+    {
+      "name": "big band",
+      "count": "3"
+    },
+    {
+      "name": "christmas",
+      "count": "1"
+    },
+    {
+      "name": "christmas music",
+      "count": "2"
+    },
+    {
+      "name": "easy listening",
+      "count": "2"
+    },
+    {
+      "name": "jazz",
+      "count": "10"
+    },
+    {
+      "name": "lounge",
+      "count": "1"
+    },
+    {
+      "name": "motion picture producers and directors",
+      "count": "1"
+    },
+    {
+      "name": "motion pictures--production and direction",
+      "count": "1"
+    },
+    {
+      "name": "pop",
+      "count": "1"
+    },
+    {
+      "name": "singers",
+      "count": "1"
+    },
+    {
+      "name": "singing",
+      "count": "1"
+    },
+    {
+      "name": "standards",
+      "count": "3"
+    },
+    {
+      "name": "swing",
+      "count": "7"
+    },
+    {
+      "name": "traditional pop",
+      "count": "6"
+    },
+    {
+      "name": "ultimate",
+      "count": "1"
+    },
+    {
+      "name": "vocal",
+      "count": "1"
+    },
+    {
+      "name": "vocal jazz",
+      "count": "6"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Ava Gardner",
+      "target_mbid": "77c40993-83a7-4b60-878a-3416156e8b01",
+      "attributes": [],
+      "begin": "1951",
+      "end": "1957"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Mia Farrow",
+      "target_mbid": "04bac187-160c-4b72-9ba1-cd6fd07ca6be",
+      "attributes": [],
+      "begin": "1966-07-19",
+      "end": "1968-06-16"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Barbara Sinatra",
+      "target_mbid": "0f57db27-823a-41a5-ba56-77aa5cfd8f7d",
+      "attributes": [],
+      "begin": "1976-07-11",
+      "end": "1998-05-14"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Harry James and His Orchestra",
+      "target_mbid": "42ba7d72-b77c-4989-9880-c893b89db4c6",
+      "attributes": [],
+      "begin": "1939",
+      "end": "1939"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Tommy Dorsey and His Orchestra",
+      "target_mbid": "1e8f0ed0-a67f-4203-97a6-add12b4b1ab3",
+      "attributes": [],
+      "begin": "1940",
+      "end": "1942"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Sinatra Family",
+      "target_mbid": "8acb13af-b79f-40a0-b2fd-3d9db1f215a4",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Rat Pack",
+      "target_mbid": "35e227e5-f724-4699-91b2-d5184cdc7411",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Nancy Sinatra",
+      "target_mbid": "c2e36518-9c3b-4dcb-82ad-a3fc7fe99c67",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Frank Sinatra, Jr.",
+      "target_mbid": "37de3091-32c5-449b-a67e-2e3cd0f0beb7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Tina Sinatra",
+      "target_mbid": "9e7e148c-f105-4b76-825c-3a7b5643fe10",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "Stanley Harris",
+      "target_mbid": "77cbe0ae-0c27-464e-9633-ddeac6ef55c2",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "George Ockner",
+      "target_mbid": "1102cfab-aebd-4187-9a4a-75c16f276be1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "Meyer \"Mike\" Rubin",
+      "target_mbid": "f25e4299-ff7a-4cff-9947-4c9c11f76994",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Frank Cubillo",
+      "target_mbid": "b77e3ce3-156e-4fc0-b391-6d78d9bd317c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Дмитрий Носков",
+      "target_mbid": "7f471882-4886-461d-850c-97dd576c7177",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "vocal supporting musician",
+      "direction": "backward",
+      "target_name": "Beryl Davis",
+      "target_mbid": "07e49563-6d5a-4d32-ba31-5867282ebaf5",
+      "attributes": [],
+      "begin": "1948",
+      "end": "1948"
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000792507"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/197450cd-0124-4164-b723-3c22dd16494d"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/52833"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/1Mxqyy3pSjf8kZZL4QVxS0"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/617"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Frank_Sinatra_by_Gottlieb_c1947-_2.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0000069/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Frank+Sinatra"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-3986/frank-sinatra/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Frank-sinatra"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/Frank-Sinatra"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.sinatra.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://castalbums.org/people/Frank-Sinatra/1998"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n50026395"
+    },
+    {
+      "type": "other databases",
+      "target": "https://adp.library.ucsb.edu/names/101977"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13899814w"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118765574"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/broadway-cast-staff/frank-sinatra-79640"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6862pmg"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/anbd.aut-an35658484"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL894739A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/frank_sinatra"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/frank-sinatra/all"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/11630/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/frank-sinatra/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Frank-Sinatra/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.worldcat.org/identities/lccn-n50026395/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id171366"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=Agq2vf7t7dntodd446tw5fhku4e"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/297194/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/171366"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://tower.jp/artist/174573"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000APTH54"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/319"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/frank-sinatra-73d69af5.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/sinatra"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/404713"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B000QJI8WM"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/171366"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/362"
+    },
+    {
+      "type": "streaming",
+      "target": "https://us.napster.com/artist/frank-sinatra"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/27253198"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q40912"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCJtvg6ZFwzdFdtcHBqetvwg"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "48f05fdb-0a7b-3c7f-b62d-78923d167da7",
+      "title": "The Voice of Frank Sinatra",
+      "type": "Album",
+      "first_release_date": "1946-03-04"
+    },
+    {
+      "id": "35fb03e4-2344-3c48-aa93-ea80e9870d8a",
+      "title": "Songs by Sinatra",
+      "type": "Album",
+      "first_release_date": "1947-04"
+    },
+    {
+      "id": "10fb3238-07c6-30da-80f9-516d33dce786",
+      "title": "Christmas Songs by Sinatra",
+      "type": "Album",
+      "first_release_date": "1948"
+    },
+    {
+      "id": "5e7130ec-3e7a-3407-bc1e-821fd6d3ddf9",
+      "title": "Frankly Sentimental",
+      "type": "Album",
+      "first_release_date": "1949-06-20"
+    },
+    {
+      "id": "141af6b7-6a86-42bc-934b-9dbf726d766b",
+      "title": "Dedicated to You",
+      "type": "Album",
+      "first_release_date": "1950-03"
+    },
+    {
+      "id": "5695bdc8-006f-39c8-9431-7636240773a0",
+      "title": "Sing and Dance With Frank Sinatra",
+      "type": "Album",
+      "first_release_date": "1950-10-16"
+    },
+    {
+      "id": "ced1cbb1-7671-35d2-a9ec-a63d2c9c8390",
+      "title": "Swing Easy!",
+      "type": "Album",
+      "first_release_date": "1954-08-02"
+    },
+    {
+      "id": "2bd54233-55d8-312c-98c1-09a794c6a6f1",
+      "title": "Songs for Young Lovers",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "5a5d9938-38a9-3f32-b03b-8f14f62b880a",
+      "title": "In the Wee Small Hours",
+      "type": "Album",
+      "first_release_date": "1955-04-25"
+    },
+    {
+      "id": "6cc3b1f9-af52-4b1c-8fc8-4d86efe31e0f",
+      "title": "Christmas With Sinatra",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "8a8f8530-0344-4820-a791-a80f40022543",
+      "title": "The Voice",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "5cc09285-b53a-3ed5-8d6b-71690c5d2b55",
+      "title": "Frank Sinatra Conducts Tone Poems of Color",
+      "type": "Album",
+      "first_release_date": "1956-01-01"
+    },
+    {
+      "id": "12421e82-3ca1-39c5-bbcf-bba54ba251e5",
+      "title": "Songs for Swingin’ Lovers!",
+      "type": "Album",
+      "first_release_date": "1956-03"
+    },
+    {
+      "id": "dba8c1bb-55ff-49f2-a287-7d4111f43a57",
+      "title": "That Old Feeling",
+      "type": "Album",
+      "first_release_date": "1956-09-10"
+    },
+    {
+      "id": "4bc8b6d0-f7b4-3b53-a775-d7127c380a1a",
+      "title": "A Swingin’ Affair!",
+      "type": "Album",
+      "first_release_date": "1957-05-06"
+    },
+    {
+      "id": "883d137a-4b9a-3b74-b37d-77f9a3ff62ba",
+      "title": "Where Are You?",
+      "type": "Album",
+      "first_release_date": "1957-09-02"
+    },
+    {
+      "id": "505ccc55-cfcd-3deb-aaef-1fce83eddd53",
+      "title": "A Jolly Christmas From Frank Sinatra",
+      "type": "Album",
+      "first_release_date": "1957-09"
+    },
+    {
+      "id": "68d07602-c216-4631-b0a8-1f7f42614ff3",
+      "title": "Christmas Dreaming",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "735c1d06-ec1d-3099-bf2c-69c1fbf23921",
+      "title": "Close to You",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "78e08fd8-6e52-3712-bcba-99f0312fe7bd",
+      "title": "Come Fly With Me",
+      "type": "Album",
+      "first_release_date": "1958-01-06"
+    },
+    {
+      "id": "bf7c7461-fc4d-35f8-a4d6-673473ce3fe6",
+      "title": "Frank Sinatra Sings for Only the Lonely",
+      "type": "Album",
+      "first_release_date": "1958-09-08"
+    },
+    {
+      "id": "943f4c2f-1635-45c6-8496-76f8ee4e7f29",
+      "title": "Love Is a Kick",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "32bedf9b-b7cc-3dd7-8836-b2a913245c28",
+      "title": "Come Dance With Me!",
+      "type": "Album",
+      "first_release_date": "1959-01-05"
+    },
+    {
+      "id": "5e97f43a-5b44-3b1c-aa51-6a3a81d016e2",
+      "title": "No One Cares",
+      "type": "Album",
+      "first_release_date": "1959-07-20"
+    },
+    {
+      "id": "cafb35ae-7d4f-4a9e-a577-f051a60c8754",
+      "title": "Come Back to Sorrento",
+      "type": "Album",
+      "first_release_date": "1959"
+    }
+  ],
+  "tracks": {
+    "48f05fdb-0a7b-3c7f-b62d-78923d167da7": [
+      {
+        "id": "123dfa9a-33d0-4818-bd62-bf55fabbdb92",
+        "title": "You Go to My Head",
+        "position": "1",
+        "length": "182000",
+        "work": {
+          "id": "72715cfb-1ade-30ed-951f-14cea4bc6292",
+          "title": "You Go to My Head",
+          "composers": [
+            {
+              "name": "J. Fred Coots",
+              "mbid": "3bcb90e6-c8d9-463d-870a-3cc1e480a060"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0a8693bb-dfcd-4363-a543-e135252483a5",
+        "title": "I Don’t Know Why (I Just Do)",
+        "position": "2",
+        "length": "168333",
+        "work": {
+          "id": "778b7385-a5e6-367a-8fb8-50143d4ece55",
+          "title": "I Don’t Know Why",
+          "composers": [
+            {
+              "name": "Fred Ahlert",
+              "mbid": "15e3114e-19f8-4222-a585-0229920db798"
+            }
+          ]
+        }
+      },
+      {
+        "id": "03170983-e5d9-4037-9288-e36f83889647",
+        "title": "These Foolish Things",
+        "position": "1",
+        "length": "190173",
+        "work": {
+          "id": "6261d6d4-caa9-31f0-8ab4-f977bcd57451",
+          "title": "These Foolish Things (Remind Me of You)",
+          "composers": [
+            {
+              "name": "Jack Strachey",
+              "mbid": "1c8a91b9-5e5d-472a-bbc0-d5ce334cef0a"
+            },
+            {
+              "name": "Harry Link",
+              "mbid": "7c0e243d-30e5-472f-b5db-afa0632abd19"
+            }
+          ]
+        }
+      },
+      {
+        "id": "31fdfc54-a11e-4cc3-8f1d-2196a54ae60d",
+        "title": "I Don’t Stand a Ghost of a Chance",
+        "position": "2",
+        "length": "193173",
+        "work": {
+          "id": "ade9c30c-faf5-3219-aa4a-6631d39deea7",
+          "title": "(I Don’t Stand) A Ghost of a Chance",
+          "composers": [
+            {
+              "name": "Victor Young",
+              "mbid": "338f9d5d-9327-4f01-bb99-0cdf22c48565"
+            }
+          ]
+        }
+      },
+      {
+        "id": "10c3449f-33df-4c5c-9363-f5e82bb291c3",
+        "title": "Why Shouldn’t I?",
+        "position": "1",
+        "length": "174466",
+        "work": {
+          "id": "b4f11508-863f-374e-88a9-b930fba10fd7",
+          "title": "Why Shouldn’t I?",
+          "composers": [
+            {
+              "name": "Cole Porter",
+              "mbid": "4a94a6cb-e70a-418b-bb53-a37897b950ce"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b0ebc24a-d738-4a0b-8071-044ed68a0a93",
+        "title": "Try a Little Tenderness",
+        "position": "2",
+        "length": "190000",
+        "work": {
+          "id": "8bb1de84-474b-3092-a779-5c21c77a77be",
+          "title": "Try a Little Tenderness",
+          "composers": [
+            {
+              "name": "Harry M. Woods",
+              "mbid": "765d18ec-8a76-4f6e-9c6e-cd78a223724c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "18cf97d3-8506-408c-867f-139becd38f5c",
+        "title": "Someone to Watch Over Me",
+        "position": "1",
+        "length": "201760",
+        "work": {
+          "id": "5ea7fd4e-648d-3698-917c-10eb0b328ba1",
+          "title": "Someone to Watch Over Me",
+          "composers": [
+            {
+              "name": "George Gershwin",
+              "mbid": "65744963-191a-44ef-a3c7-b693a808a158"
+            }
+          ]
+        }
+      },
+      {
+        "id": "739b388a-2365-4a4a-86b4-464d04453c3e",
+        "title": "Paradise",
+        "position": "2",
+        "length": "159333",
+        "work": {
+          "id": "da630a31-a392-35cf-99e3-2620cb2b7fa7",
+          "title": "Paradise",
+          "composers": [
+            {
+              "name": "Nacio Herb Brown",
+              "mbid": "5219ac97-886d-4465-87c5-882e31976981"
+            }
+          ]
+        }
+      }
+    ],
+    "35fb03e4-2344-3c48-aa93-ea80e9870d8a": [
+      {
+        "id": "9290157d-0912-473d-b26d-afc529529bed",
+        "title": "I’m Sorry I Made You Cry",
+        "position": "1",
+        "length": "184000",
+        "work": {
+          "id": "07db079d-0182-322a-bf08-1c98221a7086",
+          "title": "I'm Sorry I Made You Cry",
+          "composers": [
+            {
+              "name": "N.J. Clesi",
+              "mbid": "98f6ee4c-fcf9-434f-aeef-fb2fef850369"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6d046f27-5df8-45b7-ac74-29f5ce1738a9",
+        "title": "I Concentrate on You",
+        "position": "2",
+        "length": "184000",
+        "work": {
+          "id": "987e7397-8ead-3a86-9054-be065e427ac5",
+          "title": "I Concentrate on You",
+          "composers": [
+            {
+              "name": "Cole Porter",
+              "mbid": "4a94a6cb-e70a-418b-bb53-a37897b950ce"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9e74de3d-ee8c-4ea6-a222-8761d052eeb0",
+        "title": "How Deep Is the Ocean (How High Is the Sky)?",
+        "position": "1",
+        "length": "178053",
+        "work": {
+          "id": "5757fff7-068f-3328-8eb0-cb427891e0cd",
+          "title": "How Deep Is the Ocean?",
+          "composers": [
+            {
+              "name": "Irving Berlin",
+              "mbid": "5e645519-a175-4fe0-9a9b-eb9dc9f506b5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "396cd589-646b-4069-a0ef-3716ccec833a",
+        "title": "That Old Black Magic",
+        "position": "2",
+        "length": "154213",
+        "work": {
+          "id": "3ed0d951-d66c-3731-a37b-30d985234108",
+          "title": "That Old Black Magic",
+          "composers": [
+            {
+              "name": "Harold Arlen",
+              "mbid": "3508f3fd-3b18-493c-a362-376736bb6cde"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a0928132-c523-4888-b13a-e26e8fa63fed",
+        "title": "Over the Rainbow",
+        "position": "1",
+        "length": "196000",
+        "work": {
+          "id": "f8217125-b460-3902-8903-82979e3785ee",
+          "title": "Over the Rainbow",
+          "composers": [
+            {
+              "name": "Harold Arlen",
+              "mbid": "3508f3fd-3b18-493c-a362-376736bb6cde"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8a9764ce-ae3e-48f1-ac74-5c82ef8ec8c3",
+        "title": "All the Things You Are",
+        "position": "2",
+        "length": "183200",
+        "work": {
+          "id": "6c0ae4fc-2893-363a-a3e9-f04324e0f525",
+          "title": "All the Things You Are",
+          "composers": [
+            {
+              "name": "Jerome Kern",
+              "mbid": "8fb64b2e-db8b-4579-ad08-f324ef1bf494"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5c31f117-eda7-4f78-8487-811ae2c2d25e",
+        "title": "She’s Funny That Way",
+        "position": "1",
+        "length": "202533",
+        "work": {
+          "id": "16834f90-0256-30bb-a5ab-6bdc9237cd13",
+          "title": "She’s Funny That Way",
+          "composers": [
+            {
+              "name": "Neil Moret",
+              "mbid": "0987c822-8789-4198-8666-8ccb530ca0be"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d76c66d5-dff8-4350-9494-b3e04bade4e2",
+        "title": "Embraceable You",
+        "position": "2",
+        "length": "198000",
+        "work": {
+          "id": "13869248-f36a-3fe0-a8bd-7c0d2793d8d9",
+          "title": "Embraceable You",
+          "composers": [
+            {
+              "name": "George Gershwin",
+              "mbid": "65744963-191a-44ef-a3c7-b693a808a158"
+            }
+          ]
+        }
+      }
+    ],
+    "10fb3238-07c6-30da-80f9-516d33dce786": [
+      {
+        "id": "28c6fb5f-8140-4a08-a98d-3601371927ae",
+        "title": "Silent Night, Holy Night",
+        "position": "1",
+        "length": "197000",
+        "work": {
+          "id": "590e5567-c188-31f0-b7a8-a94e7e51c7b3",
+          "title": "Silent Night",
+          "composers": [
+            {
+              "name": "Franz Xaver Gruber",
+              "mbid": "4122e107-a90c-4ff3-8223-51cf490c022c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e5889f39-aeb6-4233-a23c-6a67bef3c1c5",
+        "title": "Adeste Fideles",
+        "position": "2",
+        "length": "157720",
+        "work": {
+          "id": "57f86d53-3b74-3446-9bf4-4b73c678700d",
+          "title": "O Come, All Ye Faithful",
+          "composers": [
+            {
+              "name": "John Francis Wade",
+              "mbid": "997ccbe8-1820-4ee8-851f-a62ab571e226"
+            }
+          ]
+        }
+      },
+      {
+        "id": "13ab8a25-f61a-44c5-bc76-b117b3e66a92",
+        "title": "White Christmas (Noël blanc)",
+        "position": "1",
+        "length": "204346",
+        "work": {
+          "id": "30daa999-81af-34c3-bf22-b3c1c41c8c01",
+          "title": "White Christmas",
+          "composers": [
+            {
+              "name": "Irving Berlin",
+              "mbid": "5e645519-a175-4fe0-9a9b-eb9dc9f506b5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ce6d7327-7a6b-45c6-bf38-996266544d03",
+        "title": "Jingle Bells",
+        "position": "2",
+        "length": "157226",
+        "work": {
+          "id": "ca7bfba8-e5aa-3d25-9b4a-3b9d2626841d",
+          "title": "Jingle Bells",
+          "composers": [
+            {
+              "name": "James Lord Pierpont",
+              "mbid": "ff98b821-de0d-4a0e-9002-507bf323a97d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fcf84b90-a2d8-4d6b-94a4-10aaca90b399",
+        "title": "O Little Town of Bethlehem",
+        "position": "1",
+        "length": "185493",
+        "work": {
+          "id": "c825b1f0-54d9-4bf5-978b-072a75f36919",
+          "title": "O Little Town of Bethlehem",
+          "composers": [
+            {
+              "name": "Lewis Henry Redner",
+              "mbid": "dff5d398-8857-4ec2-882d-56fdc10ce07b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482f5c74-2f35-4ab0-85c3-1f27bfe823b1",
+        "title": "It Came Upon a Midnight Clear",
+        "position": "2",
+        "length": "212640",
+        "work": {
+          "id": "94e725f5-da4c-3daf-acea-be46ff06dc02",
+          "title": "It Came Upon the Midnight Clear",
+          "composers": [
+            {
+              "name": "Richard Storrs Willis",
+              "mbid": "7eb17272-ac63-41e7-aeec-a38088014fb5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e2b092ee-b7f9-465c-bcae-3a82685ab66c",
+        "title": "Have Yourself a Merry Little Christmas",
+        "position": "1",
+        "length": "155200",
+        "work": {
+          "id": "2ff51d26-cc88-443e-83b9-baf9cf244112",
+          "title": "Have Yourself a Merry Little Christmas",
+          "composers": [
+            {
+              "name": "Hugh Martin",
+              "mbid": "46f29ffe-7479-4365-bfd0-fd8f2bb1c7bf"
+            }
+          ]
+        }
+      },
+      {
+        "id": "caab1e68-2d8a-4c23-8c52-654294f8e452",
+        "title": "Santa Claus Is Coming to Town",
+        "position": "2",
+        "length": "154840",
+        "work": {
+          "id": "b3e49473-899d-3f08-9f06-2afc70f85e2e",
+          "title": "Santa Claus Is Coming to Town",
+          "composers": [
+            {
+              "name": "J. Fred Coots",
+              "mbid": "3bcb90e6-c8d9-463d-870a-3cc1e480a060"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 52833,
+  "wikidata_id": "Q40912"
+}

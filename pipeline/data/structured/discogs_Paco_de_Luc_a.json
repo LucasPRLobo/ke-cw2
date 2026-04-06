@@ -1,0 +1,71 @@
+{
+  "id": 20184,
+  "name": "Paco De Lucía",
+  "realname": "Francisco Gustavo Sánchez Gómez",
+  "profile": "Spanish flamenco guitarist and composer.\r\nBorn December 21, 1947 in Algeciras (Cádiz), Spain - died February 25, 2014 in Cancún, Mexico.\r\nHe has played and recorded with many artists like [a=John McLaughlin], [a=Larry Coryell], [a=Al Di Meola], [a=Carles Benavent], [a=Chick Corea] and the flamenco singer [a=El Camarón de la Isla].\r\nBrother of [a=Pepe De Lucía] and [a=Ramón De Algeciras].\r\n",
+  "members": [],
+  "groups": [
+    {
+      "name": "Paco De Lucia Sextet",
+      "id": 387045,
+      "active": true
+    },
+    {
+      "name": "Los Chiquitos De Algeciras",
+      "id": 3645836,
+      "active": false
+    },
+    {
+      "name": "Acoustic Friends (2)",
+      "id": 6639721,
+      "active": true
+    },
+    {
+      "name": "The Guitar Trio",
+      "id": 7867075,
+      "active": true
+    },
+    {
+      "name": "Paco De Lucia & Sextet",
+      "id": 8944996,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Folk, World, & Country",
+    "Latin"
+  ],
+  "styles": [
+    "Flamenco"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Flamenco"
+    },
+    {
+      "genre": "Latin",
+      "style": "Flamenco"
+    },
+    {
+      "genre": "Latin",
+      "style": "Flamenco"
+    },
+    {
+      "genre": "Latin",
+      "style": "Flamenco"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Flamenco"
+    },
+    {
+      "genre": "Latin",
+      "style": "Flamenco"
+    },
+    {
+      "genre": "Folk, World, & Country",
+      "style": "Flamenco"
+    }
+  ]
+}

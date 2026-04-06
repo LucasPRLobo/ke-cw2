@@ -1,0 +1,32 @@
+[
+  {
+    "subject": "Dolly Parton",
+    "predicate": "composed",
+    "object": "I Will Always Love You"
+  },
+  {
+    "subject": "Dolly Parton",
+    "predicate": "composed",
+    "object": "Jolene"
+  },
+  {
+    "subject": "Dolly Parton",
+    "predicate": "composed",
+    "object": "Coat of Many Colors"
+  },
+  {
+    "subject": "Dolly Parton",
+    "predicate": "composed",
+    "object": "9 to 5"
+  },
+  {
+    "subject": "Dolly Parton",
+    "predicate": "alterEgo",
+    "object": "Queen of Country"
+  },
+  {
+    "subject": "Dolly Parton",
+    "predicate": "founded",
+    "object": "Dollywood Foundation"
+  }
+]

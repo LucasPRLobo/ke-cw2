@@ -1,0 +1,375 @@
+{
+  "mbid": "0a354a70-b879-4697-ad9b-60bfe2bd1d63",
+  "name": "أم كلثوم",
+  "type": "Person",
+  "country": "EG",
+  "gender": "Female",
+  "life_span": {
+    "begin": "1898-12-30",
+    "end": "1975-02-03",
+    "ended": "true"
+  },
+  "area": "Egypt",
+  "begin_area": "Ad Daqahlīyah",
+  "tags": [
+    {
+      "name": "arabic",
+      "count": "1"
+    },
+    {
+      "name": "arabic classical music",
+      "count": "1"
+    },
+    {
+      "name": "egyptian music",
+      "count": "1"
+    },
+    {
+      "name": "traditional arabic pop",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000810410"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/249512"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://almashriq.hiof.no/egypt/700/780/umKoulthoum/"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Umm_Kulthum_2.jpg"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Umm_Kulthum4.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0467990/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Oum+Kalthoum"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n85154437"
+    },
+    {
+      "type": "other databases",
+      "target": "https://adp.library.ucsb.edu/names/104957"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb139006401"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118860178"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1127226"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL5598464A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/%D8%A3%D9%85-%D9%83%D9%84%D8%AB%D9%88%D9%85"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n85154437"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/ommkalthom"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/om_kulthum/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.mixcloud.com/Om_Kolthoum/"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/10035031"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q1110560"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "979459f3-207d-4e77-a1df-298c7bbf3315",
+      "title": "Umm Kulthum 3",
+      "type": "Album",
+      "first_release_date": "1960-01-01"
+    },
+    {
+      "id": "6912e73b-2646-4dec-89e3-a4d839618340",
+      "title": "The Twinkling Star",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "af7025f2-f308-362c-affc-fcca3657f9ff",
+      "title": "Enta Omri",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "a6bb6837-1a67-42a3-b468-8867d0e104dd",
+      "title": "Umm Kulthum 2",
+      "type": "Album",
+      "first_release_date": "1965-07-23"
+    },
+    {
+      "id": "b2369677-871b-4c61-a759-9cf94964ec10",
+      "title": "Umm Kulthum 1",
+      "type": "Album",
+      "first_release_date": "1966-04-07"
+    },
+    {
+      "id": "01ae5147-7c35-4053-b8ef-e9039b0910bd",
+      "title": "Alf Leila wa Leila",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "bab323f4-0754-45c1-88da-aaf8bc5e7bce",
+      "title": "ظلمنا الحب (Zalamna el hob)",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "101a936c-b003-4685-a809-c1a9ed7360aa",
+      "title": "El Hob Koloh",
+      "type": "Album",
+      "first_release_date": "1970"
+    },
+    {
+      "id": "f3394eed-6ee2-4fb7-86d5-94ea5bce9407",
+      "title": "Aghadan Alkak (غدا ألقاك)",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "8c1406a7-1c45-4a53-bbef-0bf144ab58d5",
+      "title": "Fat el Maad",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "c25eaabc-5614-43ea-bc6a-28fde4d7da4c",
+      "title": "ذكريات (Zekrayat)",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "db05f1da-b4e3-44ee-9212-dc4fec0523ab",
+      "title": "سهرة مع ليلة حب",
+      "type": "Album",
+      "first_release_date": "1972"
+    },
+    {
+      "id": "2ccfae68-a4b1-44ab-b24b-5b902b1dbdc2",
+      "title": "Yalli Kan Yechguik",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "3697ff4e-ceec-4138-be69-93f0bc342f8f",
+      "title": "لسه فاكر = Lesa Faker",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "69380cb8-60c2-4db8-acdb-4cb1f2c1ce0c",
+      "title": "نور من الشرق Lumiere Sur Le Desert",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "a9c79e93-5226-4636-8aff-1567ef922d86",
+      "title": "يا طول عذابي Ya Toul Azabi",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "15e166ee-bd39-4493-8974-cea8ddcbddbf",
+      "title": "Lailet Hob",
+      "type": "Album",
+      "first_release_date": "1988"
+    },
+    {
+      "id": "20f5b015-fa86-3394-a9c9-f9aafee9492b",
+      "title": "El Atlal",
+      "type": "Album",
+      "first_release_date": "1989"
+    },
+    {
+      "id": "53d1d594-27e3-317c-b33f-386557d187a2",
+      "title": "Lesa Faker (enregistrement public)",
+      "type": "Album",
+      "first_release_date": "1989"
+    },
+    {
+      "id": "5a4ebbf3-f881-3734-96ae-d286491f61d0",
+      "title": "Hassibak Lizzamane - Rabiaa El Adaweya",
+      "type": "Album",
+      "first_release_date": "1990"
+    },
+    {
+      "id": "aa55b3a1-f766-4cfb-8188-51508dbf7d4e",
+      "title": "الأمل ❤ حلم",
+      "type": "Album",
+      "first_release_date": "1994"
+    },
+    {
+      "id": "bb8fc5af-5fe5-4bb3-8f97-9be6d02946f9",
+      "title": "الحب كله",
+      "type": "Album",
+      "first_release_date": "1994"
+    },
+    {
+      "id": "91887b17-ebce-4977-b474-843abb811afb",
+      "title": "فاكر لما كنت جنبي / ياطول عذابي = Faker Lamma Kont Ganby / Yatol Azabi",
+      "type": "Album",
+      "first_release_date": "1994"
+    },
+    {
+      "id": "78a9d99f-3977-47f9-9da5-474bcccbcc0a",
+      "title": "هجرتك (Hagartak)",
+      "type": "Album",
+      "first_release_date": "1994"
+    },
+    {
+      "id": "daeca680-23f3-4748-9014-fb03b23cc403",
+      "title": "The Twinkling Star",
+      "type": "Album",
+      "first_release_date": "1995"
+    }
+  ],
+  "tracks": {
+    "979459f3-207d-4e77-a1df-298c7bbf3315": [
+      {
+        "id": "3b3f59a0-7fba-46aa-a6bd-287cdf81d719",
+        "title": "Hob Eih",
+        "position": "1",
+        "length": "2586426",
+        "work": null
+      },
+      {
+        "id": "fe29daee-1f12-4b6a-a602-edce1a498f67",
+        "title": "Siret El Hob",
+        "position": "2",
+        "length": "2353813",
+        "work": null
+      },
+      {
+        "id": "9bf527ce-5ca7-49e9-babf-f34da4e6627a",
+        "title": "Gadedt Hobak Leih",
+        "position": "3",
+        "length": "2365306",
+        "work": null
+      },
+      {
+        "id": "df3c6fa0-5ec7-4cca-9145-fa8e341e077a",
+        "title": "Fakarouny",
+        "position": "4",
+        "length": "3577800",
+        "work": null
+      },
+      {
+        "id": "f521055e-e65c-49d6-91a7-bebf8812f9f9",
+        "title": "Hadeeth El Rouh",
+        "position": "5",
+        "length": "2135306",
+        "work": null
+      }
+    ],
+    "6912e73b-2646-4dec-89e3-a4d839618340": [
+      {
+        "id": "2598e878-2740-46e6-a963-73b0c75d87a9",
+        "title": "Ya Bashir Al-Uns",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "f633c03e-7d9e-44d8-b996-f744b74f97d7",
+        "title": "Ifrah Ya Qalbi",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "ed0a9cd7-981f-4ae5-83e1-7af7d82d9808",
+        "title": "Ya Bahgit Al-'id",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "53031ac8-5d2b-4f29-983d-f33abdb13568",
+        "title": "'Ala Baladi Al-Mahbub",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "162c1e1e-3fb9-4303-ac1c-a42fbb1fa387",
+        "title": "Laih Ya Zaman",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "5a0e9a9c-bef5-4347-8e51-3dba08b1d8c4",
+        "title": "Ya Tair",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "4e7a7b60-9ddb-47da-8a8c-bbebc38a9746",
+        "title": "Yama Nadait",
+        "position": "7",
+        "length": null,
+        "work": null
+      }
+    ],
+    "af7025f2-f308-362c-affc-fcca3657f9ff": [
+      {
+        "id": "4fd5e749-7f7d-4685-a2b2-b9f94cba5d27",
+        "title": "أنت عمري",
+        "position": "1",
+        "length": "968000",
+        "work": null
+      },
+      {
+        "id": "995e678e-fa54-41f1-8fbe-47f8ec677491",
+        "title": "أنت عمري",
+        "position": "2",
+        "length": "1051000",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 249512,
+  "wikidata_id": "Q1110560"
+}

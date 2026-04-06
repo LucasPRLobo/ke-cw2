@@ -1,0 +1,65 @@
+{
+  "id": 743697,
+  "name": "Hildegard Von Bingen",
+  "realname": "Hildegard von Bingen",
+  "profile": "German abbess, mystic, composer, theologian and healer during the medieval era. \r\nBorn 16 September 1098, died 17 September 1179.\r\nShe suffered from “divine” visions during her childhood. Subsequently she was consecrated by her parents to the Christian god. At the age of 8 she was introduced to Benedictine abbey of Disibodenberg by Jutta of Sponheim. After Jutta’s death in 1136, she was chosen as abbess. She extended her abbey to Rupertsberg and Eibingen on the border of the Rhine and did many missions through Europe.\r\nDuring the Romanesque century she had a very important aura on her period. She was admired by [a=Bernard of Clairvaux] and the pope Eugene III, also by the German emperor Frederick Barbarossa. She has consigned her visions in her book [i]Scivias[/i] (English: [i]Know the Ways[/i]).\r\nHer musical compositions were rediscovered during the 20th century by, among others, [a=Sequentia (2)], [a=Anonymous 4], [a=Ensemble Organum], [a=Sol Invictus], [a=Current 93] or [a1316935].",
+  "members": [],
+  "groups": [],
+  "genres": [
+    "Classical"
+  ],
+  "styles": [
+    "Baroque",
+    "Mass",
+    "Medieval",
+    "Plainchant",
+    "Religious",
+    "Renaissance"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Classical",
+      "style": "Medieval"
+    },
+    {
+      "genre": "Classical",
+      "style": "Plainchant"
+    },
+    {
+      "genre": "Classical",
+      "style": "Religious"
+    },
+    {
+      "genre": "Classical",
+      "style": "Medieval"
+    },
+    {
+      "genre": "Classical",
+      "style": "Renaissance"
+    },
+    {
+      "genre": "Classical",
+      "style": "Baroque"
+    },
+    {
+      "genre": "Classical",
+      "style": "Medieval"
+    },
+    {
+      "genre": "Classical",
+      "style": "Mass"
+    },
+    {
+      "genre": "Classical",
+      "style": "Medieval"
+    },
+    {
+      "genre": "Classical",
+      "style": "Plainchant"
+    },
+    {
+      "genre": "Classical",
+      "style": "Medieval"
+    }
+  ]
+}

@@ -1,0 +1,858 @@
+{
+  "49a51491-650e-44b3-8085-2f07ac2986dd": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": "1940-06-23",
+    "end": "1962-04-10",
+    "gender": "Male"
+  },
+  "f7d30d7d-9976-4d31-9907-19f3c30a206d": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": "1931-09-12",
+    "end": "1981-09-29",
+    "gender": "Male"
+  },
+  "6a0e143b-61bb-414f-99c8-96681be286a1": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": "1937",
+    "end": "1995-07",
+    "gender": "Male"
+  },
+  "0d4ab0f9-bbda-4ab1-ae2c-f772ffcfbea9": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": "1941-11-24",
+    "end": null,
+    "gender": "Male"
+  },
+  "2629082c-19b4-42ae-b2e1-d6025ead67a0": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": "1941-06-18",
+    "end": "2023-05-22",
+    "gender": "Male"
+  },
+  "42a8f507-8412-4611-854f-926571049fa0": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [
+      "rock"
+    ],
+    "begin": "1943-02-24",
+    "end": "2001-11-29",
+    "gender": "Male"
+  },
+  "ba550d0e-adac-4864-b88b-407cab5e76af": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [
+      "british",
+      "pop",
+      "pop rock",
+      "rock",
+      "rock & roll"
+    ],
+    "begin": "1942-06-18",
+    "end": null,
+    "gender": "Male"
+  },
+  "300c4c73-33ac-4255-9d57-4e32627f5e13": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [
+      "rock"
+    ],
+    "begin": "1940-07-07",
+    "end": null,
+    "gender": "Male"
+  },
+  "9c2b375c-ce68-44a8-90ac-e06b177f43f9": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": "1948-05-31",
+    "end": "1980-09-25",
+    "gender": "Male"
+  },
+  "4490113a-3880-4f5b-a39b-105bfceaed04": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": "1946-01-03",
+    "end": null,
+    "gender": "Male"
+  },
+  "519774a4-3b18-4042-b8c0-927845a616c9": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [
+      "rock"
+    ],
+    "begin": "1944-01-09",
+    "end": null,
+    "gender": "Male"
+  },
+  "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [
+      "blues rock",
+      "folk rock",
+      "rock"
+    ],
+    "begin": "1948-08-20",
+    "end": null,
+    "gender": "Male"
+  },
+  "86d3f2c7-2a19-4249-ad7c-6feec74118d7": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "9b93a71b-1484-4bea-b096-f660c1161f8a": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1967-10-23",
+    "end": null,
+    "gender": "Male"
+  },
+  "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255": {
+    "country": "US",
+    "type": "Person",
+    "tags": [
+      "seattle",
+      "united states"
+    ],
+    "begin": "1967-02-20",
+    "end": "1994-04-05",
+    "gender": "Male"
+  },
+  "ac05e29f-0561-4445-bb26-5562d2389531": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1965-05-16",
+    "end": null,
+    "gender": "Male"
+  },
+  "e2f28104-72bb-4c8f-b0f9-78d4eaf492fd": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1967-01-31",
+    "end": null,
+    "gender": "Male"
+  },
+  "6740416b-a0ab-4a46-9ee5-8cd9c69c6442": {
+    "country": null,
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "797dc323-fc39-4597-98cc-d10493f67326": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1967-10-16",
+    "end": null,
+    "gender": "Male"
+  },
+  "3402566b-20dc-47f1-973b-2af1dedae702": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1968-08-18",
+    "end": null,
+    "gender": "Male"
+  },
+  "4d5f891d-9bce-45ae-ad86-912dd27252fa": {
+    "country": "US",
+    "type": "Person",
+    "tags": [
+      "rock"
+    ],
+    "begin": "1969-01-14",
+    "end": null,
+    "gender": "Male"
+  },
+  "8d1a38a7-7e7b-4673-ad32-b4833f88842f": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": "1941-03-16",
+    "end": "2019-03-06",
+    "gender": "Male"
+  },
+  "ad040bd7-b175-4c3a-ab93-d27f4d541235": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "6d24f102-5c43-453a-8664-4ee092f441cf": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [
+      "english",
+      "rock"
+    ],
+    "begin": "1947-07-19",
+    "end": null,
+    "gender": "Male"
+  },
+  "558302b1-07ae-4be1-9edb-2a2b1f036313": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": "1949-07-26",
+    "end": null,
+    "gender": "Male"
+  },
+  "8201ee6e-a7d8-4e10-aebd-60699d7e91cf": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "a0b77a10-ecff-4b84-b1f3-008391038d67": {
+    "country": "GB",
+    "type": "Person",
+    "tags": [],
+    "begin": "1951-08-19",
+    "end": null,
+    "gender": "Male"
+  },
+  "d17eeb09-9cee-4965-9370-c082b37e780b": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "52320bb6-2465-4c3c-a7fe-60b093bd55c8": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "7d13df68-5661-45bd-9aad-75a0d7f88091": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1946-03-24",
+    "end": "2008-03-21",
+    "gender": "Male"
+  },
+  "da3f4766-628e-4da3-a871-014728993157": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1946-08-20",
+    "end": null,
+    "gender": "Male"
+  },
+  "b17ed5b1-d965-4b05-ad25-49fd40aa9563": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1945-03-07",
+    "end": null,
+    "gender": "Male"
+  },
+  "b35bfd08-f4a1-45d1-9799-a7eec65ff66b": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "12bf35df-1765-4ab3-84b1-20459cf84ae9": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "46957dac-b5ff-40a9-a427-ab53bc414f6e": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1947-04-07",
+    "end": "2020-04-21",
+    "gender": "Male"
+  },
+  "3b4db0d5-97a8-4aa8-a375-9b8c78a56932": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1950-09-02",
+    "end": null,
+    "gender": "Male"
+  },
+  "c960bfef-035f-45ec-961c-289888eda9c4": {
+    "country": null,
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "e47b4862-a587-488f-b7a7-bd329726693d": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1946-10-10",
+    "end": null,
+    "gender": "Male"
+  },
+  "6c29e868-e40a-4ff0-b251-bc383ba88ba4": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1947-07-17",
+    "end": null,
+    "gender": "Male"
+  },
+  "7bca0cea-265f-41d3-9e04-8a68507b6f25": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1948-04-07",
+    "end": null,
+    "gender": "Male"
+  },
+  "34bfcd5d-a76d-4b31-8022-b5ac04d5801b": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1952-05-31",
+    "end": null,
+    "gender": "Male"
+  },
+  "090d8a25-6271-4e51-b5a5-622cf128c7be": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1956-05-31",
+    "end": null,
+    "gender": "Male"
+  },
+  "c2d86260-74e5-46a3-bd8b-9ca0a25c8b10": {
+    "country": "PT",
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "cde6ac66-ffdf-4f80-8dda-7a40e7b16972": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1953-12-26",
+    "end": null,
+    "gender": "Male"
+  },
+  "12cd8934-c85c-4572-ad7b-7e161e401005": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1979-10-22",
+    "end": null,
+    "gender": "Male"
+  },
+  "8e1d04bb-2db0-4d95-bdda-1e605a8b8aef": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1969",
+    "end": null,
+    "gender": "Male"
+  },
+  "266be859-d91e-4358-89a8-c4c07de8316f": {
+    "country": null,
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "122a2714-24f8-4046-a532-64064b5076d2": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1975-01-03",
+    "end": null,
+    "gender": "Male"
+  },
+  "83886397-adf2-431a-b841-dc4af744a6cc": {
+    "country": "FR",
+    "type": "Person",
+    "tags": [],
+    "begin": "1974-02-08",
+    "end": null,
+    "gender": "Male"
+  },
+  "2eeccea9-efda-4b12-b939-0edf34de8922": {
+    "country": "CU",
+    "type": "Person",
+    "tags": [],
+    "begin": "1956",
+    "end": null,
+    "gender": "Male"
+  },
+  "4b062412-8c5a-43cd-9769-11d0019b05a1": {
+    "country": null,
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "8481b31d-6d23-476f-bec3-c22c5d11761b": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1978-08-23",
+    "end": null,
+    "gender": "Male"
+  },
+  "a4e2650b-938b-4b72-95bc-6e229cd34601": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1947-03-15",
+    "end": null,
+    "gender": "Male"
+  },
+  "a61930ae-dfe3-4574-bc5b-b0fa8d8efb62": {
+    "country": "CU",
+    "type": "Person",
+    "tags": [],
+    "begin": "1927-02-20",
+    "end": "2005-08-06",
+    "gender": "Male"
+  },
+  "07b3a182-5799-4dee-859a-791d2ca766cd": {
+    "country": "CU",
+    "type": "Person",
+    "tags": [],
+    "begin": "1960-07-30",
+    "end": null,
+    "gender": "Male"
+  },
+  "861dbed8-5662-4778-9eca-3abb2245710e": {
+    "country": "CU",
+    "type": "Person",
+    "tags": [],
+    "begin": "1919-05-26",
+    "end": "2003-12-08",
+    "gender": "Male"
+  },
+  "0094b33e-b865-40fd-8913-ba6d66752fa6": {
+    "country": "CU",
+    "type": "Person",
+    "tags": [],
+    "begin": "1933-02-02",
+    "end": "2009-02-09",
+    "gender": "Male"
+  },
+  "1de8629a-9dd3-444c-86a0-9f9bd8c02218": {
+    "country": "CU",
+    "type": "Person",
+    "tags": [],
+    "begin": "1946-06-22",
+    "end": null,
+    "gender": "Male"
+  },
+  "d2e06763-1035-4b1a-82c7-b7c08e06ba48": {
+    "country": "CU",
+    "type": "Person",
+    "tags": [],
+    "begin": "1930-10-29",
+    "end": null,
+    "gender": "Female"
+  },
+  "6299f8bd-6bb9-4020-a1df-3a30a93fce9b": {
+    "country": "CU",
+    "type": "Person",
+    "tags": [],
+    "begin": "1947",
+    "end": null,
+    "gender": "Male"
+  },
+  "8b8ab7a4-add8-4353-a586-e1086e521af8": {
+    "country": "CU",
+    "type": "Person",
+    "tags": [],
+    "begin": "1907-11-18",
+    "end": "2003-07-13",
+    "gender": "Male"
+  },
+  "d4861831-debc-4287-862d-658668aa1876": {
+    "country": "CU",
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "595e2514-9ebb-4bd0-9b87-68809a45c861": {
+    "country": "CU",
+    "type": "Person",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": "Male"
+  },
+  "b3977da4-f899-4328-921b-ecc599a5618a": {
+    "country": "KR",
+    "type": "Person",
+    "tags": [],
+    "begin": "1994-02-18",
+    "end": null,
+    "gender": "Male"
+  },
+  "d2582c77-6b0f-4b2f-802f-8f3cad1a5fec": {
+    "country": "KR",
+    "type": "Person",
+    "tags": [],
+    "begin": "1995-10-13",
+    "end": null,
+    "gender": "Male"
+  },
+  "09720eec-3871-49d5-932d-eb7542768cd3": {
+    "country": "KR",
+    "type": "Person",
+    "tags": [],
+    "begin": "1992-12-04",
+    "end": null,
+    "gender": "Male"
+  },
+  "23c8056b-ee13-4cfc-a772-2f5292e35bb5": {
+    "country": "KR",
+    "type": "Person",
+    "tags": [],
+    "begin": "1997-09-01",
+    "end": null,
+    "gender": "Male"
+  },
+  "58f1e354-ecbc-4fd3-aa25-97eb1d9bd8b9": {
+    "country": "KR",
+    "type": "Person",
+    "tags": [],
+    "begin": "1994-09-12",
+    "end": null,
+    "gender": "Male"
+  },
+  "b629da42-c668-49d2-be67-498605ee2a13": {
+    "country": "KR",
+    "type": "Person",
+    "tags": [],
+    "begin": "1993-03-09",
+    "end": null,
+    "gender": "Male"
+  },
+  "83096042-3785-481e-8843-dee69f1aad12": {
+    "country": "KR",
+    "type": "Person",
+    "tags": [],
+    "begin": "1995-12-30",
+    "end": null,
+    "gender": "Male"
+  },
+  "2f3f8fb1-e5dc-4548-9601-fada0485e561": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1951-05-19",
+    "end": "2001-04-15",
+    "gender": "Male"
+  },
+  "f9f37f58-526d-43f9-9dad-bcb4ca8d8061": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1952-01-29",
+    "end": "2014-07-11",
+    "gender": "Male"
+  },
+  "f23feff0-ed20-4e9c-ae45-4ff68a83be70": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1951-09-18",
+    "end": "2002-06-05",
+    "gender": "Male"
+  },
+  "70ef8ba7-ec5b-4ab8-9f8f-a5b31e771989": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1948-10-08",
+    "end": "2004-09-15",
+    "gender": "Male"
+  },
+  "9fd3870c-30d4-4136-9325-385651f35cb3": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1952-07-15",
+    "end": null,
+    "gender": "Male"
+  },
+  "9d202e58-ca60-42f9-a6d9-897e08a667a9": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1957-08-11",
+    "end": null,
+    "gender": "Male"
+  },
+  "6ca00925-25d3-4aab-8e8f-21e88ef2a5f1": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1955-11-24",
+    "end": null,
+    "gender": "Male"
+  },
+  "8be7d8b3-15fd-4ebf-a27f-a6304045a4ce": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1965-10-08",
+    "end": null,
+    "gender": "Male"
+  },
+  "0ecaa896-58fa-4dca-b53d-8da7bc5f59c5": {
+    "country": "GB",
+    "type": "Group",
+    "tags": [],
+    "begin": "1984",
+    "end": "1984",
+    "gender": null
+  },
+  "298fb0c1-5a1f-43c1-854d-663762caad6e": {
+    "country": "US",
+    "type": "Group",
+    "tags": [],
+    "begin": "1985",
+    "end": "1985",
+    "gender": null
+  },
+  "e02d4f5a-8bcf-4fd3-8410-57c680389748": {
+    "country": "US",
+    "type": "Group",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "51fe321e-5ad0-4dd1-a5c3-3e773688cdf8": {
+    "country": null,
+    "type": "Group",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "d24fc285-7b2f-47da-8ac5-4070b08570b1": {
+    "country": "US",
+    "type": "Person",
+    "tags": [],
+    "begin": "1937-08-27",
+    "end": "2007-01-12",
+    "gender": "Female"
+  },
+  "45e3c90f-2de6-4452-99b3-8dbf7a3cf6df": {
+    "country": "US",
+    "type": "Group",
+    "tags": [],
+    "begin": "1985-01-10",
+    "end": null,
+    "gender": null
+  },
+  "1327beb8-ed6b-4c26-a8b7-5209eb01ce2c": {
+    "country": "GB",
+    "type": "Group",
+    "tags": [
+      "ambient",
+      "drone"
+    ],
+    "begin": "1972-09",
+    "end": null,
+    "gender": null
+  },
+  "59a34e53-1f30-4f99-8c1a-8465ffff84df": {
+    "country": "DE",
+    "type": "Group",
+    "tags": [],
+    "begin": "1976",
+    "end": "1976",
+    "gender": null
+  },
+  "03c3fef0-1229-403c-a024-fb7d522ecd10": {
+    "country": "JP",
+    "type": "Group",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "55920730-831f-431f-80f7-539a2bf83f98": {
+    "country": null,
+    "type": "Group",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "b4bfd133-a931-42c7-a41c-0311893dea67": {
+    "country": "US",
+    "type": "Group",
+    "tags": [],
+    "begin": "1956-12-04",
+    "end": "1956-12-04",
+    "gender": null
+  },
+  "ab73de4d-06ee-4814-acce-2e3e537eb4ac": {
+    "country": null,
+    "type": "Group",
+    "tags": [],
+    "begin": "1954",
+    "end": null,
+    "gender": null
+  },
+  "552fb15e-d3c7-4afd-b33e-ef5988a298e9": {
+    "country": null,
+    "type": "Group",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "d1d5e62f-2159-4556-811d-8949cc7247c6": {
+    "country": "GB",
+    "type": "Group",
+    "tags": [],
+    "begin": "1968",
+    "end": "1968",
+    "gender": null
+  },
+  "1f988d75-7f1c-4a74-b810-b6435a7f4fb4": {
+    "country": null,
+    "type": "Group",
+    "tags": [],
+    "begin": "2016",
+    "end": "2016",
+    "gender": null
+  },
+  "5773aa20-dd5d-4884-830f-7b5592bbbc46": {
+    "country": null,
+    "type": "Group",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "17e5e4ec-000e-41ae-958a-dc33ae23fc78": {
+    "country": null,
+    "type": "Group",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "d59c151d-9273-4963-88de-90077ebab7c3": {
+    "country": null,
+    "type": "Group",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "674ac956-2274-4466-be36-1d88819572a4": {
+    "country": "GB",
+    "type": "Group",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "e58f6aeb-735f-4f07-9f37-624fc198e641": {
+    "country": null,
+    "type": "Group",
+    "tags": [],
+    "begin": null,
+    "end": null,
+    "gender": null
+  },
+  "5d02f264-e225-41ff-83f7-d9b1f0b1874a": {
+    "country": "US",
+    "type": "Group",
+    "tags": [
+      "folk",
+      "folk pop",
+      "folk rock",
+      "rock"
+    ],
+    "begin": "1963",
+    "end": "1970",
+    "gender": null
+  },
+  "c9fb68ad-a664-4310-bb62-b819c284ab44": {
+    "country": "DE",
+    "type": "Person",
+    "tags": [],
+    "begin": "1748-02-05",
+    "end": "1798-01-28",
+    "gender": "Male"
+  },
+  "c130b0fb-5dce-449d-9f40-1437f889f7fe": {
+    "country": "AT",
+    "type": "Person",
+    "tags": [
+      "austrian",
+      "classical",
+      "classical period",
+      "composer",
+      "european"
+    ],
+    "begin": "1732-03-31",
+    "end": "1809-05-31",
+    "gender": "Male"
+  },
+  "83a2e0fb-3d9b-46ff-b383-3dde54c15297": {
+    "country": "ZA",
+    "type": "Person",
+    "tags": [
+      "jazz"
+    ],
+    "begin": "1939-04-04",
+    "end": "2018-01-23",
+    "gender": "Male"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "wikidata_id": "Q303",
+  "genres": [],
+  "instruments": [],
+  "awards": [],
+  "labels": [],
+  "influences": [],
+  "occupations": [],
+  "country": null,
+  "birth_place": null,
+  "birth_date": "1935-01-08",
+  "death_date": "1977-08-16",
+  "wikipedia_title": "Elvis Presley",
+  "compositions": [
+    {
+      "title": "Elvis: That's the Way It Is",
+      "genre": "documentary film",
+      "date": "1970-01-01"
+    },
+    {
+      "title": "Elvis: That's the Way It Is",
+      "genre": "musical film",
+      "date": "1970-01-01"
+    },
+    {
+      "title": "Heartbreak Hotel",
+      "genre": null,
+      "date": "1956-01-01"
+    },
+    {
+      "title": "Love Me Tender",
+      "genre": "rockabilly",
+      "date": "1956-09-14"
+    },
+    {
+      "title": "Love Me Tender",
+      "genre": "traditional folk music",
+      "date": "1956-09-14"
+    },
+    {
+      "title": "Love Me Tender",
+      "genre": "traditional pop",
+      "date": "1956-09-14"
+    },
+    {
+      "title": "Singer Presents...Elvis",
+      "genre": "musical film",
+      "date": "1968-01-01"
+    },
+    {
+      "title": "All Shook Up",
+      "genre": null,
+      "date": ""
+    },
+    {
+      "title": "Elvis on Tour",
+      "genre": "documentary film",
+      "date": "1972-01-01"
+    },
+    {
+      "title": "Elvis on Tour",
+      "genre": "biographical film",
+      "date": "1972-01-01"
+    },
+    {
+      "title": "Elvis on Tour",
+      "genre": "musical film",
+      "date": "1972-01-01"
+    },
+    {
+      "title": "Elvis in Concert",
+      "genre": "documentary film",
+      "date": "1977-01-01"
+    },
+    {
+      "title": "Elvis in Concert",
+      "genre": "musical film",
+      "date": "1977-01-01"
+    },
+    {
+      "title": "Paralyzed",
+      "genre": "rock and roll",
+      "date": "1956-10-19"
+    },
+    {
+      "title": "Je me sens si seul",
+      "genre": null,
+      "date": "1958-01-01"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 176766,
+  "name": "Tupac Shakur",
+  "realname": "Tupac Amaru Shakur née Lesane Parish Crooks",
+  "profile": "Tupac Shakur, also known by his rap name [a100752] (born June 16, 1971, East Harlem, New York, USA – died September 13, 1996, Las Vegas, Nevada, USA) was an American rapper and actor. He started out as a roadie and backup dancer for the group [a=Digital Underground] and was signed by [l2311] in 1990. He moved to [l19737] in 1995. He also pursued a career in acting, starring in movies such as [i]Juice[/i] (1992) and [i]Above The Rim[/i] (1994). He also performed as a ballet dancer, appearing as the Mouse King in [i]The Nutcracker[/i] while studying dance and acting at the Baltimore School For The Arts.\r\nOn September 7, 1996, Shakur was shot four times in a drive-by shooting at the intersection of Flamingo Road and Koval Lane in Las Vegas, Nevada and died six days later as a result of his injuries.\r\nCousin of [a=Katari Cox].\r\n\r\nOn September 29, 2023 Duane Davis is arrested by the Las Vegas Metropolitan Police and must checked his DNA it is known that his blood is found on the death of 2Pac and says that he has an black out when he killed him on 1996. The DNA was absolutely found and he pleaded the Police don't lies that he don't murdered him. The Police set Duane Davis in prison. Because it was an 100% DNA Match.",
+  "members": [],
+  "groups": [
+    {
+      "name": "Digital Underground",
+      "id": 16761,
+      "active": false
+    },
+    {
+      "name": "Thug Life",
+      "id": 113496,
+      "active": false
+    },
+    {
+      "name": "Thug Music",
+      "id": 173628,
+      "active": false
+    },
+    {
+      "name": "The Outlawz",
+      "id": 188242,
+      "active": false
+    },
+    {
+      "name": "Strictly Dope",
+      "id": 198843,
+      "active": false
+    },
+    {
+      "name": "Eight Mile Road",
+      "id": 305926,
+      "active": true
+    }
+  ],
+  "genres": [
+    "Hip Hop"
+  ],
+  "styles": [
+    "Electro",
+    "Gangsta",
+    "Thug Rap"
+  ],
+  "genre_style_pairs": [
+    {
+      "genre": "Hip Hop",
+      "style": "Gangsta"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "Gangsta"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "Electro"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "Gangsta"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "Thug Rap"
+    },
+    {
+      "genre": "Hip Hop",
+      "style": "Gangsta"
+    }
+  ]
+}

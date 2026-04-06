@@ -1,0 +1,726 @@
+{
+  "mbid": "3be4099e-f180-4038-af84-ae18a09eab02",
+  "name": "Julio Iglesias",
+  "type": "Person",
+  "country": "ES",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1943-09-23",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "Spain",
+  "begin_area": "Madrid",
+  "tags": [
+    {
+      "name": "ballad",
+      "count": "1"
+    },
+    {
+      "name": "canción melódica",
+      "count": "2"
+    },
+    {
+      "name": "easy listening soundtracks and musicals",
+      "count": "1"
+    },
+    {
+      "name": "european",
+      "count": "1"
+    },
+    {
+      "name": "eurovision",
+      "count": "1"
+    },
+    {
+      "name": "latin",
+      "count": "1"
+    },
+    {
+      "name": "latin ballad",
+      "count": "1"
+    },
+    {
+      "name": "pop",
+      "count": "1"
+    },
+    {
+      "name": "singer-songwriter",
+      "count": "1"
+    },
+    {
+      "name": "spanish",
+      "count": "2"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Julio Iglesias, Jr.",
+      "target_mbid": "bbb184be-eef6-4977-9c02-2df0bf7eade6",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Enrique Iglesias",
+      "target_mbid": "35f866dc-c061-48ba-8157-cf2e0eac4857",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000102985"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/3be4099e-f180-4038-af84-ae18a09eab02"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/67331"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/4etuCZVdP8yiNPn4xf0ie5"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/8750"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Julio_Iglesias.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0002960/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Julio+Iglesias"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-4927/julio-iglesias/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Julio-iglesias"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://j-lyric.net/artist/a0508f3/"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.julioiglesias.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n83014449"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/I/Iglesias,_Julio/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://castalbums.org/people/Julio-Iglesias/54680"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb138954600"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/12055500X"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/julio-iglesias"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6fx7xm2"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1447756"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/authors/OL1303329A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/julio_iglesias"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/julio-iglesias"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.goodreads.com/author/show/397861"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.librarything.com/author/iglesiasjulio"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/julio-iglesias/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000015103/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.themoviedb.org/person/162072"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Julio-Iglesias/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/containsVIAFID/32183552"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n83-014449"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.encyclopedisque.fr/artiste/2301.html"
+    },
+    {
+      "type": "other databases",
+      "target": "http://www.maniadb.com/artist/124596"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/artist/id540287"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.amazon.com/-/e/B000APXH9G"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000APXH9G"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/2557"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/julio-iglesias-63d62edb.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/julioiglesias"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/julioiglesias"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/369708"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/540287"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/540287"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/62"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/32183552"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q122003"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/user/JulioIglesiasVEVO"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "a39b533a-fc1e-37be-9db8-e883ae64f449",
+      "title": "Yo canto",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "303e4c3d-7a4a-3d40-b3bd-8b7eec0eb1f9",
+      "title": "Gwendolyne",
+      "type": "Album",
+      "first_release_date": "1970"
+    },
+    {
+      "id": "49f8febc-547f-4878-b421-35a019b78ca6",
+      "title": "Como el alamo al camino",
+      "type": "Album",
+      "first_release_date": "1972"
+    },
+    {
+      "id": "e275a03b-40b1-4419-9c30-05135120c782",
+      "title": "Por una mujer",
+      "type": "Album",
+      "first_release_date": "1972"
+    },
+    {
+      "id": "9f254874-1254-3e9e-8197-fa30864fe404",
+      "title": "Soy",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "5a74a7c5-3924-3158-a6de-0c46062d1cf3",
+      "title": "A flor de piel",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "f8f9fca0-2066-4789-9884-e580c4bfc8f9",
+      "title": "Ich Schick' Dir Eine Weiße Wolke",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "e229773d-7962-313b-ab7f-26de9fb17bc7",
+      "title": "El amor",
+      "type": "Album",
+      "first_release_date": "1975-01-01"
+    },
+    {
+      "id": "130aeb36-cabe-39f1-97b4-afb7329c4a17",
+      "title": "A México",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "1a26d92f-8b18-43f9-b7ef-6891724440d5",
+      "title": "Manuela",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "1f7a670a-9268-49fa-968a-725cc668df7e",
+      "title": "Stars Für Millionen",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "0ca50da8-44e4-4b07-ad48-3ec8c4871842",
+      "title": "Sus Exitos En Alemania Vol. 1",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "12e2cd1d-4058-4811-a604-096abce2a165",
+      "title": "Sus Exitos En Alemania Vol. 2",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "b0af12cd-b7cb-4f50-8b7d-fe7c5f8df3f8",
+      "title": "Se mi lasci non vale",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "6c5a113e-780c-457f-8fd5-b541506c38f2",
+      "title": "Und das Meer singt sein Lied",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "0f67cdb1-fc4d-3701-a652-ee84d66c031c",
+      "title": "A mis 33 años",
+      "type": "Album",
+      "first_release_date": "1977"
+    },
+    {
+      "id": "f0a9e6ae-4262-49c9-8424-4cfbfa7412f8",
+      "title": "Aimer la vie",
+      "type": "Album",
+      "first_release_date": "1978"
+    },
+    {
+      "id": "7b3344c9-d37d-3f9f-8b5b-64dad9dcc545",
+      "title": "Emociones",
+      "type": "Album",
+      "first_release_date": "1978"
+    },
+    {
+      "id": "5a26222e-73f9-40f1-8645-4ea27896c83b",
+      "title": "Er War Ja Nur Ein Zigeuner",
+      "type": "Album",
+      "first_release_date": "1978"
+    },
+    {
+      "id": "54235aef-3797-3460-af66-cda4f639a386",
+      "title": "À vous les femmes",
+      "type": "Album",
+      "first_release_date": "1979"
+    },
+    {
+      "id": "b4e93be9-9c09-3e95-ae4f-820e79a0c404",
+      "title": "America",
+      "type": "Album",
+      "first_release_date": "1979"
+    },
+    {
+      "id": "b3bd1530-c24b-44b3-998b-83dfb7478963",
+      "title": "Innamorarsi alla mia età",
+      "type": "Album",
+      "first_release_date": "1979"
+    },
+    {
+      "id": "3f7e1034-5325-4a44-8a3e-c83afab713a3",
+      "title": "Sono un pirata, sono un signore",
+      "type": "Album",
+      "first_release_date": "1979"
+    },
+    {
+      "id": "8178d093-ece0-424d-9cf7-7bcee6edfd7a",
+      "title": "Troubadour Der Träume",
+      "type": "Album",
+      "first_release_date": "1979"
+    },
+    {
+      "id": "2c03f63f-d066-37a2-a242-192a1208a1e6",
+      "title": "¡Hey!",
+      "type": "Album",
+      "first_release_date": "1980"
+    }
+  ],
+  "tracks": {
+    "a39b533a-fc1e-37be-9db8-e883ae64f449": [
+      {
+        "id": "4ee84bd8-5033-432f-be24-dcf7f8f0f67d",
+        "title": "La vida sigue igual",
+        "position": "1",
+        "length": null,
+        "work": {
+          "id": "940685d4-896f-4184-b12c-cf1a63f7133a",
+          "title": "La vida sigue igual",
+          "composers": [
+            {
+              "name": "Julio Iglesias",
+              "mbid": "3be4099e-f180-4038-af84-ae18a09eab02"
+            }
+          ]
+        }
+      },
+      {
+        "id": "62b91450-0a88-479e-95e1-b993242fadef",
+        "title": "Tenía una guitarra",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "e06ac8a9-66f0-421c-abe6-4100073c0c3b",
+        "title": "Bla, bla, bla",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "9214d76e-dce3-41a6-a6d9-d4bbcbf3f170",
+        "title": "El viejo Pablo",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "767eae11-00c5-4939-9026-40281eac4d00",
+        "title": "Hace unos años",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "5590739e-cb43-426e-9f91-ee91467ae538",
+        "title": "No llores, mi amor",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "14497e61-0a06-4b78-9d32-2fbc20094b1a",
+        "title": "Yo canto",
+        "position": "7",
+        "length": "202533",
+        "work": null
+      },
+      {
+        "id": "bdd89d21-416f-4f80-9858-4d2dd521953e",
+        "title": "Alguien que pasó",
+        "position": "8",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "60ac3d84-8f96-4943-b4f6-1a8298830ec4",
+        "title": "Mis recuerdos",
+        "position": "9",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "efa6f6c5-a8a5-45e5-9e05-25a2e0ab7240",
+        "title": "En un barrio que hay en la ciudad",
+        "position": "10",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "b699bb88-1d98-491e-9dff-1a55584672a6",
+        "title": "Lágrimas tiene el camino",
+        "position": "11",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "7859bb70-ff13-4e9b-85bb-9a2547b4e147",
+        "title": "Chiquilla",
+        "position": "12",
+        "length": null,
+        "work": {
+          "id": "9aff9182-f24e-4931-9e52-17f764997005",
+          "title": "Chiquilla",
+          "composers": [
+            {
+              "name": "Julio Iglesias",
+              "mbid": "3be4099e-f180-4038-af84-ae18a09eab02"
+            }
+          ]
+        }
+      }
+    ],
+    "303e4c3d-7a4a-3d40-b3bd-8b7eec0eb1f9": [
+      {
+        "id": "39d64979-4205-4e54-8ed0-52ff905ef3f4",
+        "title": "Gwendolyne",
+        "position": "1",
+        "length": "170000",
+        "work": {
+          "id": "cee76c6b-afcf-4ed7-b0ab-e732b35d4f7c",
+          "title": "Gwendolyne",
+          "composers": [
+            {
+              "name": "Julio Iglesias",
+              "mbid": "3be4099e-f180-4038-af84-ae18a09eab02"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5ec9980c-18a1-4439-a19b-90d76721775c",
+        "title": "Colinas verdes",
+        "position": "2",
+        "length": "178973",
+        "work": null
+      },
+      {
+        "id": "776b08bb-7de0-4db3-b643-d68b2d15d3aa",
+        "title": "Voy siguiendo mi camino",
+        "position": "3",
+        "length": "243066",
+        "work": null
+      },
+      {
+        "id": "57282b12-ac9a-4f04-8d2a-524ec9403fe1",
+        "title": "Pequeñas manzanas verdes",
+        "position": "4",
+        "length": "226933",
+        "work": null
+      },
+      {
+        "id": "b55f6774-f171-4b36-9d6b-816a855e61cd",
+        "title": "Sentado a beira do caminho",
+        "position": "5",
+        "length": "220000",
+        "work": null
+      },
+      {
+        "id": "241d651e-d91e-4ae6-b772-27f7822cb879",
+        "title": "A veces pregunto al viento",
+        "position": "6",
+        "length": "220866",
+        "work": null
+      },
+      {
+        "id": "03ce4fd2-3d36-4ceb-855c-d11d3c562007",
+        "title": "Cuando vuelva a amanecer",
+        "position": "7",
+        "length": "258000",
+        "work": null
+      },
+      {
+        "id": "0df0d0f6-7b83-4e6d-8e27-d0fb0dad1a8b",
+        "title": "Raindrops Keep Falling on My Head",
+        "position": "8",
+        "length": "178973",
+        "work": null
+      },
+      {
+        "id": "3954f501-4ab8-4888-8d7e-15d538c474e8",
+        "title": "En un burrito orejón",
+        "position": "9",
+        "length": "148933",
+        "work": null
+      },
+      {
+        "id": "24b25341-4307-40d9-951c-b0836b9d4325",
+        "title": "Ese día llegará",
+        "position": "10",
+        "length": "195026",
+        "work": null
+      },
+      {
+        "id": "19d92b17-d27c-41d4-a017-052885700331",
+        "title": "Cantándole al mar",
+        "position": "11",
+        "length": "196040",
+        "work": null
+      }
+    ],
+    "49f8febc-547f-4878-b421-35a019b78ca6": [
+      {
+        "id": "de682a2b-fd1e-421d-b19c-122c146bd62a",
+        "title": "Como el alamo al camino",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "914dc1d2-851b-487d-ac83-63e30afe8cb5",
+        "title": "Cuando vuelva a amanecer",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "57d00a69-627e-40d3-b22b-b7af362dc02f",
+        "title": "En un barrio que hay en la ciudad",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "910d7c2e-9605-47ef-9848-7a8b2020b60e",
+        "title": "Chiquilla",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "9aff9182-f24e-4931-9e52-17f764997005",
+          "title": "Chiquilla",
+          "composers": [
+            {
+              "name": "Julio Iglesias",
+              "mbid": "3be4099e-f180-4038-af84-ae18a09eab02"
+            }
+          ]
+        }
+      },
+      {
+        "id": "62a86bdb-668a-431d-b890-267c273c2fbb",
+        "title": "Gwendolyne",
+        "position": "5",
+        "length": null,
+        "work": {
+          "id": "cee76c6b-afcf-4ed7-b0ab-e732b35d4f7c",
+          "title": "Gwendolyne",
+          "composers": [
+            {
+              "name": "Julio Iglesias",
+              "mbid": "3be4099e-f180-4038-af84-ae18a09eab02"
+            }
+          ]
+        }
+      },
+      {
+        "id": "790d3678-1cd2-42b7-9c91-4b9c4c7e3b78",
+        "title": "Un canto a Galicia",
+        "position": "6",
+        "length": "254000",
+        "work": {
+          "id": "29264c8e-8251-421d-99fd-794b7755afab",
+          "title": "Un canto a Galicia",
+          "composers": [
+            {
+              "name": "Julio Iglesias",
+              "mbid": "3be4099e-f180-4038-af84-ae18a09eab02"
+            },
+            {
+              "name": "Benito Lauret",
+              "mbid": "bb5469f5-0902-4ed1-8582-0c94a946423c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "15bbdef6-d5cb-4bca-96bd-4c73919309c1",
+        "title": "En un rincón del desván",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "14497e61-0a06-4b78-9d32-2fbc20094b1a",
+        "title": "Yo canto",
+        "position": "8",
+        "length": "202533",
+        "work": null
+      },
+      {
+        "id": "dc9e81c1-2e38-4f04-8b95-2587fac286b6",
+        "title": "No llores mi amore",
+        "position": "9",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "77ca908c-034d-48ed-9e0b-f7c34fd54852",
+        "title": "La vida sigue igual",
+        "position": "10",
+        "length": null,
+        "work": {
+          "id": "940685d4-896f-4184-b12c-cf1a63f7133a",
+          "title": "La vida sigue igual",
+          "composers": [
+            {
+              "name": "Julio Iglesias",
+              "mbid": "3be4099e-f180-4038-af84-ae18a09eab02"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 67331,
+  "wikidata_id": "Q122003"
+}

@@ -1,0 +1,1154 @@
+{
+  "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+  "name": "Aretha Franklin",
+  "type": "Person",
+  "country": "US",
+  "gender": "Female",
+  "life_span": {
+    "begin": "1942-03-25",
+    "end": "2018-08-16",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "Memphis",
+  "tags": [
+    {
+      "name": "aln-sh",
+      "count": "1"
+    },
+    {
+      "name": "deep soul",
+      "count": "2"
+    },
+    {
+      "name": "gospel",
+      "count": "5"
+    },
+    {
+      "name": "jazz",
+      "count": "1"
+    },
+    {
+      "name": "quiet storm",
+      "count": "1"
+    },
+    {
+      "name": "r&b",
+      "count": "1"
+    },
+    {
+      "name": "rhythm & blues",
+      "count": "1"
+    },
+    {
+      "name": "soul",
+      "count": "8"
+    },
+    {
+      "name": "southern soul",
+      "count": "2"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Ted White",
+      "target_mbid": "07d9b3e0-d6bb-4321-a2e8-1c0386b0541f",
+      "attributes": [],
+      "begin": "1961",
+      "end": "1969"
+    },
+    {
+      "type": "married",
+      "direction": "forward",
+      "target_name": "Glynn Turman",
+      "target_mbid": "51749f10-f86f-4c06-8b8d-85eddf1a2b28",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Edward Franklin",
+      "target_mbid": "8b1a79dc-3345-4f7b-9c7a-fa56874a24e8",
+      "attributes": [],
+      "begin": "1957-08-31",
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Teddy Richards",
+      "target_mbid": "ceea5487-d2f2-4cd9-a039-05970b1c1681",
+      "attributes": [],
+      "begin": "1964",
+      "end": "2018"
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Kecalf Franklin Cunningham",
+      "target_mbid": "91a16054-7eb8-4bba-9a73-9ab58b26135f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Teddy F. White",
+      "target_mbid": "93e4ce2e-ba53-4e95-80bd-0632cf7a967d",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "backward",
+      "target_name": "Rev. C.L. Franklin",
+      "target_mbid": "a8c6bfd6-0a3d-459c-b787-10f1cde10180",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Carolyn Franklin",
+      "target_mbid": "f7e8bede-c700-4091-8bf2-5d72d5b7a9d1",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "forward",
+      "target_name": "Rev. Cecil Franklin",
+      "target_mbid": "0b8b0b4f-74ce-4aed-88c7-33f5a96a4ce0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Erma Franklin",
+      "target_mbid": "4ba12614-fcce-462b-8784-8dd1a92fbf2b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "backward",
+      "target_name": "Almeta Latimer",
+      "target_mbid": "80a06f5d-b834-4039-ae2a-c0ea5a162e99",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Beth",
+      "target_mbid": "d1a1f910-3e63-4254-a040-32ebe14a08a1",
+      "attributes": [],
+      "begin": "2019",
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000927555"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/25966"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/2f9ecbed-27be-40e6-abca-6de49d50299e"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/38863"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/7nwUJBm0HE4ZxD3f5cy5ok"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/2059"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/5293441"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Aretha_Franklin.png"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0291349/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Aretha+Franklin"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-3632/aretha-franklin/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Aretha-franklin"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/arethafranklin"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.arethafranklin.net/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n84028907"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/F/Franklin,_Aretha/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13894129s"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118967622"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=495476"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/aretha-franklin"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6zd8rzb"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-1173554"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL2675225A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/aretha-franklin"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/aretha-franklin"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/aretha-franklin/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Aretha-Franklin/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n84028907"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=A5eetn3s74neelxsvezepxszm3a"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/nz/artist/98742"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/28568621"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/98742"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://tower.jp/artist/175999"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/10"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/aretha-franklin-13d6b9a1.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/ArethaFranklin"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/arethafranklin"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/arethafranklin/"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/arethasings/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/174814"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B000QJICRS"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/98742"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/nz/artist/98742"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/28568621"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/98742"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/152"
+    },
+    {
+      "type": "streaming",
+      "target": "https://us.napster.com/artist/aretha-franklin"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/71577926"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q125121"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/user/ArethaFranklinVEVO"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "29e70d35-ad03-4485-af02-310f9b98c104",
+      "title": "Aretha",
+      "type": "Album",
+      "first_release_date": "1961-02-27"
+    },
+    {
+      "id": "57aff5b3-7ec9-3be6-9b66-ce41df646f06",
+      "title": "The Tender, the Moving, the Swinging Aretha Franklin",
+      "type": "Album",
+      "first_release_date": "1962-08-13"
+    },
+    {
+      "id": "be5819f2-ea8c-37ae-b08f-141e377e48b0",
+      "title": "The Electrifying Aretha Franklin",
+      "type": "Album",
+      "first_release_date": "1962"
+    },
+    {
+      "id": "fa40688d-92e0-4234-a1a1-748a3020dba1",
+      "title": "Laughing on the Outside",
+      "type": "Album",
+      "first_release_date": "1963-08-12"
+    },
+    {
+      "id": "d4541106-8d24-4fb2-bbe4-1c98bf595a01",
+      "title": "Runnin’ Out of Fools",
+      "type": "Album",
+      "first_release_date": "1964-11-16"
+    },
+    {
+      "id": "3c1ce591-4ec1-3273-890f-9a7df48354f4",
+      "title": "Unforgettable: A Tribute to Dinah Washington",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "1b4745ce-aff4-474f-92f9-ae1ade3628e4",
+      "title": "Yeah!!!",
+      "type": "Album",
+      "first_release_date": "1965-05-17"
+    },
+    {
+      "id": "9a192daf-2d2c-4cd6-bcd2-5d235d945e19",
+      "title": "Soul Sister",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "7d8f07a7-4c64-3afb-8daf-8f1d4df89a78",
+      "title": "I Never Loved a Man the Way I Love You",
+      "type": "Album",
+      "first_release_date": "1967-03-10"
+    },
+    {
+      "id": "8b314aab-312b-307e-8b21-095084cec577",
+      "title": "Aretha Arrives",
+      "type": "Album",
+      "first_release_date": "1967-08-04"
+    },
+    {
+      "id": "d027dc23-9ed5-4836-a864-c4dc1a6ab0fb",
+      "title": "Take It Like You Give It",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "05571372-5b11-39b7-89c5-1c02589a27c8",
+      "title": "Lady Soul",
+      "type": "Album",
+      "first_release_date": "1968-01-22"
+    },
+    {
+      "id": "b26d1ec6-2500-3ecf-9528-7bc5a360efbe",
+      "title": "Aretha Now",
+      "type": "Album",
+      "first_release_date": "1968-06-14"
+    },
+    {
+      "id": "0fde93a4-1120-4d33-9c0c-65dccb5cdf94",
+      "title": "Soft and Beautiful",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "7a175574-ec88-3c4d-b87c-528fe272a201",
+      "title": "Soul ’69",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "e812c2f3-fb94-3454-afb6-7c3dd8c31262",
+      "title": "This Girl’s in Love With You",
+      "type": "Album",
+      "first_release_date": "1970-01-15"
+    },
+    {
+      "id": "d4596b8b-ffa2-32ca-968b-f489883db646",
+      "title": "Spirit in the Dark",
+      "type": "Album",
+      "first_release_date": "1970-08-24"
+    },
+    {
+      "id": "f62ec525-7158-37c1-8535-6eaac62435b3",
+      "title": "Young, Gifted and Black",
+      "type": "Album",
+      "first_release_date": "1972-01-24"
+    },
+    {
+      "id": "a8cb39e9-da59-3c89-904a-3b8443ed3424",
+      "title": "Hey Now Hey (The Other Side of the Sky)",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "c0f1f899-5538-46dc-b6d7-d0d2148fab9a",
+      "title": "Never Grow Old",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "c7569131-1c0f-36b0-a7c2-236990629f23",
+      "title": "Let Me in Your Life",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "e776ec01-bcd0-3c6f-b1fa-c07cbb5cfb3a",
+      "title": "With Everything I Feel in Me",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "48600773-64fd-37ac-ad6b-977248b99651",
+      "title": "You",
+      "type": "Album",
+      "first_release_date": "1975-10-16"
+    },
+    {
+      "id": "5c086a8c-bd5e-4967-83ca-1112998c3eff",
+      "title": "Sweet Passion",
+      "type": "Album",
+      "first_release_date": "1977-05-19"
+    },
+    {
+      "id": "9e113726-108e-472c-a99a-0872fdcc3bf4",
+      "title": "Almighty Fire",
+      "type": "Album",
+      "first_release_date": "1978-04-13"
+    }
+  ],
+  "tracks": {
+    "29e70d35-ad03-4485-af02-310f9b98c104": [
+      {
+        "id": "a0b53fdd-f54f-4de9-a37b-3c8a9fc4221a",
+        "title": "Won’t Be Long",
+        "position": "1",
+        "length": "192130",
+        "work": {
+          "id": "08382c00-90ca-3187-a6ea-d9f4c2073596",
+          "title": "Won’t Be Long",
+          "composers": [
+            {
+              "name": "J. Leslie McFarland",
+              "mbid": "79a10d06-c7cd-465b-9151-cf001d2f101d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "61b02d5b-3ef1-4fe0-96d5-baafece0e33d",
+        "title": "Over the Rainbow",
+        "position": "2",
+        "length": "159893",
+        "work": {
+          "id": "f8217125-b460-3902-8903-82979e3785ee",
+          "title": "Over the Rainbow",
+          "composers": [
+            {
+              "name": "Harold Arlen",
+              "mbid": "3508f3fd-3b18-493c-a362-376736bb6cde"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9bd04f29-6baf-44af-9d82-caff225e4ca8",
+        "title": "Love Is the Only Thing",
+        "position": "3",
+        "length": "163000",
+        "work": {
+          "id": "766fa7ed-a504-43d9-83b3-5a45a1a17fc5",
+          "title": "Love Is the Only Thing",
+          "composers": [
+            {
+              "name": "J. Leslie McFarland",
+              "mbid": "79a10d06-c7cd-465b-9151-cf001d2f101d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bd622ecf-dbcb-46e9-9792-ed26b853a3ff",
+        "title": "Sweet Lover",
+        "position": "4",
+        "length": "202813",
+        "work": {
+          "id": "fef759d9-1f45-4494-a7ec-4b4f935c58ac",
+          "title": "Sweet Lover",
+          "composers": [
+            {
+              "name": "J. Leslie McFarland",
+              "mbid": "79a10d06-c7cd-465b-9151-cf001d2f101d"
+            },
+            {
+              "name": "Sid Wyche",
+              "mbid": "2a5c8f7a-558d-48b4-97ad-882436aa0554"
+            }
+          ]
+        }
+      },
+      {
+        "id": "106b4977-0885-46cc-9b7c-b75485fc47ec",
+        "title": "All Night Long",
+        "position": "5",
+        "length": "181000",
+        "work": {
+          "id": "5d5c2f1c-6908-4cba-b15c-07a33dc310ff",
+          "title": "All Night Long",
+          "composers": [
+            {
+              "name": "Curtis Lewis",
+              "mbid": "c6aa3a59-273a-467d-b485-bf858014902e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6391ab35-c470-46ee-8de9-28b460f29d5d",
+        "title": "Who Needs You?",
+        "position": "6",
+        "length": "169000",
+        "work": {
+          "id": "b97ad517-2d1d-404a-a4e2-755b8569c2d9",
+          "title": "Who Needs You?",
+          "composers": [
+            {
+              "name": "Jeanne Burns",
+              "mbid": "04df15d4-6885-4384-9a85-0946f3c77603"
+            },
+            {
+              "name": "Billie Holiday",
+              "mbid": "d59c4cda-11d9-48db-8bfe-b557ee602aed"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a65088f7-aa37-48ef-a56d-0a9382568be4",
+        "title": "Right Now (mono mix)",
+        "position": "7",
+        "length": "143680",
+        "work": {
+          "id": "3a7783ef-037e-42fd-8ed0-c3aeff7800dd",
+          "title": "Right Now",
+          "composers": [
+            {
+              "name": "J. Leslie McFarland",
+              "mbid": "79a10d06-c7cd-465b-9151-cf001d2f101d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fb5eb2de-ea16-4b0d-a629-e2a9f5ceaec6",
+        "title": "Are You Sure?",
+        "position": "8",
+        "length": "161000",
+        "work": {
+          "id": "cbdc5879-6b8d-46a8-a178-9de83328155f",
+          "title": "Are You Sure",
+          "composers": [
+            {
+              "name": "Meredith Willson",
+              "mbid": "b042bb3d-912b-4e3f-a12b-e98675383b82"
+            }
+          ]
+        }
+      },
+      {
+        "id": "70b3bb3f-3111-4210-a907-063dcddc82e5",
+        "title": "Maybe I’m a Fool",
+        "position": "9",
+        "length": "197866",
+        "work": {
+          "id": "af40bed5-b424-4e09-a7f4-ba7a234103f0",
+          "title": "Maybe I’m a Fool",
+          "composers": [
+            {
+              "name": "J. Leslie McFarland",
+              "mbid": "79a10d06-c7cd-465b-9151-cf001d2f101d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7deeb8fa-6158-43df-b061-46a6933188b6",
+        "title": "It Ain’t Necessarily So",
+        "position": "10",
+        "length": "174360",
+        "work": {
+          "id": "8812f327-e92e-37b9-bdc4-2cc1ade322c8",
+          "title": "It Ain’t Necessarily So",
+          "composers": [
+            {
+              "name": "George Gershwin",
+              "mbid": "65744963-191a-44ef-a3c7-b693a808a158"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2ad776bd-857e-419e-a73a-1a531a21c9d4",
+        "title": "(Blue) By Myself",
+        "position": "11",
+        "length": "160000",
+        "work": {
+          "id": "93e81012-8a46-4bf1-9584-e872c962a410",
+          "title": "(Blue) By Myself",
+          "composers": [
+            {
+              "name": "Joe Bailey",
+              "mbid": "2f3bce34-8ca0-4d2c-8d9b-5c48682b5ac3"
+            },
+            {
+              "name": "J. Leslie McFarland",
+              "mbid": "79a10d06-c7cd-465b-9151-cf001d2f101d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dcb97239-2cf8-4526-96f8-3e20bc38385e",
+        "title": "Today I Sing the Blues",
+        "position": "12",
+        "length": "166933",
+        "work": {
+          "id": "f0741c11-ac58-48a0-a4e8-3b81d0dfd28c",
+          "title": "Today I Sing the Blues",
+          "composers": [
+            {
+              "name": "Curtis Lewis",
+              "mbid": "c6aa3a59-273a-467d-b485-bf858014902e"
+            },
+            {
+              "name": "Curley Hamner",
+              "mbid": "d7534027-84b7-4707-9987-b82d41494b07"
+            }
+          ]
+        }
+      }
+    ],
+    "57aff5b3-7ec9-3be6-9b66-ce41df646f06": [
+      {
+        "id": "d1d4608d-5e8a-4875-8110-8e559709b0d9",
+        "title": "Don’t Cry Baby",
+        "position": "1",
+        "length": "203000",
+        "work": {
+          "id": "bca56a5b-777a-3f42-ae6e-8a33a098d807",
+          "title": "Don’t Cry Baby",
+          "composers": [
+            {
+              "name": "Saul Bernie",
+              "mbid": "f843d45b-b165-465e-a629-98b790804f34"
+            },
+            {
+              "name": "James P. Johnson",
+              "mbid": "2a58b026-9659-4bfb-90c9-56c4ad9125f1"
+            },
+            {
+              "name": "Stella Unger",
+              "mbid": "7a6ba44e-c80b-4c9b-896f-e1a4da3f7863"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a280c623-add8-4b38-925a-88f78918d3a5",
+        "title": "Try a Little Tenderness",
+        "position": "2",
+        "length": "195853",
+        "work": {
+          "id": "8bb1de84-474b-3092-a779-5c21c77a77be",
+          "title": "Try a Little Tenderness",
+          "composers": [
+            {
+              "name": "Harry M. Woods",
+              "mbid": "765d18ec-8a76-4f6e-9c6e-cd78a223724c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c96e953d-36f3-44dd-8db2-42491e81ec60",
+        "title": "I Apologize",
+        "position": "3",
+        "length": "174000",
+        "work": {
+          "id": "838d3974-d9a2-4019-848a-c0c3e5d1a7d6",
+          "title": "I Apologize",
+          "composers": [
+            {
+              "name": "Al Goodhart",
+              "mbid": "413fb64b-58f4-42ec-9808-e01570fdb7a9"
+            },
+            {
+              "name": "Al Hoffman",
+              "mbid": "17051835-d7f4-45ee-b985-a9a640b570fd"
+            },
+            {
+              "name": "Ed Nelson",
+              "mbid": "2374ae4b-3304-47d0-91f4-0034a881edb2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b8b66ec3-aad7-4ad1-b468-b99ee47455bb",
+        "title": "Without the One You Love",
+        "position": "4",
+        "length": "168000",
+        "work": {
+          "id": "b27d3d7e-c9c9-4c98-8454-b8dd5a873a52",
+          "title": "Without the One You Love",
+          "composers": [
+            {
+              "name": "Aretha Franklin",
+              "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6366e7b8-475d-4e3e-9454-0ba81ec96973",
+        "title": "Look for the Silver Lining",
+        "position": "5",
+        "length": "184560",
+        "work": {
+          "id": "c7ff39d3-72c1-4905-a3e3-b28f396c0c6d",
+          "title": "Look for the Silver Lining",
+          "composers": [
+            {
+              "name": "Jerome Kern",
+              "mbid": "8fb64b2e-db8b-4579-ad08-f324ef1bf494"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b0ade91b-578a-4c7b-84dd-9c5a39b50780",
+        "title": "I’m Sitting on Top of the World",
+        "position": "6",
+        "length": "162560",
+        "work": {
+          "id": "e72463b3-ec6a-35a3-8eb7-cf015092dad0",
+          "title": "I’m Sitting on Top of the World",
+          "composers": [
+            {
+              "name": "Ray Henderson",
+              "mbid": "3cfcefad-c713-4214-b40e-1b7fe49ce36d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "12fd7b33-41a8-45a4-9b77-5284e52c71fe",
+        "title": "Just for a Thrill",
+        "position": "7",
+        "length": "153106",
+        "work": {
+          "id": "f8961e02-0664-4b26-84c2-8851da64cd1d",
+          "title": "Just for a Thrill",
+          "composers": [
+            {
+              "name": "Lil Hardin Armstrong",
+              "mbid": "2a6f6ee8-a9cd-4826-9749-d0fe48fb49f7"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ade89f52-99a0-4671-8819-47615c891901",
+        "title": "God Bless the Child",
+        "position": "8",
+        "length": "183000",
+        "work": {
+          "id": "066bea58-1480-3152-83ed-bbd4f37b23f7",
+          "title": "God Bless the Child",
+          "composers": [
+            {
+              "name": "Arthur Herzog, Jr.",
+              "mbid": "6727725b-9247-484d-bea8-44ac04208e17"
+            }
+          ]
+        }
+      },
+      {
+        "id": "86f31f18-8f23-4f1d-bb02-d840b2de0fc5",
+        "title": "I’m Wandering",
+        "position": "9",
+        "length": "207893",
+        "work": {
+          "id": "9b51c7f3-1821-4698-aea8-b390e070ab88",
+          "title": "I’m Wandering",
+          "composers": [
+            {
+              "name": "Tyran Carlo",
+              "mbid": "e4525058-d6aa-42ab-b52c-b46a74ec7f5f"
+            },
+            {
+              "name": "Berry Gordy",
+              "mbid": "55bc7f0d-bc56-4a5e-8555-77557bb757cd"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5f82ac9b-d036-402b-bb92-a96f83c587f2",
+        "title": "How Deep Is the Ocean",
+        "position": "10",
+        "length": "168000",
+        "work": {
+          "id": "5757fff7-068f-3328-8eb0-cb427891e0cd",
+          "title": "How Deep Is the Ocean?",
+          "composers": [
+            {
+              "name": "Irving Berlin",
+              "mbid": "5e645519-a175-4fe0-9a9b-eb9dc9f506b5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fb6e1170-0d0c-46d3-8edf-87556221699a",
+        "title": "I Don’t Know Anymore",
+        "position": "11",
+        "length": "171000",
+        "work": {
+          "id": "76c78602-647a-42db-9403-f914de765519",
+          "title": "I Don’t Know You Anymore",
+          "composers": [
+            {
+              "name": "Gary Geld",
+              "mbid": "4e675644-3cdc-46c2-98b6-ad45b8fbe175"
+            }
+          ]
+        }
+      },
+      {
+        "id": "660e1ade-7e8f-4a6b-a85e-ea362c24d0fc",
+        "title": "Lover Come Back to Me",
+        "position": "12",
+        "length": "156000",
+        "work": {
+          "id": "2b10cff9-a483-306f-9bfa-096f8295111c",
+          "title": "Lover, Come Back to Me",
+          "composers": [
+            {
+              "name": "Sigmund Romberg",
+              "mbid": "3c2caff5-ffbc-4711-9e4e-db94dd8e2e52"
+            },
+            {
+              "name": "Sigmund Romberg",
+              "mbid": "3c2caff5-ffbc-4711-9e4e-db94dd8e2e52"
+            }
+          ]
+        }
+      }
+    ],
+    "be5819f2-ea8c-37ae-b08f-141e377e48b0": [
+      {
+        "id": "f3826057-22c7-4795-89f6-0dc7feee4f80",
+        "title": "You Made Me Love You",
+        "position": "1",
+        "length": "139389",
+        "work": {
+          "id": "0f588cc6-59a4-4c28-900c-4b8a35cec287",
+          "title": "You Made Me Love You (I Didn’t Want to Do It)",
+          "composers": [
+            {
+              "name": "James V. Monaco",
+              "mbid": "f82ad155-eab8-4db6-a86e-9c1b6f515296"
+            }
+          ]
+        }
+      },
+      {
+        "id": "327ed61d-ffda-4a3d-8cbb-c4e81c0981f2",
+        "title": "I Told You So",
+        "position": "2",
+        "length": "164000",
+        "work": {
+          "id": "ad0cccbd-2608-4400-a27a-f32a703a0ad7",
+          "title": "I Told You So",
+          "composers": [
+            {
+              "name": "J. Leslie McFarland",
+              "mbid": "79a10d06-c7cd-465b-9151-cf001d2f101d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bda5f79d-3fb7-4ea0-bbcb-2211c42d4371",
+        "title": "Rock‐a‐Bye Your Baby With a Dixie Melody",
+        "position": "3",
+        "length": "144800",
+        "work": {
+          "id": "c123b157-68ea-3720-8680-c530cedb9da9",
+          "title": "Rock-a-Bye Your Baby With a Dixie Melody",
+          "composers": [
+            {
+              "name": "Jean Schwartz",
+              "mbid": "ca6adee7-abf8-46ce-aebb-3c8c66f7931c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a3e8d1aa-8e98-4058-817e-516d28c536c4",
+        "title": "Nobody Like You",
+        "position": "4",
+        "length": "143151",
+        "work": {
+          "id": "ac876a45-c865-4a8b-a0df-c72dbe2926ba",
+          "title": "Nobody Like You",
+          "composers": [
+            {
+              "name": "Rev. James Cleveland",
+              "mbid": "12e88ee2-c7c6-496d-bb8c-3c31e366c721"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6279ddf8-298c-44b4-aa1e-e65c35fe4036",
+        "title": "Exactly Like You",
+        "position": "5",
+        "length": "157000",
+        "work": {
+          "id": "10436d0f-c969-3133-8e55-7bd13fcad5f9",
+          "title": "Exactly Like You",
+          "composers": [
+            {
+              "name": "Jimmy McHugh",
+              "mbid": "c414371b-3377-43b5-9dc2-2a20254ed520"
+            },
+            {
+              "name": "Fritz Löhner-Beda",
+              "mbid": "24295cdd-ea17-4a70-878b-8194aa9d8f35"
+            }
+          ]
+        }
+      },
+      {
+        "id": "decae0fd-39f0-4bf2-81e4-64257c40f392",
+        "title": "It’s So Heartbreakin’",
+        "position": "6",
+        "length": "160000",
+        "work": {
+          "id": "1b320201-9116-4904-a63e-22b217f2250e",
+          "title": "It’s So Heartbreakin’",
+          "composers": [
+            {
+              "name": "J. Leslie McFarland",
+              "mbid": "79a10d06-c7cd-465b-9151-cf001d2f101d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3cb7f77a-04c1-4c24-a05b-098f6cfca208",
+        "title": "Rough Lover",
+        "position": "7",
+        "length": "168000",
+        "work": {
+          "id": "514cabed-9215-4d35-a04a-a71ba27935e5",
+          "title": "Rough Lover",
+          "composers": [
+            {
+              "name": "J. Leslie McFarland",
+              "mbid": "79a10d06-c7cd-465b-9151-cf001d2f101d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f9dad54d-7864-4064-94c8-620999eb0056",
+        "title": "Blue Holiday",
+        "position": "8",
+        "length": "174000",
+        "work": {
+          "id": "4dfa2177-ca6d-4595-8bc4-53d45fd2364f",
+          "title": "Blue Holiday",
+          "composers": [
+            {
+              "name": "Willie Denson",
+              "mbid": "c7b6bdeb-73aa-40b2-ac09-bace31041ed9"
+            },
+            {
+              "name": "Luther Dixon",
+              "mbid": "1a2d3f1a-6146-4fb6-92c7-da4f91bcc44d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "822d7abf-865d-4e07-af25-f897add2f309",
+        "title": "Just for You",
+        "position": "9",
+        "length": "140840",
+        "work": {
+          "id": "066dc4f0-b8fc-4dab-ac27-3f0fc8546cbf",
+          "title": "Just for You",
+          "composers": [
+            {
+              "name": "J. Bailey",
+              "mbid": "bb5bfd21-7d91-4d6b-91af-748d2da98f14"
+            },
+            {
+              "name": "J. Leslie McFarland",
+              "mbid": "79a10d06-c7cd-465b-9151-cf001d2f101d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "eda907da-d6f9-4968-9d1a-ae50b75f5a6b",
+        "title": "That Lucky Old Sun",
+        "position": "10",
+        "length": "200320",
+        "work": {
+          "id": "497f68ad-527e-31c5-8049-3ea2018c996a",
+          "title": "That Lucky Old Sun",
+          "composers": [
+            {
+              "name": "Beasley Smith",
+              "mbid": "67e2831b-4072-4c92-aeef-eb5fd6184abe"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f552357d-4696-4260-9f80-702332d7b500",
+        "title": "I Surrender, Dear",
+        "position": "11",
+        "length": "167000",
+        "work": {
+          "id": "edd91ebc-8340-4333-973f-f2ecc6bcdc86",
+          "title": "I Surrender Dear",
+          "composers": [
+            {
+              "name": "Harry Barris",
+              "mbid": "97864c47-cdfe-4d97-a118-d5d51d5353d4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "164b4954-faa1-4426-85e6-994a003a6535",
+        "title": "Ac‐Cent‐Tchu‐Ate the Positive",
+        "position": "12",
+        "length": "137266",
+        "work": {
+          "id": "5038f3b8-0451-36dc-8cc8-cd6cc6fb4683",
+          "title": "Ac‐cent‐tchu‐ate the Positive",
+          "composers": [
+            {
+              "name": "Harold Arlen",
+              "mbid": "3508f3fd-3b18-493c-a362-376736bb6cde"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 38863,
+  "wikidata_id": "Q125121"
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "subject": "Brian Eno",
+    "predicate": "pioneerOf",
+    "object": "ambient music"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "pioneerOf",
+    "object": "electronica"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "memberOf",
+    "object": "Roxy Music"
+  },
+  {
+    "subject": "Roxy Music",
+    "predicate": "hasMember",
+    "object": "Brian Eno"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "released",
+    "object": "Here Come the Warm Jets"
+  },
+  {
+    "subject": "Here Come the Warm Jets",
+    "predicate": "hasGenre",
+    "object": "rock"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "released",
+    "object": "Discreet Music"
+  },
+  {
+    "subject": "Discreet Music",
+    "predicate": "hasGenre",
+    "object": "minimal music"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "released",
+    "object": "Ambient 1: Music for Airports"
+  },
+  {
+    "subject": "Ambient 1: Music for Airports",
+    "predicate": "hasGenre",
+    "object": "ambient music"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "collaboratedWith",
+    "object": "Robert Wyatt"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "collaboratedWith",
+    "object": "Robert Fripp"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "collaboratedWith",
+    "object": "Harmonia"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "collaboratedWith",
+    "object": "Cluster"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "collaboratedWith",
+    "object": "Harold Budd"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "collaboratedWith",
+    "object": "David Bowie"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "collaboratedWith",
+    "object": "John Cale"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "collaboratedWith",
+    "object": "David Byrne"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "No New York"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Talking Heads"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Ultravox"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Devo"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "U2"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Coldplay"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Peter Gabriel"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Daniel Lanois"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Laurie Anderson"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Grace Jones"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Slowdive"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Karl Hyde"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "James"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Kevin Shields"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "produced",
+    "object": "Damon Albarn"
+  },
+  {
+    "subject": "Brian Eno",
+    "predicate": "founded",
+    "object": "Long Now Foundation"
+  }
+]

@@ -1,0 +1,617 @@
+{
+  "mbid": "7b8e1188-9ca4-4aa5-8393-172de6fa04de",
+  "name": "Celia Cruz",
+  "type": "Person",
+  "country": "CU",
+  "gender": "Female",
+  "life_span": {
+    "begin": "1925-10-21",
+    "end": "2003-07-16",
+    "ended": "true"
+  },
+  "area": "Cuba",
+  "begin_area": "La Habana",
+  "tags": [
+    {
+      "name": "bolero",
+      "count": "1"
+    },
+    {
+      "name": "guaracha",
+      "count": "1"
+    },
+    {
+      "name": "latin",
+      "count": "1"
+    },
+    {
+      "name": "latin pop",
+      "count": "1"
+    },
+    {
+      "name": "salsa",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Pedro Knight",
+      "target_mbid": "d7596640-5556-43d2-80c9-e83b1f0c734f",
+      "attributes": [],
+      "begin": "1962",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Fania All-Stars",
+      "target_mbid": "4b61339a-4074-43a6-bf6b-7f9d0d5d530f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Coro Yoruba y Tambores Batá",
+      "target_mbid": "89709d6f-9041-46a6-896e-dbae14452d9e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "vocal supporting musician",
+      "direction": "forward",
+      "target_name": "La Sonora Matancera",
+      "target_mbid": "4cdf47ff-256c-40c7-b722-03809b5a23ba",
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": "1950",
+      "end": "1965"
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000186312"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/7b8e1188-9ca4-4aa5-8393-172de6fa04de"
+    },
+    {
+      "type": "biography",
+      "target": "https://www.ecured.cu/Celia_Cruz"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/3460149"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/99729"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/2weA6hhVqTIN2gSn9PUB9U"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/5024"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Celia_Cruz_1.jpg"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0190272/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Celia+Cruz"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://celiacruz.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n88023201"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb138928653"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/134745914"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w68f5skt"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL5825444A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/celia_cruz"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/celia-cruz/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n88-023201"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/artist/id105181"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/105181"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.amazon.com/-/e/B000APA9RE"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000APA9RE"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/celia-cruz-bd6810e.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/CeliaCruzLegacy"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/CeliaCruzOficial"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/289320"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/105181"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/105181"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/6072"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/7573593"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q474045"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "d0285f18-3329-42c6-a9ab-1648a0c9933a",
+      "title": "Selecciones favoritas de Celia Cruz",
+      "type": "Album",
+      "first_release_date": "1952"
+    },
+    {
+      "id": "3eabf4f4-1b02-47f8-a34e-0e5a37ecd2a5",
+      "title": "Celia Cruz",
+      "type": "Album",
+      "first_release_date": "1954"
+    },
+    {
+      "id": "dd51fe5b-cd3f-4444-aacd-8f7f6e8197a9",
+      "title": "Canta Celia Cruz (Celia Cruz Sings)",
+      "type": "Album",
+      "first_release_date": "1956-12-31"
+    },
+    {
+      "id": "275fc5b2-ea82-384a-8a7d-8e1aee71c2c8",
+      "title": "La reina del ritmo cubano",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "9e4d4bbe-70aa-3536-aee1-e64607a8e0da",
+      "title": "Su favorita",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "0ca3c186-95fa-457c-a0a3-2d1da420a6f3",
+      "title": "La dinamica!",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "a24c77e2-cd46-4222-978e-03b60dc64ee8",
+      "title": "Reflexiones de Celia Cruz",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "0158fbf0-eeab-478d-8a5c-3749214a016b",
+      "title": "México, que grande eres",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "38334bc9-a05b-430a-a890-e919314aeff6",
+      "title": "La tierna, conmovedora, bamboleadora",
+      "type": "Album",
+      "first_release_date": "1963"
+    },
+    {
+      "id": "8be8d86c-4e2e-49fc-98d6-257a69dfb795",
+      "title": "Sabor y ritmo de pueblos",
+      "type": "Album",
+      "first_release_date": "1964-01-01"
+    },
+    {
+      "id": "de364997-ab89-482a-81b7-5c9f6af321cf",
+      "title": "Canciones inolvidables",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "0ec16cfa-ae84-45e8-9f14-7d4f78b6c965",
+      "title": "Canciones que yo quería haber grabado primero",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "97c554ae-5869-4d94-bd16-52fb2c0e7cee",
+      "title": "El nuevo estilo de la guarachera",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "e16554d1-1f7a-3d46-bbaf-19448559bfac",
+      "title": "Cuba y Puerto Rico son…",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "bb79e7b9-6bea-4df5-b3b1-27d02269fa79",
+      "title": "Son con guaguancó",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "3251940d-f1b9-48ff-986b-b3004b78bf88",
+      "title": "...a ti México",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "668e3524-a29b-44d2-b95f-06414a7831f5",
+      "title": "67",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "33b1e1ec-4b91-47fe-8af1-ceea0bd7745a",
+      "title": "Bravo",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "a70fc6aa-255c-4c65-bcd1-2462ecdb723f",
+      "title": "La excitante",
+      "type": "Album",
+      "first_release_date": "1968"
+    },
+    {
+      "id": "e851dbd5-4dfa-486b-a862-b1ad648ee9f3",
+      "title": "Serenata guajira",
+      "type": "Album",
+      "first_release_date": "1968"
+    },
+    {
+      "id": "912de6e2-a294-3815-af8a-ff1d2e146d28",
+      "title": "Quimbo quimbumbia",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "c1e39cff-84fd-4090-9fb5-f1133daa8ee9",
+      "title": "Alma con alma: The Heart & Soul of Celia Cruz and Tito Puente",
+      "type": "Album",
+      "first_release_date": "1970"
+    },
+    {
+      "id": "08dbeca0-204d-42ea-9268-2b50d9546809",
+      "title": "Etc. etc. etc.",
+      "type": "Album",
+      "first_release_date": "1970"
+    },
+    {
+      "id": "ec61c567-e911-46cc-b306-d891176ac411",
+      "title": "En España",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "c8c8020e-cc82-4cb8-9724-a28999da634e",
+      "title": "Nuevos Exitos de Celia Cruz",
+      "type": "Album",
+      "first_release_date": "1971"
+    }
+  ],
+  "tracks": {
+    "d0285f18-3329-42c6-a9ab-1648a0c9933a": [
+      {
+        "id": "f3690024-cd6a-4370-8e27-63d4b415fab0",
+        "title": "Cao cao maní picao",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "ac273b0c-d5c4-4f5b-b48d-af495f3bbe1c",
+        "title": "La danza del cocoyé",
+        "position": "2",
+        "length": "181973",
+        "work": {
+          "id": "e4afc82e-8f53-4945-85a6-4db8dada718e",
+          "title": "La danza del cocoyé",
+          "composers": [
+            {
+              "name": "Luis G. Suárez Martínez",
+              "mbid": "87ceb808-953a-4820-a1d1-03fc1c84315d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "981af214-6125-4deb-b245-4f3f80eb8d11",
+        "title": "Baila Yemaya",
+        "position": "3",
+        "length": "172000",
+        "work": {
+          "id": "6ba1229c-a7fd-4a19-b4a9-7b3846620439",
+          "title": "Baila Yemaya",
+          "composers": [
+            {
+              "name": "Lino Frías",
+              "mbid": "2b075452-3fbb-4b87-b078-59714517409f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d65ac179-2d04-4c99-b457-4dc264d38592",
+        "title": "Rumba para parejas",
+        "position": "4",
+        "length": "178000",
+        "work": null
+      },
+      {
+        "id": "efb7c8ed-3a9b-421c-8797-26ae24f086b3",
+        "title": "Mambo del amor",
+        "position": "5",
+        "length": "175000",
+        "work": null
+      },
+      {
+        "id": "43200dd1-c8a5-48bf-8317-7d8ffe84bf0f",
+        "title": "Mata siguaraya",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "331f7b3a-1d57-4f1f-ae5b-f23a60789855",
+        "title": "Las frutas y mi son cubano",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "f5af7a07-24b5-49a3-ae90-cd1733b6e680",
+        "title": "El guajirito contento",
+        "position": "8",
+        "length": "184453",
+        "work": null
+      }
+    ],
+    "3eabf4f4-1b02-47f8-a34e-0e5a37ecd2a5": [
+      {
+        "id": "14dbff47-ba35-464e-9ddd-a36c43e02e41",
+        "title": "Matiagua",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "e1e77012-94a4-4f17-9c57-ad9745107527",
+        "title": "Melao de caña",
+        "position": "2",
+        "length": "174000",
+        "work": {
+          "id": "b49aa34e-6576-4d43-aee7-98b816d916d5",
+          "title": "Melao de caña",
+          "composers": [
+            {
+              "name": "Mercedes Pedroso",
+              "mbid": "920b21c0-9c5b-4dc2-b9fe-8332d69f3cc3"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6e8ecdd0-3015-440a-abc3-8500ec88e59e",
+        "title": "Bonco",
+        "position": "3",
+        "length": "170000",
+        "work": {
+          "id": "33b639d4-8ce3-42b0-84f8-537b0564fbe0",
+          "title": "Boncó",
+          "composers": [
+            {
+              "name": "Florentino Cedeño",
+              "mbid": "fed9d742-4053-4114-a821-c074f52e4eb9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4019bfc6-e77b-42d7-902c-2317a6369cc7",
+        "title": "Burundanga",
+        "position": "4",
+        "length": null,
+        "work": {
+          "id": "ac038254-acd9-430c-b446-b374f0393673",
+          "title": "Burundanga",
+          "composers": [
+            {
+              "name": "Óscar Muñoz Bouffartique",
+              "mbid": "641dfed1-7c14-455f-b300-c1b6cad4e7ac"
+            }
+          ]
+        }
+      },
+      {
+        "id": "67fd042e-9cc8-4f3f-a3db-0609d6f74510",
+        "title": "Nuevo ritmo omelenko",
+        "position": "5",
+        "length": "182000",
+        "work": {
+          "id": "6f8683b9-7f8c-416a-b879-fa631b7dd276",
+          "title": "Nuevo ritmo omelenko",
+          "composers": [
+            {
+              "name": "Eduardo Angulo",
+              "mbid": "d871f1cb-3918-4d36-849c-d6aa24450b15"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6442e2e0-9b29-464a-96b8-a98f411a0a92",
+        "title": "Pepe Antonio",
+        "position": "6",
+        "length": "171000",
+        "work": null
+      },
+      {
+        "id": "9278140e-4e12-4b00-91c3-aa48983ad836",
+        "title": "No sé lo que le pasa",
+        "position": "7",
+        "length": "183666",
+        "work": null
+      },
+      {
+        "id": "19f5d697-69ba-4839-95f2-00c0095f5982",
+        "title": "Yembe laroco",
+        "position": "8",
+        "length": null,
+        "work": null
+      }
+    ],
+    "dd51fe5b-cd3f-4444-aacd-8f7f6e8197a9": [
+      {
+        "id": "71e306e1-ceea-4434-9031-ac45be7efa62",
+        "title": "El Marinero",
+        "position": "1",
+        "length": "155000",
+        "work": null
+      },
+      {
+        "id": "942b240d-69eb-4889-aa9b-3b198bd95844",
+        "title": "Mi soncito",
+        "position": "2",
+        "length": "161773",
+        "work": null
+      },
+      {
+        "id": "72a07574-b02d-45f4-ac13-113719c59a4b",
+        "title": "Muñecas del cha-cha-chá",
+        "position": "3",
+        "length": "171000",
+        "work": {
+          "id": "dcb5122d-5f4b-442b-80b6-8196619d53c2",
+          "title": "Muñecas del cha-cha-cha",
+          "composers": [
+            {
+              "name": "Óscar Muñoz Bouffartique",
+              "mbid": "641dfed1-7c14-455f-b300-c1b6cad4e7ac"
+            }
+          ]
+        }
+      },
+      {
+        "id": "63d452d9-29ea-4c84-ab91-d03376eddced",
+        "title": "El merengue",
+        "position": "4",
+        "length": "178400",
+        "work": null
+      },
+      {
+        "id": "1102b030-67aa-4740-83bb-ea001d99e7e4",
+        "title": "Sandunguéate",
+        "position": "5",
+        "length": "162040",
+        "work": null
+      },
+      {
+        "id": "35191460-54aa-413e-a273-a7b897941355",
+        "title": "Goza negra",
+        "position": "6",
+        "length": "186826",
+        "work": {
+          "id": "5be1965e-574e-4844-897e-2c8308b0f2be",
+          "title": "Goza negra",
+          "composers": [
+            {
+              "name": "Bienvenido Fabián",
+              "mbid": "d2285254-95a6-4462-be8c-35de506c081f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d1127aff-d9a4-4581-aae5-b4158582ad00",
+        "title": "Burundanga",
+        "position": "7",
+        "length": "160520",
+        "work": {
+          "id": "ac038254-acd9-430c-b446-b374f0393673",
+          "title": "Burundanga",
+          "composers": [
+            {
+              "name": "Óscar Muñoz Bouffartique",
+              "mbid": "641dfed1-7c14-455f-b300-c1b6cad4e7ac"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6129e4bd-1bab-4ccf-8e34-08f5cb01f706",
+        "title": "Plegaria a la roye",
+        "position": "8",
+        "length": "172013",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 99729,
+  "wikidata_id": "Q474045"
+}

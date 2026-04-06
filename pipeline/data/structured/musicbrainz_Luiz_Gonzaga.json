@@ -1,0 +1,353 @@
+{
+  "mbid": "712fcc0f-25f5-45bf-bbb8-2601872d08e1",
+  "name": "Luiz Gonzaga",
+  "type": "Person",
+  "country": "BR",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1912-12-13",
+    "end": "1989-08-02",
+    "ended": "true"
+  },
+  "area": "Brazil",
+  "begin_area": "Pernambuco",
+  "tags": [
+    {
+      "name": "baião",
+      "count": "1"
+    },
+    {
+      "name": "forró",
+      "count": "1"
+    },
+    {
+      "name": "latin",
+      "count": "1"
+    },
+    {
+      "name": "singer-songwriter",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Helena Gonzaga",
+      "target_mbid": "6ea7b672-3aaa-4472-ae49-49af0211d983",
+      "attributes": [],
+      "begin": "1948-06-16",
+      "end": "1987"
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Gonzaguinha",
+      "target_mbid": "7169b325-505c-4daf-aa90-d3a84c112bc7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "sibling",
+      "direction": "backward",
+      "target_name": "Zé Gonzaga",
+      "target_mbid": "681e2b08-1aca-49d4-b568-d6949b7759b2",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000316340"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/712fcc0f-25f5-45bf-bbb8-2601872d08e1"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/322175"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/54185"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0327426/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Luiz+Gonzaga"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-11989/luiz-gonzaga/lyrics.html"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.luizluagonzaga.com.br/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://adp.library.ucsb.edu/names/102836"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/79165329"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q982314"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "58066e93-be2f-4e56-8c08-a2ad9e05e995",
+      "title": "Alza Manolita / O Chamego Da Guiomar",
+      "type": "Album",
+      "first_release_date": "1943"
+    },
+    {
+      "id": "07502488-c2e4-4914-9a83-6c0d0f814cb8",
+      "title": "Eu vou cortando / Cai no frevo",
+      "type": "Album",
+      "first_release_date": "1946"
+    },
+    {
+      "id": "527eb9e6-91d3-3d05-91d5-652468547e2e",
+      "title": "A história do Nordeste",
+      "type": "Album",
+      "first_release_date": "1955"
+    },
+    {
+      "id": "0c21580c-ec57-46e6-95f8-16a3fef69184",
+      "title": "Aboios e Vaquejadas",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "d5f1fdcf-a818-48e1-95f8-8b403090a181",
+      "title": "O Reino do Baião",
+      "type": "Album",
+      "first_release_date": "1957"
+    },
+    {
+      "id": "656488d1-e3c6-3b14-9908-d1353177e164",
+      "title": "Xamego",
+      "type": "Album",
+      "first_release_date": "1958"
+    },
+    {
+      "id": "32a2b358-23bf-4ecb-9d97-b438482c664d",
+      "title": "Luiz Gonzaga canta seus sucessos com Zé Dantas",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "8b6c8c58-fc66-4009-bdcf-f010c96fbb87",
+      "title": "Luiz \"Lua\" Gonzaga",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "5c14a748-11ea-4c21-aaaf-77746b83b0a0",
+      "title": "Ô véio macho",
+      "type": "Album",
+      "first_release_date": "1962"
+    },
+    {
+      "id": "04c99dfa-76b4-332c-bc24-ab4122a0d64d",
+      "title": "São João na Roça",
+      "type": "Album",
+      "first_release_date": "1962"
+    },
+    {
+      "id": "752bfe0c-5990-4e25-8062-ebb2a7581c89",
+      "title": "Pisa no pilão (Festa do milho)",
+      "type": "Album",
+      "first_release_date": "1963"
+    },
+    {
+      "id": "4d51dcd2-c50d-4b84-b48e-bff273669eb1",
+      "title": "A triste partida",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "7849cd72-4818-43aa-b9e2-dce8a03e1aca",
+      "title": "Sanfona do povo",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "f42b25f7-231d-321e-abcd-c8aa478542ff",
+      "title": "Quadrilhas e marchinhas juninas",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "4b089a87-626d-4b18-ae1f-f99ce026a247",
+      "title": "O sanfoneiro do povo de deus",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "9d542cb6-7199-4dc1-a291-4953810abaea",
+      "title": "Óia eu aqui de novo",
+      "type": "Album",
+      "first_release_date": "1967"
+    },
+    {
+      "id": "14a1b925-bc8a-4dd7-b6f5-4aa7dc4d4a1e",
+      "title": "São João do Draripe",
+      "type": "Album",
+      "first_release_date": "1968"
+    },
+    {
+      "id": "efe35d23-65d8-4212-b500-4d233b48dedb",
+      "title": "Canaã",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "7d5f1f72-f6d1-445e-abd5-a0a65231b335",
+      "title": "Sertão 70",
+      "type": "Album",
+      "first_release_date": "1970"
+    },
+    {
+      "id": "c5a6f289-b8e3-4ca0-ae0d-1893bad2e60b",
+      "title": "O canto jovem de Luiz Gonzaga",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "609285bd-b301-42b0-a61a-93dfc70a79e6",
+      "title": "Aquilo bom!",
+      "type": "Album",
+      "first_release_date": "1972"
+    },
+    {
+      "id": "2f27c2d9-f42a-498d-bad1-46f421e8b46e",
+      "title": "Luiz Gonzaga",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "b5f222be-e4ed-4322-bbc1-6aedbbd5351b",
+      "title": "Daquele jeito",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "7f900cca-a3bf-41b9-9b3e-5fe17b84c857",
+      "title": "Capim novo",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "a0f8c1f1-5ee5-431a-9538-05e64d93d57a",
+      "title": "Cha Cutuba",
+      "type": "Album",
+      "first_release_date": "1977"
+    }
+  ],
+  "tracks": {
+    "58066e93-be2f-4e56-8c08-a2ad9e05e995": [
+      {
+        "id": "bdefddd4-91a3-4a5c-8515-5fd25a83d83d",
+        "title": "Alza Manolita (Instrumental)",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "2cf63aba-61e1-48c5-b809-d7143cf4473b",
+        "title": "O Chamego Da Guiomar (Instrumental)",
+        "position": "2",
+        "length": null,
+        "work": null
+      }
+    ],
+    "07502488-c2e4-4914-9a83-6c0d0f814cb8": [
+      {
+        "id": "3ddb2887-9181-4c7e-9dd9-52ab290f4343",
+        "title": "Eu vou cortando",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "6cb3dc1f-2b22-4bf1-94d3-6d50e8b5b51b",
+        "title": "Cai no frevo",
+        "position": "2",
+        "length": null,
+        "work": null
+      }
+    ],
+    "527eb9e6-91d3-3d05-91d5-652468547e2e": [
+      {
+        "id": "5ef63c14-6f78-4f92-b2ef-508de588b158",
+        "title": "Paraíba",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "5afe8a44-8d22-4e98-afed-023a2c4ac078",
+        "title": "Respeita januário",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "1daa4be0-2823-4d14-b7da-dd7cad257e87",
+        "title": "Saudade de Pernambuco",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "1c52f05e-13cb-4982-bade-d8da22a3e5c5",
+        "title": "O xote das meninas",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "41adb081-9441-451e-ae7a-fc0c601008e6",
+        "title": "O ABC do sertão",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "1ebe9372-67da-4637-900f-0603c4f10e36",
+        "title": "Acauã",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "f0557a76-78c8-4bd6-a054-9c5d41c96997",
+        "title": "Algodão",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "ea50bad3-6453-4ef6-8e9b-81c7d1df2617",
+        "title": "Asa branca",
+        "position": "8",
+        "length": null,
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 322175,
+  "wikidata_id": "Q982314"
+}

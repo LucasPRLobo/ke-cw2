@@ -1,0 +1,1264 @@
+{
+  "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5",
+  "name": "Peter Gabriel",
+  "type": "Person",
+  "country": "GB",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1950-02-13",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "United Kingdom",
+  "begin_area": "Cobham",
+  "tags": [
+    {
+      "name": "album rock",
+      "count": "1"
+    },
+    {
+      "name": "alternative/indie rock",
+      "count": "1"
+    },
+    {
+      "name": "art pop",
+      "count": "4"
+    },
+    {
+      "name": "art rock",
+      "count": "7"
+    },
+    {
+      "name": "chamber pop",
+      "count": "1"
+    },
+    {
+      "name": "college rock",
+      "count": "1"
+    },
+    {
+      "name": "contemporary pop/rock",
+      "count": "1"
+    },
+    {
+      "name": "crossover prog",
+      "count": "1"
+    },
+    {
+      "name": "experimental",
+      "count": "1"
+    },
+    {
+      "name": "film score",
+      "count": "1"
+    },
+    {
+      "name": "folk",
+      "count": "1"
+    },
+    {
+      "name": "international",
+      "count": "1"
+    },
+    {
+      "name": "international fusion",
+      "count": "1"
+    },
+    {
+      "name": "new wave",
+      "count": "4"
+    },
+    {
+      "name": "pop",
+      "count": "1"
+    },
+    {
+      "name": "pop rock",
+      "count": "7"
+    },
+    {
+      "name": "pop/rock",
+      "count": "1"
+    },
+    {
+      "name": "progressive pop",
+      "count": "1"
+    },
+    {
+      "name": "progressive rock",
+      "count": "6"
+    },
+    {
+      "name": "rock",
+      "count": "3"
+    },
+    {
+      "name": "soft rock",
+      "count": "1"
+    },
+    {
+      "name": "soundtrack",
+      "count": "1"
+    },
+    {
+      "name": "worldbeat",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "Artists United Against Apartheid",
+      "target_mbid": "298fb0c1-5a1f-43c1-854d-663762caad6e",
+      "attributes": [],
+      "begin": "1985",
+      "end": "1985"
+    },
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "Peace Together",
+      "target_mbid": "674ac956-2274-4466-be36-1d88819572a4",
+      "attributes": [],
+      "begin": "1993",
+      "end": "1993"
+    },
+    {
+      "type": "collaboration",
+      "direction": "forward",
+      "target_name": "The Amnesty Allstars",
+      "target_mbid": "e58f6aeb-735f-4f07-9f37-624fc198e641",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Tony Levin",
+      "target_mbid": "1fd8a385-ab08-418e-afc1-cb85f8e96b3f",
+      "attributes": [
+        "bass"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Rosanna Arquette",
+      "target_mbid": "9a7d2601-70a7-45e1-9b38-291bab3d9404",
+      "attributes": [],
+      "begin": "1987",
+      "end": "1992"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Jill Gabriel",
+      "target_mbid": "a8429791-7be3-45ba-82cd-14a74f8f8508",
+      "attributes": [],
+      "begin": "1971-03-17",
+      "end": "1987"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Meabh Flynn",
+      "target_mbid": "600a1f98-48a6-4e52-ae19-80a7c2a01623",
+      "attributes": [],
+      "begin": "2002",
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Garden Wall",
+      "target_mbid": "255ec6ae-b047-4654-ba99-8dcae2fceb98",
+      "attributes": [
+        "lead vocals",
+        "original"
+      ],
+      "begin": "1965-05",
+      "end": "1967-01"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Genesis",
+      "target_mbid": "8e3fcd7d-bda1-4ca0-b987-b8528d2ee74e",
+      "attributes": [
+        "flute",
+        "lead vocals",
+        "oboe",
+        "original",
+        "percussion"
+      ],
+      "begin": "1967",
+      "end": "1975"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Peace Choir",
+      "target_mbid": "6d72bf52-417d-4ca0-84db-dea062bb2fe0",
+      "attributes": [
+        "original"
+      ],
+      "begin": "1991",
+      "end": "1991"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Big Blue Ball",
+      "target_mbid": "f0712363-3aaf-4e23-8e10-09a26e7ffa08",
+      "attributes": [],
+      "begin": "1991",
+      "end": "1995"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Spoken Word",
+      "target_mbid": "16ed2568-643f-4fb0-99e8-3615232c91d9",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Conspirators",
+      "target_mbid": "a2dfd381-7ec6-4fa9-b5a1-ad732c7477e0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Melanie Gabriel",
+      "target_mbid": "8279160b-668f-4d5e-905e-df24566aefff",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Isaac Ralph Gabriel",
+      "target_mbid": "c421618e-82fd-4b70-b151-d0dd702b27e7",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "supporting musician",
+      "direction": "forward",
+      "target_name": "Genesis",
+      "target_mbid": "8e3fcd7d-bda1-4ca0-b987-b8528d2ee74e",
+      "attributes": [],
+      "begin": "1982-10-02",
+      "end": "1982-10-02"
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Diggin’ Gabriel",
+      "target_mbid": "8ee599ee-dd59-4748-85a1-feff0ef247fc",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Genetics",
+      "target_mbid": "62dedad3-e7be-4e54-a834-3ebaddf63963",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Mercy Street",
+      "target_mbid": "6b4fc902-8d03-4b0a-81b9-5295c0cf4ef0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "RAEL – The Music of Genesis",
+      "target_mbid": "e60d2b0e-99bf-41a7-bc11-8ffffd9ea6fd",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Secret World",
+      "target_mbid": "d5ff11b1-7f10-4cc8-b1e8-ae9682182960",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Security Project",
+      "target_mbid": "176c7c4a-6da7-480a-816a-6667103ff02f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "tribute",
+      "direction": "backward",
+      "target_name": "Shaking the Tree",
+      "target_mbid": "72e99079-ceb7-467b-8e89-167976ead4a0",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000842802"
+    },
+    {
+      "type": "bandcamp",
+      "target": "https://petergabriel.bandcamp.com/"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/31251"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+    },
+    {
+      "type": "biography",
+      "target": "https://www.databasedreams.co.uk/charts/index.php?action=music;area=artists;sa=home;art=944"
+    },
+    {
+      "type": "discography page",
+      "target": "https://progrography.com/category/peter-gabriel/"
+    },
+    {
+      "type": "discography page",
+      "target": "https://www.databasedreams.co.uk/charts/index.php?action=music;area=artists;sa=home;art=944"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/11136"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.deltaforce.net/~jnu/pg/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.cometalktome.com/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.peter-gabriel.net/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.solsburyhill.org/"
+    },
+    {
+      "type": "fanpage",
+      "target": "http://www.ingsoc.com/gabriel/"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/7C4sUpWGlTy7IANjruj02I"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/1048"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/259472582"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Peter_Gabriel_Allan_Warren.jpg"
+    },
+    {
+      "type": "image",
+      "target": "https://www.databasedreams.co.uk/charts/index.php?action=music;area=artists;sa=home;art=944"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0300272/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Peter+Gabriel"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Peter-gabriel"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://muzikum.eu/en/peter-gabriel/lyrics"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://www.musixmatch.com/artist/Peter-Gabriel"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/PeterGabriel"
+    },
+    {
+      "type": "official homepage",
+      "target": "https://petergabriel.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n84001953"
+    },
+    {
+      "type": "other databases",
+      "target": "http://musicmoz.org/Bands_and_Artists/G/Gabriel,_Peter/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://mvdbase.com/person.php?&id=A249"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13894232z"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118907190"
+    },
+    {
+      "type": "other databases",
+      "target": "https://imvdb.com/n/peter-gabriel"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6514vk6"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL506799A"
+    },
+    {
+      "type": "other databases",
+      "target": "http://soundtrackcollector.com/composer/134/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/peter-gabriel"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.45cat.com/artist/peter-gabriel"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.livefans.jp/artists/35723"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/peter-gabriel/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.muziekweb.nl/Link/M00000283762/POPULAR/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.progarchives.com/artist.asp?id=686"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.spirit-of-rock.com/en/band/Peter_Gabriel"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Peter-Gabriel/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n84001953"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://play.google.com/store/music/artist?id=Acms37pzrhepllaqrespolo6m4q"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id115433"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://mora.jp/artist/324471/all"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.7digital.com/artist/peter-gabriel"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.junodownload.com/artists/Peter+Gabriel/releases/"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.qobuz.com/de-de/interpreter/peter-gabriel/40340"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.qobuz.com/us-en/interpreter/peter-gabriel/40340"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.amazon.com/-/e/B000APF3MU"
+    },
+    {
+      "type": "purchase for mail-order",
+      "target": "https://www.cdjapan.co.jp/person/700252379"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/128"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/peter-gabriel-5bd6b794.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/itspetergabriel"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/PeterGabriel"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/itspetergabriel/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/162962"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/peter-gabriel-official"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B001E79EVY"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/115433"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/115433"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/9606"
+    },
+    {
+      "type": "streaming",
+      "target": "https://www.qobuz.com/us-en/interpreter/peter-gabriel/40340"
+    },
+    {
+      "type": "ticketing",
+      "target": "https://www.ticketmaster.com/artist/735139"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/27251764"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q175195"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCmcjOnFmIlg-LqTocHbQkFw"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCRLD4l_mxKZcKGtoH6KOvDw"
+    },
+    {
+      "type": "youtube music",
+      "target": "https://music.youtube.com/channel/UC7dI7qJoDsMd388DTtcwIZg"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "4e6f2a81-ec6d-378c-a824-0cd0538bbb21",
+      "title": "Peter Gabriel",
+      "type": "Album",
+      "first_release_date": "1977-02-25"
+    },
+    {
+      "id": "7683e0d7-3b1b-3300-8ee4-ee0ad1d6a308",
+      "title": "Peter Gabriel",
+      "type": "Album",
+      "first_release_date": "1978-06-02"
+    },
+    {
+      "id": "fe9f06cd-a160-3114-85fd-102726dddc0b",
+      "title": "Peter Gabriel",
+      "type": "Album",
+      "first_release_date": "1980-05-30"
+    },
+    {
+      "id": "dcbb0d02-9d95-3234-8389-44e15e8e955e",
+      "title": "Peter Gabriel",
+      "type": "Album",
+      "first_release_date": "1982-09-05"
+    },
+    {
+      "id": "be3cc3e7-bdb0-3c13-a60b-a985b30eb603",
+      "title": "So",
+      "type": "Album",
+      "first_release_date": "1986-05-19"
+    },
+    {
+      "id": "2c014cc2-7eb6-3df0-ab17-9a1f57711d5b",
+      "title": "Us",
+      "type": "Album",
+      "first_release_date": "1992-09-14"
+    },
+    {
+      "id": "a6ddfd58-62ab-383f-9b76-4af083496fb3",
+      "title": "Up",
+      "type": "Album",
+      "first_release_date": "2002-09-19"
+    },
+    {
+      "id": "359451df-3a5c-4c74-ac64-2e2bf1bcfeba",
+      "title": "Scratch My Back",
+      "type": "Album",
+      "first_release_date": "2010-02-12"
+    },
+    {
+      "id": "55b8bbdd-4252-455f-8fe7-ac64e7893f1a",
+      "title": "New Blood",
+      "type": "Album",
+      "first_release_date": "2011-10-09"
+    },
+    {
+      "id": "7dc5a2fe-452f-462b-a5c0-b303d3e60629",
+      "title": "i/o",
+      "type": "Album",
+      "first_release_date": "2023-12-01"
+    },
+    {
+      "id": "d4666896-ec04-458c-990a-c1aa52365313",
+      "title": "Peter Gabriel",
+      "type": "Compilation",
+      "first_release_date": "1982"
+    },
+    {
+      "id": "c4fdb5a5-5b15-3a4f-8146-b99782e1c7f5",
+      "title": "Shaking the Tree: Sixteen Golden Greats",
+      "type": "Compilation",
+      "first_release_date": "1990-11-19"
+    },
+    {
+      "id": "be2649b2-5296-3a62-b377-3d37b8708454",
+      "title": "Revisited",
+      "type": "Compilation",
+      "first_release_date": "1992"
+    },
+    {
+      "id": "66bb0263-d3f7-42c1-8f04-9d28f3d2ef00",
+      "title": "Real World Notes CD-EXTRA #2",
+      "type": "Compilation",
+      "first_release_date": "1996-06"
+    },
+    {
+      "id": "3e4ee2da-cf5a-353c-a942-75b5be2cbf5f",
+      "title": "Solid Gold Collection",
+      "type": "Compilation",
+      "first_release_date": "2001"
+    },
+    {
+      "id": "92f5b607-292b-3f28-8151-c55341818dd0",
+      "title": "Hit",
+      "type": "Compilation",
+      "first_release_date": "2003-10-31"
+    },
+    {
+      "id": "6e9ebbd2-909d-4afd-b373-668917ae531c",
+      "title": "Play: The Videos",
+      "type": "Compilation",
+      "first_release_date": "2004"
+    },
+    {
+      "id": "cfb822b4-6510-411a-bcf5-c262b8707e87",
+      "title": "Half Blood",
+      "type": "Compilation",
+      "first_release_date": "2011-10-10"
+    },
+    {
+      "id": "bf75c3ce-6d3f-4c78-a5f3-5028c30376be",
+      "title": "Scratch My Back / And I’ll Scratch Yours",
+      "type": "Compilation",
+      "first_release_date": "2013-09-20"
+    },
+    {
+      "id": "bb1dc925-1840-4d91-b34d-cb3f223fca03",
+      "title": "And I’ll Scratch Yours",
+      "type": "Compilation",
+      "first_release_date": "2013-09-23"
+    },
+    {
+      "id": "b4065de5-b2df-4d1c-b3d9-3cbbc1de1470",
+      "title": "Flotsam and Jetsam",
+      "type": "Compilation",
+      "first_release_date": "2019-09-13"
+    },
+    {
+      "id": "6e77a529-80d9-426d-af0c-12a701d30763",
+      "title": "Rated PG",
+      "type": "Compilation",
+      "first_release_date": "2019-04-13"
+    },
+    {
+      "id": "7f24e109-42d7-3e55-b684-1452550d89b7",
+      "title": "Birdy: Music From the Film",
+      "type": "Soundtrack",
+      "first_release_date": "1985-03-18"
+    },
+    {
+      "id": "c4b605c9-d36c-313a-92b0-18db1e07e5a5",
+      "title": "Passion: Music for The Last Temptation of Christ",
+      "type": "Soundtrack",
+      "first_release_date": "1989-06-05"
+    },
+    {
+      "id": "47b9bad0-0e31-33ac-abdf-8bc4b067a023",
+      "title": "OVO",
+      "type": "Soundtrack",
+      "first_release_date": "2000-06-12"
+    }
+  ],
+  "tracks": {
+    "4e6f2a81-ec6d-378c-a824-0cd0538bbb21": [
+      {
+        "id": "30dccf84-c29f-4474-902b-15efdb368b92",
+        "title": "Moribund the Burgermeister",
+        "position": "1",
+        "length": "258933",
+        "work": {
+          "id": "eeb09010-7338-3a79-ba11-44c689083349",
+          "title": "Moribund the Burgermeister",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "84f5e49f-e1f8-4d97-b313-32aac570eb66",
+        "title": "Solsbury Hill",
+        "position": "2",
+        "length": "261853",
+        "work": {
+          "id": "17921999-272a-389b-a2f3-0e9f98924767",
+          "title": "Solsbury Hill",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "530dfc71-7689-46b4-9de2-584e517176c8",
+        "title": "Modern Love",
+        "position": "3",
+        "length": "218000",
+        "work": {
+          "id": "cf610ca0-a95f-3606-a65d-e265e8a97ae4",
+          "title": "Modern Love",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "76f916b1-5891-42a4-ba2c-3cfab8c75fe1",
+        "title": "Excuse Me",
+        "position": "4",
+        "length": "200000",
+        "work": {
+          "id": "361ae712-04d5-3ed6-b82b-914200a2458a",
+          "title": "Excuse Me",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f6b08c3c-76ca-4643-870c-a2bc0334537a",
+        "title": "Humdrum",
+        "position": "5",
+        "length": "205000",
+        "work": {
+          "id": "fb78f908-719c-347e-b73c-c62769ad371d",
+          "title": "Humdrum",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ce76fd05-fcb4-45c9-a651-845903a6061d",
+        "title": "Slowburn",
+        "position": "6",
+        "length": "276066",
+        "work": {
+          "id": "06960aee-2fe5-3783-a32d-a83f0080c53c",
+          "title": "Slowburn",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f27e4477-d8eb-4678-9bad-4f2bf98bc561",
+        "title": "Waiting for the Big One",
+        "position": "7",
+        "length": "435000",
+        "work": {
+          "id": "3fa689d3-1c44-3acd-8285-5ee0dc7263ce",
+          "title": "Waiting for the Big One",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "38cee900-2d3c-47c0-81ab-081e9bc7ae8f",
+        "title": "Down the Dolce Vita",
+        "position": "8",
+        "length": "282773",
+        "work": {
+          "id": "442e5f12-bf4e-38a1-a6d3-18de8e231fd4",
+          "title": "Down the Dolce Vita",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "61228565-685b-4f9d-81fc-88b518011dcc",
+        "title": "Here Comes the Flood",
+        "position": "9",
+        "length": "354000",
+        "work": {
+          "id": "6fcee893-0836-3b1f-968f-f0b1d97f89ea",
+          "title": "Here Comes the Flood",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      }
+    ],
+    "7683e0d7-3b1b-3300-8ee4-ee0ad1d6a308": [
+      {
+        "id": "b2273103-9b02-4804-be96-0ab9e1db299d",
+        "title": "On the Air",
+        "position": "1",
+        "length": "328360",
+        "work": {
+          "id": "f020b5a7-be34-4557-b849-382caa3871f1",
+          "title": "On the Air",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "449d95c1-c147-43b6-9842-8770404392b6",
+        "title": "D.I.Y.",
+        "position": "2",
+        "length": "158226",
+        "work": {
+          "id": "b1a3bfd0-48b7-4d5c-adc5-28df89635150",
+          "title": "D.I.Y.",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ee92cc91-0eb7-4762-8ea7-db71b6e2e542",
+        "title": "Mother of Violence",
+        "position": "3",
+        "length": "202000",
+        "work": {
+          "id": "d6192f57-90ca-461d-85af-a5dbbdce89e7",
+          "title": "Mother of Violence",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            },
+            {
+              "name": "Jill Gabriel",
+              "mbid": "a8429791-7be3-45ba-82cd-14a74f8f8508"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f1f7f278-21d0-472b-8955-5219e7352d99",
+        "title": "A Wonderful Day in a One‐Way World",
+        "position": "4",
+        "length": "215706",
+        "work": {
+          "id": "a5fa0c2a-5637-4b23-84ab-4052622652f8",
+          "title": "A Wonderful Day in a One‐Way World",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a8801ca8-79ce-4f08-af1a-0797c5fa3b67",
+        "title": "White Shadow",
+        "position": "5",
+        "length": "318733",
+        "work": {
+          "id": "aa78acae-49db-4ca8-b3e8-957598efbb7a",
+          "title": "White Shadow",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "211bd49f-86d9-45ac-ae1a-fcff2218ae2e",
+        "title": "Indigo",
+        "position": "6",
+        "length": "213000",
+        "work": {
+          "id": "9daa3d5e-7d6a-44da-b273-337a6cc3aca1",
+          "title": "Indigo",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f7d74c5b-4d77-4414-b8f2-afe1024564eb",
+        "title": "Animal Magic",
+        "position": "7",
+        "length": "209333",
+        "work": {
+          "id": "1a9ff420-da05-4d06-8a43-97dae9e7f277",
+          "title": "Animal Magic",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3c15e1cd-64f1-4ed9-9c14-5984b3edbcfd",
+        "title": "Exposure",
+        "position": "8",
+        "length": "257493",
+        "work": {
+          "id": "5cce2272-d0cf-4689-b317-f3328351f1b8",
+          "title": "Exposure",
+          "composers": [
+            {
+              "name": "Robert Fripp",
+              "mbid": "898b645e-eed2-490a-8ce2-0e7a4d2d5bc8"
+            },
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "88d5da7f-461a-405d-978a-8195c609eb2f",
+        "title": "Flotsam and Jetsam",
+        "position": "9",
+        "length": "142306",
+        "work": {
+          "id": "d7e8600a-dd3f-4eac-b7b2-07eb2e6a5b16",
+          "title": "Flotsam and Jetsam",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "10f85510-4497-46d9-9c5b-c8663c7a8ba1",
+        "title": "Perspective",
+        "position": "10",
+        "length": "208893",
+        "work": {
+          "id": "5f5eaaf9-d767-44cb-ae1b-070cbfd021f6",
+          "title": "Perspective",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "09806af6-68bc-496b-a263-c937eb98cf03",
+        "title": "Home Sweet Home",
+        "position": "11",
+        "length": "279640",
+        "work": {
+          "id": "97e6053d-d233-4aeb-979f-25df9937ef25",
+          "title": "Home Sweet Home",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      }
+    ],
+    "fe9f06cd-a160-3114-85fd-102726dddc0b": [
+      {
+        "id": "ec271200-4aff-44b4-8ea3-bb332adec929",
+        "title": "Intruder",
+        "position": "1",
+        "length": "293733",
+        "work": {
+          "id": "7594212c-3f09-3543-aa79-c6d2c453b9c3",
+          "title": "Intruder",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "327d6eed-4f72-4160-a418-8a9f48edd63d",
+        "title": "No Self Control",
+        "position": "2",
+        "length": "235800",
+        "work": {
+          "id": "c4262c54-c76e-42df-93f3-39d2c15455db",
+          "title": "No Self Control",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "233abf8c-f385-42c1-b2e1-bbb9aeddf444",
+        "title": "Start",
+        "position": "3",
+        "length": "80800",
+        "work": {
+          "id": "b6a5c0cd-dffc-4e19-a0b0-24d5e2dffac9",
+          "title": "Start",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e2c5e998-ceb5-44ea-8b90-10bb9094e59b",
+        "title": "I Don’t Remember",
+        "position": "4",
+        "length": "282093",
+        "work": {
+          "id": "1f235196-7152-32e4-aa62-25d89a49ca9d",
+          "title": "I Don’t Remember",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fb195947-27dc-4d48-b73e-a8b2bcd44f5d",
+        "title": "Family Snapshot",
+        "position": "5",
+        "length": "268000",
+        "work": {
+          "id": "06f87358-f383-4529-a2b5-43db6c252cad",
+          "title": "Family Snapshot",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fed149eb-91c9-4dd7-b91a-d4f4660738d1",
+        "title": "And Through the Wire",
+        "position": "6",
+        "length": "298360",
+        "work": {
+          "id": "3f95c54e-b88d-4f89-a604-bd12cdb8a523",
+          "title": "And Through the Wire",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f60efa5f-76e3-41c9-93cd-dab1eec32d53",
+        "title": "Games Without Frontiers",
+        "position": "7",
+        "length": "243426",
+        "work": {
+          "id": "e98cd015-5031-38da-b7a3-06465072cc6d",
+          "title": "Games Without Frontiers",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "aa601d0d-fa04-426a-aa07-25f624e3b89a",
+        "title": "Not One of Us",
+        "position": "8",
+        "length": "321906",
+        "work": {
+          "id": "70f891af-ab8e-41c4-8581-01aa06b19ca7",
+          "title": "Not One of Us",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "eade69ee-0d98-4f4b-8e0f-1f29339b26a1",
+        "title": "Lead a Normal Life",
+        "position": "9",
+        "length": "254826",
+        "work": {
+          "id": "ed3a4eb0-48f0-4e52-a8c6-d0e960010f86",
+          "title": "Lead a Normal Life",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "32d6f4ec-e430-4adb-a5ca-d506d1b0399b",
+        "title": "Biko",
+        "position": "10",
+        "length": "447226",
+        "work": {
+          "id": "2e585bfd-6b65-36a5-9e0a-4bb1353faebd",
+          "title": "Biko",
+          "composers": [
+            {
+              "name": "Peter Gabriel",
+              "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 11136,
+  "wikidata_id": "Q175195"
+}

@@ -80,9 +80,59 @@ def fetch_artist(wikidata_id, artist_name):
     except Exception:
         pass
 
-    genres = prop_values.get("genres", [])
+    # Filter genres: only keep music genres (exclude film, game, TV categories)
+    # Uses a secondary SPARQL query to check P31/P279 class hierarchy
+    raw_genres = prop_values.get("genres", [])
+    if raw_genres:
+        try:
+            # Query Wikidata for which of this artist's genres are music genres
+            # Q188451 = music genre, check via P31/P279* (instance of / subclass chain)
+            music_genre_query = f"""
+            SELECT DISTINCT ?genreLabel WHERE {{
+              wd:{wikidata_id} wdt:P136 ?genre .
+              ?genre wdt:P31/wdt:P279* wd:Q188451 .
+              SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+            }}
+            """
+            mg_results = _query(music_genre_query)
+            music_genres = {r["genreLabel"]["value"] for r in mg_results["results"]["bindings"]
+                           if not r["genreLabel"]["value"].startswith("Q")}
+            if music_genres:
+                genres = [g for g in raw_genres if g in music_genres]
+            else:
+                genres = raw_genres  # Fallback if query returns nothing
+        except Exception:
+            genres = raw_genres  # Fallback on error
+    else:
+        genres = []
+
+    # Filter awards: only keep music-related awards
+    # Q4220920 = music award, check via P31/P279*
+    raw_awards = prop_values.get("awards", [])
+    if raw_awards:
+        try:
+            music_award_query = f"""
+            SELECT DISTINCT ?awardLabel WHERE {{
+              wd:{wikidata_id} wdt:P166 ?award .
+              {{ ?award wdt:P31/wdt:P279* wd:Q4220920 . }}
+              UNION
+              {{ ?award wdt:P31/wdt:P279* wd:Q618779 . }}
+              SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+            }}
+            """
+            ma_results = _query(music_award_query)
+            music_awards = {r["awardLabel"]["value"] for r in ma_results["results"]["bindings"]
+                           if not r["awardLabel"]["value"].startswith("Q")}
+            if music_awards:
+                awards = [a for a in raw_awards if a in music_awards]
+            else:
+                awards = raw_awards  # Fallback
+        except Exception:
+            awards = raw_awards  # Fallback
+    else:
+        awards = []
+
     instruments = prop_values.get("instruments", [])
-    awards = prop_values.get("awards", [])
     labels = prop_values.get("labels", [])
     influences = prop_values.get("influences", [])
     occupations = prop_values.get("occupations", [])

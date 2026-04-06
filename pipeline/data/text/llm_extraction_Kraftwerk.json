@@ -1,0 +1,112 @@
+[
+  {
+    "subject": "Kraftwerk",
+    "predicate": "founded",
+    "object": "Ralf H\u00fctter"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "founded",
+    "object": "Florian Schneider"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "hasGenre",
+    "object": "electronic music"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "hasMusicalPeriod",
+    "object": "krautrock"
+  },
+  {
+    "subject": "Wolfgang Fl\u00fcr",
+    "predicate": "memberOf",
+    "object": "Kraftwerk"
+  },
+  {
+    "subject": "Karl Bartos",
+    "predicate": "memberOf",
+    "object": "Kraftwerk"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "released",
+    "object": "Autobahn"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "released",
+    "object": "Trans-Europe Express"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "released",
+    "object": "The Man-Machine"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "released",
+    "object": "Computer World"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "released",
+    "object": "Electric Caf\u00e9"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "released",
+    "object": "Tour de France Soundtracks"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "hasGenre",
+    "object": "robot pop"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "influencedBy",
+    "object": "synth-pop"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "influencedBy",
+    "object": "hip hop"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "influencedBy",
+    "object": "post-punk"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "influencedBy",
+    "object": "techno"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "influencedBy",
+    "object": "house music"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "influencedBy",
+    "object": "ambient"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "influencedBy",
+    "object": "club music"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "released",
+    "object": "3-D The Catalogue"
+  },
+  {
+    "subject": "Kraftwerk",
+    "predicate": "pioneerOf",
+    "object": "electronic music"
+  }
+]

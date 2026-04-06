@@ -1,0 +1,655 @@
+{
+  "mbid": "6514cffa-fbe0-4965-ad88-e998ead8a82a",
+  "name": "Fela Kuti",
+  "type": "Person",
+  "country": "NG",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1938-10-15",
+    "end": "1997-08-02",
+    "ended": "true"
+  },
+  "area": "Nigeria",
+  "begin_area": "Ogun",
+  "tags": [
+    {
+      "name": "african",
+      "count": "3"
+    },
+    {
+      "name": "afro-beat",
+      "count": "1"
+    },
+    {
+      "name": "afrobeat",
+      "count": "5"
+    },
+    {
+      "name": "jazz",
+      "count": "1"
+    },
+    {
+      "name": "jùjú",
+      "count": "1"
+    },
+    {
+      "name": "nigerian",
+      "count": "2"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "founder",
+      "direction": "forward",
+      "target_name": "Egypt 80",
+      "target_mbid": "b1196ced-08e8-4f1b-9e36-cac421d532ca",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "founder",
+      "direction": "forward",
+      "target_name": "Africa 70",
+      "target_mbid": "dc45f2dc-ef36-4a7a-aa52-97495fca8ced",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "founder",
+      "direction": "forward",
+      "target_name": "Nigeria 70",
+      "target_mbid": "517e8c0e-0232-4e31-89c8-038c3cf01f60",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Koola Lobitos",
+      "target_mbid": "0caf8763-7875-4f47-8bce-9932c6629604",
+      "attributes": [],
+      "begin": "1961",
+      "end": "1969"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Egypt 80",
+      "target_mbid": "b1196ced-08e8-4f1b-9e36-cac421d532ca",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Fela Ransome‐Kuti Quintet",
+      "target_mbid": "473cecf3-5982-4107-8f8e-81cd76935141",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "named after artist",
+      "direction": "backward",
+      "target_name": "Fehler Kuti",
+      "target_mbid": "0b28b553-69d7-455a-bd37-d5fa655bfe1c",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Femi Kuti",
+      "target_mbid": "702d2b90-eef0-4354-b2c4-6366eba92b7f",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Seun Kuti",
+      "target_mbid": "02e5d1fe-db84-450d-b58f-b4f5a34a7a35",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Yeni Anikulapo-Kuti",
+      "target_mbid": "b109c0fe-15ab-4bf8-9575-22658fdef4dc",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Olusoladegbin Anikapulo-Kuti",
+      "target_mbid": "ce102494-3ac0-4c61-88a3-d425ec77c45e",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000138833"
+    },
+    {
+      "type": "bandcamp",
+      "target": "https://felakuti.bandcamp.com/"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/37496"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/6514cffa-fbe0-4965-ad88-e998ead8a82a"
+    },
+    {
+      "type": "biography",
+      "target": "http://africanmusic.org/artists/felakuti.html"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.avclub.com/article/fela-kuti-and-the-power-of-rhythm-1373"
+    },
+    {
+      "type": "blog",
+      "target": "https://trackloaded.com/tag/fela-kuti/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://biochem.chem.nagoya-u.ac.jp/~endo/EAFela.html"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.fela.net/discography/"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.rootsworld.com/rw/feature/feladisc.html"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/19812"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/5CG9X521RDFWCuAhlo6QoR"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/9440"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm1324034/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Fela+Kuti"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Fela-kuti"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.felaproject.net/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n83065529"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13190854r"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/123843324"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=484352"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6tm8b0n"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/fela-kuti/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.whosampled.com/Fela-Kuti/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n83065529"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/artist/id55088"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/gb/artist/55088"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://www.beatport.com/artist/fela-kuti/38642"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/69715"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/fela-kuti-33d690cd.html"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/293539"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/55088"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/30191"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/46902663"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q313868"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCoFUl09hePTptc4UOSISC9Q"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/user/Fela"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "1a10f958-0f93-40bb-b180-da4adbd8f0a6",
+      "title": "Fela Ransome Kuti and His Koola Lobitos",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "4fd6a656-6f18-31c5-b920-4d8261c8fcc4",
+      "title": "The ’69 Los Angeles Sessions",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "b00a525e-9b65-4665-b83f-5f031e41cf7e",
+      "title": "Fela's London Scene",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "bbe4951b-3b18-4de8-9157-bd28b9708b1a",
+      "title": "Na Poi",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "72fbfe84-3ba7-302e-b822-335a15eadf96",
+      "title": "Open & Close",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "b0f4cb56-a934-448c-9b6f-8bcf684f891b",
+      "title": "Why Black Man Dey Suffer",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "9d73e697-c0f6-46be-a573-dd303b76c00e",
+      "title": "Roforofo Fight",
+      "type": "Album",
+      "first_release_date": "1972"
+    },
+    {
+      "id": "9759f00b-4ec4-45b7-8ce8-87d4b0ff2a37",
+      "title": "Shakara",
+      "type": "Album",
+      "first_release_date": "1972"
+    },
+    {
+      "id": "4468fa74-f5ac-4942-a76a-7cd8e3921f5b",
+      "title": "Afrodisiac",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "d23c4512-1ef6-3adb-8c4d-f4c13ed096e2",
+      "title": "Gentleman",
+      "type": "Album",
+      "first_release_date": "1973"
+    },
+    {
+      "id": "20cbdd91-bb84-34f5-b262-d27c87e40aed",
+      "title": "Alagbon Close",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "d1ce6ef8-a9de-3a81-81d5-79dc78d81c06",
+      "title": "Confusion",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "492e79ee-f84b-497d-8ebc-a8af181fec89",
+      "title": "Before I Jump Like Monkey Give Me Banana",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "2634bcd5-f6cd-436f-a0e5-dd97fc31bf33",
+      "title": "Everything Scatter",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "b16d9280-f25e-3648-8a8e-1141efd55669",
+      "title": "Expensive Shit",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "5601093c-d044-31e2-97fd-5eeadc77b2d0",
+      "title": "He Miss Road",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "99aa275b-8f00-4f4b-9672-5d48e442c907",
+      "title": "Noise for Vendor Mouth",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "9ffadefa-aaa1-4159-853d-18da93df60fe",
+      "title": "Excuse O",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "e230dd4a-135a-390a-b82e-3cb445ee9f42",
+      "title": "Ikoyi Blindness",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "1fb11a94-da7e-4df3-93dc-2b73c6675c3b",
+      "title": "Kalakuta Show",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "d8408ac6-a9c1-442f-b46d-72ecefe73e2c",
+      "title": "No Bread",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "56e5a668-06f7-44fe-847d-481c3416f670",
+      "title": "Up Side Down",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "e4518b0c-eb54-4e74-a722-dfb5c255e2df",
+      "title": "Yellow Fever",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "517cbfb2-2279-4af9-8ca7-1c4c1a444925",
+      "title": "Zombie",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "0770f39d-6a9e-3d93-b9c9-f410d9c62e3e",
+      "title": "Fear Not for Man",
+      "type": "Album",
+      "first_release_date": "1977"
+    }
+  ],
+  "tracks": {
+    "1a10f958-0f93-40bb-b180-da4adbd8f0a6": [
+      {
+        "id": "d1d6595d-0305-400f-a6c3-4f14b713efc3",
+        "title": "Signature Tune",
+        "position": "1",
+        "length": "23000",
+        "work": null
+      },
+      {
+        "id": "e10e59c1-35a9-4ffc-8d7e-4faa4e28aef6",
+        "title": "It’s Highlife Time",
+        "position": "2",
+        "length": "320000",
+        "work": null
+      },
+      {
+        "id": "e8db9a92-fe39-45ac-b6c1-2895c5b05d4b",
+        "title": "Lagos Baby",
+        "position": "3",
+        "length": "215000",
+        "work": null
+      },
+      {
+        "id": "7ba096bd-87cf-48e8-b655-2214233df506",
+        "title": "Omuti",
+        "position": "4",
+        "length": "232000",
+        "work": null
+      },
+      {
+        "id": "7fa2ca49-5827-4dbb-ad62-7a4ee79fc6cf",
+        "title": "Ololufe",
+        "position": "5",
+        "length": "319000",
+        "work": null
+      },
+      {
+        "id": "82f5d5c2-6f8b-437a-8469-7d34dd5775cf",
+        "title": "Araba's Delight",
+        "position": "6",
+        "length": "298000",
+        "work": null
+      },
+      {
+        "id": "e53bc66e-03b3-47d6-b314-99603473468a",
+        "title": "Wa dele",
+        "position": "7",
+        "length": "247866",
+        "work": null
+      },
+      {
+        "id": "b3a5e2ef-5094-4237-b878-c5164e7358ad",
+        "title": "Lai Se",
+        "position": "8",
+        "length": "254000",
+        "work": null
+      },
+      {
+        "id": "608039b8-0266-4b89-bc72-76ab02f6e8c7",
+        "title": "Mi o Mo",
+        "position": "9",
+        "length": "283666",
+        "work": null
+      },
+      {
+        "id": "824f965e-58c1-4567-8ef4-3fcb1ba385f9",
+        "title": "Obirin le",
+        "position": "10",
+        "length": "289453",
+        "work": null
+      },
+      {
+        "id": "13d691cd-8fc3-445c-9118-867a7da75226",
+        "title": "Omo Ejo",
+        "position": "11",
+        "length": "304000",
+        "work": null
+      }
+    ],
+    "4fd6a656-6f18-31c5-b920-4d8261c8fcc4": [
+      {
+        "id": "1c29e6d7-83be-491d-8fea-f861e80dcaa8",
+        "title": "My Lady's Frustration",
+        "position": "1",
+        "length": "421693",
+        "work": null
+      },
+      {
+        "id": "87bed749-422c-4ae9-91e0-bde1b4f56f76",
+        "title": "Viva Nigeria",
+        "position": "2",
+        "length": "226000",
+        "work": null
+      },
+      {
+        "id": "13b8350e-bec7-4c58-8d60-0bdbba2c20d0",
+        "title": "Obe (Stew)",
+        "position": "3",
+        "length": "193000",
+        "work": null
+      },
+      {
+        "id": "2580b0f9-7d1e-4b66-9f3e-0b377621caf4",
+        "title": "Ako",
+        "position": "4",
+        "length": "163000",
+        "work": null
+      },
+      {
+        "id": "4850e0f2-b32b-459d-99f7-b17581d956a4",
+        "title": "Witchcraft",
+        "position": "5",
+        "length": "327000",
+        "work": null
+      },
+      {
+        "id": "42419475-6fab-4910-9f2b-e9365b5da937",
+        "title": "Wayo",
+        "position": "6",
+        "length": "208000",
+        "work": null
+      },
+      {
+        "id": "fd811903-6d63-4112-876d-8b0668426eb5",
+        "title": "Lover",
+        "position": "7",
+        "length": "371000",
+        "work": null
+      },
+      {
+        "id": "0c46433f-2b54-45a6-8257-67a66e4375b6",
+        "title": "Funky Horn",
+        "position": "8",
+        "length": "284000",
+        "work": null
+      },
+      {
+        "id": "a2be3b89-1f18-4359-a120-2182969cb3b9",
+        "title": "Eko",
+        "position": "9",
+        "length": "255000",
+        "work": null
+      },
+      {
+        "id": "3983cc8a-a890-42c2-a351-009d68d337ec",
+        "title": "This Is Sad",
+        "position": "10",
+        "length": "263000",
+        "work": {
+          "id": "bf864da6-3b35-4c5a-a089-0106ac320d73",
+          "title": "This Is Sad",
+          "composers": [
+            {
+              "name": "Fela Kuti",
+              "mbid": "6514cffa-fbe0-4965-ad88-e998ead8a82a"
+            }
+          ]
+        }
+      }
+    ],
+    "b00a525e-9b65-4665-b83f-5f031e41cf7e": [
+      {
+        "id": "7f122958-f0b9-46dc-9338-6d02e4121238",
+        "title": "J'Ehin J'Ehin",
+        "position": "1",
+        "length": "446893",
+        "work": null
+      },
+      {
+        "id": "d52ad5fa-4ab0-4736-aa9a-4c604e2ddce8",
+        "title": "Egbe Mi O",
+        "position": "2",
+        "length": "795200",
+        "work": {
+          "id": "74ee6050-626f-420f-8544-68a616a51b55",
+          "title": "Egbe mi o (Carry Me I Want to Die)",
+          "composers": [
+            {
+              "name": "Fela Kuti",
+              "mbid": "6514cffa-fbe0-4965-ad88-e998ead8a82a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "818ebde8-2661-417e-830d-e2586bb80075",
+        "title": "Who're You",
+        "position": "3",
+        "length": "570240",
+        "work": null
+      },
+      {
+        "id": "85623d3e-99d4-4f21-b627-c0742d994c4a",
+        "title": "Buy Africa",
+        "position": "4",
+        "length": "350466",
+        "work": null
+      },
+      {
+        "id": "50e90607-7501-4f36-9f59-58a52155e009",
+        "title": "Fight to Finish",
+        "position": "5",
+        "length": "444734",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 19812,
+  "wikidata_id": "Q313868"
+}

@@ -1,0 +1,712 @@
+{
+  "mbid": "3af06bc4-68ad-4cae-bb7a-7eeeb45e411f",
+  "name": "Duke Ellington",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1899-04-29",
+    "end": "1974-05-24",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "Washington, D.C.",
+  "tags": [
+    {
+      "name": "big band",
+      "count": "2"
+    },
+    {
+      "name": "duke box",
+      "count": "1"
+    },
+    {
+      "name": "jazz",
+      "count": "4"
+    },
+    {
+      "name": "newport",
+      "count": "1"
+    },
+    {
+      "name": "swing",
+      "count": "2"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Onzy Matthews",
+      "target_mbid": "7b102049-c246-4295-8f3d-5737e06a786d",
+      "attributes": [
+        "piano"
+      ],
+      "begin": "1966",
+      "end": "1975"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington’s Spacemen",
+      "target_mbid": "e5e3f498-6a63-46b1-82a7-909d3e525fc9",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington & His Washingtonians",
+      "target_mbid": "3c7f2407-306b-44d1-9d62-cc8f3b6b678e",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington Quartet",
+      "target_mbid": "729aaeec-f929-4769-afdf-6b52f31908c6",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Duke Ellington Trio",
+      "target_mbid": "e77bb098-1a00-4ada-95fe-c7037233a7d0",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington’s Jazz Ensemble",
+      "target_mbid": "3563785a-49a6-47de-98e1-e9a523ae3e4b",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington’s Hot Five",
+      "target_mbid": "57e03021-b902-4168-8ece-4bf18a7cfe74",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington & the Jungle Band",
+      "target_mbid": "4a4eff71-42c6-4afc-828d-ea6f9dcd1721",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington and His Orchestra",
+      "target_mbid": "c01557ad-d41e-4316-a285-605769e2ab3b",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington and His Orchestra",
+      "target_mbid": "c01557ad-d41e-4316-a285-605769e2ab3b",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington & His Washingtonians",
+      "target_mbid": "3c7f2407-306b-44d1-9d62-cc8f3b6b678e",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Duke Ellington Sextet",
+      "target_mbid": "b8dfdb4a-61c9-444b-93e4-fc81aa1e532b",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington and His Rhythm",
+      "target_mbid": "8403077f-9097-40ec-b449-57887fce490d",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Leonard Feather’s Esquire All‐Americans",
+      "target_mbid": "e5302297-db17-4f89-999a-80bb59ad3f07",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Billy Strayhorn Trio",
+      "target_mbid": "17e5e4ec-000e-41ae-958a-dc33ae23fc78",
+      "attributes": [
+        "piano"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington Octet",
+      "target_mbid": "d578d8aa-9651-4ba0-a22d-99cf1eb2ab90",
+      "attributes": [
+        "eponymous",
+        "original",
+        "piano"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Duke Ellington & His Band",
+      "target_mbid": "2dd1c04f-865c-4c5a-8ff7-f49655a294c8",
+      "attributes": [
+        "eponymous",
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Washingtonians",
+      "target_mbid": "89d41e6e-c7be-4e3d-8739-d24818b7941a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Harlem Footwarmers",
+      "target_mbid": "acff86a4-195a-477e-94f4-90a94e681c03",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Mills' Ten Black Berries",
+      "target_mbid": "7c8b23bd-f934-4d11-a1d0-26d8cf18c882",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Mercer Ellington",
+      "target_mbid": "a86ce05d-ba80-4e65-8091-12835bad02d3",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000120323"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/3af06bc4-68ad-4cae-bb7a-7eeeb45e411f"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.pbs.org/wnet/gperf/education/ellington.html"
+    },
+    {
+      "type": "biography",
+      "target": "http://www.redhotjazz.com/duke.html"
+    },
+    {
+      "type": "discography page",
+      "target": "http://www.redhotjazz.com/duke.html"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/145257"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/4F7Q5NV6h5TSwCainz8S5A"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/57504"
+    },
+    {
+      "type": "image",
+      "target": "https://commons.wikimedia.org/wiki/File:Duke_Ellington_-_publicity.JPG"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0254153/"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Duke-ellington"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.dukeellington.com/"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.dukeellingtonlegacy.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n50080187"
+    },
+    {
+      "type": "other databases",
+      "target": "https://adp.library.ucsb.edu/names/102155"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13893638w"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/118529994"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=11631"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6639nkm"
+    },
+    {
+      "type": "other databases",
+      "target": "https://nla.gov.au/nla.party-815399"
+    },
+    {
+      "type": "other databases",
+      "target": "https://openlibrary.org/works/OL1953949A"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/duke_ellington"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n50080187/"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/4305"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/duke-ellington-13d6b5d5.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/dukeellington"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/67111"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/39525"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/1156"
+    },
+    {
+      "type": "vgmdb",
+      "target": "https://vgmdb.net/artist/44339"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/66651610"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q4030"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "783a784f-8b61-4437-8ef4-617bbde86e89",
+      "title": "The Duke",
+      "type": "Album",
+      "first_release_date": "1940"
+    },
+    {
+      "id": "ce4d0379-ee9c-47a2-ad54-c36acff58619",
+      "title": "One Night Stand",
+      "type": "Album",
+      "first_release_date": "1945-11-18"
+    },
+    {
+      "id": "e510fa7e-9deb-4061-b3be-f958109926a6",
+      "title": "Black Brown and Beige: A Duke Ellington Tone Parallel to the American Negro",
+      "type": "Album",
+      "first_release_date": "1946"
+    },
+    {
+      "id": "e8b6c9cb-ba81-4d07-8125-f1f6a99db106",
+      "title": "Mercer Records Presents the Billy Strayhorn Trio",
+      "type": "Album",
+      "first_release_date": "1951-06"
+    },
+    {
+      "id": "5a1e1c50-e710-4e8c-8214-ea3f342705c8",
+      "title": "Piano Reflections",
+      "type": "Album",
+      "first_release_date": "1953"
+    },
+    {
+      "id": "a1915c4f-211c-449f-8714-a13754c480e0",
+      "title": "The Duke Plays Ellington",
+      "type": "Album",
+      "first_release_date": "1954-08"
+    },
+    {
+      "id": "620dd228-71ac-4c58-9e96-adc0edb48105",
+      "title": "At Newport",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "f8d5a1fd-04c9-338c-b1a4-811e3b65f684",
+      "title": "Side by Side",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "86ba50d8-ff17-3b8e-94a8-08e02e6926fa",
+      "title": "Back to Back: Duke Ellington and Johnny Hodges Play the Blues",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "9032cfdc-4a1a-4364-b43f-ec26a1e7f272",
+      "title": "Blues in Orbit",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "46d402fc-44f4-40ea-af53-2c5f1fb299ad",
+      "title": "Dance Air Force Date 1960",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "65890654-7523-33e0-a825-2bf9fe8efe41",
+      "title": "First Time! The Count Meets the Duke",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "c67ec5b5-0a13-36fa-878f-2209b5fcc29b",
+      "title": "Piano in the Foreground",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "a2a439e6-35b8-4be8-ac40-e7794e402091",
+      "title": "Recording Together for the First Time",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "1c18538e-e9be-3449-8be1-f3cdc7b493e0",
+      "title": "Money Jungle",
+      "type": "Album",
+      "first_release_date": "1962"
+    },
+    {
+      "id": "317998ff-0f2a-4ae4-ad9b-6b96bc49413b",
+      "title": "The Early Duke Ellington",
+      "type": "Album",
+      "first_release_date": "1963-01-23"
+    },
+    {
+      "id": "0bbc462f-554b-3cc3-b4c5-a78c6a313d5a",
+      "title": "Duke Ellington Meets Coleman Hawkins",
+      "type": "Album",
+      "first_release_date": "1963-02"
+    },
+    {
+      "id": "4f64c4fc-1de9-3b28-970c-e86f78c631be",
+      "title": "Duke Ellington & John Coltrane",
+      "type": "Album",
+      "first_release_date": "1963"
+    },
+    {
+      "id": "adfee37a-06ca-342d-b6b9-60eb2b02ceab",
+      "title": "The Great Reunion",
+      "type": "Album",
+      "first_release_date": "1963"
+    },
+    {
+      "id": "3c24b56c-3c87-4e67-b2e1-0cc86aad1be8",
+      "title": "Duke Ellington, Fletcher Henderson, Artie Shaw and Their Orchestras",
+      "type": "Album",
+      "first_release_date": "1965"
+    },
+    {
+      "id": "e9bbdc99-637b-4ad0-af66-83f791bf0ad9",
+      "title": "Concert of Sacred Music",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "03510992-9fd7-30e3-9a17-cf8b20bed0b3",
+      "title": "Ella at Duke’s Place",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "44c7e02e-e60e-4428-9ba3-23df9cd3613c",
+      "title": "Serenade to Sweden",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "f03bd470-b642-42f1-b4b5-a3f5a39c5fda",
+      "title": "The Duke At Tanglewood",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "c5176862-2fc7-4410-ba2b-46a6c440ede3",
+      "title": "The Far East Suite",
+      "type": "Album",
+      "first_release_date": "1967"
+    }
+  ],
+  "tracks": {
+    "783a784f-8b61-4437-8ef4-617bbde86e89": [
+      {
+        "id": "010f1d70-7709-4e2e-84d1-a2ace1c2924f",
+        "title": "Lazy Rhapsody",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "b4fa1bd3-0979-4ffe-aaf3-c39e494c6b06",
+        "title": "Blue Ramble",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "e05fa9d2-b755-4326-a64f-90420fbc1279",
+        "title": "Baby, When You Ain't There",
+        "position": "1",
+        "length": "167226",
+        "work": null
+      },
+      {
+        "id": "dc700679-be17-468d-b5aa-d7d6015bd992",
+        "title": "Lightnin'",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "103879da-7a4a-42f4-9a26-91752235c0ea",
+        "title": "Best Wishes",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "ce36127a-d1c3-47da-9266-25a7511a1dff",
+        "title": "Bundle of Blues",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "78d4ff1c-e825-44b0-8bbf-f4ab8ba75f56",
+        "title": "Drop Me Off at Harlem",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "df96de47-2340-45ef-a28b-5889ad907e64",
+        "title": "Merry-Go-Round",
+        "position": "2",
+        "length": null,
+        "work": null
+      }
+    ],
+    "ce4d0379-ee9c-47a2-ad54-c36acff58619": [
+      {
+        "id": "176a8a37-c804-49bc-a9fc-1495f7bba27c",
+        "title": "Theme - Take the \"A\" Train",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "09b3057f-2f55-4895-aa4a-d2b9d3134a92",
+        "title": "As Long as I Live",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "76e8cd69-e83f-4508-80c5-9b11c2e6ec71",
+        "title": "9:20 Special",
+        "position": "3",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "2a9947b3-a46d-4d27-8b8c-34ee0d2a68b0",
+        "title": "The Wonder of You",
+        "position": "4",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "8bf71ecf-19ba-478c-a663-05f084c3a712",
+        "title": "Walkin' With My Honey",
+        "position": "5",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "e7e9eecf-1fd3-4cf7-8d8d-b5643778115f",
+        "title": "Three Cent Stomp",
+        "position": "6",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "f8fe252a-10a3-4894-bdec-eb28b1471b9c",
+        "title": "Don't Take Your Love From Me",
+        "position": "7",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "63fa43f2-ae90-4523-ae74-1a3c79ff473f",
+        "title": "Courtin' Session",
+        "position": "8",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "3bdf44e5-a4a4-4586-90d4-586f9708b8d9",
+        "title": "Emancipation Celebration",
+        "position": "9",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "cf80bb65-d5b8-4fbf-8978-3334eb2a3b4c",
+        "title": "Let the Zoomers Drool (Partial)",
+        "position": "10",
+        "length": null,
+        "work": null
+      }
+    ],
+    "e510fa7e-9deb-4061-b3be-f958109926a6": [
+      {
+        "id": "aad90be1-26f4-418a-89b0-e7a626ab0940",
+        "title": "I. Work Song",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "5ca64c37-a018-4daf-9271-828509e19cd9",
+        "title": "II. Come Sunday",
+        "position": "2",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "9e293fe3-9d46-4889-8237-97ffe42cd63e",
+        "title": "III. The Blues",
+        "position": "1",
+        "length": null,
+        "work": null
+      },
+      {
+        "id": "344580da-1e09-4503-891f-89a157a275b3",
+        "title": "IV. Three Dances: A. West Indian Dance / B. Emancipation Celebration / C. Sugar Hill Penthouse (Beige!)",
+        "position": "2",
+        "length": null,
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 145257,
+  "wikidata_id": "Q4030"
+}

@@ -1,0 +1,751 @@
+{
+  "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9",
+  "name": "Alejandro Sanz",
+  "type": "Person",
+  "country": "ES",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1968-12-18",
+    "end": null,
+    "ended": "false"
+  },
+  "area": "Spain",
+  "begin_area": "Madrid",
+  "tags": [
+    {
+      "name": "balada romántica",
+      "count": "1"
+    },
+    {
+      "name": "flamenco pop",
+      "count": "1"
+    },
+    {
+      "name": "latin",
+      "count": "1"
+    },
+    {
+      "name": "latin pop",
+      "count": "3"
+    },
+    {
+      "name": "pop",
+      "count": "2"
+    },
+    {
+      "name": "rock",
+      "count": "1"
+    },
+    {
+      "name": "singer-songwriter",
+      "count": "1"
+    },
+    {
+      "name": "soft rock",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "instrumental supporting musician",
+      "direction": "backward",
+      "target_name": "Vic Mirallas",
+      "target_mbid": "02071eed-d310-471d-9016-7a2f03be9049",
+      "attributes": [
+        "saxophone"
+      ],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000619388"
+    },
+    {
+      "type": "bandsintown",
+      "target": "https://www.bandsintown.com/a/27791"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/9bacf78f-9132-43da-8873-8a9eb49da0e9"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/2123735"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/217655"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/5sUrlPAHlS9NEirDB8SEbF"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/4479"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm1246556/"
+    },
+    {
+      "type": "last.fm",
+      "target": "https://www.last.fm/music/Alejandro+Sanz"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-3487/alejandro-sanz/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Alejandro-sanz"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.alejandrosanz.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/no98016985"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb13957029k"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/134776232"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/alejandro_sanz"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-no98016985"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://itunes.apple.com/us/artist/id162036"
+    },
+    {
+      "type": "setlistfm",
+      "target": "https://www.setlist.fm/setlists/alejandro-sanz-5bd69f04.html"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/AlejandroSanz"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/ASanzOficial"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.instagram.com/alejandrosanz/"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/49378"
+    },
+    {
+      "type": "soundcloud",
+      "target": "https://soundcloud.com/alejandro-sanz-official"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.amazon.com/artists/B000QJHSMI"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/es/artist/162036"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/162036"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.youtube.com/channel/UCGe3279ZI3YLoCWCd7wB0pg"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/12316"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/54338838"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q276170"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCCEZY5vEQBsQN5i3ceiLo7g"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCV4S6_JoeDq9j6mgbpkmA0Q"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "ecfb183a-eb3c-3a40-b411-35f561673e9f",
+      "title": "Los chulos son pa' cuidarlos",
+      "type": "Album",
+      "first_release_date": "1989"
+    },
+    {
+      "id": "6a0bafd0-9489-38b8-bbd7-687d82ec8945",
+      "title": "Viviendo deprisa",
+      "type": "Album",
+      "first_release_date": "1991-08-20"
+    },
+    {
+      "id": "7e69a2cf-2eab-371e-8faa-f6e0b01ce0b4",
+      "title": "Si tú me miras",
+      "type": "Album",
+      "first_release_date": "1993"
+    },
+    {
+      "id": "5837862a-9504-38a7-8dd6-6a96a5550363",
+      "title": "3",
+      "type": "Album",
+      "first_release_date": "1995-06-13"
+    },
+    {
+      "id": "a31adcac-1d78-3ea1-834f-9d721613a222",
+      "title": "Más",
+      "type": "Album",
+      "first_release_date": "1997-09-09"
+    },
+    {
+      "id": "d0319c3d-4c82-3388-a140-3993b3953bee",
+      "title": "El alma al aire",
+      "type": "Album",
+      "first_release_date": "2000-09-26"
+    },
+    {
+      "id": "ed5ba051-1874-3e22-98a7-7a95497f1e27",
+      "title": "No es lo mismo",
+      "type": "Album",
+      "first_release_date": "2003-09-02"
+    },
+    {
+      "id": "a80597d6-783b-33b1-bff1-09a9898bf1ba",
+      "title": "El tren de los momentos",
+      "type": "Album",
+      "first_release_date": "2006-11-07"
+    },
+    {
+      "id": "1ef0809d-9bdb-459a-9a8a-1e90e1fdbd41",
+      "title": "Paraíso Express",
+      "type": "Album",
+      "first_release_date": "2009-11-10"
+    },
+    {
+      "id": "b5fe6a7e-5dca-4351-a67b-a8743fdf3690",
+      "title": "La música no se toca",
+      "type": "Album",
+      "first_release_date": "2012-09-25"
+    },
+    {
+      "id": "9cb47407-109c-4867-808d-eccac60bbc84",
+      "title": "Sirope",
+      "type": "Album",
+      "first_release_date": "2015-05-04"
+    },
+    {
+      "id": "0b2695f5-da3a-44bb-a7aa-02b6095eb3fa",
+      "title": "#ElDisco",
+      "type": "Album",
+      "first_release_date": "2019"
+    },
+    {
+      "id": "978fb7cb-6444-40ea-af2e-cabbe8c1d2b2",
+      "title": "Sanz",
+      "type": "Album",
+      "first_release_date": "2021-12-09"
+    },
+    {
+      "id": "37c91a1d-fe5a-42a5-87c3-b98d6d474ff8",
+      "title": "¿Y ahora qué +?",
+      "type": "Album",
+      "first_release_date": "2025-11-21"
+    },
+    {
+      "id": "2b593421-69bf-3bac-8190-930d23de66fc",
+      "title": "Best of",
+      "type": "Compilation",
+      "first_release_date": "1999"
+    },
+    {
+      "id": "f0558c1c-df6d-3072-804f-1596f4894b0d",
+      "title": "Grandes éxitos 91_04",
+      "type": "Compilation",
+      "first_release_date": "2004-11-16"
+    },
+    {
+      "id": "7028259a-b79f-4071-92bf-28d3c4f03260",
+      "title": "Grandes éxitos 97_04",
+      "type": "Compilation",
+      "first_release_date": "2004-11-16"
+    },
+    {
+      "id": "2d6d53c8-7036-48a4-87e8-f0a30a92bb90",
+      "title": "Colección definitiva",
+      "type": "Compilation",
+      "first_release_date": "2011-11-16"
+    },
+    {
+      "id": "4d0660b6-3a72-48b2-b9f7-ad806980ef12",
+      "title": "Grandes Éxitos 91_96",
+      "type": "Compilation",
+      "first_release_date": null
+    },
+    {
+      "id": "7884d422-7f1e-472e-8a36-4a8dc12b62b7",
+      "title": "Y Si Fueran Ellas",
+      "type": "Compilation",
+      "first_release_date": null
+    },
+    {
+      "id": "a111a732-0364-3bd5-90f0-8a99c0a25f3a",
+      "title": "Básico",
+      "type": "Live",
+      "first_release_date": "1993"
+    },
+    {
+      "id": "5b836695-91d0-30e2-938a-5658d37ca09a",
+      "title": "Gira El alma al aire",
+      "type": "Live",
+      "first_release_date": "2001"
+    },
+    {
+      "id": "fe139c57-01b6-3830-b1b2-5666e31f7dfc",
+      "title": "MTV Unplugged",
+      "type": "Live",
+      "first_release_date": "2001"
+    },
+    {
+      "id": "6079044b-69f1-3dc0-aaed-2647c7777972",
+      "title": "El tren de los momentos: En vivo desde Buenos Aires",
+      "type": "Live",
+      "first_release_date": "2007"
+    },
+    {
+      "id": "e91fb486-9b74-46a4-bcf8-6f2c2561cf04",
+      "title": "Canciones para un paraíso en vivo",
+      "type": "Live",
+      "first_release_date": "2010-07-05"
+    }
+  ],
+  "tracks": {
+    "ecfb183a-eb3c-3a40-b411-35f561673e9f": [
+      {
+        "id": "6a5b9b9a-30c6-4b47-bdaf-a0438b2dd9b6",
+        "title": "Los chulos son pa'cuidarlos",
+        "position": "1",
+        "length": "170000",
+        "work": null
+      },
+      {
+        "id": "921cc8e4-9be0-494a-8f62-6c01ad825133",
+        "title": "Tomasa",
+        "position": "2",
+        "length": "164000",
+        "work": null
+      },
+      {
+        "id": "275bd75b-4443-4b1a-8cca-93cf09e7a100",
+        "title": "El apartamento",
+        "position": "3",
+        "length": "223000",
+        "work": null
+      },
+      {
+        "id": "6dd3eaf9-772e-4e4a-a612-55991ccf4d99",
+        "title": "Se busca un lío",
+        "position": "4",
+        "length": "148000",
+        "work": null
+      },
+      {
+        "id": "437a31f7-168f-419c-9a08-70e642522e09",
+        "title": "Doña Marina",
+        "position": "5",
+        "length": "217000",
+        "work": null
+      },
+      {
+        "id": "61e53fef-d740-49fd-a15f-47a2ac4460df",
+        "title": "Tom Sawyer",
+        "position": "6",
+        "length": "180000",
+        "work": null
+      },
+      {
+        "id": "0dc41668-a182-40d9-b051-0774eff313b8",
+        "title": "Señor papá",
+        "position": "7",
+        "length": "205000",
+        "work": null
+      },
+      {
+        "id": "240a7df2-90ab-4788-9c48-b2ef108f576e",
+        "title": "Cuando navegamos",
+        "position": "8",
+        "length": "191000",
+        "work": null
+      },
+      {
+        "id": "8ba62af8-8a5e-4d93-9160-ef93b707e5b1",
+        "title": "Micaela",
+        "position": "9",
+        "length": "159000",
+        "work": null
+      },
+      {
+        "id": "a7ea8521-e561-4cb6-9c6f-eaccae456451",
+        "title": "Ajaulilí",
+        "position": "10",
+        "length": "197000",
+        "work": null
+      }
+    ],
+    "6a0bafd0-9489-38b8-bbd7-687d82ec8945": [
+      {
+        "id": "806ca0df-cf17-4092-a5b7-0651b690a3b9",
+        "title": "Los dos cogidos de la mano",
+        "position": "1",
+        "length": "304773",
+        "work": {
+          "id": "b5bf879b-5a8d-4c4a-82d0-2a7ad16e8029",
+          "title": "Los dos cogidos de la mano",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "48031f41-15fb-4002-a1ae-f3f6c510fc33",
+        "title": "Pisando fuerte",
+        "position": "2",
+        "length": "269813",
+        "work": {
+          "id": "b1aded81-ae0f-49f1-898d-be9b895f1e36",
+          "title": "Pisando fuerte",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "33350fec-8144-4170-8b45-931915b0717d",
+        "title": "Lo que fui es lo que soy",
+        "position": "3",
+        "length": "281240",
+        "work": {
+          "id": "675b8b58-fcdb-48a4-8c26-0d10815a3033",
+          "title": "Lo que fui es lo que soy",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c131995d-a43b-4b56-b41f-548b7ec8e269",
+        "title": "Todo sigue igual",
+        "position": "4",
+        "length": "316000",
+        "work": {
+          "id": "19c2f743-6dd5-4042-b12f-287addff83d2",
+          "title": "Todo sigue igual",
+          "composers": [
+            {
+              "name": "Jorge Luis Borrego",
+              "mbid": "895d5e87-5877-4c3b-ae8d-b93aa75335be"
+            },
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "be139d0f-3609-42e4-855f-c7861d33b988",
+        "title": "Viviendo deprisa",
+        "position": "5",
+        "length": "199160",
+        "work": {
+          "id": "877cc217-18d5-4f98-8ad2-592f20b30b85",
+          "title": "Viviendo deprisa",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "92310bcd-d3ae-4ba2-940f-b4df82b54a68",
+        "title": "Se le apagó la luz",
+        "position": "6",
+        "length": "287840",
+        "work": {
+          "id": "8968b209-54b0-4352-8dbd-37d75b702309",
+          "title": "Se le apagó la luz",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7a2b287c-ec85-469e-988c-f75de0a6c5ee",
+        "title": "Duelo al amanecer",
+        "position": "7",
+        "length": "213000",
+        "work": {
+          "id": "2a525836-cce5-4748-82fd-3766aaf515f2",
+          "title": "Duelo al amanecer",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9d75134a-9ca2-4ab2-8e90-fd5ff5f01127",
+        "title": "Completamente loca",
+        "position": "8",
+        "length": "214000",
+        "work": {
+          "id": "76bad05b-6ccb-40a3-bcea-aa3fe13878ae",
+          "title": "Completamente loca",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "513986e9-f18c-4340-83e9-dccadb3c2ef1",
+        "title": "Toca para mí",
+        "position": "9",
+        "length": "248960",
+        "work": {
+          "id": "42c9f503-4b0d-4c27-a0af-074226e6a846",
+          "title": "Toca para mí",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "25b0c413-b69e-49b6-b091-686028225af8",
+        "title": "Es este amor",
+        "position": "10",
+        "length": "220306",
+        "work": {
+          "id": "17fc7190-1578-4a0b-9288-8ced9acb0aac",
+          "title": "Es este amor",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      }
+    ],
+    "7e69a2cf-2eab-371e-8faa-f6e0b01ce0b4": [
+      {
+        "id": "5898abca-9812-491b-beee-93ffbd678413",
+        "title": "Si tú me miras",
+        "position": "1",
+        "length": "256866",
+        "work": {
+          "id": "afc24dd2-e3e2-4155-83f5-a5fb722edb17",
+          "title": "Si tú me miras",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e1cd71a8-e7af-407f-8afc-cef277584637",
+        "title": "Tu letra podré acariciar",
+        "position": "2",
+        "length": "215866",
+        "work": {
+          "id": "2153b6af-44ed-4fa1-853a-ce9ad8258cca",
+          "title": "Tu letra podré acariciar",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d946ac8e-c66f-454d-a612-958d2fb66c61",
+        "title": "El escaparate",
+        "position": "3",
+        "length": "288266",
+        "work": {
+          "id": "10debc3b-6359-4b84-89e9-cc993f35e851",
+          "title": "El escaparate",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b3226e79-8e92-458d-bd40-acdf6da3fe92",
+        "title": "Cómo te echo de menos",
+        "position": "4",
+        "length": "239466",
+        "work": {
+          "id": "12a647d4-d392-45f9-bb1e-f7836f2d9a02",
+          "title": "Cómo te echo de menos",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b411852e-0653-4445-a705-61f7e49fed8e",
+        "title": "Cuando acabas tú",
+        "position": "5",
+        "length": "243666",
+        "work": {
+          "id": "14932986-3ca7-4f8a-a24d-8310d3422d76",
+          "title": "Cuando acabas tú",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "423c021b-5498-4733-be73-52d8761553d5",
+        "title": "Mi primera canción",
+        "position": "6",
+        "length": "275400",
+        "work": {
+          "id": "7280f95b-8fee-464e-a031-b18e0baa8872",
+          "title": "Mi primera canción",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9e515fc0-6372-4553-8dc0-dd876e65ddd0",
+        "title": "Vente al más allá",
+        "position": "7",
+        "length": "240866",
+        "work": {
+          "id": "6269d61f-42f6-4277-b770-493704609eae",
+          "title": "Vente al más allá",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dab46f51-53f9-449b-b4eb-b5fbc4c1005a",
+        "title": "Qué no te daría yo",
+        "position": "8",
+        "length": "216200",
+        "work": {
+          "id": "5684e377-0346-4b22-a2e0-d9d040e50fec",
+          "title": "Qué no te daría yo",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "77d9edd0-b313-4eb7-961a-6f9bb3d7f194",
+        "title": "Este pobre mortal",
+        "position": "9",
+        "length": "217440",
+        "work": {
+          "id": "18fc9dbd-17c3-4dee-a11c-284f8978fdbd",
+          "title": "Este pobre mortal",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4a61790a-dd82-48fe-bb51-b7d41855161b",
+        "title": "A golpes contra el calendario",
+        "position": "10",
+        "length": "303800",
+        "work": {
+          "id": "04082f0d-8989-490b-99c0-6a14839963be",
+          "title": "A golpes contra el calendario",
+          "composers": [
+            {
+              "name": "Alejandro Sanz",
+              "mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "discogs_id": 217655,
+  "wikidata_id": "Q276170"
+}

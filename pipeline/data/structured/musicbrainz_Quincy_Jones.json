@@ -1,0 +1,625 @@
+{
+  "mbid": "5803c81e-739a-4057-9a5c-cf84e55db630",
+  "name": "Quincy Jones",
+  "type": "Person",
+  "country": "US",
+  "gender": "Male",
+  "life_span": {
+    "begin": "1933-03-14",
+    "end": "2024-11-03",
+    "ended": "true"
+  },
+  "area": "United States",
+  "begin_area": "Chicago",
+  "tags": [
+    {
+      "name": "2008 universal fire victim",
+      "count": "1"
+    },
+    {
+      "name": "american",
+      "count": "1"
+    },
+    {
+      "name": "big band",
+      "count": "1"
+    },
+    {
+      "name": "classic pop and rock",
+      "count": "1"
+    },
+    {
+      "name": "crossover jazz",
+      "count": "1"
+    },
+    {
+      "name": "grammy winner",
+      "count": "1"
+    },
+    {
+      "name": "jazz",
+      "count": "4"
+    },
+    {
+      "name": "jazz pop",
+      "count": "1"
+    },
+    {
+      "name": "pop",
+      "count": "1"
+    },
+    {
+      "name": "producer",
+      "count": "1"
+    },
+    {
+      "name": "producteur",
+      "count": "1"
+    },
+    {
+      "name": "soul",
+      "count": "1"
+    },
+    {
+      "name": "soundtrack",
+      "count": "1"
+    },
+    {
+      "name": "swing",
+      "count": "1"
+    }
+  ],
+  "artist_rels": [
+    {
+      "type": "conductor position",
+      "direction": "forward",
+      "target_name": "Artists for Haiti (Latin)",
+      "target_mbid": "06504632-278c-41e2-96a9-935e35004eff",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "involved with",
+      "direction": "backward",
+      "target_name": "Nastassja Kinski",
+      "target_mbid": "26605122-d96c-483e-92eb-899f8206b3c5",
+      "attributes": [],
+      "begin": "1992",
+      "end": "1995"
+    },
+    {
+      "type": "married",
+      "direction": "backward",
+      "target_name": "Peggy Lipton",
+      "target_mbid": "3d89cd29-9044-40ee-ad72-55c6381ca640",
+      "attributes": [],
+      "begin": "1974",
+      "end": "1990"
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Quincy Jones and His Orchestra",
+      "target_mbid": "c49d862f-6b82-464a-a39f-b031533df784",
+      "attributes": [
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Quincy Jones and the All Stars",
+      "target_mbid": "c1432398-9ded-426b-a0fd-5faf38d29d5c",
+      "attributes": [
+        "original"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "The Jones Boys",
+      "target_mbid": "52deb6f1-ea74-4fb8-94b5-147c2d427f81",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "member of band",
+      "direction": "forward",
+      "target_name": "Quincy Jones and His Swedish-American All-Stars",
+      "target_mbid": "79e24c96-bb53-4b9e-915c-9efef8ece925",
+      "attributes": [
+        "eponymous"
+      ],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "QD III",
+      "target_mbid": "84a1ff57-7a4c-478d-b728-baaa2afcd646",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Rashida Jones",
+      "target_mbid": "4fcb173e-78a8-4e1a-99db-b0052087ed06",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Jolie Levine",
+      "target_mbid": "8242a40a-7afa-4d6e-a48c-81a22b836d54",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "parent",
+      "direction": "forward",
+      "target_name": "Kidada Jones",
+      "target_mbid": "0b83be03-1da7-4a9d-8319-cb0ec7fbf96a",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "Nadia Boulanger",
+      "target_mbid": "b84d7c94-d171-4257-a57a-48dc5425323b",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "teacher",
+      "direction": "backward",
+      "target_name": "George Tremblay",
+      "target_mbid": "9c66cfda-b1fd-47b7-b11c-211a8eaf0abf",
+      "attributes": [],
+      "begin": null,
+      "end": null
+    }
+  ],
+  "url_rels": [
+    {
+      "type": "allmusic",
+      "target": "https://www.allmusic.com/artist/mn0000378624"
+    },
+    {
+      "type": "BBC Music page",
+      "target": "https://www.bbc.co.uk/music/artists/5803c81e-739a-4057-9a5c-cf84e55db630"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/17546"
+    },
+    {
+      "type": "discogs",
+      "target": "https://www.discogs.com/artist/1852038"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://open.spotify.com/artist/3rxIQc9kWT6Ueg4BhnOwRK"
+    },
+    {
+      "type": "free streaming",
+      "target": "https://www.deezer.com/artist/978"
+    },
+    {
+      "type": "IMDb",
+      "target": "https://www.imdb.com/name/nm0005065/"
+    },
+    {
+      "type": "lyrics",
+      "target": "http://muzikum.eu/en/122-8844/quincy-jones/lyrics.html"
+    },
+    {
+      "type": "lyrics",
+      "target": "https://genius.com/artists/Quincy-jones"
+    },
+    {
+      "type": "myspace",
+      "target": "https://myspace.com/quincyjones"
+    },
+    {
+      "type": "official homepage",
+      "target": "http://www.quincyjones.com/"
+    },
+    {
+      "type": "other databases",
+      "target": "http://id.loc.gov/authorities/names/n86137211"
+    },
+    {
+      "type": "other databases",
+      "target": "https://catalogue.bnf.fr/ark:/12148/cb138957406"
+    },
+    {
+      "type": "other databases",
+      "target": "https://d-nb.info/gnd/123946603"
+    },
+    {
+      "type": "other databases",
+      "target": "https://ibdb.com/person.php?id=398538"
+    },
+    {
+      "type": "other databases",
+      "target": "http://snaccooperative.org/ark:/99166/w6736vb4"
+    },
+    {
+      "type": "other databases",
+      "target": "https://rateyourmusic.com/artist/quincy_jones"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.musik-sammler.de/artist/quincy-jones/"
+    },
+    {
+      "type": "other databases",
+      "target": "https://www.worldcat.org/identities/lccn-n86137211"
+    },
+    {
+      "type": "purchase for download",
+      "target": "https://music.apple.com/us/artist/49436"
+    },
+    {
+      "type": "secondhandsongs",
+      "target": "https://secondhandsongs.com/artist/9717"
+    },
+    {
+      "type": "social network",
+      "target": "https://twitter.com/QuincyDJones"
+    },
+    {
+      "type": "social network",
+      "target": "https://www.facebook.com/QuincyJones"
+    },
+    {
+      "type": "songkick",
+      "target": "https://www.songkick.com/artists/280682"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/gb/artist/49436"
+    },
+    {
+      "type": "streaming",
+      "target": "https://music.apple.com/us/artist/49436"
+    },
+    {
+      "type": "streaming",
+      "target": "https://tidal.com/artist/961"
+    },
+    {
+      "type": "VIAF",
+      "target": "http://viaf.org/viaf/34643563"
+    },
+    {
+      "type": "wikidata",
+      "target": "https://www.wikidata.org/wiki/Q193645"
+    },
+    {
+      "type": "youtube",
+      "target": "https://www.youtube.com/channel/UCOceWwQ90r9zFN20et7JXAA"
+    }
+  ],
+  "release_groups": [
+    {
+      "id": "3f275308-a2a8-4b45-825a-438936e8fec2",
+      "title": "Swedish American All Stars",
+      "type": "Album",
+      "first_release_date": "1953"
+    },
+    {
+      "id": "1dffdd11-2569-4ad7-b95f-73a91d456c7f",
+      "title": "This Is How I Feel About Jazz",
+      "type": "Album",
+      "first_release_date": "1956"
+    },
+    {
+      "id": "4a38d1c9-b41a-4500-bae0-a09cfe87e827",
+      "title": "Jazz Abroad",
+      "type": "Album",
+      "first_release_date": "1957-02"
+    },
+    {
+      "id": "53875aae-9199-4c8d-a4ce-a1db6fc0f272",
+      "title": "Go West, Man!",
+      "type": "Album",
+      "first_release_date": "1957-10-17"
+    },
+    {
+      "id": "3132fe76-4923-4f58-b9f8-11ac34f1a1f3",
+      "title": "Et voilà !",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "cf06a5dd-3ea9-30e0-bce5-c454232b4a2a",
+      "title": "The Birth of a Band",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "04d73eab-6c3b-4894-b7ef-711285e78caf",
+      "title": "The Great Wide World of Quincy Jones",
+      "type": "Album",
+      "first_release_date": "1959"
+    },
+    {
+      "id": "7b005281-dba3-4c88-a61b-faa2c4d6ef0b",
+      "title": "I Dig Dancers",
+      "type": "Album",
+      "first_release_date": "1960"
+    },
+    {
+      "id": "1025b617-6928-4850-b548-efafb0a06c1e",
+      "title": "If You Go",
+      "type": "Album",
+      "first_release_date": "1961"
+    },
+    {
+      "id": "c00632c9-c7fd-3b30-b982-f345750b7615",
+      "title": "Big Band Bossa Nova",
+      "type": "Album",
+      "first_release_date": "1962"
+    },
+    {
+      "id": "355bca5a-956b-4325-86ab-fd0c8dd64624",
+      "title": "Plays Hip Hits",
+      "type": "Album",
+      "first_release_date": "1963"
+    },
+    {
+      "id": "aab7628c-d07e-409b-9882-df072601a60a",
+      "title": "Golden Boy",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "df57e227-969e-33c2-858a-eb5db55fab74",
+      "title": "Quincy Jones Explores the Music of Henry Mancini",
+      "type": "Album",
+      "first_release_date": "1964"
+    },
+    {
+      "id": "4e2745fa-2cd1-43a2-8145-d1fa958f2155",
+      "title": "The Deadly Affair (The Original Sound Track Album)",
+      "type": "Album",
+      "first_release_date": "1966"
+    },
+    {
+      "id": "b40795c8-5a07-3efd-ae5e-fb94ea8e0765",
+      "title": "Walking in Space",
+      "type": "Album",
+      "first_release_date": "1969"
+    },
+    {
+      "id": "600debda-53c9-3260-96db-ee7c30028d99",
+      "title": "Smackwater Jack",
+      "type": "Album",
+      "first_release_date": "1971"
+    },
+    {
+      "id": "50fd29ff-dc76-31db-8ecb-06d26d671c12",
+      "title": "You’ve Got It Bad Girl",
+      "type": "Album",
+      "first_release_date": "1973-10-01"
+    },
+    {
+      "id": "2c2f777e-3a88-3763-b22c-91c5bafba15c",
+      "title": "Body Heat",
+      "type": "Album",
+      "first_release_date": "1974"
+    },
+    {
+      "id": "c1ac280c-d751-3177-b243-033dc459e85e",
+      "title": "Ironside",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "5d6f21a0-e7ee-3a17-8fc0-6a91880f53a4",
+      "title": "Mellow Madness",
+      "type": "Album",
+      "first_release_date": "1975"
+    },
+    {
+      "id": "184f7d9b-90b4-3d93-92a5-2fc4cedd9265",
+      "title": "I Heard That!!",
+      "type": "Album",
+      "first_release_date": "1976"
+    },
+    {
+      "id": "7714dde6-2fc4-382f-b106-7712442c26a8",
+      "title": "Sounds… And Stuff Like That!!",
+      "type": "Album",
+      "first_release_date": "1978"
+    },
+    {
+      "id": "6748eee7-011e-3827-af81-5a17f50a975a",
+      "title": "“The Dude”",
+      "type": "Album",
+      "first_release_date": "1981-03"
+    },
+    {
+      "id": "41f575bb-7081-4d32-875e-4818efa266ec",
+      "title": "The Great Wide World of Quincy Jones: Live!",
+      "type": "Album",
+      "first_release_date": "1984-09-05"
+    },
+    {
+      "id": "b39cdabb-2659-4914-b5b7-eea272e6e510",
+      "title": "Blanchard: New Earth Sonata / Telemann: Suite in A Minor (Overture/Air a L'Italien/Rejouissance)",
+      "type": "Album",
+      "first_release_date": "1985"
+    }
+  ],
+  "tracks": {
+    "3f275308-a2a8-4b45-825a-438936e8fec2": [
+      {
+        "id": "5fff32c3-e98e-4215-89b0-58c542e73b0e",
+        "title": "Pogo Stick",
+        "position": "1",
+        "length": "375800",
+        "work": null
+      },
+      {
+        "id": "e2192a7a-fa55-46ed-89f3-12bf37ca051d",
+        "title": "Liza",
+        "position": "2",
+        "length": "332000",
+        "work": null
+      },
+      {
+        "id": "eaff3021-72fc-495c-b6c7-08a98d03917d",
+        "title": "Jones' Bones",
+        "position": "3",
+        "length": "339000",
+        "work": null
+      },
+      {
+        "id": "beac4157-7daf-4e44-9b16-004d5ec51192",
+        "title": "Sometimes I'm Happy",
+        "position": "4",
+        "length": "349000",
+        "work": null
+      }
+    ],
+    "1dffdd11-2569-4ad7-b95f-73a91d456c7f": [
+      {
+        "id": "98943851-40a3-4d21-bf8d-d287f0859ca4",
+        "title": "Walkin’",
+        "position": "1",
+        "length": "642000",
+        "work": null
+      },
+      {
+        "id": "6ba55599-c35a-4473-8202-657a7fa4994f",
+        "title": "A Sleepin’ Bee",
+        "position": "2",
+        "length": "280573",
+        "work": {
+          "id": "603c64a6-90cd-37ba-8fb7-277760b2123c",
+          "title": "A Sleepin’ Bee",
+          "composers": [
+            {
+              "name": "Harold Arlen",
+              "mbid": "3508f3fd-3b18-493c-a362-376736bb6cde"
+            }
+          ]
+        }
+      },
+      {
+        "id": "370fd8af-6a18-4e9a-8690-775689be34ed",
+        "title": "Sermonette",
+        "position": "3",
+        "length": "357160",
+        "work": null
+      },
+      {
+        "id": "b6c85511-133a-4c63-862f-8daa27e224b1",
+        "title": "Stockholm Sweetnin’",
+        "position": "4",
+        "length": "340773",
+        "work": null
+      },
+      {
+        "id": "2e0b3edb-fade-4a38-98d5-b388177eea59",
+        "title": "Evening in Paris",
+        "position": "5",
+        "length": "248093",
+        "work": null
+      },
+      {
+        "id": "be9d106c-199c-4f99-bcbb-5de2ae92460c",
+        "title": "Boo’s Bloos",
+        "position": "6",
+        "length": "312720",
+        "work": {
+          "id": "5ae08b36-bc63-485a-b964-78fa27772faa",
+          "title": "Boo’s Blues",
+          "composers": [
+            {
+              "name": "Quincy Jones",
+              "mbid": "5803c81e-739a-4057-9a5c-cf84e55db630"
+            }
+          ]
+        }
+      }
+    ],
+    "4a38d1c9-b41a-4500-bae0-a09cfe87e827": [
+      {
+        "id": "395934b4-0350-4834-a538-4d49fb7fa60d",
+        "title": "Pogo Stick",
+        "position": "1",
+        "length": "372000",
+        "work": null
+      },
+      {
+        "id": "673eeaa7-250c-49ce-ace5-4b5d76f8b622",
+        "title": "Liza",
+        "position": "2",
+        "length": "331000",
+        "work": null
+      },
+      {
+        "id": "1fa686e1-9edf-4d3b-b5ad-d7b71234907f",
+        "title": "Jones' Bones",
+        "position": "3",
+        "length": "340000",
+        "work": null
+      },
+      {
+        "id": "9dea76ee-ffc6-4d66-a5a1-af19e4730080",
+        "title": "Sometimes I'm Happy",
+        "position": "4",
+        "length": "350000",
+        "work": null
+      },
+      {
+        "id": "72a3b5c8-3e24-4c1a-86f6-ef2623b7d7dc",
+        "title": "Little Leona",
+        "position": "5",
+        "length": "222000",
+        "work": null
+      },
+      {
+        "id": "5a7b2436-caf1-46f9-a179-bf25791e6b5a",
+        "title": "Miss Mopsy",
+        "position": "6",
+        "length": "295000",
+        "work": null
+      },
+      {
+        "id": "cf3a868c-1c13-41d4-a49a-56c0dfb0a7a5",
+        "title": "Gone Again",
+        "position": "7",
+        "length": "348000",
+        "work": null
+      },
+      {
+        "id": "f7333139-cd62-4bd6-a408-413764a255e0",
+        "title": "Hagnes",
+        "position": "8",
+        "length": "317506",
+        "work": null
+      }
+    ]
+  },
+  "discogs_id": 1852038,
+  "wikidata_id": "Q193645"
+}

@@ -1,0 +1,82 @@
+{
+  "wikidata_id": "Q117012",
+  "genres": [
+    "electronic music",
+    "alternative rock",
+    "rock music",
+    "pop music",
+    "avant-garde",
+    "Fluxus",
+    "new wave",
+    "conceptual art",
+    "vanguard",
+    "dance music",
+    "electronica",
+    "Shibuya-kei",
+    "experimental music"
+  ],
+  "instruments": [
+    "piano",
+    "voice"
+  ],
+  "awards": [
+    "Grammy Award for Album of the Year",
+    "MOJO Awards",
+    "Grammy Award for Best Music Film",
+    "Women's Caucus for Art Lifetime Achievement Award",
+    "Distinguished Service to the Visual Arts Award",
+    "Great Immigrants Award"
+  ],
+  "labels": [
+    "Polydor",
+    "Geffen Records",
+    "Apple Records",
+    "Rykodisc",
+    "Astralwerks"
+  ],
+  "influences": [
+    "Allan Kaprow"
+  ],
+  "occupations": [
+    "photographer",
+    "composer",
+    "singer",
+    "painter",
+    "sculptor",
+    "filmmaker",
+    "jewelry designer",
+    "film director",
+    "visual artist",
+    "performance artist",
+    "peace activist",
+    "conceptual artist",
+    "recording artist"
+  ],
+  "country": "Japan",
+  "birth_place": "Tokyo",
+  "birth_date": "1933-02-18",
+  "death_date": null,
+  "wikipedia_title": "Yoko Ono",
+  "compositions": [
+    {
+      "title": "My Hometown",
+      "genre": null,
+      "date": "2011-01-01"
+    },
+    {
+      "title": "Surviving Japan",
+      "genre": null,
+      "date": "2012-01-01"
+    },
+    {
+      "title": "Erection",
+      "genre": null,
+      "date": "1971-01-01"
+    },
+    {
+      "title": "We're All Water",
+      "genre": "rock music",
+      "date": "1972-09-15"
+    }
+  ]
+}
