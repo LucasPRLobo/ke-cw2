@@ -368,7 +368,7 @@ def map_text_triples(g, artist_name, extraction_file=None):
         if predicate_str == "producedBy":
             g.add((object_uri, MH.produced, subject_uri))
         elif predicate_str == "produced":
-            g.add((subject_uri, MH.producedBy, object_uri))
+            g.add((object_uri, MH.producedBy, subject_uri))
         elif predicate_str == "collaboratedWith":
             g.add((object_uri, rdf_predicate, subject_uri))  # symmetric
             # Ensure both endpoints are typed as MusicArtist

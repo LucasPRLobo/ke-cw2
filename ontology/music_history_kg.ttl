@@ -1005,9 +1005,6 @@ mb:4fe17f14-0b6d-43a6-9f88-ec59cd301b72 a mo:MusicArtist ;
 mb:50076bfc-ca8f-4150-afc9-872144713f5f a mo:MusicArtist ;
     rdfs:label "Franziska Jacquin"@en .
 
-mb:503c67ae-98d9-4cd8-a7d4-204c41ddaa3d a mo:MusicArtist ;
-    rdfs:label "Abbey Road"@en .
-
 mb:50a6346f-e916-4f00-be4e-99e69114af5c a mo:MusicArtist ;
     rdfs:label "The Rays"@en .
 
@@ -1511,6 +1508,10 @@ mb:84c6f6fe-ccd1-48a0-ae11-e4b1666c6c04 a mo:MusicArtist ;
 mb:85414881-325c-4b2e-826b-e24a912d0f1e a mo:MusicArtist ;
     rdfs:label "Paul Livingstone"@en .
 
+mb:8602561b-caa1-4ef7-9501-a4159b3a41c3 a mo:MusicArtist ;
+    rdfs:label "Beatallica"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
+
 mb:861dbed8-5662-4778-9eca-3abb2245710e a mo:SoloMusicArtist ;
     rdfs:label "Rubén González"@en ;
     mh:countryOfOrigin <http://example.org/music-history/country/cu> ;
@@ -1606,6 +1607,9 @@ mb:8d630e71-8df4-4fe8-a8aa-3697a079e387 a mo:MusicArtist ;
 
 mb:8dddb806-0971-4968-ac1d-68340402cd94 a mo:MusicArtist ;
     rdfs:label "Cleo Henry"@en .
+
+mb:8deb29ea-4acf-4a06-9f87-2491cfec1c35 a mo:MusicArtist ;
+    rdfs:label "Physical Graffiti"@en .
 
 mb:8dfd2a90-3cfc-43b1-b8dc-87c2ec0d18d8 a mo:MusicArtist ;
     rdfs:label "3 &"@en .
@@ -1817,14 +1821,6 @@ mb:a48ab144-74cf-4699-bb15-e0225eca78ce a mo:MusicArtist ;
 
 mb:a4a75621-e88a-46c6-a8e6-c62aad0ef5a4 a mo:MusicArtist ;
     rdfs:label "David Jarre"@en .
-
-mb:a4e2650b-938b-4b72-95bc-6e229cd34601 a mh:ProducerArtist,
-        mo:SoloMusicArtist ;
-    rdfs:label "Ry Cooder"@en ;
-    mh:countryOfOrigin <http://example.org/music-history/country/us> ;
-    mh:produced <http://example.org/music-history/album/32bbab8e-02c0-30d2-9e23-a19739864b84> ;
-    mo:member_of mb:2a85ecff-41e9-4be1-aca6-c87054a4c334 ;
-    schema:birthDate "1947-03-15"^^xsd:date .
 
 mb:a59db133-c615-4950-82f5-b8a07467706d a mo:MusicArtist ;
     rdfs:label "Queen Experience In Concert"@en .
@@ -2083,6 +2079,9 @@ mb:c5794479-31c5-4265-9875-4e87e8896271 a mo:MusicArtist ;
 mb:c5fd8472-80a5-468d-9f35-8f4dc9142ba1 a mo:MusicArtist ;
     rdfs:label "Strawberry Fields"@en .
 
+mb:c74f958d-7ced-4473-a451-770ceacf523b a mo:MusicArtist ;
+    rdfs:label "Abbey Road"@en .
+
 mb:c76c7313-4885-4ae3-8dff-4eff738d4921 a mo:MusicArtist ;
     rdfs:label "Catherine de Souzzo"@en .
 
@@ -2260,9 +2259,6 @@ mb:da13926a-6dec-4499-883b-b97ba347d2de a mo:MusicArtist ;
 
 mb:daa16f6f-82e5-4144-8042-2e5b8888d6b6 a mo:MusicArtist ;
     rdfs:label "The Freddie & QUEEN Experience"@en .
-
-mb:dd5dd54f-73ab-40c6-94c1-0ce72f6307e4 a mo:MusicArtist ;
-    rdfs:label "Physical Graffiti"@en .
 
 mb:dd7685f4-1e81-4da7-80a0-30299e94a9ab a mo:MusicArtist ;
     rdfs:label "Franz Xaver Wolfgang Mozart"@en .
@@ -2778,8 +2774,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/02d12ef6-c54d-4fba-a297-864828dba5e5> a mo:Release ;
     rdfs:label "Les Essentiels"@en ;
@@ -2810,8 +2805,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/04c3dc6e-0f57-4139-956e-6d58aef11cab> a mo:Release ;
     rdfs:label "McKinley Morganfield A.K.A. Muddy Waters"@en ;
@@ -3360,8 +3354,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/0de338fb-58d1-3616-b33f-123857e3f4cb> a mo:Release ;
     rdfs:label "En Hispanoamérica"@en ;
@@ -3907,8 +3900,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/16ea0f65-3462-3283-a3eb-e81dcc92c1d5> a mo:Release ;
     rdfs:label "Human After All: Remixes"@en ;
@@ -4011,8 +4003,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/19ae4440-892c-4176-9b98-22af924a71f9> a mo:Release ;
     rdfs:label "No Sympathy"@en ;
@@ -7438,8 +7429,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/5ab32af4-c62e-3cbf-aa8c-c761581d3b94> a mo:Release ;
     rdfs:label "Nirvana"@en ;
@@ -7727,8 +7717,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/5ffaa640-d53d-4184-9ddf-ff577c5faf80> a mo:Release ;
     rdfs:label "Snapshots From EōN"@en ;
@@ -7954,8 +7943,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/63462eef-fb56-4258-9abb-3e646c75b098> a mo:Release ;
     rdfs:label "In Memoriam"@en ;
@@ -8090,8 +8078,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/668e3524-a29b-44d2-b95f-06414a7831f5> a mo:Release ;
     rdfs:label "67"@en ;
@@ -8475,8 +8462,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/6c5a113e-780c-457f-8fd5-b541506c38f2> a mo:Release ;
     rdfs:label "Und das Meer singt sein Lied"@en ;
@@ -8669,8 +8655,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/7028259a-b79f-4071-92bf-28d3c4f03260> a mo:Release ;
     rdfs:label "Grandes éxitos 97_04"@en ;
@@ -9341,8 +9326,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/7dbcbb78-9aea-47eb-a207-be1452c209e6> a mo:Release ;
     rdfs:label "Ragas Kameshwari, Gangeshwari, Rangeshwari"@en ;
@@ -9945,8 +9929,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
         <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/indian>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/indian> .
 
 <http://example.org/music-history/album/8b314aab-312b-307e-8b21-095084cec577> a mo:Release ;
     rdfs:label "Aretha Arrives"@en ;
@@ -10091,8 +10074,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/8cf8da82-d496-3fb3-96b3-ae8de44994fc> a mo:Release ;
     rdfs:label "Yamandu + Dominguinhos"@en ;
@@ -10391,8 +10373,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/92f5b607-292b-3f28-8151-c55341818dd0> a mo:Release ;
     rdfs:label "Hit"@en ;
@@ -10479,8 +10460,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/943f4c2f-1635-45c6-8496-76f8ee4e7f29> a mo:Release ;
     rdfs:label "Love Is a Kick"@en ;
@@ -12804,8 +12784,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/bcdddc95-613a-4494-ba82-1567ac9f9d7f> a mo:Release ;
     rdfs:label "Chuck"@en ;
@@ -12915,8 +12894,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/bf75c3ce-6d3f-4c78-a5f3-5028c30376be> a mo:Release ;
     rdfs:label "Scratch My Back / And I’ll Scratch Yours"@en ;
@@ -14603,8 +14581,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/dca03435-8adb-30a5-ba82-5a162267ff38> a mo:Release ;
     rdfs:label "Rubber Soul"@en ;
@@ -14908,8 +14885,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/e329a60d-08b0-4455-b2e0-a7d5e93d5d69> a mo:Release ;
     rdfs:label "Beethoven: Symphony no. 9 in D minor, op. 125 (“Choral”) / Brahms: Song of Destiny, op. 54 (Schicksalslied)"@en ;
@@ -15765,8 +15741,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/f50a3b6f-27f0-3832-bd3f-3568dc557d95> a mo:Release ;
     rdfs:label "Beatles for Sale"@en ;
@@ -15938,8 +15913,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/f8718b6e-ba89-3341-8f87-a7ac479dbf3f> a mo:Release ;
     rdfs:label "Soultrane"@en ;
@@ -17929,7 +17903,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/country> .
 
 <http://example.org/music-history/composition/AC_DC> a mo:Release ;
-    rdfs:label "AC/DC"@en .
+    rdfs:label "AC/DC"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/A_Beginning> a mh:MusicalWork ;
     rdfs:label "A Beginning"@en ;
@@ -17978,10 +17953,12 @@ mh:composed a owl:ObjectProperty ;
     mh:compositionDate "1986-04-18"^^xsd:date .
 
 <http://example.org/music-history/composition/Adele> a mo:Release ;
-    rdfs:label "Adele"@en .
+    rdfs:label "Adele"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Aerosmith> a mo:Release ;
-    rdfs:label "Aerosmith"@en .
+    rdfs:label "Aerosmith"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Alabama> a mh:MusicalWork ;
     rdfs:label "Alabama"@en ;
@@ -18105,7 +18082,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/folk_rock> .
 
 <http://example.org/music-history/composition/Audioslave> a mo:Release ;
-    rdfs:label "Audioslave"@en .
+    rdfs:label "Audioslave"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Azure> a mh:MusicalWork ;
     rdfs:label "Azure"@en ;
@@ -18144,7 +18122,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/crossover> .
 
 <http://example.org/music-history/composition/Beastie_Boys> a mo:Release ;
-    rdfs:label "Beastie Boys"@en .
+    rdfs:label "Beastie Boys"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Berzerk> a mh:MusicalWork ;
     rdfs:label "Berzerk"@en ;
@@ -18370,7 +18349,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/country> .
 
 <http://example.org/music-history/composition/Coldplay> a mo:Release ;
-    rdfs:label "Coldplay"@en .
+    rdfs:label "Coldplay"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Come_On> a mh:MusicalWork ;
     rdfs:label "Come On"@en ;
@@ -18428,13 +18408,16 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/rockabilly> .
 
 <http://example.org/music-history/composition/Damon_Albarn> a mo:Release ;
-    rdfs:label "Damon Albarn"@en .
+    rdfs:label "Damon Albarn"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Daniel_Lanois> a mo:Release ;
-    rdfs:label "Daniel Lanois"@en .
+    rdfs:label "Daniel Lanois"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Danzig> a mo:Release ;
-    rdfs:label "Danzig"@en .
+    rdfs:label "Danzig"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Dendermonde_Codex> a mh:MusicalWork ;
     rdfs:label "Dendermonde Codex"@en ;
@@ -18451,7 +18434,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/contemporary_dance> .
 
 <http://example.org/music-history/composition/Devo> a mo:Release ;
-    rdfs:label "Devo"@en .
+    rdfs:label "Devo"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Diabelli_Variations> a mo:Release ;
     rdfs:label "Diabelli Variations"@en ;
@@ -18528,7 +18512,8 @@ mh:composed a owl:ObjectProperty ;
     mh:compositionDate "1725-01-01"^^xsd:date .
 
 <http://example.org/music-history/composition/Ed_Sheeran> a mo:Release ;
-    rdfs:label "Ed Sheeran"@en .
+    rdfs:label "Ed Sheeran"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Eden> a mh:MusicalWork ;
     rdfs:label "Eden"@en ;
@@ -18702,7 +18687,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/reggae> .
 
 <http://example.org/music-history/composition/Geto_Boys> a mo:Release ;
-    rdfs:label "Geto Boys"@en .
+    rdfs:label "Geto Boys"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Giant_Steps> a mh:MusicalWork ;
     rdfs:label "Giant Steps"@en ;
@@ -18754,7 +18740,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/dance> .
 
 <http://example.org/music-history/composition/Grace_Jones> a mo:Release ;
-    rdfs:label "Grace Jones"@en .
+    rdfs:label "Grace Jones"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Granddaughter_of_Ice> a mh:MusicalWork ;
     rdfs:label "Granddaughter of Ice"@en ;
@@ -18997,7 +18984,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/country> .
 
 <http://example.org/music-history/composition/It_s_My_Party> a mo:Release ;
-    rdfs:label "It's My Party"@en .
+    rdfs:label "It's My Party"@en ;
+    mh:producedBy mb:5803c81e-739a-4057-9a5c-cf84e55db630 .
 
 <http://example.org/music-history/composition/Jack_Johnson> a mh:MusicalWork ;
     rdfs:label "Jack Johnson"@en ;
@@ -19005,7 +18993,8 @@ mh:composed a owl:ObjectProperty ;
     mh:compositionDate "1970-01-01"^^xsd:date .
 
 <http://example.org/music-history/composition/James> a mo:Release ;
-    rdfs:label "James"@en .
+    rdfs:label "James"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Jap_n> a mh:MusicalWork ;
     rdfs:label "Japón"@en ;
@@ -19078,10 +19067,12 @@ mh:composed a owl:ObjectProperty ;
     mh:composedBy mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 .
 
 <http://example.org/music-history/composition/Kesha> a mo:Release ;
-    rdfs:label "Kesha"@en .
+    rdfs:label "Kesha"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Kevin_Shields> a mo:Release ;
-    rdfs:label "Kevin Shields"@en .
+    rdfs:label "Kevin Shields"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Kirikou_and_Karaba> a mh:MusicalWork ;
     rdfs:label "Kirikou and Karaba"@en ;
@@ -19104,7 +19095,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/rock> .
 
 <http://example.org/music-history/composition/LL_Cool_J> a mo:Release ;
-    rdfs:label "LL Cool J"@en .
+    rdfs:label "LL Cool J"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/La_Barrosa> a mo:Release ;
     rdfs:label "La Barrosa"@en ;
@@ -19129,7 +19121,8 @@ mh:composed a owl:ObjectProperty ;
     mh:composedBy mb:1f9df192-a621-4f54-8850-2c5373b7eac9 .
 
 <http://example.org/music-history/composition/Laurie_Anderson> a mo:Release ;
-    rdfs:label "Laurie Anderson"@en .
+    rdfs:label "Laurie Anderson"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Lazy_Bird> a mh:MusicalWork ;
     rdfs:label "Lazy Bird"@en ;
@@ -19166,7 +19159,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/folk_rock> .
 
 <http://example.org/music-history/composition/Linkin_Park> a mo:Release ;
-    rdfs:label "Linkin Park"@en .
+    rdfs:label "Linkin Park"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Little_Queenie> a mh:MusicalWork ;
     rdfs:label "Little Queenie"@en ;
@@ -19554,7 +19548,8 @@ mh:composed a owl:ObjectProperty ;
         <http://example.org/music-history/period/World_music_revival> ;
     mh:performedAt <http://example.org/music-history/venue/Amnesty_International_Human_Rights_Now__tour>,
         <http://example.org/music-history/venue/Nelson_Mandela_70th_Birthday_Tribute_Concert__Wembley_>,
-        <http://example.org/music-history/venue/WOMAD_Festival__founding_and_first_edition_> .
+        <http://example.org/music-history/venue/WOMAD_Festival__founding_and_first_edition_> ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Piano_Concerto_No__10> a mh:MusicalWork ;
     rdfs:label "Piano Concerto No. 10"@en ;
@@ -19625,7 +19620,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/rock> .
 
 <http://example.org/music-history/composition/Public_Enemy> a mo:Release ;
-    rdfs:label "Public Enemy"@en .
+    rdfs:label "Public Enemy"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Pulp> a mh:MusicalWork ;
     rdfs:label "Pulp"@en ;
@@ -19637,10 +19633,12 @@ mh:composed a owl:ObjectProperty ;
     mh:composedBy mb:7bc8dd01-35ea-4b18-a64d-3a364dc76a52 .
 
 <http://example.org/music-history/composition/Rage_Against_the_Machine> a mo:Release ;
-    rdfs:label "Rage Against the Machine"@en .
+    rdfs:label "Rage Against the Machine"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Red_Hot_Chili_Peppers> a mo:Release ;
-    rdfs:label "Red Hot Chili Peppers"@en .
+    rdfs:label "Red Hot Chili Peppers"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Redemption_Song> a mh:MusicalWork ;
     rdfs:label "Redemption Song"@en ;
@@ -19690,7 +19688,8 @@ mh:composed a owl:ObjectProperty ;
     mh:composedBy mb:5803c81e-739a-4057-9a5c-cf84e55db630 .
 
 <http://example.org/music-history/composition/Run-DMC> a mo:Release ;
-    rdfs:label "Run-DMC"@en .
+    rdfs:label "Run-DMC"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Rwanda_pour_m_moire> a mh:MusicalWork ;
     rdfs:label "Rwanda pour mémoire"@en ;
@@ -19797,13 +19796,16 @@ mh:composed a owl:ObjectProperty ;
     mh:compositionDate "1968-01-01"^^xsd:date .
 
 <http://example.org/music-history/composition/Slayer> a mo:Release ;
-    rdfs:label "Slayer"@en .
+    rdfs:label "Slayer"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Slipknot> a mo:Release ;
-    rdfs:label "Slipknot"@en .
+    rdfs:label "Slipknot"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Slowdive> a mo:Release ;
-    rdfs:label "Slowdive"@en .
+    rdfs:label "Slowdive"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Small_Axe> a mh:MusicalWork ;
     rdfs:label "Small Axe"@en ;
@@ -20006,10 +20008,12 @@ mh:composed a owl:ObjectProperty ;
     mh:composedBy mb:9ddd7abc-9e1b-471d-8031-583bc6bc8be9 .
 
 <http://example.org/music-history/composition/System_of_a_Down> a mo:Release ;
-    rdfs:label "System of a Down"@en .
+    rdfs:label "System of a Down"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Talking_Heads> a mo:Release ;
-    rdfs:label "Talking Heads"@en .
+    rdfs:label "Talking Heads"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Tchindas> a mh:MusicalWork ;
     rdfs:label "Tchindas"@en ;
@@ -20088,7 +20092,8 @@ mh:composed a owl:ObjectProperty ;
     mh:compositionDate "2016-09-15"^^xsd:date .
 
 <http://example.org/music-history/composition/The_Beatles__original_albums> a mo:Release ;
-    rdfs:label "The Beatles' original albums"@en .
+    rdfs:label "The Beatles' original albums"@en ;
+    mh:producedBy mb:26fa8b67-6c7f-406c-ad64-a1d070092df2 .
 
 <http://example.org/music-history/composition/The_Big_Chill> a mh:MusicalWork ;
     rdfs:label "The Big Chill"@en ;
@@ -20116,7 +20121,8 @@ mh:composed a owl:ObjectProperty ;
     mh:compositionDate "1964-01-01"^^xsd:date .
 
 <http://example.org/music-history/composition/The_Chicks> a mo:Release ;
-    rdfs:label "The Chicks"@en .
+    rdfs:label "The Chicks"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/The_Chronicle_of_Anna_Magdalena_Bach> a mh:MusicalWork ;
     rdfs:label "The Chronicle of Anna Magdalena Bach"@en ;
@@ -20138,7 +20144,8 @@ mh:composed a owl:ObjectProperty ;
     mh:compositionDate "1801-01-01"^^xsd:date .
 
 <http://example.org/music-history/composition/The_Cult> a mo:Release ;
-    rdfs:label "The Cult"@en .
+    rdfs:label "The Cult"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/The_Dangling_Conversation> a mh:MusicalWork ;
     rdfs:label "The Dangling Conversation"@en ;
@@ -20242,7 +20249,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/popular> .
 
 <http://example.org/music-history/composition/The_Strokes> a mo:Release ;
-    rdfs:label "The Strokes"@en .
+    rdfs:label "The Strokes"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/The_Way_You_Make_Me_Feel> a mh:MusicalWork ;
     rdfs:label "The Way You Make Me Feel"@en ;
@@ -20303,13 +20311,16 @@ mh:composed a owl:ObjectProperty ;
     mh:compositionDate "1977-01-01"^^xsd:date .
 
 <http://example.org/music-history/composition/Tyler_Childers> a mo:Release ;
-    rdfs:label "Tyler Childers"@en .
+    rdfs:label "Tyler Childers"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/U2> a mo:Release ;
-    rdfs:label "U2"@en .
+    rdfs:label "U2"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Ultravox> a mo:Release ;
-    rdfs:label "Ultravox"@en .
+    rdfs:label "Ultravox"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Unknown_Soldier> a mh:MusicalWork ;
     rdfs:label "Unknown Soldier"@en ;
@@ -20440,7 +20451,8 @@ mh:composed a owl:ObjectProperty ;
     mh:compositionDate "1992-01-01"^^xsd:date .
 
 <http://example.org/music-history/composition/We_Are_the_World> a mo:Release ;
-    rdfs:label "We Are the World"@en .
+    rdfs:label "We Are the World"@en ;
+    mh:producedBy mb:5803c81e-739a-4057-9a5c-cf84e55db630 .
 
 <http://example.org/music-history/composition/We_Will_Rock_You> a mh:MusicalWork ;
     rdfs:label "We Will Rock You"@en ;
@@ -20454,7 +20466,8 @@ mh:composed a owl:ObjectProperty ;
     mo:genre <http://example.org/music-history/genre/rock> .
 
 <http://example.org/music-history/composition/Weezer> a mo:Release ;
-    rdfs:label "Weezer"@en .
+    rdfs:label "Weezer"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 <http://example.org/music-history/composition/Wer_mich_liebet__der_wird_mein_Wort_halten__BWV_74> a mh:MusicalWork ;
     rdfs:label "Wer mich liebet, der wird mein Wort halten, BWV 74"@en ;
@@ -20672,7 +20685,8 @@ mh:composed a owl:ObjectProperty ;
     mh:composedBy mb:2d923f7b-45a1-4204-beb8-5b106e913b58 .
 
 <http://example.org/music-history/composition/comedy_and_novelty_records> a mo:Release ;
-    rdfs:label "comedy and novelty records"@en .
+    rdfs:label "comedy and novelty records"@en ;
+    mh:producedBy mb:26fa8b67-6c7f-406c-ad64-a1d070092df2 .
 
 <http://example.org/music-history/composition/compositions_for_sitar_and_orchestra> a mo:Release ;
     rdfs:label "compositions for sitar and orchestra"@en ;
@@ -20701,39 +20715,31 @@ mh:composed a owl:ObjectProperty ;
     rdfs:label "CL"@en .
 
 <http://example.org/music-history/country/eg> a mh:Country ;
-    rdfs:label "EG"@en,
-        "Egypt"@en .
+    rdfs:label "Egypt"@en .
 
 <http://example.org/music-history/country/hu> a mh:Country ;
     rdfs:label "HU"@en .
 
 <http://example.org/music-history/country/in> a mh:Country ;
-    rdfs:label "IN"@en,
-        "India"@en .
+    rdfs:label "India"@en .
 
 <http://example.org/music-history/country/jp> a mh:Country ;
-    rdfs:label "JP"@en,
-        "Japan"@en .
+    rdfs:label "Japan"@en .
 
 <http://example.org/music-history/country/ng> a mh:Country ;
-    rdfs:label "NG"@en,
-        "Nigeria"@en .
+    rdfs:label "Nigeria"@en .
 
 <http://example.org/music-history/country/pl> a mh:Country ;
-    rdfs:label "PL"@en,
-        "Poland"@en .
+    rdfs:label "Poland"@en .
 
 <http://example.org/music-history/country/pt> a mh:Country ;
-    rdfs:label "PT"@en,
-        "Portugal"@en .
+    rdfs:label "Portugal"@en .
 
 <http://example.org/music-history/country/ru> a mh:Country ;
-    rdfs:label "RU"@en,
-        "Russia"@en .
+    rdfs:label "Russia"@en .
 
 <http://example.org/music-history/country/sn> a mh:Country ;
-    rdfs:label "SN"@en,
-        "Senegal"@en .
+    rdfs:label "Senegal"@en .
 
 <http://example.org/music-history/entity/Aloha_from_Hawaii> a mh:Venue ;
     rdfs:label "Aloha from Hawaii"@en .
@@ -20975,9 +20981,6 @@ mh:composed a owl:ObjectProperty ;
 
 <http://example.org/music-history/genre/symphonies> a mo:Genre ;
     rdfs:label "symphonies"@en .
-
-<http://example.org/music-history/genre/united_states> a mo:Genre ;
-    rdfs:label "united states"@en .
 
 <http://example.org/music-history/genre/violin_concertos> a mo:Genre ;
     rdfs:label "violin concertos"@en .
@@ -22442,7 +22445,6 @@ mb:3c9b356d-d1db-4f4e-a7a3-2d00c1d70255 a mo:SoloMusicArtist ;
     mh:playsInstrument <http://example.org/music-history/instrument/background_vocals>,
         <http://example.org/music-history/instrument/guitar>,
         <http://example.org/music-history/instrument/vocals> ;
-    mo:genre <http://example.org/music-history/genre/united_states> ;
     mo:member_of mb:5b11f4ce-a62d-471e-81fc-a69a8278c7da ;
     schema:birthDate "1967-02-20"^^xsd:date ;
     schema:deathDate "1994-04-05"^^xsd:date .
@@ -22891,10 +22893,6 @@ mb:85fcccd3-7864-4174-9f82-cacb53f92cd4 a mo:MusicArtist ;
     rdfs:label "Joe Lewis"@en ;
     mh:composed <http://example.org/music-history/composition/Before_I_Met_You> .
 
-mb:8602561b-caa1-4ef7-9501-a4159b3a41c3 a mh:ProducerArtist,
-        mo:MusicArtist ;
-    rdfs:label "Beatallica"@en .
-
 mb:86098e4e-b5a5-4ada-801f-42b98f42806f a mo:MusicArtist ;
     rdfs:label "Ervin Drake"@en ;
     mh:composed <http://example.org/music-history/composition/I_Believe> .
@@ -23116,6 +23114,14 @@ mb:a2e23010-5d0e-4106-acc2-c58ebe06af1c a mo:MusicGroup ;
 mb:a43270af-bc4a-4552-847e-617b11f38d7b a mo:MusicGroup ;
     rdfs:label "John Coltrane Quartet"@en .
 
+mb:a4e2650b-938b-4b72-95bc-6e229cd34601 a mh:ProducerArtist,
+        mo:SoloMusicArtist ;
+    rdfs:label "Ry Cooder"@en ;
+    mh:countryOfOrigin <http://example.org/music-history/country/us> ;
+    mh:produced <http://example.org/music-history/album/32bbab8e-02c0-30d2-9e23-a19739864b84> ;
+    mo:member_of mb:2a85ecff-41e9-4be1-aca6-c87054a4c334 ;
+    schema:birthDate "1947-03-15"^^xsd:date .
+
 mb:a4e3b14e-56d4-4062-9164-72102db14b3e a mo:MusicArtist ;
     rdfs:label "George McCormick"@en ;
     mh:composed <http://example.org/music-history/composition/Try_Being_Lonely> .
@@ -23238,6 +23244,10 @@ mb:bb5469f5-0902-4ed1-8582-0c94a946423c a mo:MusicArtist ;
 mb:bb5bfd21-7d91-4d6b-91af-748d2da98f14 a mo:MusicArtist ;
     rdfs:label "J. Bailey"@en ;
     mh:composed <http://example.org/music-history/composition/Just_for_You> .
+
+mb:bb85b2d0-7c62-4389-8564-5eeadacd09bb a mo:MusicGroup ;
+    rdfs:label "The Beat Brothers"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 mb:bc75172c-359b-4d31-8c49-6ad95507e9ad a mo:MusicArtist ;
     rdfs:label "John Lair"@en ;
@@ -36042,6 +36052,7 @@ mh:Era a owl:Class ;
 
 <http://example.org/music-history/album/fb3770f6-83fb-32b7-85c4-1f522a92287e> a mo:Release ;
     rdfs:label "MTV Unplugged in New York"@en ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 ;
     mh:releaseDate "1994-10-31"^^xsd:date ;
     mh:releasedBy mb:5b11f4ce-a62d-471e-81fc-a69a8278c7da ;
     dc:title "MTV Unplugged in New York"@en ;
@@ -36812,7 +36823,8 @@ mh:Era a owl:Class ;
 
 <http://example.org/music-history/composition/Karl_Hyde> a mo:Release ;
     rdfs:label "Karl Hyde"@en ;
-    mh:collaboratedWith mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
+    mh:collaboratedWith mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 ;
+    mh:producedBy mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
 <http://example.org/music-history/composition/Keep_On_Moving> a mh:MusicalWork ;
     rdfs:label "Keep On Moving"@en ;
@@ -36846,6 +36858,7 @@ mh:Era a owl:Class ;
     rdfs:label "Lady"@en ;
     mh:composedBy mb:d43d12a1-2dc9-4257-a2fd-0a3bb1081b86 ;
     mh:compositionDate "1977-01-01"^^xsd:date ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d ;
     mo:genre <http://example.org/music-history/genre/country> .
 
 <http://example.org/music-history/composition/Lead_Me_Gently_Home__Father> a mh:MusicalWork ;
@@ -37350,12 +37363,10 @@ mh:Era a owl:Class ;
     mo:genre <http://example.org/music-history/genre/hip-hop> .
 
 <http://example.org/music-history/country/at> a mh:Country ;
-    rdfs:label "AT"@en,
-        "Austria"@en .
+    rdfs:label "Austria"@en .
 
 <http://example.org/music-history/country/cv> a mh:Country ;
-    rdfs:label "CV"@en,
-        "Cape Verde"@en .
+    rdfs:label "Cape Verde"@en .
 
 <http://example.org/music-history/genre/afro-jazz> a mo:Genre ;
     rdfs:label "afro-jazz"@en .
@@ -37542,59 +37553,6 @@ mb:06ed4e1e-4416-4a7c-b14b-bc68dfd252aa a mo:MusicArtist ;
         <http://example.org/music-history/composition/_I_Heard_That__Lonesome_Whistle> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/country> .
-
-mb:07aebfa0-55d6-47e0-a284-12330e3eae0d a mh:ProducerArtist,
-        mo:SoloMusicArtist ;
-    rdfs:label "Rick Rubin"@en ;
-    mh:birthPlace "Lido Beach" ;
-    mh:composed <http://example.org/music-history/composition/Berzerk> ;
-    mh:countryOfOrigin <http://example.org/music-history/country/us> ;
-    mh:founded <http://example.org/music-history/label/American_Recordings>,
-        <http://example.org/music-history/label/Def_Jam_Recordings> ;
-    mh:hasMusicalPeriod <http://example.org/music-history/period/Golden_age_hip-hop> ;
-    mh:influencedBy <http://example.org/music-history/artist/Flipper> ;
-    mh:produced <http://example.org/music-history/composition/AC_DC>,
-        <http://example.org/music-history/composition/Adele>,
-        <http://example.org/music-history/composition/Aerosmith>,
-        <http://example.org/music-history/composition/Audioslave>,
-        <http://example.org/music-history/composition/Beastie_Boys>,
-        <http://example.org/music-history/composition/Danzig>,
-        <http://example.org/music-history/composition/Ed_Sheeran>,
-        <http://example.org/music-history/composition/Geto_Boys>,
-        <http://example.org/music-history/composition/Kesha>,
-        <http://example.org/music-history/composition/LL_Cool_J>,
-        <http://example.org/music-history/composition/Lady>,
-        <http://example.org/music-history/composition/Linkin_Park>,
-        <http://example.org/music-history/composition/Public_Enemy>,
-        <http://example.org/music-history/composition/Rage_Against_the_Machine>,
-        <http://example.org/music-history/composition/Red_Hot_Chili_Peppers>,
-        <http://example.org/music-history/composition/Run-DMC>,
-        <http://example.org/music-history/composition/Slayer>,
-        <http://example.org/music-history/composition/Slipknot>,
-        <http://example.org/music-history/composition/System_of_a_Down>,
-        <http://example.org/music-history/composition/The_Chicks>,
-        <http://example.org/music-history/composition/The_Cult>,
-        <http://example.org/music-history/composition/The_Strokes>,
-        <http://example.org/music-history/composition/Tyler_Childers>,
-        <http://example.org/music-history/composition/Weezer> ;
-    mh:producedBy mb:8602561b-caa1-4ef7-9501-a4159b3a41c3,
-        mb:cfced5be-f60b-4bc9-9e86-7853c5e0dfdb,
-        mb:d43d12a1-2dc9-4257-a2fd-0a3bb1081b86 ;
-    mh:realName "Frederick Jay Rubin"@en ;
-    mh:signedTo <http://example.org/music-history/label/American_Recordings>,
-        <http://example.org/music-history/label/Columbia_Records>,
-        <http://example.org/music-history/label/Def_Jam_Recordings>,
-        <http://example.org/music-history/label/Epic_Records>,
-        <http://example.org/music-history/label/Warner_Bros__Records> ;
-    mo:genre <http://example.org/music-history/genre/country>,
-        <http://example.org/music-history/genre/heavy_metal>,
-        <http://example.org/music-history/genre/hip-hop>,
-        <http://example.org/music-history/genre/rock> ;
-    mo:member_of mb:a083073d-f563-4496-a966-7b73807bc1de,
-        mb:de48d0cb-250d-4117-9c03-3b9364d3b75b ;
-    foaf:name "Rick Rubin"@en ;
-    schema:birthDate "1963-03-10"^^xsd:date ;
-    schema:gender "Male" .
 
 mb:0a2824a1-660d-42c9-9043-657f182533b3 a mo:MusicArtist ;
     rdfs:label "Walter Donaldson"@en ;
@@ -37884,10 +37842,6 @@ mb:c6aa3a59-273a-467d-b485-bf858014902e a mo:MusicArtist ;
         <http://example.org/music-history/composition/Today_I_Sing_the_Blues> ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/rhythm_and_blues> .
-
-mb:cfced5be-f60b-4bc9-9e86-7853c5e0dfdb a mh:ProducerArtist,
-        mo:MusicGroup ;
-    rdfs:label "The Beat Brothers"@en .
 
 mb:d59c4cda-11d9-48db-8bfe-b557ee602aed a mo:MusicArtist ;
     rdfs:label "Billie Holiday"@en ;
@@ -38250,6 +38204,7 @@ mh:MusicAward a owl:Class ;
 
 <http://example.org/music-history/album/a5711a77-42d1-3f4c-830c-e27a96f0800f> a mo:Release ;
     rdfs:label "Bad"@en ;
+    mh:producedBy mb:5803c81e-739a-4057-9a5c-cf84e55db630 ;
     mh:releaseDate "1987-08-25"^^xsd:date ;
     mh:released <http://example.org/music-history/album/46d28b2d-8d92-4d79-ac00-372457ba89af> ;
     mh:releasedBy mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e ;
@@ -38283,6 +38238,7 @@ mh:MusicAward a owl:Class ;
 
 <http://example.org/music-history/album/ee749c63-5699-38e0-b565-7e84414648d9> a mo:Release ;
     rdfs:label "Off the Wall"@en ;
+    mh:producedBy mb:5803c81e-739a-4057-9a5c-cf84e55db630 ;
     mh:releaseDate "1979-08-10"^^xsd:date ;
     mh:released <http://example.org/music-history/album/46d28b2d-8d92-4d79-ac00-372457ba89af> ;
     mh:releasedBy mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e ;
@@ -38307,6 +38263,7 @@ mh:MusicAward a owl:Class ;
 
 <http://example.org/music-history/album/f32fab67-77dd-3937-addc-9062e28e4c37> a mo:Release ;
     rdfs:label "Thriller"@en ;
+    mh:producedBy mb:5803c81e-739a-4057-9a5c-cf84e55db630 ;
     mh:releaseDate "1982-11-30"^^xsd:date ;
     mh:released <http://example.org/music-history/album/46d28b2d-8d92-4d79-ac00-372457ba89af> ;
     mh:releasedBy mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e ;
@@ -38829,8 +38786,7 @@ mh:MusicAward a owl:Class ;
         mb:8e8c7417-c905-46b1-b42a-5260b4274ed4 .
 
 <http://example.org/music-history/country/es> a mh:Country ;
-    rdfs:label "ES"@en,
-        "Spain"@en .
+    rdfs:label "Spain"@en .
 
 <http://example.org/music-history/entity/1965_Newport_Folk_Festival> a mh:Venue ;
     rdfs:label "1965 Newport Folk Festival"@en .
@@ -39271,18 +39227,15 @@ schema:Country a owl:Class ;
     mh:influenced mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 .
 
 <http://example.org/music-history/country/fr> a mh:Country ;
-    rdfs:label "FR"@en,
-        "France"@en .
+    rdfs:label "France"@en .
 
 <http://example.org/music-history/country/jm> a mh:Country ;
-    rdfs:label "JM"@en,
-        "Jamaica"@en .
+    rdfs:label "Jamaica"@en .
 
 <http://example.org/music-history/country/za> a mh:Country,
         mh:InternationalCollaborator,
         mo:MusicArtist ;
-    rdfs:label "South Africa"@en,
-        "ZA"@en ;
+    rdfs:label "South Africa"@en ;
     mh:collaboratedWith mb:381086ea-f511-4aba-bdf9-71c753dc5077 ;
     mh:influenced <http://example.org/music-history/album/19847822-1430-3380-9cf1-bc45545b34ac> .
 
@@ -39579,12 +39532,10 @@ mh:MultinationalBand a owl:Class ;
         mb:fc55f851-01d7-4e96-8d68-15e62aae4af7 .
 
 <http://example.org/music-history/country/br> a mh:Country ;
-    rdfs:label "BR"@en,
-        "Brazil"@en .
+    rdfs:label "Brazil"@en .
 
 <http://example.org/music-history/country/it> a mh:Country ;
-    rdfs:label "IT"@en,
-        "Italy"@en .
+    rdfs:label "Italy"@en .
 
 <http://example.org/music-history/genre/musical_theatre> a mo:Genre ;
     rdfs:label "musical theatre"@en .
@@ -40173,8 +40124,7 @@ mb:9bd20e6a-b41d-4983-a5b6-c0ff849fa235 a mo:MusicArtist ;
         mb:db69948e-c9e8-4289-939b-98f2534853b2 .
 
 <http://example.org/music-history/country/kr> a mh:Country ;
-    rdfs:label "KR"@en,
-        "South Korea"@en .
+    rdfs:label "South Korea"@en .
 
 <http://example.org/music-history/instrument/background_vocals> a mo:Instrument ;
     rdfs:label "background vocals"@en .
@@ -40505,6 +40455,14 @@ mb:9bd20e6a-b41d-4983-a5b6-c0ff849fa235 a mo:MusicArtist ;
 
 <http://example.org/music-history/award/Kennedy_Center_Honors> a mh:Award ;
     rdfs:label "Kennedy Center Honors"@en .
+
+mh:ProducerArtist a owl:Class ;
+    rdfs:label "Producer Artist"@en ;
+    rdfs:comment "Defined class: a MusicArtist who has produced at least one Release. Inferred by a reasoner from produced triples. Note: this addresses the CW1 feedback about roles vs types — ProducerArtist is defined by what the artist does, not by assertion." ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( mo:MusicArtist [ a owl:Restriction ;
+                        owl:onProperty mh:produced ;
+                        owl:someValuesFrom mo:Release ] ) ] .
 
 <http://example.org/music-history/album/2536a41d-fde9-35d5-a6c6-cd4d94ffd916> a mo:Release ;
     rdfs:label "The Man Who Sold the World"@en ;
@@ -41048,8 +41006,7 @@ mb:79a10d06-c7cd-465b-9151-cf001d2f101d a mo:MusicArtist ;
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
         <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/rock> .
 
 <http://example.org/music-history/album/97e0014d-a267-33a0-a868-bb4e2552918a> a mo:Release ;
     rdfs:label "Got to Be There"@en ;
@@ -41125,8 +41082,7 @@ mb:79a10d06-c7cd-465b-9151-cf001d2f101d a mo:MusicArtist ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/c6402c54-a774-440e-92e9-8f921719aaf3> a mo:Release ;
     rdfs:label "Muddy Waters Sings Big Bill Broonzy"@en ;
@@ -41494,14 +41450,6 @@ mb:79a10d06-c7cd-465b-9151-cf001d2f101d a mo:MusicArtist ;
     dc:title "Ordo virtutum"@en ;
     mo:genre <http://example.org/music-history/genre/liturgical_drama>,
         <http://example.org/music-history/genre/morality_play> .
-
-mh:ProducerArtist a owl:Class ;
-    rdfs:label "Producer Artist"@en ;
-    rdfs:comment "Defined class: a MusicArtist who has produced at least one Release. Inferred by a reasoner from produced triples. Note: this addresses the CW1 feedback about roles vs types — ProducerArtist is defined by what the artist does, not by assertion." ;
-    owl:equivalentClass [ a owl:Class ;
-            owl:intersectionOf ( mo:MusicArtist [ a owl:Restriction ;
-                        owl:onProperty mh:produced ;
-                        owl:someValuesFrom mo:Release ] ) ] .
 
 <http://example.org/music-history/album/00da4796-a49b-370f-8ac9-88cd90a4a5ac> a mo:Release ;
     rdfs:label "The Fabulous Johnny Cash"@en ;
@@ -42511,8 +42459,7 @@ mh:ProducerArtist a owl:Class ;
         <http://example.org/music-history/genre/singer-songwriter> .
 
 <http://example.org/music-history/country/cu> a mh:Country ;
-    rdfs:label "CU"@en,
-        "Cuba"@en .
+    rdfs:label "Cuba"@en .
 
 <http://example.org/music-history/label/Columbia_Records> a mh:RecordLabel ;
     rdfs:label "Columbia Records"@en .
@@ -42753,8 +42700,7 @@ mb:9be7f096-97ec-4615-8957-8d40b5dcbc41 a mo:MusicArtist ;
         <http://example.org/music-history/genre/art_rock>,
         <http://example.org/music-history/genre/drone>,
         <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> .
+        <http://example.org/music-history/genre/experimental_rock> .
 
 <http://example.org/music-history/album/7de1e321-4a53-3feb-b83e-f1dab88bf952> a mo:Release ;
     rdfs:label "Ramones"@en ;
@@ -42958,6 +42904,7 @@ mb:9be7f096-97ec-4615-8957-8d40b5dcbc41 a mo:MusicArtist ;
         mb_recording:de7429d0-04f4-4c20-b0d8-b350610db002,
         mb_recording:f22b505c-9496-4c67-a872-c2768b4ae50f,
         mb_recording:fd503a45-da49-4a11-8e4b-cc0e123cf366 ;
+    mh:producedBy mb:a4e2650b-938b-4b72-95bc-6e229cd34601 ;
     mh:releaseDate "1997-06-23"^^xsd:date ;
     mh:releasedBy mb:2a85ecff-41e9-4be1-aca6-c87054a4c334 ;
     dc:title "Buena Vista Social Club"@en ;
@@ -43685,9 +43632,6 @@ mb:0a354a70-b879-4697-ad9b-60bfe2bd1d63 a mh:AwardWinningArtist,
 <http://example.org/music-history/genre/township> a mo:Genre ;
     rdfs:label "township"@en .
 
-<http://example.org/music-history/genre/united_kingdom> a mo:Genre ;
-    rdfs:label "united kingdom"@en .
-
 <http://example.org/music-history/genre/urban_contemporary> a mo:Genre ;
     rdfs:label "urban contemporary"@en .
 
@@ -43809,8 +43753,7 @@ mb:0a354a70-b879-4697-ad9b-60bfe2bd1d63 a mh:AwardWinningArtist,
         <http://example.org/music-history/genre/symphony> .
 
 <http://example.org/music-history/country/de> a mh:Country ;
-    rdfs:label "DE"@en,
-        "Germany"@en .
+    rdfs:label "Germany"@en .
 
 <http://example.org/music-history/genre/cool_jazz> a mo:Genre ;
     rdfs:label "cool jazz"@en .
@@ -43926,6 +43869,56 @@ mb:0d79fe8e-ba27-4859-bb8c-2f255f346853 a mh:AwardWinningArtist,
 <http://example.org/music-history/genre/hardcore_hip-hop> a mo:Genre ;
     rdfs:label "hardcore hip-hop"@en ;
     mh:subgenreOf <http://example.org/music-history/genre/hip_hop> .
+
+mb:07aebfa0-55d6-47e0-a284-12330e3eae0d a mh:ProducerArtist,
+        mo:SoloMusicArtist ;
+    rdfs:label "Rick Rubin"@en ;
+    mh:birthPlace "Lido Beach" ;
+    mh:composed <http://example.org/music-history/composition/Berzerk> ;
+    mh:countryOfOrigin <http://example.org/music-history/country/us> ;
+    mh:founded <http://example.org/music-history/label/American_Recordings>,
+        <http://example.org/music-history/label/Def_Jam_Recordings> ;
+    mh:hasMusicalPeriod <http://example.org/music-history/period/Golden_age_hip-hop> ;
+    mh:influencedBy <http://example.org/music-history/artist/Flipper> ;
+    mh:produced <http://example.org/music-history/composition/AC_DC>,
+        <http://example.org/music-history/composition/Adele>,
+        <http://example.org/music-history/composition/Aerosmith>,
+        <http://example.org/music-history/composition/Audioslave>,
+        <http://example.org/music-history/composition/Beastie_Boys>,
+        <http://example.org/music-history/composition/Danzig>,
+        <http://example.org/music-history/composition/Ed_Sheeran>,
+        <http://example.org/music-history/composition/Geto_Boys>,
+        <http://example.org/music-history/composition/Kesha>,
+        <http://example.org/music-history/composition/LL_Cool_J>,
+        <http://example.org/music-history/composition/Lady>,
+        <http://example.org/music-history/composition/Linkin_Park>,
+        <http://example.org/music-history/composition/Public_Enemy>,
+        <http://example.org/music-history/composition/Rage_Against_the_Machine>,
+        <http://example.org/music-history/composition/Red_Hot_Chili_Peppers>,
+        <http://example.org/music-history/composition/Run-DMC>,
+        <http://example.org/music-history/composition/Slayer>,
+        <http://example.org/music-history/composition/Slipknot>,
+        <http://example.org/music-history/composition/System_of_a_Down>,
+        <http://example.org/music-history/composition/The_Chicks>,
+        <http://example.org/music-history/composition/The_Cult>,
+        <http://example.org/music-history/composition/The_Strokes>,
+        <http://example.org/music-history/composition/Tyler_Childers>,
+        <http://example.org/music-history/composition/Weezer> ;
+    mh:realName "Frederick Jay Rubin"@en ;
+    mh:signedTo <http://example.org/music-history/label/American_Recordings>,
+        <http://example.org/music-history/label/Columbia_Records>,
+        <http://example.org/music-history/label/Def_Jam_Recordings>,
+        <http://example.org/music-history/label/Epic_Records>,
+        <http://example.org/music-history/label/Warner_Bros__Records> ;
+    mo:genre <http://example.org/music-history/genre/country>,
+        <http://example.org/music-history/genre/heavy_metal>,
+        <http://example.org/music-history/genre/hip-hop>,
+        <http://example.org/music-history/genre/rock> ;
+    mo:member_of mb:a083073d-f563-4496-a966-7b73807bc1de,
+        mb:de48d0cb-250d-4117-9c03-3b9364d3b75b ;
+    foaf:name "Rick Rubin"@en ;
+    schema:birthDate "1963-03-10"^^xsd:date ;
+    schema:gender "Male" .
 
 mb:2d923f7b-45a1-4204-beb8-5b106e913b58 a mo:SoloMusicArtist ;
     rdfs:label "Hildegard von Bingen"@en ;
@@ -45137,8 +45130,7 @@ mb:b0b33754-a664-43b7-ba00-be0dc4ec2396 a mh:AwardWinningArtist,
     schema:gender "Female" .
 
 <http://example.org/music-history/country/gb> a mh:Country ;
-    rdfs:label "GB"@en,
-        "United Kingdom"@en .
+    rdfs:label "United Kingdom"@en .
 
 <http://example.org/music-history/genre/reggae> a mo:Genre ;
     rdfs:label "reggae"@en .
@@ -45295,117 +45287,6 @@ mb:86e2e2ad-6d1b-44fd-9463-b6683718a1cc a mh:AwardWinningArtist,
 <http://example.org/music-history/genre/hip-hop> a mo:Genre ;
     rdfs:label "hip-hop"@en ;
     mh:influenced mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 .
-
-mb:5803c81e-739a-4057-9a5c-cf84e55db630 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
-        mh:ProducerArtist,
-        mo:MusicArtist,
-        mo:SoloMusicArtist ;
-    rdfs:label "Quincy Jones"@en ;
-    mh:birthPlace "Chicago" ;
-    mh:collaboratedWith <http://example.org/music-history/artist/Count_Basie>,
-        <http://example.org/music-history/artist/Lesley_Gore>,
-        mb:197450cd-0124-4164-b723-3c22dd16494d,
-        mb:2ce02909-598b-44ef-a456-151ba0a3bd70,
-        mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e ;
-    mh:composed <http://example.org/music-history/composition/In_Cold_Blood>,
-        <http://example.org/music-history/composition/In_the_Heat_of_the_Night>,
-        <http://example.org/music-history/composition/Roots>,
-        <http://example.org/music-history/composition/The_Color_Purple>,
-        <http://example.org/music-history/composition/The_Getaway>,
-        <http://example.org/music-history/composition/The_Italian_Job>,
-        <http://example.org/music-history/composition/The_Pawnbroker>,
-        <http://example.org/music-history/composition/The_Wiz> ;
-    mh:countryOfOrigin <http://example.org/music-history/country/us> ;
-    mh:founded <http://example.org/music-history/org/Quincy_Jones_Foundation>,
-        <http://example.org/music-history/org/Quincy_Jones_Productions>,
-        <http://example.org/music-history/org/Qwest_Records> ;
-    mh:hasMusicalPeriod <http://example.org/music-history/period/Big_band_era>,
-        <http://example.org/music-history/period/MTV_era> ;
-    mh:influencedBy mb:3af06bc4-68ad-4cae-bb7a-7eeeb45e411f ;
-    mh:playsInstrument <http://example.org/music-history/instrument/trumpet> ;
-    mh:produced <http://example.org/music-history/album/a5711a77-42d1-3f4c-830c-e27a96f0800f>,
-        <http://example.org/music-history/album/ee749c63-5699-38e0-b565-7e84414648d9>,
-        <http://example.org/music-history/album/f32fab67-77dd-3937-addc-9062e28e4c37>,
-        <http://example.org/music-history/composition/It_s_My_Party>,
-        <http://example.org/music-history/composition/We_Are_the_World> ;
-    mh:released <http://example.org/music-history/album/04d73eab-6c3b-4894-b7ef-711285e78caf>,
-        <http://example.org/music-history/album/1025b617-6928-4850-b548-efafb0a06c1e>,
-        <http://example.org/music-history/album/184f7d9b-90b4-3d93-92a5-2fc4cedd9265>,
-        <http://example.org/music-history/album/1dffdd11-2569-4ad7-b95f-73a91d456c7f>,
-        <http://example.org/music-history/album/2c2f777e-3a88-3763-b22c-91c5bafba15c>,
-        <http://example.org/music-history/album/3132fe76-4923-4f58-b9f8-11ac34f1a1f3>,
-        <http://example.org/music-history/album/355bca5a-956b-4325-86ab-fd0c8dd64624>,
-        <http://example.org/music-history/album/3f275308-a2a8-4b45-825a-438936e8fec2>,
-        <http://example.org/music-history/album/41f575bb-7081-4d32-875e-4818efa266ec>,
-        <http://example.org/music-history/album/4a38d1c9-b41a-4500-bae0-a09cfe87e827>,
-        <http://example.org/music-history/album/4e2745fa-2cd1-43a2-8145-d1fa958f2155>,
-        <http://example.org/music-history/album/50fd29ff-dc76-31db-8ecb-06d26d671c12>,
-        <http://example.org/music-history/album/53875aae-9199-4c8d-a4ce-a1db6fc0f272>,
-        <http://example.org/music-history/album/5d6f21a0-e7ee-3a17-8fc0-6a91880f53a4>,
-        <http://example.org/music-history/album/600debda-53c9-3260-96db-ee7c30028d99>,
-        <http://example.org/music-history/album/6748eee7-011e-3827-af81-5a17f50a975a>,
-        <http://example.org/music-history/album/7714dde6-2fc4-382f-b106-7712442c26a8>,
-        <http://example.org/music-history/album/7b005281-dba3-4c88-a61b-faa2c4d6ef0b>,
-        <http://example.org/music-history/album/aab7628c-d07e-409b-9882-df072601a60a>,
-        <http://example.org/music-history/album/b39cdabb-2659-4914-b5b7-eea272e6e510>,
-        <http://example.org/music-history/album/b40795c8-5a07-3efd-ae5e-fb94ea8e0765>,
-        <http://example.org/music-history/album/c00632c9-c7fd-3b30-b982-f345750b7615>,
-        <http://example.org/music-history/album/c1ac280c-d751-3177-b243-033dc459e85e>,
-        <http://example.org/music-history/album/cf06a5dd-3ea9-30e0-bce5-c454232b4a2a>,
-        <http://example.org/music-history/album/df57e227-969e-33c2-858a-eb5db55fab74> ;
-    mh:signedTo <http://example.org/music-history/label/ABC_Records>,
-        <http://example.org/music-history/label/A_M_Records>,
-        <http://example.org/music-history/label/Columbia_Records>,
-        <http://example.org/music-history/label/Epic_Records>,
-        <http://example.org/music-history/label/Interscope_Records>,
-        <http://example.org/music-history/label/Mercury_Records>,
-        <http://example.org/music-history/label/Verve_Records>,
-        <http://example.org/music-history/label/Warner_Records_Inc_> ;
-    mh:wonAward <http://example.org/music-history/award/Academy_Honorary_Award>,
-        <http://example.org/music-history/award/Anisfield-Wolf_Book_Awards>,
-        <http://example.org/music-history/award/BBC_Jazz_Awards>,
-        <http://example.org/music-history/award/Black_Music___Entertainment_Walk_of_Fame>,
-        <http://example.org/music-history/award/California_Hall_of_Fame>,
-        <http://example.org/music-history/award/Commander_of_the_Legion_of_Honour>,
-        <http://example.org/music-history/award/Commandeur_des_Arts_et_des_Lettres>,
-        <http://example.org/music-history/award/Fellow_of_the_American_Academy_of_Arts_and_Sciences>,
-        <http://example.org/music-history/award/Global_Citizen_Awards>,
-        <http://example.org/music-history/award/Grammy_Award_for_Best_Arrangement__Instrumental_or_A_Cappella>,
-        <http://example.org/music-history/award/Grammy_Award_for_Best_Pop_Solo_Performance>,
-        <http://example.org/music-history/award/Grammy_Award_for_Record_of_the_Year>,
-        <http://example.org/music-history/award/Grammy_Legend_Award>,
-        <http://example.org/music-history/award/Grammy_Trustees_Award>,
-        <http://example.org/music-history/award/Horatio_Alger_Award>,
-        <http://example.org/music-history/award/Kennedy_Center_Honors>,
-        <http://example.org/music-history/award/Library_of_Congress_Living_Legend>,
-        <http://example.org/music-history/award/Marian_Anderson_Award>,
-        <http://example.org/music-history/award/MusiCares_Person_of_the_Year>,
-        <http://example.org/music-history/award/NEA_Jazz_Masters>,
-        <http://example.org/music-history/award/National_Humanities_Medal>,
-        <http://example.org/music-history/award/National_Medal_of_Arts>,
-        <http://example.org/music-history/award/Order_of_the_Companions_of_O__R__Tambo>,
-        <http://example.org/music-history/award/Paul_Acket_Award>,
-        <http://example.org/music-history/award/Primetime_Emmy_Award_for_Outstanding_Music_Composition_for_a_Series__Original_Dramatic_Score_>,
-        <http://example.org/music-history/award/Rock_and_Roll_Hall_of_Fame>,
-        <http://example.org/music-history/award/Spingarn_Medal>,
-        <http://example.org/music-history/award/Steiger_Award>,
-        <http://example.org/music-history/award/star_on_Hollywood_Walk_of_Fame> ;
-    mo:genre <http://example.org/music-history/genre/bossa_nova>,
-        <http://example.org/music-history/genre/funk>,
-        <http://example.org/music-history/genre/jazz>,
-        <http://example.org/music-history/genre/pop>,
-        <http://example.org/music-history/genre/rhythm_and_blues>,
-        <http://example.org/music-history/genre/soul>,
-        <http://example.org/music-history/genre/swing> ;
-    mo:member_of mb:52deb6f1-ea74-4fb8-94b5-147c2d427f81,
-        mb:79e24c96-bb53-4b9e-915c-9efef8ece925,
-        mb:c1432398-9ded-426b-a0fd-5faf38d29d5c,
-        mb:c49d862f-6b82-464a-a39f-b031533df784 ;
-    foaf:name "Quincy Jones"@en ;
-    schema:birthDate "1933-03-14"^^xsd:date ;
-    schema:deathDate "2024-11-03"^^xsd:date ;
-    schema:gender "Male" .
 
 mb:7a8dbe84-f4c0-4457-bfa3-edced1f8cde0 a mh:AwardWinningArtist,
         mh:InternationalCollaborator,
@@ -45685,164 +45566,115 @@ mb:5b11f4ce-a62d-471e-81fc-a69a8278c7da a mh:AwardWinningArtist,
     schema:birthDate "1987"^^xsd:gYear ;
     schema:deathDate "1994-04-05"^^xsd:date .
 
-mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 a mh:AwardWinningArtist,
+mb:5803c81e-739a-4057-9a5c-cf84e55db630 a mh:AwardWinningArtist,
         mh:InternationalCollaborator,
         mh:ProducerArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
-    rdfs:label "Brian Eno"@en ;
-    mh:birthPlace "Woodbridge" ;
-    mh:collaboratedWith <http://example.org/music-history/artist/David_Byrne>,
-        <http://example.org/music-history/artist/Harold_Budd>,
-        <http://example.org/music-history/artist/John_Cale>,
-        <http://example.org/music-history/artist/Robert_Fripp>,
-        <http://example.org/music-history/artist/Robert_Wyatt>,
-        <http://example.org/music-history/composition/Karl_Hyde>,
-        mb:03c3fef0-1229-403c-a024-fb7d522ecd10,
-        mb:1327beb8-ed6b-4c26-a8b7-5209eb01ce2c,
-        mb:5441c29d-3602-4898-b1a1-b77fa23b8e50,
-        mb:59a34e53-1f30-4f99-8c1a-8465ffff84df ;
-    mh:composed <http://example.org/music-history/composition/Hurts_Like_Heaven>,
-        <http://example.org/music-history/composition/Miss_Sarajevo>,
-        <http://example.org/music-history/composition/Once_in_a_Lifetime>,
-        <http://example.org/music-history/composition/Spore>,
-        <http://example.org/music-history/composition/The_Jacket>,
-        <http://example.org/music-history/composition/The_Lovely_Bones>,
-        <http://example.org/music-history/composition/_Heroes_> ;
-    mh:countryOfOrigin <http://example.org/music-history/country/gb> ;
-    mh:founded <http://example.org/music-history/label/Obscure_Records>,
-        <http://example.org/music-history/org/EG_Records>,
-        <http://example.org/music-history/org/Long_Now_Foundation> ;
-    mh:hasMusicalPeriod <http://example.org/music-history/period/Ambient_music_origins>,
-        <http://example.org/music-history/period/Art_rock_era> ;
-    mh:pioneerOf <http://example.org/music-history/genre/ambient>,
-        <http://example.org/music-history/genre/electronica> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/synthesizer> ;
-    mh:produced <http://example.org/music-history/album/fb3770f6-83fb-32b7-85c4-1f522a92287e>,
-        <http://example.org/music-history/composition/Coldplay>,
-        <http://example.org/music-history/composition/Damon_Albarn>,
-        <http://example.org/music-history/composition/Daniel_Lanois>,
-        <http://example.org/music-history/composition/Devo>,
-        <http://example.org/music-history/composition/Grace_Jones>,
-        <http://example.org/music-history/composition/James>,
-        <http://example.org/music-history/composition/Karl_Hyde>,
-        <http://example.org/music-history/composition/Kevin_Shields>,
-        <http://example.org/music-history/composition/Laurie_Anderson>,
-        <http://example.org/music-history/composition/Peter_Gabriel>,
-        <http://example.org/music-history/composition/Slowdive>,
-        <http://example.org/music-history/composition/Talking_Heads>,
-        <http://example.org/music-history/composition/U2>,
-        <http://example.org/music-history/composition/Ultravox> ;
-    mh:realName "Brian Peter George St John le Baptiste de la Salle Eno"@en ;
-    mh:released <http://example.org/music-history/album/02c0fc3b-9c3c-34e4-abed-bb6cd04fa1fc>,
-        <http://example.org/music-history/album/03fe7fe6-2d96-3b40-816d-885b5118107e>,
-        <http://example.org/music-history/album/0dd5a352-6ae0-3e0d-bf18-bec30e27807d>,
-        <http://example.org/music-history/album/1696441a-25cd-32df-aad8-9ba367ea658c>,
-        <http://example.org/music-history/album/19ad2849-af1c-3e4a-8dca-e810132f2bf1>,
-        <http://example.org/music-history/album/5aad875e-b319-3917-8e32-4eb13464c7dd>,
-        <http://example.org/music-history/album/5fdd6ba8-83c1-3a87-b378-d5f61dec5ddd>,
-        <http://example.org/music-history/album/63456fe7-2d31-378d-a97d-91e8b55946cc>,
-        <http://example.org/music-history/album/66160657-0c19-3139-8742-6726fa484f93>,
-        <http://example.org/music-history/album/6c364112-e9fb-373c-9f1d-364b427f64c3>,
-        <http://example.org/music-history/album/6f9e2641-f79b-32f2-a752-f7212e9040e4>,
-        <http://example.org/music-history/album/7d5a684e-73a3-325c-a59c-34c9a941d8d6>,
-        <http://example.org/music-history/album/7da2aff3-6ea3-3eaf-9fe3-74ce89fd6dc0>,
-        <http://example.org/music-history/album/8aa4a5d9-808e-3aa9-9088-890efa7214b4>,
-        <http://example.org/music-history/album/8cc4ad2e-95b9-3bb9-9d34-1d1dc4dffe6e>,
-        <http://example.org/music-history/album/90d9be4c-30be-3e28-949a-66ee22c3a63a>,
-        <http://example.org/music-history/album/92dc4f33-f0bc-42da-856a-684e1eea3c2d>,
-        <http://example.org/music-history/album/93de2cce-a2d6-389b-9050-8c6b78abab82>,
-        <http://example.org/music-history/album/bc72eaef-880a-30a0-b661-d6cdbd75c8da>,
-        <http://example.org/music-history/album/bdde0830-6795-3a52-aaff-a5daf64184c8>,
-        <http://example.org/music-history/album/bef2e618-e3c3-3725-bef2-07d8bfcc0706>,
-        <http://example.org/music-history/album/dc8ebaf6-2524-3c62-9c11-9155fa460f42>,
-        <http://example.org/music-history/album/e2e79340-b616-37df-9e5f-dd2b11d7c1cd>,
-        <http://example.org/music-history/album/f500d8a1-64f4-3eb8-83ca-5a7c43edf422>,
-        <http://example.org/music-history/album/f833a9fc-3c55-309f-a7f5-30fb9124040d> ;
-    mh:signedTo <http://example.org/music-history/label/All_Saints_Records>,
-        <http://example.org/music-history/label/Astralwerks>,
-        <http://example.org/music-history/label/E_G__Records>,
-        <http://example.org/music-history/label/Hannibal_Records>,
-        <http://example.org/music-history/label/Island_Records>,
-        <http://example.org/music-history/label/Obscure_Records>,
-        <http://example.org/music-history/label/Polydor>,
-        <http://example.org/music-history/label/Thirsty_Ear_Recordings>,
-        <http://example.org/music-history/label/Warp> ;
-    mh:wonAward <http://example.org/music-history/award/Frankfurter_Musikpreis>,
-        <http://example.org/music-history/award/Rock_and_Roll_Hall_of_Fame>,
-        <http://example.org/music-history/award/Royal_Designer_for_Industry> ;
-    mo:genre <http://example.org/music-history/genre/ambient>,
-        <http://example.org/music-history/genre/art_pop>,
-        <http://example.org/music-history/genre/art_rock>,
-        <http://example.org/music-history/genre/drone>,
-        <http://example.org/music-history/genre/electronic>,
-        <http://example.org/music-history/genre/experimental_rock>,
-        <http://example.org/music-history/genre/united_kingdom> ;
-    mo:member_of mb:1e33bf82-1736-4d25-9829-52bf0b2d1ddb,
-        mb:331ce348-1b08-40b9-8ed7-0763b92bd003,
-        mb:3c9646eb-aecb-43be-bf07-a09b57d9fac5,
-        mb:c65492b4-28af-4d63-b9f5-1db325fd5976,
-        mb:e110c11f-1c94-4471-a350-c38f46b29389 ;
-    foaf:name "Brian Eno"@en ;
-    schema:birthDate "1948-05-15"^^xsd:date ;
-    schema:gender "Male" .
-
-mb:26fa8b67-6c7f-406c-ad64-a1d070092df2 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
-        mh:ProducerArtist,
-        mo:MusicArtist,
-        mo:SoloMusicArtist ;
-    rdfs:label "George Martin"@en ;
-    mh:birthPlace "Highbury" ;
-    mh:collaboratedWith <http://example.org/music-history/artist/Bernard_Cribbins>,
-        <http://example.org/music-history/artist/Peter_Sellers>,
-        <http://example.org/music-history/artist/Spike_Milligan>,
-        mb:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d ;
-    mh:composed <http://example.org/music-history/composition/A_Beginning>,
-        <http://example.org/music-history/composition/Help_>,
-        <http://example.org/music-history/composition/Live_and_Let_Die>,
-        <http://example.org/music-history/composition/Pulp>,
-        <http://example.org/music-history/composition/orchestral_and_string_arrangements> ;
-    mh:countryOfOrigin <http://example.org/music-history/country/gb> ;
-    mh:founded <http://example.org/music-history/org/AIR_Studios>,
-        <http://example.org/music-history/org/Associated_Independent_Recording>,
-        <http://example.org/music-history/org/Associated_Independent_Recording__AIR_> ;
-    mh:hasMusicalPeriod <http://example.org/music-history/period/British_Invasion> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/oboe>,
-        <http://example.org/music-history/instrument/piano> ;
-    mh:produced <http://example.org/music-history/album/055be730-dcad-31bf-b550-45ba9c202aa3>,
-        <http://example.org/music-history/composition/The_Beatles__original_albums>,
-        <http://example.org/music-history/composition/comedy_and_novelty_records> ;
-    mh:realName "George Henry Martin"@en ;
-    mh:released <http://example.org/music-history/album/56f876c8-536c-4c1c-a2f7-432d1eb69c6b>,
-        <http://example.org/music-history/album/6a329ef0-d2f1-4533-bcc4-ca0538cf984a>,
-        <http://example.org/music-history/album/6bf242d8-2e36-3c96-9fbc-0198cd3bb7e9>,
-        <http://example.org/music-history/album/8dee97c3-7ba4-3c83-b823-1f68337f027f>,
-        <http://example.org/music-history/album/c12c2e2b-f848-3593-bfdc-ac5e5e5128fa> ;
-    mh:signedTo <http://example.org/music-history/label/Apple_Records>,
-        <http://example.org/music-history/label/Atlantic_Records>,
-        <http://example.org/music-history/label/Canadian-American_Records>,
-        <http://example.org/music-history/label/Capitol_Records>,
-        <http://example.org/music-history/label/EMI>,
-        <http://example.org/music-history/label/Island_Records>,
-        <http://example.org/music-history/label/Manticore_Records>,
-        <http://example.org/music-history/label/Parlophone>,
-        <http://example.org/music-history/label/United_Artists_Records>,
-        <http://example.org/music-history/label/Warner_Music_Group> ;
-    mh:wonAward <http://example.org/music-history/award/Commander_of_the_Order_of_the_British_Empire>,
-        <http://example.org/music-history/award/Grammy_Award_for_Album_of_the_Year>,
+    rdfs:label "Quincy Jones"@en ;
+    mh:birthPlace "Chicago" ;
+    mh:collaboratedWith <http://example.org/music-history/artist/Count_Basie>,
+        <http://example.org/music-history/artist/Lesley_Gore>,
+        mb:197450cd-0124-4164-b723-3c22dd16494d,
+        mb:2ce02909-598b-44ef-a456-151ba0a3bd70,
+        mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e ;
+    mh:composed <http://example.org/music-history/composition/In_Cold_Blood>,
+        <http://example.org/music-history/composition/In_the_Heat_of_the_Night>,
+        <http://example.org/music-history/composition/Roots>,
+        <http://example.org/music-history/composition/The_Color_Purple>,
+        <http://example.org/music-history/composition/The_Getaway>,
+        <http://example.org/music-history/composition/The_Italian_Job>,
+        <http://example.org/music-history/composition/The_Pawnbroker>,
+        <http://example.org/music-history/composition/The_Wiz> ;
+    mh:countryOfOrigin <http://example.org/music-history/country/us> ;
+    mh:founded <http://example.org/music-history/org/Quincy_Jones_Foundation>,
+        <http://example.org/music-history/org/Quincy_Jones_Productions>,
+        <http://example.org/music-history/org/Qwest_Records> ;
+    mh:hasMusicalPeriod <http://example.org/music-history/period/Big_band_era>,
+        <http://example.org/music-history/period/MTV_era> ;
+    mh:influencedBy mb:3af06bc4-68ad-4cae-bb7a-7eeeb45e411f ;
+    mh:playsInstrument <http://example.org/music-history/instrument/trumpet> ;
+    mh:produced <http://example.org/music-history/album/a5711a77-42d1-3f4c-830c-e27a96f0800f>,
+        <http://example.org/music-history/album/ee749c63-5699-38e0-b565-7e84414648d9>,
+        <http://example.org/music-history/album/f32fab67-77dd-3937-addc-9062e28e4c37>,
+        <http://example.org/music-history/composition/It_s_My_Party>,
+        <http://example.org/music-history/composition/We_Are_the_World> ;
+    mh:released <http://example.org/music-history/album/04d73eab-6c3b-4894-b7ef-711285e78caf>,
+        <http://example.org/music-history/album/1025b617-6928-4850-b548-efafb0a06c1e>,
+        <http://example.org/music-history/album/184f7d9b-90b4-3d93-92a5-2fc4cedd9265>,
+        <http://example.org/music-history/album/1dffdd11-2569-4ad7-b95f-73a91d456c7f>,
+        <http://example.org/music-history/album/2c2f777e-3a88-3763-b22c-91c5bafba15c>,
+        <http://example.org/music-history/album/3132fe76-4923-4f58-b9f8-11ac34f1a1f3>,
+        <http://example.org/music-history/album/355bca5a-956b-4325-86ab-fd0c8dd64624>,
+        <http://example.org/music-history/album/3f275308-a2a8-4b45-825a-438936e8fec2>,
+        <http://example.org/music-history/album/41f575bb-7081-4d32-875e-4818efa266ec>,
+        <http://example.org/music-history/album/4a38d1c9-b41a-4500-bae0-a09cfe87e827>,
+        <http://example.org/music-history/album/4e2745fa-2cd1-43a2-8145-d1fa958f2155>,
+        <http://example.org/music-history/album/50fd29ff-dc76-31db-8ecb-06d26d671c12>,
+        <http://example.org/music-history/album/53875aae-9199-4c8d-a4ce-a1db6fc0f272>,
+        <http://example.org/music-history/album/5d6f21a0-e7ee-3a17-8fc0-6a91880f53a4>,
+        <http://example.org/music-history/album/600debda-53c9-3260-96db-ee7c30028d99>,
+        <http://example.org/music-history/album/6748eee7-011e-3827-af81-5a17f50a975a>,
+        <http://example.org/music-history/album/7714dde6-2fc4-382f-b106-7712442c26a8>,
+        <http://example.org/music-history/album/7b005281-dba3-4c88-a61b-faa2c4d6ef0b>,
+        <http://example.org/music-history/album/aab7628c-d07e-409b-9882-df072601a60a>,
+        <http://example.org/music-history/album/b39cdabb-2659-4914-b5b7-eea272e6e510>,
+        <http://example.org/music-history/album/b40795c8-5a07-3efd-ae5e-fb94ea8e0765>,
+        <http://example.org/music-history/album/c00632c9-c7fd-3b30-b982-f345750b7615>,
+        <http://example.org/music-history/album/c1ac280c-d751-3177-b243-033dc459e85e>,
+        <http://example.org/music-history/album/cf06a5dd-3ea9-30e0-bce5-c454232b4a2a>,
+        <http://example.org/music-history/album/df57e227-969e-33c2-858a-eb5db55fab74> ;
+    mh:signedTo <http://example.org/music-history/label/ABC_Records>,
+        <http://example.org/music-history/label/A_M_Records>,
+        <http://example.org/music-history/label/Columbia_Records>,
+        <http://example.org/music-history/label/Epic_Records>,
+        <http://example.org/music-history/label/Interscope_Records>,
+        <http://example.org/music-history/label/Mercury_Records>,
+        <http://example.org/music-history/label/Verve_Records>,
+        <http://example.org/music-history/label/Warner_Records_Inc_> ;
+    mh:wonAward <http://example.org/music-history/award/Academy_Honorary_Award>,
+        <http://example.org/music-history/award/Anisfield-Wolf_Book_Awards>,
+        <http://example.org/music-history/award/BBC_Jazz_Awards>,
+        <http://example.org/music-history/award/Black_Music___Entertainment_Walk_of_Fame>,
+        <http://example.org/music-history/award/California_Hall_of_Fame>,
+        <http://example.org/music-history/award/Commander_of_the_Legion_of_Honour>,
+        <http://example.org/music-history/award/Commandeur_des_Arts_et_des_Lettres>,
+        <http://example.org/music-history/award/Fellow_of_the_American_Academy_of_Arts_and_Sciences>,
+        <http://example.org/music-history/award/Global_Citizen_Awards>,
+        <http://example.org/music-history/award/Grammy_Award_for_Best_Arrangement__Instrumental_or_A_Cappella>,
+        <http://example.org/music-history/award/Grammy_Award_for_Best_Pop_Solo_Performance>,
+        <http://example.org/music-history/award/Grammy_Award_for_Record_of_the_Year>,
+        <http://example.org/music-history/award/Grammy_Legend_Award>,
         <http://example.org/music-history/award/Grammy_Trustees_Award>,
-        <http://example.org/music-history/award/James_Joyce_Awards>,
-        <http://example.org/music-history/award/Knight_Bachelor>,
-        <http://example.org/music-history/award/Rock_and_Roll_Hall_of_Fame> ;
-    mo:genre <http://example.org/music-history/genre/classical>,
+        <http://example.org/music-history/award/Horatio_Alger_Award>,
+        <http://example.org/music-history/award/Kennedy_Center_Honors>,
+        <http://example.org/music-history/award/Library_of_Congress_Living_Legend>,
+        <http://example.org/music-history/award/Marian_Anderson_Award>,
+        <http://example.org/music-history/award/MusiCares_Person_of_the_Year>,
+        <http://example.org/music-history/award/NEA_Jazz_Masters>,
+        <http://example.org/music-history/award/National_Humanities_Medal>,
+        <http://example.org/music-history/award/National_Medal_of_Arts>,
+        <http://example.org/music-history/award/Order_of_the_Companions_of_O__R__Tambo>,
+        <http://example.org/music-history/award/Paul_Acket_Award>,
+        <http://example.org/music-history/award/Primetime_Emmy_Award_for_Outstanding_Music_Composition_for_a_Series__Original_Dramatic_Score_>,
+        <http://example.org/music-history/award/Rock_and_Roll_Hall_of_Fame>,
+        <http://example.org/music-history/award/Spingarn_Medal>,
+        <http://example.org/music-history/award/Steiger_Award>,
+        <http://example.org/music-history/award/star_on_Hollywood_Walk_of_Fame> ;
+    mo:genre <http://example.org/music-history/genre/bossa_nova>,
+        <http://example.org/music-history/genre/funk>,
+        <http://example.org/music-history/genre/jazz>,
         <http://example.org/music-history/genre/pop>,
-        <http://example.org/music-history/genre/rock> ;
-    mo:member_of mb:255c6063-d053-43dc-8969-799c2e925822,
-        mb:61c81797-b7d3-4c01-b0d7-6b970dec450c ;
-    foaf:name "George Martin"@en ;
-    schema:birthDate "1926-01-03"^^xsd:date ;
-    schema:deathDate "2016-03-08"^^xsd:date ;
+        <http://example.org/music-history/genre/rhythm_and_blues>,
+        <http://example.org/music-history/genre/soul>,
+        <http://example.org/music-history/genre/swing> ;
+    mo:member_of mb:52deb6f1-ea74-4fb8-94b5-147c2d427f81,
+        mb:79e24c96-bb53-4b9e-915c-9efef8ece925,
+        mb:c1432398-9ded-426b-a0fd-5faf38d29d5c,
+        mb:c49d862f-6b82-464a-a39f-b031533df784 ;
+    foaf:name "Quincy Jones"@en ;
+    schema:birthDate "1933-03-14"^^xsd:date ;
+    schema:deathDate "2024-11-03"^^xsd:date ;
     schema:gender "Male" .
 
 mb:7bc8dd01-35ea-4b18-a64d-3a364dc76a52 a mh:AwardWinningArtist,
@@ -45927,6 +45759,64 @@ mb:7bc8dd01-35ea-4b18-a64d-3a364dc76a52 a mh:AwardWinningArtist,
     foaf:name "Paco de Lucía"@en ;
     schema:birthDate "1947-12-21"^^xsd:date ;
     schema:deathDate "2014-02-25"^^xsd:date ;
+    schema:gender "Male" .
+
+mb:26fa8b67-6c7f-406c-ad64-a1d070092df2 a mh:AwardWinningArtist,
+        mh:InternationalCollaborator,
+        mh:ProducerArtist,
+        mo:MusicArtist,
+        mo:SoloMusicArtist ;
+    rdfs:label "George Martin"@en ;
+    mh:birthPlace "Highbury" ;
+    mh:collaboratedWith <http://example.org/music-history/artist/Bernard_Cribbins>,
+        <http://example.org/music-history/artist/Peter_Sellers>,
+        <http://example.org/music-history/artist/Spike_Milligan>,
+        mb:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d ;
+    mh:composed <http://example.org/music-history/composition/A_Beginning>,
+        <http://example.org/music-history/composition/Help_>,
+        <http://example.org/music-history/composition/Live_and_Let_Die>,
+        <http://example.org/music-history/composition/Pulp>,
+        <http://example.org/music-history/composition/orchestral_and_string_arrangements> ;
+    mh:countryOfOrigin <http://example.org/music-history/country/gb> ;
+    mh:founded <http://example.org/music-history/org/AIR_Studios>,
+        <http://example.org/music-history/org/Associated_Independent_Recording>,
+        <http://example.org/music-history/org/Associated_Independent_Recording__AIR_> ;
+    mh:hasMusicalPeriod <http://example.org/music-history/period/British_Invasion> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/oboe>,
+        <http://example.org/music-history/instrument/piano> ;
+    mh:produced <http://example.org/music-history/album/055be730-dcad-31bf-b550-45ba9c202aa3>,
+        <http://example.org/music-history/composition/The_Beatles__original_albums>,
+        <http://example.org/music-history/composition/comedy_and_novelty_records> ;
+    mh:realName "George Henry Martin"@en ;
+    mh:released <http://example.org/music-history/album/56f876c8-536c-4c1c-a2f7-432d1eb69c6b>,
+        <http://example.org/music-history/album/6a329ef0-d2f1-4533-bcc4-ca0538cf984a>,
+        <http://example.org/music-history/album/6bf242d8-2e36-3c96-9fbc-0198cd3bb7e9>,
+        <http://example.org/music-history/album/8dee97c3-7ba4-3c83-b823-1f68337f027f>,
+        <http://example.org/music-history/album/c12c2e2b-f848-3593-bfdc-ac5e5e5128fa> ;
+    mh:signedTo <http://example.org/music-history/label/Apple_Records>,
+        <http://example.org/music-history/label/Atlantic_Records>,
+        <http://example.org/music-history/label/Canadian-American_Records>,
+        <http://example.org/music-history/label/Capitol_Records>,
+        <http://example.org/music-history/label/EMI>,
+        <http://example.org/music-history/label/Island_Records>,
+        <http://example.org/music-history/label/Manticore_Records>,
+        <http://example.org/music-history/label/Parlophone>,
+        <http://example.org/music-history/label/United_Artists_Records>,
+        <http://example.org/music-history/label/Warner_Music_Group> ;
+    mh:wonAward <http://example.org/music-history/award/Commander_of_the_Order_of_the_British_Empire>,
+        <http://example.org/music-history/award/Grammy_Award_for_Album_of_the_Year>,
+        <http://example.org/music-history/award/Grammy_Trustees_Award>,
+        <http://example.org/music-history/award/James_Joyce_Awards>,
+        <http://example.org/music-history/award/Knight_Bachelor>,
+        <http://example.org/music-history/award/Rock_and_Roll_Hall_of_Fame> ;
+    mo:genre <http://example.org/music-history/genre/classical>,
+        <http://example.org/music-history/genre/pop>,
+        <http://example.org/music-history/genre/rock> ;
+    mo:member_of mb:255c6063-d053-43dc-8969-799c2e925822,
+        mb:61c81797-b7d3-4c01-b0d7-6b970dec450c ;
+    foaf:name "George Martin"@en ;
+    schema:birthDate "1926-01-03"^^xsd:date ;
+    schema:deathDate "2016-03-08"^^xsd:date ;
     schema:gender "Male" .
 
 mb:592a3b6d-c42b-4567-99c9-ecf63bd66499 a mh:AwardWinningArtist,
@@ -47098,6 +46988,107 @@ mb:561d854a-6a28-4aa7-8c99-323e6ce46c2a a mh:AwardWinningArtist,
     foaf:name "Miles Davis"@en ;
     schema:birthDate "1926-05-26"^^xsd:date ;
     schema:deathDate "1991-09-28"^^xsd:date ;
+    schema:gender "Male" .
+
+mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 a mh:AwardWinningArtist,
+        mh:InternationalCollaborator,
+        mh:ProducerArtist,
+        mo:MusicArtist,
+        mo:SoloMusicArtist ;
+    rdfs:label "Brian Eno"@en ;
+    mh:birthPlace "Woodbridge" ;
+    mh:collaboratedWith <http://example.org/music-history/artist/David_Byrne>,
+        <http://example.org/music-history/artist/Harold_Budd>,
+        <http://example.org/music-history/artist/John_Cale>,
+        <http://example.org/music-history/artist/Robert_Fripp>,
+        <http://example.org/music-history/artist/Robert_Wyatt>,
+        <http://example.org/music-history/composition/Karl_Hyde>,
+        mb:03c3fef0-1229-403c-a024-fb7d522ecd10,
+        mb:1327beb8-ed6b-4c26-a8b7-5209eb01ce2c,
+        mb:5441c29d-3602-4898-b1a1-b77fa23b8e50,
+        mb:59a34e53-1f30-4f99-8c1a-8465ffff84df ;
+    mh:composed <http://example.org/music-history/composition/Hurts_Like_Heaven>,
+        <http://example.org/music-history/composition/Miss_Sarajevo>,
+        <http://example.org/music-history/composition/Once_in_a_Lifetime>,
+        <http://example.org/music-history/composition/Spore>,
+        <http://example.org/music-history/composition/The_Jacket>,
+        <http://example.org/music-history/composition/The_Lovely_Bones>,
+        <http://example.org/music-history/composition/_Heroes_> ;
+    mh:countryOfOrigin <http://example.org/music-history/country/gb> ;
+    mh:founded <http://example.org/music-history/label/Obscure_Records>,
+        <http://example.org/music-history/org/EG_Records>,
+        <http://example.org/music-history/org/Long_Now_Foundation> ;
+    mh:hasMusicalPeriod <http://example.org/music-history/period/Ambient_music_origins>,
+        <http://example.org/music-history/period/Art_rock_era> ;
+    mh:pioneerOf <http://example.org/music-history/genre/ambient>,
+        <http://example.org/music-history/genre/electronica> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/synthesizer> ;
+    mh:produced <http://example.org/music-history/album/fb3770f6-83fb-32b7-85c4-1f522a92287e>,
+        <http://example.org/music-history/composition/Coldplay>,
+        <http://example.org/music-history/composition/Damon_Albarn>,
+        <http://example.org/music-history/composition/Daniel_Lanois>,
+        <http://example.org/music-history/composition/Devo>,
+        <http://example.org/music-history/composition/Grace_Jones>,
+        <http://example.org/music-history/composition/James>,
+        <http://example.org/music-history/composition/Karl_Hyde>,
+        <http://example.org/music-history/composition/Kevin_Shields>,
+        <http://example.org/music-history/composition/Laurie_Anderson>,
+        <http://example.org/music-history/composition/Peter_Gabriel>,
+        <http://example.org/music-history/composition/Slowdive>,
+        <http://example.org/music-history/composition/Talking_Heads>,
+        <http://example.org/music-history/composition/U2>,
+        <http://example.org/music-history/composition/Ultravox> ;
+    mh:realName "Brian Peter George St John le Baptiste de la Salle Eno"@en ;
+    mh:released <http://example.org/music-history/album/02c0fc3b-9c3c-34e4-abed-bb6cd04fa1fc>,
+        <http://example.org/music-history/album/03fe7fe6-2d96-3b40-816d-885b5118107e>,
+        <http://example.org/music-history/album/0dd5a352-6ae0-3e0d-bf18-bec30e27807d>,
+        <http://example.org/music-history/album/1696441a-25cd-32df-aad8-9ba367ea658c>,
+        <http://example.org/music-history/album/19ad2849-af1c-3e4a-8dca-e810132f2bf1>,
+        <http://example.org/music-history/album/5aad875e-b319-3917-8e32-4eb13464c7dd>,
+        <http://example.org/music-history/album/5fdd6ba8-83c1-3a87-b378-d5f61dec5ddd>,
+        <http://example.org/music-history/album/63456fe7-2d31-378d-a97d-91e8b55946cc>,
+        <http://example.org/music-history/album/66160657-0c19-3139-8742-6726fa484f93>,
+        <http://example.org/music-history/album/6c364112-e9fb-373c-9f1d-364b427f64c3>,
+        <http://example.org/music-history/album/6f9e2641-f79b-32f2-a752-f7212e9040e4>,
+        <http://example.org/music-history/album/7d5a684e-73a3-325c-a59c-34c9a941d8d6>,
+        <http://example.org/music-history/album/7da2aff3-6ea3-3eaf-9fe3-74ce89fd6dc0>,
+        <http://example.org/music-history/album/8aa4a5d9-808e-3aa9-9088-890efa7214b4>,
+        <http://example.org/music-history/album/8cc4ad2e-95b9-3bb9-9d34-1d1dc4dffe6e>,
+        <http://example.org/music-history/album/90d9be4c-30be-3e28-949a-66ee22c3a63a>,
+        <http://example.org/music-history/album/92dc4f33-f0bc-42da-856a-684e1eea3c2d>,
+        <http://example.org/music-history/album/93de2cce-a2d6-389b-9050-8c6b78abab82>,
+        <http://example.org/music-history/album/bc72eaef-880a-30a0-b661-d6cdbd75c8da>,
+        <http://example.org/music-history/album/bdde0830-6795-3a52-aaff-a5daf64184c8>,
+        <http://example.org/music-history/album/bef2e618-e3c3-3725-bef2-07d8bfcc0706>,
+        <http://example.org/music-history/album/dc8ebaf6-2524-3c62-9c11-9155fa460f42>,
+        <http://example.org/music-history/album/e2e79340-b616-37df-9e5f-dd2b11d7c1cd>,
+        <http://example.org/music-history/album/f500d8a1-64f4-3eb8-83ca-5a7c43edf422>,
+        <http://example.org/music-history/album/f833a9fc-3c55-309f-a7f5-30fb9124040d> ;
+    mh:signedTo <http://example.org/music-history/label/All_Saints_Records>,
+        <http://example.org/music-history/label/Astralwerks>,
+        <http://example.org/music-history/label/E_G__Records>,
+        <http://example.org/music-history/label/Hannibal_Records>,
+        <http://example.org/music-history/label/Island_Records>,
+        <http://example.org/music-history/label/Obscure_Records>,
+        <http://example.org/music-history/label/Polydor>,
+        <http://example.org/music-history/label/Thirsty_Ear_Recordings>,
+        <http://example.org/music-history/label/Warp> ;
+    mh:wonAward <http://example.org/music-history/award/Frankfurter_Musikpreis>,
+        <http://example.org/music-history/award/Rock_and_Roll_Hall_of_Fame>,
+        <http://example.org/music-history/award/Royal_Designer_for_Industry> ;
+    mo:genre <http://example.org/music-history/genre/ambient>,
+        <http://example.org/music-history/genre/art_pop>,
+        <http://example.org/music-history/genre/art_rock>,
+        <http://example.org/music-history/genre/drone>,
+        <http://example.org/music-history/genre/electronic>,
+        <http://example.org/music-history/genre/experimental_rock> ;
+    mo:member_of mb:1e33bf82-1736-4d25-9829-52bf0b2d1ddb,
+        mb:331ce348-1b08-40b9-8ed7-0763b92bd003,
+        mb:3c9646eb-aecb-43be-bf07-a09b57d9fac5,
+        mb:c65492b4-28af-4d63-b9f5-1db325fd5976,
+        mb:e110c11f-1c94-4471-a350-c38f46b29389 ;
+    foaf:name "Brian Eno"@en ;
+    schema:birthDate "1948-05-15"^^xsd:date ;
     schema:gender "Male" .
 
 <http://example.org/music-history/genre/bossa_nova> a mo:Genre ;
@@ -48490,6 +48481,116 @@ mb:2f9ecbed-27be-40e6-abca-6de49d50299e a mh:AwardWinningArtist,
 <http://example.org/music-history/genre/art_pop> a mo:Genre ;
     rdfs:label "art pop"@en .
 
+mb:d43d12a1-2dc9-4257-a2fd-0a3bb1081b86 a mh:AwardWinningArtist,
+        mh:InternationalCollaborator,
+        mo:MusicArtist,
+        mo:SoloMusicArtist ;
+    rdfs:label "Johnny Cash"@en ;
+    mh:birthPlace "Kingsland" ;
+    mh:collaboratedWith <http://example.org/music-history/artist/Texas_Troubadours>,
+        <http://example.org/music-history/artist/Willie_Nelson>,
+        mb:01809552-4f87-45b0-afff-2c6f0730a3be,
+        mb:4ee75011-678b-46e0-b8e1-8ef47e5b7379,
+        mb:72c536dc-7137-4477-a521-567eeb840fa8,
+        mb:ab73de4d-06ee-4814-acce-2e3e537eb4ac,
+        mb:b4bfd133-a931-42c7-a41c-0311893dea67 ;
+    mh:composed <http://example.org/music-history/composition/Cry__Cry__Cry_>,
+        <http://example.org/music-history/composition/Don_t_Take_Your_Guns_to_Town>,
+        <http://example.org/music-history/composition/Flesh_and_Blood>,
+        <http://example.org/music-history/composition/Folsom_Prison_Blues>,
+        <http://example.org/music-history/composition/Forty_Shades_of_Green>,
+        <http://example.org/music-history/composition/Get_Rhythm>,
+        <http://example.org/music-history/composition/Give_My_Love_to_Rose>,
+        <http://example.org/music-history/composition/Hey__Porter>,
+        <http://example.org/music-history/composition/Home_of_the_Blues>,
+        <http://example.org/music-history/composition/I_Still_Miss_Someone>,
+        <http://example.org/music-history/composition/I_Walk_the_Line>,
+        <http://example.org/music-history/composition/It_s_All_Over>,
+        <http://example.org/music-history/composition/Johnny_Cash__The_Man__His_World__His_Music>,
+        <http://example.org/music-history/composition/Lady>,
+        <http://example.org/music-history/composition/Man_in_Black>,
+        <http://example.org/music-history/composition/My_Best_Friend_s_Birthday>,
+        <http://example.org/music-history/composition/Ring_of_Fire>,
+        <http://example.org/music-history/composition/San_Quentin>,
+        <http://example.org/music-history/composition/So_Doggone_Lonesome>,
+        <http://example.org/music-history/composition/Straight_A_s_in_Love>,
+        <http://example.org/music-history/composition/Tennessee_Flat_Top_Box>,
+        <http://example.org/music-history/composition/That_s_Right>,
+        <http://example.org/music-history/composition/The_Folk_Singer>,
+        <http://example.org/music-history/composition/You_Dreamer_You>,
+        <http://example.org/music-history/composition/You_re_the_Nearest_Thing_to_Heaven> ;
+    mh:countryOfOrigin <http://example.org/music-history/country/us> ;
+    mh:founded <http://example.org/music-history/label/House_of_Cash> ;
+    mh:hasMusicalPeriod <http://example.org/music-history/period/Nashville_Sound_era>,
+        <http://example.org/music-history/period/Outlaw_country_era>,
+        <http://example.org/music-history/period/Rock_and_roll_origins> ;
+    mh:performedAt <http://example.org/music-history/venue/Folsom_State_Prison_concert>,
+        <http://example.org/music-history/venue/Glastonbury_Festival_headline_set>,
+        <http://example.org/music-history/venue/San_Quentin_State_Prison_concert> ;
+    mh:playsInstrument <http://example.org/music-history/instrument/guitar>,
+        <http://example.org/music-history/instrument/vocals> ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d ;
+    mh:realName "John R. Cash"@en ;
+    mh:released <http://example.org/music-history/album/00da4796-a49b-370f-8ac9-88cd90a4a5ac>,
+        <http://example.org/music-history/album/1e2773f6-5e57-31dc-acda-3819a5774ff6>,
+        <http://example.org/music-history/album/1e896abe-d5d5-348b-ad6e-6c9068793dad>,
+        <http://example.org/music-history/album/2379d5a7-b5ec-445c-bf0f-bb76ae84dd0a>,
+        <http://example.org/music-history/album/288b58ea-6b89-3dae-8428-2822fb15c7cb>,
+        <http://example.org/music-history/album/394beb31-b770-3d4e-a40d-7fa99b6f0d1a>,
+        <http://example.org/music-history/album/46a247e5-4d60-3213-872a-b3345f8454e3>,
+        <http://example.org/music-history/album/4c301360-e5ef-3a4c-befc-1ef642de8b50>,
+        <http://example.org/music-history/album/4c59b7f1-23e2-3f9b-9c98-74e35ea72996>,
+        <http://example.org/music-history/album/50031fc5-b480-368a-a7f2-a5db73fd3370>,
+        <http://example.org/music-history/album/687df0ac-d420-4809-9bfc-ccd69363783a>,
+        <http://example.org/music-history/album/7201df58-d4e8-37cc-ba0f-c448cc8bc578>,
+        <http://example.org/music-history/album/77fd27bd-ffed-3384-87ca-8191fe9e42cb>,
+        <http://example.org/music-history/album/79620023-4a8e-3809-b103-37a37fc09dd9>,
+        <http://example.org/music-history/album/8546d6ff-c1da-32c8-8171-13a7bc287158>,
+        <http://example.org/music-history/album/8fc2a449-90b5-3698-8dc9-de127b812b1d>,
+        <http://example.org/music-history/album/95f5ba76-f661-3eed-a954-42fa1d16ed71>,
+        <http://example.org/music-history/album/98cfdc81-c6d5-31be-a63c-ee3ec1a707ec>,
+        <http://example.org/music-history/album/9e16b2a7-114c-3173-a49b-f67361712d33>,
+        <http://example.org/music-history/album/b657899c-2f8e-3411-b794-6056a7bd44e0>,
+        <http://example.org/music-history/album/b7b44840-602a-3202-94ce-47f15f38e792>,
+        <http://example.org/music-history/album/de0ead03-22a3-3569-9c26-559dd9a059a0>,
+        <http://example.org/music-history/album/f39282bd-ba09-4e8f-a39a-54b7f4baa9bd>,
+        <http://example.org/music-history/album/f7753b55-3bd3-30a0-887f-0e186e1b7305>,
+        <http://example.org/music-history/album/fc6b647d-8915-3578-9465-44be5408c5e6> ;
+    mh:signedTo <http://example.org/music-history/label/American_Recordings>,
+        <http://example.org/music-history/label/Charly_Records>,
+        <http://example.org/music-history/label/Columbia_Records>,
+        <http://example.org/music-history/label/House_of_Cash>,
+        <http://example.org/music-history/label/Sun_Records> ;
+    mh:wonAward <http://example.org/music-history/award/Americana_Award_for_Artist_of_the_Year>,
+        <http://example.org/music-history/award/Grammy_Legend_Award>,
+        <http://example.org/music-history/award/Grammy_Lifetime_Achievement_Award>,
+        <http://example.org/music-history/award/Horatio_Alger_Award>,
+        <http://example.org/music-history/award/Kennedy_Center_Honors>,
+        <http://example.org/music-history/award/Library_of_Congress_Living_Legend>,
+        <http://example.org/music-history/award/National_Medal_of_Arts>,
+        <http://example.org/music-history/award/Rock_and_Roll_Hall_of_Fame>,
+        <http://example.org/music-history/award/Willie_Nelson_Lifetime_Achievement_Award>,
+        <http://example.org/music-history/award/_Spirit_of_Americana__Free_Speech_Award>,
+        <http://example.org/music-history/award/star_on_Hollywood_Walk_of_Fame> ;
+    mo:genre <http://example.org/music-history/genre/americana>,
+        <http://example.org/music-history/genre/blues>,
+        <http://example.org/music-history/genre/country>,
+        <http://example.org/music-history/genre/country_gospel>,
+        <http://example.org/music-history/genre/folk>,
+        <http://example.org/music-history/genre/gospel>,
+        <http://example.org/music-history/genre/outlaw_country>,
+        <http://example.org/music-history/genre/rock_and_roll>,
+        <http://example.org/music-history/genre/rockabilly>,
+        <http://example.org/music-history/genre/traditional_folk> ;
+    mo:member_of mb:927a0e2e-5f51-462f-87a8-4ba03897e944,
+        mb:ab73de4d-06ee-4814-acce-2e3e537eb4ac,
+        mb:c685765c-b778-4ed6-9035-8f7088431765,
+        mb:fe94cef8-b6ee-4a1e-9ca4-c2aafc982dcf ;
+    foaf:name "Johnny Cash"@en ;
+    schema:birthDate "1932-02-26"^^xsd:date ;
+    schema:deathDate "2003-09-12"^^xsd:date ;
+    schema:gender "Male" .
+
 mh:MusicalPeriod a owl:Class ;
     rdfs:label "Musical Period"@en ;
     rdfs:comment "Equivalent to Era — a named historical period or movement in music history." ;
@@ -48629,120 +48730,10 @@ mb:4d5447d7-c61c-4120-ba1b-d7f471d385b9 a mh:AwardWinningArtist,
         mb:9fcc463b-7cfc-4ea4-a65e-bab77fc78e9a,
         mb:b06f5860-ce8f-4d8f-92ee-6c6f165ef8ef,
         mb:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d,
-        mb:cfced5be-f60b-4bc9-9e86-7853c5e0dfdb ;
+        mb:bb85b2d0-7c62-4389-8564-5eeadacd09bb ;
     foaf:name "John Lennon"@en ;
     schema:birthDate "1940-10-09"^^xsd:date ;
     schema:deathDate "1980-12-08"^^xsd:date ;
-    schema:gender "Male" .
-
-mb:d43d12a1-2dc9-4257-a2fd-0a3bb1081b86 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
-        mh:ProducerArtist,
-        mo:MusicArtist,
-        mo:SoloMusicArtist ;
-    rdfs:label "Johnny Cash"@en ;
-    mh:birthPlace "Kingsland" ;
-    mh:collaboratedWith <http://example.org/music-history/artist/Texas_Troubadours>,
-        <http://example.org/music-history/artist/Willie_Nelson>,
-        mb:01809552-4f87-45b0-afff-2c6f0730a3be,
-        mb:4ee75011-678b-46e0-b8e1-8ef47e5b7379,
-        mb:72c536dc-7137-4477-a521-567eeb840fa8,
-        mb:ab73de4d-06ee-4814-acce-2e3e537eb4ac,
-        mb:b4bfd133-a931-42c7-a41c-0311893dea67 ;
-    mh:composed <http://example.org/music-history/composition/Cry__Cry__Cry_>,
-        <http://example.org/music-history/composition/Don_t_Take_Your_Guns_to_Town>,
-        <http://example.org/music-history/composition/Flesh_and_Blood>,
-        <http://example.org/music-history/composition/Folsom_Prison_Blues>,
-        <http://example.org/music-history/composition/Forty_Shades_of_Green>,
-        <http://example.org/music-history/composition/Get_Rhythm>,
-        <http://example.org/music-history/composition/Give_My_Love_to_Rose>,
-        <http://example.org/music-history/composition/Hey__Porter>,
-        <http://example.org/music-history/composition/Home_of_the_Blues>,
-        <http://example.org/music-history/composition/I_Still_Miss_Someone>,
-        <http://example.org/music-history/composition/I_Walk_the_Line>,
-        <http://example.org/music-history/composition/It_s_All_Over>,
-        <http://example.org/music-history/composition/Johnny_Cash__The_Man__His_World__His_Music>,
-        <http://example.org/music-history/composition/Lady>,
-        <http://example.org/music-history/composition/Man_in_Black>,
-        <http://example.org/music-history/composition/My_Best_Friend_s_Birthday>,
-        <http://example.org/music-history/composition/Ring_of_Fire>,
-        <http://example.org/music-history/composition/San_Quentin>,
-        <http://example.org/music-history/composition/So_Doggone_Lonesome>,
-        <http://example.org/music-history/composition/Straight_A_s_in_Love>,
-        <http://example.org/music-history/composition/Tennessee_Flat_Top_Box>,
-        <http://example.org/music-history/composition/That_s_Right>,
-        <http://example.org/music-history/composition/The_Folk_Singer>,
-        <http://example.org/music-history/composition/You_Dreamer_You>,
-        <http://example.org/music-history/composition/You_re_the_Nearest_Thing_to_Heaven> ;
-    mh:countryOfOrigin <http://example.org/music-history/country/us> ;
-    mh:founded <http://example.org/music-history/label/House_of_Cash> ;
-    mh:hasMusicalPeriod <http://example.org/music-history/period/Nashville_Sound_era>,
-        <http://example.org/music-history/period/Outlaw_country_era>,
-        <http://example.org/music-history/period/Rock_and_roll_origins> ;
-    mh:performedAt <http://example.org/music-history/venue/Folsom_State_Prison_concert>,
-        <http://example.org/music-history/venue/Glastonbury_Festival_headline_set>,
-        <http://example.org/music-history/venue/San_Quentin_State_Prison_concert> ;
-    mh:playsInstrument <http://example.org/music-history/instrument/guitar>,
-        <http://example.org/music-history/instrument/vocals> ;
-    mh:realName "John R. Cash"@en ;
-    mh:released <http://example.org/music-history/album/00da4796-a49b-370f-8ac9-88cd90a4a5ac>,
-        <http://example.org/music-history/album/1e2773f6-5e57-31dc-acda-3819a5774ff6>,
-        <http://example.org/music-history/album/1e896abe-d5d5-348b-ad6e-6c9068793dad>,
-        <http://example.org/music-history/album/2379d5a7-b5ec-445c-bf0f-bb76ae84dd0a>,
-        <http://example.org/music-history/album/288b58ea-6b89-3dae-8428-2822fb15c7cb>,
-        <http://example.org/music-history/album/394beb31-b770-3d4e-a40d-7fa99b6f0d1a>,
-        <http://example.org/music-history/album/46a247e5-4d60-3213-872a-b3345f8454e3>,
-        <http://example.org/music-history/album/4c301360-e5ef-3a4c-befc-1ef642de8b50>,
-        <http://example.org/music-history/album/4c59b7f1-23e2-3f9b-9c98-74e35ea72996>,
-        <http://example.org/music-history/album/50031fc5-b480-368a-a7f2-a5db73fd3370>,
-        <http://example.org/music-history/album/687df0ac-d420-4809-9bfc-ccd69363783a>,
-        <http://example.org/music-history/album/7201df58-d4e8-37cc-ba0f-c448cc8bc578>,
-        <http://example.org/music-history/album/77fd27bd-ffed-3384-87ca-8191fe9e42cb>,
-        <http://example.org/music-history/album/79620023-4a8e-3809-b103-37a37fc09dd9>,
-        <http://example.org/music-history/album/8546d6ff-c1da-32c8-8171-13a7bc287158>,
-        <http://example.org/music-history/album/8fc2a449-90b5-3698-8dc9-de127b812b1d>,
-        <http://example.org/music-history/album/95f5ba76-f661-3eed-a954-42fa1d16ed71>,
-        <http://example.org/music-history/album/98cfdc81-c6d5-31be-a63c-ee3ec1a707ec>,
-        <http://example.org/music-history/album/9e16b2a7-114c-3173-a49b-f67361712d33>,
-        <http://example.org/music-history/album/b657899c-2f8e-3411-b794-6056a7bd44e0>,
-        <http://example.org/music-history/album/b7b44840-602a-3202-94ce-47f15f38e792>,
-        <http://example.org/music-history/album/de0ead03-22a3-3569-9c26-559dd9a059a0>,
-        <http://example.org/music-history/album/f39282bd-ba09-4e8f-a39a-54b7f4baa9bd>,
-        <http://example.org/music-history/album/f7753b55-3bd3-30a0-887f-0e186e1b7305>,
-        <http://example.org/music-history/album/fc6b647d-8915-3578-9465-44be5408c5e6> ;
-    mh:signedTo <http://example.org/music-history/label/American_Recordings>,
-        <http://example.org/music-history/label/Charly_Records>,
-        <http://example.org/music-history/label/Columbia_Records>,
-        <http://example.org/music-history/label/House_of_Cash>,
-        <http://example.org/music-history/label/Sun_Records> ;
-    mh:wonAward <http://example.org/music-history/award/Americana_Award_for_Artist_of_the_Year>,
-        <http://example.org/music-history/award/Grammy_Legend_Award>,
-        <http://example.org/music-history/award/Grammy_Lifetime_Achievement_Award>,
-        <http://example.org/music-history/award/Horatio_Alger_Award>,
-        <http://example.org/music-history/award/Kennedy_Center_Honors>,
-        <http://example.org/music-history/award/Library_of_Congress_Living_Legend>,
-        <http://example.org/music-history/award/National_Medal_of_Arts>,
-        <http://example.org/music-history/award/Rock_and_Roll_Hall_of_Fame>,
-        <http://example.org/music-history/award/Willie_Nelson_Lifetime_Achievement_Award>,
-        <http://example.org/music-history/award/_Spirit_of_Americana__Free_Speech_Award>,
-        <http://example.org/music-history/award/star_on_Hollywood_Walk_of_Fame> ;
-    mo:genre <http://example.org/music-history/genre/americana>,
-        <http://example.org/music-history/genre/blues>,
-        <http://example.org/music-history/genre/country>,
-        <http://example.org/music-history/genre/country_gospel>,
-        <http://example.org/music-history/genre/folk>,
-        <http://example.org/music-history/genre/gospel>,
-        <http://example.org/music-history/genre/outlaw_country>,
-        <http://example.org/music-history/genre/rock_and_roll>,
-        <http://example.org/music-history/genre/rockabilly>,
-        <http://example.org/music-history/genre/traditional_folk> ;
-    mo:member_of mb:927a0e2e-5f51-462f-87a8-4ba03897e944,
-        mb:ab73de4d-06ee-4814-acce-2e3e537eb4ac,
-        mb:c685765c-b778-4ed6-9035-8f7088431765,
-        mb:fe94cef8-b6ee-4a1e-9ca4-c2aafc982dcf ;
-    foaf:name "Johnny Cash"@en ;
-    schema:birthDate "1932-02-26"^^xsd:date ;
-    schema:deathDate "2003-09-12"^^xsd:date ;
     schema:gender "Male" .
 
 <http://example.org/music-history/genre/ambient> a mo:Genre ;
@@ -48901,8 +48892,7 @@ mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 a mh:AwardWinningArtist,
         <http://example.org/music-history/genre/rock> .
 
 <http://example.org/music-history/country/us> a mh:Country ;
-    rdfs:label "US"@en,
-        "United States"@en .
+    rdfs:label "United States"@en .
 
 <http://example.org/music-history/genre/folk_rock> a mo:Genre ;
     rdfs:label "folk rock"@en ;
@@ -49172,7 +49162,8 @@ mh:CoverRecording a owl:Class ;
     rdfs:label "jazz"@en .
 
 <http://example.org/music-history/genre/rock> a mo:Genre ;
-    rdfs:label "rock"@en .
+    rdfs:label "rock"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
 
 mh:MusicalWork a owl:Class ;
     rdfs:label "Musical Work"@en ;

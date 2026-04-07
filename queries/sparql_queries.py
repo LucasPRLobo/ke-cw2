@@ -54,12 +54,15 @@ ORDER BY ?artistName ?releaseDate
 """)
 
 # CQ2: What genre(s) did a given composer/artist write in?
+# Filter to only entities typed as Genre (not Country or other types that share mo:genre)
 run_query(2, "What genre(s) did a given composer/artist write in?", """
 PREFIX mo: <http://purl.org/ontology/mo/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?artistName (GROUP_CONCAT(DISTINCT ?genreName; separator=", ") AS ?genres) WHERE {
+SELECT ?artistName (GROUP_CONCAT(DISTINCT STR(?genreName); separator=", ") AS ?genres) WHERE {
     ?artist mo:genre ?genre .
+    ?genre rdf:type mo:Genre .
     ?artist rdfs:label ?artistName .
     ?genre rdfs:label ?genreName .
 }
@@ -68,41 +71,35 @@ ORDER BY ?artistName
 """)
 
 # CQ3: What album was a given track released in?
-# Note: we don't have track-level data in current pipeline (tracks were not mapped)
-# This query shows the album structure
-run_query(3, "What album was a given track released in? (showing albums with tracks)", """
+# Uses trackOn (inverse of hasTrack) to find which album a track belongs to
+run_query(3, "What album was a given track released in?", """
 PREFIX mh: <http://example.org/music-history/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?artistName ?albumTitle ?releaseDate WHERE {
-    ?artist mh:released ?album .
-    ?artist rdfs:label ?artistName .
+SELECT ?trackTitle ?albumTitle ?releaseDate WHERE {
+    ?track mh:trackOn ?album .
+    ?track rdfs:label ?trackTitle .
     ?album dc:title ?albumTitle .
     OPTIONAL { ?album mh:releaseDate ?releaseDate }
 }
-ORDER BY ?artistName ?releaseDate
+ORDER BY ?albumTitle ?trackTitle
 """)
 
 # CQ4: Who produced a given album?
+# Uses producedBy (album → producer) for correct direction
 run_query(4, "Who produced a given album?", """
 PREFIX mh: <http://example.org/music-history/>
+PREFIX mo: <http://purl.org/ontology/mo/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?artistName ?producerName WHERE {
-    {
-        ?artist mh:producedBy ?producer .
-        ?artist rdfs:label ?artistName .
-        ?producer rdfs:label ?producerName .
-    }
-    UNION
-    {
-        ?producer mh:produced ?work .
-        ?producer rdfs:label ?producerName .
-        ?work rdfs:label ?artistName .
-    }
+SELECT ?albumTitle ?producerName WHERE {
+    ?album mh:producedBy ?producer .
+    ?album a mo:Release .
+    ?album rdfs:label ?albumTitle .
+    ?producer rdfs:label ?producerName .
 }
-ORDER BY ?artistName
+ORDER BY ?producerName ?albumTitle
 """)
 
 # CQ5: Which performers played in a given track?
@@ -125,31 +122,21 @@ ORDER BY ?bandName ?memberName
 """)
 
 # CQ6: What producer worked on albums of a given genre?
-# Uses two paths: (1) produced triples from text, (2) producedBy triples
-# Links producer → work, and separately finds genres of the artist associated with that work
+# Links producer → album (via produced), then album → genre
 run_query(6, "What producer worked on albums of a given genre?", """
 PREFIX mh: <http://example.org/music-history/>
 PREFIX mo: <http://purl.org/ontology/mo/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?producerName ?workName ?genreName WHERE {
-    {
-        ?producer mh:produced ?work .
-        ?producer rdfs:label ?producerName .
-        ?work rdfs:label ?workName .
-        ?producer mo:genre ?genre .
-        ?genre rdfs:label ?genreName .
-    }
-    UNION
-    {
-        ?work mh:producedBy ?producer .
-        ?work rdfs:label ?workName .
-        ?producer rdfs:label ?producerName .
-        ?producer mo:genre ?genre .
-        ?genre rdfs:label ?genreName .
-    }
+SELECT ?producerName ?albumTitle ?genreName WHERE {
+    ?album mh:producedBy ?producer .
+    ?album a mo:Release .
+    ?album rdfs:label ?albumTitle .
+    ?producer rdfs:label ?producerName .
+    ?album mo:genre ?genre .
+    ?genre rdfs:label ?genreName .
 }
-ORDER BY ?producerName ?genreName
+ORDER BY ?producerName ?genreName ?albumTitle
 """)
 
 # CQ7: Who plays what instrument in a given band?
@@ -195,16 +182,23 @@ SELECT ?parentGenre ?subGenre WHERE {
 ORDER BY ?parentGenre ?subGenre
 """)
 
-# CQ10: Which musical works were composed in a given era, and how much time later were they first recorded?
-run_query(10, "Which works were composed and when? (composition dates)", """
+# CQ10: Which musical works were composed and when? Show the composition alongside
+# any cover recordings, demonstrating the time gap between composition and recording.
+run_query(10, "Which works were composed and when, and how much later were they first recorded?", """
 PREFIX mh: <http://example.org/music-history/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?composerName ?workTitle ?compositionDate WHERE {
+SELECT ?composerName ?workTitle ?compositionDate ?coverTitle ?albumDate WHERE {
     ?composer mh:composed ?work .
     ?composer rdfs:label ?composerName .
     ?work rdfs:label ?workTitle .
-    OPTIONAL { ?work mh:compositionDate ?compositionDate }
+    ?work mh:compositionDate ?compositionDate .
+    OPTIONAL {
+        ?cover mh:covers ?work .
+        ?cover rdfs:label ?coverTitle .
+        ?cover mh:trackOn ?album .
+        ?album mh:releaseDate ?albumDate .
+    }
 }
 ORDER BY ?composerName ?compositionDate
 """)
@@ -264,11 +258,12 @@ ORDER BY DESC(?genreCount)
 """)
 
 # CQ14: Which artists have collaborated with artists from a different country?
+# Uses FILTER on string length to pick the longer country label (full name, not ISO code)
 run_query(14, "Which artists collaborated with artists from a different country?", """
 PREFIX mh: <http://example.org/music-history/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?artist1Name ?country1 ?artist2Name ?country2 WHERE {
+SELECT DISTINCT ?artist1Name ?country1 ?artist2Name ?country2 WHERE {
     ?artist1 mh:collaboratedWith ?artist2 .
     ?artist1 mh:countryOfOrigin ?c1 .
     ?artist2 mh:countryOfOrigin ?c2 .
@@ -277,6 +272,9 @@ SELECT ?artist1Name ?country1 ?artist2Name ?country2 WHERE {
     ?c1 rdfs:label ?country1 .
     ?c2 rdfs:label ?country2 .
     FILTER(?c1 != ?c2)
+    FILTER(STRLEN(STR(?country1)) > 2)
+    FILTER(STRLEN(STR(?country2)) > 2)
+    FILTER(STR(?artist1) < STR(?artist2))
 }
 ORDER BY ?artist1Name
 """)
@@ -298,6 +296,7 @@ ORDER BY ?genreName DESC(?artistCount)
 """)
 
 # CQ16: Which bands have members originating from more than one country?
+# Filters country labels to full names only (length > 2) to avoid ISO code duplicates
 run_query(16, "Which bands have members from more than one country?", """
 PREFIX mo: <http://purl.org/ontology/mo/>
 PREFIX mh: <http://example.org/music-history/>
@@ -310,6 +309,7 @@ SELECT ?bandName (COUNT(DISTINCT ?country) AS ?countryCount)
     ?band rdfs:label ?bandName .
     ?member mh:countryOfOrigin ?country .
     ?country rdfs:label ?countryName .
+    FILTER(STRLEN(STR(?countryName)) > 2)
 }
 GROUP BY ?bandName
 HAVING (COUNT(DISTINCT ?country) > 1)
@@ -334,16 +334,26 @@ ORDER BY ?artistName ?labelName
 """)
 
 # CQ18: Which composers have had their compositions recorded by artists from a different country?
-run_query(18, "Which composers' works involve artists from different countries?", """
+# 4-entity join: Composer → MusicalWork → CoverRecording → Performer → Country
+run_query(18, "Which composers' works were recorded by artists from a different country?", """
 PREFIX mh: <http://example.org/music-history/>
+PREFIX mo: <http://purl.org/ontology/mo/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?composerName ?composerCountry ?workTitle WHERE {
+SELECT DISTINCT ?composerName ?composerCountry ?workTitle ?performerName ?performerCountry WHERE {
     ?composer mh:composed ?work .
-    ?composer mh:countryOfOrigin ?country .
+    ?composer mh:countryOfOrigin ?cc .
+    ?cover mh:covers ?work .
+    ?cover mo:performer ?performer .
+    ?performer mh:countryOfOrigin ?pc .
     ?composer rdfs:label ?composerName .
-    ?country rdfs:label ?composerCountry .
     ?work rdfs:label ?workTitle .
+    ?performer rdfs:label ?performerName .
+    ?cc rdfs:label ?composerCountry .
+    ?pc rdfs:label ?performerCountry .
+    FILTER(?cc != ?pc)
+    FILTER(STRLEN(STR(?composerCountry)) > 2)
+    FILTER(STRLEN(STR(?performerCountry)) > 2)
 }
 ORDER BY ?composerName ?workTitle
 """)
@@ -366,22 +376,24 @@ ORDER BY ?awardName ?artist1Name
 """)
 
 # CQ20: In which countries were artists active who released albums in a given genre during a given decade?
+# Uses SUBSTR on the date string to extract the decade prefix (e.g., "197" from "1975")
 run_query(20, "Which countries had artists releasing albums in a genre per decade?", """
 PREFIX mh: <http://example.org/music-history/>
 PREFIX mo: <http://purl.org/ontology/mo/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?genreName ?decade ?countryName (COUNT(DISTINCT ?artist) AS ?artistCount) WHERE {
+SELECT ?genreName ?decadePrefix ?countryName (COUNT(DISTINCT ?artist) AS ?artistCount) WHERE {
     ?artist mo:genre ?genre .
     ?artist mh:countryOfOrigin ?country .
     ?artist mh:released ?album .
     ?album mh:releaseDate ?date .
     ?genre rdfs:label ?genreName .
     ?country rdfs:label ?countryName .
-    BIND(CONCAT(SUBSTR(?date, 1, 3), "0s") AS ?decade)
+    FILTER(STRLEN(STR(?countryName)) > 2)
+    BIND(CONCAT(SUBSTR(STR(?date), 1, 3), "0s") AS ?decadePrefix)
 }
-GROUP BY ?genreName ?decade ?countryName
-ORDER BY ?genreName ?decade
+GROUP BY ?genreName ?decadePrefix ?countryName
+ORDER BY ?genreName ?decadePrefix
 """)
 
 

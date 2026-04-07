@@ -169,6 +169,8 @@ GENRE_BLACKLIST = {
     # Vague/non-genre tags
     "popular", "seattle", "vanguard", "fluxus", "western", "boy group",
     "light", "conscious", "gangsta", "orchestra",
+    # Country names as genres (Wikidata P136 artefacts)
+    "united states", "united kingdom",
 }                                           
                                                                                                                                                                                                         
 # Minimum tag count to include a MusicBrainz tag as a genre

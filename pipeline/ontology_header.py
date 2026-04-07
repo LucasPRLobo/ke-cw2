@@ -47,6 +47,13 @@ def add_ontology_header(g):
     # ============================================================
 
     # --- Music Ontology (mo) stubs ---
+    # These are minimal declarations (type + label + comment) that allow the
+    # reasoner to recognise external classes and properties without requiring
+    # a live import of the full Music Ontology or Schema.org. Domain and range
+    # are intentionally omitted on stubs because we do not own these ontologies
+    # and redeclaring their constraints could conflict with the original
+    # definitions. Our custom properties (mh: namespace) do declare full
+    # domain/range — see Section 5 below.
     mo_classes = {
         MO.MusicArtist: "A person or group making music.",
         MO.SoloMusicArtist: "An individual musician.",

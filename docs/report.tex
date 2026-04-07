@@ -1,0 +1,552 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{gray!10},
+}
+
+\title{Music History \& Heritage Knowledge Graph\\[0.3em]\large Knowledge Engineering CW2 Report}
+\author{Lucas Perez Reis Lobo, Yutaka Shibata, Sofia Davis, \\ William Caulton, Mert Yerlikaya, Davyd Shtepa}
+\date{April 2026}
+
+\begin{document}
+\maketitle
+
+%======================================================================
+\section{Introduction}
+%======================================================================
+
+Music history spans thousands of years of creative output, from medieval plainchant through Baroque and Classical composition to modern recorded music. This breadth presents a significant knowledge representation challenge. Artists, compositions, recordings, genres, instruments, awards, record labels, and geographic origins are all interconnected through complex relationships that evolve over time. A single composition by Beethoven, for example, may have been written in 1808, first performed in Vienna, recorded by dozens of orchestras across multiple countries over the following two centuries, and classified under overlapping genre hierarchies. Representing and querying this kind of multi-layered information requires a structured, machine-readable knowledge model.
+
+This project constructs an ontology and knowledge graph for the Music History and Heritage domain. The system extends two existing ontologies, the Music Ontology (MO) and Schema.org, with domain-specific subclasses and subproperties, and populates the resulting schema with real-world data drawn from both structured and textual sources. Structured data is sourced from MusicBrainz, Discogs, and Wikidata, which together provide detailed metadata on artists, albums, tracks, genres, instruments, awards, and record labels. Textual data is extracted from Wikipedia artist biographies using LLM-based triple extraction via a free-tier API (Google Gemini), capturing narrative facts such as collaborations, influence relationships, and artistic personas that are not available in structured databases.
+
+The entire process is automated through a Python pipeline (\texttt{pipeline/build\_kg.py}) that fetches data from 4 APIs, maps it to RDF triples, performs entity linking with a 5-tier resolution strategy, applies 17 structural validation rules, ingests RAG completion results, and asserts defined class instances. A fully cached run completes in under 35 seconds. All API responses and LLM extraction results are cached as JSON files, enabling reproducible builds without API calls.
+
+The knowledge graph contains 42,551 triples covering 1,332 artist entities (58 primary, fully enriched from all 4 sources), 1,408 album releases, 860 musical works, 274 genres, 257 awards, 131 record labels, 62 instruments, 118 venues, 81 musical periods, and 373 cover recordings. The ontology declares 21 OWL~2 property features across 6 categories: symmetric (\texttt{collaboratedWith}), transitive (\texttt{subgenreOf}), 7 irreflexive, 4 asymmetric, 6 inverse pairs, and 2 disjointness axioms. Three defined classes use \texttt{owl:equivalentClass} with intersection restrictions: AwardWinningArtist (52 instances), InternationalCollaborator (125), and ProducerArtist (13). Twenty competency questions guide the design: ten formulated manually by the domain experts and ten generated through LLM augmentation with documented prompt design justification. Each competency question is answered by a corresponding SPARQL query executed against the knowledge graph.
+
+\textbf{Team roles:}
+\begin{itemize}[nosep]
+  \item \textbf{Domain expert:} Sofia Davis (with Davyd Shtepa) --- set objectives, made domain decisions, reviewed data quality.
+  \item \textbf{Modelling experts:} William Caulton, Mert Yerlikaya --- designed the ontology, selected existing ontologies for extension, developed SPARQL queries.
+  \item \textbf{Requirements and pipeline:} Lucas Perez Reis Lobo, Yutaka Shibata --- built the automated pipeline, selected data sources, developed LLM extraction and RAG prompts, ran evaluations.
+\end{itemize}
+
+The remainder of this report describes the data source selection process (Section~2), the ontology extensions and custom modelling decisions (Section~3), the mapping pipeline that automates knowledge graph construction (Section~4), the competency questions and their SPARQL implementations (Section~5), and the evaluation of the system across performance, quality, and completeness dimensions (Section~6).
+
+%======================================================================
+\section{Data Source Selection}
+%======================================================================
+
+\subsection{Requirements Analysis}
+
+The 20 competency questions (10 manual + 10 LLM-augmented) define what data the KG must contain. Analysis of the CQs identified the following data needs: artist biographical data (name, country, birth/death dates, gender), album/release data (titles, release dates), track-level data (titles, durations), genre and subgenre classifications, band membership with instruments, artist relationships (influences, collaborations), record label associations, awards and recognitions, classical compositions with composition dates, and geographic and temporal distribution of genres.
+
+These needs require both \textbf{structured data} (for biographical facts, releases, relationships) and \textbf{textual data} (for narrative facts like personas, album groupings, and career context not captured in databases).
+
+\subsection{Sources Evaluated}
+
+We evaluated 6 potential data sources through 7 experiments:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lllll}
+\toprule
+\textbf{Source} & \textbf{Type} & \textbf{Format} & \textbf{Auth} & \textbf{Evaluated in} \\
+\midrule
+MusicBrainz API & Structured & JSON & User-Agent only & Experiments 1, 4, 5 \\
+Discogs API & Structured & JSON & None (25 req/min) & Experiments 2, 4 \\
+Wikidata SPARQL & Structured & RDF/JSON & None & Experiment 7 \\
+Wikipedia MediaWiki API & Textual & JSON/text & User-Agent only & Experiments 3, 4, 6 \\
+DBpedia SPARQL & Structured & RDF & None & Experiment 7 \\
+Open Opus API & Structured & JSON & None & Experiment 7 \\
+\bottomrule
+\end{tabular}
+\caption{Data sources evaluated. Last.fm was also considered but registration was blocked (HTTP 406).}
+\end{table}
+
+\subsection{Evaluation Criteria}
+
+Sources were evaluated across 5 test artists spanning different genres and regions: David Bowie (rock, GB), Miles Davis (jazz, US), Ludwig van Beethoven (classical, AT), Ant\^{o}nio Carlos Jobim (bossa nova, BR), and Fela Kuti (afrobeat, NG). Criteria: \textbf{coverage} (data for all genres/eras/regions), \textbf{accessibility} (free, no auth, reasonable rate limits), \textbf{data quality} (clean, structured, consistent), \textbf{cross-referencing} (entities linkable across sources), and \textbf{unique value} (data not available elsewhere).
+
+\subsection{Sources Selected}
+
+\textbf{Structured Source 1: MusicBrainz API (Primary).} Serves as the primary hub for artist data, releases, relationships, and cross-references. Provides artist info (name, type, country, life-span), release groups (deduplicated albums), tracks/recordings, artist-to-artist relationships (member of band, influenced by, collaboration, producer), and URL relationships linking to Discogs, Wikidata, and Wikipedia. Selected because it has the richest relationship data of any source tested, every entity has a UUID (MBID) usable as a URI, and it cross-references all other sources. Rate limit: 1 request/second.
+
+\textbf{Structured Source 2: Discogs API (Supplement).} Provides the genre$\rightarrow$style hierarchy (broad genres + granular sub-genres per release) and artist real names. Selected because the genre/style distinction is unique to Discogs and maps directly to our \texttt{subgenreOf} property. No other source provides this hierarchical genre data. Rate limit: 25 requests/minute.
+
+\textbf{Structured Source 3: Wikidata SPARQL (Supplement).} Provides awards (P166), instruments (P1303), influences (P737), record labels (P264), genres (P136), and classical compositions (P86). Data is already in RDF, requiring minimal mapping. Initially used only for cross-referencing (MusicBrainz $\rightarrow$ Wikidata $\rightarrow$ Wikipedia), but Experiment~7 revealed it contains rich structured data that eliminates the need for LLM text extraction of factual properties. Optimisation: a batch SPARQL query fetches all properties in a single request per artist, reduced from 10 individual queries to 3. Additionally, Wikidata's class hierarchy (P31/P279*) is used to programmatically filter music genres (Q188451) and music awards (Q4220920), replacing manual blacklists with a self-correcting approach.
+
+\textbf{Textual Source: Wikipedia MediaWiki API.} Provides narrative article text (3,000--85,000 characters per artist) for LLM-based triple extraction. Selected because articles contain information not in any structured source: alter egos (Ziggy Stardust), album groupings (Berlin Trilogy), narrative genres (``plastic soul''), pioneer relationships (Tom Jobim $\rightarrow$ bossa nova), and producer relationships. After adding Wikidata as a structured source, text extraction was scoped to only narrative facts not available from structured APIs. The LLM extraction prompt uses a controlled predicate vocabulary and a ``Do NOT extract'' list to prevent duplication with Wikidata data.
+
+\subsection{Sources Rejected}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lp{10cm}}
+\toprule
+\textbf{Source} & \textbf{Reason for rejection} \\
+\midrule
+DBpedia & Redundant with Wikidata. Lower data quality: Wikipedia infobox template parameters leak through as properties (e.g., \texttt{b: no}, \texttt{fixAttempted: yes}). Wikidata is cleaner and more structured. \\
+Open Opus & Classical music only. Returns ``NOT FOUND'' for jazz, rock, and African artists (Miles Davis, Fela Kuti, Tom Jobim). Wikidata provides adequate classical composition data ($\sim$30 compositions per composer). \\
+Last.fm & Registration blocked (HTTP 406 error during signup). Could not obtain API key. \\
+\bottomrule
+\end{tabular}
+\caption{Rejected data sources with reasons.}
+\end{table}
+
+\subsection{Cross-Referencing Pipeline}
+
+A critical design decision was using MusicBrainz as the \textbf{hub} for cross-referencing. Every MusicBrainz artist record contains URL relationships linking to Discogs, Wikidata, and other external resources:
+
+\begin{lstlisting}
+MusicBrainz (search by name) -> MBID
+  |-- url-rels -> Discogs URL -> extract numeric ID -> Discogs API
+  |-- url-rels -> Wikidata URL -> extract Q-ID -> Wikidata SPARQL
+                                                    |-- sitelinks -> Wikipedia title -> Wikipedia API
+\end{lstlisting}
+
+This pipeline was validated with 5 test artists across different genres, achieving 100\% coverage. Non-Western artists were explicitly tested: Fela Kuti (NG), Tom Jobim (BR), Miriam Makeba (ZA), Youssou N'Dour (SN) --- all found with cross-reference links intact.
+
+For artists where MusicBrainz name-based search returns incorrect results, MBID overrides are configured in \texttt{config.py}. Six artists required overrides: Bob Marley (matched ``Bob Dylan''), Pyotr Ilyich Tchaikovsky (Cyrillic name), Quincy Jones, Rick Rubin, George Martin (common names), and Umm Kulthum (Arabic script --- the romanised name ``Umm Kulthum'' matched ``UMM'', an unrelated electronic project). The Umm Kulthum case is discussed further in Section~4 as an example of non-Latin script entity resolution challenges.
+
+%======================================================================
+\section{Extension of Existing Ontologies}
+%======================================================================
+
+% [William + Mert section — pending]
+
+\textit{This section is to be written by the modelling experts. See \texttt{pipeline/ontology\_header.py} for the full OWL declarations and \texttt{docs/kg\_reference\_guide.md} for a summary of all classes, properties, and OWL2 features.}
+
+\textbf{Note on external property stubs:} External properties from Music Ontology (e.g., \texttt{mo:genre}, \texttt{mo:member\_of}, \texttt{mo:performer}) and Schema.org (e.g., \texttt{schema:birthDate}, \texttt{schema:gender}) are declared as minimal stubs with \texttt{rdf:type}, \texttt{rdfs:label}, and \texttt{rdfs:comment} only. Domain and range are intentionally omitted on these stubs because we do not own these ontologies and redeclaring their constraints could conflict with the original definitions. Stubs are used instead of \texttt{owl:imports} because Schema.org has no clean OWL import URI, which would cause a reasoner to fail when attempting to resolve the import. Our custom properties (\texttt{mh:} namespace) declare full domain, range, label, and comment.
+
+%======================================================================
+\section{Mappings}
+%======================================================================
+
+\subsection{Pipeline Architecture}
+
+The pipeline is implemented as a Python system (\texttt{pipeline/build\_kg.py}) that orchestrates data fetching, mapping, and post-processing in 15 automated steps:
+
+\begin{lstlisting}
+Step 0:  Ontology header (OWL declarations + extensions)
+Step 0b: LLM text extraction (Gemini API, cached)
+Steps 1-4: Per-artist data fetching (MusicBrainz, Discogs, Wikidata, Wikipedia)
+Step 5:  Structured mapping (JSON -> RDF triples via rdflib)
+Step 6:  Text mapping (LLM extraction JSON -> RDF with entity linking)
+Step 7:  Enrichment (country, genres, dates for related artists)
+Step 8:  URI consolidation (merge duplicate entities)
+Step 9:  Type assignment (assign rdf:type to orphan entities)
+Step 10: Cover detection (Wikidata + MB work-rels -> CoverRecording)
+Step 11: Multinational band classification (MB disambiguation)
+Step 12: Type assignment pass 2 (cover composers)
+Step 13: Validation (17 structural rules)
+Step 14: RAG ingestion (494 triples from completion analysis)
+Step 15: Defined class assertion (owl:equivalentClass instances)
+-> Output: ontology/music_history_kg.ttl (42,551 triples)
+\end{lstlisting}
+
+All API responses are cached as JSON files in \texttt{pipeline/data/} (174 structured, 118 text files), enabling reproducible builds without API calls. A fully cached run completes in under 35 seconds.
+
+\subsection{Structured Data Mapping}
+
+\textbf{Technique:} R2RML-style field-to-triple mapping using rdflib (Week~8 course technique).
+
+The structured mapping (\texttt{mapping/structured.py}) processes JSON data from three sources and generates RDF triples. Table~\ref{tab:mapping} shows the mapping from source fields to RDF properties.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llp{6cm}}
+\toprule
+\textbf{Source} & \textbf{Field} & \textbf{RDF Mapping} \\
+\midrule
+MusicBrainz & \texttt{type} & \texttt{rdf:type} $\rightarrow$ \texttt{mo:SoloMusicArtist} / \texttt{mo:MusicGroup} \\
+MusicBrainz & \texttt{name} & \texttt{foaf:name} + \texttt{rdfs:label} \\
+MusicBrainz & \texttt{country} & \texttt{mh:countryOfOrigin} $\rightarrow$ \texttt{mh:Country} \\
+MusicBrainz & \texttt{life-span} & \texttt{schema:birthDate} / \texttt{schema:deathDate} \\
+MusicBrainz & \texttt{tag-list} (count$\geq$3) & \texttt{mo:genre} $\rightarrow$ \texttt{mo:Genre} \\
+MusicBrainz & artist-rels & \texttt{mo:member\_of}, \texttt{mh:influencedBy}, \texttt{mh:collaboratedWith}, \texttt{mh:producedBy} \\
+MusicBrainz & release groups & \texttt{mh:released} $\rightarrow$ \texttt{mo:Release} \\
+MusicBrainz & recordings & \texttt{mh:hasTrack} $\rightarrow$ \texttt{mo:Track} \\
+Discogs & \texttt{realname} & \texttt{mh:realName} \\
+Discogs & genres/styles & \texttt{mh:subgenreOf} (genre$\rightarrow$style hierarchy) \\
+Wikidata & P166 (awards) & \texttt{mh:wonAward} $\rightarrow$ \texttt{mh:Award} \\
+Wikidata & P1303 (instruments) & \texttt{mh:playsInstrument} $\rightarrow$ \texttt{mo:Instrument} \\
+Wikidata & P264 (labels) & \texttt{mh:signedTo} $\rightarrow$ \texttt{mh:RecordLabel} \\
+Wikidata & P86 (composer) & \texttt{mh:composed} $\rightarrow$ \texttt{mh:MusicalWork} \\
+\bottomrule
+\end{tabular}
+\caption{Structured data mapping from source fields to RDF properties.}
+\label{tab:mapping}
+\end{table}
+
+\textbf{Data cleaning:} Genre names are normalised via \texttt{normalise\_genre()} which lowercases, strips the trailing `` music'' suffix (merging ``rock music'' with ``rock''), and normalises punctuation variants. A Discogs genre allowlist (13 valid music genres) replaces a blacklist approach. Wikidata genres are filtered programmatically via P31/P279* against Q188451 (music genre class). Dates use appropriate XSD types: \texttt{xsd:date} (YYYY-MM-DD), \texttt{xsd:gYear} (YYYY), with YYYY-MM normalised to YYYY-MM-01. All string literals carry \texttt{@en} language tags.
+
+\textbf{Additional course techniques:}
+\begin{itemize}[nosep]
+  \item \textbf{R2RML mapping document} (\texttt{mapping/r2rml\_musicbrainz.ttl}): formal declarative specification of the MusicBrainz-to-RDF mapping rules (Week~8).
+  \item \textbf{SPARQL Anything CONSTRUCT queries} (\texttt{sparql\_anything/map\_artist.sparql}): mapping cached JSON files directly to RDF using SPARQL CONSTRUCT with the Facade-X data model (Week~8).
+  \item \textbf{Wikidata batch SPARQL}: single query with \texttt{VALUES} clause fetches 8 property types per artist, optimised from 10 individual queries to 3.
+\end{itemize}
+
+\subsection{Text Data Mapping}
+
+\textbf{Technique:} LLM-based triple extraction from unstructured text (Week~7 course technique).
+
+Text mapping (\texttt{mapping/text.py}) processes Wikipedia article intros through an LLM to extract structured triples not available from any structured source. The extraction uses a controlled predicate vocabulary (15 allowed predicates matching our ontology) and a ``Do NOT extract'' list preventing duplication with Wikidata data (awards, instruments, labels, country).
+
+The extraction was initially performed manually for 16 artists (298 triples, P8--P33 in the prompts log), then automated via Google Gemini free-tier API (\texttt{pipeline/llm\_extraction.py}). The pipeline now auto-extracts for all 58 artists using cached responses. Final coverage: \textbf{58/58 artists (100\%), 897 text-extracted triples}.
+
+\textbf{NER comparison (Week~7):} SpaCy, BERT, and LLM extraction were compared on 3 artists. SpaCy found the most entities (88--94) but with misclassifications. BERT had higher precision but subword artifacts. The LLM found fewest entities but was the \textbf{only approach that extracts structured relations} (triples), which is what the KG requires.
+
+\textbf{Key finding:} 44\% of text-extracted triples use predicates that no structured API provides (\texttt{alterEgo}, \texttt{producedBy}, \texttt{pioneerOf}, \texttt{performedAt}, \texttt{hasMusicalPeriod}, \texttt{founded}), validating text extraction as complementary to structured sources.
+
+\subsection{Entity Linking}
+
+\textbf{Technique:} 5-tier resolution strategy (Week~7: entity linking and disambiguation).
+
+When LLM extraction produces a text mention like ``Brian Eno'', the entity linking system resolves it to the existing MusicBrainz URI rather than creating a duplicate. The resolution order prioritises type-constrained matching over untyped fuzzy matching to prevent cross-type errors:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llr}
+\toprule
+\textbf{Tier} & \textbf{Method} & \textbf{Coverage} \\
+\midrule
+1. Exact match & Typed label index lookup & $\sim$70\% \\
+2. Type-constrained & SPARQL filtered by expected \texttt{rdf:type} & $\sim$10\% \\
+3. Fuzzy match & Dual-scorer gate (token\_set + token\_sort $\geq$ 80/90) with stopword removal & $\sim$19\% \\
+4. Wikidata fallback & Reserved for future use & --- \\
+5. NIL (new entity) & Create provisional URI with type from predicate & $\sim$1\% \\
+\bottomrule
+\end{tabular}
+\caption{5-tier entity linking strategy. Type-constrained runs before fuzzy to prevent cross-type matches.}
+\end{table}
+
+The entity linking was iteratively improved based on root cause analysis of errors. Initial issues included ``Count Basie'' matching ``Count Five'' (shared token inflation in \texttt{token\_set\_ratio}), ``Montserrat Caball\'{e}'' matching a track title containing her name, and ``The Man in Black'' matching ``The Man In Black Trio''. Structural fixes included: a typed label index (candidates filtered by \texttt{rdf:type}), stopword removal before scoring, a dual-scorer gate requiring both \texttt{token\_set\_ratio} and \texttt{token\_sort\_ratio} to pass thresholds, and subject type inference from the predicate (\texttt{producedBy} subjects resolved as MusicalWork, not Artist).
+
+Result: \textbf{99\% accuracy} (878 of 887 text-extracted triples linked to existing entities).
+
+\subsection{Post-Processing}
+
+Six post-processing steps improve KG quality after the initial mapping:
+
+\begin{enumerate}[nosep]
+  \item \textbf{Enrichment:} Fetches country, genres (MusicBrainz tags), birth/death dates, and type for secondary artists discovered through relationships. The query covers members, collaborators, influence targets, and cover composers. Added 216 triples for 102 related artists.
+  \item \textbf{URI consolidation:} Merges duplicate URIs in two passes. First, \texttt{mh:artist/} URIs are matched to \texttt{mb:} URIs by label. Second, duplicate \texttt{mb:} URIs (same person with multiple MusicBrainz IDs) are merged by label. Also includes name-based deduplication in the cover detection composer loop.
+  \item \textbf{Type assignment:} Assigns \texttt{rdf:type} to orphan entities by inferring type from predicates. Entities in \texttt{collaboratedWith} or \texttt{composed} triples are typed as \texttt{mo:MusicArtist}; entities only in \texttt{influencedBy} are typed as \texttt{foaf:Person} (since influences can be non-musicians).
+  \item \textbf{Cover detection:} Identifies 373 cover recordings by cross-referencing MusicBrainz work-rels with Wikidata composer data. Types them as \texttt{mh:CoverRecording} with \texttt{mh:covers} links to the original \texttt{mh:MusicalWork}.
+  \item \textbf{Multinational band classification:} Classifies bands with members from multiple countries as \texttt{mh:MultinationalBand}, using MusicBrainz disambiguation fields to filter out record labels incorrectly classified as groups.
+  \item \textbf{Validation:} 17 structural rules remove invalid triples: self-references, type mismatches, disjointness violations (\texttt{SoloMusicArtist} $\cap$ \texttt{MusicGroup}), orphan genres, duplicate composition dates, and genre label deduplication. All rules are pattern-based with zero hardcoded entity-specific fixes.
+\end{enumerate}
+
+\subsection{RAG Ingestion}
+
+The RAG completion analysis (documented separately) produced 10 JSON response files covering the 5 ontology and 5 instance gaps. A programmatic ingestion script (\texttt{ingest\_rag\_results.py}) reads these files and adds 494 triples to the KG using label-based entity linking. The script is integrated as pipeline Step~14 and runs automatically. Triples added: 106 \texttt{performedAt} events, 104 \texttt{hasMusicalPeriod} assignments, 90 secondary artist enrichments, 90 cover composer enrichments, 50 \texttt{collaboratedWith} pairs, 44 \texttt{founded} relationships, and 10 Hildegard von Bingen genre/period/instrument triples.
+
+\subsection{Automation Discussion}
+
+The spec requires ``a computational system that automates as much as possible the entire process.'' Our pipeline automates all construction steps:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llp{6cm}}
+\toprule
+\textbf{Step} & \textbf{Automated?} & \textbf{Method} \\
+\midrule
+Data fetching (4 APIs) & Fully & Python source modules with JSON caching \\
+Cross-referencing & Fully & MusicBrainz URL relationship extraction \\
+Structured $\rightarrow$ RDF mapping & Fully & rdflib with config-driven rules \\
+Text $\rightarrow$ triple extraction & Fully & Google Gemini API with cached responses \\
+Entity linking & Fully & 5-tier typed resolution (99\% accuracy) \\
+Enrichment & Fully & MusicBrainz API with persistent cache \\
+URI consolidation & Fully & Fuzzy string matching + name-based dedup \\
+Type inference & Fully & Predicate-based inference \\
+Validation & Fully & 17 structural rules \\
+RAG ingestion & Fully & JSON $\rightarrow$ label-based entity linking \\
+Ontology header & Fully & Python script (\texttt{ontology\_header.py}) \\
+\bottomrule
+\end{tabular}
+\caption{Pipeline automation coverage. All construction steps are fully automated.}
+\end{table}
+
+\textbf{What required manual intervention:}
+
+\begin{itemize}
+  \item \textbf{LLM text extraction} was initially manual (16 artists via chat), then automated via Gemini API for the remaining 42. The pipeline now runs fully automatically.
+  \item \textbf{MBID overrides:} 6 artists required manual MusicBrainz ID specification due to incorrect name-based search results. The Umm Kulthum case revealed a systemic limitation: romanised names for non-Latin script artists (Arabic, Cyrillic) cause cascading pipeline failures. The LLM also hallucinated the MBID when asked via RAG, confirming that external identifiers must be verified programmatically.
+  \item \textbf{Artist list curation:} The 58-artist list was manually curated for diverse coverage across genres, eras, and countries.
+  \item \textbf{Ontology validation in Prot\'{e}g\'{e}:} The TTL file was loaded into Prot\'{e}g\'{e} to verify that OWL2 property characteristics, inverse pairs, and class hierarchies matched the team's modelling decisions. This revealed issues invisible to automated validation (e.g., missing irreflexive/asymmetric declarations, incomplete inverse pairs).
+  \item \textbf{Domain expert review:} A team member reviewed the TTL and identified 76 non-music genres, 31 non-music awards, and 19 range violations. These were structurally valid RDF but semantically wrong in our domain. Each issue was traced to its root cause and fixed in the pipeline code, not patched in the TTL.
+\end{itemize}
+
+\textbf{Reflection:} The pipeline automates KG \textit{construction}, but \textit{quality assurance} requires human intervention at three levels: ontological correctness (Prot\'{e}g\'{e}), semantic accuracy (domain expert), and multilingual coverage (MBID overrides). The optimal approach is iterative: build $\rightarrow$ validate (automated) $\rightarrow$ review (human) $\rightarrow$ trace root causes $\rightarrow$ fix structurally $\rightarrow$ rebuild. Each human-identified issue was fixed in the pipeline code so that it persists across rebuilds and applies to all entities.
+
+%======================================================================
+\section{Queries}
+%======================================================================
+
+\subsection{Competency Questions}
+
+Competency questions define the scope of an ontology by specifying what the knowledge graph must be able to answer. They serve as both requirements for the ontology design and acceptance criteria for the final system. If a competency question cannot be answered by a SPARQL query over the knowledge graph, either the ontology is missing a class or property, or the data pipeline has failed to populate the required triples.
+
+\subsubsection{Manual Competency Questions (CQ1--CQ10)}
+
+The ten manual competency questions were developed through discussion between the domain experts and the modelling experts during the first team meeting. They were designed to cover the core entities and relationships of the music history domain, progressing from simple lookups to multi-entity queries.
+
+\textbf{CQ1. What date was an album released?} This is the simplest query, requiring only a direct lookup of the \texttt{releaseDate} property on a Release instance. It validates that basic album metadata has been correctly mapped from the structured sources.
+
+\textbf{CQ2. What genre(s) did a given composer or artist write in?} This tests the Artist-to-Genre relationship through the \texttt{mo:genre} property. Since artists often span multiple genres, the query uses \texttt{GROUP\_CONCAT} to aggregate genre labels.
+
+\textbf{CQ3. What album was a given track released in?} This tests the Track-to-Release relationship via \texttt{mh:trackOn}, validating that the album structure (Release contains Tracks) has been correctly represented.
+
+\textbf{CQ4. Who produced a given album?} This tests the producer relationship using both \texttt{mh:produced} and \texttt{mh:producedBy} (an inverse pair). Producer data comes from both structured sources and LLM text extraction from Wikipedia.
+
+\textbf{CQ5. Which performers played in a given band or group?} This tests the membership relationship via \texttt{mo:member\_of}, linking individual artists to MusicGroup instances.
+
+\textbf{CQ6. What producer worked on albums of a given genre?} This is the first query requiring a two-hop join, connecting Producer to Release (via \texttt{produced/producedBy}) and then to Genre (via \texttt{mo:genre}). It demonstrates that the knowledge graph can answer questions that span multiple entity types.
+
+\textbf{CQ7. Who plays what instrument in a given band?} This combines two relationships in a single query, joining \texttt{mo:member\_of} (Artist to MusicGroup) with \texttt{mh:playsInstrument} (Artist to Instrument). It tests whether instrument data has been correctly associated with individual band members rather than with the band as a whole.
+
+\textbf{CQ8. How many awards has a certain artist won?} This uses \texttt{COUNT} aggregation over the \texttt{mh:wonAward} property. Award data is primarily sourced from Wikidata, which provides structured award records for major artists.
+
+\textbf{CQ9. What subgenres emerged from a given genre?} This tests the genre hierarchy through the \texttt{mh:subgenreOf} property, which is declared as transitive in the ontology. Transitivity allows the query to retrieve not just direct subgenres but also indirect descendants (for example, querying subgenres of Rock returns Punk Rock, and Post-Punk as a subgenre of Punk Rock).
+
+\textbf{CQ10. Which musical works were composed in a given era, and when?} This is the most historically oriented query, testing the distinction between a MusicalWork (an abstract composition) and its composition date. It connects composers to their works via \texttt{mh:composed} and retrieves composition dates that may predate any recording by centuries.
+
+\subsubsection{Gap Analysis}
+
+Before generating the LLM-augmented questions, the team analysed which ontology entities and relationships the manual CQs leave untested. The manual CQs cover the core entities well (Artist, Album, Track, Genre, Instrument, Award) and test fundamental relationships (\texttt{released}, \texttt{hasTrack}, \texttt{hasGenre}, \texttt{member\_of}, \texttt{playsInstrument}, \texttt{produced}, \texttt{wonAward}, \texttt{subgenreOf}, \texttt{composed}). However, they do not test:
+\begin{itemize}[nosep]
+  \item Record labels (\texttt{signedTo}, RecordLabel)
+  \item Collaborations between artists (\texttt{collaboratedWith})
+  \item Influence chains (\texttt{influencedBy})
+  \item Geographic relationships (\texttt{countryOfOrigin})
+  \item Cross-entity aggregation patterns (\texttt{COUNT} with \texttt{HAVING})
+\end{itemize}
+These gaps directly informed the design of the LLM-augmented questions.
+
+\subsubsection{LLM-Augmented Competency Questions (CQ11--CQ20)}
+
+The ten LLM-augmented competency questions were generated using Claude (Opus 4.6) through an iterative prompting process documented in the Prompts Log (P3--P6). The prompt design combined role-based assignment (knowledge engineer and music historian), few-shot examples with explicit relationship paths, and constrained output directing the LLM to fill the specific gaps identified above. The initial output was refined through a chain-of-thought prompt that addressed three issues: similarity to the few-shot examples, vague aggregation terms, and the absence of any question testing the MusicalWork-to-Recording distinction.
+
+\textbf{CQ11. Which award-winning artists were signed to a given record label?} Fills the record label gap by joining \texttt{wonAward} with \texttt{signedTo}.
+
+\textbf{CQ12. Which artists that influenced a given artist also share at least one common genre?} Fills the influence gap by testing \texttt{influencedBy} alongside \texttt{mo:genre} with a genre intersection.
+
+\textbf{CQ13. Which record labels have released albums in more than N distinct genres?} Fills the record label gap with a \texttt{COUNT DISTINCT} and \texttt{HAVING} pattern.
+
+\textbf{CQ14. Which artists have collaborated with artists from a different country?} Fills both the collaboration and geography gaps simultaneously.
+
+\textbf{CQ15. Which instruments appear in tracks of a given genre?} Complements CQ7 by linking instruments to genres rather than to bands.
+
+\textbf{CQ16. Which bands have members originating from more than one country?} Tests geographic diversity within bands using \texttt{COUNT DISTINCT} with \texttt{HAVING}. The ontology also defines a \texttt{MultinationalBand} class.
+
+\textbf{CQ17. Which record labels has a given artist been signed to, and what albums did they release under each?} Tests the Artist--Label--Album triangle using \texttt{GROUP\_CONCAT}.
+
+\textbf{CQ18. Which composers have had their compositions recorded by artists from a different country?} The most complex query (4-entity join): Composer $\rightarrow$ MusicalWork $\rightarrow$ CoverRecording $\rightarrow$ Artist $\rightarrow$ Country. Tests the central MusicalWork--CoverRecording distinction.
+
+\textbf{CQ19. Which artists who won a given award have collaborated with each other?} Combines awards and collaborations in a self-join pattern.
+
+\textbf{CQ20. In which countries were artists active who released albums in a given genre during a given decade?} A 4-entity join testing geographic and temporal dimensions together, with decade extraction via \texttt{SUBSTR}.
+
+\subsection{SPARQL Queries}
+
+% [William + Mert section — pending]
+
+\textit{This section is to be written by the modelling experts. All 20 SPARQL queries are implemented in \texttt{queries/sparql\_queries.py} and all return results against the final KG.}
+
+%======================================================================
+\section{Evaluation Methodology}
+%======================================================================
+
+\subsection{Performance Metrics}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lr}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Cold start (all API calls) & $\sim$45 minutes \\
+Fully cached (all data local) & \textbf{33.9 seconds} \\
+Peak memory & 47.6 MB \\
+Output size & 2.5 MB (.ttl file) \\
+Total triples & 42,551 \\
+Triples per primary artist & $\sim$656 \\
+Cached files & 174 structured + 118 text \\
+\bottomrule
+\end{tabular}
+\caption{Pipeline performance metrics.}
+\end{table}
+
+The caching strategy provides a significant speedup from cold start to fully cached, demonstrating that the dominant cost is API I/O, not computation. The Wikidata batch query optimisation reduced per-artist query time from 10 individual SPARQL queries to 3. The text mapping stage (25.8s) is the slowest step due to LLM entity linking across 58 extraction files.
+
+\subsection{Quality: Completeness (CM1--CM4, Week 10)}
+
+Completeness was measured using the Zaveri et al.\ (2015) metrics taught in Week~10:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llp{7cm}}
+\toprule
+\textbf{Metric} & \textbf{Score} & \textbf{Detail} \\
+\midrule
+CM1: Schema & 97\% & 29/30 declared object properties have instance triples. Post-RAG: \texttt{performedAt} 5$\rightarrow$131, \texttt{hasMusicalPeriod} 5$\rightarrow$126, \texttt{founded} 4$\rightarrow$69. \\
+CM2: Property (primary) & High & \texttt{genre} 100\%, \texttt{countryOfOrigin} 98\%, \texttt{wonAward} 88\%, \texttt{signedTo} 81\%, \texttt{playsInstrument} 79\%. \\
+CM2: Property (all) & Improved & Country +7\%, Genre +7\% after enrichment extension and RAG ingestion. \\
+CM3: Population & 58 primary & 1,332 total artist entities. Primary fully enriched; 102 secondary enriched with genres/dates. \\
+CM4: Interlinking & Strong & All 58 primary artists have MBIDs. 32 URI consolidations. Wikidata cross-refs for 57/58. \\
+\bottomrule
+\end{tabular}
+\caption{CM1--CM4 completeness metrics (Zaveri et al., 2015).}
+\end{table}
+
+\subsection{Quality: CQ Coverage}
+
+All 20 competency questions return results when queried against the KG: \textbf{100\% CQ coverage}. Sparse results are noted for CQ14 (cross-country collaborations) and CQ4 (producer relationships), which are documented as gaps in the completion analysis.
+
+\subsection{KG Embeddings (Week 9)}
+
+Three KG embedding models were trained using PyKEEN, following the Week~9 lab methodology.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Metric} & \textbf{TransE (dim128)} & \textbf{RotatE (dim64)} & \textbf{CompGCN (dim64)} \\
+\midrule
+Training triples & 17,209 & 17,209 & 17,209 \\
+Testing triples & 4,303 & 4,303 & 4,303 \\
+Entities & 6,014 & 6,014 & 6,014 \\
+Relations & 38 & 38 & 76 (incl.\ inverse) \\
+MRR & 0.086 & \textbf{0.557} & 0.526 \\
+Hits@1 & 0.005 & \textbf{0.486} & 0.429 \\
+Hits@3 & 0.105 & \textbf{0.590} & 0.583 \\
+Hits@10 & 0.227 & 0.696 & \textbf{0.707} \\
+\bottomrule
+\end{tabular}
+\caption{KG embedding results. RotatE best on precision (MRR), CompGCN best on recall (Hits@10).}
+\end{table}
+
+\textbf{Analysis.} RotatE achieves the best overall performance (MRR 0.557), while CompGCN leads on recall (Hits@10 0.707). Both represent a dramatic improvement from the early pipeline version (MRR $\sim$0.05). The key factor is the \textbf{materialisation of inverse triples} (\texttt{releasedBy}, \texttt{trackOn}, \texttt{composedBy}, \texttt{influenced}), which quadrupled the training triples from $\sim$5,300 to $\sim$17,200.
+
+RotatE outperforms CompGCN on precision because, after data quality cleanup, the graph became slightly sparser per entity (entity/triple ratio increased from 0.322 to 0.349). CompGCN's message-passing mechanism is more sensitive to neighbourhood sparsity than RotatE's per-triple rotation learning. TransE (MRR 0.086) performs poorly because materialised symmetric and inverse triples violate its translation assumption ($h + r \approx t$).
+
+\textbf{Key insight.} The embedding results validate two ontology engineering decisions: (1)~materialising inverse/symmetric triples improved MRR from $\sim$0.05 to $\sim$0.55 (11$\times$ improvement); (2)~data quality cleanup shifted the optimal model from CompGCN to RotatE, demonstrating that graph sparsity characteristics determine which embedding architecture performs best.
+
+\textbf{Complementary completion strategies.} PyKEEN link prediction identifies probable missing triples across all entities automatically (e.g., it correctly predicted ``Lesley Gore'' as a Quincy Jones collaborator). RAG can then verify specific predictions with grounded evidence. This two-stage strategy (automated candidate generation $\rightarrow$ RAG-based validation) represents a practical approach to scaling KG completion.
+
+\subsection{NER Comparison (Week 7)}
+
+Three NER approaches were compared on Wikipedia text for 3 artists:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Method} & \textbf{Entities} & \textbf{Relations} & \textbf{Types} & \textbf{Speed} \\
+\midrule
+SpaCy (en\_core\_web\_sm) & 88--94 & 0 & 9--10 & 0.3--1.4s \\
+BERT (dslim/bert-base-NER) & 33--36 & 0 & 3--4 & 0.8--3.2s \\
+LLM extraction & 20--23 & 19--24 & 4--6 & API call \\
+\bottomrule
+\end{tabular}
+\caption{NER comparison. LLM is the only approach that extracts structured relations.}
+\end{table}
+
+SpaCy finds the most entities but with misclassifications (albums labelled as PERSON). BERT has higher precision but subword tokenisation artifacts (\texttt{\#\#gy Stardust}). The LLM finds fewer entities but is the \textbf{only approach that extracts structured relations} (triples), which is what the KG requires.
+
+\subsection{RAG vs Plain LLM (Week 11)}
+
+The RAG approach was compared with plain LLM prompting across 6 competency questions, directly addressing the spec requirement to evaluate ``how does the quality of its answers compare to simple prompts against an LLM.'' For each CQ, we ran the SPARQL query against the KG, then asked the LLM both a plain question and a RAG version (with KG results as context).
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llp{6.5cm}}
+\toprule
+\textbf{CQ} & \textbf{KG Results} & \textbf{RAG Finding} \\
+\midrule
+CQ8 (Quincy awards) & 34 awards & Count may be inflated (competitive vs honorary). LLM refused to fabricate. \\
+CQ8 (Bowie awards) & 13 awards & Declined CBE listed as won. Mixed award categories. \\
+CQ7 (Lennon instruments) & 7 instruments & Bass guitar questionable (band vs individual). Redundant entries. \\
+CQ9 (Rock subgenres) & 40 subgenres & ``interview'' data artifact. ``ballad'' not a genre. \\
+CQ12 (Bowie influences) & 13 results & Cartesian product in query. ``classic rock'' is radio format. \\
+CQ20 (Jazz countries) & 5 countries & ISO codes without labels. CM3 population limitation. \\
+\bottomrule
+\end{tabular}
+\caption{Every RAG comparison identified at least one actionable KG improvement.}
+\end{table}
+
+\textbf{Findings.} Plain LLMs provide comprehensive answers from parametric knowledge but cannot detect errors in our specific KG data. RAG consistently functions as a \textbf{data quality auditor}, identifying factual errors (declined honours listed as won), data artifacts (``interview'' in genre taxonomy), modelling issues (band vs individual attribute conflation), and query design problems (cartesian products). Neither approach alone is sufficient: plain LLM has broader knowledge but no grounding; RAG has grounding but depends on the KG's quality.
+
+\subsection{RAG-Driven Iterative Improvement}
+
+The RAG comparisons (P18--P23) identified 6 data quality issues that were fed back as pipeline fixes:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llp{4cm}}
+\toprule
+\textbf{RAG Finding} & \textbf{Action} & \textbf{Impact} \\
+\midrule
+``interview'' in genres & Genre blacklist & Cleaner subgenre hierarchy \\
+``acoustic'', ``ballad'' & Genre blacklist & Removed non-genre entries \\
+``classic rock'' & Genre blacklist & Reduced false matches \\
+voice/lead vocals & Instrument normalisation & Merged duplicates \\
+keyboard overlap & Alias mapping & Consistent names \\
+``eponymous'' & Filtered & Removed noise \\
+\bottomrule
+\end{tabular}
+\caption{Pipeline fixes applied from RAG findings.}
+\end{table}
+
+After applying these fixes, the pipeline was rebuilt: CQ5 results 814$\rightarrow$687 (noise removed), CQ7 781$\rightarrow$662 (duplicates removed), CQ12 71$\rightarrow$69 (false matches removed). All 20 CQs continued to pass.
+
+This iterative cycle (\textbf{build $\rightarrow$ evaluate with RAG $\rightarrow$ fix $\rightarrow$ rebuild}) demonstrates that LLMs are effective not just as data extraction tools but as quality auditors for KG structure, taxonomy, and instance data.
+
+\subsection{Post-Processing Validation}
+
+A dedicated \texttt{validate\_and\_clean()} step applies 17 structural rules to catch data quality issues. These include: self-referencing triples, type mismatches, inverted \texttt{producedBy}, cross-type entity linking errors, eponymous group self-references, non-music genre parents, disjointness violations (\texttt{SoloMusicArtist} $\cap$ \texttt{MusicGroup}), orphan genres, duplicate composition dates, and genre label deduplication.
+
+The validation removed \textbf{190 invalid triples} from the final KG. Importantly, all corrections are structural. Earlier versions relied on 12 hardcoded entity-specific fixes (e.g., ``remove Quincy Jones producedBy Michael Jackson''). These were replaced by root-cause fixes upstream: typed label index in entity linking, stopword removal, subject type inference from predicates, Discogs genre allowlist, and MB disambiguation-based filtering.
+
+This demonstrates a key principle: post-processing validation should catch systematic patterns, not patch individual entities. When a hardcoded fix is needed, the root cause should be traced and fixed structurally so the correction persists across rebuilds and applies to all entities.
+
+\subsection{Justification of Metric Choices}
+
+\begin{itemize}[nosep]
+  \item \textbf{CM1--CM4} (Week~10): standard completeness metrics for KG evaluation, directly applicable to identifying gaps in our ontology and instance data.
+  \item \textbf{CQ coverage}: task-based evaluation measuring whether the KG serves its intended purpose (answering the 20 competency questions).
+  \item \textbf{MRR/Hits@K} (Week~9): standard link prediction metrics for evaluating embedding quality and KG structural completeness.
+  \item \textbf{NER precision}: measures entity extraction quality for the text mapping pipeline, comparing three approaches from Week~7.
+  \item \textbf{RAG vs plain LLM comparison}: directly addresses the spec requirement to evaluate ``how does the quality of its answers compare to simple prompts against an LLM.''
+\end{itemize}
+
+%======================================================================
+\section{Repository Link}
+%======================================================================
+
+\textit{[Insert public GitHub URL]}
+
+\end{document}
