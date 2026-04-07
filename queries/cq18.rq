@@ -1,41 +1,30 @@
-# CQ18: Which genres have compositions by artists from multiple countries?
+# CQ18: Which composers have had their compositions recorded by artists
+# from a different country?
 #
-# REDESIGNED: Original CQ asked "which composers have had their compositions
-# recorded by artists from a different country?" but mh:covers has 0 triples
-# and CoverRecording has 0 instances in the dataset. The original CQ is therefore
-# unanswerable with the current data.
-#
-# Redesigned to test the closest achievable pattern: mh:composed + mh:countryOfOrigin
-# + MusicalWork mo:genre -- showing which composition genres span multiple countries
-# of origin, revealing cross-national composition patterns.
-#
-# MUST filter ?work a mh:MusicalWork to exclude mh:composed noise (some triples
-# point to albums, genres, instruments, or countries instead of compositions).
+# 4-entity join: Composer → MusicalWork → CoverRecording → Performer → Country
+# Uses mh:covers (373 triples) and mo:performer (373 triples) to link
+# compositions to their cover recordings and performing artists.
+# Filters for cross-country pairs where composer and performer originate
+# from different countries.
 
-PREFIX dc:    <http://purl.org/dc/elements/1.1/>
-PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
-PREFIX mb:    <http://musicbrainz.org/artist/>
-PREFIX mb_recording: <http://musicbrainz.org/recording/>
 PREFIX mh:    <http://example.org/music-history/>
 PREFIX mo:    <http://purl.org/ontology/mo/>
-PREFIX owl:   <http://www.w3.org/2002/07/owl#>
-PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX schema: <https://schema.org/>
-PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?genreLabel
-       (COUNT(DISTINCT ?country) AS ?countryCount)
-       (GROUP_CONCAT(DISTINCT ?countryLabel; separator=", ") AS ?countries)
-       (COUNT(DISTINCT ?artist) AS ?composerCount)
+SELECT DISTINCT ?composerName ?composerCountry ?workTitle ?performerName ?performerCountry
 WHERE {
-    ?artist mh:composed ?work ;
-            mh:countryOfOrigin ?country .
-    ?work a mh:MusicalWork ;
-          mo:genre ?genre .
-    ?genre rdfs:label ?genreLabel .
-    ?country rdfs:label ?countryLabel .
+    ?composer mh:composed ?work .
+    ?composer mh:countryOfOrigin ?cc .
+    ?cover mh:covers ?work .
+    ?cover mo:performer ?performer .
+    ?performer mh:countryOfOrigin ?pc .
+    ?composer rdfs:label ?composerName .
+    ?work rdfs:label ?workTitle .
+    ?performer rdfs:label ?performerName .
+    ?cc rdfs:label ?composerCountry .
+    ?pc rdfs:label ?performerCountry .
+    FILTER(?cc != ?pc)
+    FILTER(STRLEN(STR(?composerCountry)) > 2)
+    FILTER(STRLEN(STR(?performerCountry)) > 2)
 }
-GROUP BY ?genre ?genreLabel
-HAVING(COUNT(DISTINCT ?country) > 1)
-ORDER BY DESC(?countryCount)
+ORDER BY ?composerName ?workTitle

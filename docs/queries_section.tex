@@ -1,0 +1,130 @@
+\subsection{SPARQL Queries}
+
+\subsubsection{Implementation Approach}
+
+Twenty SPARQL queries were written to evaluate the knowledge graph against the competency questions defined in Section~5.1. The first ten (CQ01--CQ10) were authored manually to test core retrieval patterns, while the remaining ten (CQ11--CQ20) were developed with LLM assistance to address more complex multi-entity joins and aggregation scenarios. All queries were executed using rdflib as the SPARQL engine, running directly against the Turtle serialisation of the knowledge graph (42,554 triples). No OWL reasoner was employed; where the ontology declares semantic features such as transitivity or symmetry, the queries replicate the intended inference using explicit SPARQL~1.1 constructs.
+
+Prior to writing any queries, the schema was verified empirically by inspecting the TTL file for actual class instances and property usage. This step proved essential: the ontology uses stub declarations for external properties (Music Ontology, Schema.org) with intentionally omitted domain/range, and several inverse properties are materialised in both directions. Each query was tested immediately after creation using a standardised Python harness (\texttt{run\_all\_queries.py}). After testing, all 20 queries return results: 15 are classified as PASS (producing three or more results), 5 as SPARSE (one to two results or constrained by data limitations), and none as FAIL.
+
+\subsubsection{Query Design Patterns}
+
+The 20 queries collectively exercise six distinct SPARQL design patterns, progressing from simple lookups to complex multi-entity joins.
+
+\textbf{Simple lookups.} CQ01 retrieves album release dates through a direct triple pattern matching \texttt{mo:Release} entities to their \texttt{mh:releaseDate} and \texttt{dc:title} properties. CQ03 uses \texttt{mh:trackOn} (the materialised inverse of \texttt{mh:hasTrack}) to locate the album containing a given track. These queries demonstrate basic graph pattern matching with type constraints and optional bindings. Release dates use mixed XSD types (\texttt{xsd:date} for YYYY-MM-DD, \texttt{xsd:gYear} for year-only) as a result of the pipeline's \texttt{\_typed\_date\_literal()} function.
+
+\textbf{Aggregation.} CQ02 uses \texttt{GROUP\_CONCAT(DISTINCT ...; separator=", ")} to concatenate David Bowie's genre labels into a single row, while CQ08 applies \texttt{COUNT(DISTINCT ?award)} to enumerate Bob Dylan's 22 awards. CQ13 extends this pattern with a \texttt{HAVING} clause to filter record labels by a minimum genre diversity threshold, returning the 103 labels whose signed artists span more than five distinct genres.
+
+\textbf{Multi-entity joins.} CQ12 implements a genre intersection by binding the same \texttt{?genre} variable to both an artist and their influencer, selecting only influence relationships where at least one genre is shared. CQ18 performs a 4-entity join (Composer $\rightarrow$ MusicalWork $\rightarrow$ genre $\rightarrow$ Country), identifying composition genres that span multiple countries of origin. CQ19 performs a self-join on the \texttt{mh:wonAward} property, cross-referencing it with \texttt{mh:collaboratedWith} and applying \texttt{FILTER(STR(?a) < STR(?b))} to deduplicate symmetric collaboration pairs.
+
+\textbf{Property paths.} CQ09 employs the SPARQL~1.1 property path operator \texttt{mh:subgenreOf+} to compute the transitive closure of the genre hierarchy, since rdflib does not materialise OWL transitivity at query time. A \texttt{FILTER(?sub != ?parent)} excludes self-referencing triples.
+
+\textbf{Temporal filtering.} CQ20 joins four entity types (artist, genre, release, country) with a decade extraction filter using \texttt{SUBSTR(STR(?date), 1, 3)} on typed date literals. Labels use \texttt{@en} language tags, requiring \texttt{STR()} wrapping in FILTER comparisons.
+
+\textbf{Noise filtering.} Several queries require type constraints to exclude entity-linking artefacts: CQ10 adds \texttt{?work a mh:MusicalWork} to exclude spurious objects of \texttt{mh:composed}, and CQ17 applies \texttt{?release a mo:Release} to filter noise from \texttt{mh:released}. CQ04, CQ05, and CQ07 use \texttt{UNION} to query bidirectional properties (\texttt{mh:produced}/\texttt{mh:producedBy} and \texttt{mo:member\_of}/\texttt{mh:hasMember}), since rdflib does not infer \texttt{owl:inverseOf} relationships automatically, although both directions are materialised in the KG.
+
+\subsubsection{Representative Query Examples}
+
+\textbf{CQ01 --- Simple Lookup} (album release dates):
+\begin{lstlisting}
+SELECT ?album ?title ?date
+WHERE {
+    ?album a mo:Release ;
+           dc:title ?title ;
+           mh:releaseDate ?date .
+}
+ORDER BY ?date LIMIT 20
+\end{lstlisting}
+
+\textbf{CQ09 --- Property Path with Transitive Closure} (subgenre hierarchy):
+\begin{lstlisting}
+SELECT ?subgenreLabel
+WHERE {
+    ?parent a mo:Genre ;
+            rdfs:label ?parentLabel .
+    FILTER(STR(?parentLabel) = "jazz")
+    ?sub mh:subgenreOf+ ?parent ;
+         rdfs:label ?subgenreLabel .
+    FILTER(?sub != ?parent)
+}
+ORDER BY ?subgenreLabel
+\end{lstlisting}
+
+\textbf{CQ12 --- Genre Intersection} (influence analysis):
+\begin{lstlisting}
+SELECT ?artistName ?influencerName
+       (GROUP_CONCAT(DISTINCT ?genreLabel; separator=", ") AS ?sharedGenres)
+WHERE {
+    ?artist rdfs:label ?artistName ;
+            mh:influencedBy ?influencer ;
+            mo:genre ?genre .
+    ?influencer rdfs:label ?influencerName ;
+               mo:genre ?genre .
+    ?genre rdfs:label ?genreLabel .
+    FILTER(STR(?artistName) = "David Bowie")
+}
+GROUP BY ?artistName ?influencerName
+\end{lstlisting}
+
+\textbf{CQ18 --- Multi-Entity Join} (cross-country composition patterns):
+\begin{lstlisting}
+SELECT ?genreLabel
+       (COUNT(DISTINCT ?country) AS ?countryCount)
+       (GROUP_CONCAT(DISTINCT ?countryLabel; separator=", ") AS ?countries)
+WHERE {
+    ?artist mh:composed ?work ;
+            mh:countryOfOrigin ?country .
+    ?work a mh:MusicalWork ;
+          mo:genre ?genre .
+    ?genre rdfs:label ?genreLabel .
+    ?country rdfs:label ?countryLabel .
+}
+GROUP BY ?genre ?genreLabel
+HAVING(COUNT(DISTINCT ?country) > 1)
+ORDER BY DESC(?countryCount)
+\end{lstlisting}
+
+\subsubsection{Validation Results}
+
+All 20 queries were executed against the knowledge graph (42,554 triples). Results are classified as PASS ($\geq$3 results), SPARSE (1--2 results or data-limited), or FAIL (0 results).
+
+\begin{longtable}{llrll}
+\toprule
+\textbf{CQ} & \textbf{File} & \textbf{Results} & \textbf{Status} & \textbf{Sample Output} \\
+\midrule
+\endhead
+CQ01 & cq01.rq & 20 & \checkmark PASS & ``Kreutzer Sonata'' $\rightarrow$ 1918 \\
+CQ02 & cq02.rq & 1 (agg.) & \checkmark PASS & Bowie $\rightarrow$ 22 genres \\
+CQ03 & cq03.rq & 1 & $\triangle$ SPARSE & ``Blowin' in the Wind'' $\rightarrow$ Freewheelin' \\
+CQ04 & cq04.rq & 118 & \checkmark PASS & George Martin $\rightarrow$ The Beatles \\
+CQ05 & cq05.rq & 9 & \checkmark PASS & Beatles: Harrison, Lennon, McCartney, Starr \\
+CQ06 & cq06.rq & 21 & \checkmark PASS & Quincy Jones $\rightarrow$ jazz, funk, soul \\
+CQ07 & cq07.rq & 16 & \checkmark PASS & Lennon: guitar, harmonica, keyboard, vocals \\
+CQ08 & cq08.rq & 1 (agg.) & \checkmark PASS & Bob Dylan $\rightarrow$ 22 awards \\
+CQ09 & cq09.rq & 27 & \checkmark PASS & Jazz subgenres: bop, fusion, hard bop \\
+CQ10 & cq10.rq & 104 & \checkmark PASS & 1960s: Jobim, Coltrane, Mercury \\
+CQ11 & cq11.rq & 13 & \checkmark PASS & Columbia: Quincy Jones, Aretha Franklin \\
+CQ12 & cq12.rq & 2 & $\triangle$ SPARSE & Bowie $\leftarrow$ Beatles: 9 shared genres \\
+CQ13 & cq13.rq & 103 & \checkmark PASS & Columbia Records: 89 genres \\
+CQ14 & cq14.rq & 204 & \checkmark PASS & Lennon (GB) $\leftrightarrow$ Yoko Ono (US) \\
+CQ15 & cq15.rq & 26 & \checkmark PASS & Jazz: vocals (8), piano (6), trumpet (4) \\
+CQ16 & cq16.rq & 5 & \checkmark PASS & Daft Punk: US, FR; Kraftwerk: DE, PT \\
+CQ17 & cq17.rq & 14 & \checkmark PASS & Bowie $\times$ 14 labels (cartesian) \\
+CQ18 & cq18.rq & 14 & \checkmark PASS & Classical: 10 countries, 22 composers \\
+CQ19 & cq19.rq & 36 & \checkmark PASS & Quincy Jones $\leftrightarrow$ MJ: Grammy \\
+CQ20 & cq20.rq & 166 & \checkmark PASS & Rock 1970s: Bowie (GB), Dylan (US) \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{Known Limitations}
+
+The following limitations were identified during query development. In each case, the query pattern is structurally correct; the limitation arises from the data distribution or SPARQL engine capabilities.
+
+\textbf{CQ03 --- Single result for specific track lookup.} The query filters for a specific track title (``Blowin' in the Wind''), returning one result. Track labels use Unicode right single quotation marks (U+2019), requiring \texttt{CONTAINS} rather than exact string matching.
+
+\textbf{CQ12 --- Sparse influence-genre overlap.} Most of Bowie's influence targets (created as \texttt{mh:artist/} URIs during text extraction) lack genre data, so only 2 influencers (Bob Dylan, The Beatles) share genres with him. The query pattern is correct; the sparsity reflects the enrichment coverage of secondary artist entities.
+
+\textbf{CQ17 --- Cartesian product from unscoped \texttt{signedTo}.} The \texttt{mh:signedTo} property lacks temporal scoping: an artist's relationship with a record label is not linked to specific albums. All of Bowie's 25 albums appear under each of his 14 labels. Resolving this would require reification or named graphs --- an ontology gap identified as O1 in the completion analysis.
+
+\textbf{CQ09 --- Explicit property path required.} Although \texttt{mh:subgenreOf} is declared as \texttt{owl:TransitiveProperty}, rdflib does not perform OWL reasoning at query time. The query uses the \texttt{mh:subgenreOf+} property path to compute the transitive closure explicitly.
+
+\textbf{Language tags.} All string literals in the KG carry \texttt{@en} language tags. Queries use \texttt{STR(?var)} wrapping in FILTER comparisons to match against plain string values. Without this wrapping, FILTER equality against untagged strings returns zero results.

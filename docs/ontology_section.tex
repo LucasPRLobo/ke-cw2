@@ -1,0 +1,106 @@
+\subsection{Ontology Selection}
+
+Two existing ontologies were selected for extension based on the analysis in P1 (Prompts Log):
+
+\textbf{Music Ontology (MO)} (\texttt{http://purl.org/ontology/mo/}) is the primary domain-specific vocabulary for describing music-related information. It provides classes for artists (\texttt{MusicArtist}, \texttt{SoloMusicArtist}, \texttt{MusicGroup}), works (\texttt{MusicalWork}, \texttt{Release}, \texttt{Track}, \texttt{Signal}), and supporting entities (\texttt{Genre}, \texttt{Instrument}, \texttt{Label}). It was selected because it directly covers the core entities in our domain and is widely used in music information retrieval.
+
+\textbf{Schema.org} (\texttt{https://schema.org/}) is a general-purpose vocabulary for structured web data. It provides classes for awards (\texttt{Award}), countries (\texttt{Country}), and biographical properties (\texttt{birthDate}, \texttt{deathDate}, \texttt{gender}). It was selected because the pipeline already uses Schema.org properties for biographical data, and it provides natural extension points for record label affiliations and nationality.
+
+\textbf{Stubs approach.} External classes and properties are declared as minimal stubs (type + label + comment) rather than imported via \texttt{owl:imports}. Domain and range are intentionally omitted on stubs because we do not own these ontologies and redeclaring their constraints could conflict with the original definitions. Schema.org has no clean OWL import URI, which would cause a reasoner to fail when attempting to resolve the import. Our custom properties (\texttt{mh:} namespace) declare full domain, range, label, and comment.
+
+\subsection{Music Ontology Extensions}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llp{7cm}}
+\toprule
+\textbf{Extension} & \textbf{Type} & \textbf{Purpose} \\
+\midrule
+\texttt{mh:CoverRecording} & Subclass of \texttt{mo:Signal} & An audio recording of a composition made by an artist who is not the original composer. The pipeline's cover detection step identifies 373 cover recordings by cross-referencing MusicBrainz work-rels with Wikidata composer data. \\[4pt]
+\texttt{mh:MusicalWork} & Subclass of \texttt{mo:MusicalWork} & A musical composition independent of any recording. Distinguishes abstract works (e.g., Beethoven's Symphony No.~9, composed 1824) from their later recordings. \\[4pt]
+\texttt{mh:collaboratedWith} & Subproperty of \texttt{mo:collaborated\_with} & Links two artists who collaborated. Declared as \texttt{owl:SymmetricProperty} and materialised in both directions. \\[4pt]
+\texttt{mh:playsInstrument} & Subproperty of \texttt{mo:instrument} & Links an artist to an instrument they play. Specialises the generic \texttt{mo:instrument} for the artist--instrument relationship. \\
+\bottomrule
+\end{tabular}
+\caption{Music Ontology extensions: 2 subclasses + 2 subproperties.}
+\end{table}
+
+\subsection{Schema.org Extensions}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llp{7cm}}
+\toprule
+\textbf{Extension} & \textbf{Type} & \textbf{Purpose} \\
+\midrule
+\texttt{mh:MultinationalBand} & Subclass of \texttt{schema:MusicGroup} & A band whose members originate from more than one country. Instances are asserted programmatically via SPARQL (5 instances: Daft Punk, Kraftwerk, Buena Vista Social Club, Plastic Ono Band, Peace Choir). \\[4pt]
+\texttt{mh:MusicAward} & Subclass of \texttt{schema:Award} & An award specific to the music industry (e.g., Grammy, BRIT Award). Filters out non-music awards from Wikidata P166. \\[4pt]
+\texttt{mh:signedTo} & Subproperty of \texttt{schema:affiliation} & Links an artist to a record label. Domain: \texttt{MusicArtist}, Range: \texttt{mo:Label}. \\[4pt]
+\texttt{mh:countryOfOrigin} & Subproperty of \texttt{schema:nationality} & Links an artist to their country of origin. Domain: \texttt{MusicArtist}, Range: \texttt{schema:Country}. \\
+\bottomrule
+\end{tabular}
+\caption{Schema.org extensions: 2 subclasses + 2 subproperties.}
+\end{table}
+
+\subsection{Defined Classes}
+
+Three defined classes use \texttt{owl:equivalentClass} with intersection restrictions, enabling a reasoner to infer class membership from instance data. A fourth class uses programmatic assertion.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lp{5cm}lr}
+\toprule
+\textbf{Class} & \textbf{Necessary \& Sufficient Conditions} & \textbf{Type} & \textbf{Instances} \\
+\midrule
+\texttt{AwardWinningArtist} & MusicArtist AND (wonAward some MusicAward) & OWL defined & 52 \\
+\texttt{CollaboratingArtist} & MusicArtist AND (collaboratedWith some MusicArtist) & OWL defined & 118 \\
+\texttt{ProducerArtist} & MusicArtist AND (produced some Release) & OWL defined & 13 \\
+\texttt{InternationalCollaborator} & CollaboratingArtist who collaborated with an artist from a different country & Programmatic & 11 \\
+\bottomrule
+\end{tabular}
+\caption{Defined and asserted classes. The first three use \texttt{owl:equivalentClass}; the fourth is a subclass of CollaboratingArtist with SPARQL-asserted membership.}
+\end{table}
+
+The \texttt{InternationalCollaborator} class cannot be expressed as an OWL defined class because OWL~2 restrictions cannot compare property values across two individuals (i.e., ``artist1.countryOfOrigin $\neq$ artist2.countryOfOrigin''). Instead, the pipeline computes membership via SPARQL and asserts it programmatically, following the same hybrid modelling pattern used for \texttt{MultinationalBand}. This design choice is documented in the ontology header with an explanation of the OWL~2 limitation.
+
+These defined classes address the CW1 feedback about roles versus types. Rather than asserting an artist as a ``Composer'' or ``Producer'' (which denotes a role, not a type), the defined classes allow a reasoner to \textit{infer} role membership from the artist's actual behaviour in the KG. An artist becomes a \texttt{ProducerArtist} by having \texttt{produced} triples, not by manual type assertion.
+
+\subsection{Custom Classes and Properties}
+
+Beyond the extensions, the ontology declares 12 custom classes and 18 custom object properties with full domain, range, label, and comment. Key custom classes include:
+
+\begin{itemize}[nosep]
+  \item \texttt{mh:Venue} --- a concert venue, festival site, or performance location (118 instances)
+  \item \texttt{mh:Persona} --- a stage persona or alter ego (e.g., Ziggy Stardust) (22 instances)
+  \item \texttt{mh:MusicalPeriod} (\texttt{owl:equivalentClass mh:Era}) --- a historical music period (81 instances)
+  \item \texttt{mh:AlbumGroup} --- a named grouping of albums, e.g., Berlin Trilogy (1 instance)
+  \item \texttt{mh:Organisation} --- an organisation founded by an artist (34 instances)
+  \item \texttt{mh:RecordLabel} (subclass of \texttt{mo:Label}) --- a record label (131 instances)
+\end{itemize}
+
+\subsection{OWL~2 Property Features}
+
+The ontology declares 21 OWL~2 property features across 6 categories:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llp{7cm}}
+\toprule
+\textbf{Feature} & \textbf{Count} & \textbf{Properties} \\
+\midrule
+Symmetric & 1 & \texttt{collaboratedWith} --- if A collaborated with B, then B collaborated with A \\
+Transitive & 1 & \texttt{subgenreOf} --- enables genre hierarchy traversal (e.g., post-punk $\rightarrow$ punk $\rightarrow$ rock) \\
+Irreflexive & 7 & \texttt{alterEgo}, \texttt{covers}, \texttt{founded}, \texttt{hasMember}, \texttt{performedAt}, \texttt{pioneerOf}, \texttt{wonAward} --- entity cannot relate to itself \\
+Asymmetric & 4 & \texttt{covers}, \texttt{founded}, \texttt{pioneerOf}, \texttt{producedBy} --- if A$\rightarrow$B then B$\rightarrow$A is not valid \\
+Inverse & 6 pairs & \texttt{released}/\texttt{releasedBy}, \texttt{hasTrack}/\texttt{trackOn}, \texttt{composed}/\texttt{composedBy}, \texttt{influenced}/\texttt{influencedBy}, \texttt{produced}/\texttt{producedBy}, \texttt{hasMember}/\texttt{member\_of} \\
+Disjoint & 2 & \texttt{SoloMusicArtist} $\bot$ \texttt{MusicGroup}; \texttt{Track} $\bot$ \texttt{Release} \\
+\bottomrule
+\end{tabular}
+\caption{OWL~2 property features. All inverse triples are materialised for querying without a reasoner.}
+\end{table}
+
+All 6 inverse pairs are materialised in the KG (both directions asserted as triples), enabling SPARQL queries in either direction without requiring an OWL reasoner. For example, both \texttt{?artist mh:released ?album} and \texttt{?album mh:releasedBy ?artist} return results. This design decision was validated by the KG embedding evaluation (Section~6.4): materialising inverse triples quadrupled the training data and improved link prediction MRR from $\sim$0.05 to $\sim$0.55.

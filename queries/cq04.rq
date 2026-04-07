@@ -1,6 +1,6 @@
 # CQ4: Who produced a given album?
-# LIMITATION: Only ~4 mh:produced + mh:producedBy triples exist in the entire dataset.
-# Quincy Jones mh:produced 3 objects; Beatles mh:producedBy George Harrison.
+# 57 mh:produced + 61 mh:producedBy triples exist (118 total).
+# Includes Rick Rubin, Jimmy Page, Quincy Jones, George Martin, Butch Vig, Steve Albini.
 # Uses UNION to query both directions (mh:produced and mh:producedBy are owl:inverseOf).
 
 PREFIX dc:    <http://purl.org/dc/elements/1.1/>
