@@ -21,7 +21,7 @@ from sources.musicbrainz import fetch_artist as mb_fetch
 from sources.discogs import fetch_artist as dc_fetch
 from sources.wikidata import fetch_artist as wd_fetch
 from sources.wikipedia import fetch_artist as wp_fetch
-from mapping.structured import create_graph, map_artist, enrich_related_artists, consolidate_uris, assign_types_to_orphans, detect_cover_recordings, classify_multinational_bands, validate_and_clean, assert_defined_class_instances
+from mapping.structured import create_graph, map_artist, enrich_related_artists, consolidate_uris, assign_types_to_orphans, detect_cover_recordings, classify_multinational_bands, classify_international_collaborators, validate_and_clean, assert_defined_class_instances
 from mapping.text import map_text_triples
 from ontology_header import add_ontology_header
 from ingest_rag_results import ingest_all as ingest_rag
@@ -129,6 +129,7 @@ def build_knowledge_graph(artist_list, output_path="../ontology/music_history_kg
     print("BAND CLASSIFICATION — identifying multinational bands")
     print(f"{'='*60}")
     classify_multinational_bands(g)
+    classify_international_collaborators(g)
     print(f"Graph after classification: {len(g)} triples")
 
     # Step 12: Second type assignment pass (catches composers from cover detection)

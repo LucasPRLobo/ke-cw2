@@ -1,0 +1,34 @@
+# CQ6: What producer worked on albums of a given genre?
+# LIMITATION: Only ~4 produced/producedBy triples exist in the entire dataset.
+# Genre is on artists (mo:genre), NOT on releases.
+# Quincy Jones has genres (jazz, funk, bossa_nova, pop, rhythm_and_blues).
+# George Harrison (Beatles' producer via producedBy) has NO genre data.
+# ?genre a mo:Genre filters a noise triple on Quincy Jones pointing to an album URI.
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?producerName ?genreLabel
+WHERE {
+    {
+        ?producer mh:produced ?work .
+    }
+    UNION
+    {
+        ?work mh:producedBy ?producer .
+    }
+    ?producer rdfs:label ?producerName ;
+              mo:genre ?genre .
+    ?genre a mo:Genre ;
+           rdfs:label ?genreLabel .
+}
+ORDER BY ?producerName ?genreLabel

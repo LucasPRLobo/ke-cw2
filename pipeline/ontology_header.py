@@ -285,8 +285,8 @@ def add_ontology_header(g):
         "Inferred by a reasoner from wonAward triples."
     )))
 
-    # Defined Class 2: InternationalCollaborator
-    # An artist who has collaborated with artists from different countries.
+    # Defined Class 2: CollaboratingArtist
+    # An artist who has collaborated with at least one other artist.
     # Necessary & sufficient: MusicArtist AND (collaboratedWith some MusicArtist)
     collab_restriction = BNode()
     g.add((collab_restriction, RDF.type, OWL.Restriction))
@@ -303,12 +303,29 @@ def add_ontology_header(g):
     g.add((collab_rest, RDF.rest, RDF.nil))
     g.add((collab_intersection, OWL.intersectionOf, collab_list))
 
-    g.add((MH.InternationalCollaborator, RDF.type, OWL.Class))
-    g.add((MH.InternationalCollaborator, OWL.equivalentClass, collab_intersection))
-    g.add((MH.InternationalCollaborator, RDFS.label, Literal("International Collaborator", lang="en")))
-    g.add((MH.InternationalCollaborator, RDFS.comment, Literal(
+    g.add((MH.CollaboratingArtist, RDF.type, OWL.Class))
+    g.add((MH.CollaboratingArtist, OWL.equivalentClass, collab_intersection))
+    g.add((MH.CollaboratingArtist, RDFS.label, Literal("Collaborating Artist", lang="en")))
+    g.add((MH.CollaboratingArtist, RDFS.comment, Literal(
         "Defined class: a MusicArtist who has collaborated with at least one other MusicArtist. "
         "Inferred by a reasoner from collaboratedWith triples."
+    )))
+
+    # Asserted Class: InternationalCollaborator
+    # A CollaboratingArtist who has collaborated with an artist from a different country.
+    # This cannot be expressed as a defined class in OWL2 because OWL restrictions
+    # cannot compare property values across two individuals (i.e., "artist1.country != artist2.country").
+    # Instead, instances are asserted programmatically via SPARQL in the pipeline
+    # (similar to MultinationalBand), making this a hybrid modelling pattern:
+    # the class is declared in the ontology, but membership is computed by the pipeline.
+    g.add((MH.InternationalCollaborator, RDF.type, OWL.Class))
+    g.add((MH.InternationalCollaborator, RDFS.subClassOf, MH.CollaboratingArtist))
+    g.add((MH.InternationalCollaborator, RDFS.label, Literal("International Collaborator", lang="en")))
+    g.add((MH.InternationalCollaborator, RDFS.comment, Literal(
+        "A CollaboratingArtist who has collaborated with at least one artist from a "
+        "different country. Instances are asserted programmatically via SPARQL because "
+        "OWL2 cannot express cross-individual property value comparisons. "
+        "See also: mh:MultinationalBand (same hybrid modelling pattern)."
     )))
 
     # Defined Class 3: ProducerArtist

@@ -1,0 +1,31 @@
+# CQ12: Which artists that influenced a given artist also share at least one common genre?
+# Most of Bowie's influences (example.org URIs) have NO genre data -- they are naturally
+# excluded by the inner join on mo:genre.
+# Bob Dylan (mb:72c536dc...) is confirmed to share genres with Bowie (rock, rock_music, etc.)
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?artistName ?influencerName
+       (GROUP_CONCAT(DISTINCT ?genreLabel; separator=", ") AS ?sharedGenres)
+       (COUNT(DISTINCT ?genre) AS ?sharedGenreCount)
+WHERE {
+    ?artist rdfs:label ?artistName ;
+            mh:influencedBy ?influencer ;
+            mo:genre ?genre .
+    ?influencer rdfs:label ?influencerName ;
+               mo:genre ?genre .
+    ?genre rdfs:label ?genreLabel .
+    FILTER(STR(?artistName) = "David Bowie")
+}
+GROUP BY ?artistName ?influencerName
+ORDER BY DESC(?sharedGenreCount)

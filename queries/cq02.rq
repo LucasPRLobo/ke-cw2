@@ -1,0 +1,27 @@
+# CQ2: What genre(s) did a given artist write in?
+# David Bowie has 21 genres via mo:genre.
+# Labels are untagged (no @en) -- use FILTER with exact string match.
+# mo:genre is on artists, NOT on releases. Genre labels are lowercase.
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?artistName
+       (GROUP_CONCAT(DISTINCT ?genreLabel; separator=", ") AS ?genres)
+       (COUNT(DISTINCT ?genre) AS ?genreCount)
+WHERE {
+    ?artist rdfs:label ?artistName ;
+            mo:genre ?genre .
+    ?genre rdfs:label ?genreLabel .
+    FILTER(STR(?artistName) = "David Bowie")
+}
+GROUP BY ?artistName

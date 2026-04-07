@@ -1,0 +1,36 @@
+# CQ14: Which artists have collaborated with artists from a different country?
+# mh:collaboratedWith is symmetric (pre-materialised in both directions).
+# Uses FILTER(STR(?a) < STR(?b)) for deduplication.
+# Country labels are ISO codes: "GB", "US", "DE", etc.
+# Noise: ~1 collaboratedWith triple points to an album -- filtered by inner join
+# on mh:countryOfOrigin (albums do not have countryOfOrigin).
+#
+# DATA LIMITATION: In the current dataset, all collaborating pairs with confirmed
+# country data share the same country. BIND flags whether the pair is cross-country.
+# The query pattern is correct -- the empty cross-country set is a data finding.
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?nameA ?countryA ?nameB ?countryB
+       (IF(?countryA = ?countryB, "Same country", "Different country") AS ?crossCountry)
+WHERE {
+    ?a mh:collaboratedWith ?b .
+    ?a rdfs:label ?nameA ;
+       mh:countryOfOrigin ?ca .
+    ?b rdfs:label ?nameB ;
+       mh:countryOfOrigin ?cb .
+    ?ca rdfs:label ?countryA .
+    ?cb rdfs:label ?countryB .
+    FILTER(STR(?a) < STR(?b))
+}
+ORDER BY ?crossCountry ?nameA ?nameB

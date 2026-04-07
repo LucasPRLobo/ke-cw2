@@ -1,0 +1,31 @@
+# CQ19: Which artists who won a common award have collaborated with each other?
+# 13+ artists have BOTH mh:wonAward AND mh:collaboratedWith properties.
+# Award class: mh:Award (NOT mh:MusicAward).
+# Deduplication: FILTER(STR(?a) < STR(?b)) prevents listing the same pair twice.
+# Album noise in collaboratedWith is naturally filtered because ?b must have wonAward.
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?nameA ?nameB ?awardLabel
+WHERE {
+    ?a mh:wonAward ?award ;
+       rdfs:label ?nameA ;
+       mh:collaboratedWith ?b .
+    ?b mh:wonAward ?award ;
+       rdfs:label ?nameB .
+    ?award a mh:Award ;
+           rdfs:label ?awardLabel .
+    FILTER(?a != ?b)
+    FILTER(STR(?a) < STR(?b))
+}
+ORDER BY ?awardLabel ?nameA

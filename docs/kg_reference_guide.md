@@ -64,7 +64,7 @@ PREFIX owl:    <http://www.w3.org/2002/07/owl#>
 | `mh:RecordLabel` | 125 | A record label |
 | `mo:Instrument` | 59 | A musical instrument |
 | `mh:AwardWinningArtist` | 51 | *Defined class:* artist who won an award |
-| `mh:InternationalCollaborator` | 46 | *Defined class:* artist who collaborated with another |
+| `mh:CollaboratingArtist` | 46 | *Defined class:* artist who collaborated with another |
 | `mh:Country` | 20 | A country (ISO code + full name) |
 | `mh:ProducerArtist` | 7 | *Defined class:* artist who produced a release |
 | `mh:Venue` | 5 | A concert venue or event |
@@ -141,7 +141,7 @@ PREFIX owl:    <http://www.w3.org/2002/07/owl#>
 | **Symmetric** | `mh:collaboratedWith` — if A collabs with B, B collabs with A |
 | **Transitive** | `mh:subgenreOf` — enables genre hierarchy traversal |
 | **5 Inverse pairs** | `released/releasedBy`, `hasTrack/trackOn`, `composed/composedBy`, `influencedBy/influenced`, `produced/producedBy` |
-| **3 Defined classes** | `AwardWinningArtist` (won award), `InternationalCollaborator` (has collab), `ProducerArtist` (produced release) — via `owl:equivalentClass` |
+| **3 Defined classes** | `AwardWinningArtist` (won award), `CollaboratingArtist` (has collab), `ProducerArtist` (produced release) — via `owl:equivalentClass` |
 | **2 Disjoint axioms** | `SoloMusicArtist` disjoint with `MusicGroup`; `Track` disjoint with `Release` |
 | **1 Equivalence** | `mh:MusicalPeriod` equivalent to `mh:Era` |
 | **Subproperties** | `mh:collaboratedWith` subPropertyOf `mo:collaborated_with`; `mh:signedTo` subPropertyOf `schema:affiliation`; `mh:countryOfOrigin` subPropertyOf `schema:nationality` |

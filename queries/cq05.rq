@@ -1,0 +1,31 @@
+# CQ5: Which performers played in a given band?
+# Two membership properties exist: mo:member_of (Artist->Band) and mh:hasMember (Band->Artist).
+# Uses UNION + DISTINCT to combine and deduplicate.
+# The Beatles: 8 members via mo:member_of, 4 via mh:hasMember (with overlap).
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?memberName
+WHERE {
+    ?band rdfs:label ?bandName .
+    FILTER(STR(?bandName) = "The Beatles")
+    {
+        ?member mo:member_of ?band .
+    }
+    UNION
+    {
+        ?band mh:hasMember ?member .
+    }
+    ?member rdfs:label ?memberName .
+}
+ORDER BY ?memberName

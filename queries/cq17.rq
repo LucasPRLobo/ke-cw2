@@ -1,0 +1,35 @@
+# CQ17: Which record labels has a given artist been signed to, and what albums
+# did they release under each?
+# WARNING: mh:signedTo has NO temporal scoping -- this creates a cartesian product
+# (every label x every album) because we cannot determine which albums were released
+# under which label. This is a known data limitation, not a query bug.
+# ?release a mo:Release is CRITICAL to filter noise in mh:released (some triples
+# point to compositions, genres, the artist itself, or recordings).
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?artistName ?labelName
+       (GROUP_CONCAT(DISTINCT ?albumTitle; separator=", ") AS ?albums)
+       (COUNT(DISTINCT ?release) AS ?albumCount)
+WHERE {
+    ?artist rdfs:label ?artistName ;
+            mh:signedTo ?label ;
+            mh:released ?release .
+    ?release a mo:Release ;
+             dc:title ?albumTitle .
+    ?label a mh:RecordLabel ;
+           rdfs:label ?labelName .
+    FILTER(STR(?artistName) = "David Bowie")
+}
+GROUP BY ?artistName ?labelName
+ORDER BY ?labelName

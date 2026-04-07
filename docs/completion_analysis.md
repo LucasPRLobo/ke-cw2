@@ -256,7 +256,7 @@ The ingestion script is integrated into the main pipeline (`build_kg.py`, Step 1
 | I4 Hildegard | 10 | 5 genres + 3 periods + 2 instruments |
 | **Total** | **494** | |
 
-**Impact on defined classes:** The new collaboration data triggered additional InternationalCollaborator inferences, raising defined class instances from 74 to 117 (+58%).
+**Impact on defined classes:** The new collaboration data triggered additional CollaboratingArtist inferences, raising defined class instances from 74 to 117 (+58%).
 
 **KG size:** 40,742 triples (pre-enrichment) → 42,365 triples (post-RAG + full LLM extraction), a 3.9% increase with targeted, high-quality additions.
 
@@ -281,7 +281,7 @@ The RAG approach ensures the LLM's response is anchored to entities that already
 | **CM2 — Property (all artists)** | Low | Improved | Country +7%, Genre +7% — 90 secondary artists enriched with country/genre |
 | **CM3 — Population** | 58 primary | Same | Population unchanged; data density increased for existing entities |
 | **CM4 — Interlinking** | Strong | Strong | MBIDs maintained; 25 new cross-entity collaboration links added |
-| **Defined classes** | 74 | 188 | +154% — new collaborations (124 InternationalCollaborator) + producers (13 ProducerArtist) |
+| **Defined classes** | 74 | 188 | +154% — new collaborations (124 CollaboratingArtist) + producers (13 ProducerArtist) |
 | **Total triples** | 40,742 | 42,365 | +494 RAG + ~1,100 LLM extraction triples |
 
 ---

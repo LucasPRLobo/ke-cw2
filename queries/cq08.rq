@@ -1,0 +1,26 @@
+# CQ8: How many awards has a certain artist won?
+# Award class is mh:Award (NOT mh:MusicAward -- using the wrong class returns 0 results).
+# Bob Dylan has 22 awards. Alt: David Bowie (13), Quincy Jones (34).
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?artistName (COUNT(DISTINCT ?award) AS ?awardCount)
+       (GROUP_CONCAT(DISTINCT ?awardLabel; separator=", ") AS ?awards)
+WHERE {
+    ?artist rdfs:label ?artistName ;
+            mh:wonAward ?award .
+    ?award a mh:Award ;
+           rdfs:label ?awardLabel .
+    FILTER(STR(?artistName) = "Bob Dylan")
+}
+GROUP BY ?artistName

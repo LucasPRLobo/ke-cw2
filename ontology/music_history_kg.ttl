@@ -32,14 +32,6 @@ mh:alterEgo a owl:IrreflexiveProperty,
     mh:hasMember mb:122a2714-24f8-4046-a532-64064b5076d2,
         mb:83886397-adf2-431a-b841-dc4af744a6cc .
 
-<http://example.org/music-history/artist/Hoochie_Coochie_Man> a mo:MusicArtist ;
-    rdfs:label "Hoochie Coochie Man"@en ;
-    mo:genre <http://example.org/music-history/genre/blues> .
-
-<http://example.org/music-history/artist/I_Just_Want_to_Make_Love_to_You> a mo:MusicArtist ;
-    rdfs:label "I Just Want to Make Love to You"@en ;
-    mo:genre <http://example.org/music-history/genre/blues> .
-
 <http://example.org/music-history/artist/Juan_de_Marcos_Gonz_lez> a mo:MusicArtist ;
     rdfs:label "Juan de Marcos González"@en ;
     mo:member_of mb:2a85ecff-41e9-4be1-aca6-c87054a4c334 .
@@ -65,12 +57,6 @@ mh:alterEgo a owl:IrreflexiveProperty,
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/jazz> ;
     mo:member_of <http://example.org/music-history/group/second_great_quintet> .
-
-<http://example.org/music-history/artist/the_Skylarks> a mo:MusicArtist ;
-    rdfs:label "the Skylarks"@en ;
-    mo:genre <http://example.org/music-history/genre/jazz>,
-        <http://example.org/music-history/genre/popular>,
-        <http://example.org/music-history/genre/traditional_folk> .
 
 mh:birthPlace a owl:DatatypeProperty ;
     rdfs:label "birth place"@en ;
@@ -1608,9 +1594,6 @@ mb:8d630e71-8df4-4fe8-a8aa-3697a079e387 a mo:MusicArtist ;
 mb:8dddb806-0971-4968-ac1d-68340402cd94 a mo:MusicArtist ;
     rdfs:label "Cleo Henry"@en .
 
-mb:8deb29ea-4acf-4a06-9f87-2491cfec1c35 a mo:MusicArtist ;
-    rdfs:label "Physical Graffiti"@en .
-
 mb:8dfd2a90-3cfc-43b1-b8dc-87c2ec0d18d8 a mo:MusicArtist ;
     rdfs:label "3 &"@en .
 
@@ -1682,9 +1665,6 @@ mb:93fc2072-7796-4c60-b937-4e724168e0a1 a mo:MusicArtist ;
 
 mb:943c5cd8-a41a-41eb-b661-8d7c20f7328a a mo:MusicArtist ;
     rdfs:label "Johann Ambrosius Bach"@en .
-
-mb:94568c64-543b-41f1-a3ca-069ba38b284b a mo:MusicArtist ;
-    rdfs:label "Killer Queen"@en .
 
 mb:95d79f59-9582-4e04-b860-eba7cda5d9fe a mo:MusicArtist ;
     rdfs:label "Letz Zep"@en .
@@ -2260,6 +2240,9 @@ mb:da13926a-6dec-4499-883b-b97ba347d2de a mo:MusicArtist ;
 mb:daa16f6f-82e5-4144-8042-2e5b8888d6b6 a mo:MusicArtist ;
     rdfs:label "The Freddie & QUEEN Experience"@en .
 
+mb:dd5dd54f-73ab-40c6-94c1-0ce72f6307e4 a mo:MusicArtist ;
+    rdfs:label "Physical Graffiti"@en .
+
 mb:dd7685f4-1e81-4da7-80a0-30299e94a9ab a mo:MusicArtist ;
     rdfs:label "Franz Xaver Wolfgang Mozart"@en .
 
@@ -2542,6 +2525,9 @@ mb:fc3e1185-da06-48fa-86e7-df43fec418ee a mo:MusicArtist ;
 
 mb:fd09d67c-a22d-4c46-8082-4590aaf24a09 a mo:MusicArtist ;
     rdfs:label "Vick Beasley"@en .
+
+mb:fd4e7bd5-7f82-43a4-8dbd-197f448cb630 a mo:MusicArtist ;
+    rdfs:label "Killer Queen"@en .
 
 mb:fe4c984d-cd29-4d71-82b7-a05c30afe897 a mo:MusicArtist ;
     rdfs:label "Pauline de Noailles"@en .
@@ -3669,9 +3655,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/traditional_pop>,
         <http://example.org/music-history/genre/vocal_jazz> .
 
-<http://example.org/music-history/album/124b709c-8cff-4040-a5bc-a24c6d6db5fa> a mh:InternationalCollaborator,
-        mo:MusicArtist,
-        mo:Release ;
+<http://example.org/music-history/album/124b709c-8cff-4040-a5bc-a24c6d6db5fa> a mo:Release ;
     rdfs:label "Harry Belafonte & Miriam Makeba"@en ;
     mh:collaboratedWith mb:bc5c2918-4aba-4ef6-a245-100563a4487f ;
     mh:releaseDate "1975"^^xsd:gYear ;
@@ -7930,9 +7914,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/soul>,
         <http://example.org/music-history/genre/vocal_jazz> .
 
-<http://example.org/music-history/album/63456fe7-2d31-378d-a97d-91e8b55946cc> a mh:InternationalCollaborator,
-        mo:MusicArtist,
-        mo:Release ;
+<http://example.org/music-history/album/63456fe7-2d31-378d-a97d-91e8b55946cc> a mo:Release ;
     rdfs:label "Cluster & Eno"@en ;
     mh:collaboratedWith mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 ;
     mh:releaseDate "1977"^^xsd:gYear ;
@@ -10596,9 +10578,7 @@ schema:recordLabel a owl:ObjectProperty ;
         <http://example.org/music-history/genre/jazz>,
         <http://example.org/music-history/genre/latin_jazz> .
 
-<http://example.org/music-history/album/9759f00b-4ec4-45b7-8ce8-87d4b0ff2a37> a mh:InternationalCollaborator,
-        mo:MusicArtist,
-        mo:Release ;
+<http://example.org/music-history/album/9759f00b-4ec4-45b7-8ce8-87d4b0ff2a37> a mo:Release ;
     rdfs:label "Shakara"@en ;
     mh:collaboratedWith mb:9bacf78f-9132-43da-8873-8a9eb49da0e9 ;
     mh:releaseDate "1972"^^xsd:gYear ;
@@ -16378,7 +16358,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Aida"@en ;
     mh:composed mb:f1bedf1f-4445-4651-9c35-f4a3f3860a13 .
 
-<http://example.org/music-history/artist/Al_Di_Meola> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Al_Di_Meola> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Al Di Meola"@en ;
@@ -16437,7 +16417,7 @@ schema:recordLabel a owl:ObjectProperty ;
 <http://example.org/music-history/artist/Ben_Webster> a mo:SoloMusicArtist ;
     rdfs:label "Ben Webster"@en .
 
-<http://example.org/music-history/artist/Bernard_Cribbins> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Bernard_Cribbins> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Bernard Cribbins"@en ;
@@ -16487,13 +16467,13 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Butch Vig"@en ;
     mh:produced <http://example.org/music-history/album/1b022e01-4da6-387b-8658-8678046e4cef> .
 
-<http://example.org/music-history/artist/Caetano_Veloso> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Caetano_Veloso> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Caetano Veloso"@en ;
     mh:collaboratedWith mb:d5956a2f-bab9-4aa3-a9be-ad393518e5b0 .
 
-<http://example.org/music-history/artist/Camar_n_de_la_Isla> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Camar_n_de_la_Isla> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Camarón de la Isla"@en ;
@@ -16514,7 +16494,7 @@ schema:recordLabel a owl:ObjectProperty ;
     mh:countryOfOrigin <http://example.org/music-history/country/gb> ;
     mh:influenced mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e .
 
-<http://example.org/music-history/artist/Chick_Corea> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Chick_Corea> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Chick Corea"@en ;
@@ -16550,7 +16530,7 @@ schema:recordLabel a owl:ObjectProperty ;
     mh:influenced mb:ed2ac1e9-d51d-4eff-a2c2-85e81abd6360 ;
     mo:genre <http://example.org/music-history/genre/soul> .
 
-<http://example.org/music-history/artist/David_Byrne> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/David_Byrne> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "David Byrne"@en ;
@@ -16568,13 +16548,13 @@ schema:recordLabel a owl:ObjectProperty ;
     mh:influenced mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 ;
     mo:genre <http://example.org/music-history/genre/folk> .
 
-<http://example.org/music-history/artist/Elga_Edmonds> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Elga_Edmonds> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Elga Edmonds"@en ;
     mh:collaboratedWith mb:f86f1f07-d182-45ce-ae93-ef610880ca72 .
 
-<http://example.org/music-history/artist/Elgin_Evans> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Elgin_Evans> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Elgin Evans"@en ;
@@ -16586,7 +16566,7 @@ schema:recordLabel a owl:ObjectProperty ;
     mh:influenced mb:2f9ecbed-27be-40e6-abca-6de49d50299e ;
     mo:genre <http://example.org/music-history/genre/jazz> .
 
-<http://example.org/music-history/artist/Elvis_Costello> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Elvis_Costello> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Elvis Costello"@en ;
@@ -16618,7 +16598,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "France"@en ;
     mh:influenced mb:24f1766e-9635-4d58-a4d4-9413f9f98a4c .
 
-<http://example.org/music-history/artist/Franz_Liszt> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Franz_Liszt> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Franz Liszt"@en ;
@@ -16644,7 +16624,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Gaetano Donizetti"@en ;
     mh:influenced mb:f1bedf1f-4445-4651-9c35-f4a3f3860a13 .
 
-<http://example.org/music-history/artist/Gal_Costa> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Gal_Costa> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Gal Costa"@en ;
@@ -16678,13 +16658,13 @@ schema:recordLabel a owl:ObjectProperty ;
     mh:influenced mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 ;
     mo:genre <http://example.org/music-history/genre/country> .
 
-<http://example.org/music-history/artist/Harold_Budd> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Harold_Budd> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Harold Budd"@en ;
     mh:collaboratedWith mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
-<http://example.org/music-history/artist/Herbie_Hancock> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Herbie_Hancock> a mh:CollaboratingArtist,
         mo:MusicArtist ;
     rdfs:label "Herbie Hancock"@en ;
     mh:collaboratedWith mb:561d854a-6a28-4aa7-8c99-323e6ce46c2a ;
@@ -16719,7 +16699,7 @@ schema:recordLabel a owl:ObjectProperty ;
 <http://example.org/music-history/artist/Jimmy_Blanton> a mo:SoloMusicArtist ;
     rdfs:label "Jimmy Blanton"@en .
 
-<http://example.org/music-history/artist/Jimmy_Rogers> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Jimmy_Rogers> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Jimmy Rogers"@en ;
@@ -16761,7 +16741,7 @@ schema:recordLabel a owl:ObjectProperty ;
     mh:influenced mb:86e2e2ad-6d1b-44fd-9463-b6683718a1cc ;
     mo:genre <http://example.org/music-history/genre/film_score> .
 
-<http://example.org/music-history/artist/John_Cale> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/John_Cale> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "John Cale"@en ;
@@ -16771,13 +16751,13 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "John Holt"@en ;
     mh:influenced mb:ed2ac1e9-d51d-4eff-a2c2-85e81abd6360 .
 
-<http://example.org/music-history/artist/John_McLaughlin> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/John_McLaughlin> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "John McLaughlin"@en ;
     mh:collaboratedWith mb:7bc8dd01-35ea-4b18-a64d-3a364dc76a52 .
 
-<http://example.org/music-history/artist/Johnny_Pacheco> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Johnny_Pacheco> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Johnny Pacheco"@en ;
@@ -16792,7 +16772,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "José \"Djô\" da Silva"@en ;
     mh:produced <http://example.org/music-history/album/92a70a61-f684-3b8c-8ae6-31a7d0ad1465> .
 
-<http://example.org/music-history/artist/Juan_d_Anyelica> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Juan_d_Anyelica> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Juan d'Anyelica"@en ;
@@ -16806,7 +16786,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Kitty Wells"@en ;
     mh:influenced mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 .
 
-<http://example.org/music-history/artist/Larry_Coryell> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Larry_Coryell> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Larry Coryell"@en ;
@@ -16820,13 +16800,13 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Laurel Aitken"@en ;
     mh:influenced mb:ed2ac1e9-d51d-4eff-a2c2-85e81abd6360 .
 
-<http://example.org/music-history/artist/Lesley_Gore> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Lesley_Gore> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Lesley Gore"@en ;
     mh:collaboratedWith mb:5803c81e-739a-4057-9a5c-cf84e55db630 .
 
-<http://example.org/music-history/artist/Little_Walter_Jacobs> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Little_Walter_Jacobs> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Little Walter Jacobs"@en ;
@@ -16860,7 +16840,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Marcus Garvey"@en ;
     mh:influenced mb:ed2ac1e9-d51d-4eff-a2c2-85e81abd6360 .
 
-<http://example.org/music-history/artist/Maria_Beth_nia> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Maria_Beth_nia> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Maria Bethânia"@en ;
@@ -16870,7 +16850,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Melvins"@en ;
     mh:influenced mb:5b11f4ce-a62d-471e-81fc-a69a8278c7da .
 
-<http://example.org/music-history/artist/Meredith_Monk> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Meredith_Monk> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Meredith Monk"@en ;
@@ -16892,7 +16872,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Molly O'Day"@en ;
     mh:influenced mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 .
 
-<http://example.org/music-history/artist/Montserrat_Caball_> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Montserrat_Caball_> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Montserrat Caballé"@en ;
@@ -16914,13 +16894,13 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Orlando Julius"@en ;
     mh:influenced mb:6514cffa-fbe0-4965-ad88-e998ead8a82a .
 
-<http://example.org/music-history/artist/Otis_Spann> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Otis_Spann> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Otis Spann"@en ;
     mh:collaboratedWith mb:f86f1f07-d182-45ce-ae93-ef610880ca72 .
 
-<http://example.org/music-history/artist/Outlawz> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Outlawz> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Outlawz"@en ;
@@ -16930,7 +16910,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Patsy Cline"@en ;
     mh:influenced mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 .
 
-<http://example.org/music-history/artist/Peter_Sellers> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Peter_Sellers> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Peter Sellers"@en ;
@@ -16960,19 +16940,19 @@ schema:recordLabel a owl:ObjectProperty ;
         mo:SoloMusicArtist ;
     rdfs:label "Riad El Sunbati"@en .
 
-<http://example.org/music-history/artist/Richard_Branson> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Richard_Branson> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Richard Branson"@en ;
     mh:collaboratedWith mb:8e66ea2b-b57b-47d9-8df0-df4630aeb8e5 .
 
-<http://example.org/music-history/artist/Robert_Fripp> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Robert_Fripp> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Robert Fripp"@en ;
     mh:collaboratedWith mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 .
 
-<http://example.org/music-history/artist/Robert_Wyatt> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Robert_Wyatt> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Robert Wyatt"@en ;
@@ -17028,19 +17008,19 @@ schema:recordLabel a owl:ObjectProperty ;
     mh:influenced mb:ed2ac1e9-d51d-4eff-a2c2-85e81abd6360 ;
     mo:genre <http://example.org/music-history/genre/soul> .
 
-<http://example.org/music-history/artist/Snoop_Dogg> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Snoop_Dogg> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Snoop Dogg"@en ;
     mh:collaboratedWith mb:98b5a1d4-3f58-412f-950c-ee9d82743705 .
 
-<http://example.org/music-history/artist/Spike_Milligan> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Spike_Milligan> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Spike Milligan"@en ;
     mh:collaboratedWith mb:26fa8b67-6c7f-406c-ad64-a1d070092df2 .
 
-<http://example.org/music-history/artist/Stan_Getz> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Stan_Getz> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Stan Getz"@en ;
@@ -17067,7 +17047,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Tammy Wynette"@en ;
     mh:influenced mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 .
 
-<http://example.org/music-history/artist/Texas_Troubadours> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Texas_Troubadours> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Texas Troubadours"@en ;
@@ -17077,7 +17057,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "The Art of Fugue"@en ;
     mh:composed mb:24f1766e-9635-4d58-a4d4-9413f9f98a4c .
 
-<http://example.org/music-history/artist/The_B-52_s> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/The_B-52_s> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "The B-52's"@en ;
@@ -17163,7 +17143,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "The Vaselines"@en ;
     mh:influenced mb:5b11f4ce-a62d-471e-81fc-a69a8278c7da .
 
-<http://example.org/music-history/artist/The_Weeknd> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/The_Weeknd> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "The Weeknd"@en ;
@@ -17177,7 +17157,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Timothy Leary"@en ;
     mh:influenced mb:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d .
 
-<http://example.org/music-history/artist/Tito_Puente> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Tito_Puente> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Tito Puente"@en ;
@@ -17192,7 +17172,7 @@ schema:recordLabel a owl:ObjectProperty ;
 <http://example.org/music-history/artist/Tony_Allen> a mo:SoloMusicArtist ;
     rdfs:label "Tony Allen"@en .
 
-<http://example.org/music-history/artist/Toquinho> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Toquinho> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Toquinho"@en ;
@@ -17202,7 +17182,7 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Vincenzo Bellini"@en ;
     mh:influenced mb:f1bedf1f-4445-4651-9c35-f4a3f3860a13 .
 
-<http://example.org/music-history/artist/Willie_Col_n> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Willie_Col_n> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Willie Colón"@en ;
@@ -17216,19 +17196,19 @@ schema:recordLabel a owl:ObjectProperty ;
     rdfs:label "Wynona Carr"@en ;
     mh:influenced mb:2f9ecbed-27be-40e6-abca-6de49d50299e .
 
-<http://example.org/music-history/artist/Yamandu_Costa> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Yamandu_Costa> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Yamandu Costa"@en ;
     mh:collaboratedWith mb:d5956a2f-bab9-4aa3-a9be-ad393518e5b0 .
 
-<http://example.org/music-history/artist/Yehudi_Menuhin> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Yehudi_Menuhin> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Yehudi Menuhin"@en ;
     mh:collaboratedWith mb:697f8b9f-0454-40f2-bba2-58f35668cdbe .
 
-<http://example.org/music-history/artist/Z__Ramalho> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Z__Ramalho> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Zé Ramalho"@en ;
@@ -20715,31 +20695,39 @@ mh:composed a owl:ObjectProperty ;
     rdfs:label "CL"@en .
 
 <http://example.org/music-history/country/eg> a mh:Country ;
-    rdfs:label "Egypt"@en .
+    rdfs:label "EG"@en,
+        "Egypt"@en .
 
 <http://example.org/music-history/country/hu> a mh:Country ;
     rdfs:label "HU"@en .
 
 <http://example.org/music-history/country/in> a mh:Country ;
-    rdfs:label "India"@en .
+    rdfs:label "IN"@en,
+        "India"@en .
 
 <http://example.org/music-history/country/jp> a mh:Country ;
-    rdfs:label "Japan"@en .
+    rdfs:label "JP"@en,
+        "Japan"@en .
 
 <http://example.org/music-history/country/ng> a mh:Country ;
-    rdfs:label "Nigeria"@en .
+    rdfs:label "NG"@en,
+        "Nigeria"@en .
 
 <http://example.org/music-history/country/pl> a mh:Country ;
-    rdfs:label "Poland"@en .
+    rdfs:label "PL"@en,
+        "Poland"@en .
 
 <http://example.org/music-history/country/pt> a mh:Country ;
-    rdfs:label "Portugal"@en .
+    rdfs:label "PT"@en,
+        "Portugal"@en .
 
 <http://example.org/music-history/country/ru> a mh:Country ;
-    rdfs:label "Russia"@en .
+    rdfs:label "RU"@en,
+        "Russia"@en .
 
 <http://example.org/music-history/country/sn> a mh:Country ;
-    rdfs:label "Senegal"@en .
+    rdfs:label "SN"@en,
+        "Senegal"@en .
 
 <http://example.org/music-history/entity/Aloha_from_Hawaii> a mh:Venue ;
     rdfs:label "Aloha from Hawaii"@en .
@@ -22050,7 +22038,8 @@ mb:03606dee-b333-48fe-b9af-d671c837d40f a mo:MusicGroup ;
 mb:03beedf4-babe-4a7e-82d9-4e5883164812 a mo:MusicGroup ;
     rdfs:label "The Manish Boys"@en .
 
-mb:03c3fef0-1229-403c-a024-fb7d522ecd10 a mh:InternationalCollaborator,
+mb:03c3fef0-1229-403c-a024-fb7d522ecd10 a mh:CollaboratingArtist,
+        mh:InternationalCollaborator,
         mo:MusicGroup ;
     rdfs:label "N.M.L. NO MORE LANDMINE"@en ;
     mh:collaboratedWith mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 ;
@@ -22133,7 +22122,7 @@ mb:0e21491a-18a5-40d9-a68c-a651a0fda689 a mo:MusicArtist ;
     rdfs:label "Jeff Barry"@en ;
     mh:composed <http://example.org/music-history/composition/I_Can_Hear_Music> .
 
-mb:0ecaa896-58fa-4dca-b53d-8da7bc5f59c5 a mh:InternationalCollaborator,
+mb:0ecaa896-58fa-4dca-b53d-8da7bc5f59c5 a mh:CollaboratingArtist,
         mo:MusicGroup ;
     rdfs:label "Band Aid"@en ;
     mh:collaboratedWith mb:5441c29d-3602-4898-b1a1-b77fa23b8e50 ;
@@ -22158,7 +22147,7 @@ mb:12e88ee2-c7c6-496d-bb8c-3c31e366c721 a mo:MusicArtist ;
     rdfs:label "Rev. James Cleveland"@en ;
     mh:composed <http://example.org/music-history/composition/Nobody_Like_You> .
 
-mb:1327beb8-ed6b-4c26-a8b7-5209eb01ce2c a mh:InternationalCollaborator,
+mb:1327beb8-ed6b-4c26-a8b7-5209eb01ce2c a mh:CollaboratingArtist,
         mo:MusicGroup ;
     rdfs:label "Fripp & Eno"@en ;
     mh:collaboratedWith mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 ;
@@ -22250,7 +22239,7 @@ mb:1f808556-4ce3-41e7-ba9b-3a31d04bdc7d a mo:MusicArtist ;
     rdfs:label "Sidney Lippman"@en ;
     mh:composed <http://example.org/music-history/composition/Too_Young> .
 
-mb:1f988d75-7f1c-4a74-b810-b6435a7f4fb4 a mh:InternationalCollaborator,
+mb:1f988d75-7f1c-4a74-b810-b6435a7f4fb4 a mh:CollaboratingArtist,
         mo:MusicGroup ;
     rdfs:label "Artists of Then, Now & Forever"@en ;
     mh:collaboratedWith mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 ;
@@ -22646,7 +22635,7 @@ mb:563cd731-b52d-4cf9-bc05-50fb2213a255 a mo:MusicArtist ;
 mb:565042fc-9012-4d2e-9ef3-ee0a9dcad326 a mo:MusicGroup ;
     rdfs:label "The Cosines"@en .
 
-mb:5773aa20-dd5d-4884-830f-7b5592bbbc46 a mh:InternationalCollaborator,
+mb:5773aa20-dd5d-4884-830f-7b5592bbbc46 a mh:CollaboratingArtist,
         mo:MusicGroup ;
     rdfs:label "The Vizitors"@en ;
     mh:collaboratedWith mb:86e2e2ad-6d1b-44fd-9463-b6683718a1cc .
@@ -22668,7 +22657,8 @@ mb:58f1e354-ecbc-4fd3-aa25-97eb1d9bd8b9 a mo:SoloMusicArtist ;
     mo:member_of mb:0d79fe8e-ba27-4859-bb8c-2f255f346853 ;
     schema:birthDate "1994-09-12"^^xsd:date .
 
-mb:59a34e53-1f30-4f99-8c1a-8465ffff84df a mh:InternationalCollaborator,
+mb:59a34e53-1f30-4f99-8c1a-8465ffff84df a mh:CollaboratingArtist,
+        mh:InternationalCollaborator,
         mo:MusicArtist,
         mo:MusicGroup ;
     rdfs:label "Harmonia 76"@en ;
@@ -22737,7 +22727,7 @@ mb:6727725b-9247-484d-bea8-44ac04208e17 a mo:MusicArtist ;
     rdfs:label "Arthur Herzog, Jr."@en ;
     mh:composed <http://example.org/music-history/composition/God_Bless_the_Child> .
 
-mb:674ac956-2274-4466-be36-1d88819572a4 a mh:InternationalCollaborator,
+mb:674ac956-2274-4466-be36-1d88819572a4 a mh:CollaboratingArtist,
         mo:MusicGroup ;
     rdfs:label "Peace Together"@en ;
     mh:collaboratedWith mb:8e66ea2b-b57b-47d9-8df0-df4630aeb8e5 ;
@@ -23245,10 +23235,6 @@ mb:bb5bfd21-7d91-4d6b-91af-748d2da98f14 a mo:MusicArtist ;
     rdfs:label "J. Bailey"@en ;
     mh:composed <http://example.org/music-history/composition/Just_for_You> .
 
-mb:bb85b2d0-7c62-4389-8564-5eeadacd09bb a mo:MusicGroup ;
-    rdfs:label "The Beat Brothers"@en ;
-    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
-
 mb:bc75172c-359b-4d31-8c49-6ad95507e9ad a mo:MusicArtist ;
     rdfs:label "John Lair"@en ;
     mh:composed <http://example.org/music-history/composition/Freight_Train_Blues> .
@@ -23380,13 +23366,17 @@ mb:cf28141b-700b-4d95-9476-309abaa85f85 a mo:MusicArtist ;
     rdfs:label "Jack Clement"@en ;
     mh:composed <http://example.org/music-history/composition/Just_Between_You_and_Me> .
 
+mb:cfced5be-f60b-4bc9-9e86-7853c5e0dfdb a mo:MusicGroup ;
+    rdfs:label "The Beat Brothers"@en ;
+    mh:producedBy mb:07aebfa0-55d6-47e0-a284-12330e3eae0d .
+
 mb:d018cc6c-eeb1-4881-b46f-e3ee6497712f a mo:MusicGroup ;
     rdfs:label "Tom & Jerry"@en .
 
 mb:d15bd1fc-0f15-44ea-ac6f-86cd7fa4b94d a mo:MusicGroup ;
     rdfs:label "The Mighty Fine Band"@en .
 
-mb:d1d5e62f-2159-4556-811d-8949cc7247c6 a mh:InternationalCollaborator,
+mb:d1d5e62f-2159-4556-811d-8949cc7247c6 a mh:CollaboratingArtist,
         mo:MusicGroup ;
     rdfs:label "The Dirty Mac"@en ;
     mh:collaboratedWith mb:4d5447d7-c61c-4120-ba1b-d7f471d385b9 ;
@@ -23398,7 +23388,7 @@ mb:d2285254-95a6-4462-be8c-35de506c081f a mo:MusicArtist ;
     rdfs:label "Bienvenido Fabián"@en ;
     mh:composed <http://example.org/music-history/composition/Goza_negra> .
 
-mb:d24fc285-7b2f-47da-8ac5-4070b08570b1 a mh:InternationalCollaborator,
+mb:d24fc285-7b2f-47da-8ac5-4070b08570b1 a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Alice Coltrane"@en ;
@@ -23424,7 +23414,7 @@ mb:d42353b1-11d6-4e2f-af48-46dda26a5865 a mo:MusicArtist ;
 mb:d578d8aa-9651-4ba0-a22d-99cf1eb2ab90 a mo:MusicGroup ;
     rdfs:label "Duke Ellington Octet"@en .
 
-mb:d59c151d-9273-4963-88de-90077ebab7c3 a mh:InternationalCollaborator,
+mb:d59c151d-9273-4963-88de-90077ebab7c3 a mh:CollaboratingArtist,
         mo:MusicGroup ;
     rdfs:label "Spirit of the Forest"@en ;
     mh:collaboratedWith mb:d6ed7887-a401-47a8-893c-34b967444d26 .
@@ -23543,7 +23533,7 @@ mb:e5257dc5-1edd-4fca-b7e6-1158e00522c8 a mo:MusicGroup ;
 mb:e5302297-db17-4f89-999a-80bb59ad3f07 a mo:MusicGroup ;
     rdfs:label "Leonard Feather’s Esquire All‐Americans"@en .
 
-mb:e58f6aeb-735f-4f07-9f37-624fc198e641 a mh:InternationalCollaborator,
+mb:e58f6aeb-735f-4f07-9f37-624fc198e641 a mh:CollaboratingArtist,
         mo:MusicGroup ;
     rdfs:label "The Amnesty Allstars"@en ;
     mh:collaboratedWith mb:8e66ea2b-b57b-47d9-8df0-df4630aeb8e5 .
@@ -25488,9 +25478,7 @@ mb_recording:25b0c413-b69e-49b6-b091-686028225af8 a mo:Track ;
     mh:trackOn <http://example.org/music-history/album/6a0bafd0-9489-38b8-bbd7-687d82ec8945> ;
     dc:title "Es este amor"@en .
 
-mb_recording:25bbbd76-5f48-4b37-9722-44a346c4f3a9 a mh:InternationalCollaborator,
-        mo:MusicArtist,
-        mo:Track ;
+mb_recording:25bbbd76-5f48-4b37-9722-44a346c4f3a9 a mo:Track ;
     rdfs:label "Sifting"@en ;
     mh:collaboratedWith mb:8e66ea2b-b57b-47d9-8df0-df4630aeb8e5 ;
     mh:duration 322240 ;
@@ -35672,9 +35660,7 @@ mh:Era a owl:Class ;
     mo:genre <http://example.org/music-history/genre/classical>,
         <http://example.org/music-history/genre/opera> .
 
-<http://example.org/music-history/album/790ec782-7344-366c-af67-4a427bcaf991> a mh:InternationalCollaborator,
-        mo:MusicArtist,
-        mo:Release ;
+<http://example.org/music-history/album/790ec782-7344-366c-af67-4a427bcaf991> a mo:Release ;
     rdfs:label "Double Fantasy"@en ;
     mh:collaboratedWith mb:4d5447d7-c61c-4120-ba1b-d7f471d385b9 ;
     mh:releaseDate "1980-11-17"^^xsd:date ;
@@ -36082,14 +36068,14 @@ mh:Era a owl:Class ;
     mh:influenced mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e ;
     mo:genre <http://example.org/music-history/genre/soul> .
 
-<http://example.org/music-history/artist/Dr__Dre> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Dr__Dre> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Dr. Dre"@en ;
     mh:collaboratedWith mb:381086ea-f511-4aba-bdf9-71c753dc5077,
         mb:98b5a1d4-3f58-412f-950c-ee9d82743705 .
 
-<http://example.org/music-history/artist/George_Michael> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/George_Michael> a mh:CollaboratingArtist,
         mo:MusicArtist ;
     rdfs:label "George Michael"@en ;
     mh:collaboratedWith mb:2f9ecbed-27be-40e6-abca-6de49d50299e ;
@@ -36112,7 +36098,7 @@ mh:Era a owl:Class ;
     mh:influenced mb:022589ac-7177-460d-a178-9976cf70e29f,
         mb:0383dadf-2a4e-4d10-a46a-e9e041da8eb3 .
 
-<http://example.org/music-history/artist/Jo_o_Gilberto> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Jo_o_Gilberto> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "João Gilberto"@en ;
@@ -36143,7 +36129,7 @@ mh:Era a owl:Class ;
     mh:influenced mb:2f9ecbed-27be-40e6-abca-6de49d50299e,
         mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e .
 
-<http://example.org/music-history/artist/Sonic_Youth> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Sonic_Youth> a mh:CollaboratingArtist,
         mo:MusicArtist ;
     rdfs:label "Sonic Youth"@en ;
     mh:collaboratedWith mb:b0b33754-a664-43b7-ba00-be0dc4ec2396 ;
@@ -37363,10 +37349,12 @@ mh:Era a owl:Class ;
     mo:genre <http://example.org/music-history/genre/hip-hop> .
 
 <http://example.org/music-history/country/at> a mh:Country ;
-    rdfs:label "Austria"@en .
+    rdfs:label "AT"@en,
+        "Austria"@en .
 
 <http://example.org/music-history/country/cv> a mh:Country ;
-    rdfs:label "Cape Verde"@en .
+    rdfs:label "CV"@en,
+        "Cape Verde"@en .
 
 <http://example.org/music-history/genre/afro-jazz> a mo:Genre ;
     rdfs:label "afro-jazz"@en .
@@ -37568,13 +37556,13 @@ mb:10d9b154-7c29-4bed-93da-3ba5965ae918 a mo:MusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/doo-wop> .
 
-mb:17e5e4ec-000e-41ae-958a-dc33ae23fc78 a mh:InternationalCollaborator,
+mb:17e5e4ec-000e-41ae-958a-dc33ae23fc78 a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:MusicGroup ;
     rdfs:label "Billy Strayhorn Trio"@en ;
     mh:collaboratedWith mb:3af06bc4-68ad-4cae-bb7a-7eeeb45e411f .
 
-mb:1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e a mh:InternationalCollaborator,
+mb:1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e a mh:CollaboratingArtist,
         mo:MusicArtist ;
     rdfs:label "Stevie Wonder"@en ;
     mh:collaboratedWith mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e ;
@@ -37587,7 +37575,7 @@ mb:24252d8a-38e7-4358-bfe7-70d845f156ba a mo:MusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/rock_and_roll> .
 
-mb:2ce02909-598b-44ef-a456-151ba0a3bd70 a mh:InternationalCollaborator,
+mb:2ce02909-598b-44ef-a456-151ba0a3bd70 a mh:CollaboratingArtist,
         mo:MusicArtist ;
     rdfs:label "Ray Charles"@en ;
     mh:collaboratedWith mb:5803c81e-739a-4057-9a5c-cf84e55db630 ;
@@ -37646,7 +37634,7 @@ mb:4ee75011-678b-46e0-b8e1-8ef47e5b7379 a foaf:Person ;
     mh:collaboratedWith mb:d43d12a1-2dc9-4257-a2fd-0a3bb1081b86 ;
     mh:influenced mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 .
 
-mb:51fe321e-5ad0-4dd1-a5c3-3e773688cdf8 a mh:InternationalCollaborator,
+mb:51fe321e-5ad0-4dd1-a5c3-3e773688cdf8 a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:MusicGroup ;
     rdfs:label "Thelonious Monk Septet"@en ;
@@ -37665,7 +37653,7 @@ mb:523af0eb-badf-4d80-bf5c-cf102f846ef1 a mo:MusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/soul> .
 
-mb:55920730-831f-431f-80f7-539a2bf83f98 a mh:InternationalCollaborator,
+mb:55920730-831f-431f-80f7-539a2bf83f98 a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:MusicGroup ;
     rdfs:label "Miles Davis and His Band"@en ;
@@ -37716,7 +37704,7 @@ mb:696e7bed-989a-4111-bc10-7f960561024b a mo:MusicArtist ;
     mh:composed <http://example.org/music-history/composition/It_Is_No_Secret>,
         <http://example.org/music-history/composition/_Remember_Me__I_m_the_One_Who_Loves_You> .
 
-mb:6d24f102-5c43-453a-8664-4ee092f441cf a mh:InternationalCollaborator,
+mb:6d24f102-5c43-453a-8664-4ee092f441cf a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Brian May"@en ;
@@ -37755,7 +37743,7 @@ mb:81a28af8-03de-46a2-93f1-83a5cd08f0bd a mo:MusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/pop> .
 
-mb:8e8c7417-c905-46b1-b42a-5260b4274ed4 a mh:InternationalCollaborator,
+mb:8e8c7417-c905-46b1-b42a-5260b4274ed4 a mh:CollaboratingArtist,
         mo:MusicArtist ;
     rdfs:label "Thelonious Monk"@en ;
     mh:collaboratedWith mb:b625448e-bf4a-41c3-a421-72ad46cdb831 ;
@@ -37780,7 +37768,7 @@ mb:9b1f8808-6bdd-4d36-b619-ec5c7e6d0d7d a mo:MusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/soul> .
 
-mb:a0b77a10-ecff-4b84-b1f3-008391038d67 a mh:InternationalCollaborator,
+mb:a0b77a10-ecff-4b84-b1f3-008391038d67 a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "John Deacon"@en ;
@@ -37790,7 +37778,7 @@ mb:a0b77a10-ecff-4b84-b1f3-008391038d67 a mh:InternationalCollaborator,
     mo:member_of mb:0383dadf-2a4e-4d10-a46a-e9e041da8eb3 ;
     schema:birthDate "1951-08-19"^^xsd:date .
 
-mb:ab73de4d-06ee-4814-acce-2e3e537eb4ac a mh:InternationalCollaborator,
+mb:ab73de4d-06ee-4814-acce-2e3e537eb4ac a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:MusicGroup ;
     rdfs:label "The Tennessee Three"@en ;
@@ -37805,7 +37793,7 @@ mb:b042bb3d-912b-4e3f-a12b-e98675383b82 a mo:MusicArtist ;
 mb:b1196ced-08e8-4f1b-9e36-cac421d532ca a mo:MusicGroup ;
     rdfs:label "Egypt 80"@en .
 
-mb:b4bfd133-a931-42c7-a41c-0311893dea67 a mh:InternationalCollaborator,
+mb:b4bfd133-a931-42c7-a41c-0311893dea67 a mh:CollaboratingArtist,
         mo:MusicGroup ;
     rdfs:label "The Million Dollar Quartet"@en ;
     mh:collaboratedWith mb:01809552-4f87-45b0-afff-2c6f0730a3be,
@@ -37866,7 +37854,7 @@ mb:de2dcddf-d398-4a3e-adfc-2f108317d6c4 a mo:MusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/soul> .
 
-mb:e02d4f5a-8bcf-4fd3-8410-57c680389748 a mh:InternationalCollaborator,
+mb:e02d4f5a-8bcf-4fd3-8410-57c680389748 a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:MusicGroup ;
     rdfs:label "Charlie Parker Quintet"@en ;
@@ -38289,7 +38277,7 @@ mh:MusicAward a owl:Class ;
 <http://example.org/music-history/album_group/Berlin_Trilogy> a mh:AlbumGroup ;
     rdfs:label "Berlin Trilogy"@en .
 
-<http://example.org/music-history/artist/Count_Basie> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Count_Basie> a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Count Basie"@en ;
@@ -38299,7 +38287,7 @@ mh:MusicAward a owl:Class ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/jazz> .
 
-<http://example.org/music-history/artist/Fr_d_ric_Chopin> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Fr_d_ric_Chopin> a mh:CollaboratingArtist,
         mo:MusicArtist ;
     rdfs:label "Frédéric Chopin"@en ;
     mh:collaboratedWith <http://example.org/music-history/artist/Franz_Liszt> ;
@@ -38786,7 +38774,8 @@ mh:MusicAward a owl:Class ;
         mb:8e8c7417-c905-46b1-b42a-5260b4274ed4 .
 
 <http://example.org/music-history/country/es> a mh:Country ;
-    rdfs:label "Spain"@en .
+    rdfs:label "ES"@en,
+        "Spain"@en .
 
 <http://example.org/music-history/entity/1965_Newport_Folk_Festival> a mh:Venue ;
     rdfs:label "1965 Newport Folk Festival"@en .
@@ -38880,7 +38869,8 @@ mb:1a2d3f1a-6146-4fb6-92c7-da4f91bcc44d a mo:MusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/rhythm_and_blues> .
 
-mb:298fb0c1-5a1f-43c1-854d-663762caad6e a mh:InternationalCollaborator,
+mb:298fb0c1-5a1f-43c1-854d-663762caad6e a mh:CollaboratingArtist,
+        mh:InternationalCollaborator,
         mo:MusicGroup ;
     rdfs:label "Artists United Against Apartheid"@en ;
     mh:collaboratedWith mb:561d854a-6a28-4aa7-8c99-323e6ce46c2a,
@@ -38906,7 +38896,7 @@ mb:44389e9f-8ae9-40ff-8645-d082a9109e72 a mo:MusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/rock_and_roll> .
 
-mb:45e3c90f-2de6-4452-99b3-8dbf7a3cf6df a mh:InternationalCollaborator,
+mb:45e3c90f-2de6-4452-99b3-8dbf7a3cf6df a mh:CollaboratingArtist,
         mo:MusicGroup ;
     rdfs:label "USA for Africa"@en ;
     mh:collaboratedWith mb:05517043-ff78-4988-9c22-88c68588ebb9,
@@ -38915,7 +38905,7 @@ mb:45e3c90f-2de6-4452-99b3-8dbf7a3cf6df a mh:InternationalCollaborator,
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     schema:birthDate "1985-01-10"^^xsd:date .
 
-mb:558302b1-07ae-4be1-9edb-2a2b1f036313 a mh:InternationalCollaborator,
+mb:558302b1-07ae-4be1-9edb-2a2b1f036313 a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Roger Taylor"@en ;
@@ -38928,7 +38918,7 @@ mb:558302b1-07ae-4be1-9edb-2a2b1f036313 a mh:InternationalCollaborator,
         mb:41337bb4-2ca9-42a9-8409-daf0081f004e ;
     schema:birthDate "1949-07-26"^^xsd:date .
 
-mb:5d02f264-e225-41ff-83f7-d9b1f0b1874a a mh:InternationalCollaborator,
+mb:5d02f264-e225-41ff-83f7-d9b1f0b1874a a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:MusicGroup ;
     rdfs:label "Simon & Garfunkel"@en ;
@@ -38972,7 +38962,7 @@ mb:cabb4fcf-4067-4ba5-908d-76ee66fcf0c6 a mo:MusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/hip-hop> .
 
-mb:e1f3d4a1-e009-4911-a7a9-6e50a02a73d9 a mh:InternationalCollaborator,
+mb:e1f3d4a1-e009-4911-a7a9-6e50a02a73d9 a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:MusicGroup ;
     rdfs:label "Dizzy Gillespie"@en,
@@ -39227,15 +39217,18 @@ schema:Country a owl:Class ;
     mh:influenced mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 .
 
 <http://example.org/music-history/country/fr> a mh:Country ;
-    rdfs:label "France"@en .
+    rdfs:label "FR"@en,
+        "France"@en .
 
 <http://example.org/music-history/country/jm> a mh:Country ;
-    rdfs:label "Jamaica"@en .
+    rdfs:label "JM"@en,
+        "Jamaica"@en .
 
-<http://example.org/music-history/country/za> a mh:Country,
-        mh:InternationalCollaborator,
+<http://example.org/music-history/country/za> a mh:CollaboratingArtist,
+        mh:Country,
         mo:MusicArtist ;
-    rdfs:label "South Africa"@en ;
+    rdfs:label "South Africa"@en,
+        "ZA"@en ;
     mh:collaboratedWith mb:381086ea-f511-4aba-bdf9-71c753dc5077 ;
     mh:influenced <http://example.org/music-history/album/19847822-1430-3380-9cf1-bc45545b34ac> .
 
@@ -39532,10 +39525,12 @@ mh:MultinationalBand a owl:Class ;
         mb:fc55f851-01d7-4e96-8d68-15e62aae4af7 .
 
 <http://example.org/music-history/country/br> a mh:Country ;
-    rdfs:label "Brazil"@en .
+    rdfs:label "BR"@en,
+        "Brazil"@en .
 
 <http://example.org/music-history/country/it> a mh:Country ;
-    rdfs:label "Italy"@en .
+    rdfs:label "IT"@en,
+        "Italy"@en .
 
 <http://example.org/music-history/genre/musical_theatre> a mo:Genre ;
     rdfs:label "musical theatre"@en .
@@ -39577,7 +39572,8 @@ mb:3508f3fd-3b18-493c-a362-376736bb6cde a mo:MusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/musical_theatre> .
 
-mb:42a8f507-8412-4611-854f-926571049fa0 a mh:InternationalCollaborator,
+mb:42a8f507-8412-4611-854f-926571049fa0 a mh:CollaboratingArtist,
+        mh:InternationalCollaborator,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "George Harrison"@en ;
@@ -39603,9 +39599,7 @@ mb:d5d97b2b-b83b-4976-814a-056d9076c8c3 a mo:MusicArtist ;
     mh:countryOfOrigin <http://example.org/music-history/country/us> ;
     mo:genre <http://example.org/music-history/genre/hip-hop> .
 
-<http://example.org/music-history/album/979459f3-207d-4e77-a1df-298c7bbf3315> a mh:InternationalCollaborator,
-        mo:MusicArtist,
-        mo:Release ;
+<http://example.org/music-history/album/979459f3-207d-4e77-a1df-298c7bbf3315> a mo:Release ;
     rdfs:label "Umm Kulthum 3"@en ;
     mh:alterEgo <http://example.org/music-history/persona/Egypt_s_Fourth_Pyramid>,
         <http://example.org/music-history/persona/Kawkab_el-Sharq>,
@@ -39681,7 +39675,7 @@ mb:d5d97b2b-b83b-4976-814a-056d9076c8c3 a mo:MusicArtist ;
     mo:genre <http://example.org/music-history/genre/hindustani_classical>,
         <http://example.org/music-history/genre/indian_classical> .
 
-<http://example.org/music-history/artist/Willie_Dixon> a mh:InternationalCollaborator,
+<http://example.org/music-history/artist/Willie_Dixon> a mh:CollaboratingArtist,
         mo:MusicArtist ;
     rdfs:label "Willie Dixon"@en ;
     mh:collaboratedWith mb:f86f1f07-d182-45ce-ae93-ef610880ca72 ;
@@ -39745,7 +39739,7 @@ mb:519774a4-3b18-4042-b8c0-927845a616c9 a mh:ProducerArtist,
     mo:member_of mb:678d88b2-87b0-403b-b63d-5da7465aecc3 ;
     schema:birthDate "1944-01-09"^^xsd:date .
 
-mb:552fb15e-d3c7-4afd-b33e-ef5988a298e9 a mh:InternationalCollaborator,
+mb:552fb15e-d3c7-4afd-b33e-ef5988a298e9 a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:MusicGroup ;
     rdfs:label "Tom Jobim e Orquestra"@en ;
@@ -40124,7 +40118,8 @@ mb:9bd20e6a-b41d-4983-a5b6-c0ff849fa235 a mo:MusicArtist ;
         mb:db69948e-c9e8-4289-939b-98f2534853b2 .
 
 <http://example.org/music-history/country/kr> a mh:Country ;
-    rdfs:label "South Korea"@en .
+    rdfs:label "KR"@en,
+        "South Korea"@en .
 
 <http://example.org/music-history/instrument/background_vocals> a mo:Instrument ;
     rdfs:label "background vocals"@en .
@@ -40141,9 +40136,7 @@ mb:9bd20e6a-b41d-4983-a5b6-c0ff849fa235 a mo:MusicArtist ;
 <http://example.org/music-history/label/EMI> a mh:RecordLabel ;
     rdfs:label "EMI"@en .
 
-<http://example.org/music-history/album/07928183-6757-4c51-88dd-5981aabd8773> a mh:InternationalCollaborator,
-        mo:MusicArtist,
-        mo:Release ;
+<http://example.org/music-history/album/07928183-6757-4c51-88dd-5981aabd8773> a mo:Release ;
     rdfs:label "Nelson Mandela"@en ;
     mh:collaboratedWith mb:8e66ea2b-b57b-47d9-8df0-df4630aeb8e5 ;
     mh:hasTrack mb_recording:63dd5cd1-3d61-483a-b268-6166d6c43e72,
@@ -40621,6 +40614,11 @@ mb:79a10d06-c7cd-465b-9151-cf001d2f101d a mo:MusicArtist ;
         <http://example.org/music-history/composition/Sweet_Lover>,
         <http://example.org/music-history/composition/Won_t_Be_Long>,
         <http://example.org/music-history/composition/_Blue__By_Myself> .
+
+mh:InternationalCollaborator a owl:Class ;
+    rdfs:label "International Collaborator"@en ;
+    rdfs:comment "A CollaboratingArtist who has collaborated with at least one artist from a different country. Instances are asserted programmatically via SPARQL because OWL2 cannot express cross-individual property value comparisons. See also: mh:MultinationalBand (same hybrid modelling pattern)." ;
+    rdfs:subClassOf mh:CollaboratingArtist .
 
 <http://example.org/music-history/album/03f9d867-f737-447e-a3ee-1732e6159c95> a mo:Release ;
     rdfs:label "Sinfonia do Rio de Janeiro"@en ;
@@ -42163,8 +42161,7 @@ mb:79a10d06-c7cd-465b-9151-cf001d2f101d a mo:MusicArtist ;
         <http://example.org/music-history/genre/soft_rock>,
         <http://example.org/music-history/genre/world> .
 
-<http://example.org/music-history/album/dcef109a-dfe2-3844-99b6-cd264eb14259> a mo:MusicArtist,
-        mo:Release ;
+<http://example.org/music-history/album/dcef109a-dfe2-3844-99b6-cd264eb14259> a mo:Release ;
     rdfs:label "An Evening With Belafonte/Makeba"@en ;
     mh:hasTrack mb_recording:0706ee7f-3970-4c3f-8187-8e35046b363f,
         mb_recording:082d35ae-38f9-4bf6-b8c2-79a61b727c62,
@@ -42459,7 +42456,8 @@ mb:79a10d06-c7cd-465b-9151-cf001d2f101d a mo:MusicArtist ;
         <http://example.org/music-history/genre/singer-songwriter> .
 
 <http://example.org/music-history/country/cu> a mh:Country ;
-    rdfs:label "Cuba"@en .
+    rdfs:label "CU"@en,
+        "Cuba"@en .
 
 <http://example.org/music-history/label/Columbia_Records> a mh:RecordLabel ;
     rdfs:label "Columbia Records"@en .
@@ -43204,7 +43202,7 @@ mb:9be7f096-97ec-4615-8957-8d40b5dcbc41 a mo:MusicArtist ;
     rdfs:label "korean hip-hop"@en .
 
 mb:98b5a1d4-3f58-412f-950c-ee9d82743705 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Tupac Shakur"@en ;
@@ -43753,7 +43751,8 @@ mb:0a354a70-b879-4697-ad9b-60bfe2bd1d63 a mh:AwardWinningArtist,
         <http://example.org/music-history/genre/symphony> .
 
 <http://example.org/music-history/country/de> a mh:Country ;
-    rdfs:label "Germany"@en .
+    rdfs:label "DE"@en,
+        "Germany"@en .
 
 <http://example.org/music-history/genre/cool_jazz> a mo:Genre ;
     rdfs:label "cool jazz"@en .
@@ -43771,6 +43770,9 @@ mb:0a354a70-b879-4697-ad9b-60bfe2bd1d63 a mh:AwardWinningArtist,
     rdfs:label "mbalax"@en ;
     mh:subgenreOf <http://example.org/music-history/genre/latin> ;
     mo:genre <http://example.org/music-history/genre/serer_music_njuup> .
+
+<http://example.org/music-history/genre/popular> a mo:Genre ;
+    rdfs:label "popular"@en .
 
 <http://example.org/music-history/genre/ska> a mo:Genre ;
     rdfs:label "ska"@en ;
@@ -43791,9 +43793,6 @@ mb:0a354a70-b879-4697-ad9b-60bfe2bd1d63 a mh:AwardWinningArtist,
     rdfs:label "flamenco"@en ;
     mh:influenced mb:9bacf78f-9132-43da-8873-8a9eb49da0e9 ;
     mh:subgenreOf <http://example.org/music-history/genre/latin> .
-
-<http://example.org/music-history/genre/popular> a mo:Genre ;
-    rdfs:label "popular"@en .
 
 mb:0d79fe8e-ba27-4859-bb8c-2f255f346853 a mh:AwardWinningArtist,
         mo:MusicGroup ;
@@ -43977,7 +43976,7 @@ mb:2d923f7b-45a1-4204-beb8-5b106e913b58 a mo:SoloMusicArtist ;
     schema:gender "Female" .
 
 mb:712fcc0f-25f5-45bf-bbb8-2601872d08e1 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Luiz Gonzaga"@en ;
@@ -44106,7 +44105,7 @@ mb:9bacf78f-9132-43da-8873-8a9eb49da0e9 a mh:AwardWinningArtist,
     schema:birthDate "1968-12-18"^^xsd:date ;
     schema:gender "Male" .
 
-mb:ba550d0e-adac-4864-b88b-407cab5e76af a mh:InternationalCollaborator,
+mb:ba550d0e-adac-4864-b88b-407cab5e76af a mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Paul McCartney"@en ;
@@ -44152,7 +44151,7 @@ mb:ba550d0e-adac-4864-b88b-407cab5e76af a mh:InternationalCollaborator,
     schema:birthDate "1942-06-18"^^xsd:date .
 
 mb:c7a4c4a0-9544-44e3-87f2-5779d18b753f a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Hermeto Pascoal"@en ;
     mh:birthPlace "Arapiraca" ;
@@ -44211,7 +44210,7 @@ mb:c7a4c4a0-9544-44e3-87f2-5779d18b753f a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:056e4f3e-d505-4dad-8ec1-d04f521cbb56 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mh:MultinationalBand,
         mo:MusicArtist,
         mo:MusicGroup ;
@@ -44382,7 +44381,7 @@ mb:af081ea2-7a2c-4fbd-8200-92d62056b5f5 a mh:AwardWinningArtist,
         <http://example.org/music-history/genre/gramophone_selection> .
 
 mb:381086ea-f511-4aba-bdf9-71c753dc5077 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Kendrick Lamar"@en ;
@@ -44466,6 +44465,7 @@ mb:381086ea-f511-4aba-bdf9-71c753dc5077 a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:697f8b9f-0454-40f2-bba2-58f35668cdbe a mh:AwardWinningArtist,
+        mh:CollaboratingArtist,
         mh:InternationalCollaborator,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
@@ -44637,7 +44637,7 @@ mb:2a85ecff-41e9-4be1-aca6-c87054a4c334 a mh:AwardWinningArtist,
     schema:deathDate "2015"^^xsd:gYear .
 
 mb:3af06bc4-68ad-4cae-bb7a-7eeeb45e411f a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Duke Ellington"@en ;
@@ -44731,6 +44731,7 @@ mb:3af06bc4-68ad-4cae-bb7a-7eeeb45e411f a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:8e66ea2b-b57b-47d9-8df0-df4630aeb8e5 a mh:AwardWinningArtist,
+        mh:CollaboratingArtist,
         mh:InternationalCollaborator,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
@@ -44833,6 +44834,7 @@ mb:8e66ea2b-b57b-47d9-8df0-df4630aeb8e5 a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:bc5c2918-4aba-4ef6-a245-100563a4487f a mh:AwardWinningArtist,
+        mh:CollaboratingArtist,
         mh:InternationalCollaborator,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
@@ -44909,7 +44911,7 @@ mb:bc5c2918-4aba-4ef6-a245-100563a4487f a mh:AwardWinningArtist,
     schema:gender "Female" .
 
 mb:d5956a2f-bab9-4aa3-a9be-ad393518e5b0 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Dominguinhos"@en ;
@@ -44970,7 +44972,7 @@ mb:d5956a2f-bab9-4aa3-a9be-ad393518e5b0 a mh:AwardWinningArtist,
     rdfs:label "vocals"@en .
 
 mb:3be4099e-f180-4038-af84-ae18a09eab02 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Julio Iglesias"@en ;
     mh:birthPlace "Madrid" ;
@@ -45049,6 +45051,7 @@ mb:3be4099e-f180-4038-af84-ae18a09eab02 a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:b0b33754-a664-43b7-ba00-be0dc4ec2396 a mh:AwardWinningArtist,
+        mh:CollaboratingArtist,
         mh:InternationalCollaborator,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
@@ -45130,13 +45133,14 @@ mb:b0b33754-a664-43b7-ba00-be0dc4ec2396 a mh:AwardWinningArtist,
     schema:gender "Female" .
 
 <http://example.org/music-history/country/gb> a mh:Country ;
-    rdfs:label "United Kingdom"@en .
+    rdfs:label "GB"@en,
+        "United Kingdom"@en .
 
 <http://example.org/music-history/genre/reggae> a mo:Genre ;
     rdfs:label "reggae"@en .
 
 mb:7b8e1188-9ca4-4aa5-8393-172de6fa04de a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Celia Cruz"@en ;
@@ -45211,7 +45215,7 @@ mb:7b8e1188-9ca4-4aa5-8393-172de6fa04de a mh:AwardWinningArtist,
     schema:gender "Female" .
 
 mb:86e2e2ad-6d1b-44fd-9463-b6683718a1cc a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Jean‐Michel Jarre"@en ;
     mh:birthPlace "Lyon" ;
@@ -45289,7 +45293,7 @@ mb:86e2e2ad-6d1b-44fd-9463-b6683718a1cc a mh:AwardWinningArtist,
     mh:influenced mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 .
 
 mb:7a8dbe84-f4c0-4457-bfa3-edced1f8cde0 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Antônio Carlos Jobim"@en ;
     mh:birthPlace "Tijuca" ;
@@ -45567,7 +45571,7 @@ mb:5b11f4ce-a62d-471e-81fc-a69a8278c7da a mh:AwardWinningArtist,
     schema:deathDate "1994-04-05"^^xsd:date .
 
 mb:5803c81e-739a-4057-9a5c-cf84e55db630 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mh:ProducerArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
@@ -45678,7 +45682,7 @@ mb:5803c81e-739a-4057-9a5c-cf84e55db630 a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:7bc8dd01-35ea-4b18-a64d-3a364dc76a52 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Paco de Lucía"@en ;
@@ -45762,7 +45766,7 @@ mb:7bc8dd01-35ea-4b18-a64d-3a364dc76a52 a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:26fa8b67-6c7f-406c-ad64-a1d070092df2 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mh:ProducerArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
@@ -45820,7 +45824,7 @@ mb:26fa8b67-6c7f-406c-ad64-a1d070092df2 a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:592a3b6d-c42b-4567-99c9-ecf63bd66499 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Chuck Berry"@en ;
@@ -45997,7 +46001,7 @@ mb:6514cffa-fbe0-4965-ad88-e998ead8a82a a mh:AwardWinningArtist,
     rdfs:label "chamber"@en .
 
 mb:5441c29d-3602-4898-b1a1-b77fa23b8e50 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "David Bowie"@en ;
@@ -46138,7 +46142,7 @@ mb:5441c29d-3602-4898-b1a1-b77fa23b8e50 a mh:AwardWinningArtist,
     mh:subgenreOf <http://example.org/music-history/genre/classical> .
 
 mb:f86f1f07-d182-45ce-ae93-ef610880ca72 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Muddy Waters"@en ;
@@ -46272,7 +46276,7 @@ mh:AwardWinningArtist a owl:Class ;
         <http://example.org/music-history/genre/rock> .
 
 mb:05517043-ff78-4988-9c22-88c68588ebb9 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Paul Simon"@en ;
@@ -46441,6 +46445,9 @@ mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 a mh:AwardWinningArtist,
     foaf:name "Kraftwerk"@en ;
     schema:birthDate "1970"^^xsd:gYear .
 
+<http://example.org/music-history/genre/traditional_folk> a mo:Genre ;
+    rdfs:label "traditional folk"@en .
+
 <http://example.org/music-history/genre/world> a mo:Genre ;
     rdfs:label "world"@en .
 
@@ -46450,9 +46457,6 @@ mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 a mh:AwardWinningArtist,
 <http://example.org/music-history/genre/psychedelic_pop> a mo:Genre ;
     rdfs:label "psychedelic pop"@en .
 
-<http://example.org/music-history/genre/traditional_folk> a mo:Genre ;
-    rdfs:label "traditional folk"@en .
-
 <http://example.org/music-history/genre/traditional_pop> a mo:Genre ;
     rdfs:label "traditional pop"@en .
 
@@ -46461,7 +46465,7 @@ mb:5700dcd4-c139-4f31-aa3e-6382b9af9032 a mh:AwardWinningArtist,
     mh:subgenreOf <http://example.org/music-history/genre/classical> .
 
 mb:0383dadf-2a4e-4d10-a46a-e9e041da8eb3 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:MusicGroup ;
     rdfs:label "Queen"@en ;
@@ -46877,7 +46881,7 @@ mb:1f9df192-a621-4f54-8850-2c5373b7eac9 a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:561d854a-6a28-4aa7-8c99-323e6ce46c2a a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Miles Davis"@en ;
@@ -46991,6 +46995,7 @@ mb:561d854a-6a28-4aa7-8c99-323e6ce46c2a a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 a mh:AwardWinningArtist,
+        mh:CollaboratingArtist,
         mh:InternationalCollaborator,
         mh:ProducerArtist,
         mo:MusicArtist,
@@ -47102,7 +47107,7 @@ mb:ff95eb47-41c4-4f7f-a104-cdc30f02e872 a mh:AwardWinningArtist,
         <http://example.org/music-history/genre/rock> .
 
 mb:197450cd-0124-4164-b723-3c22dd16494d a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Frank Sinatra"@en ;
@@ -47197,7 +47202,7 @@ mb:197450cd-0124-4164-b723-3c22dd16494d a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:b625448e-bf4a-41c3-a421-72ad46cdb831 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "John Coltrane"@en ;
@@ -47386,6 +47391,7 @@ mo:Instrument a owl:Class ;
     rdfs:label "dance-pop"@en .
 
 mb:2944824d-4c26-476f-a981-be849081942f a mh:AwardWinningArtist,
+        mh:CollaboratingArtist,
         mh:InternationalCollaborator,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
@@ -47454,7 +47460,7 @@ mb:2944824d-4c26-476f-a981-be849081942f a mh:AwardWinningArtist,
     schema:gender "Female" .
 
 mb:72c536dc-7137-4477-a521-567eeb840fa8 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Bob Dylan"@en ;
@@ -47576,7 +47582,7 @@ mb:72c536dc-7137-4477-a521-567eeb840fa8 a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Michael Jackson"@en ;
@@ -47694,7 +47700,7 @@ mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e a mh:AwardWinningArtist,
     schema:gender "Male" .
 
 mb:022589ac-7177-460d-a178-9976cf70e29f a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Freddie Mercury"@en ;
@@ -47977,7 +47983,7 @@ mb:ad79836d-9849-44df-8789-180bbc823f3c a mo:MusicArtist,
     schema:gender "Male" .
 
 mb:d6ed7887-a401-47a8-893c-34b967444d26 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicGroup ;
     rdfs:label "Ramones"@en ;
     mh:birthPlace "New York" ;
@@ -48073,7 +48079,7 @@ mb:d6ed7887-a401-47a8-893c-34b967444d26 a mh:AwardWinningArtist,
         <http://example.org/music-history/genre/electronic>,
         <http://example.org/music-history/genre/rock> .
 
-mb:01809552-4f87-45b0-afff-2c6f0730a3be a mh:InternationalCollaborator,
+mb:01809552-4f87-45b0-afff-2c6f0730a3be a mh:CollaboratingArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Elvis Presley"@en ;
     mh:alterEgo <http://example.org/music-history/persona/King_of_Rock_and_Roll> ;
@@ -48153,7 +48159,7 @@ mb:01809552-4f87-45b0-afff-2c6f0730a3be a mh:InternationalCollaborator,
     mh:influenced mb:0383dadf-2a4e-4d10-a46a-e9e041da8eb3 .
 
 mb:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:MusicGroup ;
     rdfs:label "The Beatles"@en ;
@@ -48366,7 +48372,7 @@ mb:b972f589-fb0e-474e-b64a-803b0364fa75 a mh:AwardWinningArtist,
     rdfs:label "romantic classical"@en .
 
 mb:2f9ecbed-27be-40e6-abca-6de49d50299e a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Aretha Franklin"@en ;
@@ -48482,7 +48488,7 @@ mb:2f9ecbed-27be-40e6-abca-6de49d50299e a mh:AwardWinningArtist,
     rdfs:label "art pop"@en .
 
 mb:d43d12a1-2dc9-4257-a2fd-0a3bb1081b86 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Johnny Cash"@en ;
@@ -48605,6 +48611,7 @@ mh:MusicalPeriod a owl:Class ;
         <http://example.org/music-history/genre/rock> .
 
 mb:4d5447d7-c61c-4120-ba1b-d7f471d385b9 a mh:AwardWinningArtist,
+        mh:CollaboratingArtist,
         mh:InternationalCollaborator,
         mo:MusicArtist,
         mo:SoloMusicArtist ;
@@ -48730,7 +48737,7 @@ mb:4d5447d7-c61c-4120-ba1b-d7f471d385b9 a mh:AwardWinningArtist,
         mb:9fcc463b-7cfc-4ea4-a65e-bab77fc78e9a,
         mb:b06f5860-ce8f-4d8f-92ee-6c6f165ef8ef,
         mb:b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d,
-        mb:bb85b2d0-7c62-4389-8564-5eeadacd09bb ;
+        mb:cfced5be-f60b-4bc9-9e86-7853c5e0dfdb ;
     foaf:name "John Lennon"@en ;
     schema:birthDate "1940-10-09"^^xsd:date ;
     schema:deathDate "1980-12-08"^^xsd:date ;
@@ -48747,7 +48754,7 @@ mb:4d5447d7-c61c-4120-ba1b-d7f471d385b9 a mh:AwardWinningArtist,
         <http://example.org/music-history/genre/latin> .
 
 mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 a mh:AwardWinningArtist,
-        mh:InternationalCollaborator,
+        mh:CollaboratingArtist,
         mo:SoloMusicArtist ;
     rdfs:label "Dolly Parton"@en ;
     mh:alterEgo schema:Country ;
@@ -48892,24 +48899,25 @@ mb:1d543e07-d0d2-4834-a8db-d65c50c2a856 a mh:AwardWinningArtist,
         <http://example.org/music-history/genre/rock> .
 
 <http://example.org/music-history/country/us> a mh:Country ;
-    rdfs:label "United States"@en .
+    rdfs:label "US"@en,
+        "United States"@en .
 
 <http://example.org/music-history/genre/folk_rock> a mo:Genre ;
     rdfs:label "folk rock"@en ;
     mh:subgenreOf <http://example.org/music-history/genre/jazz>,
         <http://example.org/music-history/genre/rock> .
 
-mh:Venue a owl:Class ;
-    rdfs:label "Venue"@en ;
-    rdfs:comment "A concert venue, festival site, or performance location." .
-
-mh:InternationalCollaborator a owl:Class ;
-    rdfs:label "International Collaborator"@en ;
+mh:CollaboratingArtist a owl:Class ;
+    rdfs:label "Collaborating Artist"@en ;
     rdfs:comment "Defined class: a MusicArtist who has collaborated with at least one other MusicArtist. Inferred by a reasoner from collaboratedWith triples." ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( mo:MusicArtist [ a owl:Restriction ;
                         owl:onProperty mh:collaboratedWith ;
                         owl:someValuesFrom mo:MusicArtist ] ) ] .
+
+mh:Venue a owl:Class ;
+    rdfs:label "Venue"@en ;
+    rdfs:comment "A concert venue, festival site, or performance location." .
 
 <http://example.org/music-history/genre/opera> a mo:Genre ;
     rdfs:label "opera"@en ;

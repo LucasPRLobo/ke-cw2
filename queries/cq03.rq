@@ -1,0 +1,28 @@
+# CQ3: What album was a given track released in?
+# Direction: Release -> Track via mh:hasTrack (NOT mh:trackOn, which does not exist).
+# Example track: "Blowin' in the Wind" by Bob Dylan.
+# A MusicalWork entity also has this label but is filtered by ?track a mo:Track.
+# Note: Labels use Unicode right single quote (U+2019); CONTAINS avoids encoding issues.
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?trackTitle ?albumTitle ?releaseDate
+WHERE {
+    ?track a mo:Track ;
+           rdfs:label ?trackTitle .
+    ?release a mo:Release ;
+             mh:hasTrack ?track ;
+             dc:title ?albumTitle .
+    OPTIONAL { ?release mh:releaseDate ?releaseDate }
+    FILTER(CONTAINS(STR(?trackTitle), "Blowin"))
+}

@@ -1,0 +1,34 @@
+# CQ20: In which countries were artists active who released albums in a given genre
+# during a given decade?
+# Genre is on artists (mo:genre), NOT on releases.
+# releaseDate is a plain string; decade extraction via SUBSTR works on all formats:
+# "1972" (year-only), "1975-06-14" (full date), "1977-01" (year-month).
+# Country labels are ISO codes: "GB", "US", "DE", etc.
+# ?release a mo:Release filters noise from mh:released.
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?artistName ?countryLabel ?albumTitle ?releaseDate
+WHERE {
+    ?artist mo:genre ?genre ;
+            mh:released ?release ;
+            mh:countryOfOrigin ?country ;
+            rdfs:label ?artistName .
+    ?genre rdfs:label ?genreLabel . FILTER(STR(?genreLabel) = "rock")
+    ?release a mo:Release ;
+             dc:title ?albumTitle ;
+             mh:releaseDate ?releaseDate .
+    ?country rdfs:label ?countryLabel .
+    FILTER(SUBSTR(STR(?releaseDate), 1, 3) = "197")
+}
+ORDER BY ?countryLabel ?artistName ?releaseDate

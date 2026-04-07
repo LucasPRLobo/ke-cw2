@@ -1,0 +1,28 @@
+# CQ11: Which award-winning artists were signed to a given record label?
+# Label class: mh:RecordLabel (NOT mo:Label). Award class: mh:Award (NOT mh:MusicAward).
+# Columbia Records has several award-winning artists: Bob Dylan, Quincy Jones, etc.
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?artistName (COUNT(DISTINCT ?award) AS ?awardCount)
+WHERE {
+    ?artist rdfs:label ?artistName ;
+            mh:wonAward ?award ;
+            mh:signedTo ?label .
+    ?award a mh:Award .
+    ?label a mh:RecordLabel ;
+           rdfs:label ?labelName .
+    FILTER(STR(?labelName) = "Columbia Records")
+}
+GROUP BY ?artistName
+ORDER BY DESC(?awardCount)

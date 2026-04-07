@@ -853,6 +853,34 @@ def classify_multinational_bands(g):
     return classified
 
 
+def classify_international_collaborators(g):
+    """Auto-classify artists who collaborated with artists from different countries.
+
+    Uses the same hybrid modelling pattern as MultinationalBand: the class is
+    declared in the ontology, but membership is computed via SPARQL because
+    OWL2 cannot express cross-individual property value comparisons.
+    """
+    query = """
+    PREFIX mh: <http://example.org/music-history/>
+
+    SELECT DISTINCT ?artist WHERE {
+        ?artist mh:collaboratedWith ?other .
+        ?artist mh:countryOfOrigin ?c1 .
+        ?other mh:countryOfOrigin ?c2 .
+        FILTER(?c1 != ?c2)
+    }
+    """
+    results = list(g.query(query))
+    classified = 0
+    for row in results:
+        if (row.artist, RDF.type, MH.InternationalCollaborator) not in g:
+            g.add((row.artist, RDF.type, MH.InternationalCollaborator))
+            classified += 1
+
+    print(f"  [CLASSIFY] {classified} artists classified as InternationalCollaborator")
+    return classified
+
+
 def validate_and_clean(g):
     """Post-processing validation to catch and fix common data quality issues.
 
@@ -1069,6 +1097,53 @@ def validate_and_clean(g):
                 g.remove(labels[0])
                 g.add((s, RDFS.label, Literal(canonical, lang="en")))
 
+    # 21. Remove MusicArtist type from entities also typed as Release/Track/MusicalWork
+    #     These are entity linking errors where album/track titles matched artist names
+    work_types = {MO.Release, MO.Track, MH.MusicalWork, MH.CoverRecording}
+    for s in list(set(s for s, _, _ in g.triples((None, RDF.type, MO.MusicArtist)))):
+        s_types = set(t for _, _, t in g.triples((s, RDF.type, None)))
+        if s_types & work_types:
+            g.remove((s, RDF.type, MO.MusicArtist))
+            if (s, RDF.type, MH.CollaboratingArtist) in g:
+                g.remove((s, RDF.type, MH.CollaboratingArtist))
+            removed += 1
+
+    # 22. Remove mh:artist/ entities whose labels match existing track/composition titles
+    #     These are LLM extraction errors where song names were resolved as new artist entities
+    track_labels = set()
+    for s, _, _ in g.triples((None, RDF.type, MO.Track)):
+        for _, _, l in g.triples((s, RDFS.label, None)):
+            track_labels.add(str(l).lower())
+    comp_labels = set()
+    for s, _, _ in g.triples((None, RDF.type, MH.MusicalWork)):
+        for _, _, l in g.triples((s, RDFS.label, None)):
+            comp_labels.add(str(l).lower())
+    song_labels = track_labels | comp_labels
+
+    mh_artist_prefix = "http://example.org/music-history/artist/"
+    for s in list(set(s for s, _, _ in g.triples((None, RDF.type, MO.MusicArtist)))):
+        if not str(s).startswith(mh_artist_prefix):
+            continue
+        s_labels = [str(l).lower() for _, _, l in g.triples((s, RDFS.label, None))]
+        # Check if label matches a known track/composition title
+        if any(l in song_labels for l in s_labels):
+            for triple in list(g.triples((s, None, None))):
+                g.remove(triple)
+            for triple in list(g.triples((None, None, s))):
+                g.remove(triple)
+            removed += 1
+            continue
+        # Also remove mh:artist/ entities with no real artist relationships
+        # (only type + label + genre) — likely song titles from failed entity linking
+        all_triples = list(g.triples((s, None, None)))
+        non_metadata = [t for t in all_triples
+                       if t[1] not in (RDF.type, RDFS.label, MO.genre)]
+        as_object = list(g.triples((None, None, s)))
+        if not non_metadata and not as_object:
+            for triple in list(g.triples((s, None, None))):
+                g.remove(triple)
+            removed += 1
+
     print(f"  [VALIDATE] Removed {removed} invalid triples, fixed {fixed}")
     return removed
 
@@ -1082,7 +1157,7 @@ def assert_defined_class_instances(g):
 
     Defined classes:
     - AwardWinningArtist: MusicArtist AND wonAward some MusicAward
-    - InternationalCollaborator: MusicArtist AND collaboratedWith some MusicArtist
+    - CollaboratingArtist: MusicArtist AND collaboratedWith some MusicArtist
     - ProducerArtist: MusicArtist AND produced some work
     """
     asserted = 0
@@ -1102,7 +1177,7 @@ def assert_defined_class_instances(g):
         g.add((row.artist, RDF.type, MH.AwardWinningArtist))
         asserted += 1
 
-    # InternationalCollaborator
+    # CollaboratingArtist
     query_collab = """
     PREFIX mo: <http://purl.org/ontology/mo/>
     PREFIX mh: <http://example.org/music-history/>
@@ -1114,7 +1189,7 @@ def assert_defined_class_instances(g):
     }
     """
     for row in g.query(query_collab):
-        g.add((row.artist, RDF.type, MH.InternationalCollaborator))
+        g.add((row.artist, RDF.type, MH.CollaboratingArtist))
         asserted += 1
 
     # ProducerArtist — check produced OR producedBy (inverse)

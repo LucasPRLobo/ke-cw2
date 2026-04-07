@@ -1,0 +1,27 @@
+# CQ10: Which musical works were composed in a given era?
+# mh:composed has noise (some triples point to albums, genres, instruments, countries).
+# MUST filter with ?work a mh:MusicalWork to exclude noise.
+# compositionDate is a plain string. Era = 1960s decade.
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?artistName ?workTitle ?date
+WHERE {
+    ?artist mh:composed ?work ;
+            rdfs:label ?artistName .
+    ?work a mh:MusicalWork ;
+          rdfs:label ?workTitle ;
+          mh:compositionDate ?date .
+    FILTER(SUBSTR(STR(?date), 1, 4) >= "1960" && SUBSTR(STR(?date), 1, 4) <= "1969")
+}
+ORDER BY ?date ?artistName

@@ -1,0 +1,30 @@
+# CQ16: Which bands have members originating from more than one country?
+# Tests the MultinationalBand concept (defined class exists in ontology but has 0 instances).
+# Uses mo:MusicGroup (NOT schema:MusicGroup -- 0 instances of schema:MusicGroup exist).
+# Many members lack countryOfOrigin data, so results may be sparse or empty.
+# An empty result is a valid finding about data limitations.
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?bandName (COUNT(DISTINCT ?country) AS ?countryCount)
+       (GROUP_CONCAT(DISTINCT ?countryLabel; separator=", ") AS ?countries)
+WHERE {
+    ?member mo:member_of ?band .
+    ?band a mo:MusicGroup ;
+          rdfs:label ?bandName .
+    ?member mh:countryOfOrigin ?country .
+    ?country rdfs:label ?countryLabel .
+}
+GROUP BY ?band ?bandName
+HAVING(COUNT(DISTINCT ?country) > 1)
+ORDER BY DESC(?countryCount)

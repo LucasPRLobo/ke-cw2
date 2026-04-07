@@ -102,8 +102,7 @@ SELECT ?albumTitle ?producerName WHERE {
 ORDER BY ?producerName ?albumTitle
 """)
 
-# CQ5: Which performers played in a given track?
-# Using member_of as proxy — shows who plays in which band
+# CQ5: Which performers played in a given band/group?
 run_query(5, "Which performers played in a given band/group?", """
 PREFIX mo: <http://purl.org/ontology/mo/>
 PREFIX mh: <http://example.org/music-history/>

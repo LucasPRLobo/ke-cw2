@@ -1,0 +1,32 @@
+# CQ4: Who produced a given album?
+# LIMITATION: Only ~4 mh:produced + mh:producedBy triples exist in the entire dataset.
+# Quincy Jones mh:produced 3 objects; Beatles mh:producedBy George Harrison.
+# Uses UNION to query both directions (mh:produced and mh:producedBy are owl:inverseOf).
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?producerName ?workTitle
+WHERE {
+    {
+        ?producer mh:produced ?work .
+        ?producer rdfs:label ?producerName .
+        ?work rdfs:label ?workTitle .
+    }
+    UNION
+    {
+        ?work mh:producedBy ?producer .
+        ?producer rdfs:label ?producerName .
+        ?work rdfs:label ?workTitle .
+    }
+}
+ORDER BY ?producerName

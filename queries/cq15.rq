@@ -1,0 +1,26 @@
+# CQ15: Which instruments appear in tracks of a given genre?
+# Links artists' genres to their instruments via the artist entity.
+# Genre labels are lowercase: "jazz", "rock", etc.
+
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX mb:    <http://musicbrainz.org/artist/>
+PREFIX mb_recording: <http://musicbrainz.org/recording/>
+PREFIX mh:    <http://example.org/music-history/>
+PREFIX mo:    <http://purl.org/ontology/mo/>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?instrumentLabel (COUNT(DISTINCT ?artist) AS ?artistCount)
+WHERE {
+    ?artist mo:genre ?genre ;
+            mh:playsInstrument ?instrument .
+    ?genre rdfs:label ?genreLabel .
+    ?instrument rdfs:label ?instrumentLabel .
+    FILTER(STR(?genreLabel) = "jazz")
+}
+GROUP BY ?instrumentLabel
+ORDER BY DESC(?artistCount)
