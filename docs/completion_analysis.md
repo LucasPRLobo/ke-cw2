@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document analyses the completeness of our Music History knowledge graph (42,365 triples, 58 primary artists) and describes the strategy and results of using RAG to resolve identified gaps.
+This document analyses the completeness of our Music History knowledge graph (42,554 triples, 58 primary artists) and describes the strategy and results of using RAG to resolve identified gaps.
 
 We apply the completeness metrics from Zaveri et al. (2015), as taught in Week 10:
 - **CM1 — Schema completeness**: classes/properties represented vs total needed
@@ -258,7 +258,7 @@ The ingestion script is integrated into the main pipeline (`build_kg.py`, Step 1
 
 **Impact on defined classes:** The new collaboration data triggered additional CollaboratingArtist inferences, raising defined class instances from 74 to 117 (+58%).
 
-**KG size:** 40,742 triples (pre-enrichment) → 42,365 triples (post-RAG + full LLM extraction), a 3.9% increase with targeted, high-quality additions.
+**KG size:** 40,742 triples (pre-enrichment) → 42,554 triples (post-RAG + full LLM extraction), a 3.9% increase with targeted, high-quality additions.
 
 ### RAG Results Summary
 
@@ -282,7 +282,7 @@ The RAG approach ensures the LLM's response is anchored to entities that already
 | **CM3 — Population** | 58 primary | Same | Population unchanged; data density increased for existing entities |
 | **CM4 — Interlinking** | Strong | Strong | MBIDs maintained; 25 new cross-entity collaboration links added |
 | **Defined classes** | 74 | 188 | +154% — new collaborations (124 CollaboratingArtist) + producers (13 ProducerArtist) |
-| **Total triples** | 40,742 | 42,365 | +494 RAG + ~1,100 LLM extraction triples |
+| **Total triples** | 40,742 | 42,554 | +494 RAG + ~1,100 LLM extraction triples |
 
 ---
 
@@ -325,7 +325,7 @@ The domain expert review surfaced an important insight about LLM-based KG constr
 
 The iterative cycle of **build → review → trace root cause → fix structurally → rebuild** proved more effective than either pure automation or pure manual curation:
 - Pure automation (no review): would leave 76 film genres, 31 non-music awards, and 19 range violations in the KG
-- Pure manual curation: would not scale to 42,365 triples across 58 artists
+- Pure manual curation: would not scale to 42,554 triples across 58 artists
 - Hybrid approach: automated pipeline + domain expert review + structural fixes = clean KG with traceable corrections
 
 This aligns with the RAG finding from the evaluation (§6.6): RAG is most valuable as a **data quality auditor**, not just a gap-filler. The domain expert review served the same role at a higher level — identifying systematic issues that pattern-based validation and RAG prompts couldn't catch because they require holistic domain understanding.

@@ -25,7 +25,7 @@
 
 \section{Overview}
 
-This document analyses the completeness of our Music History knowledge graph (42,551 triples, 58 primary artists) and describes the strategy and results of using RAG to resolve identified gaps.
+This document analyses the completeness of our Music History knowledge graph (42,554 triples, 58 primary artists) and describes the strategy and results of using RAG to resolve identified gaps.
 
 We apply the completeness metrics from Zaveri et al.\ (2015), as taught in Week 10: \textbf{CM1} (schema completeness), \textbf{CM2} (property completeness), \textbf{CM3} (population completeness), and \textbf{CM4} (interlinking completeness).
 
@@ -214,8 +214,8 @@ CM2 --- All artists & Low & Improved & +216 triples from extended enrichment \\
 CM3 --- Population & 58 primary & Same & Data density increased \\
 CM4 --- Interlinking & Strong & Stronger & Umm Kulthum cross-refs fixed \\
 Text extraction & 16/58 (28\%) & 58/58 (100\%) & 897 triples via LLM API \\
-Defined classes & 74 & 190 & +157\% \\
-Total triples & $\sim$38,000 & 42,551 & +12\% \\
+Defined classes & 74 & 191 & +158\% \\
+Total triples & $\sim$38,000 & 42,554 & +12\% \\
 \bottomrule
 \end{tabular}
 \caption{Completeness metrics before and after all completion activities.}
@@ -231,7 +231,7 @@ The completion process revealed several insights about automated KG construction
 
 The most unexpected value of RAG was not gap-filling but \textbf{data quality auditing}. Every KG vs Plain LLM comparison (P18--P23) surfaced issues that were invisible to both the pipeline developer and automated validation. For example, P21 revealed that ``interview'' had leaked into the genre taxonomy from MusicBrainz tags, P20 found that ``voice'' and ``lead vocals'' were duplicated as separate instruments, and P22 identified that ``classic rock'' is a radio format, not a musical genre.
 
-These findings triggered structural pipeline fixes (genre blacklist, instrument normalisation), which in turn improved the KG for all 58 artists, not just the ones tested. The iterative cycle of \textbf{build $\rightarrow$ evaluate with RAG $\rightarrow$ identify issues $\rightarrow$ fix pipeline $\rightarrow$ rebuild} proved more effective than either pure automation (which would leave the noise undetected) or pure manual curation (which would not scale to 42,551 triples).
+These findings triggered structural pipeline fixes (genre blacklist, instrument normalisation), which in turn improved the KG for all 58 artists, not just the ones tested. The iterative cycle of \textbf{build $\rightarrow$ evaluate with RAG $\rightarrow$ identify issues $\rightarrow$ fix pipeline $\rightarrow$ rebuild} proved more effective than either pure automation (which would leave the noise undetected) or pure manual curation (which would not scale to 42,554 triples).
 
 \subsection{LLM limitations: external identifiers and non-Latin scripts}
 
