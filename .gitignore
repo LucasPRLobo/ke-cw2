@@ -3,7 +3,8 @@ __pycache__/
 .vscode/                                                                                                                                                                                                 
 /data/
 class_content/                                                                                                                                                                                           
-*.pdf                                                     
+*.pdf
+coursework*.pdf
 venv/                                                                                                                                                                                                    
 *.egg-info/                                               
 .env
@@ -17,3 +18,10 @@ docs/tools_and_techniques.md
 docs/progress.md
 docs/group_message_draft.md
 docs/meeting_template.md
+
+# Old experiment/test files
+ontology/experiment5_sample.ttl
+ontology/ontology_header.ttl
+ontology/test_mapping.ttl
+pipeline/test_gcn.py
+.claude/

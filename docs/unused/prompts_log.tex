@@ -1,0 +1,426 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{mdframed}
+
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{gray!10},
+}
+
+\newmdenv[
+  linecolor=blue!40,
+  backgroundcolor=blue!5,
+  linewidth=1pt,
+  roundcorner=3pt,
+  innertopmargin=6pt,
+  innerbottommargin=6pt,
+]{promptbox}
+
+\newmdenv[
+  linecolor=green!40,
+  backgroundcolor=green!5,
+  linewidth=1pt,
+  roundcorner=3pt,
+  innertopmargin=6pt,
+  innerbottommargin=6pt,
+]{responsebox}
+
+\title{Prompts Log: Knowledge Engineering Tasks}
+\author{Lucas Perez Reis Lobo, Yutaka Shibata, Sofia Davis, \\ William Caulton, Mert Yerlikaya, Davyd Shtepa \\ \small Knowledge Engineering CW2 --- Music History \& Heritage KG}
+\date{April 2026}
+
+\begin{document}
+\maketitle
+
+\section{Overview}
+
+This document records all 43 prompts used throughout the project. For each prompt, we document: the knowledge engineering task it belongs to, the prompting strategy chosen and why, the actual prompt text, representative model responses, and the concrete impact on the KG. As required by the spec, this covers prompts for ontology discovery (P1), data source discovery (P2, P7), competency question generation with design justification (P3--P6), text-to-triple mapping (P8--P33), and KG completion via RAG (P14--P43).
+
+All prompts used Claude (Opus 4.6) or Google Gemini (free tier).
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llr}
+\toprule
+\textbf{KE Task Category} & \textbf{Prompts} & \textbf{Count} \\
+\midrule
+Ontology and data source discovery & P1, P2, P7 & 3 \\
+Competency question generation & P3, P4, P5, P6 & 4 \\
+LLM text extraction (triple mapping) & P8--P13, P24--P33 & 20 \\
+RAG gap-filling (early) & P14--P17 & 4 \\
+KG vs Plain LLM evaluation & P18--P23 & 6 \\
+RAG completion (10 gaps) & P34--P43 & 10 \\
+\midrule
+\textbf{Total} & & \textbf{43} \\
+\bottomrule
+\end{tabular}
+\caption{Prompt distribution by KE task category.}
+\end{table}
+
+%--------------------------------------------------------------
+\section{Ontology and Data Source Discovery (P1, P2, P7)}
+%--------------------------------------------------------------
+
+\subsection{P1: Ontology Research}
+
+\textbf{KE task:} Existing ontology discovery for extension.
+
+\textbf{Strategy:} Open-ended research query. We chose an unconstrained prompt because at this early stage we needed breadth rather than depth. The constraint ``at least 2 that can be extended with subclasses and subproperties'' ensured the response focused on extensible ontologies rather than closed vocabularies.
+
+\begin{promptbox}
+``Research existing ontologies related to music history and arts/cultural heritage that could be used in a knowledge graph project. I need at least 2 existing ontologies that can be extended with subclasses and subproperties.''
+\end{promptbox}
+
+\begin{responsebox}
+\textbf{Response (excerpt):} Identified 4 candidates: (1) \textbf{Music Ontology (MO)} --- domain-specific, covers artists, works, recordings, genres, instruments; extensible via subclasses like CoverRecording. (2) \textbf{CIDOC-CRM} --- cultural heritage standard, very formal but abstract. (3) \textbf{DOREMUS} --- performing arts, narrower scope. (4) \textbf{Schema.org} --- general structured data with MusicGroup, Award, Country classes. Recommended MO + Schema.org for complementary coverage (MO for music-specific, Schema.org for biographical/award data).
+\end{responsebox}
+
+\textbf{Impact on development:} The team selected Music Ontology and Schema.org based on this analysis. CIDOC-CRM was initially considered but later dropped because its event-centric modelling was overly abstract for our domain. The specific extension suggestions (\texttt{CoverRecording subClassOf mo:Signal}, \texttt{MultinationalBand subClassOf schema:MusicGroup}) were directly implemented in the ontology header.
+
+\subsection{P2: Data Source Research}
+
+\textbf{KE task:} Data source discovery for structured and textual sources.
+
+\textbf{Strategy:} Directed research query listing known candidates. We included specific API names to anchor the search rather than asking open-endedly, because we had already identified likely candidates from the course labs and needed evaluation rather than discovery.
+
+\begin{promptbox}
+``Research data sources for a music history knowledge graph. I need at least 1 textual source and 1 structured source. Search for: MusicBrainz API, Spotify API, Wikidata SPARQL, Discogs API, Last.fm API, Wikipedia, BBC Music.''
+\end{promptbox}
+
+\begin{responsebox}
+\textbf{Response (excerpt):} Recommended: (1) \textbf{MusicBrainz} --- structured JSON, free, richest relationship data, UUIDs for every entity. (2) \textbf{Wikipedia} --- textual, 85K+ chars per artist, richest narrative source. (3) \textbf{Discogs} --- structured, unique genre/style hierarchy for subgenreOf modelling. Rejected: Spotify (requires OAuth, limited metadata), Last.fm (registration blocked, HTTP 406).
+\end{responsebox}
+
+\textbf{Impact:} Pipeline architecture was designed around MusicBrainz as the hub with cross-referencing to Discogs and Wikipedia. The rejection of Spotify and Last.fm saved development time by eliminating sources that would have required authentication or were inaccessible.
+
+\subsection{P7: Source Evaluation (post-experimentation)}
+
+\textbf{KE task:} Re-evaluating source selection after 6 experiments.
+
+\textbf{Strategy:} After completing initial experiments, we needed to decide whether to add more sources. We tested coverage across 5 diverse artists (Bowie, Miles Davis, Beethoven, Jobim, Fela Kuti) spanning rock, jazz, classical, Brazilian, and African music to ensure non-Western coverage.
+
+\textbf{Impact:} Added Wikidata SPARQL as a 3rd structured source. This was significant because Wikidata provides awards, instruments, influences, and labels as structured data, eliminating the need for LLM text extraction of these properties. Rejected DBpedia (redundant with Wikidata, noisy template parameters like \texttt{b: no}, \texttt{fixAttempted: yes}) and Open Opus (classical-only, returns ``NOT FOUND'' for non-classical artists).
+
+%--------------------------------------------------------------
+\section{Competency Question Generation (P3--P6)}
+%--------------------------------------------------------------
+
+The spec requires 10 manually crafted CQs augmented by 10 LLM-generated CQs, with justification of prompt design.
+
+\subsection{P3--P4: Initial attempts}
+
+\textbf{KE task:} Generating 10 LLM CQs to complement 10 manual CQs.
+
+\textbf{Strategy (P3):} Role-based prompting. We assigned the LLM dual expertise (knowledge engineer + music historian) to produce questions that are both technically queryable via SPARQL and historically meaningful. Without the domain role, the LLM tends to produce generic database queries; without the KE role, it produces questions that can't be implemented as SPARQL.
+
+\textbf{Strategy (P4):} Context-setting and planning. Before generating the final CQs, we planned the prompting approach by reviewing techniques from prior coursework (role-based, few-shot, chain-of-thought, constrained output) and incorporating entity model decisions from the team meeting. This meta-prompt produced the template used in P5.
+
+\subsection{P5: Final CQ Generation (key prompt)}
+
+\textbf{KE task:} Generating the final 10 LLM-augmented CQs.
+
+\textbf{Strategy:} Combined three techniques for maximum control over output quality:
+\begin{itemize}[nosep]
+  \item \textbf{Role-based}: dual expertise ensures domain relevance and SPARQL implementability.
+  \item \textbf{Few-shot}: 3 example CQs with explicit relationship paths set the expected complexity and format.
+  \item \textbf{Constrained output}: explicit requirements (``cover missing relationships'', ``at least 3 require 3+ entity joins'', ``include relationship path for each'') prevent the LLM from generating shallow questions.
+\end{itemize}
+
+\textbf{Why these techniques:} Role-based alone produces relevant but unstructured questions. Few-shot alone risks the LLM copying examples. Constrained output alone produces formulaic questions. The combination ensures relevant, well-formatted, non-duplicative questions at the right complexity level.
+
+\begin{promptbox}
+\textbf{Prompt (excerpt):} ``You are a knowledge engineer and music historian expert. [...] Generate 10 CQs that complement these 10 manual CQs: [list]. Cover relationships the manual CQs miss (especially: record labels, collaborations, influence chains, geographic spread, temporal evolution). At least 3 should require 3+ entity joins. Include the relationship path for each CQ. [3 example CQs with paths]''
+\end{promptbox}
+
+\begin{responsebox}
+\textbf{Response (10 CQs generated, excerpt):}
+\begin{enumerate}[nosep]
+  \item Which award-winning artists were signed to a given record label? (Artist $\rightarrow$ wonAward + signedTo)
+  \item Which artists that influenced a given artist share a common genre? (Artist $\rightarrow$ influencedBy + genre intersection)
+  \item Which record labels have albums in more than 3 distinct genres? (Label $\rightarrow$ genre COUNT DISTINCT + HAVING)
+  \item[$\vdots$]
+  \item Which countries had artists releasing albums in a genre per decade? (4-entity join: Genre + Decade + Country + Artist)
+\end{enumerate}
+\end{responsebox}
+
+\textbf{Impact:} All 10 CQs were implemented as SPARQL queries that pass against the final KG. 8 of 10 require 3+ entity joins. Coverage gaps filled: record labels (CQ11, 13, 17), collaborations (CQ14, 19), influences (CQ12, 18), geographic spread (CQ16, 20).
+
+\subsection{P6: Iterative Refinement}
+
+\textbf{KE task:} Fixing issues in the P5 output.
+
+\textbf{Strategy:} Chain-of-thought + iterative refinement. We identified 4 specific issues and asked the LLM to fix them one by one rather than regenerating from scratch.
+
+\textbf{Why this technique:} Regenerating all 10 CQs would lose the 6-7 good ones. Iterative refinement preserves working output while targeting specific weaknesses. The ``think step by step'' directive encourages the LLM to evaluate each CQ individually rather than batch-replacing.
+
+\begin{promptbox}
+\textbf{Prompt (excerpt):} ``Review the 10 CQs. Think step by step. ISSUES: (1) CQs 1--3 copy my few-shot examples. (2) Vague aggregations (``most active'') are hard for SPARQL. (3) None test the MusicalWork$\rightarrow$Recording distinction. (4) Verify each is unique and SPARQL-implementable.''
+\end{promptbox}
+
+\begin{responsebox}
+\textbf{Response:} CQs 1--3 replaced with genuinely new questions. Vague aggregations rewritten as concrete COUNT + HAVING patterns. CQ18 added to test the composition$\rightarrow$recording distinction (a 4-entity join: Composer $\rightarrow$ Composition $\rightarrow$ Recording $\rightarrow$ Country).
+\end{responsebox}
+
+\textbf{Impact:} The few-shot copying issue (P5) demonstrated a known limitation: few-shot examples set format expectations but can also constrain creativity. The iterative fix (P6) was more effective than re-prompting because it preserved the 7 strong CQs. This informed our approach for later batches (P24--P33), where we used targeted emphasis (``Focus ESPECIALLY on'') instead of few-shot examples.
+
+%--------------------------------------------------------------
+\section{LLM Text Extraction (P8--P13, P24--P33)}
+%--------------------------------------------------------------
+
+\textbf{KE task:} Extracting structured triples from unstructured Wikipedia text (Week 7 technique).
+
+\subsection{Prompt Template and Strategy}
+
+\textbf{Strategy:} Role-based + constrained output with a controlled predicate vocabulary and explicit deduplication instructions.
+
+\textbf{Why this strategy:}
+\begin{itemize}[nosep]
+  \item \textbf{Controlled predicates} (15 allowed predicates listed explicitly): without this, the LLM invents ad-hoc predicates (``bornIn'', ``diedAt'', ``knownFor'') that don't map to our ontology. By constraining to our exact property names, the output maps directly to RDF triples.
+  \item \textbf{``Do NOT extract'' list}: prevents duplication with Wikidata structured data (awards, instruments, labels, country). Without this, the LLM extracts birth dates, awards, and other facts already available from Wikidata, creating redundancy and potential conflicts.
+  \item \textbf{JSON array output}: enables programmatic parsing and ingestion via the entity linking pipeline. Free-text responses would require additional NLP processing.
+\end{itemize}
+
+\begin{promptbox}
+\textbf{Prompt template:} ``You are a knowledge engineer and music historian. Extract structured triples from this Wikipedia article about [ARTIST].
+
+Use ONLY these predicates: released, composed, collaboratedWith, memberOf, hasMember, hasGenre, alterEgo, albumGrouping, producedBy, produced, performedAt, influencedBy, hasMusicalPeriod, pioneerOf, founded.
+
+Do NOT extract: birth/death dates, country, gender, awards, instruments, record labels.
+
+Return ONLY a JSON array: [\{``subject'': ..., ``predicate'': ..., ``object'': ...\}]
+
+Article text: [WIKIPEDIA INTRO]''
+\end{promptbox}
+
+\subsection{P8: David Bowie (first extraction)}
+
+\begin{responsebox}
+\textbf{Response (24 triples, excerpt):}
+\begin{lstlisting}
+[
+  {"subject": "David Bowie", "predicate": "alterEgo",
+   "object": "Ziggy Stardust"},
+  {"subject": "David Bowie", "predicate": "hasGenre",
+   "object": "plastic soul"},
+  {"subject": "Heroes (1977)", "predicate": "albumGrouping",
+   "object": "Berlin Trilogy"},
+  {"subject": "David Bowie", "predicate": "collaboratedWith",
+   "object": "Brian Eno"}
+]
+\end{lstlisting}
+\end{responsebox}
+
+\textbf{Impact:} ``Ziggy Stardust'' (alter ego), ``plastic soul'' (narrative genre), and ``Berlin Trilogy'' (album grouping) are facts that exist \textit{only} in Wikipedia text. No structured API provides them. This validated the text extraction approach as complementary to structured sources, not redundant.
+
+\subsection{Batch Adaptations and Results}
+
+The prompt template evolved across 3 batches based on findings:
+
+\textbf{Batch 1 (P8--P13, 6 artists):} Baseline template. 103 triples. Established that the approach works across genres (rock, classical, jazz, afrobeat, bossa nova).
+
+\textbf{Batch 2 (P24--P28, 5 artists):} Added \texttt{pioneerOf}, \texttt{hasMusicalPeriod}, \texttt{founded}, \texttt{performedAt} predicates to target sparse properties identified in the KG audit. These predicates were absent from Batch 1 because the original template didn't include them. 93 triples.
+
+\textbf{Batch 3 (P29--P33, 5 artists):} Added targeted emphasis directive: ``Focus ESPECIALLY on: producedBy, albumGrouping, founded.'' This was more effective than few-shot examples (which caused copying in P5) because it guides attention without constraining the output format. 102 triples. Impact: \texttt{producedBy} 1$\rightarrow$15, \texttt{albumGrouping} 3$\rightarrow$9, \texttt{ProducerArtist} defined class 2$\rightarrow$7 instances.
+
+\textbf{API automation:} The same template was integrated into the pipeline via Google Gemini API (\texttt{llm\_extraction.py}), achieving 58/58 artist coverage (897 total triples).
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llr}
+\toprule
+\textbf{Batch} & \textbf{Strategy evolution} & \textbf{Triples} \\
+\midrule
+Batch 1 (P8--P13) & Baseline template, 8 predicates & 103 \\
+Batch 2 (P24--P28) & +4 predicates for sparse properties & 93 \\
+Batch 3 (P29--P33) & +targeted emphasis directive & 102 \\
+API (Gemini) & Same template, automated & 599 \\
+\midrule
+\textbf{Total} & & \textbf{897} \\
+\bottomrule
+\end{tabular}
+\caption{Text extraction evolution. 44\% of triples use predicates no structured API provides.}
+\end{table}
+
+%--------------------------------------------------------------
+\section{RAG Gap-Filling (P14--P17)}
+%--------------------------------------------------------------
+
+\textbf{KE task:} Using the KG as a SPARQL-based retrieval source for LLM prompting (Week 11).
+
+\textbf{Strategy:} RAG with constrained JSON output. The key difference from plain prompting is that the LLM receives \textit{our specific KG data} as context, grounding its response in entities that actually exist in our graph.
+
+\textbf{Why RAG over plain prompting:} A plain prompt (``Who produced Michael Jackson's albums?'') would generate answers from parametric knowledge, which may include album titles not in our KG. The RAG approach retrieves our actual album list via SPARQL and asks ``who produced \textit{these specific albums}?'', ensuring the response maps to existing entities.
+
+\subsection{P14: Producer Gap Resolution}
+
+\begin{promptbox}
+\textbf{SPARQL retrieval:}
+\begin{lstlisting}
+SELECT ?albumTitle ?releaseDate WHERE {
+    ?artist rdfs:label "Michael Jackson"@en .
+    ?artist mh:released ?album .
+    ?album dc:title ?albumTitle .
+    OPTIONAL { ?album mh:releaseDate ?releaseDate }
+}
+\end{lstlisting}
+
+\textbf{RAG prompt:} ``Our KG contains Michael Jackson's discography but is missing producer information. Context from our KG: [8 albums with dates]. Our KG already knows Quincy Jones produced Off the Wall, Thriller, and Bad. For each album, who was the primary producer? Return as JSON.''
+\end{promptbox}
+
+\begin{responsebox}
+\textbf{Response:} Confirmed Quincy Jones for 3 albums (matching existing KG). Added Hal Davis for Got to Be There and Ben (high confidence). \textbf{Flagged 3 as uncertain:} Dangerous (``multiple producers --- MJ, Teddy Riley, Bill Bottrell''), HIStory (``collaborative''), Invincible (``fragmented credits''). Recommended cross-referencing before ingestion.
+\end{responsebox}
+
+\textbf{Impact:} The LLM's self-assessment of confidence was unexpected and valuable. It distinguished between high-confidence facts (Hal Davis, well-documented Motown production) and uncertain ones (albums with distributed production credits). Only the 2 high-confidence triples were ingested. This informed our approach for all subsequent RAG prompts (P34--P43), where we always asked for confidence levels.
+
+\subsection{P16--P17: Country and Genre Gap-Filling}
+
+\textbf{P16:} Retrieved 15 artists without \texttt{countryOfOrigin} via SPARQL. LLM resolved 14/15, correctly flagging ``Apple'' as a record label (not a country-bearing entity). This demonstrated that RAG context helps the LLM make entity-type distinctions.
+
+\textbf{P17:} Retrieved 10 influence-chain artists without genres. The KG context included the genres of artists they influenced, providing indirect evidence. The LLM used both this contextual signal and parametric knowledge to assign genres. This is a genuine RAG advantage: the retrieval step provides information the LLM wouldn't have in a plain prompt.
+
+%--------------------------------------------------------------
+\section{KG vs Plain LLM Evaluation (P18--P23)}
+%--------------------------------------------------------------
+
+\textbf{KE task:} Comparing KG answer quality with plain LLM prompts (spec requirement).
+
+\textbf{Strategy:} Paired comparison. Each question was asked twice: (1) as a plain zero-shot prompt, (2) as a RAG prompt with SPARQL-retrieved KG results. This directly addresses the spec requirement to evaluate ``how does the quality of its answers compare to simple prompts against an LLM.''
+
+\textbf{Why paired comparison:} Single prompts don't reveal whether the KG adds value. By comparing the same question with and without KG context, we can isolate the RAG contribution: what does the KG-grounded answer find that the plain answer misses?
+
+\subsection{P18: Quincy Jones Awards}
+
+\begin{promptbox}
+\textbf{Plain:} ``How many awards has Quincy Jones won?''
+
+\textbf{RAG:} ``Our KG shows Quincy Jones has 34 awards: [list from SPARQL]. Are these results complete and accurate?''
+\end{promptbox}
+
+\begin{responsebox}
+\textbf{Plain LLM:} ``28 Grammy Awards, 1 Emmy, 1 Tony, 2 honorary Oscars.'' Confident, detailed, well-structured.
+
+\textbf{RAG LLM:} Critically evaluated the 34-award claim. Identified a discrepancy (28 competitive + other awards $\approx$ 30, not 34). \textbf{Refused to fabricate missing awards}: ``Critical warning for KG integrity: the number 34 is plausible but not verifiable. Inserting this value as `true' without external cross-referencing would introduce untracked uncertainty into the graph.''
+\end{responsebox}
+
+\textbf{Impact:} This was the most important evaluation finding. RAG discovered a \textit{data quality issue} in our KG that the plain LLM could never catch because it doesn't know what our KG claims. The 34-award count from Wikidata may include both competitive and honorary awards. This finding shifted our understanding of RAG from ``gap-filler'' to ``data quality auditor.''
+
+\subsection{P20--P21: Instrument and Genre Quality}
+
+\textbf{P20 (Lennon instruments):} RAG found that ``bass guitar'' was questionable (McCartney was the bassist), ``voice''/``lead vocals'' were redundant, and ``keyboard instrument''/``piano'' overlapped hierarchically. This led to the instrument normalisation fix in the pipeline.
+
+\textbf{P21 (Rock subgenres):} RAG found ``interview'' leaked from MusicBrainz content-type tags into the genre taxonomy, ``acoustic'' and ``ballad'' are song formats not genres, and ``classic rock'' is a radio format. These led directly to genre blacklist additions.
+
+\textbf{Impact of P18--P23 combined:} 6 actionable pipeline fixes were applied based on RAG findings. The iterative cycle (build $\rightarrow$ RAG evaluation $\rightarrow$ fix $\rightarrow$ rebuild) was more effective than either pure automation or manual review.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llp{5.5cm}}
+\toprule
+\textbf{Prompt} & \textbf{CQ} & \textbf{RAG finding and pipeline fix} \\
+\midrule
+P18 & CQ8 & Award count inflated. Informed award blacklist. \\
+P19 & CQ8 & Declined CBE listed as won. Mixed categories. \\
+P20 & CQ7 & Bass guitar questionable. Led to instrument normalisation. \\
+P21 & CQ9 & ``interview'' artifact. Led to genre blacklist additions. \\
+P22 & CQ12 & Cartesian product in query. ``classic rock'' blacklisted. \\
+P23 & CQ20 & ISO codes without labels. CM3 population limitation identified. \\
+\bottomrule
+\end{tabular}
+\caption{Every RAG comparison produced at least one actionable pipeline improvement.}
+\end{table}
+
+%--------------------------------------------------------------
+\section{RAG Completion of 10 Gaps (P34--P43)}
+%--------------------------------------------------------------
+
+\textbf{KE task:} Resolving the 5 ontology and 5 instance gaps from the completion analysis (Week 11).
+
+\textbf{Strategy:} Structured RAG with JSON output and programmatic ingestion. Each prompt followed a 6-step cycle: SPARQL retrieval $\rightarrow$ verbalise context $\rightarrow$ RAG prompt $\rightarrow$ parse JSON $\rightarrow$ entity linking $\rightarrow$ ingest into KG.
+
+\textbf{Why structured JSON output:} Unlike the evaluation prompts (P18--P23) which produced analytical text, the completion prompts needed machine-parseable output for programmatic ingestion. The JSON constraint ensures the response maps directly to triples without manual interpretation.
+
+\subsection{P40: Umm Kulthum (key prompt --- hallucination finding)}
+
+\textbf{Strategy:} Comprehensive entity reconstruction via RAG. The KG had the wrong entity entirely (``UMM'' instead of Umm Kulthum), so we asked the LLM to reconstruct the correct entity from scratch with all properties.
+
+\begin{promptbox}
+\textbf{Prompt (excerpt):} ``Our KG matched the wrong MusicBrainz entity for Umm Kulthum. The current URI belongs to `UMM', an electronic project. Provide comprehensive data about the real Umm Kulthum (1898--1975): biographical data, genres, discography, awards, influences, correct identifiers (MBID, Wikidata QID, Discogs ID). Return as JSON.''
+\end{promptbox}
+
+\begin{responsebox}
+\textbf{Response (excerpt):} Provided correct Wikidata QID (Q190573), 3 genres, 5 recordings, 6 awards, 11 influence relationships. \textbf{However, hallucinated the MBID}: returned \texttt{0c326960}, which produced HTTP 404 when queried via the MusicBrainz API. The correct MBID (\texttt{0a354a70}) was found via programmatic search.
+\end{responsebox}
+
+\textbf{Impact:} Two critical findings: (1) LLMs hallucinate external identifiers (MBIDs, QIDs) that look plausible but don't exist. External IDs must always be verified programmatically. (2) Names in non-Latin scripts cause cascading entity resolution failures. The romanised ``Umm Kulthum'' matched ``UMM'' because MusicBrainz stores the Arabic name as primary. This informed the MBID override system in the pipeline.
+
+\subsection{P41: Text Extraction Demo (RAG to automation)}
+
+\textbf{Strategy:} Demonstrate the text extraction approach for 5 diverse artists via RAG, then automate.
+
+\textbf{Impact:} The demo showed 44\% of triples use text-unique predicates. This quantitative finding justified integrating the Gemini API into the pipeline for all 58 artists. The progression from manual RAG demonstration (P41, 5 artists) to automated pipeline (\texttt{llm\_extraction.py}, 58 artists) exemplifies how RAG can inform pipeline design decisions.
+
+\subsection{Results Summary}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llp{3cm}p{3.5cm}}
+\toprule
+\textbf{Prompt} & \textbf{Gap} & \textbf{SPARQL context} & \textbf{Result and impact} \\
+\midrule
+P34 & O1: signedTo & 226 pairs & 226 temporal ranges (46\% high conf.). Not ingested (needs reification). \\
+P35 & O2: performedAt & 5 triples & 113 events. 106 ingested. 5$\rightarrow$131 triples. \\
+P36 & O3: collaboratedWith & 39 pairs & 69 new pairs. 50 ingested. 76$\rightarrow$242 triples. \\
+P37 & O4: founded & 4 triples & 47 entries. 44 ingested. 4$\rightarrow$69 triples. \\
+P38 & O5: hasMusicalPeriod & 5 triples & 112 assignments. 104 ingested. All 58 artists covered. \\
+P39 & I1: secondary artists & 1,099 missing & 50 enriched (94\%). 90 ingested. \\
+P40 & I2: Umm Kulthum & 4 wrong triples & Full reconstruction. LLM hallucinated MBID. \\
+P41 & I3: text extraction & 42 missing & 87 triples (5 demo). Then automated for all 58. \\
+P42 & I4: Hildegard genres & 0 genres & 5 genres, 3 periods. 10 ingested. \\
+P43 & I5: cover composers & 330 missing & 50 enriched (94\%). 8 duplicates found. 90 ingested. \\
+\bottomrule
+\end{tabular}
+\caption{RAG completion results. Total programmatically ingested: 494 triples.}
+\end{table}
+
+%--------------------------------------------------------------
+\section{Summary of Prompting Strategies}
+%--------------------------------------------------------------
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lp{4cm}p{5cm}}
+\toprule
+\textbf{Technique} & \textbf{Why chosen} & \textbf{Observed effect} \\
+\midrule
+Role-based & Domain grounding + SPARQL implementability & Questions and triples are both historically accurate and ontology-aligned \\
+Few-shot & Set complexity expectations & Effective for format but caused copying (P5$\rightarrow$P6 fix) \\
+Chain-of-thought & Per-item self-evaluation & LLM catches its own errors when asked to evaluate step by step \\
+Constrained output & Machine-parseable JSON & Enables programmatic ingestion (897 triples ingested automatically) \\
+Iterative refinement & Preserve good output, fix weak parts & More efficient than regenerating; 7/10 CQs preserved in P6 \\
+RAG & Ground responses in actual KG data & Discovered data quality issues invisible to plain prompting \\
+Paired comparison & Isolate RAG contribution & Proved RAG value as quality auditor, not just answer system \\
+Targeted emphasis & Steer toward sparse properties & 15$\times$ increase in producedBy without changing template structure \\
+\bottomrule
+\end{tabular}
+\caption{Each prompting technique was chosen for a specific reason and produced measurable effects.}
+\end{table}
+
+\textbf{Validation:} All LLM outputs were validated before ingestion. Text-extracted triples passed through a 5-tier entity linking system (99\% accuracy). RAG results were programmatically ingested via label-based entity linking and validated by 22 structural rules. The final KG was reviewed in Prot\'{e}g\'{e} for ontological correctness and by a domain expert for semantic accuracy. External identifiers from LLM responses were always verified programmatically via the relevant API (MusicBrainz, Wikidata).
+
+\end{document}

@@ -5,16 +5,7 @@
 \geometry{margin=2.5cm}
 \usepackage{booktabs}
 \usepackage{hyperref}
-\usepackage{listings}
-\usepackage{xcolor}
 \usepackage{enumitem}
-
-\lstset{
-  basicstyle=\ttfamily\small,
-  breaklines=true,
-  frame=single,
-  backgroundcolor=\color{gray!10},
-}
 
 \title{Knowledge Graph Completion Analysis}
 \author{Lucas Perez Reis Lobo, Yutaka Shibata, Sofia Davis, \\ William Caulton, Mert Yerlikaya, Davyd Shtepa \\ \small Knowledge Engineering CW2 --- Music History \& Heritage KG}
@@ -25,244 +16,87 @@
 
 \section{Overview}
 
-This document analyses the completeness of our Music History knowledge graph (42,554 triples, 58 primary artists) and describes the strategy and results of using RAG to resolve identified gaps.
+This document analyses the completeness of our Music History knowledge graph (42,554 triples, 58 primary artists) and describes how RAG was used to resolve identified gaps. Completeness was measured using CM1--CM4 metrics \cite{zaveri2015}, as taught in Week~10.
 
-We apply the completeness metrics from Zaveri et al.\ (2015), as taught in Week 10: \textbf{CM1} (schema completeness), \textbf{CM2} (property completeness), \textbf{CM3} (population completeness), and \textbf{CM4} (interlinking completeness).
+Gaps were identified through three methods: (1)~CM1--CM4 metrics measuring schema coverage and property completeness, (2)~SPARQL query results where sparse results indicated missing data, and (3)~domain expert review of the TTL file. The team discussed the analysis after Meeting~3 and agreed to apply RAG to all 10 gaps.
 
-The completion analysis was discussed with the team after the third group meeting. The domain experts confirmed that the 5 ontology and 5 instance gaps below accurately reflect the most impactful incompleteness in the KG, and agreed that RAG should be applied to all 10 gaps.
+\section{Ontology Gaps}
 
-%--------------------------------------------------------------
-\section{5 Incomplete Ontology Elements}
-%--------------------------------------------------------------
+\textbf{O1. \texttt{signedTo} lacks temporal scoping.} The property links artists to all their labels simultaneously (229 triples) with no start/end dates. CQ17 produces cartesian products. RAG prompt P34 provided 226 temporal ranges (46\% high confidence), demonstrating feasibility. Implementing temporal scoping requires RDF reification, which was documented as future work.
 
-Table~\ref{tab:ontology-gaps} summarises the 5 ontology-level gaps, their completeness metrics, and the RAG-driven resolution for each.
+\textbf{O2. \texttt{performedAt} sparsely populated.} Initially only 5 triples from 3 artists. No structured source provides concert data. RAG prompt P35 identified 113 events across 43 artists. The use of programmatic ingestion and LLM API extraction brought the total to 131 triples.
 
-\begin{table}[h]
-\centering
-\small
-\begin{tabular}{p{0.8cm}p{3.5cm}p{2cm}p{3cm}p{3cm}}
-\toprule
-\textbf{ID} & \textbf{Gap} & \textbf{Metric} & \textbf{How to complete} & \textbf{RAG result} \\
-\midrule
-O1 & \texttt{signedTo} has no temporal scoping. CQ17 produces cartesian products (229 triples). & CM1: no start/end dates & RDF reification or named graphs. Wikidata P264 qualifiers. & P34: 226 temporal ranges (46\% high conf.). Not implemented. \\[6pt]
-O2 & \texttt{performedAt} had only 5 triples (3 artists). No structured concert data. & CM1: minimal coverage & Setlist.fm API or MusicBrainz events. & P35: 113 events. \textbf{Final: 131 triples} (26$\times$). \\[6pt]
-O3 & \texttt{collaboratedWith} modelled via band entities, not direct artist links. 76 triples. & CM1: low density & LLM text extraction for direct collaborations. & P36: 69 new pairs. \textbf{Final: 242 triples} (3.2$\times$). \\[6pt]
-O4 & \texttt{founded} had only 4 triples. Artists founding bands, labels, orgs not captured. & CM2: $<$1\% & Extend LLM prompt. Wikidata P112 (founded by). & P37: 47 new entries. \textbf{Final: 69 triples} (17$\times$). \\[6pt]
-O5 & \texttt{hasMusicalPeriod} had 5 triples (3 artists). No period classification. & CM1: minimal & Wikidata P2348 or LLM classification. & P38: 112 assignments. \textbf{Final: 126 triples} (all 58 artists). \\
-\bottomrule
-\end{tabular}
-\caption{5 incomplete ontology elements with completeness metrics and RAG resolution.}
-\label{tab:ontology-gaps}
-\end{table}
+\textbf{O3. \texttt{collaboratedWith} modelled indirectly.} MusicBrainz models collaborations as band/project entities rather than direct artist links. Starting from 76 triples, RAG prompt P36 identified 69 new direct pairs. Full LLM API extraction (58 artists) raised the total to 242 triples (3.2$\times$ increase).
 
-\textbf{O1} is the only unresolved ontology gap. The \texttt{signedTo} property links each artist to all their record labels simultaneously without temporal context. RAG prompt P34 demonstrated that an LLM can provide approximate year ranges (226 pairs, 46\% high confidence), but implementing temporal scoping requires RDF reification or named graphs, which would add significant modelling complexity. The team agreed to document this as future work.
+\textbf{O4. \texttt{founded} barely represented.} Only 4 triples existed. RAG prompt P37 identified 47 new entries (labels, bands, foundations). Final count: 69 triples (17$\times$ increase).
 
-\textbf{O2--O5} were resolved through a combination of RAG prompts and automated LLM extraction. The most dramatic improvement was \texttt{performedAt} (5 $\rightarrow$ 131 triples, a 26$\times$ increase), followed by \texttt{founded} (4 $\rightarrow$ 69, 17$\times$) and \texttt{hasMusicalPeriod} (5 $\rightarrow$ 126, now covering all 58 primary artists).
+\textbf{O5. \texttt{hasMusicalPeriod} limited.} Only 5 triples linked 3 artists to periods. RAG prompt P38 provided assignments for all 58 artists. Final count: 126 triples, covering every primary artist.
 
-%--------------------------------------------------------------
-\section{5 Incomplete Instance Elements}
-%--------------------------------------------------------------
+\section{Instance Gaps}
 
-Table~\ref{tab:instance-gaps} summarises the 5 instance-level gaps. Unlike the ontology gaps, several of these were fully resolved through pipeline improvements.
+\textbf{I1. Secondary artists lack data.} Of 1,332 artist entities, only 58 are primary. The remaining 1,274 had minimal properties (\texttt{countryOfOrigin} 11.4\%, \texttt{genre} 4.6\%). RAG prompt P39 enriched 50 secondary artists (94\% resolved). The pipeline's enrichment function was also extended to fetch genres, birth/death dates, and type, adding 216 triples for 102 artists.
 
-\begin{table}[h]
-\centering
-\small
-\begin{tabular}{p{0.8cm}p{3.5cm}p{2cm}p{3cm}p{3cm}}
-\toprule
-\textbf{ID} & \textbf{Gap} & \textbf{Metric} & \textbf{Resolution approach} & \textbf{Result} \\
-\midrule
-I1 & 1,274 secondary artists lack genre, country, dates. Only 58 primary are fully enriched. & CM2: genre 4.6\%, country 11.4\% & RAG sample (P39) + pipeline extension. & P39: 50 enriched (94\%). Pipeline: +216 triples for 102 artists. \\[6pt]
-I2 & Umm Kulthum matched wrong MB entity (``UMM''). 4 wrong triples. Cascading failure. & CM3: severely under-represented & RAG (P40) + programmatic MBID search + config override. & \textbf{Fully resolved.} 58/58 artists. LLM hallucinated MBID. \\[6pt]
-I3 & LLM text extraction: 16/58 artists (28\%). 42 missing text-unique data. & CM3: 28\% coverage & RAG demo (P41) + Gemini API automation. & \textbf{58/58 (100\%)}. 897 triples. 44\% text-unique predicates. \\[6pt]
-I4 & Hildegard von Bingen: 0 genres. Only primary artist without genre. & CM2: 1/58 missing & RAG (P42) for pre-modern music. & \textbf{Fully resolved.} 5 genres, 3 periods, 10 compositions. \\[6pt]
-I5 & 330 cover composers lack country, genre, dates. Only names and MBIDs. & CM2: uncharacterised & RAG sample (P43) + enrichment extension. & P43: 50 enriched (94\%). Pipeline extended for auto-enrichment. \\
-\bottomrule
-\end{tabular}
-\caption{5 incomplete instance elements with completeness metrics and resolution results.}
-\label{tab:instance-gaps}
-\end{table}
+\textbf{I2. Umm Kulthum wrong entity.} MusicBrainz search matched ``UMM'' (electronic project) instead of the Egyptian singer, causing a cascading failure: wrong entity $\rightarrow$ no Wikidata $\rightarrow$ no Wikipedia $\rightarrow$ no data. RAG prompt P40 provided comprehensive data but \textbf{hallucinated the MBID} (returned 404). The correct MBID was found via programmatic API search. Fully resolved after adding an MBID override. Key insight: LLMs are unreliable for external identifiers; non-Latin scripts cause systemic entity resolution failures.
 
-\textbf{I2 (Umm Kulthum)} was the most instructive gap. The pipeline's MusicBrainz search matched ``UMM'' (an electronic project) instead of the Egyptian singer because the correct entry uses the Arabic name as primary. This single entity resolution error cascaded through the entire pipeline: wrong MB entity $\rightarrow$ no Wikidata cross-reference $\rightarrow$ no Wikipedia text $\rightarrow$ no LLM extraction $\rightarrow$ no genres, awards, or relationships. RAG prompt P40 provided comprehensive data but hallucinated the MBID (returned HTTP 404). The correct MBID was found via programmatic MusicBrainz API search, confirming that LLMs are unreliable for external identifiers. The fix was a config-driven MBID override, and all 4 sources now fetch correctly.
+\textbf{I3. LLM text extraction coverage.} Initially 16/58 artists (298 triples, 28\%). RAG prompt P41 demonstrated the approach for 5 artists, finding 44\% of triples use text-unique predicates. The prompt template was then automated via Google Gemini API. \textbf{Final: 58/58 (100\%), 897 triples.}
 
-\textbf{I3 (text extraction)} progressed from a RAG demonstration to full pipeline automation. P41 extracted 87 triples for 5 diverse artists, finding that 44\% use predicates no structured API provides (\texttt{alterEgo}, \texttt{producedBy}, \texttt{pioneerOf}). The same prompt template was then integrated via Google Gemini free-tier API, raising coverage from 16/58 (28\%) to 58/58 (100\%) with 897 total text-extracted triples.
+\textbf{I4. Hildegard von Bingen missing genre.} The only primary artist without genres. Medieval music predates modern classification, and MusicBrainz, Wikidata, and Discogs all failed. RAG prompt P42 provided 5 genres (medieval music, sacred music, plainchant), 3 periods, and 10 compositions. \textbf{Fully resolved.} Demonstrates RAG compensating for structured source blind spots.
 
-\textbf{I4 (Hildegard)} is the clearest case of RAG compensating for structured source blind spots. MusicBrainz, Wikidata, and Discogs all failed to provide genre data because their taxonomies do not cover pre-modern music. The LLM provided appropriate musicological terms (plainchant, monophonic music, sacred music) that no automated source could.
+\textbf{I5. Cover composers lack data.} 330 composer entities from cover detection had names/MBIDs but no biographical data. RAG prompt P43 enriched 50 composers (94\% resolved) and surfaced 8 entity duplicates. The enrichment query was broadened to include composers, enabling automatic enrichment.
 
-\textbf{I1 and I5} were addressed through both RAG sampling (50 entities each, 94\% resolved) and pipeline extensions. The \texttt{enrich\_related\_artists} function was extended to fetch genres, birth/death dates, and type (not just country), and the enrichment query was broadened to include artists linked via \texttt{influencedBy} and \texttt{composed}.
-
-%--------------------------------------------------------------
 \section{RAG Strategy and Results}
-%--------------------------------------------------------------
 
-\subsection{Approach}
+Each gap was resolved using a 6-step RAG cycle following the ``KG as SPARQL-based retrieval source'' pattern from Week~11: (1)~identify gap from the analysis above, (2)~run a SPARQL query against the KG to retrieve relevant context, (3)~verbalise retrieved triples into natural language, (4)~prompt an LLM with the verbalised context and the gap question, (5)~parse the LLM's JSON response into candidate triples, (6)~ingest into the KG via programmatic entity linking. The ingestion script is integrated into the main pipeline as Step~14 and runs automatically after validation.
 
-We use RAG (Week 11) to resolve incompleteness via a 6-step cycle:
-\begin{enumerate}
-  \item \textbf{Identify} a gap from the analysis above
-  \item \textbf{Query} the KG via SPARQL to retrieve relevant context
-  \item \textbf{Verbalise} retrieved triples into natural language
-  \item \textbf{Prompt} an LLM with the context + gap question
-  \item \textbf{Parse} the response into structured JSON
-  \item \textbf{Ingest} into the KG via programmatic entity linking
-\end{enumerate}
+\subsection{Concrete Example: Producer Gap-Filling}
 
-The ingestion script (\texttt{ingest\_rag\_results.py}) is integrated into the pipeline and runs automatically:
+To illustrate the cycle, we demonstrate gap-filling for Michael Jackson's producer relationships. The SPARQL retrieval step fetched his 8 albums from the KG, including existing data (Quincy Jones produced Off the Wall, Thriller, and Bad). The RAG prompt provided this context and asked: ``who produced each of these albums?'' The LLM confirmed the 3 existing triples, provided 2 high-confidence new ones (Hal Davis for Got to Be There and Ben), and \textbf{flagged 3 as uncertain} (Dangerous, HIStory, Invincible --- each had multiple co-producers). Only the 2 high-confidence triples were ingested; the 3 uncertain ones were documented for manual validation.
 
-\begin{center}
-\fbox{\textit{Identify gap $\rightarrow$ SPARQL retrieval $\rightarrow$ RAG prompt $\rightarrow$ JSON response $\rightarrow$ Programmatic ingestion $\rightarrow$ Enriched KG}}
-\end{center}
+\subsection{From RAG to Automation}
 
-\subsection{Example: Filling producer relationships}
+A key outcome was the progression from manual RAG demonstration to pipeline automation. Several RAG findings were subsequently implemented as permanent improvements: I3 to LLM API (text extraction automated via Gemini, raising coverage from 16/58 to 58/58), I1/I5 to enrichment extension (fetch genres, dates, type for secondary artists), and data quality to smart filtering (Wikidata P31/P279* class hierarchy queries replacing manual blacklists).
 
-To illustrate the RAG cycle concretely, we demonstrate gap-filling for Michael Jackson's producer relationships.
-
-\textbf{Step 1. SPARQL retrieval:}
-\begin{lstlisting}
-PREFIX mh: <http://example.org/music-history/>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX dc: <http://purl.org/dc/elements/1.1/>
-SELECT ?albumTitle ?releaseDate WHERE {
-    ?artist rdfs:label "Michael Jackson"@en .
-    ?artist mh:released ?album .
-    ?album dc:title ?albumTitle .
-    OPTIONAL { ?album mh:releaseDate ?releaseDate }
-}
-\end{lstlisting}
-This returned 25 albums from the KG, including release dates. The existing KG already contained 3 \texttt{produced} triples linking Quincy Jones to Off the Wall, Thriller, and Bad (from the LLM text extraction phase).
-
-\textbf{Step 2. Verbalisation:} The SPARQL results were converted to natural language: ``Michael Jackson released the following albums: Got to Be There (1972), Ben (1972), Off the Wall (1979), Thriller (1982)\ldots''
-
-\textbf{Step 3. RAG prompt:} ``Based on what we know about Michael Jackson's discography, who produced each of these albums? Our KG already shows Quincy Jones for 3 albums. Context: [verbalised triples]. Return as JSON with confidence levels.''
-
-\textbf{Step 4. LLM response and evaluation:}
-
-\begin{table}[h]
-\centering
-\small
-\begin{tabular}{lll}
-\toprule
-\textbf{Album} & \textbf{Producer (RAG)} & \textbf{Assessment} \\
-\midrule
-Got to Be There (1972) & Hal Davis & High confidence. Well-documented Motown production. \\
-Ben (1972) & Hal Davis & High confidence. \\
-Off the Wall (1979) & Quincy Jones & Confirmed $\checkmark$ (matches existing KG). \\
-Thriller (1982) & Quincy Jones & Confirmed $\checkmark$ \\
-Bad (1987) & Quincy Jones & Confirmed $\checkmark$ \\
-Dangerous (1991) & MJ / Teddy Riley & Uncertain. LLM flagged multiple producers. \\
-HIStory (1995) & Michael Jackson & Uncertain. Collaborative production. \\
-Invincible (2001) & Rodney Jerkins & Uncertain. Fragmented production credits. \\
-\bottomrule
-\end{tabular}
-\caption{RAG response for Michael Jackson producer relationships.}
-\end{table}
-
-The LLM confirmed 3 existing KG triples, provided 2 high-confidence new ones (Hal Davis), and proactively \textbf{flagged 3 as uncertain} where production was distributed across multiple collaborators. This demonstrates responsible KG construction: the LLM self-assesses confidence rather than asserting everything as fact. Only the 2 high-confidence triples were ingested; the 3 uncertain ones were documented for future manual validation.
-
-\subsection{Results Summary}
+\subsection{RAG Results Summary}
 
 \begin{table}[h]
 \centering
 \small
 \begin{tabular}{lllr}
 \toprule
-\textbf{Gap} & \textbf{Prompt} & \textbf{RAG Output} & \textbf{Key Metric} \\
+\textbf{Gap} & \textbf{Prompt} & \textbf{Result} & \textbf{Key Metric} \\
 \midrule
-O1 signedTo temporal & P34 & 226 temporal ranges & 46\% high confidence \\
-O2 performedAt & P35 & 113 new events & 5 $\rightarrow$ 131 triples \\
-O3 collaboratedWith & P36 & 69 new direct pairs & 76 $\rightarrow$ 242 triples \\
-O4 founded & P37 & 47 new entries & 4 $\rightarrow$ 69 triples \\
-O5 hasMusicalPeriod & P38 & 106 assignments & 5 $\rightarrow$ 126 triples \\
+O1 signedTo & P34 & 226 temporal ranges & 46\% high conf. \\
+O2 performedAt & P35 & 113 events & 5 $\rightarrow$ 131 \\
+O3 collaboratedWith & P36 & 69 direct pairs & 76 $\rightarrow$ 242 \\
+O4 founded & P37 & 47 entries & 4 $\rightarrow$ 69 \\
+O5 hasMusicalPeriod & P38 & 106 assignments & all 58 covered \\
 I1 secondary artists & P39 & 50 enriched & 94\% resolved \\
 I2 Umm Kulthum & P40 & Full reconstruction & Entity fixed \\
-I3 text extraction & P41 & 87 triples (5 demo) & 28\% $\rightarrow$ 100\% \\
-I4 Hildegard genres & P42 & 5 genres, 3 periods & Genre-less fixed \\
+I3 text extraction & P41 & 87 triples (demo) & 28\% $\rightarrow$ 100\% \\
+I4 Hildegard & P42 & 5 genres, 3 periods & Genre-less fixed \\
 I5 cover composers & P43 & 50 enriched & 94\% resolved \\
 \bottomrule
 \end{tabular}
-\caption{10 RAG completion prompts (P34--P43) and their results. Total ingested: 494 triples.}
+\caption{10 RAG completion prompts. Total programmatically ingested: 494 triples.}
 \end{table}
 
-Beyond gap-filling, RAG served as a \textbf{data quality auditor} throughout the project. The KG vs Plain LLM comparisons (P18--P23) identified 6 actionable issues that were fed back into the pipeline:
-\begin{itemize}
-  \item ``interview'', ``acoustic'', ``ballad'', and ``classic rock'' were tagged as genres but are not musical genres. These were added to the genre blacklist.
-  \item ``voice'' and ``lead vocals'' were separate instruments for the same concept. Instrument normalisation was added.
-  \item ``eponymous'' appeared as an instrument due to a MusicBrainz tag artifact.
-\end{itemize}
+\section{Completeness Metrics}
 
-A key outcome of the RAG process was the \textbf{progression from manual demonstration to pipeline automation}. Several RAG findings were subsequently implemented as permanent pipeline improvements:
-\begin{itemize}
-  \item \textbf{I3}: The text extraction prompt from P41 was automated via Google Gemini API, increasing coverage from 16 to 58 artists.
-  \item \textbf{I1/I5}: The enrichment function was extended to fetch genres and dates, not just country data.
-  \item \textbf{Data quality}: Wikidata P31/P279* class hierarchy queries now programmatically filter for music genres (Q188451) and music awards (Q4220920), replacing the manual blacklists with a self-correcting approach.
-\end{itemize}
+CM1 Schema: 93\% to 97\% (29/30 properties populated). CM2 Primary: High to Higher (Country 98\%, Genre 100\%). CM2 All: Low to Improved (+216 triples from enrichment). CM4 Interlinking: Strong to Stronger (Umm Kulthum cross-refs fixed). Text extraction: 28\% to 100\% (897 triples via LLM API). Defined classes: 74 to 191 (+158\%). Total triples: $\sim$38,000 to 42,554 (+12\%).
 
-%--------------------------------------------------------------
-\section{Completeness Metrics Summary}
-%--------------------------------------------------------------
-
-\begin{table}[h]
-\centering
-\small
-\begin{tabular}{llll}
-\toprule
-\textbf{Metric} & \textbf{Initial} & \textbf{Final} & \textbf{Detail} \\
-\midrule
-CM1 --- Schema & 93\% & 97\% & 29/30 object properties populated \\
-CM2 --- Primary & High & Higher & Country 98\%, Genre 100\% \\
-CM2 --- All artists & Low & Improved & +216 triples from extended enrichment \\
-CM3 --- Population & 58 primary & Same & Data density increased \\
-CM4 --- Interlinking & Strong & Stronger & Umm Kulthum cross-refs fixed \\
-Text extraction & 16/58 (28\%) & 58/58 (100\%) & 897 triples via LLM API \\
-Defined classes & 74 & 191 & +158\% \\
-Total triples & $\sim$38,000 & 42,554 & +12\% \\
-\bottomrule
-\end{tabular}
-\caption{Completeness metrics before and after all completion activities.}
-\end{table}
-
-%--------------------------------------------------------------
 \section{Reflection}
-%--------------------------------------------------------------
 
-The completion process revealed several insights about automated KG construction, the role of LLMs, and the balance between automation and human oversight.
+Three key insights emerged. First, \textbf{RAG is most valuable as a data quality auditor}: the KG vs Plain LLM comparisons (P18--P23) surfaced non-music genres, instrument duplicates, and range violations invisible to automated validation, leading to 6 pipeline fixes. Second, \textbf{LLMs are unreliable for external identifiers}: the Umm Kulthum case showed the LLM hallucinating a plausible MBID that returned 404. Non-Latin scripts cause cascading entity resolution failures. Third, \textbf{automated construction requires manual validation}: ontological correctness (Prot\'{e}g\'{e}) and semantic accuracy (domain expert review identifying 76 non-music genres and 31 non-music awards). The optimal approach is iterative: build $\rightarrow$ validate $\rightarrow$ review $\rightarrow$ fix $\rightarrow$ rebuild.
 
-\subsection{RAG as a data quality auditor}
-
-The most unexpected value of RAG was not gap-filling but \textbf{data quality auditing}. Every KG vs Plain LLM comparison (P18--P23) surfaced issues that were invisible to both the pipeline developer and automated validation. For example, P21 revealed that ``interview'' had leaked into the genre taxonomy from MusicBrainz tags, P20 found that ``voice'' and ``lead vocals'' were duplicated as separate instruments, and P22 identified that ``classic rock'' is a radio format, not a musical genre.
-
-These findings triggered structural pipeline fixes (genre blacklist, instrument normalisation), which in turn improved the KG for all 58 artists, not just the ones tested. The iterative cycle of \textbf{build $\rightarrow$ evaluate with RAG $\rightarrow$ identify issues $\rightarrow$ fix pipeline $\rightarrow$ rebuild} proved more effective than either pure automation (which would leave the noise undetected) or pure manual curation (which would not scale to 42,554 triples).
-
-\subsection{LLM limitations: external identifiers and non-Latin scripts}
-
-The Umm Kulthum case (I2) exposed two significant LLM limitations.
-
-First, \textbf{LLMs hallucinate external identifiers}. When RAG prompt P40 asked for the correct MusicBrainz MBID, the LLM returned \texttt{0c326960}, a plausible-looking UUID that returned HTTP 404 when queried. The actual correct MBID (\texttt{0a354a70}) was only found via programmatic MusicBrainz API search. This means external IDs (MBIDs, Wikidata QIDs, Discogs IDs) should never be taken from LLM responses without programmatic verification.
-
-Second, \textbf{non-Latin scripts cause cascading failures}. The romanised name ``Umm Kulthum'' fuzzy-matched to ``UMM'' (an unrelated electronic project) because MusicBrainz stores the Arabic name as primary. This single entity resolution error propagated through the entire pipeline: wrong MB entity $\rightarrow$ no Wikidata cross-reference $\rightarrow$ no Wikipedia text $\rightarrow$ no LLM extraction $\rightarrow$ no genres, awards, or relationships. The artist node was effectively empty despite Umm Kulthum being one of the 20th century's most important musicians. The same issue affected Pyotr Ilyich Tchaikovsky (Cyrillic), which also required an MBID override.
-
-This is a systemic limitation for any KG pipeline covering multilingual domains. Our solution (config-driven MBID overrides) is practical but not scalable. A production system would need either Wikidata-first entity resolution (searching by QID rather than name) or multilingual fuzzy matching across scripts.
-
-\subsection{The automation-validation trade-off}
-
-The pipeline automates KG construction end-to-end: data fetching from 4 APIs, structured and text mapping, entity linking, validation, RAG ingestion, and defined class assertion. However, the completion process showed that \textbf{three categories of human intervention remain essential}:
-
-\begin{enumerate}
-  \item \textbf{Ontological correctness.} The TTL file was loaded into Prot\'{e}g\'{e} to verify that OWL2 property characteristics (symmetric, transitive, irreflexive, asymmetric), inverse pairs, and class hierarchies matched the team's modelling decisions. The pipeline generates ontology declarations programmatically, but only visual inspection in Prot\'{e}g\'{e} can confirm that the semantics match the design intent. For example, we discovered that several properties lacked OWL2 characteristics (e.g., \texttt{covers} should be asymmetric and irreflexive) that were only identified through manual ontology review.
-
-  \item \textbf{Semantic accuracy.} A domain expert review of the TTL identified 76 non-music genres (film/game categories from Wikidata), 31 non-music awards (military medals, honorary degrees), 19 range violations (LLM confusing ``released'' with ``composed''), and 10 duplicate entities. These were all \textit{structurally valid} RDF triples that were \textit{semantically wrong} in our domain. Automated validation catches structural errors (self-references, type mismatches), but domain knowledge is needed to catch semantic errors.
-
-  \item \textbf{Multilingual coverage.} Name-based entity resolution fails for non-Latin scripts. This requires either manual MBID overrides or multilingual search capabilities that our current pipeline does not have.
+\subsection{Future Work}
+\begin{enumerate}[nosep]
+  \item Temporal scoping for \texttt{signedTo} via Wikidata qualifiers or RDF reification.
+  \item Concert/venue data from Setlist.fm API or MusicBrainz events.
+  \item Multilingual entity resolution to eliminate MBID overrides for non-Latin scripts.
 \end{enumerate}
 
-The optimal approach is a hybrid: automate construction, then iterate with human review. Our pipeline follows this cycle: \textbf{build $\rightarrow$ validate (automated) $\rightarrow$ review (Prot\'{e}g\'{e} + domain expert) $\rightarrow$ trace root causes $\rightarrow$ fix structurally $\rightarrow$ rebuild}. Each human-identified issue was traced to its root cause and fixed in the pipeline code, not patched in the TTL file. This ensures that the fixes persist across rebuilds and apply to all entities, not just the ones where the issue was spotted.
-
-\subsection{Remaining Future Work}
-
-\begin{enumerate}
-  \item \textbf{Temporal scoping for \texttt{signedTo}}: Wikidata P264 qualifiers contain start/end dates for label contracts. Extracting these would require RDF reification or named graphs to qualify the existing \texttt{signedTo} triples, which would resolve the cartesian product issue in CQ17.
-  \item \textbf{Concert/venue data}: Setlist.fm API or MusicBrainz events could provide structured performance data, reducing dependence on LLM extraction for \texttt{performedAt} triples.
-  \item \textbf{Multilingual entity resolution}: Implementing cross-script fuzzy matching or adopting a Wikidata-first resolution strategy (searching by QID rather than romanised name) would eliminate the need for manual MBID overrides and make the pipeline robust for non-Western artists.
-\end{enumerate}
+\begin{thebibliography}{1}
+\bibitem{zaveri2015} Zaveri, A., Rula, A., Maurino, A., Pietrobon, R., Lehmann, J., \& Auer, S. (2016). Quality assessment for Linked Data: A survey. \textit{Semantic Web}, 7(1), 63--93.
+\end{thebibliography}
 
 \end{document}
